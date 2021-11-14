@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name avionics_library)(type Legacy)(uri ${KIPRJMOD}/avionics_library.lib)(options "")(descr ""))
+  (lib (name lmv431)(type Legacy)(uri ${KIPRJMOD}/lmv431.lib)(options "")(descr ""))
+  (lib (name CSD19538Q2)(type Legacy)(uri ${KIPRJMOD}/CSD19538Q2.lib)(options "")(descr ""))
+  (lib (name HLE-106-02-F-DV-A)(type Legacy)(uri ${KIPRJMOD}/HLE-106-02-F-DV-A.lib)(options "")(descr ""))
+)

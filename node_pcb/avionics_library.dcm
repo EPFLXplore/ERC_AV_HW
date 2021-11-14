@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B66418W1008D001
+D SMT Gate Drive Transformer, 1:1:1
+K pulse
+F https://www.tdk-electronics.tdk.com/inf/80/db/fer/efd_20_10_7.pdf
+$ENDCMP
+#
+$CMP P0544NL
+D SMT Gate Drive Transformer, 1:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0297NL
+D SMT Gate Drive Transformer, 2:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0510NL
+D SMT Gate Drive Transformer, 2.5:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA2008NL
+D SMT Gate Drive Transformer, 2:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/P663.pdf
+$ENDCMP
+#
+$CMP PA2009NL
+D SMT Gate Drive Transformer, 2.5:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/P663.pdf
+$ENDCMP
+#
+#End Doc Library
