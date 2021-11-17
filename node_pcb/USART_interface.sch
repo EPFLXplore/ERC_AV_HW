@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
+Comp "EPFL Xplore"
+Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,93 +20,36 @@ TX
 Text HLabel 3400 3200 0    50   Output ~ 0
 REM_CK
 $Comp
-L Connector:RJ45 J?
+L Connector:RJ45 J14
 U 1 1 61A44FF0
-P 7050 4150
-AR Path="/61B72982/61A44FF0" Ref="J?"  Part="1" 
-AR Path="/61B72C55/61A44FF0" Ref="J?"  Part="1" 
-AR Path="/61B7335B/61A44FF0" Ref="J?"  Part="1" 
-AR Path="/61B73361/61A44FF0" Ref="J?"  Part="1" 
-F 0 "J?" H 6720 4154 50  0000 R CNN
-F 1 "RJ45" H 6720 4245 50  0000 R CNN
-F 2 "" V 7050 4175 50  0001 C CNN
-F 3 "~" V 7050 4175 50  0001 C CNN
-	1    7050 4150
+P 7680 4190
+AR Path="/61B72982/61A44FF0" Ref="J14"  Part="1" 
+AR Path="/61B72C55/61A44FF0" Ref="J15"  Part="1" 
+AR Path="/61B7335B/61A44FF0" Ref="J16"  Part="1" 
+AR Path="/61B73361/61A44FF0" Ref="J17"  Part="1" 
+F 0 "J17" H 7350 4194 50  0000 R CNN
+F 1 "RJ45" H 7350 4285 50  0000 R CNN
+F 2 "" V 7680 4215 50  0001 C CNN
+F 3 "~" V 7680 4215 50  0001 C CNN
+	1    7680 4190
 	-1   0    0    1   
 $EndComp
-$Comp
-L Isolator:ADuM7643 U?
-U 1 1 61A45DAB
-P 4300 4200
-AR Path="/61B72982/61A45DAB" Ref="U?"  Part="1" 
-AR Path="/61B72C55/61A45DAB" Ref="U?"  Part="1" 
-AR Path="/61B7335B/61A45DAB" Ref="U?"  Part="1" 
-AR Path="/61B73361/61A45DAB" Ref="U?"  Part="1" 
-F 0 "U?" H 4300 5067 50  0000 C CNN
-F 1 "ADuM7643" H 4300 4976 50  0000 C CNN
-F 2 "Package_SO:QSOP-20_3.9x8.7mm_P0.635mm" H 4300 3500 50  0001 C CIN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf" H 4300 4700 50  0001 C CNN
-	1    4300 4200
-	1    0    0    -1  
-$EndComp
-Text Label 6650 4550 2    50   ~ 0
+Text Label 7280 4590 2    50   ~ 0
 REM_VCC
-Text Label 6650 4350 2    50   ~ 0
+Text Label 7280 4390 2    50   ~ 0
 REM_GND
-Text Label 6650 4250 2    50   ~ 0
-SHARED_CK
-Text Label 6650 4050 2    50   ~ 0
+Text Label 7280 3990 2    50   ~ 0
 LOC_RX
-Text Label 6650 4450 2    50   ~ 0
+Text Label 7280 4490 2    50   ~ 0
 REM_RX
-Wire Wire Line
-	4800 4600 4800 4650
-Text Label 4900 4650 0    50   ~ 0
+Text Label 5210 4680 0    50   ~ 0
 REM_GND
 Text Label 4900 3750 0    50   ~ 0
 REM_VCC
 Wire Wire Line
-	4800 3700 4800 3750
-Wire Wire Line
-	4900 3750 4800 3750
-Connection ~ 4800 3750
-Wire Wire Line
-	4800 3750 4800 3800
-Wire Wire Line
-	4900 4650 4800 4650
-Connection ~ 4800 4650
-Wire Wire Line
-	4800 4650 4800 4700
-Text Label 4800 4200 0    50   ~ 0
-LOC_RX
-Text Label 4800 4500 0    50   ~ 0
-REM_RX
-Wire Wire Line
-	3250 4500 3250 3550
-Wire Wire Line
 	3250 3550 3000 3550
 Wire Wire Line
-	3250 4500 3800 4500
-Wire Wire Line
-	3800 4200 3100 4200
-Wire Wire Line
-	3100 4200 3100 3750
-Wire Wire Line
 	3100 3750 3000 3750
-Wire Wire Line
-	3800 3800 3800 3750
-Wire Wire Line
-	3800 3750 3700 3750
-Connection ~ 3800 3750
-Wire Wire Line
-	3800 3750 3800 3700
-Wire Wire Line
-	3800 4600 3800 4650
-Wire Wire Line
-	3800 4650 3700 4650
-Connection ~ 3800 4650
-Wire Wire Line
-	3800 4650 3800 4700
 $Comp
 L power:GND #PWR?
 U 1 1 61A49E74
@@ -138,77 +81,124 @@ F 3 "" H 3700 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 4250 4850 4300
-Wire Wire Line
-	4850 4300 4800 4300
-Wire Wire Line
-	4850 4250 5200 4250
-Wire Wire Line
-	4800 4100 5200 4100
-Wire Wire Line
-	5200 4100 5200 4250
-Connection ~ 5200 4250
-Wire Wire Line
-	5200 4250 6650 4250
-Wire Wire Line
-	3800 4300 3400 4300
-Wire Wire Line
-	3400 4300 3400 3200
-Wire Wire Line
-	3800 4100 3500 4100
-Wire Wire Line
-	3500 4100 3500 2950
-Wire Wire Line
 	3500 2950 3400 2950
 Text HLabel 3400 2950 0    50   Input ~ 0
 LOC_CK
 Wire Wire Line
-	6650 3950 6550 3950
+	7280 3890 7180 3890
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61A4C9E5
-P 6550 3950
+P 7180 3890
 AR Path="/61B72982/61A4C9E5" Ref="#PWR?"  Part="1" 
 AR Path="/61B72C55/61A4C9E5" Ref="#PWR?"  Part="1" 
 AR Path="/61B7335B/61A4C9E5" Ref="#PWR?"  Part="1" 
 AR Path="/61B73361/61A4C9E5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6550 3800 50  0001 C CNN
-F 1 "+3V3" H 6565 4123 50  0000 C CNN
-F 2 "" H 6550 3950 50  0001 C CNN
-F 3 "" H 6550 3950 50  0001 C CNN
-	1    6550 3950
+F 0 "#PWR?" H 7180 3740 50  0001 C CNN
+F 1 "+3V3" H 7195 4063 50  0000 C CNN
+F 2 "" H 7180 3890 50  0001 C CNN
+F 3 "" H 7180 3890 50  0001 C CNN
+	1    7180 3890
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 4150 6550 4150
+	7280 4090 7180 4090
 $Comp
 L power:GND #PWR?
 U 1 1 61A4E0A9
-P 6550 4150
+P 7180 4090
 AR Path="/61B72982/61A4E0A9" Ref="#PWR?"  Part="1" 
 AR Path="/61B72C55/61A4E0A9" Ref="#PWR?"  Part="1" 
 AR Path="/61B7335B/61A4E0A9" Ref="#PWR?"  Part="1" 
 AR Path="/61B73361/61A4E0A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6550 3900 50  0001 C CNN
-F 1 "GND" V 6555 4022 50  0000 R CNN
-F 2 "" H 6550 4150 50  0001 C CNN
-F 3 "" H 6550 4150 50  0001 C CNN
-	1    6550 4150
+F 0 "#PWR?" H 7180 3840 50  0001 C CNN
+F 1 "GND" V 7185 3962 50  0000 R CNN
+F 2 "" H 7180 4090 50  0001 C CNN
+F 3 "" H 7180 4090 50  0001 C CNN
+	1    7180 4090
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:RJ45 J?
-U 1 1 61B8B8E8
-P 8300 4250
-AR Path="/61B72982/61B8B8E8" Ref="J?"  Part="1" 
-AR Path="/61B72C55/61B8B8E8" Ref="J?"  Part="1" 
-AR Path="/61B7335B/61B8B8E8" Ref="J?"  Part="1" 
-AR Path="/61B73361/61B8B8E8" Ref="J?"  Part="1" 
-F 0 "J?" H 7970 4254 50  0000 R CNN
-F 1 "RJ45" H 7970 4345 50  0000 R CNN
-F 2 "" V 8300 4275 50  0001 C CNN
-F 3 "~" V 8300 4275 50  0001 C CNN
-	1    8300 4250
+L avionics_library:ADUM142D0BRQZ-RL7 U4
+U 1 1 61B3AB5C
+P 4320 4250
+AR Path="/61B73361/61B3AB5C" Ref="U4"  Part="1" 
+AR Path="/61B72C55/61B3AB5C" Ref="U2"  Part="1" 
+AR Path="/61B72982/61B3AB5C" Ref="U1"  Part="1" 
+AR Path="/61B7335B/61B3AB5C" Ref="U3"  Part="1" 
+F 0 "U4" H 4320 4815 50  0000 C CNN
+F 1 "ADUM142D0BRQZ-RL7" H 4320 4724 50  0000 C CNN
+F 2 "" H 4320 4690 50  0001 C CNN
+F 3 "" H 4320 4690 50  0001 C CNN
+	1    4320 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3700 3750 3700 3930
+Wire Wire Line
+	3700 3930 3820 3930
+Wire Wire Line
+	3820 4020 3700 4020
+Wire Wire Line
+	3820 4530 3700 4530
+Wire Wire Line
+	3700 4020 3700 4450
+Wire Wire Line
+	3700 4530 3700 4650
+Connection ~ 3700 4530
+Text Label 4820 4370 0    50   ~ 0
+LOC_RX
+Text Label 4820 4110 0    50   ~ 0
+REM_RX
+Wire Wire Line
+	3500 2950 3500 4200
+Wire Wire Line
+	3500 4200 3820 4200
+Wire Wire Line
+	3400 4290 3820 4290
+Wire Wire Line
+	3400 4290 3400 3200
+Wire Wire Line
+	3820 4370 3100 4370
+Wire Wire Line
+	3100 3750 3100 4370
+Wire Wire Line
+	3820 4110 3250 4110
+Wire Wire Line
+	3250 4110 3250 3550
+Wire Wire Line
+	5210 4680 5150 4680
+Wire Wire Line
+	5150 4680 5150 4530
+Wire Wire Line
+	5150 4020 4820 4020
+Wire Wire Line
+	4820 4530 5150 4530
+Connection ~ 5150 4530
+Wire Wire Line
+	5150 4530 5150 4450
+Wire Wire Line
+	4820 3930 4900 3930
+Wire Wire Line
+	4900 3930 4900 3750
+Wire Wire Line
+	3820 4450 3700 4450
+Connection ~ 3700 4450
+Wire Wire Line
+	3700 4450 3700 4530
+Wire Wire Line
+	4820 4450 5150 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	5150 4450 5150 4020
+Text Notes 8420 4340 0    50   ~ 0
+Note:\nthe RJ45 cable used MUST be\na rollover cable
+Wire Wire Line
+	4820 4290 7280 4290
+Wire Wire Line
+	7280 4200 7280 4190
+Wire Wire Line
+	4820 4200 7280 4200
+Text Notes 5490 4280 0    50   ~ 0
+Top is local clock being transmitted\nBottom is remote clock being received
 $EndSCHEMATC
