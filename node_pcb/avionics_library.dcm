@@ -6,6 +6,12 @@ K pulse
 F https://www.tdk-electronics.tdk.com/inf/80/db/fer/efd_20_10_7.pdf
 $ENDCMP
 #
+$CMP IS25LP256E-JLLE
+D 256-Mbit, 3.3V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, WSON-8
+K SPI DSPI QSPI NOR 256Mbit 3.3V
+F https://www.mouser.ch/datasheet/2/198/25LP_WP256E-1620711.pdf
+$ENDCMP
+#
 $CMP P0544NL
 D SMT Gate Drive Transformer, 1:1:1
 K pulse
