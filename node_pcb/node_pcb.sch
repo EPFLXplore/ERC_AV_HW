@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "Avionics STM32 generic node"
 Date ""
 Rev ""
@@ -14,44 +14,37 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1810 1420 800  250 
+S 1810 1420 770  310 
 U 61B72982
 F0 "USART1" 50
 F1 "USART_interface.sch" 50
-F2 "RX" O R 2610 1470 50 
+F2 "RX" O R 2580 1470 50 
 F3 "TX" I L 1810 1470 50 
-F4 "REM_CK" O R 2610 1570 50 
+F4 "REM_CK" O R 2580 1570 50 
 F5 "LOC_CK" I L 1810 1570 50 
+F6 "RJ45_[1..8]" B L 1810 1670 50 
 $EndSheet
 $Sheet
-S 1810 1870 800  250 
-U 61B72C55
-F0 "USART2" 50
-F1 "USART_interface.sch" 50
-F2 "RX" O R 2610 1920 50 
-F3 "TX" I L 1810 1920 50 
-F4 "REM_CK" O R 2610 2020 50 
-F5 "LOC_CK" I L 1810 2020 50 
-$EndSheet
-$Sheet
-S 1810 2570 800  250 
+S 1810 2570 790  310 
 U 61B7335B
 F0 "USART3" 50
 F1 "USART_interface.sch" 50
-F2 "RX" O R 2610 2620 50 
+F2 "RX" O R 2600 2620 50 
 F3 "TX" I L 1810 2620 50 
-F4 "REM_CK" O R 2610 2720 50 
+F4 "REM_CK" O R 2600 2720 50 
 F5 "LOC_CK" I L 1810 2720 50 
+F6 "RJ45_[1..8]" B L 1810 2820 50 
 $EndSheet
 $Sheet
-S 1810 3220 800  250 
+S 1810 3220 790  290 
 U 61B73361
 F0 "USART6" 50
 F1 "USART_interface.sch" 50
-F2 "RX" O R 2610 3270 50 
+F2 "RX" O R 2600 3270 50 
 F3 "TX" I L 1810 3270 50 
-F4 "REM_CK" O R 2610 3370 50 
+F4 "REM_CK" O R 2600 3370 50 
 F5 "LOC_CK" I L 1810 3370 50 
+F6 "RJ45_[1..8]" B L 1810 3450 50 
 $EndSheet
 $Comp
 L Switch:SW_DIP_x04 SW1
@@ -84,8 +77,6 @@ Text Label 5360 1620 2    50   ~ 0
 USART1_CK
 Text Label 1810 1570 2    50   ~ 0
 USART1_CK
-Text Label 1810 2020 2    50   ~ 0
-USART2_CK
 Text Label 1810 2720 2    50   ~ 0
 USART3_CK
 Text Label 1810 3370 2    50   ~ 0
@@ -107,17 +98,7 @@ USART6_CK
 Wire Wire Line
 	3460 2170 2960 2170
 Wire Wire Line
-	2960 2170 2960 2020
-Wire Wire Line
-	2960 2020 2610 2020
-Wire Wire Line
-	2610 1920 5360 1920
-Wire Wire Line
-	1810 1920 1710 1920
-Wire Wire Line
-	1710 1920 1710 1820
-Wire Wire Line
-	1710 1820 5360 1820
+	2960 2170 2960 2120
 Wire Wire Line
 	2610 2720 3110 2720
 Wire Wire Line
@@ -877,17 +858,6 @@ F 6 "Samtec Inc." H 10320 1230 50  0001 L BNN "MANUFACTURER"
 	1    10320 1230
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Female J1
-U 1 1 61B1CD39
-P 830 1000
-F 0 "J1" H 722 575 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 722 666 50  0000 C CNN
-F 2 "" H 830 1000 50  0001 C CNN
-F 3 "~" H 830 1000 50  0001 C CNN
-	1    830  1000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1470 880  1160 880 
 Wire Wire Line
@@ -952,7 +922,7 @@ U 1 1 61B95A60
 P 1560 6930
 F 0 "H5" H 1660 6976 50  0000 L CNN
 F 1 "MountingHole" H 1660 6885 50  0000 L CNN
-F 2 "" H 1560 6930 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1560 6930 50  0001 C CNN
 F 3 "~" H 1560 6930 50  0001 C CNN
 	1    1560 6930
 	1    0    0    -1  
@@ -963,7 +933,7 @@ U 1 1 61B96D5E
 P 2960 6970
 F 0 "H6" H 3060 7016 50  0000 L CNN
 F 1 "MountingHole" H 3060 6925 50  0000 L CNN
-F 2 "" H 2960 6970 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2960 6970 50  0001 C CNN
 F 3 "~" H 2960 6970 50  0001 C CNN
 	1    2960 6970
 	1    0    0    -1  
@@ -974,7 +944,7 @@ U 1 1 61B9B453
 P 4360 6990
 F 0 "H7" H 4460 7036 50  0000 L CNN
 F 1 "MountingHole" H 4460 6945 50  0000 L CNN
-F 2 "" H 4360 6990 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4360 6990 50  0001 C CNN
 F 3 "~" H 4360 6990 50  0001 C CNN
 	1    4360 6990
 	1    0    0    -1  
@@ -985,7 +955,7 @@ U 1 1 61B9FAF4
 P 5350 6970
 F 0 "H8" H 5450 7016 50  0000 L CNN
 F 1 "MountingHole" H 5450 6925 50  0000 L CNN
-F 2 "" H 5350 6970 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5350 6970 50  0001 C CNN
 F 3 "~" H 5350 6970 50  0001 C CNN
 	1    5350 6970
 	1    0    0    -1  
@@ -996,7 +966,7 @@ U 1 1 61BA57E1
 P 6330 7170
 F 0 "H9" H 6430 7216 50  0000 L CNN
 F 1 "MountingHole" H 6430 7125 50  0000 L CNN
-F 2 "" H 6330 7170 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6330 7170 50  0001 C CNN
 F 3 "~" H 6330 7170 50  0001 C CNN
 	1    6330 7170
 	1    0    0    -1  
@@ -1007,7 +977,7 @@ U 1 1 61BAA43D
 P 8190 6260
 F 0 "H13" H 8290 6306 50  0000 L CNN
 F 1 "MountingHole" H 8290 6215 50  0000 L CNN
-F 2 "" H 8190 6260 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8190 6260 50  0001 C CNN
 F 3 "~" H 8190 6260 50  0001 C CNN
 	1    8190 6260
 	1    0    0    -1  
@@ -1018,7 +988,7 @@ U 1 1 61BAECA1
 P 9130 6300
 F 0 "H14" H 9230 6346 50  0000 L CNN
 F 1 "MountingHole" H 9230 6255 50  0000 L CNN
-F 2 "" H 9130 6300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9130 6300 50  0001 C CNN
 F 3 "~" H 9130 6300 50  0001 C CNN
 	1    9130 6300
 	1    0    0    -1  
@@ -1029,7 +999,7 @@ U 1 1 61BB32C0
 P 10190 6290
 F 0 "H16" H 10290 6336 50  0000 L CNN
 F 1 "MountingHole" H 10290 6245 50  0000 L CNN
-F 2 "" H 10190 6290 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10190 6290 50  0001 C CNN
 F 3 "~" H 10190 6290 50  0001 C CNN
 	1    10190 6290
 	1    0    0    -1  
@@ -1040,7 +1010,7 @@ U 1 1 61BB7A03
 P 8150 4170
 F 0 "H12" H 8250 4216 50  0000 L CNN
 F 1 "MountingHole" H 8250 4125 50  0000 L CNN
-F 2 "" H 8150 4170 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8150 4170 50  0001 C CNN
 F 3 "~" H 8150 4170 50  0001 C CNN
 	1    8150 4170
 	1    0    0    -1  
@@ -1051,7 +1021,7 @@ U 1 1 61BBC1F6
 P 8140 3100
 F 0 "H11" H 8240 3146 50  0000 L CNN
 F 1 "MountingHole" H 8240 3055 50  0000 L CNN
-F 2 "" H 8140 3100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8140 3100 50  0001 C CNN
 F 3 "~" H 8140 3100 50  0001 C CNN
 	1    8140 3100
 	1    0    0    -1  
@@ -1062,7 +1032,7 @@ U 1 1 61BC0A4C
 P 8140 2050
 F 0 "H10" H 8240 2096 50  0000 L CNN
 F 1 "MountingHole" H 8240 2005 50  0000 L CNN
-F 2 "" H 8140 2050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8140 2050 50  0001 C CNN
 F 3 "~" H 8140 2050 50  0001 C CNN
 	1    8140 2050
 	1    0    0    -1  
@@ -1073,7 +1043,7 @@ U 1 1 61BC517D
 P 9990 1580
 F 0 "H15" H 10090 1626 50  0000 L CNN
 F 1 "MountingHole" H 10090 1535 50  0000 L CNN
-F 2 "" H 9990 1580 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9990 1580 50  0001 C CNN
 F 3 "~" H 9990 1580 50  0001 C CNN
 	1    9990 1580
 	1    0    0    -1  
@@ -1081,57 +1051,57 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 61BC9D59
-P 680 3860
-F 0 "H2" H 780 3906 50  0000 L CNN
-F 1 "MountingHole" H 780 3815 50  0000 L CNN
-F 2 "" H 680 3860 50  0001 C CNN
-F 3 "~" H 680 3860 50  0001 C CNN
-	1    680  3860
+P 750 5240
+F 0 "H2" H 850 5286 50  0000 L CNN
+F 1 "MountingHole" H 850 5195 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 750 5240 50  0001 C CNN
+F 3 "~" H 750 5240 50  0001 C CNN
+	1    750  5240
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61BCE3B5
-P 670 4050
-F 0 "H1" H 770 4096 50  0000 L CNN
-F 1 "MountingHole" H 770 4005 50  0000 L CNN
-F 2 "" H 670 4050 50  0001 C CNN
-F 3 "~" H 670 4050 50  0001 C CNN
-	1    670  4050
+P 740 5430
+F 0 "H1" H 840 5476 50  0000 L CNN
+F 1 "MountingHole" H 840 5385 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 740 5430 50  0001 C CNN
+F 3 "~" H 740 5430 50  0001 C CNN
+	1    740  5430
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 61BD2D44
-P 1380 3880
-F 0 "H3" H 1480 3926 50  0000 L CNN
-F 1 "MountingHole" H 1480 3835 50  0000 L CNN
-F 2 "" H 1380 3880 50  0001 C CNN
-F 3 "~" H 1380 3880 50  0001 C CNN
-	1    1380 3880
+P 1450 5260
+F 0 "H3" H 1550 5306 50  0000 L CNN
+F 1 "MountingHole" H 1550 5215 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1450 5260 50  0001 C CNN
+F 3 "~" H 1450 5260 50  0001 C CNN
+	1    1450 5260
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 61BD7333
-P 1380 4080
-F 0 "H4" H 1480 4126 50  0000 L CNN
-F 1 "MountingHole" H 1480 4035 50  0000 L CNN
-F 2 "" H 1380 4080 50  0001 C CNN
-F 3 "~" H 1380 4080 50  0001 C CNN
-	1    1380 4080
+P 1450 5460
+F 0 "H4" H 1550 5506 50  0000 L CNN
+F 1 "MountingHole" H 1550 5415 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1450 5460 50  0001 C CNN
+F 3 "~" H 1450 5460 50  0001 C CNN
+	1    1450 5460
 	1    0    0    -1  
 $EndComp
-Text Notes 960  4270 0    50   ~ 0
+Text Notes 1030 5650 0    50   ~ 0
 board mounting
 Wire Notes Line
-	2030 4300 2030 3730
+	2100 5680 2100 5110
 Wire Notes Line
-	2030 3730 580  3730
+	2100 5110 650  5110
 Wire Notes Line
-	580  3730 580  4300
+	650  5110 650  5680
 Wire Notes Line
-	580  4300 2030 4300
+	650  5680 2100 5680
 Connection ~ 9050 5020
 Wire Wire Line
 	10050 5020 9050 5020
@@ -1172,4 +1142,584 @@ Connection ~ 5610 6870
 Wire Wire Line
 	5610 6870 6610 6870
 Connection ~ 6610 6870
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 619A8395
+P 830 1000
+AR Path="/61B32EF7/619A8395" Ref="J?"  Part="1" 
+AR Path="/619A8395" Ref="J1"  Part="1" 
+F 0 "J1" H 858 976 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 858 885 50  0000 L CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 830 1000 50  0001 C CNN
+F 3 "~" H 830 1000 50  0001 C CNN
+	1    830  1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1160 1100 1160 1200
+Wire Wire Line
+	1160 1200 1030 1200
+Connection ~ 1160 1100
+Wire Wire Line
+	1160 800  1160 700 
+Wire Wire Line
+	1160 700  1030 700 
+Connection ~ 1160 800 
+$Sheet
+S 1400 3840 640  430 
+U 619FA3B6
+F0 "RJ45_consolidator" 50
+F1 "RJ45_consolidator.sch" 50
+F2 "RJ45_A[1..8]" B L 1400 3900 50 
+F3 "RJ45_B[1..8]" B L 1400 4010 50 
+F4 "RJ45_C[1..8]" B L 1400 4110 50 
+F5 "RJ45_D[1..8]" B L 1400 4210 50 
+$EndSheet
+Wire Wire Line
+	1810 2020 1710 2020
+Wire Wire Line
+	2960 2120 2610 2120
+Text Label 1810 2120 2    50   ~ 0
+USART2_CK
+$Sheet
+S 1810 1970 800  300 
+U 61B72C55
+F0 "USART2" 50
+F1 "USART_interface.sch" 50
+F2 "RX" O R 2610 2020 50 
+F3 "TX" I L 1810 2020 50 
+F4 "REM_CK" O R 2610 2120 50 
+F5 "LOC_CK" I L 1810 2120 50 
+F6 "RJ45_[1..8]" B L 1810 2220 50 
+$EndSheet
+Wire Wire Line
+	2610 2020 2960 2020
+Wire Wire Line
+	2960 2020 2960 1920
+Wire Wire Line
+	2960 1920 5360 1920
+Wire Wire Line
+	5270 1880 5270 1820
+Wire Wire Line
+	5270 1820 5360 1820
+Wire Wire Line
+	1710 1880 1710 2020
+Wire Wire Line
+	1710 1880 5270 1880
+Wire Bus Line
+	1400 4210 1250 4210
+Wire Bus Line
+	1250 4210 1250 3450
+Wire Bus Line
+	1250 3450 1810 3450
+Wire Bus Line
+	1400 4110 1140 4110
+Wire Bus Line
+	1140 4110 1140 2820
+Wire Bus Line
+	1140 2820 1810 2820
+Wire Bus Line
+	1410 4010 1040 4010
+Wire Bus Line
+	1040 4010 1040 2220
+Wire Bus Line
+	1040 2220 1810 2220
+Wire Bus Line
+	1400 3900 950  3900
+Wire Bus Line
+	950  3900 950  1670
+Wire Bus Line
+	950  1670 1810 1670
+$Comp
+L Connector:TestPoint TP7
+U 1 1 61AB0A08
+P 2880 5610
+F 0 "TP7" V 3075 5682 50  0000 C CNN
+F 1 "TestPoint" V 2984 5682 50  0000 C CNN
+F 2 "" H 3080 5610 50  0001 C CNN
+F 3 "~" H 3080 5610 50  0001 C CNN
+	1    2880 5610
+	0    -1   -1   0   
+$EndComp
+Text Label 3070 5610 0    50   ~ 0
+ADC_2
+Text Label 3070 5710 0    50   ~ 0
+ADC_3
+Text Label 3070 5810 0    50   ~ 0
+ADC_4
+Text Label 3070 5910 0    50   ~ 0
+ADC_5
+Text Label 3070 6010 0    50   ~ 0
+ADC_6
+Text Label 3070 6110 0    50   ~ 0
+ADC_7
+Wire Wire Line
+	3070 5610 2880 5610
+Wire Wire Line
+	3070 5710 2880 5710
+Wire Wire Line
+	3070 5810 2880 5810
+Wire Wire Line
+	3070 5910 2880 5910
+Wire Wire Line
+	3070 6010 2880 6010
+Wire Wire Line
+	3070 6110 2880 6110
+$Comp
+L Connector:TestPoint TP8
+U 1 1 61AF1520
+P 2880 5710
+F 0 "TP8" V 3075 5782 50  0000 C CNN
+F 1 "TestPoint" V 2984 5782 50  0000 C CNN
+F 2 "" H 3080 5710 50  0001 C CNN
+F 3 "~" H 3080 5710 50  0001 C CNN
+	1    2880 5710
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 61AF721F
+P 2880 5810
+F 0 "TP9" V 3075 5882 50  0000 C CNN
+F 1 "TestPoint" V 2984 5882 50  0000 C CNN
+F 2 "" H 3080 5810 50  0001 C CNN
+F 3 "~" H 3080 5810 50  0001 C CNN
+	1    2880 5810
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 61AFCF8F
+P 2880 5910
+F 0 "TP10" V 3075 5982 50  0000 C CNN
+F 1 "TestPoint" V 2984 5982 50  0000 C CNN
+F 2 "" H 3080 5910 50  0001 C CNN
+F 3 "~" H 3080 5910 50  0001 C CNN
+	1    2880 5910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 61B02AC9
+P 2880 6010
+F 0 "TP11" V 3075 6082 50  0000 C CNN
+F 1 "TestPoint" V 2984 6082 50  0000 C CNN
+F 2 "" H 3080 6010 50  0001 C CNN
+F 3 "~" H 3080 6010 50  0001 C CNN
+	1    2880 6010
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 61B086D0
+P 2880 6110
+F 0 "TP12" V 3075 6182 50  0000 C CNN
+F 1 "TestPoint" V 2984 6182 50  0000 C CNN
+F 2 "" H 3080 6110 50  0001 C CNN
+F 3 "~" H 3080 6110 50  0001 C CNN
+	1    2880 6110
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 61B1A99F
+P 3780 5290
+F 0 "TP18" V 3975 5362 50  0000 C CNN
+F 1 "TestPoint" V 3884 5362 50  0000 C CNN
+F 2 "" H 3980 5290 50  0001 C CNN
+F 3 "~" H 3980 5290 50  0001 C CNN
+	1    3780 5290
+	1    0    0    -1  
+$EndComp
+Text Label 3810 5800 0    50   ~ 0
+ADC_DIFF_0_P
+Text Label 3810 5900 0    50   ~ 0
+ADC_DIFF_0_N
+Text Label 3810 6000 0    50   ~ 0
+ADC_DIFF_1_P
+Text Label 3810 6100 0    50   ~ 0
+ADC_DIFF_1_N
+Wire Wire Line
+	3810 5800 3620 5800
+Wire Wire Line
+	3810 5900 3620 5900
+Wire Wire Line
+	3810 6000 3620 6000
+Wire Wire Line
+	3810 6100 3620 6100
+$Comp
+L Connector:TestPoint TP13
+U 1 1 61B35E0A
+P 3620 5800
+F 0 "TP13" V 3815 5872 50  0000 C CNN
+F 1 "TestPoint" V 3724 5872 50  0000 C CNN
+F 2 "" H 3820 5800 50  0001 C CNN
+F 3 "~" H 3820 5800 50  0001 C CNN
+	1    3620 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 61B35E10
+P 3620 5900
+F 0 "TP14" V 3815 5972 50  0000 C CNN
+F 1 "TestPoint" V 3724 5972 50  0000 C CNN
+F 2 "" H 3820 5900 50  0001 C CNN
+F 3 "~" H 3820 5900 50  0001 C CNN
+	1    3620 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 61B35E16
+P 3620 6000
+F 0 "TP15" V 3815 6072 50  0000 C CNN
+F 1 "TestPoint" V 3724 6072 50  0000 C CNN
+F 2 "" H 3820 6000 50  0001 C CNN
+F 3 "~" H 3820 6000 50  0001 C CNN
+	1    3620 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 61B35E1C
+P 3620 6100
+F 0 "TP16" V 3815 6172 50  0000 C CNN
+F 1 "TestPoint" V 3724 6172 50  0000 C CNN
+F 2 "" H 3820 6100 50  0001 C CNN
+F 3 "~" H 3820 6100 50  0001 C CNN
+	1    3620 6100
+	0    -1   -1   0   
+$EndComp
+Text Label 3070 4920 0    50   ~ 0
+GPIO_AUX_5
+Text Label 3070 5020 0    50   ~ 0
+GPIO_AUX_4
+Text Label 3070 5120 0    50   ~ 0
+GPIO_AUX_3
+Text Label 3070 5220 0    50   ~ 0
+GPIO_AUX_2
+Text Label 3070 5320 0    50   ~ 0
+GPIO_AUX_1
+Text Label 3070 5420 0    50   ~ 0
+GPIO_AUX_0
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61B50528
+P 2880 4920
+F 0 "TP1" V 3075 4992 50  0000 C CNN
+F 1 "TestPoint" V 2984 4992 50  0000 C CNN
+F 2 "" H 3080 4920 50  0001 C CNN
+F 3 "~" H 3080 4920 50  0001 C CNN
+	1    2880 4920
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3070 4920 2880 4920
+Wire Wire Line
+	3070 5020 2880 5020
+Wire Wire Line
+	3070 5120 2880 5120
+Wire Wire Line
+	3070 5220 2880 5220
+Wire Wire Line
+	3070 5320 2880 5320
+Wire Wire Line
+	3070 5420 2880 5420
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61B50534
+P 2880 5020
+F 0 "TP2" V 3075 5092 50  0000 C CNN
+F 1 "TestPoint" V 2984 5092 50  0000 C CNN
+F 2 "" H 3080 5020 50  0001 C CNN
+F 3 "~" H 3080 5020 50  0001 C CNN
+	1    2880 5020
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61B5053A
+P 2880 5120
+F 0 "TP3" V 3075 5192 50  0000 C CNN
+F 1 "TestPoint" V 2984 5192 50  0000 C CNN
+F 2 "" H 3080 5120 50  0001 C CNN
+F 3 "~" H 3080 5120 50  0001 C CNN
+	1    2880 5120
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61B50540
+P 2880 5220
+F 0 "TP4" V 3075 5292 50  0000 C CNN
+F 1 "TestPoint" V 2984 5292 50  0000 C CNN
+F 2 "" H 3080 5220 50  0001 C CNN
+F 3 "~" H 3080 5220 50  0001 C CNN
+	1    2880 5220
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61B50546
+P 2880 5320
+F 0 "TP5" V 3075 5392 50  0000 C CNN
+F 1 "TestPoint" V 2984 5392 50  0000 C CNN
+F 2 "" H 3080 5320 50  0001 C CNN
+F 3 "~" H 3080 5320 50  0001 C CNN
+	1    2880 5320
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 61B5054C
+P 2880 5420
+F 0 "TP6" V 3075 5492 50  0000 C CNN
+F 1 "TestPoint" V 2984 5492 50  0000 C CNN
+F 2 "" H 3080 5420 50  0001 C CNN
+F 3 "~" H 3080 5420 50  0001 C CNN
+	1    2880 5420
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61B6EC0B
+P 3960 5500
+F 0 "#PWR?" H 3960 5250 50  0001 C CNN
+F 1 "GND" H 3965 5327 50  0000 C CNN
+F 2 "" H 3960 5500 50  0001 C CNN
+F 3 "" H 3960 5500 50  0001 C CNN
+	1    3960 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3960 5500 3960 5430
+Wire Wire Line
+	3960 5430 3780 5430
+Wire Wire Line
+	3780 5430 3780 5290
+$Comp
+L Connector:TestPoint TP20
+U 1 1 61B838CE
+P 3960 5290
+F 0 "TP20" V 4155 5362 50  0000 C CNN
+F 1 "TestPoint" V 4064 5362 50  0000 C CNN
+F 2 "" H 4160 5290 50  0001 C CNN
+F 3 "~" H 4160 5290 50  0001 C CNN
+	1    3960 5290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4140 5430 3960 5430
+Wire Wire Line
+	3960 5430 3960 5290
+$Comp
+L Connector:TestPoint TP22
+U 1 1 61B8AC29
+P 4140 5290
+F 0 "TP22" V 4335 5362 50  0000 C CNN
+F 1 "TestPoint" V 4244 5362 50  0000 C CNN
+F 2 "" H 4340 5290 50  0001 C CNN
+F 3 "~" H 4340 5290 50  0001 C CNN
+	1    4140 5290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4320 5430 4140 5430
+Wire Wire Line
+	4140 5430 4140 5290
+$Comp
+L Connector:TestPoint TP24
+U 1 1 61B92254
+P 4320 5290
+F 0 "TP24" V 4515 5362 50  0000 C CNN
+F 1 "TestPoint" V 4424 5362 50  0000 C CNN
+F 2 "" H 4520 5290 50  0001 C CNN
+F 3 "~" H 4520 5290 50  0001 C CNN
+	1    4320 5290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4320 5430 4320 5290
+Connection ~ 3960 5430
+Connection ~ 4140 5430
+$Comp
+L Connector:TestPoint TP23
+U 1 1 61BA5CE9
+P 4320 4770
+F 0 "TP23" V 4515 4842 50  0000 C CNN
+F 1 "TestPoint" V 4424 4842 50  0000 C CNN
+F 2 "" H 4520 4770 50  0001 C CNN
+F 3 "~" H 4520 4770 50  0001 C CNN
+	1    4320 4770
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4140 4560 4140 4630
+Wire Wire Line
+	4140 4630 4320 4630
+Wire Wire Line
+	4320 4630 4320 4770
+$Comp
+L Connector:TestPoint TP21
+U 1 1 61BA5CF8
+P 4140 4770
+F 0 "TP21" V 4335 4842 50  0000 C CNN
+F 1 "TestPoint" V 4244 4842 50  0000 C CNN
+F 2 "" H 4340 4770 50  0001 C CNN
+F 3 "~" H 4340 4770 50  0001 C CNN
+	1    4140 4770
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3960 4630 4140 4630
+Wire Wire Line
+	4140 4630 4140 4770
+$Comp
+L Connector:TestPoint TP19
+U 1 1 61BA5D00
+P 3960 4770
+F 0 "TP19" V 4155 4842 50  0000 C CNN
+F 1 "TestPoint" V 4064 4842 50  0000 C CNN
+F 2 "" H 4160 4770 50  0001 C CNN
+F 3 "~" H 4160 4770 50  0001 C CNN
+	1    3960 4770
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3780 4630 3960 4630
+Wire Wire Line
+	3960 4630 3960 4770
+$Comp
+L Connector:TestPoint TP17
+U 1 1 61BA5D08
+P 3780 4770
+F 0 "TP17" V 3975 4842 50  0000 C CNN
+F 1 "TestPoint" V 3884 4842 50  0000 C CNN
+F 2 "" H 3980 4770 50  0001 C CNN
+F 3 "~" H 3980 4770 50  0001 C CNN
+	1    3780 4770
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3780 4630 3780 4770
+Connection ~ 4140 4630
+Connection ~ 3960 4630
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61BADAA8
+P 4140 4560
+F 0 "#PWR?" H 4140 4410 50  0001 C CNN
+F 1 "+3V3" H 4155 4733 50  0000 C CNN
+F 2 "" H 4140 4560 50  0001 C CNN
+F 3 "" H 4140 4560 50  0001 C CNN
+	1    4140 4560
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2580 6170 4600 6170
+Wire Notes Line
+	4600 6170 4600 4310
+Wire Notes Line
+	4600 4310 2580 4310
+Wire Notes Line
+	2580 4310 2580 6170
+Text Notes 2630 4500 0    50   ~ 0
+Test pads for generic stuff\nprobable with DMM
+$Comp
+L Device:R R?
+U 1 1 61C3673A
+P 10190 3390
+AR Path="/61904E37/61C3673A" Ref="R?"  Part="1" 
+AR Path="/61C3673A" Ref="R6"  Part="1" 
+F 0 "R6" V 9983 3390 50  0000 C CNN
+F 1 "1k" V 10074 3390 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10120 3390 50  0001 C CNN
+F 3 "~" H 10190 3390 50  0001 C CNN
+	1    10190 3390
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61C3F0D6
+P 10190 3780
+F 0 "D3" V 10229 3662 50  0000 R CNN
+F 1 "LED" V 10138 3662 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10190 3780 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Kingbright/APTD3216LSYCK?qs=AQlKX63v8RvoX%252BazwCMI3g%3D%3D" H 10190 3780 50  0001 C CNN
+	1    10190 3780
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10190 3540 10190 3630
+Wire Wire Line
+	10190 3930 10190 4010
+$Comp
+L power:GND #PWR?
+U 1 1 61C68C14
+P 10190 4010
+F 0 "#PWR?" H 10190 3760 50  0001 C CNN
+F 1 "GND" H 10195 3837 50  0000 C CNN
+F 2 "" H 10190 4010 50  0001 C CNN
+F 3 "" H 10190 4010 50  0001 C CNN
+	1    10190 4010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10190 3240 10190 3130
+Text Label 10190 3130 1    50   ~ 0
+GPIO_AUX_1
+Text Label 10690 3130 1    50   ~ 0
+GPIO_AUX_0
+$Comp
+L Device:R R?
+U 1 1 61C98C2D
+P 10690 3390
+AR Path="/61904E37/61C98C2D" Ref="R?"  Part="1" 
+AR Path="/61C98C2D" Ref="R7"  Part="1" 
+F 0 "R7" V 10483 3390 50  0000 C CNN
+F 1 "1k" V 10574 3390 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10620 3390 50  0001 C CNN
+F 3 "~" H 10690 3390 50  0001 C CNN
+	1    10690 3390
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 61C98C33
+P 10690 3780
+F 0 "D4" V 10729 3662 50  0000 R CNN
+F 1 "LED" V 10638 3662 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10690 3780 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Kingbright/APTD3216LSYCK?qs=AQlKX63v8RvoX%252BazwCMI3g%3D%3D" H 10690 3780 50  0001 C CNN
+	1    10690 3780
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10690 3540 10690 3630
+Wire Wire Line
+	10690 3930 10690 4010
+$Comp
+L power:GND #PWR?
+U 1 1 61C98C3B
+P 10690 4010
+F 0 "#PWR?" H 10690 3760 50  0001 C CNN
+F 1 "GND" H 10695 3837 50  0000 C CNN
+F 2 "" H 10690 4010 50  0001 C CNN
+F 3 "" H 10690 4010 50  0001 C CNN
+	1    10690 4010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10690 3240 10690 3130
+Text Notes 9790 2690 0    50   ~ 0
+one LED should be used as "alive",\nthe other one is user-controlled\nperhaps something like blink codes\nfor critical errors
+Wire Notes Line
+	11190 2380 11190 4270
+Wire Notes Line
+	11190 4270 9770 4270
+Wire Notes Line
+	9770 4270 9770 2380
+Wire Notes Line
+	9770 2380 11190 2380
 $EndSCHEMATC

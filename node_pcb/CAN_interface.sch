@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 11
 Title ""
 Date ""
-Rev ""
+Rev "beta 1"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -69,7 +69,7 @@ AR Path="/6191FC07/619279D8" Ref="C1"  Part="1"
 AR Path="/61931F0A/619279D8" Ref="C4"  Part="1" 
 F 0 "C1" H 3915 4296 50  0000 L CNN
 F 1 "0.1uF" H 3915 4205 50  0000 L CNN
-F 2 "" H 3838 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 4100 50  0001 C CNN
 F 3 "~" H 3800 4250 50  0001 C CNN
 	1    3800 4250
 	1    0    0    -1  
@@ -211,7 +211,7 @@ AR Path="/6191FC07/619316E5" Ref="C2"  Part="1"
 AR Path="/61931F0A/619316E5" Ref="C5"  Part="1" 
 F 0 "C2" H 7365 2996 50  0000 L CNN
 F 1 "C?" H 7365 2905 50  0000 L CNN
-F 2 "" H 7288 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 2800 50  0001 C CNN
 F 3 "~" H 7250 2950 50  0001 C CNN
 	1    7250 2950
 	1    0    0    -1  
@@ -226,7 +226,7 @@ AR Path="/6191FC07/61931AEB" Ref="C3"  Part="1"
 AR Path="/61931F0A/61931AEB" Ref="C6"  Part="1" 
 F 0 "C3" H 7365 4046 50  0000 L CNN
 F 1 "C?" H 7365 3955 50  0000 L CNN
-F 2 "" H 7288 3850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 3850 50  0001 C CNN
 F 3 "~" H 7250 4000 50  0001 C CNN
 	1    7250 4000
 	1    0    0    -1  
@@ -282,15 +282,15 @@ Wire Wire Line
 Connection ~ 7250 3300
 Connection ~ 7250 3500
 $Comp
-L Connector:RJ9 J19
+L Connector:6P4C J19
 U 1 1 619789B3
 P 8650 3400
 AR Path="/61931F0A/619789B3" Ref="J19"  Part="1" 
 AR Path="/6191FC07/619789B3" Ref="J18"  Part="1" 
 F 0 "J18" H 8320 3404 50  0000 R CNN
-F 1 "RJ9" H 8320 3495 50  0000 R CNN
-F 2 "" V 8650 3450 50  0001 C CNN
-F 3 "~" V 8650 3450 50  0001 C CNN
+F 1 "6p4c" H 8320 3495 50  0000 R CNN
+F 2 "node_pcb:6p4c_AdamTech_right_angle" V 8650 3450 50  0001 C CNN
+F 3 "https://www.digikey.ch/product-detail/en/adam-tech/MTJ-642BX2/2057-MTJ-642BX2-ND/9832240" V 8650 3450 50  0001 C CNN
 	1    8650 3400
 	-1   0    0    1   
 $EndComp

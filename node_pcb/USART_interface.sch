@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 2 11
 Title ""
 Date ""
-Rev ""
+Rev "beta 1"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -19,21 +19,6 @@ Text HLabel 3000 3550 0    50   Input ~ 0
 TX
 Text HLabel 3400 3200 0    50   Output ~ 0
 REM_CK
-$Comp
-L Connector:RJ45 J14
-U 1 1 61A44FF0
-P 7680 4190
-AR Path="/61B72982/61A44FF0" Ref="J14"  Part="1" 
-AR Path="/61B72C55/61A44FF0" Ref="J15"  Part="1" 
-AR Path="/61B7335B/61A44FF0" Ref="J16"  Part="1" 
-AR Path="/61B73361/61A44FF0" Ref="J17"  Part="1" 
-F 0 "J17" H 7350 4194 50  0000 R CNN
-F 1 "RJ45" H 7350 4285 50  0000 R CNN
-F 2 "" V 7680 4215 50  0001 C CNN
-F 3 "~" V 7680 4215 50  0001 C CNN
-	1    7680 4190
-	-1   0    0    1   
-$EndComp
 Text Label 7280 4590 2    50   ~ 0
 REM_VCC
 Text Label 7280 4390 2    50   ~ 0
@@ -84,8 +69,6 @@ Wire Wire Line
 	3500 2950 3400 2950
 Text HLabel 3400 2950 0    50   Input ~ 0
 LOC_CK
-Wire Wire Line
-	7280 3890 7180 3890
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61A4C9E5
@@ -101,8 +84,6 @@ F 3 "" H 7180 3890 50  0001 C CNN
 	1    7180 3890
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7280 4090 7180 4090
 $Comp
 L power:GND #PWR?
 U 1 1 61A4E0A9
@@ -126,7 +107,7 @@ AR Path="/61B73361/61B3AB5C" Ref="U4"  Part="1"
 AR Path="/61B72C55/61B3AB5C" Ref="U2"  Part="1" 
 AR Path="/61B72982/61B3AB5C" Ref="U1"  Part="1" 
 AR Path="/61B7335B/61B3AB5C" Ref="U3"  Part="1" 
-F 0 "U4" H 4320 4815 50  0000 C CNN
+F 0 "U2" H 4320 4815 50  0000 C CNN
 F 1 "ADUM142D0BRQZ-RL7" H 4320 4724 50  0000 C CNN
 F 2 "" H 4320 4690 50  0001 C CNN
 F 3 "" H 4320 4690 50  0001 C CNN
@@ -191,14 +172,62 @@ Wire Wire Line
 Connection ~ 5150 4450
 Wire Wire Line
 	5150 4450 5150 4020
-Text Notes 8420 4340 0    50   ~ 0
+Text Notes 8830 4340 0    50   ~ 0
 Note:\nthe RJ45 cable used MUST be\na rollover cable
-Wire Wire Line
-	4820 4290 7280 4290
-Wire Wire Line
-	7280 4200 7280 4190
-Wire Wire Line
-	4820 4200 7280 4200
 Text Notes 5490 4280 0    50   ~ 0
 Top is local clock being transmitted\nBottom is remote clock being received
+Text HLabel 8790 3740 2    50   BiDi ~ 0
+RJ45_[1..8]
+Entry Wire Line
+	7940 3790 7840 3890
+Wire Bus Line
+	7940 3740 8790 3740
+Text Label 7720 3890 2    50   ~ 0
+RJ45_1
+Wire Wire Line
+	7180 3890 7840 3890
+Entry Wire Line
+	7940 3890 7840 3990
+Text Label 7720 3990 2    50   ~ 0
+RJ45_2
+Wire Wire Line
+	7280 3990 7840 3990
+Entry Wire Line
+	7940 3990 7840 4090
+Text Label 7720 4090 2    50   ~ 0
+RJ45_3
+Wire Wire Line
+	7180 4090 7840 4090
+Entry Wire Line
+	7940 4100 7840 4200
+Text Label 7720 4200 2    50   ~ 0
+RJ45_4
+Wire Wire Line
+	4820 4200 7840 4200
+Entry Wire Line
+	7940 4190 7840 4290
+Text Label 7720 4290 2    50   ~ 0
+RJ45_5
+Wire Wire Line
+	4820 4290 7840 4290
+Entry Wire Line
+	7940 4290 7840 4390
+Text Label 7720 4390 2    50   ~ 0
+RJ45_6
+Wire Wire Line
+	7280 4390 7840 4390
+Entry Wire Line
+	7940 4390 7840 4490
+Text Label 7720 4490 2    50   ~ 0
+RJ45_7
+Wire Wire Line
+	7280 4490 7840 4490
+Entry Wire Line
+	7940 4490 7840 4590
+Text Label 7720 4590 2    50   ~ 0
+RJ45_8
+Wire Wire Line
+	7280 4590 7840 4590
+Wire Bus Line
+	7940 3740 7940 4490
 $EndSCHEMATC

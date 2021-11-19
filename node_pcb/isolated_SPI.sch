@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 11
 Title "Avionics STM32 Isolated SPI Interface"
 Date ""
-Rev ""
+Rev "beta 1"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -90,7 +90,7 @@ U 1 1 61B4CEC9
 P 7140 3720
 F 0 "J21" H 7168 3696 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 7168 3605 50  0000 L CNN
-F 2 "" H 7140 3720 50  0001 C CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 7140 3720 50  0001 C CNN
 F 3 "~" H 7140 3720 50  0001 C CNN
 	1    7140 3720
 	1    0    0    -1  
