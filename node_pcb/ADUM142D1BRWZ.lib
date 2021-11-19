@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ADUM142D1BRWZ
+#/526506/666990/2.49/16/4/Integrated Circuit
+DEF ADUM142D1BRWZ IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "ADUM142D1BRWZ" 1350 200 50 H V L CNN
+F2 "SOIC127P1032X265-16N" 1350 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM140D_140E_141D_141E_142D_142E.pdf" 1350 0 50 H I L CNN
+F4 "Analog Devices ADUM142D1BRWZ PCB SMT 4-channel Digital Isolator, 3.75 kVrms, 16-Pin SOIC W" 1350 -100 50 H I L CNN "Description"
+F5 "2.65" 1350 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADUM142D1BRWZ" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADUM142D1BRWZ" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-ADUM142D1BRWZ" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADUM142D1BRWZ" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adum142d1brwz/analog-devices" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VDD1 1 0 0 200 R 50 50 0 0 P
+X GND1_1 2 0 -100 200 R 50 50 0 0 P
+X VIA 3 0 -200 200 R 50 50 0 0 P
+X VIB 4 0 -300 200 R 50 50 0 0 P
+X VOC 5 0 -400 200 R 50 50 0 0 P
+X VOD 6 0 -500 200 R 50 50 0 0 P
+X DISABLE1 7 0 -600 200 R 50 50 0 0 P
+X GND1_2 8 0 -700 200 R 50 50 0 0 P
+X VDD2 16 1500 0 200 L 50 50 0 0 P
+X GND2_2 15 1500 -100 200 L 50 50 0 0 P
+X VOA 14 1500 -200 200 L 50 50 0 0 P
+X VOB 13 1500 -300 200 L 50 50 0 0 P
+X VIC 12 1500 -400 200 L 50 50 0 0 P
+X VID 11 1500 -500 200 L 50 50 0 0 P
+X DISABLE2 10 1500 -600 200 L 50 50 0 0 P
+X GND2_1 9 1500 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
