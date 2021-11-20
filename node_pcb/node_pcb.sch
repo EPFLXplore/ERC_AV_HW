@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 11
 Title "Avionics STM32 generic node"
 Date ""
-Rev ""
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""

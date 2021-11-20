@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 10 11
 Title "Avionics STM32 Isolated SPI Interface"
 Date ""
-Rev "beta 1"
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 11
 Title ""
 Date ""
-Rev "beta 1"
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
