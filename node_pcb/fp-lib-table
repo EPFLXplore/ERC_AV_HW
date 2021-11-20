@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name node_pcb)(type KiCad)(uri "H:/My Drive/EPFL/EPFL Xplore/Node_module_design/node_pcb")(options "")(descr ""))
+  (lib (name B65808E1508T001)(type KiCad)(uri ${KIPRJMOD}/B65808E1508T001)(options "")(descr "")(disabled))
+  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/B65808E1508T001/eec.pretty)(options "")(descr ""))
 )
