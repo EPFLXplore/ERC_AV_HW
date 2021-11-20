@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name node_pcb)(type KiCad)(uri H:/EPFL-courses/2021/BA3/Xplore/av_hw_workspace/node_pcb)(options "")(descr ""))
+  (lib (name B65808E1508T001)(type KiCad)(uri H:/EPFL-courses/2021/BA3/Xplore/av_hw_workspace/node_pcb/B65808E1508T001/eec.pretty)(options "")(descr ""))
+)
