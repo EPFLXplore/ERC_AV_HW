@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 8 11
 Title "Avionics STM32 node core"
 Date ""
-Rev "beta 1"
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -329,24 +329,24 @@ F 3 "" H 1400 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C7_HSE1
 U 1 1 618BC55E
 P 1150 1150
-F 0 "C7" H 1265 1196 50  0000 L CNN
-F 1 "Cl" H 1265 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1000 50  0001 C CNN
-F 3 "~" H 1150 1150 50  0001 C CNN
+F 0 "C7_HSE1" H 1265 1196 50  0000 L CNN
+F 1 "10 pF" H 1265 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1188 1000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN100?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQ6FrNi5A0pRs%3D" H 1150 1150 50  0001 C CNN
 	1    1150 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C9_HSE2
 U 1 1 618BCD63
 P 1650 1150
-F 0 "C9" H 1765 1196 50  0000 L CNN
-F 1 "Cl" H 1765 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1000 50  0001 C CNN
-F 3 "~" H 1650 1150 50  0001 C CNN
+F 0 "C9_HSE2" H 1765 1196 50  0000 L CNN
+F 1 "10 pF" H 1765 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 1000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN100?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQ6FrNi5A0pRs%3D" H 1650 1150 50  0001 C CNN
 	1    1650 1150
 	1    0    0    -1  
 $EndComp
@@ -362,24 +362,24 @@ F 3 "https://www.mouser.ch/datasheet/2/122/ECX_2236B-1649452.pdf" H 1450 650 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L Device:C C8_LSE1
 U 1 1 618CDA4E
 P 1150 2050
-F 0 "C8" H 1265 2096 50  0000 L CNN
-F 1 "Cl2" H 1265 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1900 50  0001 C CNN
-F 3 "~" H 1150 2050 50  0001 C CNN
+F 0 "C8_LSE1" H 1265 2096 50  0000 L CNN
+F 1 "15 pF" H 1265 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1188 1900 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN150?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQl%2FzpxkbsgZA%3D" H 1150 2050 50  0001 C CNN
 	1    1150 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C10_LSE2
 U 1 1 618CDA54
 P 1650 2050
-F 0 "C10" H 1765 2096 50  0000 L CNN
-F 1 "Cl2" H 1765 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1900 50  0001 C CNN
-F 3 "~" H 1650 2050 50  0001 C CNN
+F 0 "C10_LSE2" H 1765 2096 50  0000 L CNN
+F 1 "15 pF" H 1765 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 1900 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN150?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQl%2FzpxkbsgZA%3D" H 1650 2050 50  0001 C CNN
 	1    1650 2050
 	1    0    0    -1  
 $EndComp
@@ -797,10 +797,6 @@ Wire Wire Line
 	1550 1900 1650 1900
 Connection ~ 1650 1900
 Wire Wire Line
-	1650 1900 1750 1900
-Wire Wire Line
-	1150 2400 1650 2400
-Wire Wire Line
 	1100 650  1150 650 
 Wire Wire Line
 	1550 650  1650 650 
@@ -812,8 +808,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 650  1650 1000
 Connection ~ 1650 650 
-Wire Wire Line
-	1650 650  1800 650 
 Wire Wire Line
 	1150 1300 1150 1350
 Wire Wire Line
@@ -955,9 +949,9 @@ Text Label 4300 4250 2    50   ~ 0
 QSPI2_IO0
 Text Label 4300 4350 2    50   ~ 0
 QSPI2_IO1
-Text Label 1100 650  2    50   ~ 0
+Text Label 2530 950  0    50   ~ 0
 OSC_HSE_OUT
-Text Label 1800 650  0    50   ~ 0
+Text Label 1100 650  2    50   ~ 0
 OSC_HSE_IN
 Text Label 6100 6650 0    50   ~ 0
 OSC_LSE_IN
@@ -971,9 +965,9 @@ Text Label 6100 3150 0    50   ~ 0
 DEBUG_JTMS_SWDIO
 Text Label 6100 3250 0    50   ~ 0
 DEBUG_JTCK_SWDCLK
-Text Label 1750 1900 0    50   ~ 0
-OSC_LSE_IN
 Text Label 1050 1900 2    50   ~ 0
+OSC_LSE_IN
+Text Label 2340 1900 0    50   ~ 0
 OSC_LSE_OUT
 Text Label 10250 4100 0    50   ~ 0
 VREF+
@@ -1151,4 +1145,60 @@ Wire Wire Line
 Connection ~ 10670 1090
 Wire Wire Line
 	10670 1090 10410 1090
+$Comp
+L Device:R R9
+U 1 1 6199094F
+P 2210 650
+F 0 "R9" V 2003 650 50  0000 C CNN
+F 1 "0" V 2094 650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2140 650 50  0001 C CNN
+F 3 "~" H 2210 650 50  0001 C CNN
+	1    2210 650 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 650  2060 650 
+Wire Wire Line
+	2530 950  2450 950 
+Wire Wire Line
+	2450 950  2450 650 
+Wire Wire Line
+	2450 650  2360 650 
+Wire Wire Line
+	1650 1900 1950 1900
+$Comp
+L Device:R R8
+U 1 1 619D1719
+P 2100 1900
+F 0 "R8" V 1893 1900 50  0000 C CNN
+F 1 "0" V 1984 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2030 1900 50  0001 C CNN
+F 3 "~" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2340 1900 2250 1900
+Text Notes 2190 1650 0    50   ~ 0
+10 pF HSE crystal load capacitance\n12.5 pF LSE crystal CL\nCload=2*(CL-Cstray) (AN2867, pg 12) because\noscillator circuit must have same\nexternal capacitance as crystal's\nrule of thumb stray capacitance 5 pF\nC*_HSE* capacitors are 10 pF each\nC*_LSE* capacitors are 15 pF each\nthe external resistor is recommended\nformula AN2867 pg16: RExt=1/(2piFC_L2)\nHSE ext = 332
+$Comp
+L power:GND #PWR?
+U 1 1 619F71D2
+P 1370 2460
+F 0 "#PWR?" H 1370 2210 50  0001 C CNN
+F 1 "GND" H 1375 2287 50  0000 C CNN
+F 2 "" H 1370 2460 50  0001 C CNN
+F 3 "" H 1370 2460 50  0001 C CNN
+	1    1370 2460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1370 2460 1370 2400
+Wire Wire Line
+	1150 2400 1370 2400
+Connection ~ 1370 2400
+Wire Wire Line
+	1370 2400 1650 2400
+Text Notes 730  2990 0    50   ~ 0
+A 0 ohm feed resistor footprint is included\nmainly for if we find the oscillator drive\nlevel exceeds the crystal's (method\nrecommended by AN2867)
 $EndSCHEMATC
