@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 7 11
 Title "Avionics STM32 node core"
 Date ""
 Rev "beta 2"
@@ -413,7 +413,6 @@ F 3 "" H 2050 7300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 6300 2050 6300
-NoConn ~ 2550 6900
 Text HLabel 6100 2950 2    50   Input ~ 0
 FDCAN1_RX
 Text HLabel 6100 3050 2    50   Input ~ 0

@@ -25,17 +25,6 @@ F5 "LOC_CK" I L 1810 1570 50
 F6 "RJ45_[1..8]" B L 1810 1670 50 
 $EndSheet
 $Sheet
-S 1810 2570 790  310 
-U 61B7335B
-F0 "USART3" 50
-F1 "USART_interface.sch" 50
-F2 "RX" O R 2600 2620 50 
-F3 "TX" I L 1810 2620 50 
-F4 "REM_CK" O R 2600 2720 50 
-F5 "LOC_CK" I L 1810 2720 50 
-F6 "RJ45_[1..8]" B L 1810 2820 50 
-$EndSheet
-$Sheet
 S 1810 3220 790  290 
 U 61B73361
 F0 "USART6" 50
@@ -66,13 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	2860 1520 5360 1520
 Wire Wire Line
-	2610 1470 2860 1470
-Wire Wire Line
-	2610 1570 3110 1570
-Wire Wire Line
 	3110 1570 3110 2070
-Wire Wire Line
-	3110 2070 3460 2070
 Text Label 5360 1620 2    50   ~ 0
 USART1_CK
 Text Label 1810 1570 2    50   ~ 0
@@ -100,13 +83,9 @@ Wire Wire Line
 Wire Wire Line
 	2960 2170 2960 2120
 Wire Wire Line
-	2610 2720 3110 2720
-Wire Wire Line
 	3110 2270 3460 2270
 Wire Wire Line
 	3110 2270 3110 2720
-Wire Wire Line
-	2610 2620 4610 2620
 Wire Wire Line
 	4610 2620 4610 2320
 Wire Wire Line
@@ -135,12 +114,6 @@ Wire Wire Line
 	5360 2720 4810 2720
 Wire Wire Line
 	4810 2720 4810 3270
-Wire Wire Line
-	4810 3270 2610 3270
-Wire Wire Line
-	2610 3370 3460 3370
-Wire Wire Line
-	3460 3370 3460 2370
 $Sheet
 S 1970 830  700  250 
 U 61904E37
@@ -309,13 +282,13 @@ I2C4_SCL
 Text Label 5360 3620 2    50   ~ 0
 I2C4_SDA
 Text Label 8730 1710 0    50   ~ 0
-I2C1_SCL
-Text Label 8730 1610 0    50   ~ 0
-I2C1_SDA
-Text Label 8730 2760 0    50   ~ 0
 I2C2_SCL
-Text Label 8730 2660 0    50   ~ 0
+Text Label 8730 1610 0    50   ~ 0
 I2C2_SDA
+Text Label 8730 2760 0    50   ~ 0
+I2C1_SCL
+Text Label 8730 2660 0    50   ~ 0
+I2C1_SDA
 Text Label 8730 3810 0    50   ~ 0
 I2C4_SCL
 Text Label 8730 3710 0    50   ~ 0
@@ -895,8 +868,6 @@ $EndSheet
 Wire Wire Line
 	4540 4070 5360 4070
 Wire Wire Line
-	5370 3970 4980 3970
-Wire Wire Line
 	4980 3970 4980 3890
 Wire Wire Line
 	4980 3890 4540 3890
@@ -1218,8 +1189,6 @@ Wire Bus Line
 	1140 4110 1140 2820
 Wire Bus Line
 	1140 2820 1810 2820
-Wire Bus Line
-	1410 4010 1040 4010
 Wire Bus Line
 	1040 4010 1040 2220
 Wire Bus Line
@@ -1722,4 +1691,37 @@ Wire Notes Line
 	9770 4270 9770 2380
 Wire Notes Line
 	9770 2380 11190 2380
+Wire Bus Line
+	1400 4010 1040 4010
+Wire Wire Line
+	4980 3970 5360 3970
+Wire Wire Line
+	3420 2370 3460 2370
+Wire Wire Line
+	3420 2370 3420 3370
+Wire Wire Line
+	3460 2070 3110 2070
+Wire Wire Line
+	2580 1570 3110 1570
+Wire Wire Line
+	2580 1470 2860 1470
+$Sheet
+S 1810 2570 790  310 
+U 61B7335B
+F0 "USART3" 50
+F1 "USART_interface.sch" 50
+F2 "RX" O R 2600 2620 50 
+F3 "TX" I L 1810 2620 50 
+F4 "REM_CK" O R 2600 2720 50 
+F5 "LOC_CK" I L 1810 2720 50 
+F6 "RJ45_[1..8]" B L 1810 2820 50 
+$EndSheet
+Wire Wire Line
+	2600 2620 4610 2620
+Wire Wire Line
+	2600 2720 3110 2720
+Wire Wire Line
+	2600 3270 4810 3270
+Wire Wire Line
+	2600 3370 3420 3370
 $EndSCHEMATC

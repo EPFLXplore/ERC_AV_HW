@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 3 11
 Title ""
 Date ""
 Rev "beta 2"
@@ -107,9 +107,9 @@ AR Path="/61B73361/61B3AB5C" Ref="U4"  Part="1"
 AR Path="/61B72C55/61B3AB5C" Ref="U2"  Part="1" 
 AR Path="/61B72982/61B3AB5C" Ref="U1"  Part="1" 
 AR Path="/61B7335B/61B3AB5C" Ref="U3"  Part="1" 
-F 0 "U1" H 4320 4815 50  0000 C CNN
+F 0 "U4" H 4320 4815 50  0000 C CNN
 F 1 "ADUM142D0BRQZ-RL7" H 4320 4724 50  0000 C CNN
-F 2 "" H 4320 4690 50  0001 C CNN
+F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 4320 4690 50  0001 C CNN
 F 3 "" H 4320 4690 50  0001 C CNN
 	1    4320 4250
 	1    0    0    -1  
@@ -174,7 +174,7 @@ Wire Wire Line
 	5150 4450 5150 4020
 Text Notes 8830 4340 0    50   ~ 0
 Note:\nthe RJ45 cable used MUST be\na rollover cable
-Text Notes 5490 4280 0    50   ~ 0
+Text Notes 5190 4280 0    50   ~ 0
 Top is local clock being transmitted\nBottom is remote clock being received
 Text HLabel 8790 3740 2    50   BiDi ~ 0
 RJ45_[1..8]
@@ -228,6 +228,10 @@ Text Label 7720 4590 2    50   ~ 0
 RJ45_8
 Wire Wire Line
 	7280 4590 7840 4590
+Text Label 7290 4200 2    50   ~ 0
+LOC_CLK_TX
+Text Label 7290 4290 2    50   ~ 0
+REM_CLK_RX
 Wire Bus Line
 	7940 3740 7940 4490
 $EndSCHEMATC

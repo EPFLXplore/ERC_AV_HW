@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 4 11
 Title ""
 Date ""
 Rev "beta 2"
@@ -896,8 +896,6 @@ F 3 "~" H 1550 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 3950 4150 3950
-Wire Wire Line
 	1300 2850 1300 3200
 Wire Wire Line
 	1300 3200 1350 3200
@@ -1034,4 +1032,13 @@ F 3 "16SVPE180M" H 8500 1950 50  0000 C CNN
 	1    8500 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3050 3150 2950 3150
+Wire Wire Line
+	2950 3150 2950 3950
+Wire Wire Line
+	1650 3950 2950 3950
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 4150 3950
 $EndSCHEMATC
