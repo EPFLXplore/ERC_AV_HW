@@ -135,17 +135,6 @@ F 3 "" H 3100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW2
-U 1 1 618A2041
-P 9600 2000
-F 0 "SW2" H 9600 2285 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 9600 2194 50  0000 C CNN
-F 2 "" H 9600 2000 50  0001 C CNN
-F 3 "~" H 9600 2000 50  0001 C CNN
-	1    9600 2000
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 618A3520
 P 9400 1900
@@ -155,17 +144,6 @@ F 2 "" H 9400 1900 50  0001 C CNN
 F 3 "" H 9400 1900 50  0001 C CNN
 	1    9400 1900
 	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5E SW3
-U 1 1 618A42A4
-P 9900 3000
-F 0 "SW3" H 9900 3385 50  0000 C CNN
-F 1 "SW_MEC_5E" H 9900 3294 50  0000 C CNN
-F 2 "" H 9900 3300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9900 3300 50  0001 C CNN
-	1    9900 3000
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C36
@@ -181,17 +159,7 @@ $EndComp
 Wire Wire Line
 	10050 3300 10100 3300
 Wire Wire Line
-	10100 3300 10100 3000
-Connection ~ 10100 3000
-Wire Wire Line
-	10100 3000 10100 2900
-Wire Wire Line
 	9750 3300 9700 3300
-Wire Wire Line
-	9700 3300 9700 3000
-Connection ~ 9700 3000
-Wire Wire Line
-	9700 3000 9700 2900
 Wire Wire Line
 	9700 3300 9550 3300
 Wire Wire Line
@@ -1095,7 +1063,7 @@ U 1 1 618D2238
 P 2000 4700
 F 0 "J20" H 1557 4746 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1557 4655 50  0000 R CNN
-F 2 "" H 2000 4700 50  0001 C CNN
+F 2 "node_pcb:IDC_PinHeader_2x05_P1.27mm_Vertical_SMD_ARM_JTAG_SWD" H 2000 4700 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1650 3450 50  0001 C CNN
 	1    2000 4700
 	1    0    0    -1  
@@ -1200,4 +1168,30 @@ Wire Wire Line
 	1370 2400 1650 2400
 Text Notes 730  2990 0    50   ~ 0
 A 0 ohm feed resistor footprint is included\nmainly for if we find the oscillator drive\nlevel exceeds the crystal's (method\nrecommended by AN2867)
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 61A0C2EF
+P 9600 2000
+F 0 "SW2" H 9600 1675 50  0000 C CNN
+F 1 "SW_SPDT" H 9600 1766 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 9600 2000 50  0001 C CNN
+F 3 "~" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 61A18CE3
+P 9900 2900
+F 0 "SW3" H 9900 3135 50  0000 C CNN
+F 1 "SW_SPST" H 9900 3044 50  0000 C CNN
+F 2 "node_pcb:SW_Push_1P1T_NO_6x6mm_H9.5mm_LL3301NF065QG" H 9900 2900 50  0001 C CNN
+F 3 "~" H 9900 2900 50  0001 C CNN
+	1    9900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2900 10100 3300
+Wire Wire Line
+	9700 2900 9700 3300
 $EndSCHEMATC
