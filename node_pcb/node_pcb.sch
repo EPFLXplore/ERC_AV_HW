@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title "Avionics STM32 generic node"
 Date ""
 Rev "beta 2"
@@ -114,15 +114,6 @@ Wire Wire Line
 	5360 2720 4810 2720
 Wire Wire Line
 	4810 2720 4810 3270
-$Sheet
-S 1970 830  700  250 
-U 61904E37
-F0 "iso_3v3_supply_2A" 50
-F1 "iso_3v3_supply.sch" 50
-F2 "+BATT" I L 1970 880 50 
-F3 "3v3iso" I R 2670 880 50 
-F4 "-BATT" I L 1970 1030 50 
-$EndSheet
 Wire Wire Line
 	7980 3510 7480 3510
 Wire Wire Line
@@ -138,11 +129,7 @@ Connection ~ 7480 2460
 Wire Wire Line
 	7480 2460 7480 1410
 Wire Wire Line
-	8730 1910 9250 1910
-Wire Wire Line
-	8730 4010 9250 4010
-Wire Wire Line
-	8730 2960 9250 2960
+	8480 1910 9000 1910
 Text Label 7980 2960 2    50   ~ 0
 SPI3_CS1
 Text Label 6710 2120 0    50   ~ 0
@@ -203,18 +190,14 @@ Text Label 6710 2470 0    50   ~ 0
 SPI4_MISO
 Text Label 6710 2370 0    50   ~ 0
 SPI4_SCK
-Text Label 8730 1410 0    50   ~ 0
+Text Label 8480 1410 0    50   ~ 0
 UART4_TX
-Text Label 8730 1510 0    50   ~ 0
+Text Label 8480 1510 0    50   ~ 0
 UART4_RX
-Text Label 8730 2460 0    50   ~ 0
+Text Label 8480 2460 0    50   ~ 0
 UART5_TX
-Text Label 8730 2560 0    50   ~ 0
+Text Label 8480 2560 0    50   ~ 0
 UART5_RX
-Text Label 8730 3510 0    50   ~ 0
-UART8_TX
-Text Label 8730 3610 0    50   ~ 0
-UART8_RX
 Text Label 6710 3520 0    50   ~ 0
 UART8_TX
 Text Label 6710 3620 0    50   ~ 0
@@ -227,48 +210,6 @@ Text Label 6710 3020 0    50   ~ 0
 UART4_TX
 Text Label 6710 3120 0    50   ~ 0
 UART4_RX
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J9
-U 1 1 619532DE
-P 8360 3810
-F 0 "J9" H 8360 4377 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 8360 4286 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-BE-TR" H 8360 3810 50  0001 L BNN
-F 3 "" H 8360 3810 50  0001 L BNN
-F 4 "R" H 8360 3810 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 8360 3810 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 8360 3810 50  0001 L BNN "MANUFACTURER"
-	1    8360 3810
-	1    0    0    -1  
-$EndComp
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J8
-U 1 1 61954F23
-P 8360 2760
-F 0 "J8" H 8360 3327 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 8360 3236 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-BE-TR" H 8360 2760 50  0001 L BNN
-F 3 "" H 8360 2760 50  0001 L BNN
-F 4 "R" H 8360 2760 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 8360 2760 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 8360 2760 50  0001 L BNN "MANUFACTURER"
-	1    8360 2760
-	1    0    0    -1  
-$EndComp
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J7
-U 1 1 6195619D
-P 8360 1710
-F 0 "J7" H 8360 2277 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 8360 2186 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-BE-TR" H 8360 1710 50  0001 L BNN
-F 3 "" H 8360 1710 50  0001 L BNN
-F 4 "R" H 8360 1710 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 8360 1710 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 8360 1710 50  0001 L BNN "MANUFACTURER"
-	1    8360 1710
-	1    0    0    -1  
-$EndComp
 Text Label 5360 3020 2    50   ~ 0
 I2C1_SCL
 Text Label 5360 3120 2    50   ~ 0
@@ -281,18 +222,10 @@ Text Label 5360 3520 2    50   ~ 0
 I2C4_SCL
 Text Label 5360 3620 2    50   ~ 0
 I2C4_SDA
-Text Label 8730 1710 0    50   ~ 0
+Text Label 8480 1710 0    50   ~ 0
 I2C2_SCL
-Text Label 8730 1610 0    50   ~ 0
+Text Label 8480 1610 0    50   ~ 0
 I2C2_SDA
-Text Label 8730 2760 0    50   ~ 0
-I2C1_SCL
-Text Label 8730 2660 0    50   ~ 0
-I2C1_SDA
-Text Label 8730 3810 0    50   ~ 0
-I2C4_SCL
-Text Label 8730 3710 0    50   ~ 0
-I2C4_SDA
 $Comp
 L power:+3V3 #PWR?
 U 1 1 6196FF71
@@ -305,54 +238,15 @@ F 3 "" H 7480 760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 61970198
-P 9250 4210
-F 0 "#PWR?" H 9250 3960 50  0001 C CNN
-F 1 "GND" H 9255 4037 50  0000 C CNN
-F 2 "" H 9250 4210 50  0001 C CNN
-F 3 "" H 9250 4210 50  0001 C CNN
-	1    9250 4210
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR?
 U 1 1 61971009
-P 3170 880
-F 0 "#PWR?" H 3170 730 50  0001 C CNN
-F 1 "+3V3" H 3185 1053 50  0000 C CNN
-F 2 "" H 3170 880 50  0001 C CNN
-F 3 "" H 3170 880 50  0001 C CNN
-	1    3170 880 
+P 1100 780
+F 0 "#PWR?" H 1100 630 50  0001 C CNN
+F 1 "+3V3" H 1115 953 50  0000 C CNN
+F 2 "" H 1100 780 50  0001 C CNN
+F 3 "" H 1100 780 50  0001 C CNN
+	1    1100 780 
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3170 880  2670 880 
-Wire Wire Line
-	1970 880  1470 880 
-$Comp
-L power:+BATT #PWR?
-U 1 1 61973B10
-P 1470 880
-F 0 "#PWR?" H 1470 730 50  0001 C CNN
-F 1 "+BATT" H 1485 1053 50  0000 C CNN
-F 2 "" H 1470 880 50  0001 C CNN
-F 3 "" H 1470 880 50  0001 C CNN
-	1    1470 880 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1470 1030 1970 1030
-$Comp
-L power:-BATT #PWR?
-U 1 1 61974BFF
-P 1470 1030
-F 0 "#PWR?" H 1470 880 50  0001 C CNN
-F 1 "-BATT" H 1485 1203 50  0000 C CNN
-F 2 "" H 1470 1030 50  0001 C CNN
-F 3 "" H 1470 1030 50  0001 C CNN
-	1    1470 1030
-	-1   0    0    1   
 $EndComp
 $Sheet
 S 4260 680  800  200 
@@ -458,41 +352,25 @@ Text Label 6710 2220 0    50   ~ 0
 SPI3_CS2
 Text Label 6710 2870 0    50   ~ 0
 SPI4_CS2
-Text Label 8730 1810 0    50   ~ 0
+Text Label 8480 1810 0    50   ~ 0
 SPI2_CS2
-Text Label 8730 2860 0    50   ~ 0
+Text Label 8480 2860 0    50   ~ 0
 SPI3_CS2
-Text Label 8730 3910 0    50   ~ 0
-SPI4_CS2
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J2
-U 1 1 619C94C4
-P 1460 6570
-F 0 "J2" V 1506 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 1415 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 1460 6570 50  0001 L BNN
-F 3 "" H 1460 6570 50  0001 L BNN
-F 4 "Samtec" H 1460 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 1460 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 1460 6570 50  0001 L BNN "PARTREV"
-	1    1460 6570
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 619D351B
-P 6610 6970
-F 0 "#PWR?" H 6610 6720 50  0001 C CNN
-F 1 "GND" H 6615 6797 50  0000 C CNN
-F 2 "" H 6610 6970 50  0001 C CNN
-F 3 "" H 6610 6970 50  0001 C CNN
-	1    6610 6970
+P 6410 6970
+F 0 "#PWR?" H 6410 6720 50  0001 C CNN
+F 1 "GND" H 6415 6797 50  0000 C CNN
+F 2 "" H 6410 6970 50  0001 C CNN
+F 3 "" H 6410 6970 50  0001 C CNN
+	1    6410 6970
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6610 6970 6610 6870
+	6410 6970 6410 6870
 Wire Wire Line
-	1810 6870 1810 6570
+	1610 6870 1610 6570
 Wire Wire Line
 	960  6470 960  6220
 $Comp
@@ -530,98 +408,42 @@ Text Label 6710 5270 0    50   ~ 0
 ADC_7
 Text Label 1110 6570 2    50   ~ 0
 ADC_DIFF_0_N
-Text Label 1810 6470 0    50   ~ 0
+Text Label 1610 6470 0    50   ~ 0
 ADC_DIFF_0_P
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J3
-U 1 1 619F0CF5
-P 2860 6570
-F 0 "J3" V 2906 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 2815 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 2860 6570 50  0001 L BNN
-F 3 "" H 2860 6570 50  0001 L BNN
-F 4 "Samtec" H 2860 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 2860 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 2860 6570 50  0001 L BNN "PARTREV"
-	1    2860 6570
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3210 6870 3210 6570
+	3010 6870 3010 6570
 Wire Wire Line
 	2360 6470 2360 6220
 Wire Wire Line
 	2360 6470 2510 6470
 Text Label 2510 6570 2    50   ~ 0
 ADC_DIFF_1_N
-Text Label 3210 6470 0    50   ~ 0
+Text Label 3010 6470 0    50   ~ 0
 ADC_DIFF_1_P
 Wire Wire Line
-	1810 6870 3210 6870
-Connection ~ 3210 6870
+	1610 6870 3010 6870
+Connection ~ 3010 6870
 Wire Wire Line
-	3210 6870 4610 6870
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J4
-U 1 1 61A063C0
-P 4260 6570
-F 0 "J4" V 4306 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 4215 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 4260 6570 50  0001 L BNN
-F 3 "" H 4260 6570 50  0001 L BNN
-F 4 "Samtec" H 4260 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 4260 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 4260 6570 50  0001 L BNN "PARTREV"
-	1    4260 6570
-	1    0    0    -1  
-$EndComp
+	3010 6870 4410 6870
 Wire Wire Line
-	4610 6870 4610 6570
+	4410 6870 4410 6570
 Wire Wire Line
 	3910 6470 3910 6220
-Text Label 4610 6470 0    50   ~ 0
+Text Label 4410 6470 0    50   ~ 0
 ADC_2
 NoConn ~ 3910 6570
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J5
-U 1 1 61A0D735
-P 5260 6570
-F 0 "J5" V 5306 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 5215 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 5260 6570 50  0001 L BNN
-F 3 "" H 5260 6570 50  0001 L BNN
-F 4 "Samtec" H 5260 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 5260 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 5260 6570 50  0001 L BNN "PARTREV"
-	1    5260 6570
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5610 6870 5610 6570
+	5410 6870 5410 6570
 Wire Wire Line
 	4910 6470 4910 6220
-Text Label 5610 6470 0    50   ~ 0
+Text Label 5410 6470 0    50   ~ 0
 ADC_3
 NoConn ~ 4910 6570
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J6
-U 1 1 61A103C6
-P 6260 6570
-F 0 "J6" V 6306 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 6215 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 6260 6570 50  0001 L BNN
-F 3 "" H 6260 6570 50  0001 L BNN
-F 4 "Samtec" H 6260 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 6260 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 6260 6570 50  0001 L BNN "PARTREV"
-	1    6260 6570
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6610 6870 6610 6570
+	6410 6870 6410 6570
 Wire Wire Line
 	5910 6470 5910 6220
-Text Label 6610 6470 0    50   ~ 0
+Text Label 6410 6470 0    50   ~ 0
 ADC_4
 NoConn ~ 5910 6570
 Wire Wire Line
@@ -638,79 +460,22 @@ Wire Wire Line
 Connection ~ 4910 6220
 Wire Wire Line
 	4910 6220 3910 6220
-$Comp
-L power:GND #PWR?
-U 1 1 61A21FB9
-P 10750 5770
-F 0 "#PWR?" H 10750 5520 50  0001 C CNN
-F 1 "GND" H 10755 5597 50  0000 C CNN
-F 2 "" H 10750 5770 50  0001 C CNN
-F 3 "" H 10750 5770 50  0001 C CNN
-	1    10750 5770
-	1    0    0    -1  
-$EndComp
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J10
-U 1 1 61A21FC4
-P 8400 5370
-F 0 "J10" V 8446 5240 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 8355 5240 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 8400 5370 50  0001 L BNN
-F 3 "" H 8400 5370 50  0001 L BNN
-F 4 "Samtec" H 8400 5370 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 8400 5370 50  0001 L BNN "STANDARD"
-F 6 "R" H 8400 5370 50  0001 L BNN "PARTREV"
-	1    8400 5370
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8750 5670 8750 5370
+	8550 5670 8550 5370
 Wire Wire Line
 	7900 5270 7900 5020
 Wire Wire Line
 	7900 5270 8050 5270
-Text Label 8750 5270 0    50   ~ 0
+Text Label 8550 5270 0    50   ~ 0
 ADC_5
 NoConn ~ 8050 5370
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J11
-U 1 1 61A21FD2
-P 9400 5370
-F 0 "J11" V 9446 5240 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 9355 5240 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 9400 5370 50  0001 L BNN
-F 3 "" H 9400 5370 50  0001 L BNN
-F 4 "Samtec" H 9400 5370 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 9400 5370 50  0001 L BNN "STANDARD"
-F 6 "R" H 9400 5370 50  0001 L BNN "PARTREV"
-	1    9400 5370
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 5670 9750 5370
 Wire Wire Line
 	9050 5270 9050 5020
-Text Label 9750 5270 0    50   ~ 0
+Text Label 9550 5270 0    50   ~ 0
 ADC_6
 NoConn ~ 9050 5370
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J13
-U 1 1 61A21FE0
-P 10400 5370
-F 0 "J13" V 10446 5240 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 10355 5240 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV-BE" H 10400 5370 50  0001 L BNN
-F 3 "" H 10400 5370 50  0001 L BNN
-F 4 "Samtec" H 10400 5370 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 10400 5370 50  0001 L BNN "STANDARD"
-F 6 "R" H 10400 5370 50  0001 L BNN "PARTREV"
-	1    10400 5370
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 5270 10050 5020
-Text Label 10750 5270 0    50   ~ 0
-ADC_7
 NoConn ~ 10050 5370
 Wire Wire Line
 	9050 5020 7900 5020
@@ -727,17 +492,9 @@ F 3 "" H 7900 4820 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 5020 7900 4820
-Wire Wire Line
-	10750 5370 10750 5670
 Connection ~ 7900 5020
 Wire Wire Line
-	8750 5670 9750 5670
-Connection ~ 10750 5670
-Wire Wire Line
-	10750 5670 10750 5770
-Connection ~ 9750 5670
-Wire Wire Line
-	9750 5670 10750 5670
+	8550 5670 9550 5670
 Text Label 6710 4020 0    50   ~ 0
 DAC1_OUT1
 Text Label 6710 4120 0    50   ~ 0
@@ -754,14 +511,6 @@ Text Label 10690 1330 0    50   ~ 0
 LPUART1_RX
 Text Label 10690 1230 0    50   ~ 0
 LPUART1_TX
-Wire Wire Line
-	9250 1910 9250 2960
-Connection ~ 9250 2960
-Wire Wire Line
-	9250 2960 9250 4010
-Connection ~ 9250 4010
-Wire Wire Line
-	9250 4010 9250 4210
 Text Label 5360 5020 2    50   ~ 0
 GPIO_AUX_5
 Text Label 5360 4920 2    50   ~ 0
@@ -774,17 +523,17 @@ Text Label 5360 4620 2    50   ~ 0
 GPIO_AUX_1
 Text Label 5360 4520 2    50   ~ 0
 GPIO_AUX_0
-Text Label 9940 1430 2    50   ~ 0
+Text Label 10190 1430 2    50   ~ 0
 GPIO_AUX_5
-Text Label 9940 1330 2    50   ~ 0
+Text Label 10190 1330 2    50   ~ 0
 GPIO_AUX_4
-Text Label 9940 1230 2    50   ~ 0
+Text Label 10190 1230 2    50   ~ 0
 GPIO_AUX_3
-Text Label 9940 1130 2    50   ~ 0
+Text Label 10190 1130 2    50   ~ 0
 GPIO_AUX_2
-Text Label 9940 1030 2    50   ~ 0
+Text Label 10190 1030 2    50   ~ 0
 GPIO_AUX_1
-Text Label 9940 930  2    50   ~ 0
+Text Label 10190 930  2    50   ~ 0
 GPIO_AUX_0
 $Comp
 L power:+3V3 #PWR?
@@ -817,44 +566,14 @@ Text Notes 9670 2070 0    50   ~ 0
 this connector is just here so we can\nbreak out the leftover GPIOs, it will\nbe removed in a later revision if\nunnecessary.
 Wire Wire Line
 	10690 930  10690 790 
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J12
-U 1 1 61A99716
-P 10320 1230
-F 0 "J12" H 10320 1797 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 10320 1706 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-BE-TR" H 10320 1230 50  0001 L BNN
-F 3 "" H 10320 1230 50  0001 L BNN
-F 4 "R" H 10320 1230 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 10320 1230 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 10320 1230 50  0001 L BNN "MANUFACTURER"
-	1    10320 1230
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1470 880  1160 880 
+	1100 1010 970  1010
 Wire Wire Line
-	1160 880  1160 900 
+	1100 1110 970  1110
 Wire Wire Line
-	1160 900  1030 900 
-Connection ~ 1470 880 
+	1100 1210 970  1210
 Wire Wire Line
-	1470 1030 1160 1030
-Wire Wire Line
-	1160 1030 1160 1000
-Wire Wire Line
-	1160 1000 1030 1000
-Connection ~ 1470 1030
-Wire Wire Line
-	1160 1030 1160 1100
-Wire Wire Line
-	1160 1100 1030 1100
-Connection ~ 1160 1030
-Wire Wire Line
-	1160 880  1160 800 
-Wire Wire Line
-	1160 800  1030 800 
-Connection ~ 1160 880 
+	1100 910  970  910 
 $Sheet
 S 3980 3820 560  290 
 U 61B32EF7
@@ -890,89 +609,89 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 61B95A60
-P 1560 6930
-F 0 "H5" H 1660 6976 50  0000 L CNN
-F 1 "MountingHole" H 1660 6885 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1560 6930 50  0001 C CNN
-F 3 "~" H 1560 6930 50  0001 C CNN
-	1    1560 6930
+P 1360 6930
+F 0 "H5" H 1460 6976 50  0000 L CNN
+F 1 "MountingHole" H 1460 6885 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1360 6930 50  0001 C CNN
+F 3 "~" H 1360 6930 50  0001 C CNN
+	1    1360 6930
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 61B96D5E
-P 2960 6970
-F 0 "H6" H 3060 7016 50  0000 L CNN
-F 1 "MountingHole" H 3060 6925 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2960 6970 50  0001 C CNN
-F 3 "~" H 2960 6970 50  0001 C CNN
-	1    2960 6970
+P 2760 6970
+F 0 "H6" H 2860 7016 50  0000 L CNN
+F 1 "MountingHole" H 2860 6925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2760 6970 50  0001 C CNN
+F 3 "~" H 2760 6970 50  0001 C CNN
+	1    2760 6970
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 61B9B453
-P 4360 6990
-F 0 "H7" H 4460 7036 50  0000 L CNN
-F 1 "MountingHole" H 4460 6945 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4360 6990 50  0001 C CNN
-F 3 "~" H 4360 6990 50  0001 C CNN
-	1    4360 6990
+P 4160 6990
+F 0 "H7" H 4260 7036 50  0000 L CNN
+F 1 "MountingHole" H 4260 6945 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4160 6990 50  0001 C CNN
+F 3 "~" H 4160 6990 50  0001 C CNN
+	1    4160 6990
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 61B9FAF4
-P 5350 6970
-F 0 "H8" H 5450 7016 50  0000 L CNN
-F 1 "MountingHole" H 5450 6925 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5350 6970 50  0001 C CNN
-F 3 "~" H 5350 6970 50  0001 C CNN
-	1    5350 6970
+P 5150 6970
+F 0 "H8" H 5250 7016 50  0000 L CNN
+F 1 "MountingHole" H 5250 6925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5150 6970 50  0001 C CNN
+F 3 "~" H 5150 6970 50  0001 C CNN
+	1    5150 6970
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 61BA57E1
-P 6330 7170
-F 0 "H9" H 6430 7216 50  0000 L CNN
-F 1 "MountingHole" H 6430 7125 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6330 7170 50  0001 C CNN
-F 3 "~" H 6330 7170 50  0001 C CNN
-	1    6330 7170
+P 6130 7170
+F 0 "H9" H 6230 7216 50  0000 L CNN
+F 1 "MountingHole" H 6230 7125 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6130 7170 50  0001 C CNN
+F 3 "~" H 6130 7170 50  0001 C CNN
+	1    6130 7170
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H13
 U 1 1 61BAA43D
-P 8190 6260
-F 0 "H13" H 8290 6306 50  0000 L CNN
-F 1 "MountingHole" H 8290 6215 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8190 6260 50  0001 C CNN
-F 3 "~" H 8190 6260 50  0001 C CNN
-	1    8190 6260
+P 8150 5950
+F 0 "H13" H 8250 5996 50  0000 L CNN
+F 1 "MountingHole" H 8250 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8150 5950 50  0001 C CNN
+F 3 "~" H 8150 5950 50  0001 C CNN
+	1    8150 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H14
 U 1 1 61BAECA1
-P 9130 6300
-F 0 "H14" H 9230 6346 50  0000 L CNN
-F 1 "MountingHole" H 9230 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9130 6300 50  0001 C CNN
-F 3 "~" H 9130 6300 50  0001 C CNN
-	1    9130 6300
+P 9090 5990
+F 0 "H14" H 9190 6036 50  0000 L CNN
+F 1 "MountingHole" H 9190 5945 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9090 5990 50  0001 C CNN
+F 3 "~" H 9090 5990 50  0001 C CNN
+	1    9090 5990
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H16
 U 1 1 61BB32C0
-P 10190 6290
-F 0 "H16" H 10290 6336 50  0000 L CNN
-F 1 "MountingHole" H 10290 6245 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10190 6290 50  0001 C CNN
-F 3 "~" H 10190 6290 50  0001 C CNN
-	1    10190 6290
+P 10150 5980
+F 0 "H16" H 10250 6026 50  0000 L CNN
+F 1 "MountingHole" H 10250 5935 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10150 5980 50  0001 C CNN
+F 3 "~" H 10150 5980 50  0001 C CNN
+	1    10150 5980
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1106,36 +825,34 @@ Wire Wire Line
 	4210 580  4210 780 
 Wire Wire Line
 	4210 780  4260 780 
-Connection ~ 4610 6870
+Connection ~ 4410 6870
 Wire Wire Line
-	4610 6870 5610 6870
-Connection ~ 5610 6870
+	4410 6870 5410 6870
+Connection ~ 5410 6870
 Wire Wire Line
-	5610 6870 6610 6870
-Connection ~ 6610 6870
+	5410 6870 6410 6870
+Connection ~ 6410 6870
 $Comp
 L Connector:Conn_01x06_Female J?
 U 1 1 619A8395
-P 830 1000
+P 770 1110
 AR Path="/61B32EF7/619A8395" Ref="J?"  Part="1" 
 AR Path="/619A8395" Ref="J1"  Part="1" 
-F 0 "J1" H 858 976 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 858 885 50  0000 L CNN
-F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 830 1000 50  0001 C CNN
-F 3 "~" H 830 1000 50  0001 C CNN
-	1    830  1000
+F 0 "J1" H 798 1086 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 798 995 50  0000 L CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 770 1110 50  0001 C CNN
+F 3 "~" H 770 1110 50  0001 C CNN
+	1    770  1110
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1160 1100 1160 1200
+	1100 1210 1100 1310
 Wire Wire Line
-	1160 1200 1030 1200
-Connection ~ 1160 1100
+	1100 1310 970  1310
+Connection ~ 1100 1210
 Wire Wire Line
-	1160 800  1160 700 
-Wire Wire Line
-	1160 700  1030 700 
-Connection ~ 1160 800 
+	1100 810  970  810 
+Connection ~ 1100 910 
 $Sheet
 S 1400 3840 640  430 
 U 619FA3B6
@@ -1724,4 +1441,219 @@ Wire Wire Line
 	2600 3270 4810 3270
 Wire Wire Line
 	2600 3370 3420 3370
+Wire Wire Line
+	1100 780  1100 810 
+Connection ~ 1100 810 
+Wire Wire Line
+	1100 810  1100 910 
+Wire Wire Line
+	1100 1310 1100 1380
+Connection ~ 1100 1310
+$Comp
+L power:GND #PWR?
+U 1 1 61A6D070
+P 1100 1380
+F 0 "#PWR?" H 1100 1130 50  0001 C CNN
+F 1 "GND" H 1105 1207 50  0000 C CNN
+F 2 "" H 1100 1380 50  0001 C CNN
+F 3 "" H 1100 1380 50  0001 C CNN
+	1    1100 1380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 910  1100 1010
+Wire Wire Line
+	1100 1110 1100 1210
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 61A8053B
+P 8180 1610
+F 0 "J?" H 8230 2027 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 8230 1936 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 8180 1610 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 8180 1610 50  0001 C CNN
+	1    8180 1610
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 61A97C1E
+P 8180 2660
+F 0 "J?" H 8230 3077 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 8230 2986 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 8180 2660 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 8180 2660 50  0001 C CNN
+	1    8180 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 61AA123F
+P 8180 3710
+F 0 "J?" H 8230 4127 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 8230 4036 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 8180 3710 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 8180 3710 50  0001 C CNN
+	1    8180 3710
+	1    0    0    -1  
+$EndComp
+Text Label 8480 2660 0    50   ~ 0
+I2C1_SDA
+Text Label 8480 2760 0    50   ~ 0
+I2C1_SCL
+Wire Wire Line
+	9000 2960 9000 4010
+Connection ~ 9000 2960
+Wire Wire Line
+	9000 1910 9000 2960
+Text Label 8480 3910 0    50   ~ 0
+SPI4_CS2
+Text Label 8480 3710 0    50   ~ 0
+I2C4_SDA
+Text Label 8480 3810 0    50   ~ 0
+I2C4_SCL
+Text Label 8480 3610 0    50   ~ 0
+UART8_RX
+Text Label 8480 3510 0    50   ~ 0
+UART8_TX
+Wire Wire Line
+	8480 2960 9000 2960
+Wire Wire Line
+	8480 4010 9000 4010
+Connection ~ 9000 4010
+$Comp
+L power:GND #PWR?
+U 1 1 61970198
+P 9000 4210
+F 0 "#PWR?" H 9000 3960 50  0001 C CNN
+F 1 "GND" H 9005 4037 50  0000 C CNN
+F 2 "" H 9000 4210 50  0001 C CNN
+F 3 "" H 9000 4210 50  0001 C CNN
+	1    9000 4210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4010 9000 4210
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 61ACE3C3
+P 10390 1130
+F 0 "J?" H 10440 1547 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 10440 1456 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 10390 1130 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 10390 1130 50  0001 C CNN
+	1    10390 1130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61AF0159
+P 8250 5270
+F 0 "J?" H 8300 5487 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 8300 5396 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 8250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 8250 5270 50  0001 C CNN
+	1    8250 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61AFC2AC
+P 9250 5270
+F 0 "J?" H 9300 5487 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 9300 5396 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 9250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 9250 5270 50  0001 C CNN
+	1    9250 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61B04B6F
+P 10250 5270
+F 0 "J?" H 10300 5487 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 10300 5396 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 10250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 10250 5270 50  0001 C CNN
+	1    10250 5270
+	1    0    0    -1  
+$EndComp
+Text Label 10550 5270 0    50   ~ 0
+ADC_7
+Connection ~ 9550 5670
+Wire Wire Line
+	10550 5370 10550 5670
+Wire Wire Line
+	10550 5670 10550 5770
+Wire Wire Line
+	9550 5670 9550 5370
+Connection ~ 10550 5670
+$Comp
+L power:GND #PWR?
+U 1 1 61A21FB9
+P 10550 5770
+F 0 "#PWR?" H 10550 5520 50  0001 C CNN
+F 1 "GND" H 10555 5597 50  0000 C CNN
+F 2 "" H 10550 5770 50  0001 C CNN
+F 3 "" H 10550 5770 50  0001 C CNN
+	1    10550 5770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5670 10550 5670
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61B39E5C
+P 1310 6470
+F 0 "J?" H 1360 6687 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 1360 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 1310 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 1310 6470 50  0001 C CNN
+	1    1310 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61B4A5F9
+P 2710 6470
+F 0 "J?" H 2760 6687 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 2760 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 2710 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 2710 6470 50  0001 C CNN
+	1    2710 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61B52EB1
+P 4110 6470
+F 0 "J?" H 4160 6687 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 4160 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 4110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 4110 6470 50  0001 C CNN
+	1    4110 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61B5B481
+P 5110 6470
+F 0 "J?" H 5160 6687 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 5160 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 5110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 5110 6470 50  0001 C CNN
+	1    5110 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 61B640A0
+P 6110 6470
+F 0 "J?" H 6160 6687 50  0000 C CNN
+F 1 "CLP-102-02-F-D-BE" H 6160 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 6110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 6110 6470 50  0001 C CNN
+	1    6110 6470
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
