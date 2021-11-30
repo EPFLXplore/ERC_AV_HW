@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 5 10
 Title "Avionics STM32 node core"
 Date ""
 Rev "beta 2"
@@ -86,39 +86,13 @@ $EndComp
 Wire Wire Line
 	4150 2450 4300 2450
 Wire Wire Line
-	3700 2350 3700 2250
-$Comp
-L Device:C C11
-U 1 1 6189DF52
-P 3250 2200
-F 0 "C11" H 3365 2246 50  0000 L CNN
-F 1 "2.2u" H 3365 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2050 50  0001 C CNN
-F 3 "~" H 3250 2200 50  0001 C CNN
-	1    3250 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 6189E8F0
-P 3250 2400
-F 0 "C14" H 3136 2354 50  0000 R CNN
-F 1 "2.2u" H 3136 2445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2250 50  0001 C CNN
-F 3 "~" H 3250 2400 50  0001 C CNN
-	1    3250 2400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
 	3700 2250 3700 2200
-Connection ~ 3700 2250
 Wire Wire Line
 	3400 2200 3700 2200
 Wire Wire Line
 	3400 2400 3700 2400
 Wire Wire Line
 	3700 2400 3700 2350
-Connection ~ 3700 2350
 Wire Wire Line
 	3100 2400 3100 2200
 Wire Wire Line
@@ -682,8 +656,6 @@ Wire Wire Line
 	9800 1040 9600 1040
 Wire Wire Line
 	10000 840  9800 840 
-Wire Wire Line
-	6000 840  6000 740 
 Connection ~ 6000 840 
 Connection ~ 6200 840 
 Wire Wire Line
@@ -948,20 +920,6 @@ Text Label 10250 4900 0    50   ~ 0
 VDDA
 Text Label 5500 1550 1    50   ~ 0
 VDDA
-Text Label 6000 740  0    50   ~ 0
-VDD_MCU
-Text Label 4700 1400 0    50   ~ 0
-VDD_MCU
-Text Label 9600 4100 2    50   ~ 0
-VDD_MCU
-Text Label 9400 2100 2    50   ~ 0
-VDD_MCU
-Text Label 9600 4900 2    50   ~ 0
-VDD_MCU
-Text Label 2000 4100 2    50   ~ 0
-VDD_MCU
-Text Label 1850 6300 2    50   ~ 0
-VDD_MCU
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61ACC57C
@@ -986,17 +944,17 @@ QSPI2_CLK
 Text Label 6100 6350 0    50   ~ 0
 QSPI2_nCS
 Text HLabel 4300 3850 0    50   Output ~ 0
-SPI4_CS1
+SPI4_CS2
 Text HLabel 4300 3950 0    50   Output ~ 0
-SPI4_CS0
+SPI4_CS1
 Text HLabel 6100 6550 2    50   Output ~ 0
-SPI2_CS0
+SPI4_CS0
 Text HLabel 4300 4750 0    50   Input ~ 0
 SPI1_CS
 Text HLabel 4300 4850 0    50   Output ~ 0
-SPI2_CS1
+SPI2_CS0
 Text HLabel 4300 4950 0    50   Output ~ 0
-SPI3_CS1
+SPI2_CS1
 Text HLabel 4300 5650 0    50   Output ~ 0
 SPI3_CS0
 Text HLabel 6100 2250 2    50   Output ~ 0
@@ -1028,9 +986,9 @@ ADC_6
 Text HLabel 6100 3650 2    50   Input ~ 0
 ADC_7
 Text HLabel 6100 6150 2    50   Output ~ 0
-SPI4_CS2
-Text HLabel 6100 3350 2    50   Output ~ 0
 SPI3_CS2
+Text HLabel 6100 3350 2    50   Output ~ 0
+SPI3_CS1
 Text HLabel 4300 5050 0    50   Output ~ 0
 SPI2_CS2
 Text HLabel 4300 4650 0    50   BiDi ~ 0
@@ -1140,7 +1098,7 @@ P 2100 1900
 F 0 "R8" V 1893 1900 50  0000 C CNN
 F 1 "0" V 1984 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2030 1900 50  0001 C CNN
-F 3 "~" H 2100 1900 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 2100 1900 50  0001 C CNN
 	1    2100 1900
 	0    1    1    0   
 $EndComp
@@ -1194,4 +1152,92 @@ Wire Wire Line
 	10100 2900 10100 3300
 Wire Wire Line
 	9700 2900 9700 3300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D3F0D5
+P 4700 1400
+F 0 "#PWR?" H 4700 1250 50  0001 C CNN
+F 1 "+3V3" H 4715 1573 50  0000 C CNN
+F 2 "" H 4700 1400 50  0001 C CNN
+F 3 "" H 4700 1400 50  0001 C CNN
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D3F685
+P 9600 4100
+F 0 "#PWR?" H 9600 3950 50  0001 C CNN
+F 1 "+3V3" H 9615 4273 50  0000 C CNN
+F 2 "" H 9600 4100 50  0001 C CNN
+F 3 "" H 9600 4100 50  0001 C CNN
+	1    9600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D3FC47
+P 9400 2100
+F 0 "#PWR?" H 9400 1950 50  0001 C CNN
+F 1 "+3V3" V 9415 2228 50  0000 L CNN
+F 2 "" H 9400 2100 50  0001 C CNN
+F 3 "" H 9400 2100 50  0001 C CNN
+	1    9400 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D4026F
+P 9600 4900
+F 0 "#PWR?" H 9600 4750 50  0001 C CNN
+F 1 "+3V3" H 9615 5073 50  0000 C CNN
+F 2 "" H 9600 4900 50  0001 C CNN
+F 3 "" H 9600 4900 50  0001 C CNN
+	1    9600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D40855
+P 2000 4100
+F 0 "#PWR?" H 2000 3950 50  0001 C CNN
+F 1 "+3V3" H 2015 4273 50  0000 C CNN
+F 2 "" H 2000 4100 50  0001 C CNN
+F 3 "" H 2000 4100 50  0001 C CNN
+	1    2000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D40E4D
+P 1850 6300
+F 0 "#PWR?" H 1850 6150 50  0001 C CNN
+F 1 "+3V3" V 1865 6428 50  0000 L CNN
+F 2 "" H 1850 6300 50  0001 C CNN
+F 3 "" H 1850 6300 50  0001 C CNN
+	1    1850 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 6189DF52
+P 3250 2200
+F 0 "C14" H 3365 2246 50  0000 L CNN
+F 1 "2.2u" H 3365 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2050 50  0001 C CNN
+F 3 "~" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 6189E8F0
+P 3250 2400
+F 0 "C11" H 3136 2354 50  0000 R CNN
+F 1 "2.2u" H 3136 2445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2250 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
