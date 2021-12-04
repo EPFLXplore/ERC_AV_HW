@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 2 10
 Title ""
 Date ""
 Rev "beta 2"
@@ -107,10 +107,10 @@ AR Path="/61B73361/61B3AB5C" Ref="U4"  Part="1"
 AR Path="/61B72C55/61B3AB5C" Ref="U2"  Part="1" 
 AR Path="/61B72982/61B3AB5C" Ref="U1"  Part="1" 
 AR Path="/61B7335B/61B3AB5C" Ref="U3"  Part="1" 
-F 0 "U4" H 4320 4815 50  0000 C CNN
+F 0 "U1" H 4320 4815 50  0000 C CNN
 F 1 "ADUM142D0BRQZ-RL7" H 4320 4724 50  0000 C CNN
 F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 4320 4690 50  0001 C CNN
-F 3 "" H 4320 4690 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/analog-devices-inc/ADUM142D0BRQZ-RL7/7388629" H 4320 4690 50  0001 C CNN
 	1    4320 4250
 	1    0    0    -1  
 $EndComp

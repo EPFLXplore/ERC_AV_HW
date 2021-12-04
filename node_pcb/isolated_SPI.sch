@@ -20,7 +20,7 @@ P 5700 3760
 F 0 "U11" H 5700 3275 50  0000 C CNN
 F 1 "ADUM141D1BRZ-RL7" H 5700 3366 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5700 4200 50  0001 C CNN
-F 3 "" H 5700 4200 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/analog-devices-inc/ADUM141D1BRZ-RL7/5775483" H 5700 4200 50  0001 C CNN
 	1    5700 3760
 	-1   0    0    1   
 $EndComp
@@ -91,7 +91,7 @@ P 7140 3820
 F 0 "J21" H 7168 3796 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 7168 3705 50  0000 L CNN
 F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 7140 3820 50  0001 C CNN
-F 3 "~" H 7140 3820 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/SM06B-SURS-TF-LF-SN/1989313" H 7140 3820 50  0001 C CNN
 	1    7140 3820
 	1    0    0    1   
 $EndComp

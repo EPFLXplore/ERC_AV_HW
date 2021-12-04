@@ -276,8 +276,8 @@ U 1 1 618BC55E
 P 1150 1150
 F 0 "C7_HSE1" H 1265 1196 50  0000 L CNN
 F 1 "10 pF" H 1265 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1188 1000 50  0001 C CNN
-F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN100?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQ6FrNi5A0pRs%3D" H 1150 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007028?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6hF0V0gaB4X0%3D" H 1150 1150 50  0001 C CNN
 	1    1150 1150
 	1    0    0    -1  
 $EndComp
@@ -287,8 +287,8 @@ U 1 1 618BCD63
 P 1650 1150
 F 0 "C9_HSE2" H 1765 1196 50  0000 L CNN
 F 1 "10 pF" H 1765 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 1000 50  0001 C CNN
-F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN100?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQ6FrNi5A0pRs%3D" H 1650 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007028?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6hF0V0gaB4X0%3D" H 1650 1150 50  0001 C CNN
 	1    1650 1150
 	1    0    0    -1  
 $EndComp
@@ -309,8 +309,8 @@ U 1 1 618CDA4E
 P 1150 2050
 F 0 "C8_LSE1" H 1265 2096 50  0000 L CNN
 F 1 "15 pF" H 1265 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1188 1900 50  0001 C CNN
-F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN150?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQl%2FzpxkbsgZA%3D" H 1150 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1900 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007029?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6UyIo%252BNY5dvo%3D" H 1150 2050 50  0001 C CNN
 	1    1150 2050
 	1    0    0    -1  
 $EndComp
@@ -320,8 +320,8 @@ U 1 1 618CDA54
 P 1650 2050
 F 0 "C10_LSE2" H 1765 2096 50  0000 L CNN
 F 1 "15 pF" H 1765 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 1900 50  0001 C CNN
-F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0603JRNPO0BN150?qs=sGAEpiMZZMsh%252B1woXyUXj2i9A4b3OdfQl%2FzpxkbsgZA%3D" H 1650 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1900 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007029?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6UyIo%252BNY5dvo%3D" H 1650 2050 50  0001 C CNN
 	1    1650 2050
 	1    0    0    -1  
 $EndComp
@@ -1022,7 +1022,7 @@ P 2000 4700
 F 0 "J20" H 1557 4746 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1557 4655 50  0000 R CNN
 F 2 "node_pcb:IDC_PinHeader_2x05_P1.27mm_Vertical_SMD_ARM_JTAG_SWD" H 2000 4700 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1650 3450 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/cnc-tech/3220-10-0100-00/3883661" V 1650 3450 50  0001 C CNN
 	1    2000 4700
 	1    0    0    -1  
 $EndComp
@@ -1133,7 +1133,7 @@ P 9600 2000
 F 0 "SW2" H 9600 1675 50  0000 C CNN
 F 1 "SW_SPDT" H 9600 1766 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 9600 2000 50  0001 C CNN
-F 3 "~" H 9600 2000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/CK-Switches/OS102011MS2QS1?qs=sGAEpiMZZMset%2FhoJ47xJNCYIvXJAHklcTiPHLB0BDg%3D" H 9600 2000 50  0001 C CNN
 	1    9600 2000
 	-1   0    0    1   
 $EndComp
@@ -1144,7 +1144,7 @@ P 9900 2900
 F 0 "SW3" H 9900 3135 50  0000 C CNN
 F 1 "SW_SPST" H 9900 3044 50  0000 C CNN
 F 2 "node_pcb:SW_Push_1P1T_NO_6x6mm_H9.5mm_LL3301NF065QG" H 9900 2900 50  0001 C CNN
-F 3 "~" H 9900 2900 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/e-switch/LL3301NF065QG/9749392?s=N4IgTCBcDaIDJwMyIAwEYByAxFA2ArAIoDiIAugL5A" H 9900 2900 50  0001 C CNN
 	1    9900 2900
 	1    0    0    -1  
 $EndComp

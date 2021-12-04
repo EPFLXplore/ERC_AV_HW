@@ -31,7 +31,7 @@ P 3760 2270
 F 0 "SW1" H 3760 2737 50  0000 C CNN
 F 1 "SW_DIP_x04" H 3760 2646 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile" H 3760 2270 50  0001 C CNN
-F 3 "~" H 3760 2270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/cui-devices/DS04-254-2-04BK-SMT/11310827" H 3760 2270 50  0001 C CNN
 	1    3760 2270
 	1    0    0    -1  
 $EndComp
@@ -500,7 +500,7 @@ AR Path="/619A8395" Ref="J1"  Part="1"
 F 0 "J1" H 798 1086 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 798 995 50  0000 L CNN
 F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 770 1110 50  0001 C CNN
-F 3 "~" H 770 1110 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/SM06B-SURS-TF-LF-SN/1989313" H 770 1110 50  0001 C CNN
 	1    770  1110
 	-1   0    0    1   
 $EndComp
@@ -854,9 +854,9 @@ P 10190 3390
 AR Path="/61904E37/61C3673A" Ref="R?"  Part="1" 
 AR Path="/61C3673A" Ref="R6"  Part="1" 
 F 0 "R6" V 9983 3390 50  0000 C CNN
-F 1 "1k" V 10074 3390 50  0000 C CNN
+F 1 "768" V 10074 3390 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10120 3390 50  0001 C CNN
-F 3 "~" H 10190 3390 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Susumu/RR1220P-7680-D-M?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbZLPPpOmrJ7U%3D" H 10190 3390 50  0001 C CNN
 	1    10190 3390
 	-1   0    0    1   
 $EndComp
@@ -893,9 +893,9 @@ P 10690 3390
 AR Path="/61904E37/61C98C2D" Ref="R?"  Part="1" 
 AR Path="/61C98C2D" Ref="R7"  Part="1" 
 F 0 "R7" V 10483 3390 50  0000 C CNN
-F 1 "1k" V 10574 3390 50  0000 C CNN
+F 1 "768" V 10574 3390 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10620 3390 50  0001 C CNN
-F 3 "~" H 10690 3390 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Susumu/RR1220P-7680-D-M?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbZLPPpOmrJ7U%3D" H 10690 3390 50  0001 C CNN
 	1    10690 3390
 	-1   0    0    1   
 $EndComp
@@ -964,9 +964,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J10
 U 1 1 61AF0159
 P 8250 5270
 F 0 "J10" H 8300 5487 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 8300 5396 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 8300 5396 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 8250 5270 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 8250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 8250 5270 50  0001 C CNN
 	1    8250 5270
 	1    0    0    -1  
 $EndComp
@@ -1288,9 +1288,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J12
 U 1 1 61B04B6F
 P 10250 5270
 F 0 "J12" H 10300 5487 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 10300 5396 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 10300 5396 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 10250 5270 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 10250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 10250 5270 50  0001 C CNN
 	1    10250 5270
 	1    0    0    -1  
 $EndComp
@@ -1299,9 +1299,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J11
 U 1 1 61AFC2AC
 P 9250 5270
 F 0 "J11" H 9300 5487 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 9300 5396 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 9300 5396 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 9250 5270 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 9250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 9250 5270 50  0001 C CNN
 	1    9250 5270
 	1    0    0    -1  
 $EndComp
@@ -1341,9 +1341,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J2
 U 1 1 61B39E5C
 P 1310 6470
 F 0 "J2" H 1360 6687 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 1360 6596 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 1360 6596 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 1310 6470 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 1310 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 1310 6470 50  0001 C CNN
 	1    1310 6470
 	1    0    0    -1  
 $EndComp
@@ -1352,9 +1352,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J3
 U 1 1 61B4A5F9
 P 2710 6470
 F 0 "J3" H 2760 6687 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 2760 6596 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 2760 6596 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 2710 6470 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 2710 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 2710 6470 50  0001 C CNN
 	1    2710 6470
 	1    0    0    -1  
 $EndComp
@@ -1363,9 +1363,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J4
 U 1 1 61B52EB1
 P 4110 6470
 F 0 "J4" H 4160 6687 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 4160 6596 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 4160 6596 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 4110 6470 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 4110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 4110 6470 50  0001 C CNN
 	1    4110 6470
 	1    0    0    -1  
 $EndComp
@@ -1374,9 +1374,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J5
 U 1 1 61B5B481
 P 5110 6470
 F 0 "J5" H 5160 6687 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 5160 6596 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 5160 6596 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 5110 6470 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 5110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 5110 6470 50  0001 C CNN
 	1    5110 6470
 	1    0    0    -1  
 $EndComp
@@ -1385,9 +1385,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 61B640A0
 P 6110 6470
 F 0 "J6" H 6160 6687 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 6160 6596 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 6160 6596 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 6110 6470 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 6110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 6110 6470 50  0001 C CNN
 	1    6110 6470
 	1    0    0    -1  
 $EndComp
@@ -1579,9 +1579,9 @@ L Connector_Generic:Conn_02x02_Odd_Even J14
 U 1 1 61E7B053
 P 9050 830
 F 0 "J14" H 9100 1047 50  0000 C CNN
-F 1 "CLP-102-02-F-D-BE" H 9100 956 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 9100 956 50  0000 C CNN
 F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 9050 830 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-F-D-BE/6692121" H 9050 830 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 9050 830 50  0001 C CNN
 	1    9050 830 
 	1    0    0    -1  
 $EndComp
