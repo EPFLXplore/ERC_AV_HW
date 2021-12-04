@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 1 1
 Title ""
 Date ""
 Rev "beta 2"
@@ -641,7 +641,7 @@ Wire Wire Line
 	10750 2350 10750 1200
 Connection ~ 10750 1200
 Wire Wire Line
-	10750 1200 10900 1200
+	10750 1200 10850 1200
 Wire Wire Line
 	10750 5500 10000 5500
 Connection ~ 10750 5500
@@ -1041,4 +1041,89 @@ Wire Wire Line
 Connection ~ 2950 3950
 Wire Wire Line
 	2950 3950 4150 3950
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 61ACA5A6
+P 1000 1330
+F 0 "J1" H 1108 1711 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1108 1620 50  0000 C CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 1000 1330 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/SM06B-SURS-TF-LF-SN/1989313" H 1000 1330 50  0001 C CNN
+	1    1000 1330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1430 1200 1530
+Connection ~ 1200 1530
+Wire Wire Line
+	1200 1530 1200 1630
+Connection ~ 1200 1630
+Wire Wire Line
+	1200 1630 1200 1800
+Wire Wire Line
+	1200 1330 1200 1230
+Connection ~ 1200 1130
+Wire Wire Line
+	1200 1130 1200 850 
+Connection ~ 1200 1230
+Wire Wire Line
+	1200 1230 1200 1130
+Text HLabel 1200 850  0    50   Input ~ 0
++BATT
+$Comp
+L power:-BATT #PWR?
+U 1 1 61AE1238
+P 1200 1800
+F 0 "#PWR?" H 1200 1650 50  0001 C CNN
+F 1 "-BATT" H 1215 1973 50  0000 C CNN
+F 2 "" H 1200 1800 50  0001 C CNN
+F 3 "" H 1200 1800 50  0001 C CNN
+	1    1200 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 61AC8882
+P 11090 1690
+F 0 "J2" H 11062 1572 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 11062 1663 50  0000 R CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 11090 1690 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/SM06B-SURS-TF-LF-SN/1989313" H 11090 1690 50  0001 C CNN
+	1    11090 1690
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10890 1320 10850 1320
+Wire Wire Line
+	10850 1320 10850 1200
+Wire Wire Line
+	10890 1320 10890 1390
+Connection ~ 10890 1390
+Wire Wire Line
+	10890 1390 10890 1490
+Connection ~ 10890 1490
+Wire Wire Line
+	10890 1490 10890 1590
+Connection ~ 10850 1200
+Wire Wire Line
+	10850 1200 10900 1200
+Wire Wire Line
+	10890 1690 10890 1790
+Connection ~ 10890 1790
+Wire Wire Line
+	10890 1790 10890 1890
+Connection ~ 10890 1890
+Wire Wire Line
+	10890 1890 10890 2030
+$Comp
+L power:GND #PWR?
+U 1 1 61B18061
+P 10890 2030
+F 0 "#PWR?" H 10890 1780 50  0001 C CNN
+F 1 "GND" H 10895 1857 50  0000 C CNN
+F 2 "" H 10890 2030 50  0001 C CNN
+F 3 "" H 10890 2030 50  0001 C CNN
+	1    10890 2030
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
