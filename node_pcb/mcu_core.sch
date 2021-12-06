@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 5 10
 Title "Avionics STM32 node core"
 Date ""
-Rev "beta 1"
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -66,17 +66,15 @@ Wire Wire Line
 	5300 1550 5400 1550
 Wire Wire Line
 	4900 1550 4700 1550
-Wire Wire Line
-	4700 1550 4700 1400
 Connection ~ 4900 1550
 Wire Wire Line
 	5400 7300 5650 7300
 Connection ~ 5400 7300
 $Comp
-L power:GND #PWR0154
+L power:GND #PWR0137
 U 1 1 6189C47D
 P 5650 7300
-F 0 "#PWR0154" H 5650 7050 50  0001 C CNN
+F 0 "#PWR0137" H 5650 7050 50  0001 C CNN
 F 1 "GND" H 5655 7127 50  0000 C CNN
 F 2 "" H 5650 7300 50  0001 C CNN
 F 3 "" H 5650 7300 50  0001 C CNN
@@ -86,48 +84,22 @@ $EndComp
 Wire Wire Line
 	4150 2450 4300 2450
 Wire Wire Line
-	3700 2350 3700 2250
-$Comp
-L Device:C C11
-U 1 1 6189DF52
-P 3250 2200
-F 0 "C11" H 3365 2246 50  0000 L CNN
-F 1 "2.2u" H 3365 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2050 50  0001 C CNN
-F 3 "~" H 3250 2200 50  0001 C CNN
-	1    3250 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 6189E8F0
-P 3250 2400
-F 0 "C14" H 3136 2354 50  0000 R CNN
-F 1 "2.2u" H 3136 2445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2250 50  0001 C CNN
-F 3 "~" H 3250 2400 50  0001 C CNN
-	1    3250 2400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
 	3700 2250 3700 2200
-Connection ~ 3700 2250
 Wire Wire Line
 	3400 2200 3700 2200
 Wire Wire Line
 	3400 2400 3700 2400
 Wire Wire Line
 	3700 2400 3700 2350
-Connection ~ 3700 2350
 Wire Wire Line
 	3100 2400 3100 2200
 Wire Wire Line
 	3100 2400 3100 2600
 $Comp
-L power:GND #PWR0155
+L power:GND #PWR0138
 U 1 1 618A1274
 P 3100 2600
-F 0 "#PWR0155" H 3100 2350 50  0001 C CNN
+F 0 "#PWR0138" H 3100 2350 50  0001 C CNN
 F 1 "GND" H 3105 2427 50  0000 C CNN
 F 2 "" H 3100 2600 50  0001 C CNN
 F 3 "" H 3100 2600 50  0001 C CNN
@@ -135,37 +107,15 @@ F 3 "" H 3100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW2
-U 1 1 618A2041
-P 9600 2000
-F 0 "SW2" H 9600 2285 50  0000 C CNN
-F 1 "SW_SPDT_x2" H 9600 2194 50  0000 C CNN
-F 2 "node_pcb:JS102011SCQN" H 9600 2000 50  0001 C CNN
-F 3 "~" H 9600 2000 50  0001 C CNN
-	1    9600 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0156
+L power:GND #PWR0139
 U 1 1 618A3520
 P 9400 1900
-F 0 "#PWR0156" H 9400 1650 50  0001 C CNN
+F 0 "#PWR0139" H 9400 1650 50  0001 C CNN
 F 1 "GND" V 9405 1772 50  0000 R CNN
 F 2 "" H 9400 1900 50  0001 C CNN
 F 3 "" H 9400 1900 50  0001 C CNN
 	1    9400 1900
 	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5E SW3
-U 1 1 618A42A4
-P 9900 3000
-F 0 "SW3" H 9900 3385 50  0000 C CNN
-F 1 "SW_MEC_5E" H 9900 3294 50  0000 C CNN
-F 2 "node_pcb:PTS647SM50SMTR2LFS" H 9900 3300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9900 3300 50  0001 C CNN
-	1    9900 3000
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C36
@@ -181,17 +131,7 @@ $EndComp
 Wire Wire Line
 	10050 3300 10100 3300
 Wire Wire Line
-	10100 3300 10100 3000
-Connection ~ 10100 3000
-Wire Wire Line
-	10100 3000 10100 2900
-Wire Wire Line
 	9750 3300 9700 3300
-Wire Wire Line
-	9700 3300 9700 3000
-Connection ~ 9700 3000
-Wire Wire Line
-	9700 3000 9700 2900
 Wire Wire Line
 	9700 3300 9550 3300
 Wire Wire Line
@@ -203,10 +143,10 @@ Wire Wire Line
 	10250 3300 10250 3450
 Connection ~ 10100 3300
 $Comp
-L power:GND #PWR0157
+L power:GND #PWR0140
 U 1 1 618A8FDD
 P 9550 3450
-F 0 "#PWR0157" H 9550 3200 50  0001 C CNN
+F 0 "#PWR0140" H 9550 3200 50  0001 C CNN
 F 1 "GND" H 9555 3277 50  0000 C CNN
 F 2 "" H 9550 3450 50  0001 C CNN
 F 3 "" H 9550 3450 50  0001 C CNN
@@ -251,10 +191,10 @@ Connection ~ 9900 4400
 Wire Wire Line
 	9900 4400 10050 4400
 $Comp
-L power:GND #PWR0158
+L power:GND #PWR0141
 U 1 1 618ABD1E
 P 9900 4500
-F 0 "#PWR0158" H 9900 4250 50  0001 C CNN
+F 0 "#PWR0141" H 9900 4250 50  0001 C CNN
 F 1 "GND" H 9905 4327 50  0000 C CNN
 F 2 "" H 9900 4500 50  0001 C CNN
 F 3 "" H 9900 4500 50  0001 C CNN
@@ -299,10 +239,10 @@ Connection ~ 9900 5200
 Wire Wire Line
 	9900 5200 10050 5200
 $Comp
-L power:GND #PWR0159
+L power:GND #PWR0142
 U 1 1 618AD591
 P 9900 5300
-F 0 "#PWR0159" H 9900 5050 50  0001 C CNN
+F 0 "#PWR0142" H 9900 5050 50  0001 C CNN
 F 1 "GND" H 9905 5127 50  0000 C CNN
 F 2 "" H 9900 5300 50  0001 C CNN
 F 3 "" H 9900 5300 50  0001 C CNN
@@ -318,10 +258,10 @@ Wire Wire Line
 Wire Wire Line
 	1250 550  1450 550 
 $Comp
-L power:GND #PWR0160
+L power:GND #PWR0143
 U 1 1 618BC1FD
 P 1400 1350
-F 0 "#PWR0160" H 1400 1100 50  0001 C CNN
+F 0 "#PWR0143" H 1400 1100 50  0001 C CNN
 F 1 "GND" H 1405 1177 50  0000 C CNN
 F 2 "" H 1400 1350 50  0001 C CNN
 F 3 "" H 1400 1350 50  0001 C CNN
@@ -329,24 +269,24 @@ F 3 "" H 1400 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C7_HSE1
 U 1 1 618BC55E
 P 1150 1150
-F 0 "C7" H 1265 1196 50  0000 L CNN
-F 1 "Cl" H 1265 1105 50  0000 L CNN
+F 0 "C7_HSE1" H 1265 1196 50  0000 L CNN
+F 1 "10 pF" H 1265 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1000 50  0001 C CNN
-F 3 "~" H 1150 1150 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007028?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6hF0V0gaB4X0%3D" H 1150 1150 50  0001 C CNN
 	1    1150 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C9_HSE2
 U 1 1 618BCD63
 P 1650 1150
-F 0 "C9" H 1765 1196 50  0000 L CNN
-F 1 "Cl" H 1765 1105 50  0000 L CNN
+F 0 "C9_HSE2" H 1765 1196 50  0000 L CNN
+F 1 "10 pF" H 1765 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1000 50  0001 C CNN
-F 3 "~" H 1650 1150 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007028?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6hF0V0gaB4X0%3D" H 1650 1150 50  0001 C CNN
 	1    1650 1150
 	1    0    0    -1  
 $EndComp
@@ -362,24 +302,24 @@ F 3 "https://www.mouser.ch/datasheet/2/122/ECX_2236B-1649452.pdf" H 1450 650 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L Device:C C8_LSE1
 U 1 1 618CDA4E
 P 1150 2050
-F 0 "C8" H 1265 2096 50  0000 L CNN
-F 1 "Cl2" H 1265 2005 50  0000 L CNN
+F 0 "C8_LSE1" H 1265 2096 50  0000 L CNN
+F 1 "15 pF" H 1265 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1900 50  0001 C CNN
-F 3 "~" H 1150 2050 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007029?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6UyIo%252BNY5dvo%3D" H 1150 2050 50  0001 C CNN
 	1    1150 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C10_LSE2
 U 1 1 618CDA54
 P 1650 2050
-F 0 "C10" H 1765 2096 50  0000 L CNN
-F 1 "Cl2" H 1765 2005 50  0000 L CNN
+F 0 "C10_LSE2" H 1765 2096 50  0000 L CNN
+F 1 "15 pF" H 1765 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1900 50  0001 C CNN
-F 3 "~" H 1650 2050 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012007029?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6UyIo%252BNY5dvo%3D" H 1650 2050 50  0001 C CNN
 	1    1650 2050
 	1    0    0    -1  
 $EndComp
@@ -401,19 +341,16 @@ F 3 "https://www.mouser.ch/datasheet/2/137/C_12D_en-1649542.pdf" H 1400 1900 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0161
+L power:GND #PWR0144
 U 1 1 618D8F6C
 P 2050 7300
-F 0 "#PWR0161" H 2050 7050 50  0001 C CNN
+F 0 "#PWR0144" H 2050 7050 50  0001 C CNN
 F 1 "GND" H 2055 7127 50  0000 C CNN
 F 2 "" H 2050 7300 50  0001 C CNN
 F 3 "" H 2050 7300 50  0001 C CNN
 	1    2050 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 6300 2050 6300
-NoConn ~ 2550 6900
 Text HLabel 6100 2950 2    50   Input ~ 0
 FDCAN1_RX
 Text HLabel 6100 3050 2    50   Input ~ 0
@@ -715,8 +652,6 @@ Wire Wire Line
 	9800 1040 9600 1040
 Wire Wire Line
 	10000 840  9800 840 
-Wire Wire Line
-	6000 840  6000 740 
 Connection ~ 6000 840 
 Connection ~ 6200 840 
 Wire Wire Line
@@ -776,10 +711,10 @@ Connection ~ 9800 840
 Wire Wire Line
 	9800 840  9600 840 
 $Comp
-L power:GND #PWR0162
+L power:GND #PWR0145
 U 1 1 6191AD65
 P 6000 1190
-F 0 "#PWR0162" H 6000 940 50  0001 C CNN
+F 0 "#PWR0145" H 6000 940 50  0001 C CNN
 F 1 "GND" H 6005 1017 50  0000 C CNN
 F 2 "" H 6000 1190 50  0001 C CNN
 F 3 "" H 6000 1190 50  0001 C CNN
@@ -797,10 +732,6 @@ Wire Wire Line
 	1550 1900 1650 1900
 Connection ~ 1650 1900
 Wire Wire Line
-	1650 1900 1750 1900
-Wire Wire Line
-	1150 2400 1650 2400
-Wire Wire Line
 	1100 650  1150 650 
 Wire Wire Line
 	1550 650  1650 650 
@@ -812,8 +743,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 650  1650 1000
 Connection ~ 1650 650 
-Wire Wire Line
-	1650 650  1800 650 
 Wire Wire Line
 	1150 1300 1150 1350
 Wire Wire Line
@@ -842,10 +771,10 @@ $EndComp
 Wire Wire Line
 	10100 2000 10400 2000
 $Comp
-L power:GND #PWR0163
+L power:GND #PWR0146
 U 1 1 618D3F49
 P 1900 5400
-F 0 "#PWR0163" H 1900 5150 50  0001 C CNN
+F 0 "#PWR0146" H 1900 5150 50  0001 C CNN
 F 1 "GND" H 1905 5227 50  0000 C CNN
 F 2 "" H 1900 5400 50  0001 C CNN
 F 3 "" H 1900 5400 50  0001 C CNN
@@ -955,9 +884,9 @@ Text Label 4300 4250 2    50   ~ 0
 QSPI2_IO0
 Text Label 4300 4350 2    50   ~ 0
 QSPI2_IO1
-Text Label 1100 650  2    50   ~ 0
+Text Label 2530 950  0    50   ~ 0
 OSC_HSE_OUT
-Text Label 1800 650  0    50   ~ 0
+Text Label 1100 650  2    50   ~ 0
 OSC_HSE_IN
 Text Label 6100 6650 0    50   ~ 0
 OSC_LSE_IN
@@ -971,9 +900,9 @@ Text Label 6100 3150 0    50   ~ 0
 DEBUG_JTMS_SWDIO
 Text Label 6100 3250 0    50   ~ 0
 DEBUG_JTCK_SWDCLK
-Text Label 1750 1900 0    50   ~ 0
-OSC_LSE_IN
 Text Label 1050 1900 2    50   ~ 0
+OSC_LSE_IN
+Text Label 2340 1900 0    50   ~ 0
 OSC_LSE_OUT
 Text Label 10250 4100 0    50   ~ 0
 VREF+
@@ -987,25 +916,11 @@ Text Label 10250 4900 0    50   ~ 0
 VDDA
 Text Label 5500 1550 1    50   ~ 0
 VDDA
-Text Label 6000 740  0    50   ~ 0
-VDD_MCU
-Text Label 4700 1400 0    50   ~ 0
-VDD_MCU
-Text Label 9600 4100 2    50   ~ 0
-VDD_MCU
-Text Label 9400 2100 2    50   ~ 0
-VDD_MCU
-Text Label 9600 4900 2    50   ~ 0
-VDD_MCU
-Text Label 2000 4100 2    50   ~ 0
-VDD_MCU
-Text Label 1850 6300 2    50   ~ 0
-VDD_MCU
 $Comp
-L power:+3V3 #PWR0164
+L power:+3V3 #PWR0147
 U 1 1 61ACC57C
 P 5710 840
-F 0 "#PWR0164" H 5710 690 50  0001 C CNN
+F 0 "#PWR0147" H 5710 690 50  0001 C CNN
 F 1 "+3V3" H 5725 1013 50  0000 C CNN
 F 2 "" H 5710 840 50  0001 C CNN
 F 3 "" H 5710 840 50  0001 C CNN
@@ -1025,17 +940,17 @@ QSPI2_CLK
 Text Label 6100 6350 0    50   ~ 0
 QSPI2_nCS
 Text HLabel 4300 3850 0    50   Output ~ 0
-SPI4_CS1
+SPI4_CS2
 Text HLabel 4300 3950 0    50   Output ~ 0
-SPI4_CS0
+SPI4_CS1
 Text HLabel 6100 6550 2    50   Output ~ 0
-SPI2_CS0
+SPI4_CS0
 Text HLabel 4300 4750 0    50   Input ~ 0
 SPI1_CS
 Text HLabel 4300 4850 0    50   Output ~ 0
-SPI2_CS1
+SPI2_CS0
 Text HLabel 4300 4950 0    50   Output ~ 0
-SPI3_CS1
+SPI2_CS1
 Text HLabel 4300 5650 0    50   Output ~ 0
 SPI3_CS0
 Text HLabel 6100 2250 2    50   Output ~ 0
@@ -1067,9 +982,9 @@ ADC_6
 Text HLabel 6100 3650 2    50   Input ~ 0
 ADC_7
 Text HLabel 6100 6150 2    50   Output ~ 0
-SPI4_CS2
-Text HLabel 6100 3350 2    50   Output ~ 0
 SPI3_CS2
+Text HLabel 6100 3350 2    50   Output ~ 0
+SPI3_CS1
 Text HLabel 4300 5050 0    50   Output ~ 0
 SPI2_CS2
 Text HLabel 4300 4650 0    50   BiDi ~ 0
@@ -1085,9 +1000,11 @@ GPIO_AUX_1
 Text HLabel 4300 6750 0    50   BiDi ~ 0
 GPIO_AUX_0
 $Comp
-L avionics_library:IS25LP256E-JLLE U9
+L node_pcb-rescue:IS25LP256E-JLLE-avionics_library U9
 U 1 1 61C9918E
 P 2050 6800
+AR Path="/61C9918E" Ref="U9"  Part="1" 
+AR Path="/61AE9DED/61C9918E" Ref="U9"  Part="1" 
 F 0 "U9" H 2050 7481 50  0000 C CNN
 F 1 "IS25LP256E-JLLE" H 2050 7390 50  0000 C CNN
 F 2 "node_pcb:WSON-8_8x6mm" H 2100 7400 50  0001 C CNN
@@ -1102,8 +1019,8 @@ U 1 1 618D2238
 P 2000 4700
 F 0 "J20" H 1557 4746 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1557 4655 50  0000 R CNN
-F 2 "node_pcb:3221-10-0300-00_10_pin_SWD_connector" H 2000 4700 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1650 3450 50  0001 C CNN
+F 2 "node_pcb:IDC_PinHeader_2x05_P1.27mm_Vertical_SMD_ARM_JTAG_SWD" H 2000 4700 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/cnc-tech/3220-10-0100-00/3883661" V 1650 3450 50  0001 C CNN
 	1    2000 4700
 	1    0    0    -1  
 $EndComp
@@ -1151,4 +1068,200 @@ Wire Wire Line
 Connection ~ 10670 1090
 Wire Wire Line
 	10670 1090 10410 1090
+$Comp
+L Device:R R9
+U 1 1 6199094F
+P 2210 650
+F 0 "R9" V 2003 650 50  0000 C CNN
+F 1 "0" V 2094 650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2140 650 50  0001 C CNN
+F 3 "~" H 2210 650 50  0001 C CNN
+	1    2210 650 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 650  2060 650 
+Wire Wire Line
+	2530 950  2450 950 
+Wire Wire Line
+	2450 950  2450 650 
+Wire Wire Line
+	2450 650  2360 650 
+Wire Wire Line
+	1650 1900 1950 1900
+$Comp
+L Device:R R8
+U 1 1 619D1719
+P 2100 1900
+F 0 "R8" V 1893 1900 50  0000 C CNN
+F 1 "0" V 1984 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2030 1900 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2340 1900 2250 1900
+Text Notes 2190 1650 0    50   ~ 0
+10 pF HSE crystal load capacitance\n12.5 pF LSE crystal CL\nCload=2*(CL-Cstray) (AN2867, pg 12) because\noscillator circuit must have same\nexternal capacitance as crystal's\nrule of thumb stray capacitance 5 pF\nC*_HSE* capacitors are 10 pF each\nC*_LSE* capacitors are 15 pF each\nthe external resistor is recommended\nformula AN2867 pg16: RExt=1/(2piFC_L2)\nHSE ext = 332
+$Comp
+L power:GND #PWR0148
+U 1 1 619F71D2
+P 1370 2460
+F 0 "#PWR0148" H 1370 2210 50  0001 C CNN
+F 1 "GND" H 1375 2287 50  0000 C CNN
+F 2 "" H 1370 2460 50  0001 C CNN
+F 3 "" H 1370 2460 50  0001 C CNN
+	1    1370 2460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1370 2460 1370 2400
+Wire Wire Line
+	1150 2400 1370 2400
+Connection ~ 1370 2400
+Wire Wire Line
+	1370 2400 1650 2400
+Text Notes 730  2990 0    50   ~ 0
+A 0 ohm feed resistor footprint is included\nmainly for if we find the oscillator drive\nlevel exceeds the crystal's (method\nrecommended by AN2867)
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 61A0C2EF
+P 9600 2000
+F 0 "SW2" H 9600 1675 50  0000 C CNN
+F 1 "SW_SPDT" H 9600 1766 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 9600 2000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/CK-Switches/OS102011MS2QS1?qs=sGAEpiMZZMset%2FhoJ47xJNCYIvXJAHklcTiPHLB0BDg%3D" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 61A18CE3
+P 9900 2900
+F 0 "SW3" H 9900 3135 50  0000 C CNN
+F 1 "SW_SPST" H 9900 3044 50  0000 C CNN
+F 2 "node_pcb:SW_Push_1P1T_NO_6x6mm_H9.5mm_LL3301NF065QG" H 9900 2900 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/e-switch/LL3301NF065QG/9749392?s=N4IgTCBcDaIDJwMyIAwEYByAxFA2ArAIoDiIAugL5A" H 9900 2900 50  0001 C CNN
+	1    9900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2900 10100 3300
+Wire Wire Line
+	9700 2900 9700 3300
+$Comp
+L power:+3V3 #PWR0149
+U 1 1 61D3F0D5
+P 4700 1050
+F 0 "#PWR0149" H 4700 900 50  0001 C CNN
+F 1 "+3V3" H 4715 1223 50  0000 C CNN
+F 2 "" H 4700 1050 50  0001 C CNN
+F 3 "" H 4700 1050 50  0001 C CNN
+	1    4700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0150
+U 1 1 61D3F685
+P 9600 4100
+F 0 "#PWR0150" H 9600 3950 50  0001 C CNN
+F 1 "+3V3" H 9615 4273 50  0000 C CNN
+F 2 "" H 9600 4100 50  0001 C CNN
+F 3 "" H 9600 4100 50  0001 C CNN
+	1    9600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0151
+U 1 1 61D3FC47
+P 9400 2100
+F 0 "#PWR0151" H 9400 1950 50  0001 C CNN
+F 1 "+3V3" V 9415 2228 50  0000 L CNN
+F 2 "" H 9400 2100 50  0001 C CNN
+F 3 "" H 9400 2100 50  0001 C CNN
+	1    9400 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0152
+U 1 1 61D4026F
+P 9600 4900
+F 0 "#PWR0152" H 9600 4750 50  0001 C CNN
+F 1 "+3V3" H 9615 5073 50  0000 C CNN
+F 2 "" H 9600 4900 50  0001 C CNN
+F 3 "" H 9600 4900 50  0001 C CNN
+	1    9600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0153
+U 1 1 61D40855
+P 2000 4100
+F 0 "#PWR0153" H 2000 3950 50  0001 C CNN
+F 1 "+3V3" H 2015 4273 50  0000 C CNN
+F 2 "" H 2000 4100 50  0001 C CNN
+F 3 "" H 2000 4100 50  0001 C CNN
+	1    2000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0154
+U 1 1 61D40E4D
+P 1150 6300
+F 0 "#PWR0154" H 1150 6150 50  0001 C CNN
+F 1 "+3V3" V 1150 6450 50  0000 L CNN
+F 2 "" H 1150 6300 50  0001 C CNN
+F 3 "" H 1150 6300 50  0001 C CNN
+	1    1150 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 6189DF52
+P 3250 2200
+F 0 "C14" H 3365 2246 50  0000 L CNN
+F 1 "2.2u" H 3365 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2050 50  0001 C CNN
+F 3 "~" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 6189E8F0
+P 3250 2400
+F 0 "C11" H 3136 2354 50  0000 R CNN
+F 1 "2.2u" H 3136 2445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2250 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Polyfuse F6
+U 1 1 61AF190B
+P 4700 1200
+F 0 "F6" H 4788 1246 50  0000 L CNN
+F 1 "PTSLR08058V200" H 4788 1155 50  0000 L CNN
+F 2 "Fuse:Fuse_0805_2012Metric" H 4750 1000 50  0001 L CNN
+F 3 "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0805-surface-mount-resettable-fuse-data-sheet.pdf" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1350 4700 1550
+$Comp
+L Device:Polyfuse F5
+U 1 1 61B04D39
+P 1300 6300
+F 0 "F5" V 1075 6300 50  0000 C CNN
+F 1 "PRG18BB471MB1RB" V 1166 6300 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 1350 6100 50  0001 L CNN
+F 3 "PRG18BB221MB1RB" H 1300 6300 50  0001 C CNN
+	1    1300 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 6300 2050 6300
 $EndSCHEMATC

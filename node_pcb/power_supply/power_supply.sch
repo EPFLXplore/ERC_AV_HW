@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 1 1
 Title ""
 Date ""
-Rev "beta 1"
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -18,9 +18,9 @@ L avionics_library:UCC2813-3D U5
 U 1 1 61906C07
 P 3400 2950
 F 0 "U5" H 3400 3415 50  0000 C CNN
-F 1 "UCC2813-3PW" H 3400 3324 50  0000 C CNN
+F 1 "UCC2813PW-3" H 3400 3324 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 3050 2950 50  0001 C CNN
-F 3 "" H 3050 2950 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Texas-Instruments/UCC2813PW-3?qs=eJkN62t4xTX8mA0brKJepQ%3D%3D" H 3050 2950 50  0001 C CNN
 	1    3400 2950
 	1    0    0    -1  
 $EndComp
@@ -46,7 +46,7 @@ P 1650 3700
 F 0 "Rsc1" H 1720 3746 50  0000 L CNN
 F 1 "4.64k" H 1720 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 3700 50  0001 C CNN
-F 3 "CRCW08054K64FKEA" H 1650 3700 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Vishay-Dale/CRCW08054K64FKEB?qs=kkyyugUlSrPH0abpbMQdTQ%3D%3D" H 1650 3700 50  0001 C CNN
 	1    1650 3700
 	1    0    0    -1  
 $EndComp
@@ -68,7 +68,7 @@ P 3150 1600
 F 0 "Rstartup2" H 3220 1646 50  0000 L CNN
 F 1 "33k" H 3220 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3080 1600 50  0001 C CNN
-F 3 "RC1206FR-0733KL " H 3150 1600 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Bourns/CR1206-FX-3302ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958R9K5f5LKbVFM%3D" H 3150 1600 50  0001 C CNN
 	1    3150 1600
 	1    0    0    -1  
 $EndComp
@@ -79,7 +79,7 @@ P 3150 1050
 F 0 "Rstartup1" H 3220 1096 50  0000 L CNN
 F 1 "33k" H 3220 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3080 1050 50  0001 C CNN
-F 3 "RC1206FR-0733KL " H 3150 1050 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Bourns/CR1206-FX-3302ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958R9K5f5LKbVFM%3D" H 3150 1050 50  0001 C CNN
 	1    3150 1050
 	1    0    0    -1  
 $EndComp
@@ -90,7 +90,7 @@ P 3600 1000
 F 0 "Rsnub2" H 3670 1046 50  0000 L CNN
 F 1 "8.2k" H 3670 955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3530 1000 50  0001 C CNN
-F 3 "PR01000108201JR500" H 3600 1000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Vishay/PR01000108201JR500?qs=LCMWAU1DZcyL2KFBzOnUyA%3D%3D" H 3600 1000 50  0001 C CNN
 	1    3600 1000
 	1    0    0    -1  
 $EndComp
@@ -101,7 +101,7 @@ P 3950 1000
 F 0 "Rsnub1" H 4020 1046 50  0000 L CNN
 F 1 "8.2k" H 4020 955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3880 1000 50  0001 C CNN
-F 3 "PR01000108201JR500" H 3950 1000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Vishay/PR01000108201JR500?qs=LCMWAU1DZcyL2KFBzOnUyA%3D%3D" H 3950 1000 50  0001 C CNN
 	1    3950 1000
 	1    0    0    -1  
 $EndComp
@@ -123,7 +123,7 @@ P 5450 2950
 F 0 "Rdrv1" V 5243 2950 50  0000 C CNN
 F 1 "12 Ohm" V 5334 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 2950 50  0001 C CNN
-F 3 "CRCW080512R1FKEA" V 5450 2950 50  0000 C BNN
+F 3 "https://www.mouser.ch/ProductDetail/Vishay-Dale/CRCW080512R1FKEA?qs=0y7Riw94L4gqukmMSMWnmw%3D%3D" V 5450 2950 50  0001 C BNN
 	1    5450 2950
 	0    1    1    0   
 $EndComp
@@ -145,7 +145,7 @@ P 6250 3750
 F 0 "Rsns1" H 6320 3796 50  0000 L CNN
 F 1 "750 mOhm" H 6320 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6180 3750 50  0001 C CNN
-F 3 "RCWH0805R750FKEA" H 6250 3750 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Vishay/RCWH0805R750FKEA?qs=TZHQpKKCKJeON%2FJ93PP86w%3D%3D" H 6250 3750 50  0001 C CNN
 	1    6250 3750
 	1    0    0    -1  
 $EndComp
@@ -244,7 +244,7 @@ P 2350 3350
 F 0 "C13" V 2098 3350 50  0000 C CNN
 F 1 "1 nF" V 2189 3350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2388 3200 50  0001 C CNN
-F 3 "~" H 2350 3350 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885342207013?qs=MLItCLRbWsxFOcYO5LeoGg%3D%3D" H 2350 3350 50  0001 C CNN
 	1    2350 3350
 	0    1    1    0   
 $EndComp
@@ -255,7 +255,7 @@ P 2550 1100
 F 0 "Cin1" V 2298 1100 50  0000 C CNN
 F 1 "10 uF 1 mOhm" V 2389 1100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 2588 950 50  0001 C CNN
-F 3 "CGA6P3X7S1H106K250AB" H 2550 1100 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/TDK/CGA6P3X7S1H106K250AB?qs=NRhsANhppD%252BlCzhzZe83DQ%3D%3D" H 2550 1100 50  0001 C CNN
 	1    2550 1100
 	1    0    0    -1  
 $EndComp
@@ -264,9 +264,9 @@ L Device:C Cref1
 U 1 1 6190A98B
 P 2000 2150
 F 0 "Cref1" V 1748 2150 50  0000 C CNN
-F 1 "100 nF 1 mOhm" V 1839 2150 50  0000 C CNN
+F 1 "100 nF" V 1839 2150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2038 2000 50  0001 C CNN
-F 3 "~" H 2000 2150 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 2000 2150 50  0001 C CNN
 	1    2000 2150
 	1    0    0    -1  
 $EndComp
@@ -277,7 +277,7 @@ P 4800 1000
 F 0 "Csnub1" V 4548 1000 50  0000 C CNN
 F 1 "15 nF 1 mOhm" V 4639 1000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4838 850 50  0001 C CNN
-F 3 "GRM2195C1H153JA01D" H 4800 1000 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Murata-Electronics/GRM2195C1H153JA01D?qs=WuXK2ZU3BtfJ7kNLz6wHZQ%3D%3D" H 4800 1000 50  0001 C CNN
 	1    4800 1000
 	1    0    0    -1  
 $EndComp
@@ -286,9 +286,9 @@ L Device:C Ct1
 U 1 1 6190B866
 P 1050 3200
 F 0 "Ct1" V 798 3200 50  0000 C CNN
-F 1 "1 nF 25 mOhm" V 889 3200 50  0000 C CNN
+F 1 "1 nF" V 889 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1088 3050 50  0001 C CNN
-F 3 "~" H 1050 3200 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885342207013?qs=MLItCLRbWsxFOcYO5LeoGg%3D%3D" H 1050 3200 50  0001 C CNN
 	1    1050 3200
 	1    0    0    -1  
 $EndComp
@@ -299,7 +299,7 @@ P 9950 4800
 F 0 "C22" V 9698 4800 50  0000 C CNN
 F 1 "22 pF" V 9789 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9988 4650 50  0001 C CNN
-F 3 "~" H 9950 4800 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21C220JBANFNC?qs=h6Piwd%2Fnvzm6BH%2F8hXZwxQ%3D%3D" H 9950 4800 50  0001 C CNN
 	1    9950 4800
 	0    -1   -1   0   
 $EndComp
@@ -309,8 +309,8 @@ U 1 1 6190CA2C
 P 10550 5250
 F 0 "C23" V 10298 5250 50  0000 C CNN
 F 1 "100 nF" V 10389 5250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10588 5100 50  0001 C CNN
-F 3 "CGA5L2C0G1H104J160AA" H 10550 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10588 5100 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 10550 5250 50  0001 C CNN
 	1    10550 5250
 	0    -1   -1   0   
 $EndComp
@@ -332,7 +332,7 @@ P 9200 4650
 F 0 "D21" V 9154 4730 50  0000 L CNN
 F 1 "470 mV 500 mA" V 9245 4730 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9200 4650 50  0001 C CNN
-F 3 "XBS053V13R-G" H 9200 4650 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Torex-Semiconductor/XBS053V13R-G?qs=AsjdqWjXhJ%252Brn0xk7tyIag%3D%3D" H 9200 4650 50  0001 C CNN
 	1    9200 4650
 	0    1    1    0   
 $EndComp
@@ -343,7 +343,7 @@ P 6050 1350
 F 0 "Dsnub1" H 6050 1567 50  0000 C CNN
 F 1 "800 mV 2 A" H 6050 1476 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 6050 1350 50  0001 C CNN
-F 3 "SSA210" H 6050 1350 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/onsemi-Fairchild/SSA210?qs=sGAEpiMZZMtbRapU8LlZD21jRW%252B14P%252BIvBFwvk%2FRRVx7Rg5Ynbbjcw%3D%3D" H 6050 1350 50  0001 C CNN
 	1    6050 1350
 	1    0    0    -1  
 $EndComp
@@ -354,7 +354,7 @@ P 6000 2100
 F 0 "Daux1" H 6000 2317 50  0000 C CNN
 F 1 "750 mV 3A" H 6000 2226 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 6000 2100 50  0001 C CNN
-F 3 "SSA36" H 6000 2100 50  0000 C CNN
+F 3 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_onsemi-SSA36_C896156.html" H 6000 2100 50  0001 C CNN
 	1    6000 2100
 	1    0    0    -1  
 $EndComp
@@ -365,7 +365,7 @@ P 8050 1200
 F 0 "Dsec1" H 8050 983 50  0000 C CNN
 F 1 "750 mV 5 A" H 8050 1074 50  0000 C CNN
 F 2 "Diode_SMD:D_SMC_Handsoldering" H 8050 1200 50  0001 C CNN
-F 3 "CDBC560-G" H 8050 1200 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Comchip-Technology/CDBC560-G?qs=tw%252BuQ%2FB6PO18CUb5Ok%252Bysw%3D%3D" H 8050 1200 50  0001 C CNN
 	1    8050 1200
 	-1   0    0    1   
 $EndComp
@@ -376,7 +376,7 @@ P 8050 850
 F 0 "Dsec2" H 8050 633 50  0000 C CNN
 F 1 "750 mV 5 A" H 8050 724 50  0000 C CNN
 F 2 "Diode_SMD:D_SMC_Handsoldering" H 8050 850 50  0001 C CNN
-F 3 "CDBC560-G" H 8050 850 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Comchip-Technology/CDBC560-G?qs=tw%252BuQ%2FB6PO18CUb5Ok%252Bysw%3D%3D" H 8050 850 50  0001 C CNN
 	1    8050 850 
 	-1   0    0    1   
 $EndComp
@@ -385,9 +385,9 @@ L Device:C C12
 U 1 1 6190F3A4
 P 4600 2400
 F 0 "C12" V 4348 2400 50  0000 C CNN
-F 1 "100 nF 64 mOhm" V 4439 2400 50  0000 C CNN
+F 1 "100 nF" V 4439 2400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4638 2250 50  0001 C CNN
-F 3 "C0805C104M5RACTU" H 4600 2400 50  0000 C TNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 4600 2400 50  0001 C TNN
 	1    4600 2400
 	1    0    0    -1  
 $EndComp
@@ -398,7 +398,7 @@ P 5050 2400
 F 0 "Cvcc1" H 5165 2446 50  0000 L CNN
 F 1 "15 uF" H 5165 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 5050 2400 50  0001 C CNN
-F 3 "UUD1C150MCL1GS" H 5050 2400 50  0000 C BNN
+F 3 "https://www.mouser.ch/ProductDetail/Nichicon/UUD1C150MCL1GS?qs=BJlw7L4Cy7%252BcIRyBwbO1Jg%3D%3D" H 5050 2400 50  0001 C BNN
 	1    5050 2400
 	1    0    0    -1  
 $EndComp
@@ -467,7 +467,7 @@ P 4150 4200
 F 0 "Ccs1" V 3898 4200 50  0000 C CNN
 F 1 "470 pF" V 3989 4200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4188 4050 50  0001 C CNN
-F 3 "~" H 4150 4200 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885342207007?qs=MLItCLRbWszU%2FmSbyrCmhw%3D%3D" H 4150 4200 50  0001 C CNN
 	1    4150 4200
 	1    0    0    -1  
 $EndComp
@@ -641,7 +641,7 @@ Wire Wire Line
 	10750 2350 10750 1200
 Connection ~ 10750 1200
 Wire Wire Line
-	10750 1200 10900 1200
+	10750 1200 10850 1200
 Wire Wire Line
 	10750 5500 10000 5500
 Connection ~ 10750 5500
@@ -720,7 +720,7 @@ P 7150 5150
 F 0 "U6" H 7150 4833 50  0000 C CNN
 F 1 "TLP385(BLL,E" H 7150 4924 50  0000 C CNN
 F 2 "Package_SO:SO-4_7.6x3.6mm_P2.54mm" H 7150 4850 50  0001 C CNN
-F 3 "" H 7150 5100 50  0001 L CNN
+F 3 "https://www.mouser.ch/ProductDetail/Toshiba/TLP385BLLE?qs=rsevcuukUAxNR%2FhwUFzxlQ%3D%3D" H 7150 5100 50  0001 L CNN
 	1    7150 5150
 	-1   0    0    1   
 $EndComp
@@ -735,7 +735,7 @@ P 9120 5850
 F 0 "VR1" H 9115 5403 60  0000 C CNN
 F 1 "LMV431CM5" H 9115 5509 60  0000 C CNN
 F 2 "node_pcb:LMV431CM5" H 9120 6160 60  0001 C CNN
-F 3 "" H 8640 6040 60  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Texas-Instruments/LMV431CM5-NOPB?qs=7lkVKPoqpbYcyASsAAqMsA%3D%3D" H 8640 6040 60  0001 C CNN
 	1    9120 5850
 	-1   0    0    1   
 $EndComp
@@ -763,7 +763,7 @@ P 6150 2950
 F 0 "M1" H 6398 3003 60  0000 L CNN
 F 1 "BSC160N10NS3GATMA1" H 6398 2897 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 6150 2890 60  0001 C CNN
-F 3 "" H 6150 2950 60  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Infineon-Technologies/BSC160N10NS3GATMA1?qs=K00xGehIljviTEaXJyN0FA%3D%3D" H 6150 2950 60  0001 C CNN
 	1    6150 2950
 	1    0    0    -1  
 $EndComp
@@ -891,12 +891,10 @@ P 1550 3200
 F 0 "Qsc1" H 1741 3246 50  0000 L CNN
 F 1 "PMBT2222A" H 1741 3155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1750 3300 50  0001 C CNN
-F 3 "~" H 1550 3200 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Nexperia/PMBT2222A215?qs=LOCUfHb8d9u7n2jbGrJFWg%3D%3D" H 1550 3200 50  0001 C CNN
 	1    1550 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 3950 4150 3950
 Wire Wire Line
 	1300 2850 1300 3200
 Wire Wire Line
@@ -978,7 +976,7 @@ P 5700 1000
 F 0 "Csnub2" V 5448 1000 50  0000 C CNN
 F 1 "15 nF 1 mOhm" V 5539 1000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 850 50  0001 C CNN
-F 3 "GRM2195C1H153JA01D" H 5700 1000 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Murata-Electronics/GRM2195C1H153JA01D?qs=WuXK2ZU3BtfJ7kNLz6wHZQ%3D%3D" H 5700 1000 50  0001 C CNN
 	1    5700 1000
 	1    0    0    -1  
 $EndComp
@@ -1019,7 +1017,7 @@ P 9400 1950
 F 0 "Cout2" H 9515 1996 50  0000 L CNN
 F 1 "180 uF 11 mOhm" H 9515 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 9400 1950 50  0001 C CNN
-F 3 "16SVPE180M" H 9400 1950 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Panasonic/16SVPE180M?qs=OE1iw1LrrPH8IiQtRMzKQA%3D%3D" H 9400 1950 50  0001 C CNN
 	1    9400 1950
 	1    0    0    -1  
 $EndComp
@@ -1030,8 +1028,102 @@ P 8500 1950
 F 0 "Cout1" H 8615 1996 50  0000 L CNN
 F 1 "180 uF 11 mOhm" H 8615 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 8500 1950 50  0001 C CNN
-F 3 "16SVPE180M" H 8500 1950 50  0000 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Panasonic/16SVPE180M?qs=OE1iw1LrrPH8IiQtRMzKQA%3D%3D" H 8500 1950 50  0001 C CNN
 	1    8500 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3150 2950 3150
+Wire Wire Line
+	2950 3150 2950 3950
+Wire Wire Line
+	1650 3950 2950 3950
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 4150 3950
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 61ACA5A6
+P 1000 1330
+F 0 "J1" H 1108 1711 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1108 1620 50  0000 C CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 1000 1330 50  0001 C CNN
+F 3 "https://www.conrad.ch/de/p/jst-stiftgehaeuse-platine-sur-polzahl-gesamt-6-rastermass-0-80-mm-sm06b-surs-tf-lf-sn-1-st-1426473.html" H 1000 1330 50  0001 C CNN
+	1    1000 1330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1430 1200 1530
+Connection ~ 1200 1530
+Wire Wire Line
+	1200 1530 1200 1630
+Connection ~ 1200 1630
+Wire Wire Line
+	1200 1630 1200 1800
+Wire Wire Line
+	1200 1330 1200 1230
+Connection ~ 1200 1130
+Wire Wire Line
+	1200 1130 1200 850 
+Connection ~ 1200 1230
+Wire Wire Line
+	1200 1230 1200 1130
+Text HLabel 1200 850  0    50   Input ~ 0
++BATT
+$Comp
+L power:-BATT #PWR?
+U 1 1 61AE1238
+P 1200 1800
+F 0 "#PWR?" H 1200 1650 50  0001 C CNN
+F 1 "-BATT" H 1215 1973 50  0000 C CNN
+F 2 "" H 1200 1800 50  0001 C CNN
+F 3 "" H 1200 1800 50  0001 C CNN
+	1    1200 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 61AC8882
+P 11090 1690
+F 0 "J2" H 11062 1572 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 11062 1663 50  0000 R CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 11090 1690 50  0001 C CNN
+F 3 "https://www.conrad.ch/de/p/jst-stiftgehaeuse-platine-sur-polzahl-gesamt-6-rastermass-0-80-mm-sm06b-surs-tf-lf-sn-1-st-1426473.html" H 11090 1690 50  0001 C CNN
+	1    11090 1690
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10890 1320 10850 1320
+Wire Wire Line
+	10850 1320 10850 1200
+Wire Wire Line
+	10890 1320 10890 1390
+Connection ~ 10890 1390
+Wire Wire Line
+	10890 1390 10890 1490
+Connection ~ 10890 1490
+Wire Wire Line
+	10890 1490 10890 1590
+Connection ~ 10850 1200
+Wire Wire Line
+	10850 1200 10900 1200
+Wire Wire Line
+	10890 1690 10890 1790
+Connection ~ 10890 1790
+Wire Wire Line
+	10890 1790 10890 1890
+Connection ~ 10890 1890
+Wire Wire Line
+	10890 1890 10890 2030
+$Comp
+L power:GND #PWR?
+U 1 1 61B18061
+P 10890 2030
+F 0 "#PWR?" H 10890 1780 50  0001 C CNN
+F 1 "GND" H 10895 1857 50  0000 C CNN
+F 2 "" H 10890 2030 50  0001 C CNN
+F 3 "" H 10890 2030 50  0001 C CNN
+	1    10890 2030
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title "Avionics STM32 generic node"
 Date ""
-Rev ""
+Rev "beta 2"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -24,152 +24,35 @@ F4 "REM_CK" O R 2580 1570 50
 F5 "LOC_CK" I L 1810 1570 50 
 F6 "RJ45_[1..8]" B L 1810 1670 50 
 $EndSheet
-$Sheet
-S 1810 2570 790  310 
-U 61B7335B
-F0 "USART3" 50
-F1 "USART_interface.sch" 50
-F2 "RX" O R 2600 2620 50 
-F3 "TX" I L 1810 2620 50 
-F4 "REM_CK" O R 2600 2720 50 
-F5 "LOC_CK" I L 1810 2720 50 
-F6 "RJ45_[1..8]" B L 1810 2820 50 
-$EndSheet
-$Sheet
-S 1810 3220 790  290 
-U 61B73361
-F0 "USART6" 50
-F1 "USART_interface.sch" 50
-F2 "RX" O R 2600 3270 50 
-F3 "TX" I L 1810 3270 50 
-F4 "REM_CK" O R 2600 3370 50 
-F5 "LOC_CK" I L 1810 3370 50 
-F6 "RJ45_[1..8]" B L 1810 3450 50 
-$EndSheet
 $Comp
 L Switch:SW_DIP_x04 SW1
 U 1 1 61B74951
 P 3760 2270
 F 0 "SW1" H 3760 2737 50  0000 C CNN
 F 1 "SW_DIP_x04" H 3760 2646 50  0000 C CNN
-F 2 "node_pcb:DS04-254-2-04BK-SMT" H 3760 2270 50  0001 C CNN
-F 3 "~" H 3760 2270 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile" H 3760 2270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/cui-devices/DS04-254-2-04BK-SMT/11310827" H 3760 2270 50  0001 C CNN
 	1    3760 2270
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1710 1470 1810 1470
-Wire Wire Line
-	5360 1420 3660 1420
-Wire Wire Line
-	2860 1470 2860 1520
-Wire Wire Line
-	2860 1520 5360 1520
-Wire Wire Line
-	2610 1470 2860 1470
-Wire Wire Line
-	2610 1570 3110 1570
-Wire Wire Line
-	3110 1570 3110 2070
-Wire Wire Line
-	3110 2070 3460 2070
 Text Label 5360 1620 2    50   ~ 0
 USART1_CK
 Text Label 1810 1570 2    50   ~ 0
 USART1_CK
-Text Label 1810 2720 2    50   ~ 0
-USART3_CK
-Text Label 1810 3370 2    50   ~ 0
-USART6_CK
 Text Label 4060 2070 0    50   ~ 0
 USART1_CK
 Text Label 4060 2170 0    50   ~ 0
-USART2_CK
-Text Label 4060 2270 0    50   ~ 0
 USART3_CK
-Text Label 4060 2370 0    50   ~ 0
+Text Label 4060 2270 0    50   ~ 0
 USART6_CK
+Text Label 4060 2370 0    50   ~ 0
+USART2_CK
 Text Label 5360 2020 2    50   ~ 0
 USART2_CK
 Text Label 5360 2420 2    50   ~ 0
 USART3_CK
 Text Label 5360 2820 2    50   ~ 0
 USART6_CK
-Wire Wire Line
-	3460 2170 2960 2170
-Wire Wire Line
-	2960 2170 2960 2120
-Wire Wire Line
-	2610 2720 3110 2720
-Wire Wire Line
-	3110 2270 3460 2270
-Wire Wire Line
-	3110 2270 3110 2720
-Wire Wire Line
-	2610 2620 4610 2620
-Wire Wire Line
-	4610 2620 4610 2320
-Wire Wire Line
-	4610 2320 5360 2320
-Wire Wire Line
-	5360 2220 4510 2220
-Wire Wire Line
-	4510 2220 4510 2470
-Wire Wire Line
-	4510 2470 1710 2470
-Wire Wire Line
-	1710 2470 1710 2620
-Wire Wire Line
-	1710 2620 1810 2620
-Wire Wire Line
-	4710 3020 1660 3020
-Wire Wire Line
-	1660 3270 1810 3270
-Wire Wire Line
-	4710 2620 5360 2620
-Wire Wire Line
-	1660 3020 1660 3270
-Wire Wire Line
-	4710 2620 4710 3020
-Wire Wire Line
-	5360 2720 4810 2720
-Wire Wire Line
-	4810 2720 4810 3270
-Wire Wire Line
-	4810 3270 2610 3270
-Wire Wire Line
-	2610 3370 3460 3370
-Wire Wire Line
-	3460 3370 3460 2370
-$Sheet
-S 1970 830  700  250 
-U 61904E37
-F0 "iso_3v3_supply_2A" 50
-F1 "iso_3v3_supply.sch" 50
-F2 "+BATT" I L 1970 880 50 
-F3 "3v3iso" I R 2670 880 50 
-F4 "-BATT" I L 1970 1030 50 
-$EndSheet
-Wire Wire Line
-	7980 3510 7480 3510
-Wire Wire Line
-	7480 3510 7480 2460
-Wire Wire Line
-	7980 1410 7480 1410
-Connection ~ 7480 1410
-Wire Wire Line
-	7480 1410 7480 760 
-Wire Wire Line
-	7980 2460 7480 2460
-Connection ~ 7480 2460
-Wire Wire Line
-	7480 2460 7480 1410
-Wire Wire Line
-	8730 1910 9250 1910
-Wire Wire Line
-	8730 4010 9250 4010
-Wire Wire Line
-	8730 2960 9250 2960
 Text Label 7980 2960 2    50   ~ 0
 SPI3_CS1
 Text Label 6710 2120 0    50   ~ 0
@@ -230,18 +113,14 @@ Text Label 6710 2470 0    50   ~ 0
 SPI4_MISO
 Text Label 6710 2370 0    50   ~ 0
 SPI4_SCK
-Text Label 8730 1410 0    50   ~ 0
+Text Label 8480 1410 0    50   ~ 0
 UART4_TX
-Text Label 8730 1510 0    50   ~ 0
+Text Label 8480 1510 0    50   ~ 0
 UART4_RX
-Text Label 8730 2460 0    50   ~ 0
+Text Label 8480 2460 0    50   ~ 0
 UART5_TX
-Text Label 8730 2560 0    50   ~ 0
+Text Label 8480 2560 0    50   ~ 0
 UART5_RX
-Text Label 8730 3510 0    50   ~ 0
-UART8_TX
-Text Label 8730 3610 0    50   ~ 0
-UART8_RX
 Text Label 6710 3520 0    50   ~ 0
 UART8_TX
 Text Label 6710 3620 0    50   ~ 0
@@ -254,48 +133,6 @@ Text Label 6710 3020 0    50   ~ 0
 UART4_TX
 Text Label 6710 3120 0    50   ~ 0
 UART4_RX
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J9
-U 1 1 619532DE
-P 8360 3810
-F 0 "J9" H 8360 4377 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 8360 4286 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-A" H 8360 3810 50  0001 L BNN
-F 3 "" H 8360 3810 50  0001 L BNN
-F 4 "R" H 8360 3810 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 8360 3810 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 8360 3810 50  0001 L BNN "MANUFACTURER"
-	1    8360 3810
-	1    0    0    -1  
-$EndComp
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J8
-U 1 1 61954F23
-P 8360 2760
-F 0 "J8" H 8360 3327 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 8360 3236 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-A" H 8360 2760 50  0001 L BNN
-F 3 "" H 8360 2760 50  0001 L BNN
-F 4 "R" H 8360 2760 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 8360 2760 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 8360 2760 50  0001 L BNN "MANUFACTURER"
-	1    8360 2760
-	1    0    0    -1  
-$EndComp
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J7
-U 1 1 6195619D
-P 8360 1710
-F 0 "J7" H 8360 2277 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 8360 2186 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-A" H 8360 1710 50  0001 L BNN
-F 3 "" H 8360 1710 50  0001 L BNN
-F 4 "R" H 8360 1710 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 8360 1710 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 8360 1710 50  0001 L BNN "MANUFACTURER"
-	1    8360 1710
-	1    0    0    -1  
-$EndComp
 Text Label 5360 3020 2    50   ~ 0
 I2C1_SCL
 Text Label 5360 3120 2    50   ~ 0
@@ -308,23 +145,15 @@ Text Label 5360 3520 2    50   ~ 0
 I2C4_SCL
 Text Label 5360 3620 2    50   ~ 0
 I2C4_SDA
-Text Label 8730 1710 0    50   ~ 0
-I2C1_SCL
-Text Label 8730 1610 0    50   ~ 0
-I2C1_SDA
-Text Label 8730 2760 0    50   ~ 0
+Text Label 8480 1710 0    50   ~ 0
 I2C2_SCL
-Text Label 8730 2660 0    50   ~ 0
+Text Label 8480 1610 0    50   ~ 0
 I2C2_SDA
-Text Label 8730 3810 0    50   ~ 0
-I2C4_SCL
-Text Label 8730 3710 0    50   ~ 0
-I2C4_SDA
 $Comp
-L power:+3V3 #PWR0101
+L power:+3V3 #PWR?
 U 1 1 6196FF71
 P 7480 760
-F 0 "#PWR0101" H 7480 610 50  0001 C CNN
+F 0 "#PWR?" H 7480 610 50  0001 C CNN
 F 1 "+3V3" H 7495 933 50  0000 C CNN
 F 2 "" H 7480 760 50  0001 C CNN
 F 3 "" H 7480 760 50  0001 C CNN
@@ -332,54 +161,15 @@ F 3 "" H 7480 760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
-U 1 1 61970198
-P 9250 4210
-F 0 "#PWR0102" H 9250 3960 50  0001 C CNN
-F 1 "GND" H 9255 4037 50  0000 C CNN
-F 2 "" H 9250 4210 50  0001 C CNN
-F 3 "" H 9250 4210 50  0001 C CNN
-	1    9250 4210
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0103
+L power:+3V3 #PWR?
 U 1 1 61971009
-P 3170 880
-F 0 "#PWR0103" H 3170 730 50  0001 C CNN
-F 1 "+3V3" H 3185 1053 50  0000 C CNN
-F 2 "" H 3170 880 50  0001 C CNN
-F 3 "" H 3170 880 50  0001 C CNN
-	1    3170 880 
+P 1100 780
+F 0 "#PWR?" H 1100 630 50  0001 C CNN
+F 1 "+3V3" H 1115 953 50  0000 C CNN
+F 2 "" H 1100 780 50  0001 C CNN
+F 3 "" H 1100 780 50  0001 C CNN
+	1    1100 780 
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3170 880  2670 880 
-Wire Wire Line
-	1970 880  1470 880 
-$Comp
-L power:+BATT #PWR0104
-U 1 1 61973B10
-P 1470 880
-F 0 "#PWR0104" H 1470 730 50  0001 C CNN
-F 1 "+BATT" H 1485 1053 50  0000 C CNN
-F 2 "" H 1470 880 50  0001 C CNN
-F 3 "" H 1470 880 50  0001 C CNN
-	1    1470 880 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1470 1030 1970 1030
-$Comp
-L power:-BATT #PWR0105
-U 1 1 61974BFF
-P 1470 1030
-F 0 "#PWR0105" H 1470 880 50  0001 C CNN
-F 1 "-BATT" H 1485 1203 50  0000 C CNN
-F 2 "" H 1470 1030 50  0001 C CNN
-F 3 "" H 1470 1030 50  0001 C CNN
-	1    1470 1030
-	-1   0    0    1   
 $EndComp
 $Sheet
 S 4260 680  800  200 
@@ -397,12 +187,6 @@ F1 "CAN_interface.sch" 50
 F2 "TX" I L 4260 1220 50 
 F3 "RX" I R 5060 1220 50 
 $EndSheet
-Wire Wire Line
-	3660 1420 3660 1320
-Wire Wire Line
-	3660 1320 1710 1320
-Wire Wire Line
-	1710 1320 1710 1470
 $Sheet
 S 5360 720  1350 4650
 U 61AE9DED
@@ -485,56 +269,21 @@ Text Label 6710 2220 0    50   ~ 0
 SPI3_CS2
 Text Label 6710 2870 0    50   ~ 0
 SPI4_CS2
-Text Label 8730 1810 0    50   ~ 0
+Text Label 8480 1810 0    50   ~ 0
 SPI2_CS2
-Text Label 8730 2860 0    50   ~ 0
+Text Label 8480 2860 0    50   ~ 0
 SPI3_CS2
-Text Label 8730 3910 0    50   ~ 0
-SPI4_CS2
 $Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J2
-U 1 1 619C94C4
-P 1460 6570
-F 0 "J2" V 1506 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 1415 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 1460 6570 50  0001 L BNN
-F 3 "" H 1460 6570 50  0001 L BNN
-F 4 "Samtec" H 1460 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 1460 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 1460 6570 50  0001 L BNN "PARTREV"
-	1    1460 6570
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 619D351B
-P 6610 6970
-F 0 "#PWR0106" H 6610 6720 50  0001 C CNN
-F 1 "GND" H 6615 6797 50  0000 C CNN
-F 2 "" H 6610 6970 50  0001 C CNN
-F 3 "" H 6610 6970 50  0001 C CNN
-	1    6610 6970
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6610 6970 6610 6870
-Wire Wire Line
-	1810 6870 1810 6570
-Wire Wire Line
-	960  6470 960  6220
-$Comp
-L power:+3V3 #PWR0107
+L power:+3V3 #PWR?
 U 1 1 619D8A03
 P 960 6020
-F 0 "#PWR0107" H 960 5870 50  0001 C CNN
+F 0 "#PWR?" H 960 5870 50  0001 C CNN
 F 1 "+3V3" H 975 6193 50  0000 C CNN
 F 2 "" H 960 6020 50  0001 C CNN
 F 3 "" H 960 6020 50  0001 C CNN
 	1    960  6020
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	960  6470 1110 6470
 Text Label 6710 4270 0    50   ~ 0
 ADC_DIFF_0_P
 Text Label 6710 4370 0    50   ~ 0
@@ -557,214 +306,25 @@ Text Label 6710 5270 0    50   ~ 0
 ADC_7
 Text Label 1110 6570 2    50   ~ 0
 ADC_DIFF_0_N
-Text Label 1810 6470 0    50   ~ 0
-ADC_DIFF_0_P
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J3
-U 1 1 619F0CF5
-P 2860 6570
-F 0 "J3" V 2906 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 2815 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 2860 6570 50  0001 L BNN
-F 3 "" H 2860 6570 50  0001 L BNN
-F 4 "Samtec" H 2860 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 2860 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 2860 6570 50  0001 L BNN "PARTREV"
-	1    2860 6570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3210 6870 3210 6570
-Wire Wire Line
-	2360 6470 2360 6220
-Wire Wire Line
-	2360 6470 2510 6470
 Text Label 2510 6570 2    50   ~ 0
 ADC_DIFF_1_N
-Text Label 3210 6470 0    50   ~ 0
-ADC_DIFF_1_P
-Wire Wire Line
-	1810 6870 3210 6870
-Connection ~ 3210 6870
-Wire Wire Line
-	3210 6870 4610 6870
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J4
-U 1 1 61A063C0
-P 4260 6570
-F 0 "J4" V 4306 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 4215 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 4260 6570 50  0001 L BNN
-F 3 "" H 4260 6570 50  0001 L BNN
-F 4 "Samtec" H 4260 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 4260 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 4260 6570 50  0001 L BNN "PARTREV"
-	1    4260 6570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4610 6870 4610 6570
-Wire Wire Line
-	3910 6470 3910 6220
-Text Label 4610 6470 0    50   ~ 0
-ADC_2
 NoConn ~ 3910 6570
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J5
-U 1 1 61A0D735
-P 5260 6570
-F 0 "J5" V 5306 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 5215 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 5260 6570 50  0001 L BNN
-F 3 "" H 5260 6570 50  0001 L BNN
-F 4 "Samtec" H 5260 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 5260 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 5260 6570 50  0001 L BNN "PARTREV"
-	1    5260 6570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5610 6870 5610 6570
-Wire Wire Line
-	4910 6470 4910 6220
-Text Label 5610 6470 0    50   ~ 0
-ADC_3
 NoConn ~ 4910 6570
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J6
-U 1 1 61A103C6
-P 6260 6570
-F 0 "J6" V 6306 6440 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 6215 6440 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 6260 6570 50  0001 L BNN
-F 3 "" H 6260 6570 50  0001 L BNN
-F 4 "Samtec" H 6260 6570 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 6260 6570 50  0001 L BNN "STANDARD"
-F 6 "R" H 6260 6570 50  0001 L BNN "PARTREV"
-	1    6260 6570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6610 6870 6610 6570
-Wire Wire Line
-	5910 6470 5910 6220
-Text Label 6610 6470 0    50   ~ 0
-ADC_4
 NoConn ~ 5910 6570
-Wire Wire Line
-	5910 6220 4910 6220
-Connection ~ 960  6220
-Wire Wire Line
-	960  6220 960  6020
-Connection ~ 2360 6220
-Wire Wire Line
-	2360 6220 960  6220
-Connection ~ 3910 6220
-Wire Wire Line
-	3910 6220 2360 6220
-Connection ~ 4910 6220
-Wire Wire Line
-	4910 6220 3910 6220
-$Comp
-L power:GND #PWR0108
-U 1 1 61A21FB9
-P 10750 5770
-F 0 "#PWR0108" H 10750 5520 50  0001 C CNN
-F 1 "GND" H 10755 5597 50  0000 C CNN
-F 2 "" H 10750 5770 50  0001 C CNN
-F 3 "" H 10750 5770 50  0001 C CNN
-	1    10750 5770
-	1    0    0    -1  
-$EndComp
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J10
-U 1 1 61A21FC4
-P 8400 5370
-F 0 "J10" V 8446 5240 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 8355 5240 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 8400 5370 50  0001 L BNN
-F 3 "" H 8400 5370 50  0001 L BNN
-F 4 "Samtec" H 8400 5370 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 8400 5370 50  0001 L BNN "STANDARD"
-F 6 "R" H 8400 5370 50  0001 L BNN "PARTREV"
-	1    8400 5370
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8750 5670 8750 5370
-Wire Wire Line
-	7900 5270 7900 5020
-Wire Wire Line
-	7900 5270 8050 5270
-Text Label 8750 5270 0    50   ~ 0
-ADC_5
 NoConn ~ 8050 5370
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J11
-U 1 1 61A21FD2
-P 9400 5370
-F 0 "J11" V 9446 5240 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 9355 5240 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 9400 5370 50  0001 L BNN
-F 3 "" H 9400 5370 50  0001 L BNN
-F 4 "Samtec" H 9400 5370 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 9400 5370 50  0001 L BNN "STANDARD"
-F 6 "R" H 9400 5370 50  0001 L BNN "PARTREV"
-	1    9400 5370
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 5670 9750 5370
-Wire Wire Line
-	9050 5270 9050 5020
-Text Label 9750 5270 0    50   ~ 0
-ADC_6
 NoConn ~ 9050 5370
-$Comp
-L HLE-102-02-F-DV:HLE-102-02-F-DV J13
-U 1 1 61A21FE0
-P 10400 5370
-F 0 "J13" V 10446 5240 50  0000 R CNN
-F 1 "HLE-102-02-F-DV" V 10355 5240 50  0000 R CNN
-F 2 "node_pcb:SAMTEC_HLE-102-02-F-DV" H 10400 5370 50  0001 L BNN
-F 3 "" H 10400 5370 50  0001 L BNN
-F 4 "Samtec" H 10400 5370 50  0001 L BNN "MANUFACTURER"
-F 5 "Manufacturer Recommendations" H 10400 5370 50  0001 L BNN "STANDARD"
-F 6 "R" H 10400 5370 50  0001 L BNN "PARTREV"
-	1    10400 5370
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 5270 10050 5020
-Text Label 10750 5270 0    50   ~ 0
-ADC_7
 NoConn ~ 10050 5370
-Wire Wire Line
-	9050 5020 7900 5020
 $Comp
-L power:+3V3 #PWR0109
+L power:+3V3 #PWR?
 U 1 1 61A2AA14
 P 7900 4820
-F 0 "#PWR0109" H 7900 4670 50  0001 C CNN
+F 0 "#PWR?" H 7900 4670 50  0001 C CNN
 F 1 "+3V3" H 7915 4993 50  0000 C CNN
 F 2 "" H 7900 4820 50  0001 C CNN
 F 3 "" H 7900 4820 50  0001 C CNN
 	1    7900 4820
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 5020 7900 4820
-Wire Wire Line
-	10750 5370 10750 5670
-Connection ~ 7900 5020
-Wire Wire Line
-	8750 5670 9750 5670
-Connection ~ 10750 5670
-Wire Wire Line
-	10750 5670 10750 5770
-Connection ~ 9750 5670
-Wire Wire Line
-	9750 5670 10750 5670
 Text Label 6710 4020 0    50   ~ 0
 DAC1_OUT1
 Text Label 6710 4120 0    50   ~ 0
@@ -777,18 +337,10 @@ Text Label 6710 3770 0    50   ~ 0
 LPUART1_RX
 Text Label 6710 3870 0    50   ~ 0
 LPUART1_TX
-Text Label 10690 1330 0    50   ~ 0
+Text Label 8850 930  2    50   ~ 0
 LPUART1_RX
-Text Label 10690 1230 0    50   ~ 0
+Text Label 9350 830  0    50   ~ 0
 LPUART1_TX
-Wire Wire Line
-	9250 1910 9250 2960
-Connection ~ 9250 2960
-Wire Wire Line
-	9250 2960 9250 4010
-Connection ~ 9250 4010
-Wire Wire Line
-	9250 4010 9250 4210
 Text Label 5360 5020 2    50   ~ 0
 GPIO_AUX_5
 Text Label 5360 4920 2    50   ~ 0
@@ -801,39 +353,34 @@ Text Label 5360 4620 2    50   ~ 0
 GPIO_AUX_1
 Text Label 5360 4520 2    50   ~ 0
 GPIO_AUX_0
-Text Label 9940 1430 2    50   ~ 0
+Text Label 10190 1430 2    50   ~ 0
 GPIO_AUX_5
-Text Label 9940 1330 2    50   ~ 0
+Text Label 10190 1330 2    50   ~ 0
 GPIO_AUX_4
-Text Label 9940 1230 2    50   ~ 0
+Text Label 10190 1230 2    50   ~ 0
 GPIO_AUX_3
-Text Label 9940 1130 2    50   ~ 0
+Text Label 10190 1130 2    50   ~ 0
 GPIO_AUX_2
-Text Label 9940 1030 2    50   ~ 0
+Text Label 10190 1030 2    50   ~ 0
 GPIO_AUX_1
-Text Label 9940 930  2    50   ~ 0
+Text Label 10190 930  2    50   ~ 0
 GPIO_AUX_0
 $Comp
-L power:+3V3 #PWR0110
+L power:+3V3 #PWR?
 U 1 1 61AE1278
 P 10690 790
-F 0 "#PWR0110" H 10690 640 50  0001 C CNN
+F 0 "#PWR?" H 10690 640 50  0001 C CNN
 F 1 "+3V3" H 10705 963 50  0000 C CNN
 F 2 "" H 10690 790 50  0001 C CNN
 F 3 "" H 10690 790 50  0001 C CNN
 	1    10690 790 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10690 790  10690 740 
-Connection ~ 10690 790 
-Wire Wire Line
-	10690 1430 10690 1550
 $Comp
-L power:GND #PWR0111
+L power:GND #PWR?
 U 1 1 61AEF2F5
 P 10690 1550
-F 0 "#PWR0111" H 10690 1300 50  0001 C CNN
+F 0 "#PWR?" H 10690 1300 50  0001 C CNN
 F 1 "GND" H 10695 1377 50  0000 C CNN
 F 2 "" H 10690 1550 50  0001 C CNN
 F 3 "" H 10690 1550 50  0001 C CNN
@@ -842,46 +389,6 @@ F 3 "" H 10690 1550 50  0001 C CNN
 $EndComp
 Text Notes 9670 2070 0    50   ~ 0
 this connector is just here so we can\nbreak out the leftover GPIOs, it will\nbe removed in a later revision if\nunnecessary.
-Wire Wire Line
-	10690 930  10690 790 
-$Comp
-L HLE-106-02-F-DV-A:HLE-106-02-F-DV-A J12
-U 1 1 61A99716
-P 10320 1230
-F 0 "J12" H 10320 1797 50  0000 C CNN
-F 1 "HLE-106-02-F-DV-A" H 10320 1706 50  0000 C CNN
-F 2 "node_pcb:SAMTEC_HLE-106-02-F-DV-A" H 10320 1230 50  0001 L BNN
-F 3 "" H 10320 1230 50  0001 L BNN
-F 4 "R" H 10320 1230 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 10320 1230 50  0001 L BNN "STANDARD"
-F 6 "Samtec Inc." H 10320 1230 50  0001 L BNN "MANUFACTURER"
-	1    10320 1230
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1470 880  1160 880 
-Wire Wire Line
-	1160 880  1160 900 
-Wire Wire Line
-	1160 900  1030 900 
-Connection ~ 1470 880 
-Wire Wire Line
-	1470 1030 1160 1030
-Wire Wire Line
-	1160 1030 1160 1000
-Wire Wire Line
-	1160 1000 1030 1000
-Connection ~ 1470 1030
-Wire Wire Line
-	1160 1030 1160 1100
-Wire Wire Line
-	1160 1100 1030 1100
-Connection ~ 1160 1030
-Wire Wire Line
-	1160 880  1160 800 
-Wire Wire Line
-	1160 800  1030 800 
-Connection ~ 1160 880 
 $Sheet
 S 3980 3820 560  290 
 U 61B32EF7
@@ -892,118 +399,6 @@ F3 "MOSI" O R 4540 3890 50
 F4 "SCK" O R 4540 3980 50 
 F5 "CS" O R 4540 4070 50 
 $EndSheet
-Wire Wire Line
-	4540 4070 5360 4070
-Wire Wire Line
-	5370 3970 4980 3970
-Wire Wire Line
-	4980 3970 4980 3890
-Wire Wire Line
-	4980 3890 4540 3890
-Wire Wire Line
-	4540 3980 4840 3980
-Wire Wire Line
-	4840 3980 4840 3770
-Wire Wire Line
-	4840 3770 5360 3770
-Wire Wire Line
-	5360 3870 5100 3870
-Wire Wire Line
-	5100 3870 5100 3720
-Wire Wire Line
-	5100 3720 3940 3720
-Wire Wire Line
-	3940 3720 3940 3890
-Wire Wire Line
-	3940 3890 3980 3890
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 61B95A60
-P 1560 6930
-F 0 "H5" H 1660 6976 50  0000 L CNN
-F 1 "MountingHole" H 1660 6885 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1560 6930 50  0001 C CNN
-F 3 "~" H 1560 6930 50  0001 C CNN
-	1    1560 6930
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 61B96D5E
-P 2960 6970
-F 0 "H6" H 3060 7016 50  0000 L CNN
-F 1 "MountingHole" H 3060 6925 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2960 6970 50  0001 C CNN
-F 3 "~" H 2960 6970 50  0001 C CNN
-	1    2960 6970
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 61B9B453
-P 4360 6990
-F 0 "H7" H 4460 7036 50  0000 L CNN
-F 1 "MountingHole" H 4460 6945 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4360 6990 50  0001 C CNN
-F 3 "~" H 4360 6990 50  0001 C CNN
-	1    4360 6990
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 61B9FAF4
-P 5350 6970
-F 0 "H8" H 5450 7016 50  0000 L CNN
-F 1 "MountingHole" H 5450 6925 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5350 6970 50  0001 C CNN
-F 3 "~" H 5350 6970 50  0001 C CNN
-	1    5350 6970
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 61BA57E1
-P 6330 7170
-F 0 "H9" H 6430 7216 50  0000 L CNN
-F 1 "MountingHole" H 6430 7125 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6330 7170 50  0001 C CNN
-F 3 "~" H 6330 7170 50  0001 C CNN
-	1    6330 7170
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H13
-U 1 1 61BAA43D
-P 8190 6260
-F 0 "H13" H 8290 6306 50  0000 L CNN
-F 1 "MountingHole" H 8290 6215 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8190 6260 50  0001 C CNN
-F 3 "~" H 8190 6260 50  0001 C CNN
-	1    8190 6260
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H14
-U 1 1 61BAECA1
-P 9130 6300
-F 0 "H14" H 9230 6346 50  0000 L CNN
-F 1 "MountingHole" H 9230 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9130 6300 50  0001 C CNN
-F 3 "~" H 9130 6300 50  0001 C CNN
-	1    9130 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H16
-U 1 1 61BB32C0
-P 10190 6290
-F 0 "H16" H 10290 6336 50  0000 L CNN
-F 1 "MountingHole" H 10290 6245 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10190 6290 50  0001 C CNN
-F 3 "~" H 10190 6290 50  0001 C CNN
-	1    10190 6290
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 61BB7A03
@@ -1094,6 +489,591 @@ F 3 "~" H 1450 5460 50  0001 C CNN
 $EndComp
 Text Notes 1030 5650 0    50   ~ 0
 board mounting
+Text Notes 500  7040 0    50   ~ 0
+screw holes were\nrequested for all HLEs\nby Vincent to avoid\nvibration problems
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 619A8395
+P 770 1110
+AR Path="/61B32EF7/619A8395" Ref="J?"  Part="1" 
+AR Path="/619A8395" Ref="J1"  Part="1" 
+F 0 "J1" H 798 1086 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 798 995 50  0000 L CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 770 1110 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/jst-sales-america-inc/SM06B-SURS-TF-LF-SN/1989313" H 770 1110 50  0001 C CNN
+	1    770  1110
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 1400 3840 640  430 
+U 619FA3B6
+F0 "RJ45_consolidator" 50
+F1 "RJ45_consolidator.sch" 50
+F2 "RJ45_A[1..8]" B L 1400 3900 50 
+F3 "RJ45_B[1..8]" B L 1400 4010 50 
+F4 "RJ45_C[1..8]" B L 1400 4110 50 
+F5 "RJ45_D[1..8]" B L 1400 4210 50 
+$EndSheet
+Text Label 1810 2120 2    50   ~ 0
+USART3_CK
+$Sheet
+S 1810 1970 800  300 
+U 61B72C55
+F0 "USART3" 50
+F1 "USART_interface.sch" 50
+F2 "RX" O R 2610 2020 50 
+F3 "TX" I L 1810 2020 50 
+F4 "REM_CK" O R 2610 2120 50 
+F5 "LOC_CK" I L 1810 2120 50 
+F6 "RJ45_[1..8]" B L 1810 2220 50 
+$EndSheet
+$Comp
+L Connector:TestPoint TP7
+U 1 1 61AB0A08
+P 2880 5610
+F 0 "TP7" V 3075 5682 50  0000 C CNN
+F 1 "TestPoint" V 2984 5682 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5610 50  0001 C CNN
+F 3 "~" H 3080 5610 50  0001 C CNN
+	1    2880 5610
+	0    -1   -1   0   
+$EndComp
+Text Label 3070 5610 0    50   ~ 0
+ADC_2
+Text Label 3070 5710 0    50   ~ 0
+ADC_3
+Text Label 3070 5810 0    50   ~ 0
+ADC_4
+Text Label 3070 5910 0    50   ~ 0
+ADC_5
+Text Label 3070 6010 0    50   ~ 0
+ADC_6
+Text Label 3070 6110 0    50   ~ 0
+ADC_7
+$Comp
+L Connector:TestPoint TP8
+U 1 1 61AF1520
+P 2880 5710
+F 0 "TP8" V 3075 5782 50  0000 C CNN
+F 1 "TestPoint" V 2984 5782 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5710 50  0001 C CNN
+F 3 "~" H 3080 5710 50  0001 C CNN
+	1    2880 5710
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 61AF721F
+P 2880 5810
+F 0 "TP9" V 3075 5882 50  0000 C CNN
+F 1 "TestPoint" V 2984 5882 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5810 50  0001 C CNN
+F 3 "~" H 3080 5810 50  0001 C CNN
+	1    2880 5810
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 61AFCF8F
+P 2880 5910
+F 0 "TP10" V 3075 5982 50  0000 C CNN
+F 1 "TestPoint" V 2984 5982 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5910 50  0001 C CNN
+F 3 "~" H 3080 5910 50  0001 C CNN
+	1    2880 5910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 61B02AC9
+P 2880 6010
+F 0 "TP11" V 3075 6082 50  0000 C CNN
+F 1 "TestPoint" V 2984 6082 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 6010 50  0001 C CNN
+F 3 "~" H 3080 6010 50  0001 C CNN
+	1    2880 6010
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 61B086D0
+P 2880 6110
+F 0 "TP12" V 3075 6182 50  0000 C CNN
+F 1 "TestPoint" V 2984 6182 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 6110 50  0001 C CNN
+F 3 "~" H 3080 6110 50  0001 C CNN
+	1    2880 6110
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 61B1A99F
+P 3780 5290
+F 0 "TP18" V 3975 5362 50  0000 C CNN
+F 1 "TestPoint" V 3884 5362 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3980 5290 50  0001 C CNN
+F 3 "~" H 3980 5290 50  0001 C CNN
+	1    3780 5290
+	1    0    0    -1  
+$EndComp
+Text Label 3810 5800 0    50   ~ 0
+ADC_DIFF_0_P
+Text Label 3810 5900 0    50   ~ 0
+ADC_DIFF_0_N
+Text Label 3810 6000 0    50   ~ 0
+ADC_DIFF_1_P
+Text Label 3810 6100 0    50   ~ 0
+ADC_DIFF_1_N
+$Comp
+L Connector:TestPoint TP13
+U 1 1 61B35E0A
+P 3620 5800
+F 0 "TP13" V 3815 5872 50  0000 C CNN
+F 1 "TestPoint" V 3724 5872 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3820 5800 50  0001 C CNN
+F 3 "~" H 3820 5800 50  0001 C CNN
+	1    3620 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 61B35E10
+P 3620 5900
+F 0 "TP14" V 3815 5972 50  0000 C CNN
+F 1 "TestPoint" V 3724 5972 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3820 5900 50  0001 C CNN
+F 3 "~" H 3820 5900 50  0001 C CNN
+	1    3620 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 61B35E16
+P 3620 6000
+F 0 "TP15" V 3815 6072 50  0000 C CNN
+F 1 "TestPoint" V 3724 6072 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3820 6000 50  0001 C CNN
+F 3 "~" H 3820 6000 50  0001 C CNN
+	1    3620 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 61B35E1C
+P 3620 6100
+F 0 "TP16" V 3815 6172 50  0000 C CNN
+F 1 "TestPoint" V 3724 6172 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3820 6100 50  0001 C CNN
+F 3 "~" H 3820 6100 50  0001 C CNN
+	1    3620 6100
+	0    -1   -1   0   
+$EndComp
+Text Label 3070 4920 0    50   ~ 0
+GPIO_AUX_5
+Text Label 3070 5020 0    50   ~ 0
+GPIO_AUX_4
+Text Label 3070 5120 0    50   ~ 0
+GPIO_AUX_3
+Text Label 3070 5220 0    50   ~ 0
+GPIO_AUX_2
+Text Label 3070 5320 0    50   ~ 0
+GPIO_AUX_1
+Text Label 3070 5420 0    50   ~ 0
+GPIO_AUX_0
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61B50528
+P 2880 4920
+F 0 "TP1" V 3075 4992 50  0000 C CNN
+F 1 "TestPoint" V 2984 4992 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 4920 50  0001 C CNN
+F 3 "~" H 3080 4920 50  0001 C CNN
+	1    2880 4920
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61B50534
+P 2880 5020
+F 0 "TP2" V 3075 5092 50  0000 C CNN
+F 1 "TestPoint" V 2984 5092 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5020 50  0001 C CNN
+F 3 "~" H 3080 5020 50  0001 C CNN
+	1    2880 5020
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61B5053A
+P 2880 5120
+F 0 "TP3" V 3075 5192 50  0000 C CNN
+F 1 "TestPoint" V 2984 5192 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5120 50  0001 C CNN
+F 3 "~" H 3080 5120 50  0001 C CNN
+	1    2880 5120
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61B50540
+P 2880 5220
+F 0 "TP4" V 3075 5292 50  0000 C CNN
+F 1 "TestPoint" V 2984 5292 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5220 50  0001 C CNN
+F 3 "~" H 3080 5220 50  0001 C CNN
+	1    2880 5220
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61B50546
+P 2880 5320
+F 0 "TP5" V 3075 5392 50  0000 C CNN
+F 1 "TestPoint" V 2984 5392 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5320 50  0001 C CNN
+F 3 "~" H 3080 5320 50  0001 C CNN
+	1    2880 5320
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 61B5054C
+P 2880 5420
+F 0 "TP6" V 3075 5492 50  0000 C CNN
+F 1 "TestPoint" V 2984 5492 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3080 5420 50  0001 C CNN
+F 3 "~" H 3080 5420 50  0001 C CNN
+	1    2880 5420
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61B6EC0B
+P 3960 5500
+F 0 "#PWR?" H 3960 5250 50  0001 C CNN
+F 1 "GND" H 3965 5327 50  0000 C CNN
+F 2 "" H 3960 5500 50  0001 C CNN
+F 3 "" H 3960 5500 50  0001 C CNN
+	1    3960 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 61B838CE
+P 3960 5290
+F 0 "TP20" V 4155 5362 50  0000 C CNN
+F 1 "TestPoint" V 4064 5362 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4160 5290 50  0001 C CNN
+F 3 "~" H 4160 5290 50  0001 C CNN
+	1    3960 5290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 61B8AC29
+P 4140 5290
+F 0 "TP22" V 4335 5362 50  0000 C CNN
+F 1 "TestPoint" V 4244 5362 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4340 5290 50  0001 C CNN
+F 3 "~" H 4340 5290 50  0001 C CNN
+	1    4140 5290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 61B92254
+P 4320 5290
+F 0 "TP24" V 4515 5362 50  0000 C CNN
+F 1 "TestPoint" V 4424 5362 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4520 5290 50  0001 C CNN
+F 3 "~" H 4520 5290 50  0001 C CNN
+	1    4320 5290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 61BA5CE9
+P 4320 4770
+F 0 "TP23" V 4515 4842 50  0000 C CNN
+F 1 "TestPoint" V 4424 4842 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4520 4770 50  0001 C CNN
+F 3 "~" H 4520 4770 50  0001 C CNN
+	1    4320 4770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP21
+U 1 1 61BA5CF8
+P 4140 4770
+F 0 "TP21" V 4335 4842 50  0000 C CNN
+F 1 "TestPoint" V 4244 4842 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4340 4770 50  0001 C CNN
+F 3 "~" H 4340 4770 50  0001 C CNN
+	1    4140 4770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP19
+U 1 1 61BA5D00
+P 3960 4770
+F 0 "TP19" V 4155 4842 50  0000 C CNN
+F 1 "TestPoint" V 4064 4842 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4160 4770 50  0001 C CNN
+F 3 "~" H 4160 4770 50  0001 C CNN
+	1    3960 4770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP17
+U 1 1 61BA5D08
+P 3780 4770
+F 0 "TP17" V 3975 4842 50  0000 C CNN
+F 1 "TestPoint" V 3884 4842 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3980 4770 50  0001 C CNN
+F 3 "~" H 3980 4770 50  0001 C CNN
+	1    3780 4770
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61BADAA8
+P 4140 4560
+F 0 "#PWR?" H 4140 4410 50  0001 C CNN
+F 1 "+3V3" H 4155 4733 50  0000 C CNN
+F 2 "" H 4140 4560 50  0001 C CNN
+F 3 "" H 4140 4560 50  0001 C CNN
+	1    4140 4560
+	1    0    0    -1  
+$EndComp
+Text Notes 2630 4500 0    50   ~ 0
+Test pads for generic stuff\nprobable with DMM
+$Comp
+L Device:R R?
+U 1 1 61C3673A
+P 10190 3390
+AR Path="/61904E37/61C3673A" Ref="R?"  Part="1" 
+AR Path="/61C3673A" Ref="R6"  Part="1" 
+F 0 "R6" V 9983 3390 50  0000 C CNN
+F 1 "768" V 10074 3390 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10120 3390 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Susumu/RR1220P-7680-D-M?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbZLPPpOmrJ7U%3D" H 10190 3390 50  0001 C CNN
+	1    10190 3390
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61C3F0D6
+P 10190 3780
+F 0 "D3" V 10229 3662 50  0000 R CNN
+F 1 "LED" V 10138 3662 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10190 3780 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Kingbright/APTD3216LSYCK?qs=AQlKX63v8RvoX%252BazwCMI3g%3D%3D" H 10190 3780 50  0001 C CNN
+	1    10190 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C68C14
+P 10190 4010
+F 0 "#PWR?" H 10190 3760 50  0001 C CNN
+F 1 "GND" H 10195 3837 50  0000 C CNN
+F 2 "" H 10190 4010 50  0001 C CNN
+F 3 "" H 10190 4010 50  0001 C CNN
+	1    10190 4010
+	1    0    0    -1  
+$EndComp
+Text Label 10190 3130 1    50   ~ 0
+GPIO_AUX_1
+Text Label 10690 3130 1    50   ~ 0
+GPIO_AUX_0
+$Comp
+L Device:R R?
+U 1 1 61C98C2D
+P 10690 3390
+AR Path="/61904E37/61C98C2D" Ref="R?"  Part="1" 
+AR Path="/61C98C2D" Ref="R7"  Part="1" 
+F 0 "R7" V 10483 3390 50  0000 C CNN
+F 1 "768" V 10574 3390 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10620 3390 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Susumu/RR1220P-7680-D-M?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbZLPPpOmrJ7U%3D" H 10690 3390 50  0001 C CNN
+	1    10690 3390
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 61C98C33
+P 10690 3780
+F 0 "D4" V 10729 3662 50  0000 R CNN
+F 1 "LED" V 10638 3662 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10690 3780 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Kingbright/APTD3216LSYCK?qs=AQlKX63v8RvoX%252BazwCMI3g%3D%3D" H 10690 3780 50  0001 C CNN
+	1    10690 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C98C3B
+P 10690 4010
+F 0 "#PWR?" H 10690 3760 50  0001 C CNN
+F 1 "GND" H 10695 3837 50  0000 C CNN
+F 2 "" H 10690 4010 50  0001 C CNN
+F 3 "" H 10690 4010 50  0001 C CNN
+	1    10690 4010
+	1    0    0    -1  
+$EndComp
+Text Notes 9790 2690 0    50   ~ 0
+one LED should be used as "alive",\nthe other one is user-controlled\nperhaps something like blink codes\nfor critical errors
+$Comp
+L power:GND #PWR?
+U 1 1 61A6D070
+P 1100 1380
+F 0 "#PWR?" H 1100 1130 50  0001 C CNN
+F 1 "GND" H 1105 1207 50  0000 C CNN
+F 2 "" H 1100 1380 50  0001 C CNN
+F 3 "" H 1100 1380 50  0001 C CNN
+	1    1100 1380
+	1    0    0    -1  
+$EndComp
+Text Label 8480 2660 0    50   ~ 0
+I2C1_SDA
+Text Label 8480 2760 0    50   ~ 0
+I2C1_SCL
+Text Label 8480 3910 0    50   ~ 0
+SPI4_CS2
+Text Label 8480 3710 0    50   ~ 0
+I2C4_SDA
+Text Label 8480 3810 0    50   ~ 0
+I2C4_SCL
+Text Label 8480 3610 0    50   ~ 0
+UART8_RX
+Text Label 8480 3510 0    50   ~ 0
+UART8_TX
+$Comp
+L power:GND #PWR?
+U 1 1 61970198
+P 9000 4210
+F 0 "#PWR?" H 9000 3960 50  0001 C CNN
+F 1 "GND" H 9005 4037 50  0000 C CNN
+F 2 "" H 9000 4210 50  0001 C CNN
+F 3 "" H 9000 4210 50  0001 C CNN
+	1    9000 4210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J10
+U 1 1 61AF0159
+P 8250 5270
+F 0 "J10" H 8300 5487 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 8300 5396 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 8250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 8250 5270 50  0001 C CNN
+	1    8250 5270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1710 1470 1810 1470
+Wire Wire Line
+	5360 1420 3660 1420
+Wire Wire Line
+	2860 1470 2860 1520
+Wire Wire Line
+	2860 1520 5360 1520
+Wire Wire Line
+	3110 1570 3110 2070
+Wire Wire Line
+	3460 2170 2960 2170
+Wire Wire Line
+	2960 2170 2960 2120
+Wire Wire Line
+	3110 2270 3460 2270
+Wire Wire Line
+	3110 2270 3110 2720
+Wire Wire Line
+	7980 1410 7480 1410
+Connection ~ 7480 1410
+Wire Wire Line
+	7480 1410 7480 760 
+Wire Wire Line
+	8480 1910 9000 1910
+Wire Wire Line
+	3660 1420 3660 1320
+Wire Wire Line
+	3660 1320 1710 1320
+Wire Wire Line
+	1710 1320 1710 1470
+Wire Wire Line
+	960  6470 960  6220
+Wire Wire Line
+	960  6470 1110 6470
+Wire Wire Line
+	2360 6470 2360 6220
+Wire Wire Line
+	2360 6470 2510 6470
+Wire Wire Line
+	3910 6470 3910 6220
+Wire Wire Line
+	4910 6470 4910 6220
+Wire Wire Line
+	5910 6470 5910 6220
+Wire Wire Line
+	5910 6220 4910 6220
+Connection ~ 960  6220
+Wire Wire Line
+	960  6220 960  6020
+Connection ~ 2360 6220
+Wire Wire Line
+	2360 6220 960  6220
+Connection ~ 3910 6220
+Wire Wire Line
+	3910 6220 2360 6220
+Connection ~ 4910 6220
+Wire Wire Line
+	4910 6220 3910 6220
+Wire Wire Line
+	7900 5270 7900 5020
+Wire Wire Line
+	7900 5270 8050 5270
+Wire Wire Line
+	9050 5270 9050 5020
+Wire Wire Line
+	10050 5270 10050 5020
+Wire Wire Line
+	9050 5020 7900 5020
+Wire Wire Line
+	7900 5020 7900 4820
+Connection ~ 7900 5020
+Wire Wire Line
+	10690 1430 10690 1550
+Wire Wire Line
+	1100 1010 970  1010
+Wire Wire Line
+	1100 1110 970  1110
+Wire Wire Line
+	1100 1210 970  1210
+Wire Wire Line
+	1100 910  970  910 
+Wire Wire Line
+	4540 4070 5360 4070
+Wire Wire Line
+	4980 3970 4980 3890
+Wire Wire Line
+	4980 3890 4540 3890
+Wire Wire Line
+	4540 3980 4840 3980
+Wire Wire Line
+	4840 3980 4840 3770
+Wire Wire Line
+	4840 3770 5360 3770
+Wire Wire Line
+	5360 3870 5100 3870
+Wire Wire Line
+	5100 3870 5100 3720
+Wire Wire Line
+	5100 3720 3940 3720
+Wire Wire Line
+	3940 3720 3940 3890
+Wire Wire Line
+	3940 3890 3980 3890
 Wire Notes Line
 	2100 5680 2100 5110
 Wire Notes Line
@@ -1105,8 +1085,6 @@ Wire Notes Line
 Connection ~ 9050 5020
 Wire Wire Line
 	10050 5020 9050 5020
-Text Notes 500  7040 0    50   ~ 0
-screw holes were\nrequested for all HLEs\nby Vincent to avoid\nvibration problems
 Wire Wire Line
 	5060 1220 5360 1220
 Wire Wire Line
@@ -1135,77 +1113,16 @@ Wire Wire Line
 	4210 580  4210 780 
 Wire Wire Line
 	4210 780  4260 780 
-Connection ~ 4610 6870
 Wire Wire Line
-	4610 6870 5610 6870
-Connection ~ 5610 6870
+	1100 1210 1100 1310
 Wire Wire Line
-	5610 6870 6610 6870
-Connection ~ 6610 6870
-$Comp
-L Connector:Conn_01x06_Female J?
-U 1 1 619A8395
-P 830 1000
-AR Path="/61B32EF7/619A8395" Ref="J?"  Part="1" 
-AR Path="/619A8395" Ref="J1"  Part="1" 
-F 0 "J1" H 858 976 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 858 885 50  0000 L CNN
-F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 830 1000 50  0001 C CNN
-F 3 "~" H 830 1000 50  0001 C CNN
-	1    830  1000
-	-1   0    0    1   
-$EndComp
+	1100 1310 970  1310
+Connection ~ 1100 1210
 Wire Wire Line
-	1160 1100 1160 1200
-Wire Wire Line
-	1160 1200 1030 1200
-Connection ~ 1160 1100
-Wire Wire Line
-	1160 800  1160 700 
-Wire Wire Line
-	1160 700  1030 700 
-Connection ~ 1160 800 
-$Sheet
-S 1400 3840 640  430 
-U 619FA3B6
-F0 "RJ45_consolidator" 50
-F1 "RJ45_consolidator.sch" 50
-F2 "RJ45_A[1..8]" B L 1400 3900 50 
-F3 "RJ45_B[1..8]" B L 1400 4010 50 
-F4 "RJ45_C[1..8]" B L 1400 4110 50 
-F5 "RJ45_D[1..8]" B L 1400 4210 50 
-$EndSheet
-Wire Wire Line
-	1810 2020 1710 2020
+	1100 810  970  810 
+Connection ~ 1100 910 
 Wire Wire Line
 	2960 2120 2610 2120
-Text Label 1810 2120 2    50   ~ 0
-USART2_CK
-$Sheet
-S 1810 1970 800  300 
-U 61B72C55
-F0 "USART2" 50
-F1 "USART_interface.sch" 50
-F2 "RX" O R 2610 2020 50 
-F3 "TX" I L 1810 2020 50 
-F4 "REM_CK" O R 2610 2120 50 
-F5 "LOC_CK" I L 1810 2120 50 
-F6 "RJ45_[1..8]" B L 1810 2220 50 
-$EndSheet
-Wire Wire Line
-	2610 2020 2960 2020
-Wire Wire Line
-	2960 2020 2960 1920
-Wire Wire Line
-	2960 1920 5360 1920
-Wire Wire Line
-	5270 1880 5270 1820
-Wire Wire Line
-	5270 1820 5360 1820
-Wire Wire Line
-	1710 1880 1710 2020
-Wire Wire Line
-	1710 1880 5270 1880
 Wire Bus Line
 	1400 4210 1250 4210
 Wire Bus Line
@@ -1219,8 +1136,6 @@ Wire Bus Line
 Wire Bus Line
 	1140 2820 1810 2820
 Wire Bus Line
-	1410 4010 1040 4010
-Wire Bus Line
 	1040 4010 1040 2220
 Wire Bus Line
 	1040 2220 1810 2220
@@ -1230,29 +1145,6 @@ Wire Bus Line
 	950  3900 950  1670
 Wire Bus Line
 	950  1670 1810 1670
-$Comp
-L Connector:TestPoint TP7
-U 1 1 61AB0A08
-P 2880 5610
-F 0 "TP7" V 3075 5682 50  0000 C CNN
-F 1 "TestPoint" V 2984 5682 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5610 50  0001 C CNN
-F 3 "~" H 3080 5610 50  0001 C CNN
-	1    2880 5610
-	0    -1   -1   0   
-$EndComp
-Text Label 3070 5610 0    50   ~ 0
-ADC_2
-Text Label 3070 5710 0    50   ~ 0
-ADC_3
-Text Label 3070 5810 0    50   ~ 0
-ADC_4
-Text Label 3070 5910 0    50   ~ 0
-ADC_5
-Text Label 3070 6010 0    50   ~ 0
-ADC_6
-Text Label 3070 6110 0    50   ~ 0
-ADC_7
 Wire Wire Line
 	3070 5610 2880 5610
 Wire Wire Line
@@ -1265,80 +1157,6 @@ Wire Wire Line
 	3070 6010 2880 6010
 Wire Wire Line
 	3070 6110 2880 6110
-$Comp
-L Connector:TestPoint TP8
-U 1 1 61AF1520
-P 2880 5710
-F 0 "TP8" V 3075 5782 50  0000 C CNN
-F 1 "TestPoint" V 2984 5782 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5710 50  0001 C CNN
-F 3 "~" H 3080 5710 50  0001 C CNN
-	1    2880 5710
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 61AF721F
-P 2880 5810
-F 0 "TP9" V 3075 5882 50  0000 C CNN
-F 1 "TestPoint" V 2984 5882 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5810 50  0001 C CNN
-F 3 "~" H 3080 5810 50  0001 C CNN
-	1    2880 5810
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP10
-U 1 1 61AFCF8F
-P 2880 5910
-F 0 "TP10" V 3075 5982 50  0000 C CNN
-F 1 "TestPoint" V 2984 5982 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5910 50  0001 C CNN
-F 3 "~" H 3080 5910 50  0001 C CNN
-	1    2880 5910
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP11
-U 1 1 61B02AC9
-P 2880 6010
-F 0 "TP11" V 3075 6082 50  0000 C CNN
-F 1 "TestPoint" V 2984 6082 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 6010 50  0001 C CNN
-F 3 "~" H 3080 6010 50  0001 C CNN
-	1    2880 6010
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP12
-U 1 1 61B086D0
-P 2880 6110
-F 0 "TP12" V 3075 6182 50  0000 C CNN
-F 1 "TestPoint" V 2984 6182 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 6110 50  0001 C CNN
-F 3 "~" H 3080 6110 50  0001 C CNN
-	1    2880 6110
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP18
-U 1 1 61B1A99F
-P 3780 5290
-F 0 "TP18" V 3975 5362 50  0000 C CNN
-F 1 "TestPoint" V 3884 5362 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3980 5290 50  0001 C CNN
-F 3 "~" H 3980 5290 50  0001 C CNN
-	1    3780 5290
-	1    0    0    -1  
-$EndComp
-Text Label 3810 5800 0    50   ~ 0
-ADC_DIFF_0_P
-Text Label 3810 5900 0    50   ~ 0
-ADC_DIFF_0_N
-Text Label 3810 6000 0    50   ~ 0
-ADC_DIFF_1_P
-Text Label 3810 6100 0    50   ~ 0
-ADC_DIFF_1_N
 Wire Wire Line
 	3810 5800 3620 5800
 Wire Wire Line
@@ -1347,73 +1165,6 @@ Wire Wire Line
 	3810 6000 3620 6000
 Wire Wire Line
 	3810 6100 3620 6100
-$Comp
-L Connector:TestPoint TP13
-U 1 1 61B35E0A
-P 3620 5800
-F 0 "TP13" V 3815 5872 50  0000 C CNN
-F 1 "TestPoint" V 3724 5872 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3820 5800 50  0001 C CNN
-F 3 "~" H 3820 5800 50  0001 C CNN
-	1    3620 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP14
-U 1 1 61B35E10
-P 3620 5900
-F 0 "TP14" V 3815 5972 50  0000 C CNN
-F 1 "TestPoint" V 3724 5972 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3820 5900 50  0001 C CNN
-F 3 "~" H 3820 5900 50  0001 C CNN
-	1    3620 5900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP15
-U 1 1 61B35E16
-P 3620 6000
-F 0 "TP15" V 3815 6072 50  0000 C CNN
-F 1 "TestPoint" V 3724 6072 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3820 6000 50  0001 C CNN
-F 3 "~" H 3820 6000 50  0001 C CNN
-	1    3620 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP16
-U 1 1 61B35E1C
-P 3620 6100
-F 0 "TP16" V 3815 6172 50  0000 C CNN
-F 1 "TestPoint" V 3724 6172 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3820 6100 50  0001 C CNN
-F 3 "~" H 3820 6100 50  0001 C CNN
-	1    3620 6100
-	0    -1   -1   0   
-$EndComp
-Text Label 3070 4920 0    50   ~ 0
-GPIO_AUX_5
-Text Label 3070 5020 0    50   ~ 0
-GPIO_AUX_4
-Text Label 3070 5120 0    50   ~ 0
-GPIO_AUX_3
-Text Label 3070 5220 0    50   ~ 0
-GPIO_AUX_2
-Text Label 3070 5320 0    50   ~ 0
-GPIO_AUX_1
-Text Label 3070 5420 0    50   ~ 0
-GPIO_AUX_0
-$Comp
-L Connector:TestPoint TP1
-U 1 1 61B50528
-P 2880 4920
-F 0 "TP1" V 3075 4992 50  0000 C CNN
-F 1 "TestPoint" V 2984 4992 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 4920 50  0001 C CNN
-F 3 "~" H 3080 4920 50  0001 C CNN
-	1    2880 4920
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3070 4920 2880 4920
 Wire Wire Line
@@ -1426,196 +1177,42 @@ Wire Wire Line
 	3070 5320 2880 5320
 Wire Wire Line
 	3070 5420 2880 5420
-$Comp
-L Connector:TestPoint TP2
-U 1 1 61B50534
-P 2880 5020
-F 0 "TP2" V 3075 5092 50  0000 C CNN
-F 1 "TestPoint" V 2984 5092 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5020 50  0001 C CNN
-F 3 "~" H 3080 5020 50  0001 C CNN
-	1    2880 5020
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 61B5053A
-P 2880 5120
-F 0 "TP3" V 3075 5192 50  0000 C CNN
-F 1 "TestPoint" V 2984 5192 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5120 50  0001 C CNN
-F 3 "~" H 3080 5120 50  0001 C CNN
-	1    2880 5120
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 61B50540
-P 2880 5220
-F 0 "TP4" V 3075 5292 50  0000 C CNN
-F 1 "TestPoint" V 2984 5292 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5220 50  0001 C CNN
-F 3 "~" H 3080 5220 50  0001 C CNN
-	1    2880 5220
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 61B50546
-P 2880 5320
-F 0 "TP5" V 3075 5392 50  0000 C CNN
-F 1 "TestPoint" V 2984 5392 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5320 50  0001 C CNN
-F 3 "~" H 3080 5320 50  0001 C CNN
-	1    2880 5320
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 61B5054C
-P 2880 5420
-F 0 "TP6" V 3075 5492 50  0000 C CNN
-F 1 "TestPoint" V 2984 5492 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3080 5420 50  0001 C CNN
-F 3 "~" H 3080 5420 50  0001 C CNN
-	1    2880 5420
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 61B6EC0B
-P 3960 5500
-F 0 "#PWR0112" H 3960 5250 50  0001 C CNN
-F 1 "GND" H 3965 5327 50  0000 C CNN
-F 2 "" H 3960 5500 50  0001 C CNN
-F 3 "" H 3960 5500 50  0001 C CNN
-	1    3960 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3960 5500 3960 5430
 Wire Wire Line
 	3960 5430 3780 5430
 Wire Wire Line
 	3780 5430 3780 5290
-$Comp
-L Connector:TestPoint TP20
-U 1 1 61B838CE
-P 3960 5290
-F 0 "TP20" V 4155 5362 50  0000 C CNN
-F 1 "TestPoint" V 4064 5362 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4160 5290 50  0001 C CNN
-F 3 "~" H 4160 5290 50  0001 C CNN
-	1    3960 5290
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4140 5430 3960 5430
 Wire Wire Line
 	3960 5430 3960 5290
-$Comp
-L Connector:TestPoint TP22
-U 1 1 61B8AC29
-P 4140 5290
-F 0 "TP22" V 4335 5362 50  0000 C CNN
-F 1 "TestPoint" V 4244 5362 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4340 5290 50  0001 C CNN
-F 3 "~" H 4340 5290 50  0001 C CNN
-	1    4140 5290
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4320 5430 4140 5430
 Wire Wire Line
 	4140 5430 4140 5290
-$Comp
-L Connector:TestPoint TP24
-U 1 1 61B92254
-P 4320 5290
-F 0 "TP24" V 4515 5362 50  0000 C CNN
-F 1 "TestPoint" V 4424 5362 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4520 5290 50  0001 C CNN
-F 3 "~" H 4520 5290 50  0001 C CNN
-	1    4320 5290
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4320 5430 4320 5290
 Connection ~ 3960 5430
 Connection ~ 4140 5430
-$Comp
-L Connector:TestPoint TP23
-U 1 1 61BA5CE9
-P 4320 4770
-F 0 "TP23" V 4515 4842 50  0000 C CNN
-F 1 "TestPoint" V 4424 4842 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4520 4770 50  0001 C CNN
-F 3 "~" H 4520 4770 50  0001 C CNN
-	1    4320 4770
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4140 4560 4140 4630
 Wire Wire Line
 	4140 4630 4320 4630
 Wire Wire Line
 	4320 4630 4320 4770
-$Comp
-L Connector:TestPoint TP21
-U 1 1 61BA5CF8
-P 4140 4770
-F 0 "TP21" V 4335 4842 50  0000 C CNN
-F 1 "TestPoint" V 4244 4842 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4340 4770 50  0001 C CNN
-F 3 "~" H 4340 4770 50  0001 C CNN
-	1    4140 4770
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3960 4630 4140 4630
 Wire Wire Line
 	4140 4630 4140 4770
-$Comp
-L Connector:TestPoint TP19
-U 1 1 61BA5D00
-P 3960 4770
-F 0 "TP19" V 4155 4842 50  0000 C CNN
-F 1 "TestPoint" V 4064 4842 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4160 4770 50  0001 C CNN
-F 3 "~" H 4160 4770 50  0001 C CNN
-	1    3960 4770
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3780 4630 3960 4630
 Wire Wire Line
 	3960 4630 3960 4770
-$Comp
-L Connector:TestPoint TP17
-U 1 1 61BA5D08
-P 3780 4770
-F 0 "TP17" V 3975 4842 50  0000 C CNN
-F 1 "TestPoint" V 3884 4842 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3980 4770 50  0001 C CNN
-F 3 "~" H 3980 4770 50  0001 C CNN
-	1    3780 4770
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3780 4630 3780 4770
 Connection ~ 4140 4630
 Connection ~ 3960 4630
-$Comp
-L power:+3V3 #PWR0113
-U 1 1 61BADAA8
-P 4140 4560
-F 0 "#PWR0113" H 4140 4410 50  0001 C CNN
-F 1 "+3V3" H 4155 4733 50  0000 C CNN
-F 2 "" H 4140 4560 50  0001 C CNN
-F 3 "" H 4140 4560 50  0001 C CNN
-	1    4140 4560
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	2580 6170 4600 6170
 Wire Notes Line
@@ -1624,96 +1221,18 @@ Wire Notes Line
 	4600 4310 2580 4310
 Wire Notes Line
 	2580 4310 2580 6170
-Text Notes 2630 4500 0    50   ~ 0
-Test pads for generic stuff\nprobable with DMM
-$Comp
-L Device:R R?
-U 1 1 61C3673A
-P 10190 3390
-AR Path="/61904E37/61C3673A" Ref="R?"  Part="1" 
-AR Path="/61C3673A" Ref="R6"  Part="1" 
-F 0 "R6" V 9983 3390 50  0000 C CNN
-F 1 "1k" V 10074 3390 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10120 3390 50  0001 C CNN
-F 3 "~" H 10190 3390 50  0001 C CNN
-	1    10190 3390
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 61C3F0D6
-P 10190 3780
-F 0 "D3" V 10229 3662 50  0000 R CNN
-F 1 "LED" V 10138 3662 50  0000 R CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10190 3780 50  0001 C CNN
-F 3 "https://www.mouser.ch/ProductDetail/Kingbright/APTD3216LSYCK?qs=AQlKX63v8RvoX%252BazwCMI3g%3D%3D" H 10190 3780 50  0001 C CNN
-	1    10190 3780
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10190 3540 10190 3630
 Wire Wire Line
 	10190 3930 10190 4010
-$Comp
-L power:GND #PWR0114
-U 1 1 61C68C14
-P 10190 4010
-F 0 "#PWR0114" H 10190 3760 50  0001 C CNN
-F 1 "GND" H 10195 3837 50  0000 C CNN
-F 2 "" H 10190 4010 50  0001 C CNN
-F 3 "" H 10190 4010 50  0001 C CNN
-	1    10190 4010
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10190 3240 10190 3130
-Text Label 10190 3130 1    50   ~ 0
-GPIO_AUX_1
-Text Label 10690 3130 1    50   ~ 0
-GPIO_AUX_0
-$Comp
-L Device:R R?
-U 1 1 61C98C2D
-P 10690 3390
-AR Path="/61904E37/61C98C2D" Ref="R?"  Part="1" 
-AR Path="/61C98C2D" Ref="R7"  Part="1" 
-F 0 "R7" V 10483 3390 50  0000 C CNN
-F 1 "1k" V 10574 3390 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10620 3390 50  0001 C CNN
-F 3 "~" H 10690 3390 50  0001 C CNN
-	1    10690 3390
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D4
-U 1 1 61C98C33
-P 10690 3780
-F 0 "D4" V 10729 3662 50  0000 R CNN
-F 1 "LED" V 10638 3662 50  0000 R CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10690 3780 50  0001 C CNN
-F 3 "https://www.mouser.ch/ProductDetail/Kingbright/APTD3216LSYCK?qs=AQlKX63v8RvoX%252BazwCMI3g%3D%3D" H 10690 3780 50  0001 C CNN
-	1    10690 3780
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10690 3540 10690 3630
 Wire Wire Line
 	10690 3930 10690 4010
-$Comp
-L power:GND #PWR0115
-U 1 1 61C98C3B
-P 10690 4010
-F 0 "#PWR0115" H 10690 3760 50  0001 C CNN
-F 1 "GND" H 10695 3837 50  0000 C CNN
-F 2 "" H 10690 4010 50  0001 C CNN
-F 3 "" H 10690 4010 50  0001 C CNN
-	1    10690 4010
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10690 3240 10690 3130
-Text Notes 9790 2690 0    50   ~ 0
-one LED should be used as "alive",\nthe other one is user-controlled\nperhaps something like blink codes\nfor critical errors
 Wire Notes Line
 	11190 2380 11190 4270
 Wire Notes Line
@@ -1722,4 +1241,433 @@ Wire Notes Line
 	9770 4270 9770 2380
 Wire Notes Line
 	9770 2380 11190 2380
+Wire Bus Line
+	1400 4010 1040 4010
+Wire Wire Line
+	4980 3970 5360 3970
+Wire Wire Line
+	3420 2370 3460 2370
+Wire Wire Line
+	3420 2370 3420 3370
+Wire Wire Line
+	3460 2070 3110 2070
+Wire Wire Line
+	2580 1570 3110 1570
+Wire Wire Line
+	2580 1470 2860 1470
+Wire Wire Line
+	2600 2720 3110 2720
+Wire Wire Line
+	2600 3370 3420 3370
+Wire Wire Line
+	1100 780  1100 810 
+Connection ~ 1100 810 
+Wire Wire Line
+	1100 810  1100 910 
+Wire Wire Line
+	1100 1310 1100 1380
+Connection ~ 1100 1310
+Wire Wire Line
+	1100 910  1100 1010
+Wire Wire Line
+	1100 1110 1100 1210
+Wire Wire Line
+	9000 2960 9000 4010
+Connection ~ 9000 2960
+Wire Wire Line
+	9000 1910 9000 2960
+Wire Wire Line
+	8480 2960 9000 2960
+Wire Wire Line
+	8480 4010 9000 4010
+Connection ~ 9000 4010
+Wire Wire Line
+	9000 4010 9000 4210
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J12
+U 1 1 61B04B6F
+P 10250 5270
+F 0 "J12" H 10300 5487 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 10300 5396 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 10250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 10250 5270 50  0001 C CNN
+	1    10250 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J11
+U 1 1 61AFC2AC
+P 9250 5270
+F 0 "J11" H 9300 5487 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 9300 5396 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 9250 5270 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 9250 5270 50  0001 C CNN
+	1    9250 5270
+	1    0    0    -1  
+$EndComp
+Text Label 10550 5270 0    50   ~ 0
+ADC_7
+Text Label 9550 5270 0    50   ~ 0
+ADC_6
+Text Label 8550 5270 0    50   ~ 0
+ADC_5
+Wire Wire Line
+	8550 5670 8550 5370
+Wire Wire Line
+	8550 5670 9550 5670
+Connection ~ 9550 5670
+Wire Wire Line
+	10550 5370 10550 5670
+Wire Wire Line
+	10550 5670 10550 5770
+Wire Wire Line
+	9550 5670 9550 5370
+Connection ~ 10550 5670
+$Comp
+L power:GND #PWR?
+U 1 1 61A21FB9
+P 10550 5770
+F 0 "#PWR?" H 10550 5520 50  0001 C CNN
+F 1 "GND" H 10555 5597 50  0000 C CNN
+F 2 "" H 10550 5770 50  0001 C CNN
+F 3 "" H 10550 5770 50  0001 C CNN
+	1    10550 5770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5670 10550 5670
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J2
+U 1 1 61B39E5C
+P 1310 6470
+F 0 "J2" H 1360 6687 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 1360 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 1310 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 1310 6470 50  0001 C CNN
+	1    1310 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 61B4A5F9
+P 2710 6470
+F 0 "J3" H 2760 6687 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 2760 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 2710 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 2710 6470 50  0001 C CNN
+	1    2710 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J4
+U 1 1 61B52EB1
+P 4110 6470
+F 0 "J4" H 4160 6687 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 4160 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 4110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 4110 6470 50  0001 C CNN
+	1    4110 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J5
+U 1 1 61B5B481
+P 5110 6470
+F 0 "J5" H 5160 6687 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 5160 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 5110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 5110 6470 50  0001 C CNN
+	1    5110 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J6
+U 1 1 61B640A0
+P 6110 6470
+F 0 "J6" H 6160 6687 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 6160 6596 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 6110 6470 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 6110 6470 50  0001 C CNN
+	1    6110 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 619D351B
+P 6410 6970
+F 0 "#PWR?" H 6410 6720 50  0001 C CNN
+F 1 "GND" H 6415 6797 50  0000 C CNN
+F 2 "" H 6410 6970 50  0001 C CNN
+F 3 "" H 6410 6970 50  0001 C CNN
+	1    6410 6970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6410 6970 6410 6870
+Wire Wire Line
+	1610 6870 1610 6570
+Wire Wire Line
+	3010 6870 3010 6570
+Wire Wire Line
+	1610 6870 3010 6870
+Connection ~ 3010 6870
+Wire Wire Line
+	3010 6870 4410 6870
+Wire Wire Line
+	4410 6870 4410 6570
+Wire Wire Line
+	5410 6870 5410 6570
+Wire Wire Line
+	6410 6870 6410 6570
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61B95A60
+P 1360 6930
+F 0 "H5" H 1460 6976 50  0000 L CNN
+F 1 "MountingHole" H 1460 6885 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1360 6930 50  0001 C CNN
+F 3 "~" H 1360 6930 50  0001 C CNN
+	1    1360 6930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61B96D5E
+P 2760 6970
+F 0 "H6" H 2860 7016 50  0000 L CNN
+F 1 "MountingHole" H 2860 6925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2760 6970 50  0001 C CNN
+F 3 "~" H 2760 6970 50  0001 C CNN
+	1    2760 6970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 61B9B453
+P 4160 6990
+F 0 "H7" H 4260 7036 50  0000 L CNN
+F 1 "MountingHole" H 4260 6945 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4160 6990 50  0001 C CNN
+F 3 "~" H 4160 6990 50  0001 C CNN
+	1    4160 6990
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 61B9FAF4
+P 5150 6970
+F 0 "H8" H 5250 7016 50  0000 L CNN
+F 1 "MountingHole" H 5250 6925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5150 6970 50  0001 C CNN
+F 3 "~" H 5150 6970 50  0001 C CNN
+	1    5150 6970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 61BA57E1
+P 6130 7170
+F 0 "H9" H 6230 7216 50  0000 L CNN
+F 1 "MountingHole" H 6230 7125 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6130 7170 50  0001 C CNN
+F 3 "~" H 6130 7170 50  0001 C CNN
+	1    6130 7170
+	1    0    0    -1  
+$EndComp
+Connection ~ 4410 6870
+Wire Wire Line
+	4410 6870 5410 6870
+Connection ~ 5410 6870
+Wire Wire Line
+	5410 6870 6410 6870
+Connection ~ 6410 6870
+Text Label 1610 6470 0    50   ~ 0
+ADC_DIFF_0_P
+Text Label 3010 6470 0    50   ~ 0
+ADC_DIFF_1_P
+Text Label 4410 6470 0    50   ~ 0
+ADC_2
+Text Label 5410 6470 0    50   ~ 0
+ADC_3
+Text Label 1810 3370 2    50   ~ 0
+USART2_CK
+Text Label 1810 2720 2    50   ~ 0
+USART6_CK
+$Sheet
+S 1810 3220 790  290 
+U 61B73361
+F0 "USART2" 50
+F1 "USART_interface.sch" 50
+F2 "RX" O R 2600 3270 50 
+F3 "TX" I L 1810 3270 50 
+F4 "REM_CK" O R 2600 3370 50 
+F5 "LOC_CK" I L 1810 3370 50 
+F6 "RJ45_[1..8]" B L 1810 3450 50 
+$EndSheet
+$Sheet
+S 1810 2570 790  310 
+U 61B7335B
+F0 "USART6" 50
+F1 "USART_interface.sch" 50
+F2 "RX" O R 2600 2620 50 
+F3 "TX" I L 1810 2620 50 
+F4 "REM_CK" O R 2600 2720 50 
+F5 "LOC_CK" I L 1810 2720 50 
+F6 "RJ45_[1..8]" B L 1810 2820 50 
+$EndSheet
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 61BB32C0
+P 10190 6290
+F 0 "H16" H 10290 6336 50  0000 L CNN
+F 1 "MountingHole" H 10290 6245 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10190 6290 50  0001 C CNN
+F 3 "~" H 10190 6290 50  0001 C CNN
+	1    10190 6290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 61BAECA1
+P 9130 6300
+F 0 "H14" H 9230 6346 50  0000 L CNN
+F 1 "MountingHole" H 9230 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9130 6300 50  0001 C CNN
+F 3 "~" H 9130 6300 50  0001 C CNN
+	1    9130 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 61BAA43D
+P 8190 6260
+F 0 "H13" H 8290 6306 50  0000 L CNN
+F 1 "MountingHole" H 8290 6215 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8190 6260 50  0001 C CNN
+F 3 "~" H 8190 6260 50  0001 C CNN
+	1    8190 6260
+	1    0    0    -1  
+$EndComp
+Text Label 6410 6470 0    50   ~ 0
+ADC_4
+Text Label 2610 2020 0    50   ~ 0
+USART3_RX
+Text Label 1810 2020 2    50   ~ 0
+USART3_TX
+Text Label 5360 1820 2    50   ~ 0
+USART2_TX
+Text Label 5360 1920 2    50   ~ 0
+USART2_RX
+Text Label 1810 3270 2    50   ~ 0
+USART2_TX
+Text Label 2600 2620 0    50   ~ 0
+USART6_RX
+Text Label 1810 2620 2    50   ~ 0
+USART6_TX
+Text Label 5360 2220 2    50   ~ 0
+USART3_TX
+Text Label 5360 2320 2    50   ~ 0
+USART3_RX
+Text Label 5360 2620 2    50   ~ 0
+USART6_TX
+Text Label 2600 3270 0    50   ~ 0
+USART2_RX
+Text Label 5360 2720 2    50   ~ 0
+USART6_RX
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J14
+U 1 1 61E7B053
+P 9050 830
+F 0 "J14" H 9100 1047 50  0000 C CNN
+F 1 "CLP-102-02-L-D-BE" H 9100 956 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-102-02-X-D-BE" H 9050 830 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-102-02-L-D-BE/6613218" H 9050 830 50  0001 C CNN
+	1    9050 830 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 930  9350 1030
+$Comp
+L power:GND #PWR?
+U 1 1 61E9353D
+P 9350 1030
+F 0 "#PWR?" H 9350 780 50  0001 C CNN
+F 1 "GND" H 9355 857 50  0000 C CNN
+F 2 "" H 9350 1030 50  0001 C CNN
+F 3 "" H 9350 1030 50  0001 C CNN
+	1    9350 1030
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61E9A1B6
+P 8610 750
+F 0 "#PWR?" H 8610 600 50  0001 C CNN
+F 1 "+3V3" H 8625 923 50  0000 C CNN
+F 2 "" H 8610 750 50  0001 C CNN
+F 3 "" H 8610 750 50  0001 C CNN
+	1    8610 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 830  8610 830 
+Wire Wire Line
+	8610 830  8610 750 
+NoConn ~ 10690 1230
+NoConn ~ 10690 1330
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J13
+U 1 1 61ACE3C3
+P 10390 1230
+F 0 "J13" H 10440 1647 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 10440 1556 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 10390 1230 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 10390 1230 50  0001 C CNN
+	1    10390 1230
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7980 3510 7480 3510
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J9
+U 1 1 61AA123F
+P 8180 3810
+F 0 "J9" H 8230 4227 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 8230 4136 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 8180 3810 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 8180 3810 50  0001 C CNN
+	1    8180 3810
+	1    0    0    1   
+$EndComp
+Connection ~ 7480 2460
+Wire Wire Line
+	7480 2460 7480 1410
+Wire Wire Line
+	7480 3510 7480 2460
+Wire Wire Line
+	7980 2460 7480 2460
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J8
+U 1 1 61A97C1E
+P 8180 2760
+F 0 "J8" H 8230 3177 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 8230 3086 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 8180 2760 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 8180 2760 50  0001 C CNN
+	1    8180 2760
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J7
+U 1 1 61A8053B
+P 8180 1710
+F 0 "J7" H 8230 2127 50  0000 C CNN
+F 1 "CLP-106-02-F-D-BE-A-K-TR" H 8230 2036 50  0000 C CNN
+F 2 "node_pcb:SAMTEC-CLP-106-02-X-D-BE" H 8180 1710 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-TR/6703882" H 8180 1710 50  0001 C CNN
+	1    8180 1710
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10690 790  10690 930 
 $EndSCHEMATC
