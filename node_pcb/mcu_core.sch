@@ -1239,19 +1239,6 @@ F 3 "~" H 3250 2400 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Polyfuse F6
-U 1 1 61AF190B
-P 4700 1200
-F 0 "F6" H 4788 1246 50  0000 L CNN
-F 1 "PTSLR08058V200" H 4788 1155 50  0000 L CNN
-F 2 "Fuse:Fuse_0805_2012Metric" H 4750 1000 50  0001 L CNN
-F 3 "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0805-surface-mount-resettable-fuse-data-sheet.pdf" H 4700 1200 50  0001 C CNN
-	1    4700 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 1350 4700 1550
-$Comp
 L Device:Polyfuse F5
 U 1 1 61B04D39
 P 1300 6300
@@ -1264,4 +1251,6 @@ F 3 "PRG18BB221MB1RB" H 1300 6300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 6300 2050 6300
+Wire Wire Line
+	4700 1050 4700 1550
 $EndSCHEMATC
