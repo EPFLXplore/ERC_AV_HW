@@ -35,7 +35,7 @@ P 2350 3800
 F 0 "R11" V 2143 3800 50  0000 C CNN
 F 1 "10k" V 2234 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2280 3800 50  0001 C CNN
-F 3 "~" H 2350 3800 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTDD1002F?qs=sGAEpiMZZMvdGkrng054t5lOknjIQAOXYGscSOIeX%252B4%3D" H 2350 3800 50  0001 C CNN
 	1    2350 3800
 	0    1    1    0   
 $EndComp
@@ -57,7 +57,7 @@ P 700 4050
 F 0 "Rt1" H 770 4096 50  0000 L CNN
 F 1 "10k" H 770 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 630 4050 50  0001 C CNN
-F 3 "~" H 700 4050 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTDD1002F?qs=sGAEpiMZZMvdGkrng054t5lOknjIQAOXYGscSOIeX%252B4%3D" H 700 4050 50  0001 C CNN
 	1    700  4050
 	1    0    0    -1  
 $EndComp
@@ -112,7 +112,7 @@ P 5550 2100
 F 0 "Raux1" V 5343 2100 50  0000 C CNN
 F 1 "10 Ohm" V 5434 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5480 2100 50  0001 C CNN
-F 3 "~" H 5550 2100 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTE10R0F?qs=sGAEpiMZZMvdGkrng054t1r7yMPP7%252BUFJq3WkPZ9IvM%3D" H 5550 2100 50  0001 C CNN
 	1    5550 2100
 	0    1    1    0   
 $EndComp
@@ -134,7 +134,7 @@ P 5150 3950
 F 0 "Rcs1" V 4943 3950 50  0000 C CNN
 F 1 "1k" V 5034 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5080 3950 50  0001 C CNN
-F 3 "~" H 5150 3950 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-101KL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x7eTSVQ8SVVs%3D" H 5150 3950 50  0001 C CNN
 	1    5150 3950
 	0    1    1    0   
 $EndComp
@@ -156,7 +156,7 @@ P 4150 5500
 F 0 "R13" V 3943 5500 50  0000 C CNN
 F 1 "4.99k" V 4034 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4080 5500 50  0001 C CNN
-F 3 "~" H 4150 5500 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTDD4991F?qs=sGAEpiMZZMvdGkrng054t74sd3CMQ2ehTBB4o9jY%252Bvo%3D" H 4150 5500 50  0001 C CNN
 	1    4150 5500
 	0    1    1    0   
 $EndComp
@@ -167,7 +167,7 @@ P 6600 5700
 F 0 "R12" H 6670 5746 50  0000 L CNN
 F 1 "2.74k" H 6670 5655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6530 5700 50  0001 C CNN
-F 3 "~" H 6600 5700 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Panasonic/ERJ-P06F2741V?qs=sGAEpiMZZMvdGkrng054t5gB%252Bl5xCJJuHayxvflQDpo%3D" H 6600 5700 50  0001 C CNN
 	1    6600 5700
 	1    0    0    -1  
 $EndComp
@@ -178,7 +178,7 @@ P 8000 4100
 F 0 "Rled1" H 8070 4146 50  0000 L CNN
 F 1 "1.27k" H 8070 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7930 4100 50  0001 C CNN
-F 3 "~" H 8000 4100 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Panasonic/ERJ-PB6D1271V?qs=sGAEpiMZZMvdGkrng054t7cDzLmcuirtffsMgf3jwYlfR52yEribEw%3D%3D" H 8000 4100 50  0001 C CNN
 	1    8000 4100
 	1    0    0    -1  
 $EndComp
@@ -189,7 +189,7 @@ P 8350 4100
 F 0 "Rbias1" H 8420 4146 50  0000 L CNN
 F 1 "21k" H 8420 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8280 4100 50  0001 C CNN
-F 3 "~" H 8350 4100 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTD2102F?qs=sGAEpiMZZMvdGkrng054tzbeu6mEA1gieD1TG7wzqAU%3D" H 8350 4100 50  0001 C CNN
 	1    8350 4100
 	1    0    0    -1  
 $EndComp
@@ -200,7 +200,7 @@ P 8850 3900
 F 0 "R21" V 8643 3900 50  0000 C CNN
 F 1 "10k" V 8734 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8780 3900 50  0001 C CNN
-F 3 "~" H 8850 3900 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTDD1002F?qs=sGAEpiMZZMvdGkrng054t5lOknjIQAOXYGscSOIeX%252B4%3D" H 8850 3900 50  0001 C CNN
 	1    8850 3900
 	0    1    1    0   
 $EndComp
@@ -211,7 +211,7 @@ P 9950 5250
 F 0 "R22" V 9743 5250 50  0000 C CNN
 F 1 "1k" V 9834 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9880 5250 50  0001 C CNN
-F 3 "~" H 9950 5250 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-101KL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x7eTSVQ8SVVs%3D" H 9950 5250 50  0001 C CNN
 	1    9950 5250
 	0    1    1    0   
 $EndComp
@@ -222,7 +222,7 @@ P 10750 5800
 F 0 "Rfbb1" H 10820 5846 50  0000 L CNN
 F 1 "1.33k" H 10820 5755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10680 5800 50  0001 C CNN
-F 3 "~" H 10750 5800 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Panasonic/ERJ-P06F1331V?qs=sGAEpiMZZMvdGkrng054tzSGWtpoOZZIQjZlhcmTs3M%3D" H 10750 5800 50  0001 C CNN
 	1    10750 5800
 	1    0    0    -1  
 $EndComp
@@ -233,7 +233,7 @@ P 10750 2500
 F 0 "Rfbt1" H 10820 2546 50  0000 L CNN
 F 1 "2.21k" H 10820 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10680 2500 50  0001 C CNN
-F 3 "~" H 10750 2500 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Panasonic/ERJ-P06F2211V?qs=sGAEpiMZZMvdGkrng054t09U4kqL47Xp3NqWGEKkoS0%3D" H 10750 2500 50  0001 C CNN
 	1    10750 2500
 	1    0    0    -1  
 $EndComp
@@ -321,7 +321,7 @@ P 9500 4150
 F 0 "C21" V 9248 4150 50  0000 C CNN
 F 1 "6.8uF 2 mOhm" V 9339 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9538 4000 50  0001 C CNN
-F 3 "~" H 9500 4150 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/885012207121?qs=MLItCLRbWswEyR6cBFo2VA%3D%3D" H 9500 4150 50  0001 C CNN
 	1    9500 4150
 	-1   0    0    1   
 $EndComp
@@ -1126,4 +1126,6 @@ F 3 "" H 10890 2030 50  0001 C CNN
 	1    10890 2030
 	1    0    0    -1  
 $EndComp
+Text Notes 6450 2610 0    50   ~ 0
+The transformer here needs to be wound by us\nCore: B65807J0000R049\nCoil fomer: B65808E1508T001\n2xClamp: B65808B2203X000\ninsulating washer 1: B65808A5000X000\ninsulating washer 2: B65808C2005X000
 $EndSCHEMATC

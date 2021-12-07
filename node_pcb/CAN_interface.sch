@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 3 10
 Title ""
 Date ""
 Rev "beta 2"
@@ -88,7 +88,7 @@ AR Path="/619193E6/61928A9B" Ref="D?"  Part="1"
 AR Path="/6193993E/61928A9B" Ref="D?"  Part="1" 
 AR Path="/6191FC07/61928A9B" Ref="D_TVS1"  Part="1" 
 AR Path="/61931F0A/61928A9B" Ref="D2"  Part="1" 
-F 0 "D2" V 6554 4080 50  0000 L CNN
+F 0 "D_TVS1" V 6554 4080 50  0000 L CNN
 F 1 "SMAJ8.0CA" V 6645 4080 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 6600 4000 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/littelfuse-inc/SMAJ8-0CA/762261" H 6600 4000 50  0001 C CNN
@@ -120,7 +120,7 @@ AR Path="/6193993E/6192A492" Ref="R?"  Part="1"
 AR Path="/6191FC07/6192A492" Ref="R1"  Part="1" 
 AR Path="/61931F0A/6192A492" Ref="R3"  Part="1" 
 F 0 "R3" V 3793 3200 50  0000 C CNN
-F 1 "R" V 3884 3200 50  0000 C CNN
+F 1 "0" V 3884 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3200 50  0001 C CNN
 F 3 "~" H 4000 3200 50  0001 C CNN
 	1    4000 3200
@@ -135,7 +135,7 @@ AR Path="/6193993E/6192B541" Ref="R?"  Part="1"
 AR Path="/6191FC07/6192B541" Ref="R2"  Part="1" 
 AR Path="/61931F0A/6192B541" Ref="R4"  Part="1" 
 F 0 "R4" V 3793 3300 50  0000 C CNN
-F 1 "R" V 3884 3300 50  0000 C CNN
+F 1 "0" V 3884 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3300 50  0001 C CNN
 F 3 "~" H 4000 3300 50  0001 C CNN
 	1    4000 3300
@@ -151,7 +151,7 @@ AR Path="/6191FC07/6192C043" Ref="FL1"  Part="1"
 AR Path="/61931F0A/6192C043" Ref="FL2"  Part="1" 
 F 0 "FL2" H 6000 3681 50  0000 C CNN
 F 1 "EXC-24CE121U" H 6000 3590 50  0000 C CNN
-F 2 "node_pcb:DLM0NSB120HY2B" H 6000 3150 50  0001 C CNN
+F 2 "node_pcb:FIL_DLP31SN121ML2L" H 6000 3150 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/panasonic-electronic-components/EXC-24CE121U/761052" V 6000 3440 50  0001 C CNN
 	1    6000 3400
 	1    0    0    -1  
@@ -165,7 +165,7 @@ AR Path="/6193993E/619316E5" Ref="C?"  Part="1"
 AR Path="/6191FC07/619316E5" Ref="C2"  Part="1" 
 AR Path="/61931F0A/619316E5" Ref="C5"  Part="1" 
 F 0 "C5" H 7365 2996 50  0000 L CNN
-F 1 "C?" H 7365 2905 50  0000 L CNN
+F 1 "50pF" H 7365 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 2800 50  0001 C CNN
 F 3 "~" H 7250 2950 50  0001 C CNN
 	1    7250 2950
@@ -180,7 +180,7 @@ AR Path="/6193993E/61931AEB" Ref="C?"  Part="1"
 AR Path="/6191FC07/61931AEB" Ref="C3"  Part="1" 
 AR Path="/61931F0A/61931AEB" Ref="C6"  Part="1" 
 F 0 "C6" H 7365 4046 50  0000 L CNN
-F 1 "C?" H 7365 3955 50  0000 L CNN
+F 1 "50pF" H 7365 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 3850 50  0001 C CNN
 F 3 "~" H 7250 4000 50  0001 C CNN
 	1    7250 4000
@@ -336,9 +336,9 @@ AR Path="/6193993E/61D0289C" Ref="C?"  Part="1"
 AR Path="/6191FC07/61D0289C" Ref="C7"  Part="1" 
 AR Path="/61931F0A/61D0289C" Ref="C8"  Part="1" 
 F 0 "C8" H 8410 4131 50  0000 L CNN
-F 1 "4700pF" H 8410 4040 50  0000 L CNN
+F 1 "4700 pF" H 8410 4040 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8333 3935 50  0001 C CNN
-F 3 "~" H 8295 4085 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samsung-electro-mechanics/CL21B472KBANNNC/3886813" H 8295 4085 50  0001 C CNN
 	1    8295 4085
 	1    0    0    -1  
 $EndComp
