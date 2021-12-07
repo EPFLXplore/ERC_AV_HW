@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Avionics STM32 generic node"
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -432,7 +432,7 @@ F 3 "~" H 810 5575 50  0001 C CNN
 	1    810  5575
 	1    0    0    -1  
 $EndComp
-Text Notes 1130 5510 0    50   ~ 0
+Text Notes 1485 5640 0    50   ~ 0
 board mounting
 Text Notes 500  7040 0    50   ~ 0
 screw holes were\nrequested for all HLEs\nby Vincent to avoid\nvibration problems
@@ -1020,8 +1020,6 @@ Wire Wire Line
 Wire Wire Line
 	3940 3890 3980 3890
 Wire Notes Line
-	2100 4950 2100 4380
-Wire Notes Line
 	2100 4380 650  4380
 Connection ~ 9050 5020
 Wire Wire Line
@@ -1589,4 +1587,10 @@ F 3 "~" H 8095 3195 50  0001 C CNN
 	1    8095 3195
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	2100 4380 2100 5675
+Wire Notes Line
+	2100 5675 650  5675
+Wire Notes Line
+	650  5675 650  4380
 $EndSCHEMATC

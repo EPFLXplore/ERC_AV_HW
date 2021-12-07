@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
 Title "Avionics STM32 node core"
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -126,7 +126,7 @@ P 9900 3300
 F 0 "C36" V 9648 3300 50  0000 C CNN
 F 1 "100 nF" V 9739 3300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9938 3150 50  0001 C CNN
-F 3 "~" H 9900 3300 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 9900 3300 50  0001 C CNN
 	1    9900 3300
 	0    -1   1    0   
 $EndComp
@@ -164,7 +164,7 @@ P 9700 4250
 F 0 "C33" H 9815 4296 50  0000 L CNN
 F 1 "1uF" H 9815 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9738 4100 50  0001 C CNN
-F 3 "~" H 9700 4250 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21F105ZBFNNNG?qs=sGAEpiMZZMsh%252B1woXyUXj9g54gsRQVPngiy%252BGnIhFi0%3D" H 9700 4250 50  0001 C CNN
 	1    9700 4250
 	1    0    0    -1  
 $EndComp
@@ -176,9 +176,9 @@ L Device:C C38
 U 1 1 618AA7CA
 P 10050 4250
 F 0 "C38" H 10165 4296 50  0000 L CNN
-F 1 "100nF" H 10165 4205 50  0000 L CNN
+F 1 "100 nF" H 10165 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10088 4100 50  0001 C CNN
-F 3 "~" H 10050 4250 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 10050 4250 50  0001 C CNN
 	1    10050 4250
 	1    0    0    -1  
 $EndComp
@@ -212,7 +212,7 @@ P 9700 5050
 F 0 "C34" H 9815 5096 50  0000 L CNN
 F 1 "1uF" H 9815 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9738 4900 50  0001 C CNN
-F 3 "~" H 9700 5050 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21F105ZBFNNNG?qs=sGAEpiMZZMsh%252B1woXyUXj9g54gsRQVPngiy%252BGnIhFi0%3D" H 9700 5050 50  0001 C CNN
 	1    9700 5050
 	1    0    0    -1  
 $EndComp
@@ -224,9 +224,9 @@ L Device:C C39
 U 1 1 618AD585
 P 10050 5050
 F 0 "C39" H 10165 5096 50  0000 L CNN
-F 1 "100nF" H 10165 5005 50  0000 L CNN
+F 1 "100 nF" H 10165 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10088 4900 50  0001 C CNN
-F 3 "~" H 10050 5050 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 10050 5050 50  0001 C CNN
 	1    10050 5050
 	1    0    0    -1  
 $EndComp
@@ -370,7 +370,7 @@ P 6000 940
 F 0 "C15" H 6092 986 50  0000 L CNN
 F 1 "100 nF" H 6092 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6000 940 50  0001 C CNN
-F 3 "~" H 6000 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 6000 940 50  0001 C CNN
 	1    6000 940 
 	1    0    0    -1  
 $EndComp
@@ -381,7 +381,7 @@ P 6200 940
 F 0 "C16" H 6292 986 50  0000 L CNN
 F 1 "100 nF" H 6292 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6200 940 50  0001 C CNN
-F 3 "~" H 6200 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 6200 940 50  0001 C CNN
 	1    6200 940 
 	1    0    0    -1  
 $EndComp
@@ -392,7 +392,7 @@ P 6400 940
 F 0 "C17" H 6492 986 50  0000 L CNN
 F 1 "100 nF" H 6492 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6400 940 50  0001 C CNN
-F 3 "~" H 6400 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 6400 940 50  0001 C CNN
 	1    6400 940 
 	1    0    0    -1  
 $EndComp
@@ -403,7 +403,7 @@ P 6600 940
 F 0 "C18" H 6692 986 50  0000 L CNN
 F 1 "100 nF" H 6692 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6600 940 50  0001 C CNN
-F 3 "~" H 6600 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 6600 940 50  0001 C CNN
 	1    6600 940 
 	1    0    0    -1  
 $EndComp
@@ -414,7 +414,7 @@ P 6800 940
 F 0 "C19" H 6892 986 50  0000 L CNN
 F 1 "100 nF" H 6892 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6800 940 50  0001 C CNN
-F 3 "~" H 6800 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 6800 940 50  0001 C CNN
 	1    6800 940 
 	1    0    0    -1  
 $EndComp
@@ -425,7 +425,7 @@ P 7000 940
 F 0 "C20" H 7092 986 50  0000 L CNN
 F 1 "100 nF" H 7092 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7000 940 50  0001 C CNN
-F 3 "~" H 7000 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 7000 940 50  0001 C CNN
 	1    7000 940 
 	1    0    0    -1  
 $EndComp
@@ -436,7 +436,7 @@ P 7200 940
 F 0 "C24" H 7292 986 50  0000 L CNN
 F 1 "100 nF" H 7292 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7200 940 50  0001 C CNN
-F 3 "~" H 7200 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 7200 940 50  0001 C CNN
 	1    7200 940 
 	1    0    0    -1  
 $EndComp
@@ -447,7 +447,7 @@ P 7400 940
 F 0 "C25" H 7492 986 50  0000 L CNN
 F 1 "100 nF" H 7492 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7400 940 50  0001 C CNN
-F 3 "~" H 7400 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 7400 940 50  0001 C CNN
 	1    7400 940 
 	1    0    0    -1  
 $EndComp
@@ -458,7 +458,7 @@ P 7600 940
 F 0 "C26" H 7692 986 50  0000 L CNN
 F 1 "100 nF" H 7692 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7600 940 50  0001 C CNN
-F 3 "~" H 7600 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 7600 940 50  0001 C CNN
 	1    7600 940 
 	1    0    0    -1  
 $EndComp
@@ -469,7 +469,7 @@ P 7800 940
 F 0 "C27" H 7892 986 50  0000 L CNN
 F 1 "100 nF" H 7892 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7800 940 50  0001 C CNN
-F 3 "~" H 7800 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 7800 940 50  0001 C CNN
 	1    7800 940 
 	1    0    0    -1  
 $EndComp
@@ -480,7 +480,7 @@ P 8000 940
 F 0 "C28" H 8092 986 50  0000 L CNN
 F 1 "100 nF" H 8092 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8000 940 50  0001 C CNN
-F 3 "~" H 8000 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 8000 940 50  0001 C CNN
 	1    8000 940 
 	1    0    0    -1  
 $EndComp
@@ -491,7 +491,7 @@ P 8200 940
 F 0 "C29" H 8292 986 50  0000 L CNN
 F 1 "100 nF" H 8292 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8200 940 50  0001 C CNN
-F 3 "~" H 8200 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 8200 940 50  0001 C CNN
 	1    8200 940 
 	1    0    0    -1  
 $EndComp
@@ -502,7 +502,7 @@ P 8400 940
 F 0 "C30" H 8492 986 50  0000 L CNN
 F 1 "100 nF" H 8492 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8400 940 50  0001 C CNN
-F 3 "~" H 8400 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 8400 940 50  0001 C CNN
 	1    8400 940 
 	1    0    0    -1  
 $EndComp
@@ -513,7 +513,7 @@ P 8600 940
 F 0 "C31" H 8692 986 50  0000 L CNN
 F 1 "100 nF" H 8692 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8600 940 50  0001 C CNN
-F 3 "~" H 8600 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 8600 940 50  0001 C CNN
 	1    8600 940 
 	1    0    0    -1  
 $EndComp
@@ -524,7 +524,7 @@ P 8800 940
 F 0 "C32" H 8892 986 50  0000 L CNN
 F 1 "100 nF" H 8892 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8800 940 50  0001 C CNN
-F 3 "~" H 8800 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 8800 940 50  0001 C CNN
 	1    8800 940 
 	1    0    0    -1  
 $EndComp
@@ -535,7 +535,7 @@ P 9000 940
 F 0 "C35" H 9092 986 50  0000 L CNN
 F 1 "100 nF" H 9092 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9000 940 50  0001 C CNN
-F 3 "~" H 9000 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 9000 940 50  0001 C CNN
 	1    9000 940 
 	1    0    0    -1  
 $EndComp
@@ -546,7 +546,7 @@ P 9200 940
 F 0 "C37" H 9292 986 50  0000 L CNN
 F 1 "100 nF" H 9292 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9200 940 50  0001 C CNN
-F 3 "~" H 9200 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 9200 940 50  0001 C CNN
 	1    9200 940 
 	1    0    0    -1  
 $EndComp
@@ -557,7 +557,7 @@ P 9400 940
 F 0 "C40" H 9492 986 50  0000 L CNN
 F 1 "100 nF" H 9492 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9400 940 50  0001 C CNN
-F 3 "~" H 9400 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 9400 940 50  0001 C CNN
 	1    9400 940 
 	1    0    0    -1  
 $EndComp
@@ -568,7 +568,7 @@ P 9600 940
 F 0 "C41" H 9692 986 50  0000 L CNN
 F 1 "100 nF" H 9692 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9600 940 50  0001 C CNN
-F 3 "~" H 9600 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 9600 940 50  0001 C CNN
 	1    9600 940 
 	1    0    0    -1  
 $EndComp
@@ -579,7 +579,7 @@ P 9800 940
 F 0 "C42" H 9892 986 50  0000 L CNN
 F 1 "100 nF" H 9892 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9800 940 50  0001 C CNN
-F 3 "~" H 9800 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 9800 940 50  0001 C CNN
 	1    9800 940 
 	1    0    0    -1  
 $EndComp
@@ -590,7 +590,7 @@ P 10000 940
 F 0 "C43" H 10092 986 50  0000 L CNN
 F 1 "100 nF" H 10092 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10000 940 50  0001 C CNN
-F 3 "~" H 10000 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 10000 940 50  0001 C CNN
 	1    10000 940 
 	1    0    0    -1  
 $EndComp
@@ -768,7 +768,7 @@ P 9950 2000
 F 0 "R5" V 9743 2000 50  0000 C CNN
 F 1 "10k" V 9834 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9880 2000 50  0001 C CNN
-F 3 "~" H 9950 2000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73H2ATTDD1002F?qs=sGAEpiMZZMvdGkrng054t5lOknjIQAOXYGscSOIeX%252B4%3D" H 9950 2000 50  0001 C CNN
 	1    9950 2000
 	0    -1   -1   0   
 $EndComp
@@ -1022,7 +1022,7 @@ P 2000 4700
 F 0 "J20" H 1557 4746 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1557 4655 50  0000 R CNN
 F 2 "node_pcb:IDC_PinHeader_2x05_P1.27mm_Vertical_SMD_ARM_JTAG_SWD" H 2000 4700 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/cnc-tech/3220-10-0100-00/3883661" V 1650 3450 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/amphenol-icc-fci/20021121-00010C4LF/2209057" V 1650 3450 50  0001 C CNN
 	1    2000 4700
 	1    0    0    -1  
 $EndComp
@@ -1035,9 +1035,9 @@ L Device:C C45
 U 1 1 61A73944
 P 10870 940
 F 0 "C45" H 10985 986 50  0000 L CNN
-F 1 "2.2u" H 10985 895 50  0000 L CNN
+F 1 "2.2 u" H 10985 895 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10908 790 50  0001 C CNN
-F 3 "~" H 10870 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21A225KBFNNNE?qs=Ay79KZaUeZC59jRiml379w%3D%3D" H 10870 940 50  0001 C CNN
 	1    10870 940 
 	1    0    0    -1  
 $EndComp
@@ -1046,9 +1046,9 @@ L Device:C C44
 U 1 1 61A7394A
 P 10670 940
 F 0 "C44" H 10556 894 50  0000 R CNN
-F 1 "2.2u" H 10556 985 50  0000 R CNN
+F 1 "2.2 u" H 10556 985 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10708 790 50  0001 C CNN
-F 3 "~" H 10670 940 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21A225KBFNNNE?qs=Ay79KZaUeZC59jRiml379w%3D%3D" H 10670 940 50  0001 C CNN
 	1    10670 940 
 	1    0    0    1   
 $EndComp
@@ -1077,7 +1077,7 @@ P 2210 650
 F 0 "R9" V 2003 650 50  0000 C CNN
 F 1 "0" V 2094 650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2140 650 50  0001 C CNN
-F 3 "~" H 2210 650 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 2210 650 50  0001 C CNN
 	1    2210 650 
 	0    1    1    0   
 $EndComp
@@ -1223,9 +1223,9 @@ L Device:C C14
 U 1 1 6189DF52
 P 3250 2200
 F 0 "C14" H 3365 2246 50  0000 L CNN
-F 1 "2.2u" H 3365 2155 50  0000 L CNN
+F 1 "2.2 u" H 3365 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2050 50  0001 C CNN
-F 3 "~" H 3250 2200 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21A225KBFNNNE?qs=Ay79KZaUeZC59jRiml379w%3D%3D" H 3250 2200 50  0001 C CNN
 	1    3250 2200
 	0    -1   -1   0   
 $EndComp
@@ -1234,9 +1234,9 @@ L Device:C C11
 U 1 1 6189E8F0
 P 3250 2400
 F 0 "C11" H 3136 2354 50  0000 R CNN
-F 1 "2.2u" H 3136 2445 50  0000 R CNN
+F 1 "2.2 u" H 3136 2445 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 2250 50  0001 C CNN
-F 3 "~" H 3250 2400 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL21A225KBFNNNE?qs=Ay79KZaUeZC59jRiml379w%3D%3D" H 3250 2400 50  0001 C CNN
 	1    3250 2400
 	0    1    -1   0   
 $EndComp

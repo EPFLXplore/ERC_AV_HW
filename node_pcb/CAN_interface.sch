@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 4 10
 Title ""
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -58,9 +58,9 @@ AR Path="/6193993E/619279D8" Ref="C?"  Part="1"
 AR Path="/6191FC07/619279D8" Ref="C1"  Part="1" 
 AR Path="/61931F0A/619279D8" Ref="C4"  Part="1" 
 F 0 "C4" H 3915 4296 50  0000 L CNN
-F 1 "0.1uF" H 3915 4205 50  0000 L CNN
+F 1 "100 nF" H 3915 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 4100 50  0001 C CNN
-F 3 "~" H 3800 4250 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 3800 4250 50  0001 C CNN
 	1    3800 4250
 	1    0    0    -1  
 $EndComp
@@ -88,7 +88,7 @@ AR Path="/619193E6/61928A9B" Ref="D?"  Part="1"
 AR Path="/6193993E/61928A9B" Ref="D?"  Part="1" 
 AR Path="/6191FC07/61928A9B" Ref="D_TVS1"  Part="1" 
 AR Path="/61931F0A/61928A9B" Ref="D2"  Part="1" 
-F 0 "D_TVS1" V 6554 4080 50  0000 L CNN
+F 0 "D2" V 6554 4080 50  0000 L CNN
 F 1 "SMAJ8.0CA" V 6645 4080 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 6600 4000 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/littelfuse-inc/SMAJ8-0CA/762261" H 6600 4000 50  0001 C CNN
@@ -122,7 +122,7 @@ AR Path="/61931F0A/6192A492" Ref="R3"  Part="1"
 F 0 "R3" V 3793 3200 50  0000 C CNN
 F 1 "0" V 3884 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3200 50  0001 C CNN
-F 3 "~" H 4000 3200 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 4000 3200 50  0001 C CNN
 	1    4000 3200
 	0    1    1    0   
 $EndComp
@@ -137,7 +137,7 @@ AR Path="/61931F0A/6192B541" Ref="R4"  Part="1"
 F 0 "R4" V 3793 3300 50  0000 C CNN
 F 1 "0" V 3884 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3300 50  0001 C CNN
-F 3 "~" H 4000 3300 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 4000 3300 50  0001 C CNN
 	1    4000 3300
 	0    1    1    0   
 $EndComp
@@ -165,9 +165,9 @@ AR Path="/6193993E/619316E5" Ref="C?"  Part="1"
 AR Path="/6191FC07/619316E5" Ref="C2"  Part="1" 
 AR Path="/61931F0A/619316E5" Ref="C5"  Part="1" 
 F 0 "C5" H 7365 2996 50  0000 L CNN
-F 1 "50pF" H 7365 2905 50  0000 L CNN
+F 1 "50 pF" H 7365 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 2800 50  0001 C CNN
-F 3 "~" H 7250 2950 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0805JRNPO9BN510?qs=sGAEpiMZZMsh%252B1woXyUXjzfuHVctiE89ESpi6kALG%252Bg%3D" H 7250 2950 50  0001 C CNN
 	1    7250 2950
 	1    0    0    -1  
 $EndComp
@@ -180,9 +180,9 @@ AR Path="/6193993E/61931AEB" Ref="C?"  Part="1"
 AR Path="/6191FC07/61931AEB" Ref="C3"  Part="1" 
 AR Path="/61931F0A/61931AEB" Ref="C6"  Part="1" 
 F 0 "C6" H 7365 4046 50  0000 L CNN
-F 1 "50pF" H 7365 3955 50  0000 L CNN
+F 1 "50 pF" H 7365 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 3850 50  0001 C CNN
-F 3 "~" H 7250 4000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0805JRNPO9BN510?qs=sGAEpiMZZMsh%252B1woXyUXjzfuHVctiE89ESpi6kALG%252Bg%3D" H 7250 4000 50  0001 C CNN
 	1    7250 4000
 	1    0    0    -1  
 $EndComp
@@ -353,7 +353,7 @@ AR Path="/61931F0A/61D03DF3" Ref="R12"  Part="1"
 F 0 "R12" V 7938 3705 50  0000 C CNN
 F 1 "60" V 8029 3705 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8075 3705 50  0001 C CNN
-F 3 "~" H 8145 3705 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-0760R4L?qs=sGAEpiMZZMtlubZbdhIBIEM5%252BYIsBt7JGJWVfd%252BAc2g%3D" H 8145 3705 50  0001 C CNN
 	1    8145 3705
 	1    0    0    -1  
 $EndComp
@@ -368,7 +368,7 @@ AR Path="/61931F0A/61D03DF9" Ref="R13"  Part="1"
 F 0 "R13" V 8268 3705 50  0000 C CNN
 F 1 "60" V 8359 3705 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8405 3705 50  0001 C CNN
-F 3 "~" H 8475 3705 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-0760R4L?qs=sGAEpiMZZMtlubZbdhIBIEM5%252BYIsBt7JGJWVfd%252BAc2g%3D" H 8475 3705 50  0001 C CNN
 	1    8475 3705
 	1    0    0    -1  
 $EndComp

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 10
 Title "Quad USART to 4-port RJ45"
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""

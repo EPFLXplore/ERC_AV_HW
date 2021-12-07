@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "Avionics STM32 Isolated SPI Interface"
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
