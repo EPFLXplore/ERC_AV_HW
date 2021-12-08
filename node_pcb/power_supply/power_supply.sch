@@ -1044,52 +1044,52 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x06_Male J1
 U 1 1 61ACA5A6
-P 1000 1330
-F 0 "J1" H 1108 1711 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 1108 1620 50  0000 C CNN
-F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 1000 1330 50  0001 C CNN
-F 3 "https://www.conrad.ch/de/p/jst-stiftgehaeuse-platine-sur-polzahl-gesamt-6-rastermass-0-80-mm-sm06b-surs-tf-lf-sn-1-st-1426473.html" H 1000 1330 50  0001 C CNN
-	1    1000 1330
+P 990 1655
+F 0 "J1" H 1098 2036 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1098 1945 50  0000 C CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 990 1655 50  0001 C CNN
+F 3 "https://www.conrad.ch/de/p/jst-stiftgehaeuse-platine-sur-polzahl-gesamt-6-rastermass-0-80-mm-sm06b-surs-tf-lf-sn-1-st-1426473.html" H 990 1655 50  0001 C CNN
+	1    990  1655
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 1430 1200 1530
-Connection ~ 1200 1530
+	1190 1755 1190 1855
+Connection ~ 1190 1855
 Wire Wire Line
-	1200 1530 1200 1630
-Connection ~ 1200 1630
+	1190 1855 1190 1955
+Connection ~ 1190 1955
 Wire Wire Line
-	1200 1630 1200 1800
+	1190 1955 1190 2125
 Wire Wire Line
-	1200 1330 1200 1230
-Connection ~ 1200 1130
+	1190 1655 1190 1555
+Connection ~ 1190 1455
 Wire Wire Line
-	1200 1130 1200 850 
-Connection ~ 1200 1230
+	1190 1455 1190 1175
+Connection ~ 1190 1555
 Wire Wire Line
-	1200 1230 1200 1130
-Text HLabel 1200 850  0    50   Input ~ 0
+	1190 1555 1190 1455
+Text HLabel 1675 1175 2    50   Input ~ 0
 +BATT
 $Comp
 L power:-BATT #PWR?
 U 1 1 61AE1238
-P 1200 1800
-F 0 "#PWR?" H 1200 1650 50  0001 C CNN
-F 1 "-BATT" H 1215 1973 50  0000 C CNN
-F 2 "" H 1200 1800 50  0001 C CNN
-F 3 "" H 1200 1800 50  0001 C CNN
-	1    1200 1800
+P 1190 2125
+F 0 "#PWR?" H 1190 1975 50  0001 C CNN
+F 1 "-BATT" H 1205 2298 50  0000 C CNN
+F 2 "" H 1190 2125 50  0001 C CNN
+F 3 "" H 1190 2125 50  0001 C CNN
+	1    1190 2125
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 61AC8882
-P 11090 1690
-F 0 "J2" H 11062 1572 50  0000 R CNN
-F 1 "Conn_01x06_Male" H 11062 1663 50  0000 R CNN
-F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 11090 1690 50  0001 C CNN
-F 3 "https://www.conrad.ch/de/p/jst-stiftgehaeuse-platine-sur-polzahl-gesamt-6-rastermass-0-80-mm-sm06b-surs-tf-lf-sn-1-st-1426473.html" H 11090 1690 50  0001 C CNN
-	1    11090 1690
+P 11090 2030
+F 0 "J2" H 11062 1912 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 11062 2003 50  0000 R CNN
+F 2 "Connector_JST:JST_SUR_SM06B-SURS-TF_1x06-1MP_P0.80mm_Horizontal" H 11090 2030 50  0001 C CNN
+F 3 "https://www.conrad.ch/de/p/jst-stiftgehaeuse-platine-sur-polzahl-gesamt-6-rastermass-0-80-mm-sm06b-surs-tf-lf-sn-1-st-1426473.html" H 11090 2030 50  0001 C CNN
+	1    11090 2030
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1097,35 +1097,63 @@ Wire Wire Line
 Wire Wire Line
 	10850 1320 10850 1200
 Wire Wire Line
-	10890 1320 10890 1390
-Connection ~ 10890 1390
+	10890 1660 10890 1730
+Connection ~ 10890 1730
 Wire Wire Line
-	10890 1390 10890 1490
-Connection ~ 10890 1490
+	10890 1730 10890 1830
+Connection ~ 10890 1830
 Wire Wire Line
-	10890 1490 10890 1590
+	10890 1830 10890 1930
 Connection ~ 10850 1200
 Wire Wire Line
 	10850 1200 10900 1200
 Wire Wire Line
-	10890 1690 10890 1790
-Connection ~ 10890 1790
+	10890 2030 10890 2130
+Connection ~ 10890 2130
 Wire Wire Line
-	10890 1790 10890 1890
-Connection ~ 10890 1890
+	10890 2130 10890 2230
+Connection ~ 10890 2230
 Wire Wire Line
-	10890 1890 10890 2030
+	10890 2230 10890 2370
 $Comp
 L power:GND #PWR?
 U 1 1 61B18061
-P 10890 2030
-F 0 "#PWR?" H 10890 1780 50  0001 C CNN
-F 1 "GND" H 10895 1857 50  0000 C CNN
-F 2 "" H 10890 2030 50  0001 C CNN
-F 3 "" H 10890 2030 50  0001 C CNN
-	1    10890 2030
+P 10890 2370
+F 0 "#PWR?" H 10890 2120 50  0001 C CNN
+F 1 "GND" H 10895 2197 50  0000 C CNN
+F 2 "" H 10890 2370 50  0001 C CNN
+F 3 "" H 10890 2370 50  0001 C CNN
+	1    10890 2370
 	1    0    0    -1  
 $EndComp
 Text Notes 6450 2610 0    50   ~ 0
 The transformer here needs to be wound by us\nCore: B65807J0000R049\nCoil fomer: B65808E1508T001\n2xClamp: B65808B2203X000\ninsulating washer 2: B65808C2005X000
+$Comp
+L Device:Fuse F2
+U 1 1 61B257DD
+P 10890 1510
+F 0 "F2" H 10950 1556 50  0000 L CNN
+F 1 "3A" H 10950 1465 50  0000 L CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10820 1510 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/vishay-beyschlag-draloric-bc-components/MFU0805FF03000P100/1206497" H 10890 1510 50  0001 C CNN
+	1    10890 1510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10890 1360 10890 1320
+$Comp
+L Device:Fuse F1
+U 1 1 61B37AD8
+P 1390 1175
+F 0 "F1" V 1193 1175 50  0000 C CNN
+F 1 "0.8A" V 1284 1175 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1320 1175 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/vishay-beyschlag-draloric-bc-components/MFU0805FF00800P100/1206489" H 1390 1175 50  0001 C CNN
+	1    1390 1175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1240 1175 1190 1175
+Wire Wire Line
+	1540 1175 1675 1175
 $EndSCHEMATC

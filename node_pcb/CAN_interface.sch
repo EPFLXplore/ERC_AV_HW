@@ -22,7 +22,7 @@ AR Path="/61924087/6191A845" Ref="U?"  Part="1"
 AR Path="/6193993E/6191A845" Ref="U?"  Part="1" 
 AR Path="/6191FC07/6191A845" Ref="U7"  Part="1" 
 AR Path="/61931F0A/6191A845" Ref="U8"  Part="1" 
-F 0 "U7" H 5050 3981 50  0000 C CNN
+F 0 "U8" H 5050 3981 50  0000 C CNN
 F 1 "TCAN334G" H 5050 3890 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5050 2900 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 5050 3400 50  0001 C CNN
@@ -57,7 +57,7 @@ AR Path="/619193E6/619279D8" Ref="C?"  Part="1"
 AR Path="/6193993E/619279D8" Ref="C?"  Part="1" 
 AR Path="/6191FC07/619279D8" Ref="C1"  Part="1" 
 AR Path="/61931F0A/619279D8" Ref="C4"  Part="1" 
-F 0 "C1" H 3915 4296 50  0000 L CNN
+F 0 "C4" H 3915 4296 50  0000 L CNN
 F 1 "100 nF" H 3915 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 4100 50  0001 C CNN
 F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 3800 4250 50  0001 C CNN
@@ -119,7 +119,7 @@ AR Path="/619193E6/6192A492" Ref="R?"  Part="1"
 AR Path="/6193993E/6192A492" Ref="R?"  Part="1" 
 AR Path="/6191FC07/6192A492" Ref="R1"  Part="1" 
 AR Path="/61931F0A/6192A492" Ref="R3"  Part="1" 
-F 0 "R1" V 3793 3200 50  0000 C CNN
+F 0 "R3" V 3793 3200 50  0000 C CNN
 F 1 "0" V 3884 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3200 50  0001 C CNN
 F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 4000 3200 50  0001 C CNN
@@ -134,7 +134,7 @@ AR Path="/619193E6/6192B541" Ref="R?"  Part="1"
 AR Path="/6193993E/6192B541" Ref="R?"  Part="1" 
 AR Path="/6191FC07/6192B541" Ref="R2"  Part="1" 
 AR Path="/61931F0A/6192B541" Ref="R4"  Part="1" 
-F 0 "R2" V 3793 3300 50  0000 C CNN
+F 0 "R4" V 3793 3300 50  0000 C CNN
 F 1 "0" V 3884 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3300 50  0001 C CNN
 F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 4000 3300 50  0001 C CNN
@@ -149,7 +149,7 @@ AR Path="/619193E6/6192C043" Ref="FL?"  Part="1"
 AR Path="/6193993E/6192C043" Ref="FL?"  Part="1" 
 AR Path="/6191FC07/6192C043" Ref="FL1"  Part="1" 
 AR Path="/61931F0A/6192C043" Ref="FL2"  Part="1" 
-F 0 "FL1" H 6000 3681 50  0000 C CNN
+F 0 "FL2" H 6000 3681 50  0000 C CNN
 F 1 "EXC-24CE121U" H 6000 3590 50  0000 C CNN
 F 2 "node_pcb:FIL_DLP31SN121ML2L" H 6000 3150 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/panasonic-electronic-components/EXC-24CE121U/761052" V 6000 3440 50  0001 C CNN
@@ -164,7 +164,7 @@ AR Path="/619193E6/619316E5" Ref="C?"  Part="1"
 AR Path="/6193993E/619316E5" Ref="C?"  Part="1" 
 AR Path="/6191FC07/619316E5" Ref="C2"  Part="1" 
 AR Path="/61931F0A/619316E5" Ref="C5"  Part="1" 
-F 0 "C2" H 7365 2996 50  0000 L CNN
+F 0 "C5" H 7365 2996 50  0000 L CNN
 F 1 "50 pF" H 7365 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 2800 50  0001 C CNN
 F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0805JRNPO9BN510?qs=sGAEpiMZZMsh%252B1woXyUXjzfuHVctiE89ESpi6kALG%252Bg%3D" H 7250 2950 50  0001 C CNN
@@ -179,7 +179,7 @@ AR Path="/619193E6/61931AEB" Ref="C?"  Part="1"
 AR Path="/6193993E/61931AEB" Ref="C?"  Part="1" 
 AR Path="/6191FC07/61931AEB" Ref="C3"  Part="1" 
 AR Path="/61931F0A/61931AEB" Ref="C6"  Part="1" 
-F 0 "C3" H 7365 4046 50  0000 L CNN
+F 0 "C6" H 7365 4046 50  0000 L CNN
 F 1 "50 pF" H 7365 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 3850 50  0001 C CNN
 F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0805JRNPO9BN510?qs=sGAEpiMZZMsh%252B1woXyUXjzfuHVctiE89ESpi6kALG%252Bg%3D" H 7250 4000 50  0001 C CNN
@@ -208,7 +208,7 @@ U 1 1 619789B3
 P 10005 3400
 AR Path="/61931F0A/619789B3" Ref="J19"  Part="1" 
 AR Path="/6191FC07/619789B3" Ref="J18"  Part="1" 
-F 0 "J18" H 9675 3404 50  0000 R CNN
+F 0 "J19" H 9675 3404 50  0000 R CNN
 F 1 "6p4c" H 9675 3495 50  0000 R CNN
 F 2 "node_pcb:6p4c_AdamTech_right_angle" V 10005 3450 50  0001 C CNN
 F 3 "https://www.digikey.ch/product-detail/en/adam-tech/MTJ-642BX2/2057-MTJ-642BX2-ND/9832240" V 10005 3450 50  0001 C CNN
@@ -243,7 +243,7 @@ AR Path="/619193E6/61CFF44F" Ref="D?"  Part="1"
 AR Path="/6193993E/61CFF44F" Ref="D?"  Part="1" 
 AR Path="/6191FC07/61CFF44F" Ref="D1"  Part="1" 
 AR Path="/61931F0A/61CFF44F" Ref="D5"  Part="1" 
-F 0 "D1" V 6554 3030 50  0000 L CNN
+F 0 "D5" V 6554 3030 50  0000 L CNN
 F 1 "SMAJ8.0CA" V 6645 3030 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 6600 2950 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/littelfuse-inc/SMAJ8-0CA/762261" H 6600 2950 50  0001 C CNN
@@ -335,7 +335,7 @@ AR Path="/619193E6/61D0289C" Ref="C?"  Part="1"
 AR Path="/6193993E/61D0289C" Ref="C?"  Part="1" 
 AR Path="/6191FC07/61D0289C" Ref="C7"  Part="1" 
 AR Path="/61931F0A/61D0289C" Ref="C8"  Part="1" 
-F 0 "C7" H 8410 4131 50  0000 L CNN
+F 0 "C8" H 8410 4131 50  0000 L CNN
 F 1 "4700 pF" H 8410 4040 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8333 3935 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/samsung-electro-mechanics/CL21B472KBANNNC/3886813" H 8295 4085 50  0001 C CNN
@@ -350,7 +350,7 @@ AR Path="/619193E6/61D03DF3" Ref="R?"  Part="1"
 AR Path="/6193993E/61D03DF3" Ref="R?"  Part="1" 
 AR Path="/6191FC07/61D03DF3" Ref="R10"  Part="1" 
 AR Path="/61931F0A/61D03DF3" Ref="R12"  Part="1" 
-F 0 "R10" V 7938 3705 50  0000 C CNN
+F 0 "R12" V 7938 3705 50  0000 C CNN
 F 1 "60" V 8029 3705 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8075 3705 50  0001 C CNN
 F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-0760R4L?qs=sGAEpiMZZMtlubZbdhIBIEM5%252BYIsBt7JGJWVfd%252BAc2g%3D" H 8145 3705 50  0001 C CNN
@@ -365,7 +365,7 @@ AR Path="/619193E6/61D03DF9" Ref="R?"  Part="1"
 AR Path="/6193993E/61D03DF9" Ref="R?"  Part="1" 
 AR Path="/6191FC07/61D03DF9" Ref="R11"  Part="1" 
 AR Path="/61931F0A/61D03DF9" Ref="R13"  Part="1" 
-F 0 "R11" V 8268 3705 50  0000 C CNN
+F 0 "R13" V 8268 3705 50  0000 C CNN
 F 1 "60" V 8359 3705 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8405 3705 50  0001 C CNN
 F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-0760R4L?qs=sGAEpiMZZMtlubZbdhIBIEM5%252BYIsBt7JGJWVfd%252BAc2g%3D" H 8475 3705 50  0001 C CNN

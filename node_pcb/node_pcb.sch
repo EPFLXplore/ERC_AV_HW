@@ -163,12 +163,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61971009
-P 1100 780
-F 0 "#PWR?" H 1100 630 50  0001 C CNN
-F 1 "+3V3" H 1115 953 50  0000 C CNN
-F 2 "" H 1100 780 50  0001 C CNN
-F 3 "" H 1100 780 50  0001 C CNN
-	1    1100 780 
+P 1615 820
+F 0 "#PWR?" H 1615 670 50  0001 C CNN
+F 1 "+3V3" H 1630 993 50  0000 C CNN
+F 2 "" H 1615 820 50  0001 C CNN
+F 3 "" H 1615 820 50  0001 C CNN
+	1    1615 820 
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -398,6 +398,8 @@ F2 "MISO" I L 3980 3890 50
 F3 "MOSI" O R 4540 3890 50 
 F4 "SCK" O R 4540 3980 50 
 F5 "CS" O R 4540 4070 50 
+F6 "OUT2" I L 3980 3980 50 
+F7 "OUT0" I L 3980 4070 50 
 $EndSheet
 $Comp
 L Mechanical:MountingHole H4
@@ -1199,11 +1201,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 3370 3420 3370
 Wire Wire Line
-	1100 780  1100 810 
-Connection ~ 1100 810 
-Wire Wire Line
-	1100 810  1100 910 
-Wire Wire Line
 	1100 1310 1100 1380
 Connection ~ 1100 1310
 Wire Wire Line
@@ -1593,4 +1590,34 @@ Wire Notes Line
 	2100 5675 650  5675
 Wire Notes Line
 	650  5675 650  4380
+Text Label 3935 4070 2    50   ~ 0
+GPIO_AUX_3
+Text Label 3940 3980 2    50   ~ 0
+GPIO_AUX_2
+Wire Wire Line
+	3940 3980 3980 3980
+Wire Wire Line
+	3935 4070 3980 4070
+$Comp
+L Device:Fuse F1
+U 1 1 61B1BCD0
+P 1340 880
+F 0 "F1" V 1143 880 50  0000 C CNN
+F 1 "3A" V 1234 880 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1270 880 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/vishay-beyschlag-draloric-bc-components/MFU0805FF03000P100/1206497" H 1340 880 50  0001 C CNN
+	1    1340 880 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1615 820  1615 880 
+Wire Wire Line
+	1615 880  1490 880 
+Wire Wire Line
+	1190 880  1100 880 
+Wire Wire Line
+	1100 810  1100 880 
+Connection ~ 1100 880 
+Wire Wire Line
+	1100 880  1100 910 
 $EndSCHEMATC
