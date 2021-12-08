@@ -1127,5 +1127,5 @@ F 3 "" H 10890 2030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6450 2610 0    50   ~ 0
-The transformer here needs to be wound by us\nCore: B65807J0000R049\nCoil fomer: B65808E1508T001\n2xClamp: B65808B2203X000\ninsulating washer 1: B65808A5000X000\ninsulating washer 2: B65808C2005X000
+The transformer here needs to be wound by us\nCore: B65807J0000R049\nCoil fomer: B65808E1508T001\n2xClamp: B65808B2203X000\ninsulating washer 2: B65808C2005X000
 $EndSCHEMATC
