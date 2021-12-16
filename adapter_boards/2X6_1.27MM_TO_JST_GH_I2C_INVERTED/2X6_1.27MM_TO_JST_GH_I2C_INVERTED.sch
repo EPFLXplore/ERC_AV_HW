@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "2x6 1.27mm socket to JST-GH I2C Adapter board"
+Title "2x6 1.27mm socket to JST-GH I2C Adapter board Inverted"
 Date "2021-11-28"
 Rev "1"
 Comp ""
