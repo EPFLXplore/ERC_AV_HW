@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "2x6 1.27mm socket to JST-GH I2C Adapter board Inverted"
+Title "2x6 1.27mm socket to JST-GH I2C Adapter board inverted"
 Date "2021-11-28"
 Rev "1"
 Comp ""
@@ -95,4 +95,60 @@ Text Notes 6150 3400 0    50   ~ 0
 Female 1x4 JST-GH connector
 NoConn ~ 4750 3700
 NoConn ~ 5250 4200
+$Comp
+L Device:R R1
+U 1 1 61BDB9DA
+P 3050 3950
+F 0 "R1" H 3120 3996 50  0000 L CNN
+F 1 "2k" H 3120 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2980 3950 50  0001 C CNN
+F 3 "~" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	1    0    0    -1  
+$EndComp
+Text Label 2950 4300 2    50   ~ 0
+I2C_SCL
+Text Label 2950 3600 2    50   ~ 0
+3V3
+Wire Wire Line
+	2950 3600 3050 3600
+Wire Wire Line
+	3050 3600 3050 3800
+Wire Wire Line
+	2950 4300 3050 4300
+Wire Wire Line
+	3050 4300 3050 4100
+$Comp
+L Device:R R2
+U 1 1 61BDD9E1
+P 3800 3950
+F 0 "R2" H 3870 3996 50  0000 L CNN
+F 1 "2k" H 3870 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3730 3950 50  0001 C CNN
+F 3 "~" H 3800 3950 50  0001 C CNN
+	1    3800 3950
+	1    0    0    -1  
+$EndComp
+Text Label 3700 4300 2    50   ~ 0
+I2C_SDA
+Text Label 3700 3600 2    50   ~ 0
+3V3
+Wire Wire Line
+	3700 3600 3800 3600
+Wire Wire Line
+	3800 3600 3800 3800
+Wire Wire Line
+	3700 4300 3800 4300
+Wire Wire Line
+	3800 4300 3800 4100
+Wire Notes Line
+	4100 3450 4100 4350
+Wire Notes Line
+	4100 4350 2550 4350
+Wire Notes Line
+	2550 4350 2550 3450
+Wire Notes Line
+	2550 3450 4100 3450
+Text Notes 2550 3400 0    50   ~ 0
+Optional pullup resistors (e.g. for VL53L0X)
 $EndSCHEMATC
