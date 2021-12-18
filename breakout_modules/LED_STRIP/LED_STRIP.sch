@@ -13,80 +13,24 @@ Comment2 ""
 Comment3 "Nguyen Vincent"
 Comment4 ""
 $EndDescr
-Text Label 2250 3400 2    50   ~ 0
+Text Label 1750 3400 2    50   ~ 0
 GPIO
-$Comp
-L Device:R R1
-U 1 1 61A43B29
-P 4450 3950
-F 0 "R1" H 4520 3996 50  0000 L CNN
-F 1 "4.7k" H 4520 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4380 3950 50  0001 C CNN
-F 3 "~" H 4450 3950 50  0001 C CNN
-	1    4450 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3800 4450 3600
-Wire Wire Line
-	4450 4100 4450 4150
-Wire Wire Line
-	4450 4150 4750 4150
-Wire Wire Line
-	4750 4150 4750 4250
 Wire Wire Line
 	4750 4150 4750 3800
-Connection ~ 4750 4150
-Text Notes 2950 4000 0    50   ~ 0
-Vf = 1.2 V\nIf = 20 mA
-Text Notes 4900 4100 0    50   ~ 0
-N-channel MOSFET\nRDS(ON) = 65 mohm for VGS = 2.5 V\nVDS(ON) = RDS(ON)*If_LED_STRIP \n         = 0.065*0.3  = 19.5 mV 
-Text Label 4750 4250 3    50   ~ 0
+Text Notes 1650 4950 0    50   ~ 0
+Vf = 1.9 V\nIf = 2 mA (desired)\nR2 = (3.3 - 1.9)/If = 700 ohms -> 680 ohms
+Text Label 3050 4250 3    50   ~ 0
 GND_ROVER
-Text Notes 2950 4300 0    50   ~ 0
-R2 = (3V3-Vf-VDS(ON))/If\n  = 104.025 ohms --> 110 ohms
-$Comp
-L Isolator:PC817 U1
-U 1 1 61AE2376
-P 3450 3500
-F 0 "U1" H 3450 3825 50  0000 C CNN
-F 1 "PC817XNNIP1B" H 3450 3734 50  0000 C CNN
-F 2 "PC817X2NIP0F:SOT254P975X400-4N" H 3250 3300 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3450 3500 50  0001 L CNN
-	1    3450 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2850 3400 3150 3400
-Text Label 2850 3900 2    50   ~ 0
+	2350 3400 2650 3400
+Text Label 2350 4100 2    50   ~ 0
 MCU_GND
 Wire Wire Line
-	3150 3600 2850 3600
+	2650 3800 2350 3800
 Wire Wire Line
-	2850 3600 2850 3900
-$Comp
-L Device:R R3
-U 1 1 61AE3FF9
-P 4000 3100
-F 0 "R3" H 3930 3054 50  0000 R CNN
-F 1 "200" H 3930 3145 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 3100 50  0001 C CNN
-F 3 "~" H 4000 3100 50  0001 C CNN
-	1    4000 3100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4000 2950 4000 2700
-Wire Wire Line
-	4000 2700 4750 2700
-Text Label 4750 2700 0    50   ~ 0
+	2350 3800 2350 4100
+Text Label 3150 2800 0    50   ~ 0
 5V_ROVER
-Wire Wire Line
-	4000 3250 4000 3400
-Wire Wire Line
-	4000 3400 3750 3400
-Wire Wire Line
-	3750 3600 4450 3600
 Text Label 4750 2950 0    50   ~ 0
 GND_LED
 Wire Wire Line
@@ -94,16 +38,16 @@ Wire Wire Line
 $Comp
 L Device:R R2
 U 1 1 61AE5C16
-P 2700 3400
-F 0 "R2" V 2493 3400 50  0000 C CNN
-F 1 "110" V 2584 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2630 3400 50  0001 C CNN
-F 3 "~" H 2700 3400 50  0001 C CNN
-	1    2700 3400
+P 2200 3400
+F 0 "R2" V 1993 3400 50  0000 C CNN
+F 1 "680" V 2084 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2130 3400 50  0001 C CNN
+F 3 "~" H 2200 3400 50  0001 C CNN
+	1    2200 3400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 3400 2250 3400
+	2050 3400 1750 3400
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 61AE6BCD
@@ -190,7 +134,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4650 3600 50  0001 L 
 	1    4650 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4450 3600
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61AF3D0D
@@ -235,4 +178,64 @@ F 3 "~" H 7100 5650 50  0001 C CNN
 	1    7100 5650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Custom_ICs:TLP2710 U1
+U 1 1 61D696B5
+P 3050 3600
+F 0 "U1" H 3300 3250 50  0000 L CNN
+F 1 "TLP2710" H 2650 3950 50  0000 L CNN
+F 2 "Package_SO:SO-6L_10x3.84mm_P1.27mm" H 2200 3100 50  0001 L CIN
+F 3 "https://www.mouser.ch/datasheet/2/408/TLP2710_datasheet_en_20180309-1594809.pdf" H 3150 3500 50  0001 L CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3200 3050 3000
+Wire Wire Line
+	3050 2800 3150 2800
+Wire Wire Line
+	3050 4000 3050 4150
+Connection ~ 3050 4150
+Wire Wire Line
+	3050 4150 3050 4250
+Wire Wire Line
+	4000 3600 3450 3600
+Wire Wire Line
+	4300 3600 4450 3600
+$Comp
+L Device:R R3
+U 1 1 61AE3FF9
+P 4150 3600
+F 0 "R3" V 4350 3600 50  0000 C CNN
+F 1 "4.7k" V 4250 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4080 3600 50  0001 C CNN
+F 3 "~" H 4150 3600 50  0001 C CNN
+	1    4150 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61D85B2F
+P 3600 3250
+F 0 "C1" H 3715 3296 50  0000 L CNN
+F 1 "0.1uF" H 3715 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3638 3100 50  0001 C CNN
+F 3 "~" H 3600 3250 50  0001 C CNN
+	1    3600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3400 3600 4150
+Wire Wire Line
+	3050 4150 3600 4150
+Connection ~ 3600 4150
+Wire Wire Line
+	3600 4150 4750 4150
+Wire Wire Line
+	3600 3100 3600 3000
+Wire Wire Line
+	3600 3000 3050 3000
+Connection ~ 3050 3000
+Wire Wire Line
+	3050 3000 3050 2800
 $EndSCHEMATC
