@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Avionics STM32 generic node"
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -163,12 +163,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61971009
-P 1100 780
-F 0 "#PWR?" H 1100 630 50  0001 C CNN
-F 1 "+3V3" H 1115 953 50  0000 C CNN
-F 2 "" H 1100 780 50  0001 C CNN
-F 3 "" H 1100 780 50  0001 C CNN
-	1    1100 780 
+P 1615 820
+F 0 "#PWR?" H 1615 670 50  0001 C CNN
+F 1 "+3V3" H 1630 993 50  0000 C CNN
+F 2 "" H 1615 820 50  0001 C CNN
+F 3 "" H 1615 820 50  0001 C CNN
+	1    1615 820 
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -398,96 +398,43 @@ F2 "MISO" I L 3980 3890 50
 F3 "MOSI" O R 4540 3890 50 
 F4 "SCK" O R 4540 3980 50 
 F5 "CS" O R 4540 4070 50 
+F6 "OUT2" I L 3980 3980 50 
+F7 "OUT0" I L 3980 4070 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole H12
-U 1 1 61BB7A03
-P 8150 4170
-F 0 "H12" H 8250 4216 50  0000 L CNN
-F 1 "MountingHole" H 8250 4125 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8150 4170 50  0001 C CNN
-F 3 "~" H 8150 4170 50  0001 C CNN
-	1    8150 4170
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H11
-U 1 1 61BBC1F6
-P 8140 3100
-F 0 "H11" H 8240 3146 50  0000 L CNN
-F 1 "MountingHole" H 8240 3055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8140 3100 50  0001 C CNN
-F 3 "~" H 8140 3100 50  0001 C CNN
-	1    8140 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 61BC0A4C
-P 8140 2050
-F 0 "H10" H 8240 2096 50  0000 L CNN
-F 1 "MountingHole" H 8240 2005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8140 2050 50  0001 C CNN
-F 3 "~" H 8140 2050 50  0001 C CNN
-	1    8140 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H15
-U 1 1 61BC517D
-P 9990 1580
-F 0 "H15" H 10090 1626 50  0000 L CNN
-F 1 "MountingHole" H 10090 1535 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9990 1580 50  0001 C CNN
-F 3 "~" H 9990 1580 50  0001 C CNN
-	1    9990 1580
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H4
 U 1 1 61BC9D59
-P 750 5240
-F 0 "H2" H 850 5286 50  0000 L CNN
-F 1 "MountingHole" H 850 5195 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 750 5240 50  0001 C CNN
-F 3 "~" H 750 5240 50  0001 C CNN
-	1    750  5240
+P 1200 4750
+F 0 "H4" H 1300 4796 50  0000 L CNN
+F 1 "MountingHole" H 1300 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1200 4750 50  0001 C CNN
+F 3 "~" H 1200 4750 50  0001 C CNN
+	1    1200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole H7
 U 1 1 61BCE3B5
-P 740 5430
-F 0 "H1" H 840 5476 50  0000 L CNN
-F 1 "MountingHole" H 840 5385 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 740 5430 50  0001 C CNN
-F 3 "~" H 740 5430 50  0001 C CNN
-	1    740  5430
+P 8115 2180
+F 0 "H7" H 8215 2226 50  0000 L CNN
+F 1 "MountingHole" H 8215 2135 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8115 2180 50  0001 C CNN
+F 3 "~" H 8115 2180 50  0001 C CNN
+	1    8115 2180
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 61BD2D44
-P 1450 5260
-F 0 "H3" H 1550 5306 50  0000 L CNN
-F 1 "MountingHole" H 1550 5215 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1450 5260 50  0001 C CNN
-F 3 "~" H 1450 5260 50  0001 C CNN
-	1    1450 5260
+P 810 5575
+F 0 "H3" H 910 5621 50  0000 L CNN
+F 1 "MountingHole" H 910 5530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 810 5575 50  0001 C CNN
+F 3 "~" H 810 5575 50  0001 C CNN
+	1    810  5575
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 61BD7333
-P 1450 5460
-F 0 "H4" H 1550 5506 50  0000 L CNN
-F 1 "MountingHole" H 1550 5415 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1450 5460 50  0001 C CNN
-F 3 "~" H 1450 5460 50  0001 C CNN
-	1    1450 5460
-	1    0    0    -1  
-$EndComp
-Text Notes 1030 5650 0    50   ~ 0
+Text Notes 1485 5640 0    50   ~ 0
 board mounting
 Text Notes 500  7040 0    50   ~ 0
 screw holes were\nrequested for all HLEs\nby Vincent to avoid\nvibration problems
@@ -1075,13 +1022,7 @@ Wire Wire Line
 Wire Wire Line
 	3940 3890 3980 3890
 Wire Notes Line
-	2100 5680 2100 5110
-Wire Notes Line
-	2100 5110 650  5110
-Wire Notes Line
-	650  5110 650  5680
-Wire Notes Line
-	650  5680 2100 5680
+	2100 4380 650  4380
 Connection ~ 9050 5020
 Wire Wire Line
 	10050 5020 9050 5020
@@ -1260,11 +1201,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 3370 3420 3370
 Wire Wire Line
-	1100 780  1100 810 
-Connection ~ 1100 810 
-Wire Wire Line
-	1100 810  1100 910 
-Wire Wire Line
 	1100 1310 1100 1380
 Connection ~ 1100 1310
 Wire Wire Line
@@ -1422,56 +1358,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 61B95A60
-P 1360 6930
-F 0 "H5" H 1460 6976 50  0000 L CNN
-F 1 "MountingHole" H 1460 6885 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1360 6930 50  0001 C CNN
-F 3 "~" H 1360 6930 50  0001 C CNN
-	1    1360 6930
+P 1005 5285
+F 0 "H5" H 1105 5331 50  0000 L CNN
+F 1 "MountingHole" H 1105 5240 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1005 5285 50  0001 C CNN
+F 3 "~" H 1005 5285 50  0001 C CNN
+	1    1005 5285
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
-U 1 1 61B96D5E
-P 2760 6970
-F 0 "H6" H 2860 7016 50  0000 L CNN
-F 1 "MountingHole" H 2860 6925 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2760 6970 50  0001 C CNN
-F 3 "~" H 2760 6970 50  0001 C CNN
-	1    2760 6970
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 61B9B453
-P 4160 6990
-F 0 "H7" H 4260 7036 50  0000 L CNN
-F 1 "MountingHole" H 4260 6945 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4160 6990 50  0001 C CNN
-F 3 "~" H 4160 6990 50  0001 C CNN
-	1    4160 6990
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
+L Mechanical:MountingHole H2
 U 1 1 61B9FAF4
-P 5150 6970
-F 0 "H8" H 5250 7016 50  0000 L CNN
-F 1 "MountingHole" H 5250 6925 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5150 6970 50  0001 C CNN
-F 3 "~" H 5150 6970 50  0001 C CNN
-	1    5150 6970
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 61BA57E1
-P 6130 7170
-F 0 "H9" H 6230 7216 50  0000 L CNN
-F 1 "MountingHole" H 6230 7125 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6130 7170 50  0001 C CNN
-F 3 "~" H 6130 7170 50  0001 C CNN
-	1    6130 7170
+P 1580 4535
+F 0 "H2" H 1680 4581 50  0000 L CNN
+F 1 "MountingHole" H 1680 4490 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1580 4535 50  0001 C CNN
+F 3 "~" H 1580 4535 50  0001 C CNN
+	1    1580 4535
 	1    0    0    -1  
 $EndComp
 Connection ~ 4410 6870
@@ -1516,36 +1419,36 @@ F5 "LOC_CK" I L 1810 2720 50
 F6 "RJ45_[1..8]" B L 1810 2820 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole H16
+L Mechanical:MountingHole H6
 U 1 1 61BB32C0
-P 10190 6290
-F 0 "H16" H 10290 6336 50  0000 L CNN
-F 1 "MountingHole" H 10290 6245 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10190 6290 50  0001 C CNN
-F 3 "~" H 10190 6290 50  0001 C CNN
-	1    10190 6290
+P 1340 5345
+F 0 "H6" H 1440 5391 50  0000 L CNN
+F 1 "MountingHole" H 1440 5300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1340 5345 50  0001 C CNN
+F 3 "~" H 1340 5345 50  0001 C CNN
+	1    1340 5345
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H14
+L Mechanical:MountingHole H1
 U 1 1 61BAECA1
-P 9130 6300
-F 0 "H14" H 9230 6346 50  0000 L CNN
-F 1 "MountingHole" H 9230 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9130 6300 50  0001 C CNN
-F 3 "~" H 9130 6300 50  0001 C CNN
-	1    9130 6300
+P 795 4515
+F 0 "H1" H 895 4561 50  0000 L CNN
+F 1 "MountingHole" H 895 4470 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 795 4515 50  0001 C CNN
+F 3 "~" H 795 4515 50  0001 C CNN
+	1    795  4515
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H13
+L Mechanical:MountingHole H9
 U 1 1 61BAA43D
-P 8190 6260
-F 0 "H13" H 8290 6306 50  0000 L CNN
-F 1 "MountingHole" H 8290 6215 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8190 6260 50  0001 C CNN
-F 3 "~" H 8190 6260 50  0001 C CNN
-	1    8190 6260
+P 8140 4270
+F 0 "H9" H 8240 4316 50  0000 L CNN
+F 1 "MountingHole" H 8240 4225 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8140 4270 50  0001 C CNN
+F 3 "~" H 8140 4270 50  0001 C CNN
+	1    8140 4270
 	1    0    0    -1  
 $EndComp
 Text Label 6410 6470 0    50   ~ 0
@@ -1670,4 +1573,51 @@ F 3 "https://www.digikey.ch/en/products/detail/samtec-inc/CLP-106-02-F-D-BE-A-K-
 $EndComp
 Wire Wire Line
 	10690 790  10690 930 
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 61BC517D
+P 8095 3195
+F 0 "H8" H 8195 3241 50  0000 L CNN
+F 1 "MountingHole" H 8195 3150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 8095 3195 50  0001 C CNN
+F 3 "~" H 8095 3195 50  0001 C CNN
+	1    8095 3195
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2100 4380 2100 5675
+Wire Notes Line
+	2100 5675 650  5675
+Wire Notes Line
+	650  5675 650  4380
+Text Label 3935 4070 2    50   ~ 0
+GPIO_AUX_3
+Text Label 3940 3980 2    50   ~ 0
+GPIO_AUX_2
+Wire Wire Line
+	3940 3980 3980 3980
+Wire Wire Line
+	3935 4070 3980 4070
+$Comp
+L Device:Fuse F1
+U 1 1 61B1BCD0
+P 1340 880
+F 0 "F1" V 1143 880 50  0000 C CNN
+F 1 "3A" V 1234 880 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1270 880 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/vishay-beyschlag-draloric-bc-components/MFU0805FF03000P100/1206497" H 1340 880 50  0001 C CNN
+	1    1340 880 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1615 820  1615 880 
+Wire Wire Line
+	1615 880  1490 880 
+Wire Wire Line
+	1190 880  1100 880 
+Wire Wire Line
+	1100 810  1100 880 
+Connection ~ 1100 880 
+Wire Wire Line
+	1100 880  1100 910 
 $EndSCHEMATC

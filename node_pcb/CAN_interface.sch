@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
 Title ""
-Date ""
-Rev "beta 2"
+Date "2021-12-07"
+Rev "RC1 (Macchietta)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -22,7 +22,7 @@ AR Path="/61924087/6191A845" Ref="U?"  Part="1"
 AR Path="/6193993E/6191A845" Ref="U?"  Part="1" 
 AR Path="/6191FC07/6191A845" Ref="U7"  Part="1" 
 AR Path="/61931F0A/6191A845" Ref="U8"  Part="1" 
-F 0 "U7" H 5050 3981 50  0000 C CNN
+F 0 "U8" H 5050 3981 50  0000 C CNN
 F 1 "TCAN334G" H 5050 3890 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5050 2900 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 5050 3400 50  0001 C CNN
@@ -36,9 +36,9 @@ P 5050 3950
 AR Path="/619193E6/61921057" Ref="#PWR?"  Part="1" 
 AR Path="/61924087/61921057" Ref="#PWR?"  Part="1" 
 AR Path="/6193993E/61921057" Ref="#PWR?"  Part="1" 
-AR Path="/6191FC07/61921057" Ref="#PWR0121"  Part="1" 
-AR Path="/61931F0A/61921057" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0121" H 5050 3700 50  0001 C CNN
+AR Path="/6191FC07/61921057" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61921057" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5050 3700 50  0001 C CNN
 F 1 "GND" H 5055 3777 50  0000 C CNN
 F 2 "" H 5050 3950 50  0001 C CNN
 F 3 "" H 5050 3950 50  0001 C CNN
@@ -57,10 +57,10 @@ AR Path="/619193E6/619279D8" Ref="C?"  Part="1"
 AR Path="/6193993E/619279D8" Ref="C?"  Part="1" 
 AR Path="/6191FC07/619279D8" Ref="C1"  Part="1" 
 AR Path="/61931F0A/619279D8" Ref="C4"  Part="1" 
-F 0 "C1" H 3915 4296 50  0000 L CNN
-F 1 "0.1uF" H 3915 4205 50  0000 L CNN
+F 0 "C4" H 3915 4296 50  0000 L CNN
+F 1 "100 nF" H 3915 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 4100 50  0001 C CNN
-F 3 "~" H 3800 4250 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D" H 3800 4250 50  0001 C CNN
 	1    3800 4250
 	1    0    0    -1  
 $EndComp
@@ -71,9 +71,9 @@ P 3800 4550
 AR Path="/619193E6/61927FC0" Ref="#PWR?"  Part="1" 
 AR Path="/61924087/61927FC0" Ref="#PWR?"  Part="1" 
 AR Path="/6193993E/61927FC0" Ref="#PWR?"  Part="1" 
-AR Path="/6191FC07/61927FC0" Ref="#PWR0122"  Part="1" 
-AR Path="/61931F0A/61927FC0" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0122" H 3800 4300 50  0001 C CNN
+AR Path="/6191FC07/61927FC0" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61927FC0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 4300 50  0001 C CNN
 F 1 "GND" H 3805 4377 50  0000 C CNN
 F 2 "" H 3800 4550 50  0001 C CNN
 F 3 "" H 3800 4550 50  0001 C CNN
@@ -102,9 +102,9 @@ P 6600 4400
 AR Path="/619193E6/61929DEF" Ref="#PWR?"  Part="1" 
 AR Path="/61924087/61929DEF" Ref="#PWR?"  Part="1" 
 AR Path="/6193993E/61929DEF" Ref="#PWR?"  Part="1" 
-AR Path="/6191FC07/61929DEF" Ref="#PWR0123"  Part="1" 
-AR Path="/61931F0A/61929DEF" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0123" H 6600 4150 50  0001 C CNN
+AR Path="/6191FC07/61929DEF" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61929DEF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 4150 50  0001 C CNN
 F 1 "GND" H 6605 4227 50  0000 C CNN
 F 2 "" H 6600 4400 50  0001 C CNN
 F 3 "" H 6600 4400 50  0001 C CNN
@@ -119,10 +119,10 @@ AR Path="/619193E6/6192A492" Ref="R?"  Part="1"
 AR Path="/6193993E/6192A492" Ref="R?"  Part="1" 
 AR Path="/6191FC07/6192A492" Ref="R1"  Part="1" 
 AR Path="/61931F0A/6192A492" Ref="R3"  Part="1" 
-F 0 "R1" V 3793 3200 50  0000 C CNN
-F 1 "R" V 3884 3200 50  0000 C CNN
+F 0 "R3" V 3793 3200 50  0000 C CNN
+F 1 "0" V 3884 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3200 50  0001 C CNN
-F 3 "~" H 4000 3200 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 4000 3200 50  0001 C CNN
 	1    4000 3200
 	0    1    1    0   
 $EndComp
@@ -134,10 +134,10 @@ AR Path="/619193E6/6192B541" Ref="R?"  Part="1"
 AR Path="/6193993E/6192B541" Ref="R?"  Part="1" 
 AR Path="/6191FC07/6192B541" Ref="R2"  Part="1" 
 AR Path="/61931F0A/6192B541" Ref="R4"  Part="1" 
-F 0 "R2" V 3793 3300 50  0000 C CNN
-F 1 "R" V 3884 3300 50  0000 C CNN
+F 0 "R4" V 3793 3300 50  0000 C CNN
+F 1 "0" V 3884 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 3300 50  0001 C CNN
-F 3 "~" H 4000 3300 50  0001 C CNN
+F 3 "soldering iron melts solder on two pins together, boom you have a 0 ohm R" H 4000 3300 50  0001 C CNN
 	1    4000 3300
 	0    1    1    0   
 $EndComp
@@ -149,9 +149,9 @@ AR Path="/619193E6/6192C043" Ref="FL?"  Part="1"
 AR Path="/6193993E/6192C043" Ref="FL?"  Part="1" 
 AR Path="/6191FC07/6192C043" Ref="FL1"  Part="1" 
 AR Path="/61931F0A/6192C043" Ref="FL2"  Part="1" 
-F 0 "FL1" H 6000 3681 50  0000 C CNN
+F 0 "FL2" H 6000 3681 50  0000 C CNN
 F 1 "EXC-24CE121U" H 6000 3590 50  0000 C CNN
-F 2 "node_pcb:DLM0NSB120HY2B" H 6000 3150 50  0001 C CNN
+F 2 "node_pcb:FIL_DLP31SN121ML2L" H 6000 3150 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/panasonic-electronic-components/EXC-24CE121U/761052" V 6000 3440 50  0001 C CNN
 	1    6000 3400
 	1    0    0    -1  
@@ -164,10 +164,10 @@ AR Path="/619193E6/619316E5" Ref="C?"  Part="1"
 AR Path="/6193993E/619316E5" Ref="C?"  Part="1" 
 AR Path="/6191FC07/619316E5" Ref="C2"  Part="1" 
 AR Path="/61931F0A/619316E5" Ref="C5"  Part="1" 
-F 0 "C2" H 7365 2996 50  0000 L CNN
-F 1 "C?" H 7365 2905 50  0000 L CNN
+F 0 "C5" H 7365 2996 50  0000 L CNN
+F 1 "50 pF" H 7365 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 2800 50  0001 C CNN
-F 3 "~" H 7250 2950 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0805JRNPO9BN510?qs=sGAEpiMZZMsh%252B1woXyUXjzfuHVctiE89ESpi6kALG%252Bg%3D" H 7250 2950 50  0001 C CNN
 	1    7250 2950
 	1    0    0    -1  
 $EndComp
@@ -179,10 +179,10 @@ AR Path="/619193E6/61931AEB" Ref="C?"  Part="1"
 AR Path="/6193993E/61931AEB" Ref="C?"  Part="1" 
 AR Path="/6191FC07/61931AEB" Ref="C3"  Part="1" 
 AR Path="/61931F0A/61931AEB" Ref="C6"  Part="1" 
-F 0 "C3" H 7365 4046 50  0000 L CNN
-F 1 "C?" H 7365 3955 50  0000 L CNN
+F 0 "C6" H 7365 4046 50  0000 L CNN
+F 1 "50 pF" H 7365 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 3850 50  0001 C CNN
-F 3 "~" H 7250 4000 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/CC0805JRNPO9BN510?qs=sGAEpiMZZMsh%252B1woXyUXjzfuHVctiE89ESpi6kALG%252Bg%3D" H 7250 4000 50  0001 C CNN
 	1    7250 4000
 	1    0    0    -1  
 $EndComp
@@ -193,9 +193,9 @@ P 6600 2550
 AR Path="/619193E6/61933FE7" Ref="#PWR?"  Part="1" 
 AR Path="/61924087/61933FE7" Ref="#PWR?"  Part="1" 
 AR Path="/6193993E/61933FE7" Ref="#PWR?"  Part="1" 
-AR Path="/6191FC07/61933FE7" Ref="#PWR0124"  Part="1" 
-AR Path="/61931F0A/61933FE7" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0124" H 6600 2300 50  0001 C CNN
+AR Path="/6191FC07/61933FE7" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61933FE7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 2300 50  0001 C CNN
 F 1 "GND" H 6605 2377 50  0000 C CNN
 F 2 "" H 6600 2550 50  0001 C CNN
 F 3 "" H 6600 2550 50  0001 C CNN
@@ -208,7 +208,7 @@ U 1 1 619789B3
 P 10005 3400
 AR Path="/61931F0A/619789B3" Ref="J19"  Part="1" 
 AR Path="/6191FC07/619789B3" Ref="J18"  Part="1" 
-F 0 "J18" H 9675 3404 50  0000 R CNN
+F 0 "J19" H 9675 3404 50  0000 R CNN
 F 1 "6p4c" H 9675 3495 50  0000 R CNN
 F 2 "node_pcb:6p4c_AdamTech_right_angle" V 10005 3450 50  0001 C CNN
 F 3 "https://www.digikey.ch/product-detail/en/adam-tech/MTJ-642BX2/2057-MTJ-642BX2-ND/9832240" V 10005 3450 50  0001 C CNN
@@ -224,9 +224,9 @@ P 4450 3950
 AR Path="/619193E6/61943F9A" Ref="#PWR?"  Part="1" 
 AR Path="/61924087/61943F9A" Ref="#PWR?"  Part="1" 
 AR Path="/6193993E/61943F9A" Ref="#PWR?"  Part="1" 
-AR Path="/6191FC07/61943F9A" Ref="#PWR0125"  Part="1" 
-AR Path="/61931F0A/61943F9A" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0125" H 4450 3700 50  0001 C CNN
+AR Path="/6191FC07/61943F9A" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61943F9A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 3700 50  0001 C CNN
 F 1 "GND" H 4455 3777 50  0000 C CNN
 F 2 "" H 4450 3950 50  0001 C CNN
 F 3 "" H 4450 3950 50  0001 C CNN
@@ -243,7 +243,7 @@ AR Path="/619193E6/61CFF44F" Ref="D?"  Part="1"
 AR Path="/6193993E/61CFF44F" Ref="D?"  Part="1" 
 AR Path="/6191FC07/61CFF44F" Ref="D1"  Part="1" 
 AR Path="/61931F0A/61CFF44F" Ref="D5"  Part="1" 
-F 0 "D1" V 6554 3030 50  0000 L CNN
+F 0 "D5" V 6554 3030 50  0000 L CNN
 F 1 "SMAJ8.0CA" V 6645 3030 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 6600 2950 50  0001 C CNN
 F 3 "https://www.digikey.ch/en/products/detail/littelfuse-inc/SMAJ8-0CA/762261" H 6600 2950 50  0001 C CNN
@@ -252,6 +252,8 @@ F 3 "https://www.digikey.ch/en/products/detail/littelfuse-inc/SMAJ8-0CA/762261" 
 $EndComp
 Wire Wire Line
 	5050 3950 5050 3800
+Wire Wire Line
+	4800 2950 4800 3000
 Wire Wire Line
 	4800 3000 5050 3000
 Wire Wire Line
@@ -333,10 +335,10 @@ AR Path="/619193E6/61D0289C" Ref="C?"  Part="1"
 AR Path="/6193993E/61D0289C" Ref="C?"  Part="1" 
 AR Path="/6191FC07/61D0289C" Ref="C7"  Part="1" 
 AR Path="/61931F0A/61D0289C" Ref="C8"  Part="1" 
-F 0 "C7" H 8410 4131 50  0000 L CNN
-F 1 "4700pF" H 8410 4040 50  0000 L CNN
+F 0 "C8" H 8410 4131 50  0000 L CNN
+F 1 "4700 pF" H 8410 4040 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8333 3935 50  0001 C CNN
-F 3 "~" H 8295 4085 50  0001 C CNN
+F 3 "https://www.digikey.ch/en/products/detail/samsung-electro-mechanics/CL21B472KBANNNC/3886813" H 8295 4085 50  0001 C CNN
 	1    8295 4085
 	1    0    0    -1  
 $EndComp
@@ -348,10 +350,10 @@ AR Path="/619193E6/61D03DF3" Ref="R?"  Part="1"
 AR Path="/6193993E/61D03DF3" Ref="R?"  Part="1" 
 AR Path="/6191FC07/61D03DF3" Ref="R10"  Part="1" 
 AR Path="/61931F0A/61D03DF3" Ref="R12"  Part="1" 
-F 0 "R10" V 7938 3705 50  0000 C CNN
+F 0 "R12" V 7938 3705 50  0000 C CNN
 F 1 "60" V 8029 3705 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8075 3705 50  0001 C CNN
-F 3 "~" H 8145 3705 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-0760R4L?qs=sGAEpiMZZMtlubZbdhIBIEM5%252BYIsBt7JGJWVfd%252BAc2g%3D" H 8145 3705 50  0001 C CNN
 	1    8145 3705
 	1    0    0    -1  
 $EndComp
@@ -363,10 +365,10 @@ AR Path="/619193E6/61D03DF9" Ref="R?"  Part="1"
 AR Path="/6193993E/61D03DF9" Ref="R?"  Part="1" 
 AR Path="/6191FC07/61D03DF9" Ref="R11"  Part="1" 
 AR Path="/61931F0A/61D03DF9" Ref="R13"  Part="1" 
-F 0 "R11" V 8268 3705 50  0000 C CNN
+F 0 "R13" V 8268 3705 50  0000 C CNN
 F 1 "60" V 8359 3705 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8405 3705 50  0001 C CNN
-F 3 "~" H 8475 3705 50  0001 C CNN
+F 3 "https://www.mouser.ch/ProductDetail/YAGEO/RC0805FR-0760R4L?qs=sGAEpiMZZMtlubZbdhIBIEM5%252BYIsBt7JGJWVfd%252BAc2g%3D" H 8475 3705 50  0001 C CNN
 	1    8475 3705
 	1    0    0    -1  
 $EndComp
@@ -392,12 +394,12 @@ Connection ~ 8295 3935
 Wire Wire Line
 	8295 4235 8295 4420
 $Comp
-L power:GND #PWR0134
+L power:GND #PWR?
 U 1 1 61D06B4D
 P 8295 4420
-AR Path="/61931F0A/61D06B4D" Ref="#PWR0134"  Part="1" 
-AR Path="/6191FC07/61D06B4D" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 8295 4170 50  0001 C CNN
+AR Path="/61931F0A/61D06B4D" Ref="#PWR?"  Part="1" 
+AR Path="/6191FC07/61D06B4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8295 4170 50  0001 C CNN
 F 1 "GND" H 8300 4247 50  0000 C CNN
 F 2 "" H 8295 4420 50  0001 C CNN
 F 3 "" H 8295 4420 50  0001 C CNN
@@ -405,44 +407,29 @@ F 3 "" H 8295 4420 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0127
+L power:+3V3 #PWR?
 U 1 1 61D3D9CF
-P 4800 2450
-AR Path="/6191FC07/61D3D9CF" Ref="#PWR0127"  Part="1" 
-AR Path="/61931F0A/61D3D9CF" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0127" H 4800 2300 50  0001 C CNN
-F 1 "+3V3" H 4815 2623 50  0000 C CNN
-F 2 "" H 4800 2450 50  0001 C CNN
-F 3 "" H 4800 2450 50  0001 C CNN
-	1    4800 2450
+P 4800 2950
+AR Path="/6191FC07/61D3D9CF" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61D3D9CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 2800 50  0001 C CNN
+F 1 "+3V3" H 4815 3123 50  0000 C CNN
+F 2 "" H 4800 2950 50  0001 C CNN
+F 3 "" H 4800 2950 50  0001 C CNN
+	1    4800 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0128
+L power:+3V3 #PWR?
 U 1 1 61D3E9A1
 P 3800 3900
-AR Path="/6191FC07/61D3E9A1" Ref="#PWR0128"  Part="1" 
-AR Path="/61931F0A/61D3E9A1" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0128" H 3800 3750 50  0001 C CNN
+AR Path="/6191FC07/61D3E9A1" Ref="#PWR?"  Part="1" 
+AR Path="/61931F0A/61D3E9A1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 3750 50  0001 C CNN
 F 1 "+3V3" H 3815 4073 50  0000 C CNN
 F 2 "" H 3800 3900 50  0001 C CNN
 F 3 "" H 3800 3900 50  0001 C CNN
 	1    3800 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse F3
-U 1 1 61B24E7D
-P 4800 2600
-AR Path="/6191FC07/61B24E7D" Ref="F3"  Part="1" 
-AR Path="/61931F0A/61B24E7D" Ref="F4"  Part="1" 
-F 0 "F3" H 4888 2646 50  0000 L CNN
-F 1 "FEMTOSMDC008F-2" H 4888 2555 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 4850 2400 50  0001 L CNN
-F 3 "https://www.digikey.com/en/products/detail/littelfuse-inc/FEMTOSMDC008F-2/6348177" H 4800 2600 50  0001 C CNN
-	1    4800 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2750 4800 3000
 $EndSCHEMATC
