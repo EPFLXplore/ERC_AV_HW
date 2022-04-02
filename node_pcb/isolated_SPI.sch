@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
-Title "Avionics STM32 Isolated SPI Interface"
-Date "2021-12-07"
-Rev "RC1 (Macchietta)"
+Sheet 6 8
+Title "Avionics STM32 generic node"
+Date "2022-04-02"
+Rev "RC2 (Marroncino)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""

@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 8
 Title "Avionics STM32 generic node"
-Date "2021-12-07"
-Rev "RC1 (Macchietta)"
+Date "2022-04-02"
+Rev "RC2 (Marroncino)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
@@ -171,22 +171,6 @@ F 3 "" H 1615 820 50  0001 C CNN
 	1    1615 820 
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4260 680  800  200 
-U 6191FC07
-F0 "CAN1" 50
-F1 "CAN_interface.sch" 50
-F2 "TX" I L 4260 780 50 
-F3 "RX" I R 5060 780 50 
-$EndSheet
-$Sheet
-S 4260 1120 800  200 
-U 61931F0A
-F0 "CAN2" 50
-F1 "CAN_interface.sch" 50
-F2 "TX" I L 4260 1220 50 
-F3 "RX" I R 5060 1220 50 
-$EndSheet
 $Sheet
 S 5360 720  1350 4650
 U 61AE9DED
@@ -1027,34 +1011,6 @@ Connection ~ 9050 5020
 Wire Wire Line
 	10050 5020 9050 5020
 Wire Wire Line
-	5060 1220 5360 1220
-Wire Wire Line
-	5140 1120 5140 1020
-Wire Wire Line
-	5140 1020 4220 1020
-Wire Wire Line
-	4220 1020 4220 1220
-Wire Wire Line
-	4220 1220 4260 1220
-Wire Wire Line
-	5140 1120 5360 1120
-Wire Wire Line
-	5360 920  5200 920 
-Wire Wire Line
-	5200 920  5200 780 
-Wire Wire Line
-	5200 780  5060 780 
-Wire Wire Line
-	5360 820  5280 820 
-Wire Wire Line
-	5280 820  5280 580 
-Wire Wire Line
-	5280 580  4210 580 
-Wire Wire Line
-	4210 580  4210 780 
-Wire Wire Line
-	4210 780  4260 780 
-Wire Wire Line
 	1100 1210 1100 1310
 Wire Wire Line
 	1100 1310 970  1310
@@ -1620,4 +1576,8 @@ Wire Wire Line
 Connection ~ 1100 880 
 Wire Wire Line
 	1100 880  1100 910 
+NoConn ~ 5360 820 
+NoConn ~ 5360 920 
+NoConn ~ 5360 1120
+NoConn ~ 5360 1220
 $EndSCHEMATC

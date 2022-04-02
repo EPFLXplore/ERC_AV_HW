@@ -5,4 +5,5 @@
   (lib (name HLE-106-02-F-DV-A)(type Legacy)(uri ${KIPRJMOD}/HLE-106-02-F-DV-A.lib)(options "")(descr ""))
   (lib (name HLE-102-02-F-DV)(type Legacy)(uri ${KIPRJMOD}/HLE-102-02-F-DV.lib)(options "")(descr ""))
   (lib (name ADUM142D1BRWZ)(type Legacy)(uri ${KIPRJMOD}/ADUM142D1BRWZ.lib)(options "")(descr ""))
+  (lib (name MAX22346CAAP&plus)(type Legacy)(uri ${KIPRJMOD}/MAX22346CAAP&plus.lib)(options "")(descr ""))
 )
