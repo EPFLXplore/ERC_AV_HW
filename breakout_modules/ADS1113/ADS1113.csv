@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet, Package, Manufacturer ref, Mouser ref, Digikey ref, Comments
+C1 C2 ,2,0.1uF,Capacitor_SMD:C_0805_2012Metric,https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf,0805 (2012 metric),CL21B104KACNNNC,187-CL21B104KACNNNC,,We already have some stock
+C3 ,1,0.22uF,Capacitor_SMD:C_1206_3216Metric,https://www.mouser.ch/datasheet/2/281/1/GRM31C5C1H224JE02_01A-1987815.pdf,1206,GRM31C5C1H224JE02L,81-GRM31C5C1H224JE2L,,
+FB1 FB2 ,2,MMZ2012S102ATD25,Inductor_SMD:L_0805_2012Metric,https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf,0805 (2012 metric),MMZ2012Y152B,810-MMZ2012Y152B,,
+J1 ,1,TB001-500-02BE,lib_fp:TB001-500-02BE,https://www.mouser.ch/datasheet/2/670/tb001_500-2306989.pdf,,TB001-500-02BE,490-TB001-500-02BE,,
+J3 ,1,SM04B-GHS-TB(LF)(SN),Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,https://www.jst-mfg.com/product/pdf/eng/eGH.pdf,,,,,I think we already have enough stock
+R1 ,1,26.7k,Resistor_SMD:R_0805_2012Metric,https://www.mouser.ch/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf,0805 (2012 metric),RT0805BRD0726K7L,603-RT0805BRD0726K7L,,
+R2 ,1,3.3k,Resistor_SMD:R_0805_2012Metric,https://www.mouser.ch/datasheet/2/315/AOA0000C307-1149632.pdf,0805 (2012 metric),ERA-6AEB332V,667-ERA-6AEB332V,,
+R3 R4 R5 ,3,10k,Resistor_SMD:R_0805_2012Metric,https://www.mouser.ch/datasheet/2/414/TTRB_S_A0012915158_1-2565570.pdf,0805 (2012 metric),WCR0805-10KFI,756-WCR0805-10KFI,,
+U1 ,1,ADS1113BQDGSRQ1,Package_SO:VSSOP-10_3x3mm_P0.5mm,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1113-q1,VSSOP-10,ADS1113BQDGSRQ1,595-ADS1113BQDGSRQ1,,
+U2 ,1,SMDA03C-4,Package_SO:SO-8_3.9x4.9mm_P1.27mm,https://www.smc-diodes.com/propdf/SMDA03C-4%20THRU%20SMDA24C-4%20N0298%20REV.A.pdf,SO-8,SMDA03C-4,,1655-SMDA03C,
