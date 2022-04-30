@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "LED_STRIP-rescue")(type "Legacy")(uri "${KIPRJMOD}/LED_STRIP-rescue.lib")(options "")(descr ""))
+)
