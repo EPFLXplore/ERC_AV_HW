@@ -24,34 +24,10 @@ F 3 "~" H 4950 3900 50  0001 C CNN
 	1    4950 3900
 	1    0    0    -1  
 $EndComp
-Text Label 5250 4200 0    50   ~ 0
-UART_TX
-Text Label 5250 4100 0    50   ~ 0
-UART_RX
-Text Label 5250 4000 0    50   ~ 0
-I2C_SDA
-Text Label 5250 3900 0    50   ~ 0
-I2C_SCL
-Text Label 5250 3800 0    50   ~ 0
-SPI_CS2
-Text Label 4750 3700 2    50   ~ 0
-SPI_CS1
-Text Label 4750 3800 2    50   ~ 0
-SPI_CS0
-Text Label 4750 3900 2    50   ~ 0
-SPI_MOSI
-Text Label 4750 4000 2    50   ~ 0
-SPI_MISO
-Text Label 4750 4100 2    50   ~ 0
-SPI_SCK
 Text Label 5250 3700 0    50   ~ 0
 GND
-Text Label 4750 4200 2    50   ~ 0
-3V3
 NoConn ~ 5250 3800
 NoConn ~ 4750 4100
-NoConn ~ 4750 4000
-NoConn ~ 4750 3900
 NoConn ~ 4750 3800
 Wire Notes Line
 	4350 3450 4350 4350
@@ -100,7 +76,6 @@ Text Label 6500 4200 2    50   ~ 0
 RST
 NoConn ~ 4750 3700
 NoConn ~ 5250 4100
-NoConn ~ 5250 4200
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61AD52BA
@@ -112,4 +87,13 @@ F 3 "~" H 4450 4500 50  0001 C CNN
 	1    4450 4500
 	1    0    0    -1  
 $EndComp
+Text Label 5250 4200 0    50   ~ 0
+3V3
+NoConn ~ 4750 4200
+NoConn ~ 5250 4000
+NoConn ~ 5250 3900
+Text Label 4750 3900 2    50   ~ 0
+I2C_SCL
+Text Label 4750 4000 2    50   ~ 0
+I2C_SDA
 $EndSCHEMATC
