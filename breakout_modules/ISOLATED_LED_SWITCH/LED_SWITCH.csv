@@ -1,7 +1,7 @@
 Reference, Quantity, Value, Footprint, Datasheet, Comments, Manufacturer ref, Mouser ref, Package
 C1 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric","https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf","We already have some stock","CL21B104KACNNNC","187-CL21B104KACNNNC","0805 (2012 metric)"
 J1 ,1,"TB001-500-02BE","0_lib_fp:TB001-500-02BE","https://www.mouser.ch/datasheet/2/670/tb001_500-2306989.pdf","","TB001-500-02BE","490-TB001-500-02BE",""
-J2 ,1,"Barrel_Jack","Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal","https://www.mouser.ch/datasheet/2/670/pj_102ah-1778518.pdf","","PJ-102AH","490-PJ-102AH",""
+J2 ,1,"TB003V-500-P02BE","0_lib_fp:TB003V-500-P02BE","https://www.mouser.ch/datasheet/2/670/tb003v_500-2306810.pdf","","TB003V-500-P02BE","490-TB003V-500-P02BE",""
 J3 ,1,"SM04B-GHS-TB(LF)(SN)","Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal","https://www.jst-mfg.com/product/pdf/eng/eGH.pdf","I think we already have enough stock","","",""
 R1 R3 ,2,"10k","Resistor_SMD:R_0805_2012Metric","https://www.mouser.ch/datasheet/2/414/TTRB_S_A0012915158_1-2565570.pdf","","WCR0805-10KFI","756-WCR0805-10KFI","0805 (2012 metric)"
 R2 ,1,"680","Resistor_SMD:R_0805_2012Metric","https://www.mouser.ch/datasheet/2/427/crcwce3-1762584.pdf","","CRCW0805680RFKEAC","71-CRCW0805680RFKEAC","0805 (2012 metric)"

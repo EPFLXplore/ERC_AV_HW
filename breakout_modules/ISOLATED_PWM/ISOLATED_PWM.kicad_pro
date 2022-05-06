@@ -360,7 +360,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LED_SWITCH.kicad_pro",
+    "filename": "ISOLATED_PWM.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -410,7 +410,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "LED_SWITCH.net",
+      "netlist": "ISOLATED_PWM.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
