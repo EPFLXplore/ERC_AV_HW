@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.2,
+          "height": 4.4,
+          "width": 4.4
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -154,7 +154,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2X2_1.27MM_TO_JST_GH.kicad_pro",
+    "filename": "BNO055_ADAPTER_BOARD.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -204,7 +204,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "2X2_1.27MM_TO_JST_GH.net",
+      "netlist": "BNO055_ADAPTER_BOARD.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

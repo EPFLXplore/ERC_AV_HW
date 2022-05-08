@@ -34,6 +34,8 @@ RemoteSystemsTempFiles/
 Debug/
 *.launch
 
+*.zip
+
 # STM32 git ignore
 *.mxproject
 breakout_modules/lib/digikey-kicad-library-master/.gitignore
