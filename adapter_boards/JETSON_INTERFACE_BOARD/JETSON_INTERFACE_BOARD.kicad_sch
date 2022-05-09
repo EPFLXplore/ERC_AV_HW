@@ -1596,7 +1596,7 @@
   (symbol (lib_id "Device:C") (at 131.445 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0448f55b-a58e-4ba3-ae92-1099ebda00dc)
-    (property "Reference" "C11" (id 0) (at 134.62 60.3312 0)
+    (property "Reference" "C8" (id 0) (at 134.62 60.3312 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 134.62 62.8712 0)
@@ -1621,7 +1621,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x20_Odd_Even") (at 196.85 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 04cf2f2c-74bf-400d-b4f6-201720df00ed)
-    (property "Reference" "J1" (id 0) (at 198.12 33.655 0))
+    (property "Reference" "J3" (id 0) (at 198.12 33.655 0))
     (property "Value" "Conn_02x20_Odd_Even" (id 1) (at 198.12 36.195 0))
     (property "Footprint" "0_Jetson_board:2x20 2.54mm Socket" (id 2) (at 196.85 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1705,7 +1705,7 @@
   (symbol (lib_id "Device:R_Small") (at 114.935 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 07cefdd2-d6dc-4055-b8fa-dae80b99b7a5)
-    (property "Reference" "R2" (id 0) (at 116.84 58.4199 0)
+    (property "Reference" "R4" (id 0) (at 116.84 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60R" (id 1) (at 116.84 60.9599 0)
@@ -1920,7 +1920,7 @@
   (symbol (lib_id "Device:R_Small") (at 114.935 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3fc0da2d-63e0-40df-9f17-7839cfcbadfb)
-    (property "Reference" "R3" (id 0) (at 116.84 120.0149 0)
+    (property "Reference" "R2" (id 0) (at 116.84 120.0149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60R" (id 1) (at 116.84 122.5549 0)
@@ -1977,7 +1977,7 @@
   (symbol (lib_id "Device:R_Small") (at 114.935 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 499d7b48-0ec2-46f2-bb15-9b6bb58aa8c8)
-    (property "Reference" "R1" (id 0) (at 116.84 50.7999 0)
+    (property "Reference" "R3" (id 0) (at 116.84 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60R" (id 1) (at 116.84 53.3399 0)
@@ -2002,7 +2002,7 @@
   (symbol (lib_id "Device:C") (at 131.445 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 508f0870-d255-44f2-ab20-5778d2d70da7)
-    (property "Reference" "C12" (id 0) (at 134.62 129.5462 0)
+    (property "Reference" "C4" (id 0) (at 134.62 129.5462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 134.62 132.0862 0)
@@ -2027,7 +2027,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 252.73 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 526d639d-33dd-4b1e-9dc7-8e605d368c95)
-    (property "Reference" "J2" (id 0) (at 255.905 36.1949 0)
+    (property "Reference" "J1" (id 0) (at 255.905 36.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Terminal block 01x04" (id 1) (at 255.905 38.7349 0)
@@ -2054,7 +2054,7 @@
   (symbol (lib_id "Interface_CAN_LIN:SN65HVD232") (at 74.295 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5bcc64d7-47f7-4b90-82e9-06474694bf54)
-    (property "Reference" "U2" (id 0) (at 76.3144 113.03 0)
+    (property "Reference" "U1" (id 0) (at 76.3144 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD232QDR" (id 1) (at 76.3144 115.57 0)
@@ -2114,7 +2114,7 @@
   (symbol (lib_id "Device:R_Small") (at 114.935 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6b23cd0d-e9b6-4dd9-a629-959f1318e62f)
-    (property "Reference" "R4" (id 0) (at 116.84 127.6349 0)
+    (property "Reference" "R1" (id 0) (at 116.84 127.6349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60R" (id 1) (at 116.84 130.1749 0)
@@ -2139,7 +2139,7 @@
   (symbol (lib_id "Device:C_Small") (at 84.455 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 71aa8ceb-7f8f-448f-a293-7de428ab4249)
-    (property "Reference" "C7" (id 0) (at 87.63 64.1412 0)
+    (property "Reference" "C10" (id 0) (at 87.63 64.1412 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (id 1) (at 87.63 66.6812 0)
@@ -2205,7 +2205,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 252.73 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8c843f61-891d-47fa-abce-087b70fc59f3)
-    (property "Reference" "J3" (id 0) (at 255.905 55.8799 0)
+    (property "Reference" "J2" (id 0) (at 255.905 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Terminal block 01x05" (id 1) (at 255.905 58.4199 0)
@@ -2290,7 +2290,7 @@
   (symbol (lib_id "Device:C_Small") (at 96.52 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9fd0d6a2-9798-4514-b3e8-02569483a31b)
-    (property "Reference" "C10" (id 0) (at 99.06 133.3562 0)
+    (property "Reference" "C3" (id 0) (at 99.06 133.3562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (id 1) (at 99.06 135.8962 0)
@@ -2331,7 +2331,7 @@
   (symbol (lib_id "Interface_CAN_LIN:SN65HVD232") (at 74.295 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a660069f-6159-41d7-92a4-dc247296c32b)
-    (property "Reference" "U1" (id 0) (at 76.3144 43.815 0)
+    (property "Reference" "U2" (id 0) (at 76.3144 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD232QDR" (id 1) (at 76.3144 46.355 0)
@@ -2391,7 +2391,7 @@
   (symbol (lib_id "Device:C_Small") (at 48.895 133.985 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b4878439-0c72-466a-843d-9230b1ae0f65)
-    (property "Reference" "C4" (id 0) (at 52.07 132.7212 0)
+    (property "Reference" "C5" (id 0) (at 52.07 132.7212 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 52.07 135.2612 0)
@@ -2432,7 +2432,7 @@
   (symbol (lib_id "Device:C_Small") (at 84.455 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b7436def-1195-4234-a484-946b18f4a4ee)
-    (property "Reference" "C8" (id 0) (at 87.63 133.3562 0)
+    (property "Reference" "C7" (id 0) (at 87.63 133.3562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (id 1) (at 87.63 135.8962 0)
@@ -2582,7 +2582,7 @@
   (symbol (lib_id "Device:C_Small") (at 48.895 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eb5411ac-e3f8-427d-a208-6bcfc51d2eb7)
-    (property "Reference" "C3" (id 0) (at 52.07 63.5062 0)
+    (property "Reference" "C6" (id 0) (at 52.07 63.5062 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 52.07 66.0462 0)
@@ -2712,29 +2712,29 @@
     (path "/9c9608a0-3c46-400c-b56b-14533e955c14"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/eb5411ac-e3f8-427d-a208-6bcfc51d2eb7"
-      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/9fd0d6a2-9798-4514-b3e8-02569483a31b"
+      (reference "C3") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/b4878439-0c72-466a-843d-9230b1ae0f65"
+    (path "/508f0870-d255-44f2-ab20-5778d2d70da7"
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/71aa8ceb-7f8f-448f-a293-7de428ab4249"
-      (reference "C7") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/b4878439-0c72-466a-843d-9230b1ae0f65"
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/eb5411ac-e3f8-427d-a208-6bcfc51d2eb7"
+      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/b7436def-1195-4234-a484-946b18f4a4ee"
-      (reference "C8") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C7") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/0448f55b-a58e-4ba3-ae92-1099ebda00dc"
+      (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/749b9e8f-4a7c-483d-b0a7-a1b068139f73"
       (reference "C9") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/9fd0d6a2-9798-4514-b3e8-02569483a31b"
+    (path "/71aa8ceb-7f8f-448f-a293-7de428ab4249"
       (reference "C10") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/0448f55b-a58e-4ba3-ae92-1099ebda00dc"
-      (reference "C11") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/508f0870-d255-44f2-ab20-5778d2d70da7"
-      (reference "C12") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3f597000-be32-4376-9a4f-fabbfc638885"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
@@ -2742,34 +2742,34 @@
     (path "/c6149b1d-b162-40c3-967c-ff58704f6b68"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
-    (path "/04cf2f2c-74bf-400d-b4f6-201720df00ed"
-      (reference "J1") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "0_Jetson_board:2x20 2.54mm Socket")
-    )
     (path "/526d639d-33dd-4b1e-9dc7-8e605d368c95"
-      (reference "J2") (unit 1) (value "Terminal block 01x04") (footprint "0_Jetson_board:1725672")
+      (reference "J1") (unit 1) (value "Terminal block 01x04") (footprint "0_Jetson_board:1725672")
     )
     (path "/8c843f61-891d-47fa-abce-087b70fc59f3"
-      (reference "J3") (unit 1) (value "Terminal block 01x05") (footprint "0_Jetson_board:1725685")
+      (reference "J2") (unit 1) (value "Terminal block 01x05") (footprint "0_Jetson_board:1725685")
+    )
+    (path "/04cf2f2c-74bf-400d-b4f6-201720df00ed"
+      (reference "J3") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "0_Jetson_board:2x20 2.54mm Socket")
     )
     (path "/c9e80749-9cf9-4ae2-be85-ff3ec7ea2bee"
       (reference "J4") (unit 1) (value "Terminal block 01x05") (footprint "0_Jetson_board:1725685")
     )
-    (path "/499d7b48-0ec2-46f2-bb15-9b6bb58aa8c8"
+    (path "/6b23cd0d-e9b6-4dd9-a629-959f1318e62f"
       (reference "R1") (unit 1) (value "60R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/07cefdd2-d6dc-4055-b8fa-dae80b99b7a5"
+    (path "/3fc0da2d-63e0-40df-9f17-7839cfcbadfb"
       (reference "R2") (unit 1) (value "60R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/3fc0da2d-63e0-40df-9f17-7839cfcbadfb"
+    (path "/499d7b48-0ec2-46f2-bb15-9b6bb58aa8c8"
       (reference "R3") (unit 1) (value "60R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/6b23cd0d-e9b6-4dd9-a629-959f1318e62f"
+    (path "/07cefdd2-d6dc-4055-b8fa-dae80b99b7a5"
       (reference "R4") (unit 1) (value "60R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/a660069f-6159-41d7-92a4-dc247296c32b"
+    (path "/5bcc64d7-47f7-4b90-82e9-06474694bf54"
       (reference "U1") (unit 1) (value "SN65HVD232QDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/5bcc64d7-47f7-4b90-82e9-06474694bf54"
+    (path "/a660069f-6159-41d7-92a4-dc247296c32b"
       (reference "U2") (unit 1) (value "SN65HVD232QDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
   )
