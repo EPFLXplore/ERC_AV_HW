@@ -1378,7 +1378,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 217.17 120.65 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 561bc2b7-7d89-47c0-9f35-9ec1f2cbb204)
     (property "Reference" "J4" (id 0) (at 217.17 111.76 0))
     (property "Value" "01x03 2.54mm Pin headers" (id 1) (at 217.17 114.3 0))
@@ -1483,7 +1483,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 216.535 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 71d7b5b3-da57-4923-8e61-66f56db7a207)
     (property "Reference" "J5" (id 0) (at 208.915 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1653,7 +1653,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 262.89 120.65 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid cba7b87c-882e-42c3-b98b-f4a21806e5c4)
     (property "Reference" "J1" (id 0) (at 262.89 111.76 0))
     (property "Value" "01x03 2.54mm Pin headers" (id 1) (at 262.89 114.3 0))
