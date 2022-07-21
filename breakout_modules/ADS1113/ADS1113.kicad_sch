@@ -1474,7 +1474,7 @@
     (uuid fa90699f-946e-435d-b7f2-f6f6912923d6)
   )
 
-  (text "VDD = 3.3V\nWhen VIN+ = 30 V, we want VO = VDD\n(VIN+ - VO)/R1 = (VO - VIN-)/R6 = VO/R6\n-> (30 - 3.3)/R1 = 3.3/R6\n\nWhen VIN- = -30 V, we want VO = 0 = VIN-\n-VIN+/R1 = VDD/R2 \n-> 30/R1 = 3.3/R2\n\nWe choose R1 = 100k, which gives us\nR2 = 3.3/(30/R1) = 11 kOhm\nR6 = 3.3/(26.7/R1) = 12.36 kOhm\nClosest 1% resistors\nR6 = 12.4 kOhm\nR2 = 11 kOhm\nR1 = 100 kOhm"
+  (text "VDD = 3.3V\nWhen VIN+ = 30 V, we want VO = VDD\n(VIN+ - VO)/R1 = (VO - VIN-)/R6 = VO/R6\n-> (30 - 3.3)/R1 = 3.3/R6\n\nWhen VIN+ = -30 V, we want VO = 0 = VIN-\n-VIN+/R1 = VDD/R2 \n-> 30/R1 = 3.3/R2\n\nWe choose R1 = 100k, which gives us\nR2 = 3.3/(30/R1) = 11 kOhm\nR6 = 3.3/(26.7/R1) = 12.36 kOhm\nClosest 1% resistors\nR6 = 12.4 kOhm\nR2 = 11 kOhm\nR1 = 100 kOhm"
     (at 22.86 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 01658c58-0cb4-4660-aadc-037718591b46)
