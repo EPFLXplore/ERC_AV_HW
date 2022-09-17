@@ -3,265 +3,336 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
-Title ""
-Date "2021-12-07"
-Rev "RC1 (Macchietta)"
+Sheet 7 8
+Title "Avionics STM32 generic node"
+Date "2022-04-02"
+Rev "RC2 (Marroncino)"
 Comp "EPFL Xplore"
 Comment1 "Authors: Yassine Bakkali, Paolo Celati"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3000 3750 0    50   Output ~ 0
+Text HLabel 2150 5160 0    50   Output ~ 0
 RX
-Text HLabel 3000 3550 0    50   Input ~ 0
+Text HLabel 2150 4960 0    50   Input ~ 0
 TX
-Text HLabel 3400 3200 0    50   Output ~ 0
+Text HLabel 2550 4610 0    50   Output ~ 0
 REM_CK
-Text Label 7280 4590 2    50   ~ 0
+Text Label 7700 6000 2    50   ~ 0
 REM_VCC
-Text Label 7280 4390 2    50   ~ 0
+Text Label 7700 5800 2    50   ~ 0
 REM_GND
-Text Label 7280 3990 2    50   ~ 0
+Text Label 7700 5400 2    50   ~ 0
 LOC_RX
-Text Label 7280 4490 2    50   ~ 0
+Text Label 7700 5900 2    50   ~ 0
 REM_RX
-Text Label 5210 4680 0    50   ~ 0
-REM_GND
-Text Label 4900 3450 0    50   ~ 0
-REM_VCC
 Wire Wire Line
-	3250 3550 3000 3550
+	2400 4960 2150 4960
 Wire Wire Line
-	3100 3750 3000 3750
-$Comp
-L power:GND #PWR0117
-U 1 1 61A49E74
-P 3700 4650
-AR Path="/61B72982/61A49E74" Ref="#PWR0117"  Part="1" 
-AR Path="/61B72C55/61A49E74" Ref="#PWR0157"  Part="1" 
-AR Path="/61B7335B/61A49E74" Ref="#PWR0165"  Part="1" 
-AR Path="/61B73361/61A49E74" Ref="#PWR0161"  Part="1" 
-F 0 "#PWR0165" H 3700 4400 50  0001 C CNN
-F 1 "GND" H 3705 4477 50  0000 C CNN
-F 2 "" H 3700 4650 50  0001 C CNN
-F 3 "" H 3700 4650 50  0001 C CNN
-	1    3700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0118
-U 1 1 61A4A123
-P 3700 3450
-AR Path="/61B72982/61A4A123" Ref="#PWR0118"  Part="1" 
-AR Path="/61B72C55/61A4A123" Ref="#PWR0158"  Part="1" 
-AR Path="/61B7335B/61A4A123" Ref="#PWR0166"  Part="1" 
-AR Path="/61B73361/61A4A123" Ref="#PWR0162"  Part="1" 
-F 0 "#PWR0166" H 3700 3300 50  0001 C CNN
-F 1 "+3V3" H 3700 3600 50  0000 C CNN
-F 2 "" H 3700 3450 50  0001 C CNN
-F 3 "" H 3700 3450 50  0001 C CNN
-	1    3700 3450
-	1    0    0    -1  
-$EndComp
+	2250 5160 2150 5160
 Wire Wire Line
-	3500 2950 3400 2950
-Text HLabel 3400 2950 0    50   Input ~ 0
+	2650 4360 2550 4360
+Text HLabel 2550 4360 0    50   Input ~ 0
 LOC_CK
 $Comp
-L power:+3V3 #PWR0119
+L power:+3V3 #PWR?
 U 1 1 61A4C9E5
-P 7180 3890
-AR Path="/61B72982/61A4C9E5" Ref="#PWR0119"  Part="1" 
-AR Path="/61B72C55/61A4C9E5" Ref="#PWR0159"  Part="1" 
-AR Path="/61B7335B/61A4C9E5" Ref="#PWR0167"  Part="1" 
-AR Path="/61B73361/61A4C9E5" Ref="#PWR0163"  Part="1" 
-F 0 "#PWR0167" H 7180 3740 50  0001 C CNN
-F 1 "+3V3" H 7195 4063 50  0000 C CNN
-F 2 "" H 7180 3890 50  0001 C CNN
-F 3 "" H 7180 3890 50  0001 C CNN
-	1    7180 3890
+P 7600 5300
+AR Path="/61B72982/61A4C9E5" Ref="#PWR?"  Part="1" 
+AR Path="/61B72C55/61A4C9E5" Ref="#PWR?"  Part="1" 
+AR Path="/61B7335B/61A4C9E5" Ref="#PWR?"  Part="1" 
+AR Path="/61B73361/61A4C9E5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7600 5150 50  0001 C CNN
+F 1 "+3V3" H 7615 5473 50  0000 C CNN
+F 2 "" H 7600 5300 50  0001 C CNN
+F 3 "" H 7600 5300 50  0001 C CNN
+	1    7600 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR?
 U 1 1 61A4E0A9
-P 7180 4090
-AR Path="/61B72982/61A4E0A9" Ref="#PWR0120"  Part="1" 
-AR Path="/61B72C55/61A4E0A9" Ref="#PWR0160"  Part="1" 
-AR Path="/61B7335B/61A4E0A9" Ref="#PWR0168"  Part="1" 
-AR Path="/61B73361/61A4E0A9" Ref="#PWR0164"  Part="1" 
-F 0 "#PWR0168" H 7180 3840 50  0001 C CNN
-F 1 "GND" V 7185 3962 50  0000 R CNN
-F 2 "" H 7180 4090 50  0001 C CNN
-F 3 "" H 7180 4090 50  0001 C CNN
-	1    7180 4090
+P 7600 5500
+AR Path="/61B72982/61A4E0A9" Ref="#PWR?"  Part="1" 
+AR Path="/61B72C55/61A4E0A9" Ref="#PWR?"  Part="1" 
+AR Path="/61B7335B/61A4E0A9" Ref="#PWR?"  Part="1" 
+AR Path="/61B73361/61A4E0A9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7600 5250 50  0001 C CNN
+F 1 "GND" V 7605 5372 50  0000 R CNN
+F 2 "" H 7600 5500 50  0001 C CNN
+F 3 "" H 7600 5500 50  0001 C CNN
+	1    7600 5500
 	0    1    1    0   
 $EndComp
-$Comp
-L avionics_library:ADUM142D0BRQZ-RL7 U4
-U 1 1 61B3AB5C
-P 4320 4250
-AR Path="/61B73361/61B3AB5C" Ref="U4"  Part="1" 
-AR Path="/61B72C55/61B3AB5C" Ref="U2"  Part="1" 
-AR Path="/61B72982/61B3AB5C" Ref="U1"  Part="1" 
-AR Path="/61B7335B/61B3AB5C" Ref="U3"  Part="1" 
-F 0 "U3" H 4320 4815 50  0000 C CNN
-F 1 "ADUM142D0BRQZ-RL7" H 4320 4724 50  0000 C CNN
-F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 4320 4690 50  0001 C CNN
-F 3 "https://www.digikey.ch/en/products/detail/analog-devices-inc/ADUM142D0BRQZ-RL7/7388629" H 4320 4690 50  0001 C CNN
-	1    4320 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3750 3700 3930
-Wire Wire Line
-	3700 3930 3820 3930
-Wire Wire Line
-	3820 4020 3700 4020
-Wire Wire Line
-	3820 4530 3700 4530
-Wire Wire Line
-	3700 4020 3700 4450
-Wire Wire Line
-	3700 4530 3700 4650
-Connection ~ 3700 4530
-Text Label 4820 4370 0    50   ~ 0
+Text Label 5185 5805 0    50   ~ 0
 LOC_RX
-Text Label 4820 4110 0    50   ~ 0
+Text Label 5185 5505 0    50   ~ 0
 REM_RX
 Wire Wire Line
-	3500 2950 3500 4200
+	2650 4360 2650 5610
 Wire Wire Line
-	3500 4200 3820 4200
+	2650 5610 2970 5610
 Wire Wire Line
-	3400 4290 3820 4290
+	2550 5700 2970 5700
 Wire Wire Line
-	3400 4290 3400 3200
+	2550 5700 2550 4610
 Wire Wire Line
-	3820 4370 3100 4370
+	2970 5780 2250 5780
 Wire Wire Line
-	3100 3750 3100 4370
+	2250 5160 2250 5780
 Wire Wire Line
-	3820 4110 3250 4110
+	2970 5520 2400 5520
 Wire Wire Line
-	3250 4110 3250 3550
-Wire Wire Line
-	5210 4680 5150 4680
-Wire Wire Line
-	5150 4680 5150 4530
-Wire Wire Line
-	5150 4020 4820 4020
-Wire Wire Line
-	4820 4530 5150 4530
-Connection ~ 5150 4530
-Wire Wire Line
-	5150 4530 5150 4450
-Wire Wire Line
-	4820 3930 4900 3930
-Wire Wire Line
-	4900 3930 4900 3750
-Wire Wire Line
-	3820 4450 3700 4450
-Connection ~ 3700 4450
-Wire Wire Line
-	3700 4450 3700 4530
-Wire Wire Line
-	4820 4450 5150 4450
-Connection ~ 5150 4450
-Wire Wire Line
-	5150 4450 5150 4020
-Text Notes 8830 4340 0    50   ~ 0
+	2400 5520 2400 4960
+Text Notes 9250 5750 0    50   ~ 0
 Note:\nthe RJ45 cable used MUST be\na rollover cable
-Text Notes 5190 4280 0    50   ~ 0
+Text Notes 5610 5690 0    50   ~ 0
 Top is local clock being transmitted\nBottom is remote clock being received
-Text HLabel 8790 3740 2    50   BiDi ~ 0
+Text HLabel 9210 5150 2    50   BiDi ~ 0
 RJ45_[1..8]
 Entry Wire Line
-	7940 3790 7840 3890
+	8360 5200 8260 5300
 Wire Bus Line
-	7940 3740 8790 3740
-Text Label 7720 3890 2    50   ~ 0
+	8360 5150 9210 5150
+Text Label 8140 5300 2    50   ~ 0
 RJ45_1
 Wire Wire Line
-	7180 3890 7840 3890
+	7600 5300 8260 5300
 Entry Wire Line
-	7940 3890 7840 3990
-Text Label 7720 3990 2    50   ~ 0
+	8360 5300 8260 5400
+Text Label 8140 5400 2    50   ~ 0
 RJ45_2
 Wire Wire Line
-	7280 3990 7840 3990
+	7700 5400 8260 5400
 Entry Wire Line
-	7940 3990 7840 4090
-Text Label 7720 4090 2    50   ~ 0
+	8360 5400 8260 5500
+Text Label 8140 5500 2    50   ~ 0
 RJ45_3
 Wire Wire Line
-	7180 4090 7840 4090
+	7600 5500 8260 5500
 Entry Wire Line
-	7940 4100 7840 4200
-Text Label 7720 4200 2    50   ~ 0
+	8360 5510 8260 5610
+Text Label 8140 5610 2    50   ~ 0
 RJ45_4
 Wire Wire Line
-	4820 4200 7840 4200
+	5240 5610 8260 5610
 Entry Wire Line
-	7940 4190 7840 4290
-Text Label 7720 4290 2    50   ~ 0
+	8360 5600 8260 5700
+Text Label 8140 5700 2    50   ~ 0
 RJ45_5
 Wire Wire Line
-	4820 4290 7840 4290
+	5240 5700 8260 5700
 Entry Wire Line
-	7940 4290 7840 4390
-Text Label 7720 4390 2    50   ~ 0
+	8360 5700 8260 5800
+Text Label 8140 5800 2    50   ~ 0
 RJ45_6
 Wire Wire Line
-	7280 4390 7840 4390
+	7700 5800 8260 5800
 Entry Wire Line
-	7940 4390 7840 4490
-Text Label 7720 4490 2    50   ~ 0
+	8360 5800 8260 5900
+Text Label 8140 5900 2    50   ~ 0
 RJ45_7
 Wire Wire Line
-	7280 4490 7840 4490
+	7700 5900 8260 5900
 Entry Wire Line
-	7940 4490 7840 4590
-Text Label 7720 4590 2    50   ~ 0
+	8360 5900 8260 6000
+Text Label 8140 6000 2    50   ~ 0
 RJ45_8
 Wire Wire Line
-	7280 4590 7840 4590
-Text Label 7290 4200 2    50   ~ 0
+	7700 6000 8260 6000
+Text Label 7710 5610 2    50   ~ 0
 LOC_CLK_TX
-Text Label 7290 4290 2    50   ~ 0
+Text Label 7710 5700 2    50   ~ 0
 REM_CLK_RX
 $Comp
-L Device:Polyfuse F13
-U 1 1 61B20515
-P 3700 3600
-AR Path="/61B7335B/61B20515" Ref="F13"  Part="1" 
-AR Path="/61B73361/61B20515" Ref="F11"  Part="1" 
-AR Path="/61B72982/61B20515" Ref="F1"  Part="1" 
-AR Path="/61B72C55/61B20515" Ref="F9"  Part="1" 
-F 0 "F13" H 3788 3646 50  0000 L CNN
-F 1 "PRG18BB471MB1RB" H 3788 3555 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 3750 3400 50  0001 L CNN
-F 3 "https://www.digikey.com/en/products/detail/murata-electronics/PRG18BB471MB1RB/588494?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALAAxwDMdIAuoQA4AuUIAymwE4CWAOwDmIAL6EYADgBMiECkgYcBYmXBUABAFsAgk1YdIIAKqD%2BbAPKoAsrnTYArr1zjJU2vMXK8hEpHIZMB19ZhB2TjMLazsHZ1cJEABaOWgFKD5HVX9yAFYmRKTPNMVM7PUwKgKxMSA" H 3700 3600 50  0001 C CNN
-	1    3700 3600
+L MAX22346CAAP&plus:MAX22346CAAP+ U3
+U 1 1 623DEF46
+P 3585 5305
+AR Path="/61B73361/623DEF46" Ref="U3"  Part="1" 
+AR Path="/61B72982/623DEF46" Ref="U1"  Part="1" 
+AR Path="/61B72C55/623DEF46" Ref="U2"  Part="1" 
+AR Path="/61B7335B/623DEF46" Ref="U4"  Part="1" 
+F 0 "U3" H 4385 5692 60  0000 C CNN
+F 1 "MAX22346CAAP+" H 4385 5586 60  0000 C CNN
+F 2 "node_pcb:MAX22346CAAP&plus_" H 4385 5545 60  0001 C CNN
+F 3 "" H 3585 5305 60  0000 C CNN
+	1    3585 5305
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F14
-U 1 1 61B2B3F6
-P 4900 3600
-AR Path="/61B7335B/61B2B3F6" Ref="F14"  Part="1" 
-AR Path="/61B73361/61B2B3F6" Ref="F12"  Part="1" 
-AR Path="/61B72982/61B2B3F6" Ref="F2"  Part="1" 
-AR Path="/61B72C55/61B2B3F6" Ref="F10"  Part="1" 
-F 0 "F14" H 4988 3646 50  0000 L CNN
-F 1 "PRG18BB471MB1RB" H 4988 3555 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 4950 3400 50  0001 L CNN
-F 3 "https://www.digikey.com/en/products/detail/murata-electronics/PRG18BB471MB1RB/588494?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALAAxwDMdIAuoQA4AuUIAymwE4CWAOwDmIAL6EYADgBMiECkgYcBYmXBUABAFsAgk1YdIIAKqD%2BbAPKoAsrnTYArr1zjJU2vMXK8hEpHIZMB19ZhB2TjMLazsHZ1cJEABaOWgFKD5HVX9yAFYmRKTPNMVM7PUwKgKxMSA" H 4900 3600 50  0001 C CNN
-	1    4900 3600
+L Device:R R17
+U 1 1 623DFF97
+P 5405 5905
+AR Path="/61B73361/623DFF97" Ref="R17"  Part="1" 
+AR Path="/61B72982/623DFF97" Ref="R25"  Part="1" 
+AR Path="/61B72C55/623DFF97" Ref="R29"  Part="1" 
+AR Path="/61B7335B/623DFF97" Ref="R21"  Part="1" 
+F 0 "R17" V 5198 5905 50  0000 C CNN
+F 1 "0" V 5289 5905 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5335 5905 50  0001 C CNN
+F 3 "~" H 5405 5905 50  0001 C CNN
+	1    5405 5905
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5185 5905 5255 5905
+$Comp
+L Device:R R14
+U 1 1 623E12F7
+P 3375 5905
+AR Path="/61B73361/623E12F7" Ref="R14"  Part="1" 
+AR Path="/61B72982/623E12F7" Ref="R22"  Part="1" 
+AR Path="/61B72C55/623E12F7" Ref="R26"  Part="1" 
+AR Path="/61B7335B/623E12F7" Ref="R18"  Part="1" 
+F 0 "R14" V 3168 5905 50  0000 C CNN
+F 1 "0" V 3259 5905 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3305 5905 50  0001 C CNN
+F 3 "~" H 3375 5905 50  0001 C CNN
+	1    3375 5905
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3525 5905 3585 5905
+Wire Wire Line
+	5830 5305 5830 5215
+Text Label 5830 5215 0    50   ~ 0
+REM_VCC
+$Comp
+L power:+3V3 #PWR?
+U 1 1 623E2E0E
+P 2925 5140
+AR Path="/61B73361/623E2E0E" Ref="#PWR?"  Part="1" 
+AR Path="/61B72982/623E2E0E" Ref="#PWR?"  Part="1" 
+AR Path="/61B72C55/623E2E0E" Ref="#PWR?"  Part="1" 
+AR Path="/61B7335B/623E2E0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2925 4990 50  0001 C CNN
+F 1 "+3V3" H 2940 5313 50  0000 C CNN
+F 2 "" H 2925 5140 50  0001 C CNN
+F 3 "" H 2925 5140 50  0001 C CNN
+	1    2925 5140
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3585 5405 3225 5405
+Wire Wire Line
+	3225 5405 3225 5905
+Wire Wire Line
+	3225 5905 3225 6205
+Wire Wire Line
+	3225 6205 3585 6205
+Connection ~ 3225 5905
+Wire Wire Line
+	3225 6205 3225 6275
+Connection ~ 3225 6205
+Wire Wire Line
+	5185 6205 5555 6205
+Wire Wire Line
+	5555 6205 5555 5905
+Wire Wire Line
+	5555 5905 5555 5405
+Wire Wire Line
+	5555 5405 5185 5405
+Connection ~ 5555 5905
+Wire Wire Line
+	5555 6205 5555 6275
+Connection ~ 5555 6205
+Text Label 5555 6275 0    50   ~ 0
+REM_GND
+Wire Wire Line
+	5185 5305 5675 5305
+Wire Wire Line
+	5675 5305 5675 6005
+Connection ~ 5675 5305
+Wire Wire Line
+	5675 5305 5830 5305
+Wire Wire Line
+	3105 5305 3105 6005
+Wire Wire Line
+	3105 5305 3585 5305
+Wire Wire Line
+	3105 5305 2925 5305
+Wire Wire Line
+	2925 5140 2925 5305
+Connection ~ 3105 5305
+Wire Wire Line
+	3585 5505 2970 5505
+Wire Wire Line
+	2970 5505 2970 5520
+Wire Wire Line
+	3585 5605 2970 5605
+Wire Wire Line
+	2970 5605 2970 5610
+Wire Wire Line
+	3585 5705 2970 5705
+Wire Wire Line
+	2970 5705 2970 5700
+Wire Wire Line
+	3585 5805 2970 5805
+Wire Wire Line
+	2970 5805 2970 5780
+$Comp
+L Device:R R16
+U 1 1 623F4808
+P 5375 6005
+AR Path="/61B73361/623F4808" Ref="R16"  Part="1" 
+AR Path="/61B72982/623F4808" Ref="R24"  Part="1" 
+AR Path="/61B72C55/623F4808" Ref="R28"  Part="1" 
+AR Path="/61B7335B/623F4808" Ref="R20"  Part="1" 
+F 0 "R16" V 5168 6005 50  0000 C CNN
+F 1 "0" V 5259 6005 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5305 6005 50  0001 C CNN
+F 3 "~" H 5375 6005 50  0001 C CNN
+	1    5375 6005
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5225 6005 5185 6005
+Wire Wire Line
+	5525 6005 5675 6005
+$Comp
+L Device:R R15
+U 1 1 623F693B
+P 3400 6005
+AR Path="/61B73361/623F693B" Ref="R15"  Part="1" 
+AR Path="/61B72982/623F693B" Ref="R23"  Part="1" 
+AR Path="/61B72C55/623F693B" Ref="R27"  Part="1" 
+AR Path="/61B7335B/623F693B" Ref="R19"  Part="1" 
+F 0 "R15" V 3193 6005 50  0000 C CNN
+F 1 "0" V 3284 6005 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3330 6005 50  0001 C CNN
+F 3 "~" H 3400 6005 50  0001 C CNN
+	1    3400 6005
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 6005 3585 6005
+Wire Wire Line
+	3250 6005 3105 6005
+$Comp
+L power:GND #PWR?
+U 1 1 623F8CCB
+P 3225 6275
+AR Path="/61B73361/623F8CCB" Ref="#PWR?"  Part="1" 
+AR Path="/61B72982/623F8CCB" Ref="#PWR?"  Part="1" 
+AR Path="/61B72C55/623F8CCB" Ref="#PWR?"  Part="1" 
+AR Path="/61B7335B/623F8CCB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3225 6025 50  0001 C CNN
+F 1 "GND" H 3230 6102 50  0000 C CNN
+F 2 "" H 3225 6275 50  0001 C CNN
+F 3 "" H 3225 6275 50  0001 C CNN
+	1    3225 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5185 5605 5240 5605
+Wire Wire Line
+	5240 5605 5240 5610
+Wire Wire Line
+	5240 5705 5240 5700
+Wire Wire Line
+	5185 5705 5240 5705
+NoConn ~ 5855 770 
 Wire Bus Line
-	7940 3740 7940 4490
+	8360 5150 8360 5900
 $EndSCHEMATC
