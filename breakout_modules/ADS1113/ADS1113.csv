@@ -1,0 +1,12 @@
+Reference, Quantity, Value, Footprint, Datasheet, Comments, Manufacturer ref, Mouser ref, Package, Digikey ref
+C1 C2 ,2,"0.1uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",""
+C3 ,1,"0.22uF","Capacitor_SMD:C_1206_3216Metric","https://www.mouser.ch/datasheet/2/281/1/GRM31C5C1H224JE02_01A-1987815.pdf","Optional, will yield better results if populated.","GRM31C5C1H224JE02L","81-GRM31C5C1H224JE2L","1206",""
+FB1 FB2 ,2,"MMZ2012S102ATD25","Inductor_SMD:L_0805_2012Metric","https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf","","MMZ2012Y152B","810-MMZ2012Y152B","0805 (2012 metric)",""
+J1 ,1,"TB001-500-02BE","lib_fp:TB001-500-02BE","https://www.mouser.ch/datasheet/2/670/tb001_500-2306989.pdf","","TB001-500-02BE","490-TB001-500-02BE","",""
+J3 ,1,"Molex 0532610471","Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal","https://www.molex.com/pdm_docs/sd/532610471_sd.pdf","","0532610471","","","WM7622TR-ND"
+R1 ,1,"100k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+R2 ,1,"11k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+R3 R4 R5 ,3,"10k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+R6 ,1,"12.4k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+U1 ,1,"ADS1113BQDGSRQ1","Package_SO:VSSOP-10_3x3mm_P0.5mm","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1113-q1","","ADS1113BQDGSRQ1","595-ADS1113BQDGSRQ1","VSSOP-10",""
+U2 ,1,"SMDA03C-4","Package_SO:SO-8_3.9x4.9mm_P1.27mm","https://www.smc-diodes.com/propdf/SMDA03C-4%20THRU%20SMDA24C-4%20N0298%20REV.A.pdf","","SMDA03C-4","","SO-8","1655-SMDA03C"

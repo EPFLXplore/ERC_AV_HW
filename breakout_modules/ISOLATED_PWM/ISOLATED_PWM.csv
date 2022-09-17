@@ -1,0 +1,6 @@
+Reference, Quantity, Value, Footprint, Datasheet, Comments, Manufacturer ref, Mouser ref, Package, Digikey ref
+C1 C2 ,2,"0.1uF","Capacitor_SMD:C_0805_2012Metric","https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf","We already have some stock","CL21B104KACNNNC","187-CL21B104KACNNNC","0805 (2012 metric)",""
+J2 ,1,"TB001-500-02BE","0_lib_fp:TB001-500-02BE","https://www.mouser.ch/datasheet/2/670/tb001_500-2306989.pdf","","TB001-500-02BE","490-TB001-500-02BE","",""
+J3 ,1,"Molex 0532610471","Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal","https://www.molex.com/pdm_docs/sd/532610471_sd.pdf","","0532610471","","","WM7622TR-ND"
+R1 R2 ,2,"680","Resistor_SMD:R_0805_2012Metric","https://www.mouser.ch/datasheet/2/427/crcwce3-1762584.pdf","","CRCW0805680RFKEAC","71-CRCW0805680RFKEAC","0805 (2012 metric)",""
+U1 U2 ,2,"TLP2710(TP4,E","0_lib_fp:SO6L(LF4)","https://www.mouser.ch/datasheet/2/408/TLP2710_datasheet_en_20180309-1594809.pdf","","TLP2710(TP4,E","757-TLP2710TP4E","SO6L(LF4)",""
