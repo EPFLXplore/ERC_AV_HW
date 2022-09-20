@@ -789,7 +789,7 @@
     (uuid fd7dc062-e3e5-4484-824e-ebcf4807a96a)
   )
 
-  (text "Note:\nDue to lack of space,\nSPI4, I2C4 and TIM2 will\nonly be accessible with \ndelocalized connectors."
+  (text "Due to lack of space,\nSPI4, I2C4 and TIM2 will\nonly be accessible with \ndelocalized connectors."
     (at 167.64 99.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e9d1f38f-250a-4b00-b20b-a527822c7115)

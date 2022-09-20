@@ -455,7 +455,7 @@
     )
   )
   (symbol "SMF5.0CA" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "D?" (id 0) (at 0 6.35 0)
+    (property "Reference" "D" (id 0) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMF5.0CA" (id 1) (at 3.81 3.81 0)
