@@ -143,6 +143,10 @@
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid ed28b63d-f365-437d-906e-1344a0de7bed)
   )
+  (text "Orion PCB node overview" (at 15.24 23.495 0)
+    (effects (font (size 5.08 5.08) bold) (justify left bottom))
+    (uuid ed64bcc4-375e-43fe-a97a-f0258546ce6e)
+  )
 
   (sheet (at 70.485 35.56) (size 48.26 9.525) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))

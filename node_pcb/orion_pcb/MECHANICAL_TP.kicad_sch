@@ -179,11 +179,11 @@
     (uuid fccf72fa-7380-4aad-be99-0ef53022abba)
   )
 
-  (text "Mounting holes" (at 93.98 21.59 0)
+  (text "Mounting holes" (at 92.075 20.32 0)
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 370b6b87-09c1-4eb5-9cca-22a59921462b)
   )
-  (text "Test points" (at 19.05 21.59 0)
+  (text "Test points" (at 16.51 20.32 0)
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 8321f202-fa40-4dbe-b3ff-e8b4f5862150)
   )
