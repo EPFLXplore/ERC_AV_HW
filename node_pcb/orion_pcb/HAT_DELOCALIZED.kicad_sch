@@ -793,7 +793,7 @@
     (effects (font (size 5.08 5.08) bold) (justify left bottom))
     (uuid 8d8c1597-6723-4e15-83f1-6604e31c2a6c)
   )
-  (text "Note:\nFor now only 3.3V is connected for remote sensors\nto avoid damaging USB's 5V power rail.\nUse terminal block for 5V and VDD power rails."
+  (text "Note:\nFor now only 3.3V is connected for remote sensors\nto avoid damaging USB's 5V power rail.\nUse terminal block for 5V and VIN power rails."
     (at 86.995 131.445 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e17b757e-e709-4500-8ee7-f08d58c2939e)
