@@ -64,6 +64,7 @@
         "clearance|160462341|94458177|25fb5f80-c98e-40fe-b43d-c45b49fea163|d1b21774-17c8-4a47-89df-709aecbc36fd",
         "clearance|160950000|90100000|2c1df3b7-c44f-4a02-adc3-89871c350379|86a29db7-0bc7-4a6f-9c42-09f524835428",
         "clearance|161250000|93800000|bc3966b9-3af4-4a3f-987d-b2221935644a|d1b21774-17c8-4a47-89df-709aecbc36fd",
+        "clearance|161250000|93900000|af668ec0-45b9-477e-b47f-64e2e7616fb7|d1b21774-17c8-4a47-89df-709aecbc36fd",
         "clearance|161500000|92625000|4c58e68e-0e96-4c96-83be-88e9ce88d275|86a29db7-0bc7-4a6f-9c42-09f524835428",
         "clearance|162325000|92975000|5d5fcda3-f462-4a45-839d-73b99cfc2cfc|d1b21774-17c8-4a47-89df-709aecbc36fd",
         "clearance|162375000|91525000|a461964c-553c-4d19-8194-c39817cb10ac|86a29db7-0bc7-4a6f-9c42-09f524835428",
@@ -386,7 +387,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.125,
+        "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,

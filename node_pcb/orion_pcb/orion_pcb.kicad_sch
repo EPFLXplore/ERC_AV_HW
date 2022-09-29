@@ -13,16 +13,16 @@
   (lib_symbols
   )
 
+  (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
+  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
+  (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
   (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "PE3" "PE2"))
   (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
   (bus_alias "GPIO_BUS_TIM_A" (members "TIM3_CH1" "TIM3_CH2" "TIM3_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
   (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
-  (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
-  (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
-  (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
   (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
+  (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
   (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
-  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
   (bus_alias "SPI2" (members "SPI2_SCK" "SPI2_MOSI" "SPI2_MISO" "SPI2_CS"))
   (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
   (bus_alias "I2C1" (members "I2C1_SCL" "I2C1_SDA"))
@@ -888,7 +888,7 @@
       (reference "J201") (unit 1) (value "SWD_02x05_1.27mm") (footprint "0_connectors:3220-10-0200-00")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/be70d18c-52b2-4b5b-ba69-5d36693ec3d6"
-      (reference "J202") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J202") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal")
     )
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/b988b376-a2d7-48fb-8852-0876fb2720e5"
       (reference "J301") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
@@ -977,8 +977,8 @@
     (path "/af32da82-ad52-4859-b708-d110e72e3164/c2902966-98bd-40d8-9618-6e75b462acc9"
       (reference "Q401") (unit 1) (value "PJA3405") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/6c594bb2-d8c2-4724-809a-1845b48468c5"
-      (reference "R201") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/ec39b76b-eb20-467a-b6ad-e9bd998b9bf3"
+      (reference "R201") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/ae1aab3e-00ed-45da-a6e3-da48cd48951c"
       (reference "R202") (unit 1) (value "240R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1094,11 +1094,11 @@
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/c8a33437-47a0-4e26-87c1-a98f5f3da192"
       (reference "U303") (unit 1) (value "CP2102N-A02-GQFN24") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
-    (path "/f7e53887-066b-4323-827a-ba17f8017d29/2257f752-cb44-4beb-8f70-13702b749d88"
-      (reference "U501") (unit 1) (value "MAX3232CDBR") (footprint "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm")
+    (path "/f7e53887-066b-4323-827a-ba17f8017d29/8cb6c532-e47f-49af-a8d4-686768727b3a"
+      (reference "U501") (unit 1) (value "TRSF3232EIPWR") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
-    (path "/f7e53887-066b-4323-827a-ba17f8017d29/b3a54ba4-3081-4eb5-b5b4-233a9b3819bb"
-      (reference "U502") (unit 1) (value "MAX3232CDBR") (footprint "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm")
+    (path "/f7e53887-066b-4323-827a-ba17f8017d29/f31e70e1-f86c-42b0-bc90-1856885196d7"
+      (reference "U502") (unit 1) (value "TRSF3232EIPWR") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/fa0cd3a3-4547-4ead-8bc8-0d9d2a897312"
       (reference "U503") (unit 1) (value "LM324DR") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
