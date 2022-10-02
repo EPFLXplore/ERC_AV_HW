@@ -13,26 +13,26 @@
   (lib_symbols
   )
 
-  (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
-  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
-  (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
   (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "PE3" "PE2"))
-  (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
+  (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
   (bus_alias "GPIO_BUS_TIM_A" (members "TIM3_CH1" "TIM3_CH2" "TIM3_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
-  (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
-  (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
+  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
+  (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
+  (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
+  (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
+  (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
   (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
+  (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
+  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
+  (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
+  (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
+  (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
   (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
-  (bus_alias "SPI2" (members "SPI2_SCK" "SPI2_MOSI" "SPI2_MISO" "SPI2_CS"))
   (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
+  (bus_alias "SPI2" (members "SPI2_SCK" "SPI2_MOSI" "SPI2_MISO" "SPI2_CS"))
   (bus_alias "I2C1" (members "I2C1_SCL" "I2C1_SDA"))
   (bus_alias "QUADSPI" (members "QUADSPI_CLK" "QUADSPI_BK2_NCS" "QUADSPI_BK2_IO0" "QUADSPI_BK2_IO1" "QUADSPI_BK2_IO2" "QUADSPI_BK2_IO3"))
-  (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
-  (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
   (bus_alias "USART3" (members "USART3_TX" "USART3_RX"))
-  (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
-  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
-  (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
 
   (bus (pts (xy 118.745 86.995) (xy 129.54 86.995))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -431,6 +431,9 @@
     (path "/9de455c4-9b08-4469-b909-c40801776d40/915b0419-0bae-4158-bee9-ed60cf82f471"
       (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
     )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/f6e5609b-49b9-4925-bb9b-df24699049e2"
+      (reference "#PWR0224") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/42e6e536-52b5-4f24-9642-81b514638cd9"
       (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
     )
@@ -608,9 +611,6 @@
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/bf150c32-1794-4c24-a852-6338b7cea23c"
       (reference "#PWR0908") (unit 1) (value "GND") (footprint "")
     )
-    (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/83feb423-efe6-4eab-9ebe-6b8a9d3b2177"
-      (reference "#PWR0909") (unit 1) (value "VIN") (footprint "")
-    )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/931213fb-60d7-4fbc-ae10-5ed81b1d0f30"
       (reference "#PWR0910") (unit 1) (value "+5V") (footprint "")
     )
@@ -644,9 +644,6 @@
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/bf150c32-1794-4c24-a852-6338b7cea23c"
       (reference "#PWR01008") (unit 1) (value "GND") (footprint "")
     )
-    (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/83feb423-efe6-4eab-9ebe-6b8a9d3b2177"
-      (reference "#PWR01009") (unit 1) (value "VIN") (footprint "")
-    )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/931213fb-60d7-4fbc-ae10-5ed81b1d0f30"
       (reference "#PWR01010") (unit 1) (value "+5V") (footprint "")
     )
@@ -679,9 +676,6 @@
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/bf150c32-1794-4c24-a852-6338b7cea23c"
       (reference "#PWR01108") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/83feb423-efe6-4eab-9ebe-6b8a9d3b2177"
-      (reference "#PWR01109") (unit 1) (value "VIN") (footprint "")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/931213fb-60d7-4fbc-ae10-5ed81b1d0f30"
       (reference "#PWR01110") (unit 1) (value "+5V") (footprint "")
@@ -873,25 +867,25 @@
       (reference "H704") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/c0af4725-7a96-4e7b-8a17-1358cb4775b5"
-      (reference "H705") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+      (reference "H705") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/982f11d2-2aea-4443-bd98-c93c843d494d"
-      (reference "H706") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+      (reference "H706") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/bc699532-77dc-4dbd-baa3-ea572b8f7f5e"
-      (reference "H707") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+      (reference "H707") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/d0b92926-b5d0-4648-8f48-a1918080b6e2"
-      (reference "H708") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+      (reference "H708") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/35606cdf-4184-48df-8c39-f9c14ca383d6"
       (reference "J201") (unit 1) (value "SWD_02x05_1.27mm") (footprint "0_connectors:3220-10-0200-00")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/be70d18c-52b2-4b5b-ba69-5d36693ec3d6"
-      (reference "J202") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal")
+      (reference "J202") (unit 1) (value "Conn_Picoblade_DEBUG") (footprint "0_connectors:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal")
     )
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/b988b376-a2d7-48fb-8852-0876fb2720e5"
-      (reference "J301") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
+      (reference "J301") (unit 1) (value "USB_B_Micro") (footprint "0_connectors:USB_Micro-B_Molex-105017-0001")
     )
     (path "/af32da82-ad52-4859-b708-d110e72e3164/5490467a-c03a-45ca-942b-b506081cb70c"
       (reference "J401") (unit 1) (value "02x05 2.54mm boxed header") (footprint "0_connectors:302-S101")
@@ -900,49 +894,49 @@
       (reference "J402") (unit 1) (value "Terminal block 2.54 mm") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/00d07ac5-6676-4d4d-88d5-4d4543e0923d"
-      (reference "J501") (unit 1) (value "Conn_Picoblade_UART") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J501") (unit 1) (value "Conn_Picoblade_UART") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/35ba7548-0e4f-4cd2-9f82-afb3424692cb"
-      (reference "J502") (unit 1) (value "Conn_Picoblade_UART") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J502") (unit 1) (value "Conn_Picoblade_UART") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/9bb26c7b-5d9f-44d0-a106-204603e433a5"
-      (reference "J503") (unit 1) (value "Conn_Picoblade_UART") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J503") (unit 1) (value "Conn_Picoblade_UART") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/2fbc63b0-e503-4d1c-aa6c-590baccaa772"
-      (reference "J504") (unit 1) (value "Conn_Picoblade_UART") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J504") (unit 1) (value "Conn_Picoblade_UART") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/3602fd11-1df2-4ccd-a2e2-ced9d7daa402"
-      (reference "J901") (unit 1) (value "Conn_Picoblade_SPI") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J901") (unit 1) (value "Conn_Picoblade_SPI") (footprint "0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/89ac2683-9fee-40dc-a896-a2c6df83f727"
-      (reference "J902") (unit 1) (value "Conn_Picoblade_I2C") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J902") (unit 1) (value "Conn_Picoblade_I2C") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/a2178872-d477-4426-9d71-4a521766e574"
-      (reference "J903") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J903") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/0656b749-046a-467e-b590-1892bc7eecc1"
       (reference "J904") (unit 1) (value "Hat_connector") (footprint "0_connectors:Hat_connector")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/3602fd11-1df2-4ccd-a2e2-ced9d7daa402"
-      (reference "J1001") (unit 1) (value "Conn_Picoblade_SPI") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J1001") (unit 1) (value "Conn_Picoblade_SPI") (footprint "0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/89ac2683-9fee-40dc-a896-a2c6df83f727"
-      (reference "J1002") (unit 1) (value "Conn_Picoblade_I2C") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J1002") (unit 1) (value "Conn_Picoblade_I2C") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/a2178872-d477-4426-9d71-4a521766e574"
-      (reference "J1003") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J1003") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/0656b749-046a-467e-b590-1892bc7eecc1"
       (reference "J1004") (unit 1) (value "Hat_connector") (footprint "0_connectors:Hat_connector")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/3602fd11-1df2-4ccd-a2e2-ced9d7daa402"
-      (reference "J1101") (unit 1) (value "Conn_Picoblade_SPI") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J1101") (unit 1) (value "Conn_Picoblade_SPI") (footprint "0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/89ac2683-9fee-40dc-a896-a2c6df83f727"
-      (reference "J1102") (unit 1) (value "Conn_Picoblade_I2C") (footprint "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
+      (reference "J1102") (unit 1) (value "Conn_Picoblade_I2C") (footprint "0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/a2178872-d477-4426-9d71-4a521766e574"
-      (reference "J1103") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J1103") (unit 1) (value "Conn_Picoblade_GPIO") (footprint "0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/0656b749-046a-467e-b590-1892bc7eecc1"
       (reference "J1104") (unit 1) (value "Hat_connector") (footprint "0_connectors:Hat_connector")
@@ -1054,6 +1048,15 @@
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/7c37dc01-4e53-4382-871c-3f9532078006"
       (reference "R508") (unit 1) (value "768R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/33b1bc32-3acf-465e-8b7c-1b0fffe689b4"
+      (reference "SEL0") (unit 1) (value "SEL0") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/ed3dd689-067a-466c-8581-d4ef949e0c1d"
+      (reference "SEL1") (unit 1) (value "SEL1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/28e1a81f-6973-40c3-8f72-c7b673ff587f"
+      (reference "SEL2") (unit 1) (value "SEL2") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/db52684b-e577-46a1-9edd-7a954367cc3f"
       (reference "SW201") (unit 1) (value "CL-SB-12C-01") (footprint "0_switch_button:CL-SB-12C-01")
