@@ -867,16 +867,16 @@
       (reference "G702") (unit 1) (value "EPFL_Logo") (footprint "0_graphic:EPFL_Logo_30mm")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/2c0cbc20-8ad4-4090-a503-7a18525269da"
-      (reference "G703") (unit 1) (value "maxon_Logo") (footprint "0_graphic:maxon_Logo_30mm")
+      (reference "G703") (unit 1) (value "maxon_Logo") (footprint "0_graphic:maxon_Logo_20mm")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/6a3037d9-7b36-49d7-ba4d-10575cfb789d"
-      (reference "G704") (unit 1) (value "APCO_Logo") (footprint "0_graphic:APCO_Logo_30mm")
+      (reference "G704") (unit 1) (value "APCO_Logo") (footprint "0_graphic:APCO_Logo_20mm")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/b1be3c7f-c968-4d17-8fc8-98aa68628150"
-      (reference "G705") (unit 1) (value "ELCA_Logo") (footprint "0_graphic:ELCA_Logo_30mm")
+      (reference "G705") (unit 1) (value "ELCA_Logo") (footprint "0_graphic:ELCA_Logo_20mm")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/fe2c1791-94ee-4801-8ced-ab1b9f52249c"
-      (reference "G706") (unit 1) (value "Astrocast_LOGO") (footprint "0_graphic:Astrocast_Logo_30mm")
+      (reference "G706") (unit 1) (value "Astrocast_LOGO") (footprint "0_graphic:Astrocast_Logo_20mm")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/6804aa55-e859-4483-9bc0-3a0e7521d513"
       (reference "H701") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
@@ -891,7 +891,7 @@
       (reference "H704") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/c0af4725-7a96-4e7b-8a17-1358cb4775b5"
-      (reference "H705") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+      (reference "H705") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/982f11d2-2aea-4443-bd98-c93c843d494d"
       (reference "H706") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
