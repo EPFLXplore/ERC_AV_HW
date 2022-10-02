@@ -1411,11 +1411,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxLjMiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiQk9PVCIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICIyIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIyIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMiIsICJQYWRkaW5nVG9wQ3RybCI6ICIyIiwgIldpZHRoQ3RybCI6ICIyLjUifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C2F3" (at 0 -3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 4bd4a1ac-055b-46b4-8ec9-3138f0da8d19)
     )
     (fp_text value "G***" (at 0 3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp f03242c1-281e-48e9-82e2-f13e5ba07d4c)
     )
     (fp_poly (pts
@@ -2165,11 +2165,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlNQSTMiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C367" (at 0 -3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 4aefbb30-8f4c-4ddf-8a53-0c714751f319)
     )
     (fp_text value "G***" (at 0 3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp a96ca65e-4004-4e4d-b780-f2109c7dc1b5)
     )
     (fp_poly (pts
@@ -3470,11 +3470,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiLyIsICJDYXBSaWdodENob2ljZSI6ICJcXCIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkFEQzEyIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjIiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjIiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIyIiwgIlBhZGRpbmdUb3BDdHJsIjogIjIiLCAiV2lkdGhDdHJsIjogIjIuNSJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C377" (at 0 -3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp b841f2a3-37ea-47e1-837b-9fe7bba4275c)
     )
     (fp_text value "G***" (at 0 3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp d21c6ce4-0527-49e3-b0e9-aeaf9185b605)
     )
     (fp_poly (pts
@@ -4381,6 +4381,8 @@
     (at 177.15 118.75 90)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
+    (property "Digikey ref" "NCV8161ASN330T1GOSCT-ND")
+    (property "Manufacturer ref " "NCV8161ASN330T1G")
     (property "Sheetfile" "USB_UART.kicad_sch")
     (property "Sheetname" "USB to UART Bridge")
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/f6d27365-0060-45be-a1f0-4d91a5aacf87")
@@ -4520,11 +4522,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiLyIsICJDYXBSaWdodENob2ljZSI6ICJcXCIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlRJTTF8MyIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICIyIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIyIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMiIsICJQYWRkaW5nVG9wQ3RybCI6ICIyIiwgIldpZHRoQ3RybCI6ICIyLjUifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C3AB" (at 0 -4.111519 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp b70878d0-2ed5-49d9-a6ef-8ce60a614174)
     )
     (fp_text value "G***" (at 0 4.111519 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 9a484cdf-1b0f-4be9-a5b4-2acff032d7b5)
     )
     (fp_poly (pts
@@ -5669,6 +5671,8 @@
     (at 170.15 115.9375 180)
     (descr "QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
+    (property "Digikey ref" "1175-1628-ND")
+    (property "Manufacturer ref" "3220-10-0200-00")
     (property "Sheetfile" "USB_UART.kicad_sch")
     (property "Sheetname" "USB to UART Bridge")
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/c8a33437-47a0-4e26-87c1-a98f5f3da192")
@@ -5955,11 +5959,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkkyQzEiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C3A2" (at 0 -3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp eb634c7b-5940-46ad-a8a2-8951f8d666dd)
     )
     (fp_text value "G***" (at 0 3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 2cb62708-375a-4c61-82f0-32c6f2b26204)
     )
     (fp_poly (pts
@@ -6962,11 +6966,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlNQSTEiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C398" (at 0 -3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp a8be272f-3398-466b-8e9a-6c394b22d907)
     )
     (fp_text value "G***" (at 0 3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 52163ae2-511f-4063-9b16-9efb22da35eb)
     )
     (fp_poly (pts
@@ -7184,11 +7188,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkkyQzMiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C386" (at 0 -3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp c1f79b33-180e-4c6b-bc1f-6c26c076feb4)
     )
     (fp_text value "G***" (at 0 3.88657 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 16765f82-a8e9-466f-b6d9-3c2dad504c72)
     )
     (fp_poly (pts
@@ -7661,11 +7665,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiLyIsICJDYXBSaWdodENob2ljZSI6ICJcXCIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlRJTTQiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C3C8" (at 0 -3.85871 -90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 4bd50e45-4ad2-4a88-b3c3-77d4a94b7647)
     )
     (fp_text value "G***" (at 0 3.85871 -90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp b6dc35a7-296e-4ed3-b7f8-070e3fcb97cd)
     )
     (fp_poly (pts
@@ -9027,11 +9031,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlNQSTIiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C3D3" (at 0 -3.88657 -90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp e1547434-4ee5-416f-af1d-689803e8e3e2)
     )
     (fp_text value "G***" (at 0 3.88657 -90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 2149210b-479e-478b-8071-33a60af36876)
     )
     (fp_poly (pts
@@ -10578,11 +10582,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMS4zIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkkyQzIiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMiIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6338C3BF" (at 0 -3.88657 -90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp e924bf80-5783-4072-906c-a8a8b6100abe)
     )
     (fp_text value "G***" (at 0 3.88657 -90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 74d3ff30-b6d7-4ec1-9794-f8489ae328f3)
     )
     (fp_poly (pts
