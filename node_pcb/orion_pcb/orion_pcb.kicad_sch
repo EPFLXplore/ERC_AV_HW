@@ -13,26 +13,26 @@
   (lib_symbols
   )
 
-  (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "PE3" "PE2"))
-  (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
   (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
-  (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
-  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
-  (bus_alias "GPIO_BUS_TIM_A" (members "TIM3_CH1" "TIM3_CH2" "TIM3_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
-  (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
+  (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "PE3" "PE2"))
   (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
+  (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
+  (bus_alias "GPIO_BUS_TIM_A" (members "TIM3_CH1" "TIM3_CH2" "TIM3_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
+  (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
+  (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
+  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
   (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
   (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
   (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
   (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
   (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
   (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
+  (bus_alias "USART3" (members "USART3_TX" "USART3_RX"))
   (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
   (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
   (bus_alias "SPI2" (members "SPI2_SCK" "SPI2_MOSI" "SPI2_MISO" "SPI2_CS"))
   (bus_alias "I2C1" (members "I2C1_SCL" "I2C1_SDA"))
   (bus_alias "QUADSPI" (members "QUADSPI_CLK" "QUADSPI_BK2_NCS" "QUADSPI_BK2_IO0" "QUADSPI_BK2_IO1" "QUADSPI_BK2_IO2" "QUADSPI_BK2_IO3"))
-  (bus_alias "USART3" (members "USART3_TX" "USART3_RX"))
 
   (bus (pts (xy 118.745 86.995) (xy 129.54 86.995))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -232,10 +232,10 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 200 200 200 1.0000))
     (uuid c4529d5c-82a4-4d2c-b325-db1a032013c5)
-    (property "Sheet name" "Mechanical elements and testpoints" (id 0) (at 69.85 123.7484 0)
+    (property "Sheet name" "Mechanical elements, testpoints, logos" (id 0) (at 69.85 123.7484 0)
       (effects (font (size 2.54 2.54) bold) (justify left bottom))
     )
-    (property "Sheet file" "MECHANICAL_TP.kicad_sch" (id 1) (at 69.85 156.7946 0)
+    (property "Sheet file" "MECHANICAL_TP_LOGO.kicad_sch" (id 1) (at 69.85 156.7946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -500,9 +500,6 @@
     (path "/af32da82-ad52-4859-b708-d110e72e3164/02a6f842-65b0-46c7-b954-c897f1f3d926"
       (reference "#PWR0402") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/af32da82-ad52-4859-b708-d110e72e3164/a9c0f4e2-7d30-45f2-9d87-932291375ca5"
-      (reference "#PWR0403") (unit 1) (value "VIN") (footprint "")
-    )
     (path "/af32da82-ad52-4859-b708-d110e72e3164/8fe50c9f-0236-42c4-bb4b-95e32d9f4286"
       (reference "#PWR0404") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -511,9 +508,6 @@
     )
     (path "/af32da82-ad52-4859-b708-d110e72e3164/b230742b-cb6a-4ea2-9a5e-13b2d5f04b65"
       (reference "#PWR0406") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/af32da82-ad52-4859-b708-d110e72e3164/ca2b4c09-ad28-471a-ad7a-83af478f55f8"
-      (reference "#PWR0407") (unit 1) (value "VIN") (footprint "")
     )
     (path "/af32da82-ad52-4859-b708-d110e72e3164/e5b5a688-807f-41a2-af43-45d03413b5f1"
       (reference "#PWR0408") (unit 1) (value "+5V") (footprint "")
@@ -866,6 +860,24 @@
     (path "/9de455c4-9b08-4469-b909-c40801776d40/80ca0cfa-3ab4-4cf5-87d5-9575613616b9"
       (reference "FB201") (unit 1) (value "100R@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/e40c94fb-f203-49b5-a65f-6b59f1237471"
+      (reference "G701") (unit 1) (value "Xplore_Logo") (footprint "0_graphic:Xplore_Logo_X_only_7mm")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/2035c253-c72f-40bf-baee-920e7026dbc6"
+      (reference "G702") (unit 1) (value "EPFL_Logo") (footprint "0_graphic:EPFL_Logo_30mm")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/2c0cbc20-8ad4-4090-a503-7a18525269da"
+      (reference "G703") (unit 1) (value "maxon_Logo") (footprint "0_graphic:maxon_Logo_30mm")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/6a3037d9-7b36-49d7-ba4d-10575cfb789d"
+      (reference "G704") (unit 1) (value "APCO_Logo") (footprint "0_graphic:APCO_Logo_30mm")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/b1be3c7f-c968-4d17-8fc8-98aa68628150"
+      (reference "G705") (unit 1) (value "ELCA_Logo") (footprint "0_graphic:ELCA_Logo_30mm")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/fe2c1791-94ee-4801-8ced-ab1b9f52249c"
+      (reference "G706") (unit 1) (value "Astrocast_LOGO") (footprint "0_graphic:Astrocast_Logo_30mm")
+    )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/6804aa55-e859-4483-9bc0-3a0e7521d513"
       (reference "H701") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
@@ -1089,7 +1101,7 @@
       (reference "SEL2") (unit 1) (value "SEL2") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/db52684b-e577-46a1-9edd-7a954367cc3f"
-      (reference "SW201") (unit 1) (value "CL-SB-12C-01") (footprint "0_switch_button:CL-SB-12C-01")
+      (reference "SW201") (unit 1) (value "CL-SB-12C-02") (footprint "0_switch_button:CL-SB-12C-01")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/4adc1cb7-641c-490a-a807-ca0904ff7052"
       (reference "SW202") (unit 1) (value "MJTP1140ATR") (footprint "0_switch_button:MJTP1140ATR")
