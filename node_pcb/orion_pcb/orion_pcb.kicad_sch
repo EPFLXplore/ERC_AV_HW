@@ -1106,6 +1106,12 @@
     (path "/9de455c4-9b08-4469-b909-c40801776d40/4adc1cb7-641c-490a-a807-ca0904ff7052"
       (reference "SW202") (unit 1) (value "MJTP1140ATR") (footprint "0_switch_button:MJTP1140ATR")
     )
+    (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/0294d1f9-f68a-45b3-8013-2e1b7e3e38fc"
+      (reference "TP301") (unit 1) (value "U1RX") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/613625b8-1db6-4872-af34-0fa58ee0a509"
+      (reference "TP302") (unit 1) (value "U1TX") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/8a547263-f64f-401a-8d34-d4404edc4bf3"
       (reference "TP701") (unit 1) (value "+5V") (footprint "0_various:TestPoint")
     )
