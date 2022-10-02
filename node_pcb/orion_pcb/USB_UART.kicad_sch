@@ -2356,7 +2356,7 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv8161-d.pdf" (id 3) (at 150.495 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer ref " "NCV8161ASN330T1G" (id 4) (at 150.495 68.58 0)
+    (property "Manufacturer ref" "NCV8161ASN330T1G" (id 4) (at 150.495 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey ref" "NCV8161ASN330T1GOSCT-ND" (id 5) (at 150.495 68.58 0)
