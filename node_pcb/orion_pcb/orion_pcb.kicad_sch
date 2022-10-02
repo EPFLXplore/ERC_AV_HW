@@ -15,18 +15,18 @@
 
   (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "PE3" "PE2"))
   (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
-  (bus_alias "GPIO_BUS_TIM_A" (members "TIM3_CH1" "TIM3_CH2" "TIM3_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
-  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
-  (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
-  (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
   (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
-  (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
   (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
+  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
+  (bus_alias "GPIO_BUS_TIM_A" (members "TIM3_CH1" "TIM3_CH2" "TIM3_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
+  (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
+  (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
+  (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
   (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
   (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
   (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
-  (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
   (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
+  (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
   (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
   (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
   (bus_alias "SPI2" (members "SPI2_SCK" "SPI2_MOSI" "SPI2_MISO" "SPI2_CS"))
@@ -347,6 +347,15 @@
   )
 
   (symbol_instances
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/617ae341-c174-40b4-8482-2534af6094c4"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/3c755e63-07ed-429d-ae63-c1c14c615a0e"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/beaf5930-23c1-406c-9866-cdbb34cc8ee0"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/a6be3530-ebcd-42c3-a85c-fe668b123f92"
       (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
     )
