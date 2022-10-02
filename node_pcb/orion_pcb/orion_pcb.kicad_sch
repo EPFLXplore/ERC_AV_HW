@@ -107,7 +107,7 @@
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 155aa938-767c-47e8-98ef-99957e256e97)
   )
-  (text "8, 9-12" (at 180.34 113.665 0)
+  (text "8, 9-11" (at 180.34 113.665 0)
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 3f4cbaed-1805-4830-9aaa-7c60ab954121)
   )
