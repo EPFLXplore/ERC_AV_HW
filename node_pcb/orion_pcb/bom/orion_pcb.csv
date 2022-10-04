@@ -1,8 +1,9 @@
 Reference, Quantity, Value, Footprint, Datasheet, Digikey ref, Manufacturer ref
 C201 ,1,"4.7uF","Capacitor_SMD:C_0402_1005Metric",""
 C202 C204 C206 C208 C210 C212 C217 ,7,"100nF","Capacitor_SMD:C_0402_1005Metric",""
-C203 C207 ,2,"10pF","Capacitor_SMD:C_0402_1005Metric",""
+C203 ,1,"10 pF","Capacitor_SMD:C_0402_1005Metric",""
 C205 C209 ,2,"1uF","Capacitor_SMD:C_0402_1005Metric",""
+C207 ,1,"10pF","Capacitor_SMD:C_0402_1005Metric",""
 C211 ,1,"10nF","Capacitor_SMD:C_0402_1005Metric",""
 C213 C214 ,2,"2.2uF","Capacitor_SMD:C_0402_1005Metric",""
 C215 C216 ,2,"4pF","Capacitor_SMD:C_0402_1005Metric",""
@@ -18,6 +19,7 @@ D302 D303 D501 D502 D503 D504 D505 D506 D507 D508 ,10,"ORANGE","LED_SMD:LED_0603
 D901 D902 D1001 D1002 D1101 D1102 ,6,"ESDA6V1U1RL","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://www.st.com/content/ccc/resource/technical/document/datasheet/80/9f/66/3a/18/37/40/81/CD00000840.pdf/files/CD00000840.pdf/jcr:content/translations/en.CD00000840.pdf","497-7231-1-ND","ESDALC6V1W5"
 F301 F401 ,2,"0805L150SLYR","Fuse:Fuse_0805_2012Metric","https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf","F5763CT-ND","0805L150SLYR"
 FB201 ,1,"100R@100MHz","Inductor_SMD:L_0603_1608Metric","https://www.murata.com/en-global/products/productdata/8796737273886/QNFA9101.pdf","490-13260-1-ND ","BLM18KG101TH1D"
+H701 H702 H703 H704 ,4,"MountingHole","MountingHole:MountingHole_2.2mm_M2","https://katalog.we-online.com/em/datasheet/971080244.pdf","732-12911-ND","971080244"
 J201 ,1,"SWD_02x05_1.27mm","0_connectors:3220-10-0200-00","http://www.cnctech.us/pdfs/3220-XX-0200-00_.pdf","","3220-10-0200-00"
 J202 ,1,"Conn_Picoblade_DEBUG","0_connectors:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal","https://www.molex.com/pdm_docs/sd/530480610_sd.pdf","WM1746-ND","0530480610"
 J301 ,1,"USB_B_Micro","0_connectors:USB_Micro-B_Molex-105017-0001","https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf","WM1399CT-ND","1050170001"

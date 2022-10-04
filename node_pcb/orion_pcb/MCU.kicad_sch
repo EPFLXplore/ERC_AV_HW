@@ -5305,7 +5305,7 @@
     (property "Reference" "C203" (id 0) (at 33.02 261.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10pF" (id 1) (at 33.02 264.16 0)
+    (property "Value" "10 pF" (id 1) (at 33.02 264.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 30.48 262.89 0)
