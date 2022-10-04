@@ -13,24 +13,24 @@
   (lib_symbols
   )
 
-  (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
-  (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
-  (bus_alias "GPIO_BUS_TIM_A" (members "TIM8_CH1" "TIM8_CH2" "TIM8_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
-  (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "PE3" "PE2"))
   (bus_alias "QUADSPI" (members "QUADSPI_CLK" "QUADSPI_BK2_NCS" "QUADSPI_BK2_IO0" "QUADSPI_BK2_IO1" "QUADSPI_BK2_IO2" "QUADSPI_BK2_IO3"))
-  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
+  (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
+  (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
+  (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
   (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
+  (bus_alias "GPIO_BUS_TIM_A" (members "TIM8_CH1" "TIM8_CH2" "TIM8_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
   (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
+  (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "I2C4_SCL" "I2C4_SDA"))
+  (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
   (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
+  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
   (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
   (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
-  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
+  (bus_alias "USART3" (members "USART3_TX" "USART3_RX"))
+  (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
   (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
   (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
   (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
-  (bus_alias "USART3" (members "USART3_TX" "USART3_RX"))
-  (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
-  (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
   (bus_alias "SPI2" (members "SPI2_SCK" "SPI2_MOSI" "SPI2_MISO" "SPI2_CS"))
   (bus_alias "I2C1" (members "I2C1_SCL" "I2C1_SDA"))
 
@@ -448,6 +448,9 @@
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/ffcce310-f568-4d72-bf80-8793bca5d947"
       (reference "#PWR0227") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/49512f90-dea3-4c1b-9b2a-8a45e68fa2e4"
+      (reference "#PWR0228") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/42e6e536-52b5-4f24-9642-81b514638cd9"
       (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
@@ -1022,35 +1025,41 @@
     (path "/9de455c4-9b08-4469-b909-c40801776d40/001984af-7b4f-40f5-8c59-c15ba0683606"
       (reference "R209") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/851d344b-46ad-4088-9708-0fa8fa32ff5f"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/bbc294a3-9e3a-4607-b35a-9ba663c1889f"
       (reference "R210") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/f6e7c88e-cea5-4189-98ae-0f2ff943bdff"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/b372b00e-cce7-4e71-aa67-ba287caca885"
       (reference "R211") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/2598192f-1af4-4548-8aec-34a9d2998af5"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/851d344b-46ad-4088-9708-0fa8fa32ff5f"
       (reference "R212") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/941c987d-687c-4d40-9291-f929fd489963"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/f6e7c88e-cea5-4189-98ae-0f2ff943bdff"
       (reference "R213") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/30facf76-2b5b-4792-8f44-58793d0a002f"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/2598192f-1af4-4548-8aec-34a9d2998af5"
       (reference "R214") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/3ae922bc-b7e6-4f75-bab5-309891bd9917"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/941c987d-687c-4d40-9291-f929fd489963"
       (reference "R215") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/ecad14ca-ccd9-4481-b063-9bb7d91f7936"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/30facf76-2b5b-4792-8f44-58793d0a002f"
       (reference "R216") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/5e0348d6-fe1e-4a66-b2c5-7a62ab8e7f1d"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/3ae922bc-b7e6-4f75-bab5-309891bd9917"
       (reference "R217") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/e99bc4e3-d2a1-49de-bc47-e5c2f3011c98"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/ecad14ca-ccd9-4481-b063-9bb7d91f7936"
       (reference "R218") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/9de455c4-9b08-4469-b909-c40801776d40/f6247350-cd45-4ada-ac8b-ad9682e51953"
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/5e0348d6-fe1e-4a66-b2c5-7a62ab8e7f1d"
       (reference "R219") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/e99bc4e3-d2a1-49de-bc47-e5c2f3011c98"
+      (reference "R220") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/9de455c4-9b08-4469-b909-c40801776d40/f6247350-cd45-4ada-ac8b-ad9682e51953"
+      (reference "R221") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/310a87ca-e523-4bac-adfb-cf01e43871a3"
       (reference "R301") (unit 1) (value "22k1") (footprint "Resistor_SMD:R_0603_1608Metric")
