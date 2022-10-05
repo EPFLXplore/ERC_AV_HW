@@ -12,7 +12,7 @@
 
   (lib_symbols
     (symbol "0_graphic:APCO_Logo" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "#LOGO" (id 0) (at 0 5.715 0)
+      (property "Reference" "G" (id 0) (at 0 5.715 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Value" "APCO_Logo" (id 1) (at 0 0 0)
@@ -1328,7 +1328,7 @@
       )
     )
     (symbol "0_graphic:Astrocast_LOGO" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "#LOGO" (id 0) (at 0 4.445 0)
+      (property "Reference" "G" (id 0) (at 0 4.445 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Value" "Astrocast_LOGO" (id 1) (at 0 -3.175 0)
@@ -3677,7 +3677,7 @@
       )
     )
     (symbol "0_graphic:ELCA_Logo" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "#LOGO" (id 0) (at 0 0 0)
+      (property "Reference" "G" (id 0) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Value" "ELCA_Logo" (id 1) (at 0 3.175 0)
@@ -3963,7 +3963,7 @@
       )
     )
     (symbol "0_graphic:EPFL_Logo" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "#LOGO" (id 0) (at 0 -3.175 0)
+      (property "Reference" "G" (id 0) (at 0 -3.175 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Value" "EPFL_Logo" (id 1) (at 0 4.445 0)
@@ -5455,7 +5455,7 @@
       )
     )
     (symbol "0_graphic:maxon_Logo" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "#LOGO" (id 0) (at 0 0 0)
+      (property "Reference" "G" (id 0) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Value" "maxon_Logo" (id 1) (at 0 3.81 0)
@@ -6994,7 +6994,6 @@
       )
     )
   )
-
 
   (junction (at 51.435 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 37eba84a-a315-48df-9b0b-779f0152b337)
