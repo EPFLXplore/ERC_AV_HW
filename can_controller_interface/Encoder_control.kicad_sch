@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "RS422 sensor interface")
+    (title "RS422 interface ")
     (date "2022-10-07")
     (company "EPFL XPlore")
     (comment 2 "Author: Yassine Bakkali")
@@ -872,7 +872,7 @@
     (property "Reference" "R9" (id 0) (at 184.15 71.0372 90)
       (effects (font (size 1 1)))
     )
-    (property "Value" "1kR" (id 1) (at 184.15 73.0888 90)
+    (property "Value" "1k" (id 1) (at 184.15 73.0888 90)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 184.15 74.93 0)
