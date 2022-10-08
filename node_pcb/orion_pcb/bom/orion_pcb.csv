@@ -31,7 +31,7 @@ J902 J1002 J1102 ,3,"Conn_Picoblade_I2C","0_connectors:Molex_PicoBlade_53047-041
 J903 J1003 J1103 ,3,"Conn_Picoblade_GPIO","0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical","https://www.molex.com/pdm_docs/sd/530470610_sd.pdf","WM1735-ND","0530470610"
 J904 J1004 J1104 ,3,"Hat_connector","0_connectors:Hat_connector",""
 Q301 Q401 ,2,"PJA3405","Package_TO_SOT_SMD:SOT-23","https://www.panjit.com.tw/upload/datasheet/PJA3405.pdf"
-R201 R208 R209 R210 R211 R212 R213 R214 R215 R216 R217 R218 R219 R220 R221 ,15,"4k7","Resistor_SMD:R_0402_1005Metric",""
+R201 R208 R209 R210 R211 R212 R213 R214 R215 R216 R217 R218 R219 R220 R221 R601 ,16,"4k7","Resistor_SMD:R_0402_1005Metric",""
 R202 R203 ,2,"240R","Resistor_SMD:R_0603_1608Metric",""
 R204 R205 R206 R207 ,4,"22R","Resistor_SMD:R_0603_1608Metric",""
 R301 ,1,"22k1","Resistor_SMD:R_0603_1608Metric",""
