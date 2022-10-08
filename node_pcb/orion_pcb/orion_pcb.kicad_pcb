@@ -6080,7 +6080,7 @@
     (property "Sheetname" "Hat connector circuit1")
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/89ac2683-9fee-40dc-a896-a2c6df83f727")
     (attr through_hole)
-    (fp_text reference "J902" (at 5.65 -3.325) (layer "F.SilkS")
+    (fp_text reference "J902" (at 6.35 -1.075) (layer "F.SilkS")
       (effects (font (size 0.7 0.7) (thickness 0.1)))
       (tstamp b5b20121-1368-4ea1-b21d-5d8be3f3d5cd)
     )
