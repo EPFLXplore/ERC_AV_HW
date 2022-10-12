@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.45,
-          "height": 1.45,
-          "width": 1.45
+          "drill": 1.8,
+          "height": 3.7,
+          "width": 2.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -447,8 +447,36 @@
       ""
     ],
     [
-      "c62b6e26-3f9b-4fa0-837d-d1d740007c41",
-      "Encoder interface"
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
+    ],
+    [
+      "4c576330-3956-4c69-ad9a-06f26bef808d",
+      "Connector layout13"
+    ],
+    [
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
+    ],
+    [
+      "ff8c3e3d-5346-4ad9-b031-42001369d6ac",
+      "Connector layout14"
+    ],
+    [
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
+    ],
+    [
+      "ccb68be9-1696-45b6-868d-cc60d199d7d0",
+      "Connector layout12"
+    ],
+    [
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
+    ],
+    [
+      "32cc7981-6440-4676-96d4-5e51818a1826",
+      "Connector layout15"
     ]
   ],
   "text_variables": {}
