@@ -400,7 +400,7 @@
       "idf": "",
       "netlist": "orion_power.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/orion_power.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

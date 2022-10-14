@@ -489,7 +489,7 @@
       "netlist": "orion_pcb.net",
       "specctra_dsn": "",
       "step": "step/orion_pcb.step",
-      "vrml": ""
+      "vrml": "step/orion_pcb.wrl"
     },
     "page_layout_descr_file": ""
   },

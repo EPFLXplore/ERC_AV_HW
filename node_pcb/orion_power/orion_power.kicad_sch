@@ -4526,7 +4526,7 @@
     (property "Value" "100nF" (id 1) (at 167.64 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 166.37 105.41 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 166.37 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 105.41 0)
@@ -5722,7 +5722,7 @@
     (property "Value" "100nF" (id 1) (at 167.64 117.475 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 166.37 118.745 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 166.37 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 118.745 0)
@@ -5930,10 +5930,10 @@
       (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/18f7ef60-e37e-4c4f-aae5-b006eb324089"
-      (reference "C6") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C6") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/ee1c3512-588a-44a5-8c55-975d33f97dce"
-      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/eee48f61-0ca6-4d98-a79e-bd795196b9d6"
       (reference "C8") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
