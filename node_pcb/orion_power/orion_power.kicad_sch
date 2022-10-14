@@ -6,6 +6,7 @@
 
   (title_block
     (title "3.3V/5V Dual-channel Switching Regulator")
+    (rev "1")
     (company "EPFL Xplore")
     (comment 2 "Author: Vincent Nguyen")
   )
@@ -4306,10 +4307,6 @@
   (text "Input capacitor\nIRMS = ILOAD/2 = 6 A / 2 = 3 A" (at 181.61 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f0eed666-9df8-4ebf-acb5-8f995e4ecf44)
-  )
-  (text "Note: LEDs should be reverse or side mounted" (at 216.535 160.655 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f4052bf4-d811-4819-bf78-ff92f9ae97bb)
   )
   (text "Under normal conditions, \nVDD = VIN - 30 mV" (at 29.845 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
