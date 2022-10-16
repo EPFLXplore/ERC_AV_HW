@@ -836,19 +836,19 @@
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/268a7fa6-77d8-4ea4-9aec-744103636335"
       (reference "D508") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/06c1eaab-7c81-468c-b10b-a3d49f134485"
+    (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/8e91564e-c135-4b4f-9f92-d3e78c8f0e2c"
       (reference "D901") (unit 1) (value "ESDA6V1U1RL") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5/73b3f9ef-365a-413a-b740-1ffeeb3fc1f0"
       (reference "D902") (unit 1) (value "ESDA6V1U1RL") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/06c1eaab-7c81-468c-b10b-a3d49f134485"
+    (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/8e91564e-c135-4b4f-9f92-d3e78c8f0e2c"
       (reference "D1001") (unit 1) (value "ESDA6V1U1RL") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/382577b7-7c8c-4edf-aa5c-947ca601a09e/73b3f9ef-365a-413a-b740-1ffeeb3fc1f0"
       (reference "D1002") (unit 1) (value "ESDA6V1U1RL") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/06c1eaab-7c81-468c-b10b-a3d49f134485"
+    (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/8e91564e-c135-4b4f-9f92-d3e78c8f0e2c"
       (reference "D1101") (unit 1) (value "ESDA6V1U1RL") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/fe997957-7109-4541-82a3-f4f58f310003/019f0911-69e8-40e0-8991-83c67a6706ec/73b3f9ef-365a-413a-b740-1ffeeb3fc1f0"
