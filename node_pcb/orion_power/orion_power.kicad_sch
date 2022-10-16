@@ -4239,7 +4239,7 @@
     (uuid ffb8e08a-e452-4b2f-a177-3c4c0b0d0f84)
   )
 
-  (text "Output capacitor:\nMax overshoot (VSOAR)\nL = 2.2 uH\n\nBUCK 1:\n\nVOUT = 5 V\nCOUT = 22 uF + 22 uF = 44 uF\nILOAD,max = 3.5 A\nVSOAR = ILOAD,max^2 * L / (2*COUT*VOUT) \n       = 61.25 mV\n\nBUCK 2:\n\nVOUT = 3.3V\nCOUT = 22 uF\nILOAD,max = 2 A\nVSOAR = ILOAD,max^2 * L / (2*COUT*VOUT) \n       = 60.61 Mv\n"
+  (text "Output capacitor:\nMax overshoot (VSOAR)\nL = 2.2 uH\n\nBUCK 1:\nVOUT = 5 V\nCOUT = 22 uF + 22 uF = 44 uF\nILOAD,max = 3.5 A\nVSOAR = ILOAD,max^2 * L / (2*COUT*VOUT) \n       = 61.25 mV\n\nBUCK 2:\nVOUT = 3.3V\nCOUT = 22 uF\nILOAD,max = 2 A\nVSOAR = ILOAD,max^2 * L / (2*COUT*VOUT) \n       = 60.61 mV\n"
     (at 181.61 62.23 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1303491b-f8e6-442c-be9f-349445737bbf)
@@ -4304,7 +4304,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ebcfe24c-6e16-4a6d-9fe5-1fa207d519ea)
   )
-  (text "Input capacitor\nIRMS = ILOAD/2 = 6 A / 2 = 3 A" (at 181.61 22.86 0)
+  (text "Input capacitor\nIRMS = ILOAD/2 = 6 A / 2 = 3 A" (at 181.61 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f0eed666-9df8-4ebf-acb5-8f995e4ecf44)
   )

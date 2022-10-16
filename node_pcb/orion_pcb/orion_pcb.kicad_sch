@@ -15,20 +15,20 @@
 
   (bus_alias "GPIO_BUS_TIM_C" (members "TIM2_CH4" "TIM2_CH3" "TIM2_CH2" "TIM2_CH1" "PC0" "PC13"))
   (bus_alias "QUADSPI" (members "QUADSPI_CLK" "QUADSPI_BK2_NCS" "QUADSPI_BK2_IO0" "QUADSPI_BK2_IO1" "QUADSPI_BK2_IO2" "QUADSPI_BK2_IO3"))
+  (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "I2C4_SCL" "I2C4_SDA"))
   (bus_alias "GPIO_BUS_TIM_A" (members "TIM8_CH1" "TIM8_CH2" "TIM8_CH3" "TIM1_CH2" "TIM1_CH3" "TIM1_CH4"))
   (bus_alias "UART4" (members "UART4_TX" "UART4_RX"))
   (bus_alias "SPI3" (members "SPI3_SCK" "SPI3_MOSI" "SPI3_MISO" "SPI3_CS"))
-  (bus_alias "GPIO_BUS_ADC" (members "ADC12_INN5" "ADC12_INP5" "ADC12_INN4" "ADC12_INP4" "I2C4_SCL" "I2C4_SDA"))
-  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
-  (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
   (bus_alias "GPIO_BUS_AUX" (members "PE6" "PE5" "PE4"))
+  (bus_alias "GPIO_BUS_TIM_B" (members "UART4_TX" "UART4_RX" "TIM4_CH4" "TIM4_CH3" "TIM4_CH2" "TIM4_CH1"))
+  (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
+  (bus_alias "SPI4" (members "SPI4_SCK" "SPI4_MOSI" "SPI4_MISO" "SPI4_CS"))
   (bus_alias "I2C4" (members "I2C4_SCL" "I2C4_SDA"))
-  (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
   (bus_alias "I2C2" (members "I2C2_SCL" "I2C2_SDA"))
+  (bus_alias "UART8" (members "UART8_TX" "UART8_RX"))
   (bus_alias "SPI1" (members "SPI1_SCK" "SPI1_MOSI" "SPI1_MISO" "SPI1_CS"))
   (bus_alias "USART1" (members "USART1_TX" "USART1_RX"))
   (bus_alias "I2C1" (members "I2C1_SCL" "I2C1_SDA"))
-  (bus_alias "UART5" (members "UART5_TX" "UART5_RX"))
   (bus_alias "USART2" (members "USART2_TX" "USART2_RX"))
   (bus_alias "I2C3" (members "I2C3_SCL" "I2C3_SDA"))
   (bus_alias "USART3" (members "USART3_TX" "USART3_RX"))
@@ -702,7 +702,7 @@
       (reference "C202") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/494ae5be-fd7e-4a83-ac84-18469ef8c7bf"
-      (reference "C203") (unit 1) (value "10 pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C203") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/7d0aac91-8ed1-4c83-b39e-4efe325c783e"
       (reference "C204") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -738,10 +738,10 @@
       (reference "C214") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/f4390e28-0313-44db-8e18-1e1ab30a1b66"
-      (reference "C215") (unit 1) (value "4pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C215") (unit 1) (value "3.9pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/14e27320-21e3-4e05-b356-96c85bf65f81"
-      (reference "C216") (unit 1) (value "4pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C216") (unit 1) (value "3.9pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/e87b1a13-5b53-47f8-8ff9-3abf73221847"
       (reference "C217") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -809,7 +809,7 @@
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/a708ee2e-e325-409a-862d-4095ff27c038"
       (reference "D302") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/cc17b79b-f409-477a-a172-185f0fefb118"
+    (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/6ddb368a-f40d-4eb2-9781-7e5c60dc442c"
       (reference "D303") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/f7e53887-066b-4323-827a-ba17f8017d29/7db43938-967c-4196-9a81-2f31153a4e4a"
@@ -881,13 +881,13 @@
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/fe2c1791-94ee-4801-8ced-ab1b9f52249c"
       (reference "G706") (unit 1) (value "Astrocast_LOGO") (footprint "0_graphic:Astrocast_Logo_20mm")
     )
-    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/6804aa55-e859-4483-9bc0-3a0e7521d513"
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/966abe82-d214-415c-8148-acfab8623e3f"
       (reference "H701") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
-    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/876a04dc-9bd5-4e7d-ac77-e9c27b09e08d"
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/1026d853-a351-48a6-9569-2c0473084ce5"
       (reference "H702") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
-    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/4477a6ab-2fa2-41dd-9cd8-411b503ed7f3"
+    (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/eada877c-1e65-4fec-a7f5-3dc9d23909ee"
       (reference "H703") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/c4529d5c-82a4-4d2c-b325-db1a032013c5/0e1188bb-d575-4a46-84ec-53ea20efe013"
@@ -995,7 +995,7 @@
     (path "/0635c487-7a1e-4824-98b0-b0262d0246ab/8b3827c1-1328-42b8-af02-21f1f4e67af2"
       (reference "Q301") (unit 1) (value "PJA3405") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/af32da82-ad52-4859-b708-d110e72e3164/c2902966-98bd-40d8-9618-6e75b462acc9"
+    (path "/af32da82-ad52-4859-b708-d110e72e3164/74464dee-25d3-4f84-9ecb-c27e32928aaa"
       (reference "Q401") (unit 1) (value "PJA3405") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/9de455c4-9b08-4469-b909-c40801776d40/ec39b76b-eb20-467a-b6ad-e9bd998b9bf3"
