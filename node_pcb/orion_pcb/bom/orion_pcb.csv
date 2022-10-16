@@ -1,51 +1,52 @@
-Reference, Quantity, Value, Footprint, Datasheet, Digikey ref, Manufacturer ref
-C201 ,1,"4.7uF","Capacitor_SMD:C_0402_1005Metric",""
-C202 C204 C206 C208 C210 C212 C217 ,7,"100nF","Capacitor_SMD:C_0402_1005Metric",""
-C203 ,1,"10 pF","Capacitor_SMD:C_0402_1005Metric",""
-C205 C209 ,2,"1uF","Capacitor_SMD:C_0402_1005Metric",""
-C207 ,1,"10pF","Capacitor_SMD:C_0402_1005Metric",""
-C211 ,1,"10nF","Capacitor_SMD:C_0402_1005Metric",""
-C213 C214 ,2,"2.2uF","Capacitor_SMD:C_0402_1005Metric",""
-C215 C216 ,2,"4pF","Capacitor_SMD:C_0402_1005Metric",""
-C301 C302 ,2,"1uF","Capacitor_SMD:C_0603_1608Metric",""
-C303 C501 C502 C503 C504 C505 C506 C507 C508 C509 C510 C601 ,12,"100nF","Capacitor_SMD:C_0603_1608Metric",""
-C304 ,1,"4.7uF","Capacitor_SMD:C_0603_1608Metric",""
-D201 ,1,"SMBJ3V3-E3/5B","Diode_SMD:D_SMB","https://www.vishay.com/docs/88940/smbj3v3.pdf","SMBJ3V3-E3/5BGICT-ND","SMBJ3V3-E3/5B"
-D202 ,1,"YELLOW","LED_SMD:LED_0603_1608Metric","https://www.bivar.com/parts_content/Datasheets/SM0603UYC.pdf","492-1325-1-ND","SM0603UYC"
-D203 ,1,"GREEN","LED_SMD:LED_0603_1608Metric","https://www.bivar.com/parts_content/Datasheets/SM0603GC.pdf","492-1324-1-ND","SM0603GC"
-D204 ,1,"ESDALC6V1W5","Package_TO_SOT_SMD:SOT-23-5","https://www.st.com/content/ccc/resource/technical/document/datasheet/32/30/02/e6/ac/0f/46/c2/CD00002946.pdf/files/CD00002946.pdf/jcr:content/translations/en.CD00002946.pdf"
-D301 ,1,"SMF5.0CA-TP","Diode_SMD:D_SOD-123","https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf","353-SMF5.0CA-TPCT-ND","SMF5.0CA-TP"
-D302 D303 D501 D502 D503 D504 D505 D506 D507 D508 ,10,"ORANGE","LED_SMD:LED_0603_1608Metric","https://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
-D901 D902 D1001 D1002 D1101 D1102 ,6,"ESDA6V1U1RL","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://www.st.com/content/ccc/resource/technical/document/datasheet/80/9f/66/3a/18/37/40/81/CD00000840.pdf/files/CD00000840.pdf/jcr:content/translations/en.CD00000840.pdf","497-7231-1-ND","ESDALC6V1W5"
-F301 F401 ,2,"0805L150SLYR","Fuse:Fuse_0805_2012Metric","https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf","F5763CT-ND","0805L150SLYR"
-FB201 ,1,"100R@100MHz","Inductor_SMD:L_0603_1608Metric","https://www.murata.com/en-global/products/productdata/8796737273886/QNFA9101.pdf","490-13260-1-ND ","BLM18KG101TH1D"
-H701 H702 H703 H704 ,4,"MountingHole","MountingHole:MountingHole_2.2mm_M2","https://katalog.we-online.com/em/datasheet/971080244.pdf","732-12911-ND","971080244"
-J201 ,1,"SWD_02x05_1.27mm","0_connectors:3220-10-0200-00","http://www.cnctech.us/pdfs/3220-XX-0200-00_.pdf","","3220-10-0200-00"
-J202 ,1,"Conn_Picoblade_DEBUG","0_connectors:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal","https://www.molex.com/pdm_docs/sd/530480610_sd.pdf","WM1746-ND","0530480610"
-J301 ,1,"USB_B_Micro","0_connectors:USB_Micro-B_Molex-105017-0001","https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf","WM1399CT-ND","1050170001"
-J401 ,1,"02x05 2.54mm boxed header","0_connectors:302-S101","http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf","ED1543-ND","302-S101"
-J402 ,1,"Terminal block 2.54 mm","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal","https://www.phoenixcontact.com/product/pdf/MTcyNTY1Ng?_realm=us&_locale=en-US&blocks=commercial-data%2Ctechnical-data%2Cdrawings%2Capprovals%2Cclassifications%2Cenvironmental-compliance-data%2Call-accessories","277-1273-ND","1725656"
-J501 J502 J503 J504 ,4,"Conn_Picoblade_UART","0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical","https://www.molex.com/pdm_docs/sd/530470410_sd.pdf","WM1733-ND","0530470410"
-J901 J1001 J1101 ,3,"Conn_Picoblade_SPI","0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical","https://www.molex.com/pdm_docs/sd/530470610_sd.pdf","WM1735-ND","0530470610"
-J902 J1002 J1102 ,3,"Conn_Picoblade_I2C","0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical","https://www.molex.com/pdm_docs/sd/530470410_sd.pdf","WM1733-ND","0530470410"
-J903 J1003 J1103 ,3,"Conn_Picoblade_GPIO","0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical","https://www.molex.com/pdm_docs/sd/530470610_sd.pdf","WM1735-ND","0530470610"
-J904 J1004 J1104 ,3,"Hat_connector","0_connectors:Hat_connector",""
-Q301 Q401 ,2,"PJA3405","Package_TO_SOT_SMD:SOT-23","https://www.panjit.com.tw/upload/datasheet/PJA3405.pdf"
-R201 R208 R209 R210 R211 R212 R213 R214 R215 R216 R217 R218 R219 R220 R221 R601 ,16,"4k7","Resistor_SMD:R_0402_1005Metric",""
-R202 R203 ,2,"240R","Resistor_SMD:R_0603_1608Metric",""
-R204 R205 R206 R207 ,4,"22R","Resistor_SMD:R_0603_1608Metric",""
-R301 ,1,"22k1","Resistor_SMD:R_0603_1608Metric",""
-R302 ,1,"47k5","Resistor_SMD:R_0603_1608Metric",""
-R303 ,1,"1k","Resistor_SMD:R_0603_1608Metric",""
-R304 R305 R501 R502 R503 R504 R505 R506 R507 R508 ,10,"768R","Resistor_SMD:R_0603_1608Metric",""
-SW201 ,1,"CL-SB-12C-02","0_switch_button:CL-SB-12C-01","https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf","563-1323-ND","CL-SB-12C-02"
-SW202 ,1,"MJTP1140ATR","0_switch_button:MJTP1140ATR","https://eu.mouser.com/datasheet/2/26/APPM_S_A0000728651_1-2538249.pdf","679-2420-1-ND","MJTP1140ATR"
-U201 ,1,"STM32H750VBT6","Package_QFP:LQFP-100_14x14mm_P0.5mm","https://www.st.com/resource/en/datasheet/stm32h750ib.pdf"
-U301 ,1,"SRV05-4A","Package_TO_SOT_SMD:SOT-23-6","http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF","1655-SRV05-4ACT-ND","SRV05-4A"
-U302 ,1,"NCV8161ASN330T1G","Package_TO_SOT_SMD:SOT-23-5","https://www.onsemi.com/pdf/datasheet/ncv8161-d.pdf","NCV8161ASN330T1GOSCT-ND","NCV8161ASN330T1G"
-U303 ,1,"CP2102N-A02-GQFN24","Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm","https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf","1175-1628-ND","3220-10-0200-00"
-U501 U502 ,2,"TRSF3232EIPWR","Package_SO:TSSOP-16_4.4x5mm_P0.65mm","https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftrsf3232e","296-25093-1-ND","TRSF3232EIPWR"
-U503 U504 ,2,"LM324DR","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","http://www.ti.com/lit/ds/symlink/lm2902-n.pdf","296-14597-1-ND","LM324DR"
-U601 ,1,"W25Q128JVS","Package_SO:SOIC-8_5.23x5.23mm_P1.27mm","http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-Y201 ,1,"ECS-480-10-36-CKL-TR (48 MHz)","Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm","https://abracon.com/Oscillators/ASDMB.pdf","XC2667CT-ND","ECS-480-10-36-CKL-TR"
-Y202 ,1,"ECS-.327-7-12-C-TR9 (32.768 KHz)","Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm","https://ecsxtal.com/store/pdf/ECX_12.pdf","50-ECS-.327-7-12-C-TR9CT-ND","ECS-.327-7-12-C-TR9"
+Reference, Quantity, Value, Footprint, Datasheet, Digikey ref, Manufacturer ref,Mouser ref
+C201 ,1,4.7uF,Capacitor_SMD:C_0402_1005Metric,,1276-1482-1-ND,CL05A475MP5NRNC,
+C202 C204 C206 C208 C210 C212 C217 ,7,100nF,Capacitor_SMD:C_0402_1005Metric,,587-3498-1-ND,UMK105B7104KV-FR,
+C203 C207 ,2,10pF,Capacitor_SMD:C_0402_1005Metric,,478-5717-1-ND,04025U100FAT2A,
+C205 C209 ,2,1uF,Capacitor_SMD:C_0402_1005Metric,,490-13339-1-ND,GRM155R70J105KA12J,
+C211 ,1,10nF,Capacitor_SMD:C_0402_1005Metric,,445-6893-1-ND,CGA2B3X7R1H103K050BB,
+C213 C214 ,2,2.2uF,Capacitor_SMD:C_0402_1005Metric,,490-GRM155Z71A225KE44DCT-ND,GRM155Z71A225KE44D,
+C215 C216 ,2,3.9pF,Capacitor_SMD:C_0402_1005Metric,,712-1401-1-ND,500R07S3R9BV4T,
+C301 C302 ,2,1uF,Capacitor_SMD:C_0603_1608Metric,,587-2984-1-ND,TMK107B7105KA-T,
+C303 C501 C502 C503 C504 C505 C506 C507 C508 C509 C510 C601 ,12,100nF,Capacitor_SMD:C_0603_1608Metric,,478-5778-1-ND,06035C104JAT2A,
+C304 ,1,4.7uF,Capacitor_SMD:C_0603_1608Metric,,,GRM188Z71C475KE21D,81-GRM188Z71C475KE1D
+D201 ,1,SMBJ3V3-E3/5B,Diode_SMD:D_SMB,https://www.vishay.com/docs/88940/smbj3v3.pdf,SMBJ3V3-E3/5BGICT-ND,SMBJ3V3-E3/5B,
+D202 ,1,YELLOW,LED_SMD:LED_0603_1608Metric,https://www.bivar.com/parts_content/Datasheets/SM0603UYC.pdf,492-1325-1-ND,SM0603UYC,
+D203 ,1,GREEN,LED_SMD:LED_0603_1608Metric,https://www.bivar.com/parts_content/Datasheets/SM0603GC.pdf,492-1324-1-ND,SM0603GC,
+D204 ,1,ESDALC6V1W5,Package_TO_SOT_SMD:SOT-23-5,https://www.st.com/content/ccc/resource/technical/document/datasheet/32/30/02/e6/ac/0f/46/c2/CD00002946.pdf/files/CD00002946.pdf/jcr:content/translations/en.CD00002946.pdf,497-7231-1-ND,ESDALC6V1W5,
+D301 ,1,SMF5.0CA-TP,Diode_SMD:D_SOD-123,https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf,353-SMF5.0CA-TPCT-ND,SMF5.0CA-TP,
+D302 D303 D501 D502 D503 D504 D505 D506 D507 D508 ,10,ORANGE,LED_SMD:LED_0603_1608Metric,https://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf,160-1445-1-ND,LTST-C191KFKT,
+D901 D902 D1001 D1002 D1101 D1102 ,6,ESDA6V1U1RL,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.st.com/content/ccc/resource/technical/document/datasheet/80/9f/66/3a/18/37/40/81/CD00000840.pdf/files/CD00000840.pdf/jcr:content/translations/en.CD00000840.pdf,497-7231-1-ND,ESDALC6V1W5,
+F301 F401 ,2,0805L150SLYR,Fuse:Fuse_0805_2012Metric,https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf,F5763CT-ND,0805L150SLYR,
+FB201 ,1,100R@100MHz,Inductor_SMD:L_0603_1608Metric,https://www.murata.com/en-global/products/productdata/8796737273886/QNFA9101.pdf,490-13260-1-ND ,BLM18KG101TH1D,
+H701 H702 H703,3,MountingHole,MountingHole:MountingHole_2.2mm_M2,https://www.we-online.com/katalog/datasheet/970080244.pdf,732-12836-ND,970080244,
+H704 ,1,MountingHole,MountingHole:MountingHole_2.2mm_M2,https://www.we-online.com/katalog/datasheet/970100244.pdf,732-12845-ND,970100244,
+J201 ,1,SWD_02x05_1.27mm,0_connectors:3220-10-0200-00,http://www.cnctech.us/pdfs/3220-XX-0200-00_.pdf,1175-1628-ND,3220-10-0200-00,
+J202 ,1,Conn_Picoblade_DEBUG,0_connectors:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal,https://www.molex.com/pdm_docs/sd/530480610_sd.pdf,WM1746-ND,530480610,
+J301 ,1,USB_B_Micro,0_connectors:USB_Micro-B_Molex-105017-0001,https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf,WM1399CT-ND,1050170001,
+J401 ,1,02x05 2.54mm boxed header,0_connectors:302-S101,http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf,ED1543-ND,302-S101,
+J402 ,1,Terminal block 2.54 mm,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",https://www.phoenixcontact.com/product/pdf/MTcyNTY1Ng?_realm=us&_locale=en-US&blocks=commercial-data%2Ctechnical-data%2Cdrawings%2Capprovals%2Cclassifications%2Cenvironmental-compliance-data%2Call-accessories,277-1273-ND,1725656,
+J501 J502 J503 J504 ,4,Conn_Picoblade_UART,0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical,https://www.molex.com/pdm_docs/sd/530470410_sd.pdf,WM1733-ND,530470410,
+J901 J1001 J1101 ,3,Conn_Picoblade_SPI,0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical,https://www.molex.com/pdm_docs/sd/530470610_sd.pdf,WM1735-ND,530470610,
+J902 J1002 J1102 ,3,Conn_Picoblade_I2C,0_connectors:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical,https://www.molex.com/pdm_docs/sd/530470410_sd.pdf,WM1733-ND,530470410,
+J903 J1003 J1103 ,3,Conn_Picoblade_GPIO,0_connectors:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical,https://www.molex.com/pdm_docs/sd/530470610_sd.pdf,WM1735-ND,530470610,
+J904 J1004 J1104 ,3,Hat_connector,0_connectors:Hat_connector,,S7037-ND,PPPC041LFBN-RC,
+J904 J1004 J1104 ,6,Hat_connector,0_connectors:Hat_connector,,S7039-ND,PPPC061LFBN-RC,
+Q301 Q401 ,2,PJA3405,Package_TO_SOT_SMD:SOT-23,https://www.panjit.com.tw/upload/datasheet/PJA3405.pdf,3757-PJA3405_R1_00001CT-ND,PJA3405_R1_00001,
+R201 R208 R209 R210 R211 R212 R213 R214 R215 R216 R217 R218 R219 R220 R221 R601 ,16,4k7,Resistor_SMD:R_0402_1005Metric,,A130363CT-ND,CRGP0402F4K7,
+R202 R203 ,2,240R,Resistor_SMD:R_0603_1608Metric,,RHM240DCT-ND,ESR03EZPJ241,
+R204 R205 R206 R207 ,4,22R,Resistor_SMD:R_0603_1608Metric,,RHM22DCT-ND,ESR03EZPJ220,
+R301 ,1,22k1,Resistor_SMD:R_0603_1608Metric,,RNCP0603FTD22K1CT-ND,RNCP0603FTD22K1,
+R302 ,1,47k5,Resistor_SMD:R_0603_1608Metric,,749-1658-1-ND,MCT06030C4752FP500,
+R303 ,1,1k,Resistor_SMD:R_0603_1608Metric,,RNCP0603FTD1K00CT-ND,RNCP0603FTD1K00,
+R304 R305 R501 R502 R503 R504 R505 R506 R507 R508 ,10,768R,Resistor_SMD:R_0603_1608Metric,,2019-RK73H1JTTD7680FCT-ND,RK73H1JTTD7680F,
+SW201 ,1,CL-SB-12C-02,0_switch_button:CL-SB-12C-01,https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf,563-1323-ND,CL-SB-12C-02,
+SW202 ,1,MJTP1140ATR,0_switch_button:MJTP1140ATR,https://eu.mouser.com/datasheet/2/26/APPM_S_A0000728651_1-2538249.pdf,679-2420-1-ND,MJTP1140ATR,
+U201 ,1,STM32H750VBT6,Package_QFP:LQFP-100_14x14mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32h750ib.pdf,,,
+U301 ,1,SRV05-4A,Package_TO_SOT_SMD:SOT-23-6,http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF,1655-SRV05-4ACT-ND,SRV05-4A,
+U302 ,1,NCV8161ASN330T1G,Package_TO_SOT_SMD:SOT-23-5,https://www.onsemi.com/pdf/datasheet/ncv8161-d.pdf,NCV8161ASN330T1GOSCT-ND,NCV8161ASN330T1G,
+U303 ,1,CP2102N-A02-GQFN24,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,1175-1628-ND,3220-10-0200-00,
+U501 U502 ,2,TRSF3232EIPWR,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftrsf3232e,296-25093-1-ND,TRSF3232EIPWR,
+U503 U504 ,2,LM324DR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,http://www.ti.com/lit/ds/symlink/lm2902-n.pdf,296-14597-1-ND,LM324DR,
+U601 ,1,W25Q128JVS,Package_SO:SOIC-8_5.23x5.23mm_P1.27mm,http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf,W25Q128JVSIQCT-ND,W25Q128JVSIQ TR,
+Y201 ,1,ECS-480-10-36-CKL-TR (48 MHz),Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm,https://abracon.com/Oscillators/ASDMB.pdf,XC2667CT-ND,ECS-480-10-36-CKL-TR,
+Y202 ,1,ECS-.327-7-12-C-TR9 (32.768 KHz),Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm,https://ecsxtal.com/store/pdf/ECX_12.pdf,50-ECS-.327-7-12-C-TR9CT-ND,ECS-.327-7-12-C-TR9,
