@@ -1,5 +1,31 @@
-10-08 20:07:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
-10-08 20:07:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.10 (main, Feb 11 2022, 04:18:11) [MSC v.1928 64 bit (AMD64)]'
-10-08 20:07:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.4)
-10-08 20:07:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.1
-10-08 20:07:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x00000204EA397280>
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.10 (main, Feb 11 2022, 04:18:11) [MSC v.1928 64 bit (AMD64)]'
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.4)
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.1
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x0000021B97EEF700>
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 331:Preparing replicator with U10 as a reference
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint Ge does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:source anchor footprint is 'U10'
+Located on: ['Gripper controller', 'Encoder interface1']
+With filenames: ['Connector_layout.kicad_sch', 'Encoder_control.kicad_sch']
+With sheet_id:['Gripper controller', 'Encoder interface1']
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 366:Corresponding footprints are 
+[('U10', ['Gripper controller', 'Encoder interface1']), ('U7', ['4th joint controller', 'Encoder interface1']), ('U4', ['6th joint controller', 'Encoder interface1']), ('U1', ['5th joint controller', 'Encoder interface1'])]
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 378:Showing dialog
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Encoder interface1', file:'Encoder_control.kicad_sch'
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['4th joint controller', 'Encoder interface1'], ['5th joint controller', 'Encoder interface1'], ['6th joint controller', 'Encoder interface1']]
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['Gripper controller', 'Encoder interface1']
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 384:Toolbar position: wx.Point(1699, 117)
+10-21 17:17:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 390:Dialog position: wx.Point(1335, 117)
+10-21 17:17:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Gripper controller', file:'Connector_layout.kicad_sch'
+10-21 17:17:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['4th joint controller'], ['5th joint controller'], ['6th joint controller']]
+10-21 17:17:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['Gripper controller']
+10-21 17:17:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 232:User canceled the dialog
