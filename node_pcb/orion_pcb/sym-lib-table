@@ -8,4 +8,5 @@
   (lib (name "0_regulator_linear")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_regulator_linear.kicad_sym")(options "")(descr ""))
   (lib (name "0_regulator_switching")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_regulator_switching.kicad_sym")(options "")(descr ""))
   (lib (name "0_transistor")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_transistor.kicad_sym")(options "")(descr ""))
+  (lib (name "0_mux")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_mux.kicad_sym")(options "")(descr ""))
 )

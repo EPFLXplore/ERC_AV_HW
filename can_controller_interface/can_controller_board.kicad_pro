@@ -3,11 +3,11 @@
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "copper_line_width": 0.09999999999999999,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 1.524,
+        "copper_text_size_v": 1.524,
+        "copper_text_thickness": 0.30479999999999996,
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
@@ -26,26 +26,26 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.4,
-          "width": 4.4
+          "drill": 3.0,
+          "height": 6.0,
+          "width": 6.0
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 0.7999999999999999,
+        "silk_text_size_h": 0.6,
+        "silk_text_size_v": 0.6,
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.6,
+          "via_gap": 0.2,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -103,7 +108,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -112,8 +117,8 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.125,
-        "min_via_annular_width": 0.19999999999999998,
-        "min_via_diameter": 0.19999999999999998,
+        "min_via_annular_width": 0.049999999999999996,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -123,15 +128,10 @@
         0.125,
         0.15,
         0.2,
-        0.3,
         0.5,
-        0.75,
         1.0,
         1.5,
-        2.0,
-        2.5,
-        3.0,
-        5.0
+        2.0
       ],
       "via_dimensions": [
         {
@@ -143,11 +143,7 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
+          "diameter": 1.0,
           "drill": 0.4
         }
       ],
@@ -370,44 +366,21 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "orion_pcb.kicad_pro",
+    "filename": "can_controller_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.25,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power 0.5A",
-        "nets": [
-          "/USB to UART Bridge/CP_VBUS",
-          "/USB to UART Bridge/VBUS_FUSE",
-          "VBUS",
-          "VIO"
-        ],
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -417,56 +390,14 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.75,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power 2A",
-        "nets": [
-          "+3.3V",
-          "+3.3VA"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 1.5,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power 3A",
-        "nets": [
-          "+5V",
-          "GND"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
         "clearance": 0.125,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
+        "diff_pair_width": 0.125,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Tight",
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.2,
+        "name": "Min",
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -485,10 +416,10 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "orion_pcb.net",
+      "netlist": "",
       "specctra_dsn": "",
-      "step": "step/orion_pcb.step",
-      "vrml": "step/orion_pcb.wrl"
+      "step": "../../../../../Desktop/can_controller_board.step",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -513,7 +444,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -524,7 +455,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "plot/",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -532,48 +463,40 @@
   },
   "sheets": [
     [
-      "a74c9b1d-0c19-426f-815b-ee7b514487ba",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
     ],
     [
-      "9de455c4-9b08-4469-b909-c40801776d40",
-      "MCU"
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
     ],
     [
-      "0635c487-7a1e-4824-98b0-b0262d0246ab",
-      "USB to UART Bridge"
+      "4c576330-3956-4c69-ad9a-06f26bef808d",
+      "5th joint controller"
     ],
     [
-      "af32da82-ad52-4859-b708-d110e72e3164",
-      "Power connectors"
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
     ],
     [
-      "f7e53887-066b-4323-827a-ba17f8017d29",
-      "Node to node connectors"
+      "ff8c3e3d-5346-4ad9-b031-42001369d6ac",
+      "6th joint controller"
     ],
     [
-      "c89facb5-30e1-4364-95cd-066011e12ceb",
-      "Flash memory"
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
     ],
     [
-      "c4529d5c-82a4-4d2c-b325-db1a032013c5",
-      "Mechanical elements, testpoints, logos"
+      "ccb68be9-1696-45b6-868d-cc60d199d7d0",
+      "4th joint controller"
     ],
     [
-      "fe997957-7109-4541-82a3-f4f58f310003",
-      "Node to hats connections"
+      "721bfb9e-a645-4a40-84eb-e8eb0fc83079",
+      "Encoder interface1"
     ],
     [
-      "28b5f3ad-2cc1-4cbb-b739-bafa8e4191a5",
-      "Hat connector circuit1"
-    ],
-    [
-      "382577b7-7c8c-4edf-aa5c-947ca601a09e",
-      "Hat connector circuit2"
-    ],
-    [
-      "019f0911-69e8-40e0-8991-83c67a6706ec",
-      "Hat connector circuit3"
+      "32cc7981-6440-4676-96d4-5e51818a1826",
+      "Gripper controller"
     ]
   ],
   "text_variables": {}
