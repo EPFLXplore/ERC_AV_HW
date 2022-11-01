@@ -6085,7 +6085,7 @@
     (in_bom yes) (on_board yes)
     (uuid be70d18c-52b2-4b5b-ba69-5d36693ec3d6)
     (property "Reference" "J202" (id 0) (at 276.86 33.02 0))
-    (property "Value" "Conn_Picoblade_DEBUG" (id 1) (at 276.86 35.56 0))
+    (property "Value" "Conn_Picoblade_JST_DEBUG" (id 1) (at 278.765 35.56 0))
     (property "Footprint" "0_connectors:PicoBlade-JST-GH-1x06_1.25mm_Horizontal" (id 2) (at 276.86 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
