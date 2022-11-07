@@ -1,3 +1,6 @@
 [submodule "node_pcb/lib/orion_lib"]
 	path = node_pcb/lib/orion_lib
 	url = https://github.com/EPFLXplore/orion_lib.git
+[submodule "hats/lib/orion_lib"]
+	path = hats/lib/orion_lib
+	url = https://github.com/EPFLXplore/orion_lib.git
