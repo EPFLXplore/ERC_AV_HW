@@ -9,4 +9,5 @@
   (lib (name "0_regulator_switching")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_regulator_switching.kicad_sym")(options "")(descr ""))
   (lib (name "0_transistor")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_transistor.kicad_sym")(options "")(descr ""))
   (lib (name "0_mux")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_sym/0_mux.kicad_sym")(options "")(descr ""))
+  (lib (name "0_interface_can")(type "KiCad")(uri "C:/Users/Vincent/Documents/Xplore/GitHub/AV_HW_workspace/node_pcb/lib/orion_lib/lib_sym/0_interface_can.kicad_sym")(options "")(descr ""))
 )

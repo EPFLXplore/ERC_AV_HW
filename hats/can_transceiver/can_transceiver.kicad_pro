@@ -358,7 +358,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "testing_jig.kicad_pro",
+    "filename": "can_transceiver.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -390,7 +390,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "testing_jig.net",
+      "netlist": "can_transceiver.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -437,7 +437,7 @@
   },
   "sheets": [
     [
-      "13ee3a53-1cd2-4bb8-a6cb-91503acb1838",
+      "8d99185c-2e79-4c58-802e-90e53c79cacc",
       ""
     ]
   ],
