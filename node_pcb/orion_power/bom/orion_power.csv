@@ -1,26 +1,26 @@
-Reference, Quantity,Total quantity, Value, Footprint, Datasheet, Digikey ref, Manufacturer ref, Mouser ref, TME ref
-C1 C9 ,2,10,2.2uF,Capacitor_SMD:C_0603_1608Metric,,587-4320-1-ND,UMK107BBJ225KA-T,,
-C10 C11 C12 ,3,15,22uF,Capacitor_SMD:C_1206_3216Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf,490-5309-1-ND,GRM31CR71A226KE15L,,
-C2 C3 ,2,10,4.7uF,Capacitor_SMD:C_1206_3216Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71H475KA12-01.pdf,490-6521-1-ND,GRM31CR71H475KA12L,,
-C4 C5 ,2,10,100nF,Capacitor_SMD:C_0603_1608Metric,,478-5778-1-ND,06035C104JAT2A,,
-C6 C7 ,2,10,100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,478-5778-1-ND,06035C104JAT2A,,
-C8 ,1,5,4.7uF,Capacitor_SMD:C_0603_1608Metric,https://www.mouser.ch/datasheet/2/281/1/GRM188Z71C475KE21_01A-1986016.pdf,,GRM188Z71C475KE21D,81-GRM188Z71C475KE1D,
-D1 ,1,5,SMAJ70A-13-F,Diode_SMD:D_SMA,https://www.diodes.com/assets/Datasheets/SMAJ5.0CA-SMAJ200CA.pdf,SMAJ70A-FDICT-ND,SMAJ70A-13-F,,
-D2 ,1,5,SMAJ24CA-TP,Diode_SMD:D_SMA,https://www.mccsemi.com/pdf/Products/SMAJ5.0-SMAJ440CA(SMA).pdf,SMAJ24CA-TPMSCT-ND,SMAJ24CA-TP,,
-D3 ,1,5,BZT52C12TQ-7-F,Diode_SMD:D_SOD-523,https://www.diodes.com/assets/Datasheets/ds30502.pdf,BZT52C12TQ-7-FDICT-ND,BZT52C12TQ-7-F,,
-D4 D5 ,2,10,GREEN,LED_SMD:LED_0603_1608Metric,https://www.bivar.com/parts_content/Datasheets/SM0603GC.pdf,492-1324-1-ND,SM0603GC,,
-D6 ,1,5,SMF5.0CA-TP,Diode_SMD:D_SOD-123,https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf,353-SMF5.0CA-TPCT-ND,SMF5.0CA-TP,,
-D7 ,1,5,SMBJ3V3-E3/5B,Diode_SMD:D_SMB,https://www.vishay.com/docs/88940/smbj3v3.pdf,SMBJ3V3-E3/5BGICT-ND,SMBJ3V3-E3/5B,,
-F1 ,1,5,0805L150SLYR,Fuse:Fuse_0805_2012Metric,https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf,F5763CT-ND,0805L150SLYR,,
-F2 ,1,5,0603L100SLYR,Fuse:Fuse_0603_1608Metric,https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf,F5761CT-ND,0603L100SLYR,,
-J1 ,1,5,XT30PW-M/Terminal block,0_connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf,,XT30PW-M,,XT30PW-M
-J2 ,1,5,02x05 2.54mm female sockets,0_connectors:SFH11-PBPC-D05-ST-BK,https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf,S9194-ND,SFH11-PBPC-D05-ST-BK,,
-L1 L2 ,2,10,2.2uH,0_inductor:0640CDMCCDS-2R2MC,https://products.sumida.com/products/pdf/0640CDMCCDS%20(en).pdf?t=1585068674,308-0640CDMCCDS-2R2MCCT-ND,0640CDMCCDS-2R2MC,,
-Q1 ,1,5,AON6268,Package_DFN_QFN:AO_DFN-8-1EP_5.55x5.2mm_P1.27mm_EP4.12x4.6mm,https://media.digikey.com/pdf/Data%20Sheets/Alpha%20&%20Omega/AON6268_DS.pdf,800-3748-1-ND,AON6268,,
-R1 ,1,5,1k,Resistor_SMD:R_1206_3216Metric,https://www.vishay.com/docs/20043/crcwhpe3.pdf,541-1.0KUACT-ND,CRCW12061K00JNEAHP,,
-R2 R3 ,2,10,10k,Resistor_SMD:R_0603_1608Metric,,RNCP0603FTD10K0CT-ND,RNCP0603FTD10K0,,
-R4 ,1,5,240R,Resistor_SMD:R_0603_1608Metric,,RHM240DCT-ND,ESR03EZPJ241,,
-R5 ,1,5,590R,Resistor_SMD:R_0603_1608Metric,,2019-RK73H1JTTD5900FCT-ND,RK73H1JTTD5900F,,
-U1 ,1,5,LTC4359HDCB#TRPBF,Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm,https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf,505-LTC4359HDCB#TRPBFCT-ND,LTC4359HDCB#TRPBF,,
-U2 ,1,5,MAX20457ATIG/VY+,Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm_ThermalVias,https://www.mouser.ch/datasheet/2/256/MAX20457-2090433.pdf,175-MAX20457ATIG/VY+-ND,MAX20457ATIG/VY+,,
-U3 ,1,5,DMN2004DMK-7,Package_TO_SOT_SMD:SOT-23-6,https://www.diodes.com/assets/Datasheets/ds30937.pdf,DMN2004DMKDICT-ND,DMN2004DMK-7,,
+Reference, Quantity, Value, Footprint, Datasheet, Digikey ref, Manufacturer ref, Mouser ref, TME ref
+C1 C9 ,2,"2.2uF","Capacitor_SMD:C_0603_1608Metric",""
+C10 C11 C12 ,3,"22uF","Capacitor_SMD:C_1206_3216Metric","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf","490-5309-1-ND","GRM31CR71A226KE15L","",""
+C2 C3 ,2,"4.7uF","Capacitor_SMD:C_1206_3216Metric","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71H475KA12-01.pdf","490-6521-1-ND","GRM31CR71H475KA12L","",""
+C4 C5 ,2,"100nF","Capacitor_SMD:C_0603_1608Metric",""
+C6 C7 ,2,"100nF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",""
+C8 ,1,"4.7uF","Capacitor_SMD:C_0603_1608Metric","https://www.mouser.ch/datasheet/2/281/1/GRM188Z71C475KE21_01A-1986016.pdf","","GRM188Z71C475KE21D","81-GRM188Z71C475KE1D",""
+D1 ,1,"SMAJ70A-13-F","Diode_SMD:D_SMA","https://www.diodes.com/assets/Datasheets/SMAJ5.0CA-SMAJ200CA.pdf","SMAJ70A-FDICT-ND","SMAJ70A-13-F","",""
+D2 ,1,"SMAJ24CA-TP","Diode_SMD:D_SMA","https://www.mccsemi.com/pdf/Products/SMAJ5.0-SMAJ440CA(SMA).pdf","SMAJ24CA-TPMSCT-ND","SMAJ24CA-TP","",""
+D3 ,1,"BZT52C12TQ-7-F","Diode_SMD:D_SOD-523","https://www.diodes.com/assets/Datasheets/ds30502.pdf","BZT52C12TQ-7-FDICT-ND","BZT52C12TQ-7-F","",""
+D4 D5 ,2,"GREEN","LED_SMD:LED_0603_1608Metric","https://www.bivar.com/parts_content/Datasheets/SM0603GC.pdf","492-1324-1-ND","SM0603GC","",""
+D6 ,1,"SMF5.0CA-TP","Diode_SMD:D_SOD-123","https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf","353-SMF5.0CA-TPCT-ND","SMF5.0CA-TP","",""
+D7 ,1,"SMBJ3V3-E3/5B","Diode_SMD:D_SMB","https://www.vishay.com/docs/88940/smbj3v3.pdf","SMBJ3V3-E3/5BGICT-ND","SMBJ3V3-E3/5B","",""
+F1 ,1,"0805L150SLYR","Fuse:Fuse_0805_2012Metric","https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf","F5763CT-ND","0805L150SLYR","",""
+F2 ,1,"0603L100SLYR","Fuse:Fuse_0603_1608Metric","https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf","F5761CT-ND","0603L100SLYR","",""
+J1 ,1,"XT30PW-M/Terminal block","0_connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal","https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf","","XT30PW-M","","XT30PW-M"
+J2 ,1,"02x05 2.54mm female sockets","0_connectors:SFH11-PBPC-D05-ST-BK","https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf","S9194-ND","SFH11-PBPC-D05-ST-BK","",""
+L1 L2 ,2,"2.2uH","0_inductor:0640CDMCCDS-2R2MC","https://products.sumida.com/products/pdf/0640CDMCCDS%20(en).pdf?t=1585068674","308-0640CDMCCDS-2R2MCCT-ND","0640CDMCCDS-2R2MC","",""
+Q1 ,1,"AON6268","Package_DFN_QFN:AO_DFN-8-1EP_5.55x5.2mm_P1.27mm_EP4.12x4.6mm","https://media.digikey.com/pdf/Data%20Sheets/Alpha%20&%20Omega/AON6268_DS.pdf","800-3748-1-ND","AON6268","",""
+R1 ,1,"1k","Resistor_SMD:R_1206_3216Metric","https://www.vishay.com/docs/20043/crcwhpe3.pdf","541-1.0KUACT-ND","CRCW12061K00JNEAHP","",""
+R2 R3 ,2,"10k","Resistor_SMD:R_0603_1608Metric",""
+R4 ,1,"240R","Resistor_SMD:R_0603_1608Metric",""
+R5 ,1,"590R","Resistor_SMD:R_0603_1608Metric",""
+U1 ,1,"LTC4359HDCB#TRPBF","Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm","https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf","505-LTC4359HDCB#TRPBFCT-ND","LTC4359HDCB#TRPBF","",""
+U2 ,1,"MAX20457ATIG/VY+","Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm_ThermalVias","https://www.mouser.ch/datasheet/2/256/MAX20457-2090433.pdf","175-MAX20457ATIG/VY+-ND","MAX20457ATIG/VY+","",""
+U3 ,1,"DMN2004DMK-7","Package_TO_SOT_SMD:SOT-23-6","https://www.diodes.com/assets/Datasheets/ds30937.pdf","DMN2004DMKDICT-ND","DMN2004DMK-7","",""
