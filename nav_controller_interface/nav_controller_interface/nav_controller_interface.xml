@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Yassine Bakkali\Documents\Xplore\HW\AV_HW_workspace\nav_controller_interface\nav_controller_interface\nav_controller_interface.kicad_sch</source>
+    <date>03.11.2022 18:06:40</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nav_controller_interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connector_layout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Gripper controller/Encoder interface1/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/a4d5447f-d52b-4ff3-ad6e-84a874b13a75/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Encoder_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Steering_controller.kicad_sch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>a9898807-7e58-4348-99a0-c86d6ec5e1ed</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>8e516797-5cda-4141-bc6c-efc7c6ee3aa3</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>EEH-ZA1V680XP</value>
+      <footprint>can_proj_footprints:CAP_EEHZA1V680XP</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ABA0000C1221.pdf</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>ab61370c-683a-4ecc-ba05-9adc36d4d8da</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR70J106KA73-01.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>55043828-1d09-4d98-bee0-283acb2f8767</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KO8NNNC_Spec.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>489b8ba9-2100-4c75-8696-107bf1c83bab</tstamps>
+    </comp>
+    <comp ref="Cf1">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>11cdec55-435f-4b7f-805a-bee9ab2b00ee</tstamps>
+    </comp>
+    <comp ref="Cf2">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>ac7d251e-7c93-4c89-8467-ebd89d6ef6bb</tstamps>
+    </comp>
+    <comp ref="Cf3">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>d2c61604-a816-4601-a1a6-18f90f86b771</tstamps>
+    </comp>
+    <comp ref="Cs1">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>ecc22ec4-de0e-4c1c-8269-1eae5f495b73</tstamps>
+    </comp>
+    <comp ref="Cs2">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>7a683382-1dbf-447f-8e83-d7e70b931d63</tstamps>
+    </comp>
+    <comp ref="Cs3">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>90b6d63a-e0ed-40d8-aa18-bc361c596675</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SMF30A</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.taiwansemi.com/assets/uploads/datasheet/SMF5.0A%20SERIES_D2103.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>43204734-1c0e-4ac5-bb89-023236f3dbc4</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SMF30A</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.taiwansemi.com/assets/uploads/datasheet/SMF5.0A%20SERIES_D2103.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>09cfa228-3f8f-4855-8832-13de3de3c2ef</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0157010</value>
+      <footprint>Fuse:Fuseholder_Littelfuse_Nano2_157x</footprint>
+      <datasheet>https://www.littelfuse.com/products/fuse-blocks-fuseholders-and-fuse-accessories/fuse-clips/~/media/electronics/datasheets/fuses/littelfuse_fuse_157_datasheet.pdf.pdf</datasheet>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>ab8879a6-ca0c-46ac-83c5-8bb7dec20d15</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>9e0abe11-241b-49a2-ad21-70c3a000f192</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>LSHM-140-02.5-L-DV-A-N-K-TR</value>
+      <footprint>Connector_Samtec:Samtec_LSHM-140-xx.x-x-DV-N_2x40_P0.50mm_Vertical</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x40_Counter_Clockwise" description="Generic connector, double row, 02x40, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>486bca7d-02b9-4f3c-97ac-eb7c0e0096ff</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Motor (X3)</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/039281023_sd.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>40a269dc-ccd8-430d-a1e9-5850de9fb41f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Hall Sensor (X4) </value>
+      <footprint>can_proj_footprints:43045-06_24,25,26_</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/ps/PS-43045.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>05551453-3a94-4924-93a1-3af33c189f3e</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Encoder (X5)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>f548aee8-7faa-4c61-b7a3-1d37f296e1b4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Sensor (X6)</value>
+      <footprint>can_proj_footprints:MOLEX_5031541090</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>9d712c28-7284-4e0b-bde9-adbfdf06743f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Micro_USB (X13)</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105133-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/1051330001_sd.pdf</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>713acfd3-907d-4660-92a6-dbfbf2bfc248</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>47uH</value>
+      <footprint>can_proj_footprints:IND_LQH5BPH470MT0L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9149.pdf</datasheet>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>c99b461b-5705-482f-b300-1f6081eb9a73</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>74dc74ce-18f5-4d60-a2e9-512c9ae00932</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>717e691f-8ded-4684-a35f-32641d281944</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RN73.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>316d1ce4-a05b-435e-9135-3983d49264ca</tstamps>
+    </comp>
+    <comp ref="Rs1">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>d9c1d47a-0f45-4edd-b290-ef1a7264ca74</tstamps>
+    </comp>
+    <comp ref="Rs2">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>6601d461-d011-4d4b-a61a-f1085c7c1e41</tstamps>
+    </comp>
+    <comp ref="Rs3">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>d0fea5b1-0482-4765-b5dd-ef3e6f89da78</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>450301014042-ND</value>
+      <footprint>can_proj_footprints:450301014042</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/450301014042.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>2dcff979-8e88-4387-9cce-d89792aa9b6b</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>219-8LPS</value>
+      <footprint>can_proj_footprints:CVS08TB</footprint>
+      <datasheet>https://www.ctscorp.com/wp-content/uploads/219.pdf</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>96eb079e-1047-4698-a201-fdc33d3ad216</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX15462BATA+T</value>
+      <footprint>can_proj_footprints:SON50P200X200X80-8N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX15462.pdf</datasheet>
+      <libsource lib="custom_lib" part="MAX15462BATA+T" description=""/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>3fc9a61c-92f2-4016-a4cc-826e4ea140a5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SRV05-4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
+      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <property name="Sheetname" value="Gripper controller"/>
+      <property name="Sheetfile" value="Connector_layout.kicad_sch"/>
+      <sheetpath names="/Gripper controller/" tstamps="/17c369cf-c27d-429e-9fd7-b60e8872935e/"/>
+      <tstamps>8287776d-f1da-4297-a903-eb38e7538c32</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>47uF</value>
+      <footprint>lib:16SVPT560M</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>eefcf39d-0614-4f4a-8fc6-41a21b3ecbd1</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>47uF</value>
+      <footprint>lib:16SVPT560M</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>2b82ede1-64db-44e1-8a99-14f6391f6147</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SMBJ54A</value>
+      <footprint>lib:DIOM5336X265N</footprint>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>e3c0c39f-e9f2-42ca-a891-26261fb67712</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SMBJ54A</value>
+      <footprint>lib:DIOM5336X265N</footprint>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>93e96097-3ac1-48c4-b50d-188f415877de</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>0456 020</value>
+      <footprint>lib:FUSC10131X312N</footprint>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>dd77798f-dcaa-491b-adf7-bf9b46051fca</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x23_Counter_Clockwise</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x23_Counter_Clockwise" description="Generic connector, double row, 02x23, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>cfc23e07-41ea-46ab-adbb-fe1ffee220e6</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x16_Counter_Clockwise</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x16_Counter_Clockwise" description="Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>7e0b57ba-7b33-4d08-ae6f-68fe65ada638</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Motor (X3)</value>
+      <footprint>lib:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/039281023_sd.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>76ba8991-66fd-44cd-a093-5bc0a34bcbb0</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Hall Sensor (X4) </value>
+      <footprint>lib:43045-06_24,25,26_</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/ps/PS-43045.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>13f257e1-bec2-4149-a7c7-d801159ac9da</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Encoder (X5)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>9a04c999-17e2-43e9-98f8-48bfc9ddfcb0</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Sensor (X6)</value>
+      <footprint>lib:MOLEX_5031541090</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>52273194-a57d-498d-85e5-990286cd40f9</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_02x05_Odd_Even</value>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>353c7753-fa14-4ae9-8406-4b50f4cd9c0d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RN73.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>557c6357-27ff-4083-83cd-38cf7e0b27f7</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>219-8LPS</value>
+      <footprint>lib:CVS08TB</footprint>
+      <datasheet>https://www.ctscorp.com/wp-content/uploads/219.pdf</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>dec49c75-6bd2-42ac-b7a9-f122c4837d45</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Steering_controller"/>
+      <property name="Sheetfile" value="Steering_controller.kicad_sch.kicad_sch"/>
+      <sheetpath names="/Steering_controller/" tstamps="/ab990cd9-f273-4c91-95b4-428d3d294d28/"/>
+      <tstamps>c95d6388-5646-4bda-a5c0-cfb46bc8c554</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP1</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="T" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Top_Bottom">
+      <description>Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x16_Counter_Clockwise">
+      <description>Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x16_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x23_Counter_Clockwise">
+      <description>Generic connector, double row, 02x23, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x23_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x40_Counter_Clockwise">
+      <description>Generic connector, double row, 02x40, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x40_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+        <pin num="51" name="Pin_51" type="passive"/>
+        <pin num="52" name="Pin_52" type="passive"/>
+        <pin num="53" name="Pin_53" type="passive"/>
+        <pin num="54" name="Pin_54" type="passive"/>
+        <pin num="55" name="Pin_55" type="passive"/>
+        <pin num="56" name="Pin_56" type="passive"/>
+        <pin num="57" name="Pin_57" type="passive"/>
+        <pin num="58" name="Pin_58" type="passive"/>
+        <pin num="59" name="Pin_59" type="passive"/>
+        <pin num="60" name="Pin_60" type="passive"/>
+        <pin num="61" name="Pin_61" type="passive"/>
+        <pin num="62" name="Pin_62" type="passive"/>
+        <pin num="63" name="Pin_63" type="passive"/>
+        <pin num="64" name="Pin_64" type="passive"/>
+        <pin num="65" name="Pin_65" type="passive"/>
+        <pin num="66" name="Pin_66" type="passive"/>
+        <pin num="67" name="Pin_67" type="passive"/>
+        <pin num="68" name="Pin_68" type="passive"/>
+        <pin num="69" name="Pin_69" type="passive"/>
+        <pin num="70" name="Pin_70" type="passive"/>
+        <pin num="71" name="Pin_71" type="passive"/>
+        <pin num="72" name="Pin_72" type="passive"/>
+        <pin num="73" name="Pin_73" type="passive"/>
+        <pin num="74" name="Pin_74" type="passive"/>
+        <pin num="75" name="Pin_75" type="passive"/>
+        <pin num="76" name="Pin_76" type="passive"/>
+        <pin num="77" name="Pin_77" type="passive"/>
+        <pin num="78" name="Pin_78" type="passive"/>
+        <pin num="79" name="Pin_79" type="passive"/>
+        <pin num="80" name="Pin_80" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="SRV05-4">
+      <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
+      <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x08">
+      <description>8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_lib" part="MAX15462BATA+T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX15462BATA+T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="EN/UVLO" type="input"/>
+        <pin num="3" name="VCC" type="power_out"/>
+        <pin num="4" name="FB/Vout" type="input"/>
+        <pin num="5" name="MODE" type="input"/>
+        <pin num="6" name="~{RESET}" type="open_collector"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="LX" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="custom_lib">
+      <uri>C:\Users\Yassine Bakkali\Documents\Xplore\HW\AV_HW_workspace\nav_controller_interface\nav_controller_interface/symbols.pretty/custom_lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Gripper controller/AnIN1+">
+      <node ref="J1" pin="46" pinfunction="Pin_46" pintype="passive"/>
+    </net>
+    <net code="2" name="/Gripper controller/AnIN1-">
+      <node ref="J1" pin="48" pinfunction="Pin_48" pintype="passive"/>
+    </net>
+    <net code="3" name="/Gripper controller/AnIN2+">
+      <node ref="J1" pin="50" pinfunction="Pin_50" pintype="passive"/>
+    </net>
+    <net code="4" name="/Gripper controller/AnIN2-">
+      <node ref="J1" pin="52" pinfunction="Pin_52" pintype="passive"/>
+    </net>
+    <net code="5" name="/Gripper controller/AnOUT1">
+      <node ref="J1" pin="54" pinfunction="Pin_54" pintype="passive"/>
+    </net>
+    <net code="6" name="/Gripper controller/Auto bit rate">
+      <node ref="J1" pin="72" pinfunction="Pin_72" pintype="passive"/>
+      <node ref="SW2" pin="6" pintype="passive"/>
+    </net>
+    <net code="7" name="/Gripper controller/Channel_A_+">
+      <node ref="J1" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="8" name="/Gripper controller/Channel_A_-">
+      <node ref="J1" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="9" name="/Gripper controller/Channel_B_+">
+      <node ref="J1" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="10" name="/Gripper controller/Channel_B_-">
+      <node ref="J1" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="11" name="/Gripper controller/Channel_I_+">
+      <node ref="J1" pin="42" pinfunction="Pin_42" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="12" name="/Gripper controller/Channel_I_-">
+      <node ref="J1" pin="44" pinfunction="Pin_44" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="13" name="/Gripper controller/Clock{slash}HsDigOUT1">
+      <node ref="J1" pin="55" pinfunction="Pin_55" pintype="passive"/>
+    </net>
+    <net code="14" name="/Gripper controller/DSP_RxD">
+      <node ref="J1" pin="77" pinfunction="Pin_77" pintype="passive"/>
+    </net>
+    <net code="15" name="/Gripper controller/DSP_TxD">
+      <node ref="J1" pin="78" pinfunction="Pin_78" pintype="passive"/>
+    </net>
+    <net code="16" name="/Gripper controller/Data{slash}HsDigIN4">
+      <node ref="J1" pin="53" pinfunction="Pin_53" pintype="passive"/>
+    </net>
+    <net code="17" name="/Gripper controller/Hall Sensor 1">
+      <node ref="J1" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/Gripper controller/Hall Sensor 2">
+      <node ref="J1" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/Gripper controller/Hall Sensor 3">
+      <node ref="J1" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="20" name="/Gripper controller/ID 1">
+      <node ref="J1" pin="65" pinfunction="Pin_65" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/Gripper controller/ID 2">
+      <node ref="J1" pin="67" pinfunction="Pin_67" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/Gripper controller/ID 3">
+      <node ref="J1" pin="71" pinfunction="Pin_71" pintype="passive"/>
+      <node ref="SW2" pin="3" pintype="passive"/>
+    </net>
+    <net code="23" name="/Gripper controller/ID 4">
+      <node ref="J1" pin="73" pinfunction="Pin_73" pintype="passive"/>
+      <node ref="SW2" pin="4" pintype="passive"/>
+    </net>
+    <net code="24" name="/Gripper controller/ID 5">
+      <node ref="J1" pin="66" pinfunction="Pin_66" pintype="passive"/>
+      <node ref="SW2" pin="5" pintype="passive"/>
+    </net>
+    <net code="25" name="/Gripper controller/ID 6">
+      <node ref="J1" pin="68" pinfunction="Pin_68" pintype="passive"/>
+    </net>
+    <net code="26" name="/Gripper controller/IN_Clock{slash}HsDigOUT1_+">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="27" name="/Gripper controller/IN_Clock{slash}HsDigOUT1_-">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="28" name="/Gripper controller/IN_Data_+">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="29" name="/Gripper controller/IN_Data_-">
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="30" name="/Gripper controller/Motor+">
+      <node ref="Cf1" pin="1" pintype="passive"/>
+      <node ref="Cs1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="31" name="/Gripper controller/Motor-">
+      <node ref="Cf2" pin="1" pintype="passive"/>
+      <node ref="Cs2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="32" name="/Gripper controller/Motor3">
+      <node ref="Cf3" pin="1" pintype="passive"/>
+      <node ref="Cs3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="33" name="/Gripper controller/USB_D+">
+      <node ref="J1" pin="61" pinfunction="Pin_61" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="IO1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="34" name="/Gripper controller/USB_D-">
+      <node ref="J1" pin="59" pinfunction="Pin_59" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="IO3" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IO4" pintype="passive"/>
+    </net>
+    <net code="35" name="/Gripper controller/VBus">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="60" pinfunction="Pin_60" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U2" pin="5" pinfunction="VP" pintype="passive"/>
+    </net>
+    <net code="36" name="/Gripper controller/VDD">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="FB/Vout" pintype="input"/>
+    </net>
+    <net code="37" name="/Gripper controller/Vaux">
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="38" name="/Gripper controller/Vsensor">
+      <node ref="J1" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="39" name="/Steering_controller/Auto bit rate">
+      <node ref="SW3" pin="6" pintype="passive"/>
+    </net>
+    <net code="40" name="/Steering_controller/AutoBitRate">
+      <node ref="J7" pin="34" pinfunction="Pin_34" pintype="passive"/>
+    </net>
+    <net code="41" name="/Steering_controller/CAN high">
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/Steering_controller/CAN low">
+      <node ref="SW3" pin="10" pintype="passive"/>
+    </net>
+    <net code="43" name="/Steering_controller/CAN_high">
+      <node ref="J7" pin="35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="44" name="/Steering_controller/CAN_low">
+      <node ref="J7" pin="36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+    <net code="45" name="/Steering_controller/ChannelA+">
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="46" name="/Steering_controller/ChannelA-">
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="47" name="/Steering_controller/ChannelB+">
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J8" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="48" name="/Steering_controller/ChannelB-">
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="49" name="/Steering_controller/ChannelI+">
+      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="50" name="/Steering_controller/ChannelI-">
+      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="51" name="/Steering_controller/Hall Sensor 1">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="52" name="/Steering_controller/Hall Sensor 2">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="53" name="/Steering_controller/Hall Sensor 3">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="54" name="/Steering_controller/Hs1">
+      <node ref="J8" pin="23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="55" name="/Steering_controller/Hs2">
+      <node ref="J8" pin="24" pinfunction="Pin_24" pintype="passive"/>
+    </net>
+    <net code="56" name="/Steering_controller/Hs3">
+      <node ref="J8" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="57" name="/Steering_controller/HsDigIN1+">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="58" name="/Steering_controller/HsDigIN1-">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="59" name="/Steering_controller/HsDigIN2+">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="60" name="/Steering_controller/HsDigIN2-">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="61" name="/Steering_controller/HsDigIN3+">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="62" name="/Steering_controller/HsDigIN3-">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="63" name="/Steering_controller/HsDigIN4+">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="64" name="/Steering_controller/HsDigIN4-">
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="65" name="/Steering_controller/ID 1">
+      <node ref="SW3" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="/Steering_controller/ID 2">
+      <node ref="SW3" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="/Steering_controller/ID 3">
+      <node ref="SW3" pin="3" pintype="passive"/>
+    </net>
+    <net code="68" name="/Steering_controller/ID 4">
+      <node ref="SW3" pin="4" pintype="passive"/>
+    </net>
+    <net code="69" name="/Steering_controller/ID 5">
+      <node ref="SW3" pin="5" pintype="passive"/>
+    </net>
+    <net code="70" name="/Steering_controller/ID1">
+      <node ref="J7" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="71" name="/Steering_controller/ID2">
+      <node ref="J7" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="72" name="/Steering_controller/ID3">
+      <node ref="J7" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="73" name="/Steering_controller/ID4">
+      <node ref="J7" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="74" name="/Steering_controller/ID5">
+      <node ref="J7" pin="33" pinfunction="Pin_33" pintype="passive"/>
+    </net>
+    <net code="75" name="/Steering_controller/IN_Clock{slash}HsDigOUT1_+">
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="76" name="/Steering_controller/IN_Clock{slash}HsDigOUT1_-">
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="77" name="/Steering_controller/IN_Data_+">
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="78" name="/Steering_controller/IN_Data_-">
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="79" name="/Steering_controller/M+">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="80" name="/Steering_controller/M-">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="81" name="/Steering_controller/M3">
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="82" name="/Steering_controller/Motor+">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="83" name="/Steering_controller/Motor-">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="84" name="/Steering_controller/Motor3">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="85" name="/Steering_controller/Vaux">
+      <node ref="J12" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="86" name="/Steering_controller/Vsensor">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP1" pin="T" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="87" name="CAN high">
+      <node ref="J1" pin="79" pinfunction="Pin_79" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="88" name="CAN low">
+      <node ref="J1" pin="80" pinfunction="Pin_80" pintype="passive"/>
+      <node ref="SW2" pin="10" pintype="passive"/>
+    </net>
+    <net code="89" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="Cf1" pin="2" pintype="passive"/>
+      <node ref="Cf2" pin="2" pintype="passive"/>
+      <node ref="Cf3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J1" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J1" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J1" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J1" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J1" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="J1" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J1" pin="57" pinfunction="Pin_57" pintype="passive"/>
+      <node ref="J1" pin="58" pinfunction="Pin_58" pintype="passive"/>
+      <node ref="J1" pin="63" pinfunction="Pin_63" pintype="passive"/>
+      <node ref="J1" pin="64" pinfunction="Pin_64" pintype="passive"/>
+      <node ref="J1" pin="75" pinfunction="Pin_75" pintype="passive"/>
+      <node ref="J1" pin="76" pinfunction="Pin_76" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J13" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J6" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J7" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J7" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J7" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J8" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J8" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J8" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J8" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J8" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="Rs1" pin="2" pintype="passive"/>
+      <node ref="Rs2" pin="2" pintype="passive"/>
+      <node ref="Rs3" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="11" pintype="passive"/>
+      <node ref="SW2" pin="12" pintype="passive"/>
+      <node ref="SW2" pin="13" pintype="passive"/>
+      <node ref="SW2" pin="14" pintype="passive"/>
+      <node ref="SW2" pin="15" pintype="passive"/>
+      <node ref="SW2" pin="16" pintype="passive"/>
+      <node ref="SW3" pin="11" pintype="passive"/>
+      <node ref="SW3" pin="12" pintype="passive"/>
+      <node ref="SW3" pin="13" pintype="passive"/>
+      <node ref="SW3" pin="14" pintype="passive"/>
+      <node ref="SW3" pin="15" pintype="passive"/>
+      <node ref="SW3" pin="16" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="MODE" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VN" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VCC" pintype="power_out"/>
+    </net>
+    <net code="91" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J1" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(Cs1-Pad2)">
+      <node ref="Cs1" pin="2" pintype="passive"/>
+      <node ref="Rs1" pin="1" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(Cs2-Pad2)">
+      <node ref="Cs2" pin="2" pintype="passive"/>
+      <node ref="Rs2" pin="1" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Cs3-Pad2)">
+      <node ref="Cs3" pin="2" pintype="passive"/>
+      <node ref="Rs3" pin="1" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="LX" pintype="power_out"/>
+    </net>
+    <net code="97" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="7" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="7" pintype="passive"/>
+    </net>
+    <net code="99" name="VCC">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J8" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="EN/UVLO" pintype="input"/>
+    </net>
+    <net code="100" name="VDDA">
+      <node ref="J13" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J7" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="101" name="VS">
+      <node ref="J8" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(J1-Pad41)">
+      <node ref="J1" pin="41" pinfunction="Pin_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J1-Pad43)">
+      <node ref="J1" pin="43" pinfunction="Pin_43" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J1-Pad45)">
+      <node ref="J1" pin="45" pinfunction="Pin_45" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J1-Pad47)">
+      <node ref="J1" pin="47" pinfunction="Pin_47" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J1-Pad49)">
+      <node ref="J1" pin="49" pinfunction="Pin_49" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J1-Pad51)">
+      <node ref="J1" pin="51" pinfunction="Pin_51" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J1-Pad56)">
+      <node ref="J1" pin="56" pinfunction="Pin_56" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J1-Pad62)">
+      <node ref="J1" pin="62" pinfunction="Pin_62" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J1-Pad69)">
+      <node ref="J1" pin="69" pinfunction="Pin_69" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J1-Pad70)">
+      <node ref="J1" pin="70" pinfunction="Pin_70" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J1-Pad74)">
+      <node ref="J1" pin="74" pinfunction="Pin_74" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J6-Pad4)">
+      <node ref="J6" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J7-Pad1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J7-Pad3)">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J7-Pad4)">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J7-Pad5)">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J7-Pad6)">
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J7-Pad17)">
+      <node ref="J7" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="127" name="unconnected-(J7-Pad18)">
+      <node ref="J7" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(J7-Pad19)">
+      <node ref="J7" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(J7-Pad20)">
+      <node ref="J7" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(J7-Pad21)">
+      <node ref="J7" pin="21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(J7-Pad22)">
+      <node ref="J7" pin="22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(J7-Pad23)">
+      <node ref="J7" pin="23" pinfunction="Pin_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(J7-Pad24)">
+      <node ref="J7" pin="24" pinfunction="Pin_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(J7-Pad25)">
+      <node ref="J7" pin="25" pinfunction="Pin_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(J7-Pad26)">
+      <node ref="J7" pin="26" pinfunction="Pin_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(J7-Pad27)">
+      <node ref="J7" pin="27" pinfunction="Pin_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(J7-Pad28)">
+      <node ref="J7" pin="28" pinfunction="Pin_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(J7-Pad39)">
+      <node ref="J7" pin="39" pinfunction="Pin_39" pintype="passive+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(J7-Pad40)">
+      <node ref="J7" pin="40" pinfunction="Pin_40" pintype="passive+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(J7-Pad41)">
+      <node ref="J7" pin="41" pinfunction="Pin_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(J7-Pad42)">
+      <node ref="J7" pin="42" pinfunction="Pin_42" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(J7-Pad43)">
+      <node ref="J7" pin="43" pinfunction="Pin_43" pintype="passive+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(J7-Pad44)">
+      <node ref="J7" pin="44" pinfunction="Pin_44" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(J7-Pad45)">
+      <node ref="J7" pin="45" pinfunction="Pin_45" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(J7-Pad46)">
+      <node ref="J7" pin="46" pinfunction="Pin_46" pintype="passive+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(J11-Pad1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(J11-Pad4)">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(J12-Pad1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(J12-Pad2)">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(J12-Pad3)">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(J12-Pad4)">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(SW2-Pad8)">
+      <node ref="SW2" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(SW2-Pad9)">
+      <node ref="SW2" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(SW3-Pad8)">
+      <node ref="SW3" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(SW3-Pad9)">
+      <node ref="SW3" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="~{RESET}" pintype="open_collector"/>
+    </net>
+  </nets>
+</export>
