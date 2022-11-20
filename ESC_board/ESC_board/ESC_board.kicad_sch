@@ -401,6 +401,18 @@
     (pin "1" (uuid 06165f34-6807-4599-9e75-279b0633b0ef))
   )
 
+  (sheet (at 160.02 99.06) (size 44.45 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7949aaa2-4b3f-4638-a96c-66c5271f64a7)
+    (property "Sheet name" "BLDC_Driver" (id 0) (at 160.02 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "BLDC_Driver.kicad_sch" (id 1) (at 160.02 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 158.75 58.42) (size 45.72 27.94) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -429,6 +441,7 @@
     (path "/" (page "1"))
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae" (page "2"))
     (path "/99e7a60b-4a4b-4bf5-b788-1445ce4749b5" (page "3"))
+    (path "/7949aaa2-4b3f-4638-a96c-66c5271f64a7" (page "4"))
   )
 
   (symbol_instances
@@ -584,6 +597,9 @@
     )
     (path "/99e7a60b-4a4b-4bf5-b788-1445ce4749b5/f5fda82d-474d-411e-8cc1-ab3215bde4a0"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/7949aaa2-4b3f-4638-a96c-66c5271f64a7/4d7b40ad-9283-4faf-8a3d-826e75194715"
+      (reference "IC?") (unit 1) (value "DRV8353HRTAT") (footprint "QFN50P600X600X80-41N-D")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/faa1812c-fdf3-47ae-9cf4-ae06a263bfbd"
       (reference "IC?") (unit 1) (value "stm32g473cb") (footprint "QFN50P500X500X60-33N-D")

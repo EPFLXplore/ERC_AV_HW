@@ -328,6 +328,10 @@
     [
       "99e7a60b-4a4b-4bf5-b788-1445ce4749b5",
       "Power_converter"
+    ],
+    [
+      "7949aaa2-4b3f-4638-a96c-66c5271f64a7",
+      "BLDC_Driver"
     ]
   ],
   "text_variables": {}
