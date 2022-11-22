@@ -1321,7 +1321,7 @@
     (property "Reference" "U?" (id 0) (at 139.1794 159.5104 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 139.1794 162.0473 0)
+    (property "Value" "~" (id 1) (at 139.1794 162.0473 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 114.3 157.48 0)
