@@ -393,7 +393,7 @@
       "idf": "",
       "netlist": "voltmeter.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/voltmeter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
