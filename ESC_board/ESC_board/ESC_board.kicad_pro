@@ -332,6 +332,18 @@
     [
       "7949aaa2-4b3f-4638-a96c-66c5271f64a7",
       "BLDC_Driver"
+    ],
+    [
+      "be926295-a959-4f67-b02f-5b3ed16f164d",
+      "DC_driver"
+    ],
+    [
+      "9494693f-79d3-4774-9184-ce7f706f14b9",
+      "Can_controller"
+    ],
+    [
+      "2b1e64d7-ae42-4d07-8d84-bae73c90da26",
+      "Power_converter1"
     ]
   ],
   "text_variables": {}
