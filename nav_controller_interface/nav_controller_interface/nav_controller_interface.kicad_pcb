@@ -263,11 +263,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIjEwLTI0ViIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIxIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIxIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-63793AFA" (at 0 -3.891492) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp cff042b1-cb2b-42d9-a227-b7fddb720d84)
     )
     (fp_text value "G***" (at 0 3.891492) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 45dd3ff1-baf0-4a76-bfbc-b421f09c19fc)
     )
     (fp_poly (pts
@@ -1165,6 +1165,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/LSHM-140-02.5-L-DV-A-N-K-TR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "lib:16SVPT560M" (layer "F.Cu")
@@ -1218,6 +1223,11 @@
       (net 1 "GND") (pintype "passive") (tstamp 79c7ddd2-f34c-4963-a103-01a403cec0ec))
     (model "35SVPF82M.stp"
       (offset (xyz 0 0 0.6100000051))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/16SVPT560M.stp"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
@@ -1583,6 +1593,11 @@
     (pad "2" smd rect locked (at 2.15 0 180) (size 2.15 2.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp 13b3e5a1-f15e-4a08-a593-dd2b1538ceb6))
     (model "SMBJ45CA.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/SMBJ45CA.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2090,6 +2105,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/105133-0001.stp"
+      (offset (xyz 0 0 2.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
     )
   )
 
@@ -3596,6 +3616,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/0157010.DR.stp"
+      (offset (xyz 0 0 2.35))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
@@ -3764,6 +3789,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/0456020.ER.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
@@ -3845,6 +3875,11 @@
     (pad "2" smd rect locked (at 2.15 0 180) (size 2.15 2.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp f82693e6-1aa7-4891-a46d-14873ecee5da))
     (model "SMBJ45CA.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/SMBJ45CA.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4241,6 +4276,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/39-28-8040.stp"
+      (offset (xyz 2 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
@@ -4372,6 +4412,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Yassine Bakkali/Desktop/XT30 v2.step"
+      (offset (xyz 7.5 2.5 12.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 -90))
     )
   )
 
@@ -5868,6 +5913,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/16SVPT560M.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (layer "F.Cu")
@@ -6113,6 +6163,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/39-28-8040.stp"
+      (offset (xyz 2 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
@@ -6207,11 +6262,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIjV2QDE1MG1BLzMwMG1BIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjEiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIxIiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIjEifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-63793C98" (at 0 -4.064529 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 10b7f651-08c2-4f64-b92d-cc9f532ffeed)
     )
     (fp_text value "G***" (at 0 4.064529 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 8b62b699-2a88-48d5-88a4-1657f8e2ba20)
     )
     (fp_poly (pts
@@ -7527,6 +7582,11 @@
       (net 119 "/Gripper controller/Vaux") (pinfunction "B") (pintype "passive") (tstamp 9e59153b-8f90-4730-9920-6c91511bb8b8))
     (pad "3" thru_hole circle locked (at 2.54 0 270) (size 1.308 1.308) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "/Gripper controller/VDD") (pinfunction "C") (pintype "passive") (tstamp d6a9984b-ced1-4430-b389-cb6fa07bf35d))
+    (model "C:/Users/Yassine Bakkali/Documents/KiCad/6.0/3dmodels/450301014042.stp"
+      (offset (xyz 0 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "kibuzzard-63793AA0" (layer "F.Cu")
@@ -7536,11 +7596,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkb2thT25lIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJHTkQgLyBWQ0MiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjEiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiMSJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-63793AA0" (at 0 -4.043892) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 4a574a33-9054-4687-abfe-579856c5002c)
     )
     (fp_text value "G***" (at 0 4.043892) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 7a50bf9f-4e50-4a08-9fc0-74d671af1d04)
     )
     (fp_poly (pts

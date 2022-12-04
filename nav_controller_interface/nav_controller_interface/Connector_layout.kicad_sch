@@ -3830,7 +3830,7 @@
     (in_bom yes) (on_board yes)
     (uuid 2dcff979-8e88-4387-9cce-d89792aa9b6b)
     (property "Reference" "SW1" (id 0) (at 241.3 26.3992 0))
-    (property "Value" "450301014042-ND" (id 1) (at 241.3 28.9361 0))
+    (property "Value" "" (id 1) (at 241.3 28.9361 0))
     (property "Footprint" "nav_fp:450301014042" (id 2) (at 241.3 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
