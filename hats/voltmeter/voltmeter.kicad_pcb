@@ -547,11 +547,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlVidW50dU1vbm8tQiIsICJIZWlnaHRDdHJsIjogIjEuMyIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJWb2x0bWV0ZXIiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-638A3310" (at 0 -3.943324) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 5d2a9449-6baf-4212-9a44-63c69f2e5102)
     )
     (fp_text value "G***" (at 0 3.943324) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 2a165161-d833-4004-9b72-39b27d803541)
     )
     (fp_poly (pts
@@ -1089,11 +1089,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlVidW50dU1vbm8tQiIsICJIZWlnaHRDdHJsIjogIjEuMyIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICIzMCBWIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjIiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjM1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMzUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMi41In0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-638A335E" (at 0 -3.88657) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp ee62910d-129a-4c38-93f2-84388dff42f2)
     )
     (fp_text value "G***" (at 0 3.88657) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 4d176875-e642-4661-96ac-4fb827b9be0d)
     )
     (fp_poly (pts
@@ -1932,7 +1932,7 @@
   (dimension (type aligned) (layer "User.6") (tstamp 1a1bc4e8-18a0-4667-beb8-6109b6cd3009)
     (pts (xy 154.95 84.45) (xy 154.95 117.6))
     (height -11.55)
-    (gr_text "33.1500 mm" (at 165.35 101.025 90) (layer "User.6") (tstamp 6fb0e121-f2fa-4438-a014-9178cf663ed0)
+    (gr_text "33.1500 mm" (at 165.35 101.025 90) (layer "User.6") (tstamp 1a1bc4e8-18a0-4667-beb8-6109b6cd3009)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -1941,7 +1941,7 @@
   (dimension (type aligned) (layer "User.6") (tstamp 1a34499f-3c09-425e-bba8-101cc777dcd8)
     (pts (xy 157.6 86.45) (xy 126.9 86.45))
     (height 11.099999)
-    (gr_text "30.7000 mm" (at 142.25 74.200001) (layer "User.6") (tstamp a00f9043-128a-4f19-b8a5-2786eaf7fb46)
+    (gr_text "30.7000 mm" (at 142.25 74.200001) (layer "User.6") (tstamp 1a34499f-3c09-425e-bba8-101cc777dcd8)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
