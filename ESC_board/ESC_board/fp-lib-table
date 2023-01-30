@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/footprint.pretty")(options "")(descr ""))
+  (lib (name "lib_3d")(type "KiCad")(uri "C:/Users/Yassine Bakkali/Documents/Xplore/HW/AV_HW_workspace/ESC_board/ESC_board/3dmodels.pretty")(options "")(descr ""))
 )

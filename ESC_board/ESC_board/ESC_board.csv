@@ -1,0 +1,198 @@
+Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9;Column10;Column11;Column12;Column13;Column14;Column15;Column16;Column17;Column18;Column19;Column20
+Source:;C:\Users\Yassine Bakkali\Documents\Xplore\HW\AV_HW_workspace\ESC_board\ESC_board\ESC_board.kicad_sch;;;;;;;;;;;;;;;;;;
+Date:;29.01.2023 22:56:10;;;;;;;;;;;;;;;;;;
+Tool:;Eeschema (6.0.4);;;;;;;;;;;;;;;;;;
+Generator:;C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py;;;;;;;;;;;;;;;;;;
+Component Count:;130;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Individual Components:;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Arrow Part Number;Arrow Price/Stock;Description;Digikey link;Height;ID;Manufacturer product name;Manufacturer_Name;Manufacturer_Part_Number;Material;Mouser Part Number;Mouser Price/Stock;Voltage
+;;C1;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C2;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C3;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C4;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C5;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C6;4.7uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C7;10nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C8;1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C9;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C10;1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C11;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C12;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C13;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C14;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C15;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C16;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C17;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C18;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C19;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C20;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C21;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C22;47uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C23;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C24;0.1uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C25;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C26;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C27;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C28;0.1uF;Device:C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;~;;;;;;;;;;;;;
+;;C29;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C30;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C31;47uF;Device:C_Polarized_Small_US;Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U_Pad2.72x3.50mm_HandSolder;~;;;;;;594D476X0016C2T;;;;;;;
+;;C32;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C33;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C34;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C35;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C36;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C37;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C38;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C39;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C40;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+;;C41;0.1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C42;0.1uF;Device:C_Small;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;~;;;;;;;;;;X7R;;;48V
+;;C43;0.1uF;Device:C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;~;;;;;;;;;;X7R;;;60V
+;;C44;0.1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C45;0.1uF;Device:C_Small;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;~;;;;;;;;;;X7R;;;48V
+;;C46;10uF;Device:C_Polarized_Small_US;Capacitor_SMD:CP_Elec_5x5.8;~;;;;https://www.digikey.ch/en/products/detail/panasonic-electronic-components/EEE-FT1H100AR/2652052;;;EEE-FT1H100AR;;;;;;
+;;C47;0.1uF;Device:C_Small;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;~;;;;;;;;;;X7R;;;48V
+;;C48;0.1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C49;47nF;Device:C_Small;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;~;;;;;;;;;;X7R;;;48V
+;;C50;1uF;Device:C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;~;;;;;;;;;;X7R;;;16V
+;;C51;1uF;Device:C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;~;;;;;;;;;;X7R;;;6.3V
+;;C52;0.1uF;Device:C;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C53;0.1uF;Device:C;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C54;0.1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;C_bypass1;0.1uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;X7R;;;60V
+;;C_bypass2;0.1uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;X7R;;;60V
+;;C_bypass3;0.1uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;X7R;;;60V
+;;D1;VSSAF5M6-M3/H;Device:D_Schottky;lib:SODFL5226X100N;~;;;;;;;;;;;;;
+;;D2;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D3;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D4;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D5;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D6;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D7;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D8;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D9;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D10;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+;;D11;PESD2CANFD24U-TR;custom_lib:PESD2CANFD24LT-Q;Package_TO_SOT_SMD:SC-59_Handsoldering;;;;;;;;;;;;;;
+;;D12;PESD2CANFD24U-TR;custom_lib:PESD2CANFD24LT-Q;Package_TO_SOT_SMD:SC-59_Handsoldering;;;;;;;;;;;;;;
+;;D13;PESD2CANFD24U-TR;custom_lib:PESD2CANFD24LT-Q;Package_TO_SOT_SMD:SC-59_Handsoldering;;;;;;;;;;;;;;
+;;H1;MountingHole;Mechanical:MountingHole;MountingHole:MountingHole_2.2mm_M2_Pad_Via;~;;;;;;;;;;;;;
+;;H2;MountingHole;Mechanical:MountingHole;MountingHole:MountingHole_2.2mm_M2_Pad_Via;~;;;;;;;;;;;;;
+;;H3;MountingHole;Mechanical:MountingHole;MountingHole:MountingHole_2.2mm_M2_Pad_Via;~;;;;;;;;;;;;;
+;;H4;MountingHole;Mechanical:MountingHole;MountingHole:MountingHole_2.2mm_M2_Pad_Via;~;;;;;;;;;;;;;
+;;IC1;STM32G473RBT6;custom_lib:STM32G473RBT6;QFP50P1200X1200X160-64N;https://www.st.com/resource/en/datasheet/stm32g473cb.pdf;STM32G473RBT6;https://www.arrow.com/en/products/stm32g473rbt6/stmicroelectronics;ARM Microcontrollers - MCU;;1.6;;;STMicroelectronics;STM32G473RBT6;;511-STM32G473RBT6;https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G473RBT6?qs=uwxL4vQweFOUTGDLzGdZHA%3D%3D;
+;;IC2;~;custom_lib:DRV8320RHRHAT;Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias;http://www.ti.com/lit/gpn/DRV8320R;;;60V Three-Phase Smart Gate Driver With Buck Regulator;;1;;;Texas Instruments;DRV8320RHRHAT;;595-DRV8320RHRHAT;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8320RHRHAT?qs=Mv7BduZupUhUS%252B3968HKpA%3D%3D;
+;;IC3;SN65HVD74DR;custom_lib:SN65HVD74DR;SOIC127P600X175-8N;http://www.ti.com/lit/gpn/sn65hvd74;;;3.3V, Full-Duplex RS-485, 12kV IEC ESD, 20Mbps data rate, No Enables;;1.75;;;Texas Instruments;SN65HVD74DR;;595-SN65HVD74DR;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD74DR?qs=7z%252BmIopC6%2FJpKaT8kJp5Mw%3D%3D;
+;;J1;SWD_Connector(02x05);Connector_Generic:Conn_02x05_Odd_Even;;~;;;;;;;;;;;;;
+;;J2;Conn_01x05;Connector_Generic:Conn_01x05;;~;;;;;;;;;;;;;
+;;J3;Conn_01x04;Connector_Generic:Conn_01x04;;~;;;;;;;;;;;;;
+;;J4;Motor_connector(01x02);Connector_Generic:Conn_01x02;;~;;;;;;;;;;;;;
+;;J5;Conn_01x03;Connector_Generic:Conn_01x03;TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm;~;;;;;;;;;;;;;
+;;J6;Conn_01x03;Connector_Generic:Conn_01x03;;~;;;;;;;;;;;;;
+;;J7;Conn_01x06;Connector_Generic:Conn_01x06;;~;;;;;;;;;;;;;
+;;JP1;SolderJumper_3_Open;Jumper:SolderJumper_3_Open;Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels;~;;;;;;;;;;;;;
+;;L1;150uH;Device:L_Small;;~;;;;;;104CDMCCDS-150MC;;;;;;;
+;;Q1;TPH2R306NH1,LQ;:Q_NMOS_DGS_1;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+;;Q2;TPH2R306NH1,LQ;Device:Q_NMOS_DGS;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+;;Q3;TPH2R306NH1,LQ;Device:Q_NMOS_DGS;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+;;Q4;TPH2R306NH1,LQ;Device:Q_NMOS_DGS;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+;;Q5;TPH2R306NH1,LQ;Device:Q_NMOS_DGS;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+;;Q6;TPH2R306NH1,LQ;Device:Q_NMOS_DGS;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+;;R1;10k;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R2;1M;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R3;384k;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R4;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R5;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R6;DNP;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R7;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R8;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R9;10k;Device:R;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+;;R10;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R11;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R12;5mR;Device:R_Small;Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder;https://www.koaspeer.com/pdfs/TLR-2BW-2BP-2HW-3AP-3APS.pdf;;;;;;TLR2HWDTE5L00F75;;;;;;;
+;;R13;5mR;Device:R_Small;Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder;https://www.koaspeer.com/pdfs/TLR-2BW-2BP-2HW-3AP-3APS.pdf;;;;;;TLR2HWDTE5L00F75;;;;;;;
+;;R14;5mR;Device:R_Small;Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder;https://www.koaspeer.com/pdfs/TLR-2BW-2BP-2HW-3AP-3APS.pdf;;;;;;TLR2HWDTE5L00F75;;;;;;;
+;;R15;10k;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R16;10k;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R17;330R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R18;120R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R19;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R20;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R21;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R22;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R23;10k;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R_Gate1;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R_Gate2;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R_Gate3;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R_Gate4;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R_Gate5;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;R_Gate6;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+;;SW1;MJTP1140ATR;Switch:SW_Push_Dual;;~;;;;;;;;;;;;;
+;;SW2;CL-SB-12C-02;Switch:SW_DPDT_x2;;~;;;;;;;;;;;;;
+;;TH1;47k;Device:Thermistor_NTC;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C11.pdf;;;;;;ERT-J1VP473FM;;;;;;;
+;;U1;MAX5033;Regulator_Switching:MAX5035AUPA;Package_DIP:DIP-8_W7.62mm;http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf;;;;;;;;;;;;;
+;;U2;INA240A1D;Amplifier_Current:INA240A1D;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;http://www.ti.com/lit/ds/symlink/ina240.pdf;;;;;;;;;;;;;
+;;U3;INA240A1D;Amplifier_Current:INA240A1D;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;http://www.ti.com/lit/ds/symlink/ina240.pdf;;;;;;;;;;;;;
+;;U4;INA240A1D;Amplifier_Current:INA240A1D;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;http://www.ti.com/lit/ds/symlink/ina240.pdf;;;;;;;;;;;;;
+;;U5;TCAN337G;Interface_CAN_LIN:TCAN337G;;http://www.ti.com/lit/ds/symlink/tcan337.pdf;;;;;;;;;;;;;
+;;U6;TLP222A;Relay_SolidState:TLP222A;Package_DIP:DIP-4_W7.62mm;https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Collated Components:;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Arrow Part Number;Arrow Price/Stock;Description;Digikey link;Height;ID;Manufacturer product name;Manufacturer_Name;Manufacturer_Part_Number;Material;Mouser Part Number;Mouser Price/Stock;Voltage
+1;6;C1, C2, C3, C4, C5, C9;100nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+2;1;C6;4.7uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+3;1;C7;10nF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+4;2;C8, C10;1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+5;15;C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C23, C25, C26, C27;10uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+6;1;C22;47uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;661-EMVH800ADA470M;;;;;;;;;;;;
+7;4;C24, C_bypass1, C_bypass2, C_bypass3;0.1uF;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;X7R;;;60V
+8;2;C28, C43;0.1uF;Device:C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;~;;;;;;;;;;X7R;;;60V
+9;11;C29, C30, C32, C33, C34, C35, C36, C37, C38, C39, C40;DNP;Device:C_Small;Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;~;;;;;;;;;;;;;
+10;1;C31;47uF;Device:C_Polarized_Small_US;Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U_Pad2.72x3.50mm_HandSolder;~;;;;;;594D476X0016C2T;;;;;;;
+11;4;C41, C44, C48, C54;0.1uF;Device:C_Small;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+12;3;C42, C45, C47;0.1uF;Device:C_Small;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;~;;;;;;;;;;X7R;;;48V
+13;1;C46;10uF;Device:C_Polarized_Small_US;Capacitor_SMD:CP_Elec_5x5.8;~;;;;https://www.digikey.ch/en/products/detail/panasonic-electronic-components/EEE-FT1H100AR/2652052;;;EEE-FT1H100AR;;;;;;
+14;1;C49;47nF;Device:C_Small;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;~;;;;;;;;;;X7R;;;48V
+15;2;C50, C51;1uF;Device:C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;~;;;;;;;;;;X7R;;;16V
+16;2;C52, C53;0.1uF;Device:C;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+17;1;D1;VSSAF5M6-M3/H;Device:D_Schottky;lib:SODFL5226X100N;~;;;;;;;;;;;;;
+18;9;D2, D3, D4, D5, D6, D7, D8, D9, D10;BAT41ZFILM;Device:D_Schottky_Small;Diode_SMD:D_SOD-523;https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf;;;;;;;;;;;;;
+19;3;D11, D12, D13;PESD2CANFD24U-TR;custom_lib:PESD2CANFD24LT-Q;Package_TO_SOT_SMD:SC-59_Handsoldering;;;;;;;;;;;;;;
+20;4;H1, H2, H3, H4;MountingHole;Mechanical:MountingHole;MountingHole:MountingHole_2.2mm_M2_Pad_Via;~;;;;;;;;;;;;;
+21;1;IC1;STM32G473RBT6;custom_lib:STM32G473RBT6;QFP50P1200X1200X160-64N;https://www.st.com/resource/en/datasheet/stm32g473cb.pdf;STM32G473RBT6;https://www.arrow.com/en/products/stm32g473rbt6/stmicroelectronics;ARM Microcontrollers - MCU;;1.6;;;STMicroelectronics;STM32G473RBT6;;511-STM32G473RBT6;https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G473RBT6?qs=uwxL4vQweFOUTGDLzGdZHA%3D%3D;
+22;1;IC2;~;custom_lib:DRV8320RHRHAT;Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias;http://www.ti.com/lit/gpn/DRV8320R;;;60V Three-Phase Smart Gate Driver With Buck Regulator;;1;;;Texas Instruments;DRV8320RHRHAT;;595-DRV8320RHRHAT;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8320RHRHAT?qs=Mv7BduZupUhUS%252B3968HKpA%3D%3D;
+23;1;IC3;SN65HVD74DR;custom_lib:SN65HVD74DR;SOIC127P600X175-8N;http://www.ti.com/lit/gpn/sn65hvd74;;;3.3V, Full-Duplex RS-485, 12kV IEC ESD, 20Mbps data rate, No Enables;;1.75;;;Texas Instruments;SN65HVD74DR;;595-SN65HVD74DR;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD74DR?qs=7z%252BmIopC6%2FJpKaT8kJp5Mw%3D%3D;
+24;1;J1;SWD_Connector(02x05);Connector_Generic:Conn_02x05_Odd_Even;;~;;;;;;;;;;;;;
+25;1;J2;Conn_01x05;Connector_Generic:Conn_01x05;;~;;;;;;;;;;;;;
+26;1;J3;Conn_01x04;Connector_Generic:Conn_01x04;;~;;;;;;;;;;;;;
+27;1;J4;Motor_connector(01x02);Connector_Generic:Conn_01x02;;~;;;;;;;;;;;;;
+28;1;J5;Conn_01x03;Connector_Generic:Conn_01x03;TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm;~;;;;;;;;;;;;;
+29;1;J6;Conn_01x03;Connector_Generic:Conn_01x03;;~;;;;;;;;;;;;;
+30;1;J7;Conn_01x06;Connector_Generic:Conn_01x06;;~;;;;;;;;;;;;;
+31;1;JP1;SolderJumper_3_Open;Jumper:SolderJumper_3_Open;Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels;~;;;;;;;;;;;;;
+32;1;L1;150uH;Device:L_Small;;~;;;;;;104CDMCCDS-150MC;;;;;;;
+33;1;Q1;TPH2R306NH1,LQ;:Q_NMOS_DGS_1;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+34;5;Q2, Q3, Q4, Q5, Q6;TPH2R306NH1,LQ;Device:Q_NMOS_DGS;lib:TPH2R306NH1LQ;https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL;;;;;;;;;;;;;
+35;3;R1, R16, R23;10k;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+36;1;R2;1M;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+37;1;R3;384k;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+38;10;R4, R5, R7, R8, R10, R11, R19, R20, R21, R22;10R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+39;1;R6;DNP;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+40;1;R9;10k;Device:R;Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;~;;;;;;;;;;;;;
+41;3;R12, R13, R14;5mR;Device:R_Small;Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder;https://www.koaspeer.com/pdfs/TLR-2BW-2BP-2HW-3AP-3APS.pdf;;;;;;TLR2HWDTE5L00F75;;;;;;;
+42;1;R15;10k;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+43;1;R17;330R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+44;1;R18;120R;Device:R_Small;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+45;6;R_Gate1, R_Gate2, R_Gate3, R_Gate4, R_Gate5, R_Gate6;10R;Device:R;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;~;;;;;;;;;;;;;
+46;1;SW1;MJTP1140ATR;Switch:SW_Push_Dual;;~;;;;;;;;;;;;;
+47;1;SW2;CL-SB-12C-02;Switch:SW_DPDT_x2;;~;;;;;;;;;;;;;
+48;1;TH1;47k;Device:Thermistor_NTC;Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C11.pdf;;;;;;ERT-J1VP473FM;;;;;;;
+49;1;U1;MAX5033;Regulator_Switching:MAX5035AUPA;Package_DIP:DIP-8_W7.62mm;http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf;;;;;;;;;;;;;
+50;3;U2, U3, U4;INA240A1D;Amplifier_Current:INA240A1D;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;http://www.ti.com/lit/ds/symlink/ina240.pdf;;;;;;;;;;;;;
+51;1;U5;TCAN337G;Interface_CAN_LIN:TCAN337G;;http://www.ti.com/lit/ds/symlink/tcan337.pdf;;;;;;;;;;;;;
+52;1;U6;AB37S;Relay_SolidState:TLP222A;Package_DIP:DIP-4_W7.62mm;https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A;;;;;;;;;;;;;

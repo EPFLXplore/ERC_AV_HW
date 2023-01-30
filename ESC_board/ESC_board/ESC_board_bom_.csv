@@ -1,0 +1,64 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Material,Voltage,Digikey link,Manufacturer product name,ID,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock,Arrow Part Number,Arrow Price/Stock
+1,"Unpolarized capacitor, small symbol",C_Small,C7,10nF,,1,~,,,,,,,,,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C49,47nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,~,X7R,48V,,,,,,,,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4 C5 C9 C24 C28 C53 C54,100nF,,10,~,,,,,,,,,,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C41 C43 C44 C48 C52,0.1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,5,~,X7R,60V,,,,,,,,,,
+5,"Unpolarized capacitor, small symbol",C_Small,C42 C45 C47,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,3,~,X7R,48V,,,,,,,,,,
+6,"Unpolarized capacitor, small symbol",C_Small,C_bypass1 C_bypass2 C_bypass3,0.1uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,3,~,X7R,60V,,,,,,,,,,
+7,"Unpolarized capacitor, small symbol",C_Small,C8 C10,1uF,,2,~,,,,,,,,,,,,
+8,"Unpolarized capacitor, small symbol",C_Small,C50 C51,1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,2,~,X7R,16V 6.3V,,,,,,,,,,
+9,"Unpolarized capacitor, small symbol",C_Small,C6,4.7uF,,1,~,,,,,,,,,,,,
+10,"Unpolarized capacitor, small symbol",C_Small,C11 C12 C13 C14 C15 C16 C17 C18 C19 C20 C21 C23 C25 C26 C27,10uF,,15,~,,,,,,,,,,,,
+11,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C46,10uF,CP_Elec_5x5.8,1,~,,,https://www.digikey.ch/en/products/detail/panasonic-electronic-components/EEE-FT1H100AR/2652052,EEE-FT1H100AR,,,,,,,,
+12,"Unpolarized capacitor, small symbol",C_Small,C22,47uF,,1,~,,,,,,,,,,,,
+13,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C31,47uF,,1,~,,,,,594D476X0016C2T,,,,,,,
+14,"Schottky diode, small symbol",D_Schottky_Small,D2 D3 D4 D5 D6 D7 D8 D9 D10,BAT41ZFILM,D_SOD-523,9,https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf,,,,,,,,,,,,
+15,,PESD2CANFD24LT-Q,D11 D12 D13,PESD2CANFD24U-TR,,3,,,,,,,,,,,,,
+16,Schottky diode,D_Schottky,D1,VSSAF5M6-M3/H,,1,~,,,,,,,,,,,,
+17,,SN65HVD74DR,IC3,SN65HVD74DR,SOIC127P600X175-8N,1,http://www.ti.com/lit/gpn/sn65hvd74,,,,,,1.75,Texas Instruments,SN65HVD74DR,595-SN65HVD74DR,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD74DR?qs=7z%252BmIopC6%2FJpKaT8kJp5Mw%3D%3D,,
+18,,STM32G473RBT6,IC1,STM32G473RBT6,QFP50P1200X1200X160-64N,1,https://www.st.com/resource/en/datasheet/stm32g473cb.pdf,,,,,,1.6,STMicroelectronics,STM32G473RBT6,511-STM32G473RBT6,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G473RBT6?qs=uwxL4vQweFOUTGDLzGdZHA%3D%3D,STM32G473RBT6,https://www.arrow.com/en/products/stm32g473rbt6/stmicroelectronics
+19,,DRV8320RHRHAT,IC2,~,Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias,1,http://www.ti.com/lit/gpn/DRV8320R,,,,,,1,Texas Instruments,DRV8320RHRHAT,595-DRV8320RHRHAT,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8320RHRHAT?qs=Mv7BduZupUhUS%252B3968HKpA%3D%3D,,
+20,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J5,Conn_01x03,TerminalBlock_Altech_AK300-3_P5.00mm,1,~,,,,,,,,,,,,
+21,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J6,Conn_01x03,,1,~,,,,,,,,,,,,
+22,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J3,Conn_01x04,,1,~,,,,,,,,,,,,
+23,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J2,Conn_01x05,,1,~,,,,,,,,,,,,
+24,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J7,Conn_01x06,,1,~,,,,,,,,,,,,
+25,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J4,Motor_connector(01x02),,1,~,,,,,,,,,,,,
+26,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J1,SWD_Connector(02x05),,1,~,,,,,,,,,,,,
+27,"Solder Jumper, 3-pole, open",SolderJumper_3_Open,JP1,SolderJumper_3_Open,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels,1,~,,,,,,,,,,,,
+28,"Inductor, small symbol",L_Small,L1,150uH,,1,~,,,,,104CDMCCDS-150MC,,,,,,,
+29,"N-MOSFET transistor, drain/gate/source",Q_NMOS_DGS_1,Q1,"TPH2R306NH1,LQ",TPH2R306NH1LQ,1,https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL,,,,,,,,,,,,
+30,"N-MOSFET transistor, drain/gate/source",Q_NMOS_DGS,Q2 Q3 Q4 Q5 Q6,"TPH2R306NH1,LQ",TPH2R306NH1LQ,5,https://toshiba.semicon-storage.com/info/TPH2R506PL_datasheet_en_20191017.pdf?did=55522&prodName=TPH2R506PL,,,,,,,,,,,,
+31,"Resistor, small symbol",R_Small,R12 R13 R14,5mR,R_2010_5025Metric_Pad1.40x2.65mm_HandSolder,3,https://www.koaspeer.com/pdfs/TLR-2BW-2BP-2HW-3AP-3APS.pdf,,,,,TLR2HWDTE5L00F75,,,,,,,
+32,"Resistor, small symbol",R_Small,R4 R5 R7 R8 R10 R11 R_Gate1 R_Gate2 R_Gate3 R_Gate4 R_Gate5 R_Gate6,10R,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,12,~,,,,,,,,,,,,
+33,"Resistor, small symbol",R_Small,R19 R20 R21 R22,10R,,4,~,,,,,,,,,,,,
+34,"Resistor, small symbol",R_Small,R18,120R,,1,~,,,,,,,,,,,,
+35,"Resistor, small symbol",R_Small,R17,330R,,1,~,,,,,,,,,,,,
+36,"Resistor, small symbol",R_Small,R1 R16 R23,10k,,3,~,,,,,,,,,,,,
+37,Resistor,R,R15,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1,~,,,,,,,,,,,,
+38,Resistor,R,R9,10k,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,~,,,,,,,,,,,,
+39,"Resistor, small symbol",R_Small,R3,384k,,1,~,,,,,,,,,,,,
+40,"Resistor, small symbol",R_Small,R2,1M,,1,~,,,,,,,,,,,,
+41,"Switch, dual pole double throw, separate symbols",SW_DPDT_x2,SW2,CL-SB-12C-02,,1,~,,,,,,,,,,,,
+42,"Push button switch, generic, symbol, four pins",SW_Push_Dual,SW1,MJTP1140ATR,,1,~,,,,,,,,,,,,
+43,"Temperature dependent resistor, negative temperature coefficient",Thermistor_NTC,TH1,47k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1,https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C11.pdf,,,,,ERT-J1VP473FM,,,,,,,
+44,"High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8",INA240A1D,U2 U3 U4,INA240A1D,SOIC-8_3.9x4.9mm_P1.27mm,3,http://www.ti.com/lit/ds/symlink/ina240.pdf,,,,,,,,,,,,
+45,"1A, High-Efficiency Step-Down DC-DC Converter, 3.3V fixed output voltage, Vin 76V, PDIP-8",MAX5035AUPA,U1,MAX5033,DIP-8_W7.62mm,1,http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf,,,,,,,,,,,,
+46,"High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8",TCAN337G,U5,TCAN337G,,1,http://www.ti.com/lit/ds/symlink/tcan337.pdf,,,,,,,,,,,,
+47,"MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP4",TLP222A,U6,TLP222A,DIP-4_W7.62mm,1,https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A,,,,,,,,,,,,
+
+
+
+
+
+Component Groups:,49
+Component Count:,126
+Fitted Components:,114
+Number of PCBs:,1
+Total components:,114
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,28.01.2023 20:29:50
+Schematic Source:,ESC_board.kicad_sch
+KiCad Version:,Eeschema (6.0.4)
