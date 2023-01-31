@@ -43,10 +43,10 @@
     (property "Reference" "H4" (id 0) (at 163.83 126.1653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (id 1) (at 163.83 128.7022 0)
+    (property "Value" "" (id 1) (at 163.83 128.7022 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (id 2) (at 161.29 127 0)
+    (property "Footprint" "" (id 2) (at 161.29 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 161.29 127 0)
@@ -60,10 +60,10 @@
     (property "Reference" "H3" (id 0) (at 151.13 126.1653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (id 1) (at 151.13 128.7022 0)
+    (property "Value" "" (id 1) (at 151.13 128.7022 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (id 2) (at 148.59 127 0)
+    (property "Footprint" "" (id 2) (at 148.59 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 148.59 127 0)
@@ -77,10 +77,10 @@
     (property "Reference" "H1" (id 0) (at 123.19 126.1653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (id 1) (at 120.65 128.7022 0)
+    (property "Value" "" (id 1) (at 120.65 128.7022 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (id 2) (at 120.65 127 0)
+    (property "Footprint" "" (id 2) (at 120.65 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 127 0)
@@ -94,10 +94,10 @@
     (property "Reference" "H2" (id 0) (at 137.16 126.1653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (id 1) (at 137.16 128.7022 0)
+    (property "Value" "" (id 1) (at 137.16 128.7022 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (id 2) (at 134.62 127 0)
+    (property "Footprint" "" (id 2) (at 134.62 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 134.62 127 0)
@@ -156,12 +156,6 @@
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/4cca028d-e8b9-4852-bfce-7fc371269af3"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/32cc3e18-5c0d-4a9e-92d0-b412b8b482ed"
-      (reference "#PWR03") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/43926873-b564-4a21-94d3-9a23a9a6d5f2"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/c6d414b7-5206-49bf-8938-8dd8fc1b2296"
       (reference "#PWR05") (unit 1) (value "+3.3V") (footprint "")
@@ -569,22 +563,19 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/312387d2-c62a-48e6-b73d-52c04161c266"
-      (reference "IC1") (unit 1) (value "STM32G473RBT6") (footprint "")
+      (reference "IC1") (unit 1) (value "STM32G473RBT6") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
     )
     (path "/7949aaa2-4b3f-4638-a96c-66c5271f64a7/5fc9729b-ab69-4558-96a1-170a3667c756"
-      (reference "IC2") (unit 1) (value "~") (footprint "Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias")
+      (reference "IC2") (unit 1) (value "DRV8320") (footprint "Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/82f4498a-f475-4876-8244-e825a7b4a8de/0845ce64-3467-43b2-a2b4-8433ec1590dc"
-      (reference "IC3") (unit 1) (value "SN65HVD74DR") (footprint "")
+      (reference "IC3") (unit 1) (value "SN65HVD74DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/f45dac1e-d234-4804-b208-019d585d240e"
-      (reference "J1") (unit 1) (value "SWD_Connector(02x05)") (footprint "")
+      (reference "J1") (unit 1) (value "SWD_Connector(02x05)") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/34126d85-9ec8-4028-94e2-fc58ec22052a"
-      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "")
-    )
-    (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/d8de2847-2052-4fc0-af04-9d897288565b"
-      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical")
     )
     (path "/99e7a60b-4a4b-4bf5-b788-1445ce4749b5/62632206-de2a-4275-83b7-c7a64f616128"
       (reference "J4") (unit 1) (value "Motor_connector(01x02)") (footprint "lib:XT30PWM")
@@ -593,10 +584,10 @@
       (reference "J5") (unit 1) (value "Conn_01x03") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/9494693f-79d3-4774-9184-ce7f706f14b9/d20d5c1b-b6dc-42ab-aba5-84afb67084fc"
-      (reference "J6") (unit 1) (value "Conn_01x03") (footprint "")
+      (reference "J6") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/82f4498a-f475-4876-8244-e825a7b4a8de/d3535fce-44e6-49bd-8bbc-5af4a68e277c"
-      (reference "J7") (unit 1) (value "Conn_01x06") (footprint "")
+      (reference "J7") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical")
     )
     (path "/99e7a60b-4a4b-4bf5-b788-1445ce4749b5/b21f6d79-7fe9-4719-a1fb-425a609441c7"
       (reference "J8") (unit 1) (value "Motor_connector(01x02)") (footprint "lib:XT30PWM")
@@ -686,7 +677,7 @@
       (reference "R22") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/82f4498a-f475-4876-8244-e825a7b4a8de/01761ff2-21f4-4ec7-aa59-bb5c5b39f2ee"
-      (reference "R23") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+      (reference "R23") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/7949aaa2-4b3f-4638-a96c-66c5271f64a7/51e91ff0-2145-407d-82f8-759c165e0a29"
       (reference "R_Gate1") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -707,10 +698,10 @@
       (reference "R_Gate6") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/66ab7242-f616-4465-9b04-e9bb43767bbe"
-      (reference "SW1") (unit 1) (value "MJTP1140ATR") (footprint "")
+      (reference "SW1") (unit 1) (value "MJTP1140ATR") (footprint "lib:MJTP1140A")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/87998a17-0b94-4dda-ac85-0431e1f1c2c3"
-      (reference "SW2") (unit 1) (value "CL-SB-12C-02") (footprint "")
+      (reference "SW2") (unit 1) (value "CL-SB-12C-02") (footprint "lib:CLSB12C02")
     )
     (path "/7949aaa2-4b3f-4638-a96c-66c5271f64a7/e6d86cc8-802a-4c14-9950-fe394a25c691"
       (reference "TH1") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -728,10 +719,10 @@
       (reference "U4") (unit 1) (value "INA240A1D") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/9494693f-79d3-4774-9184-ce7f706f14b9/f65f8796-dce4-4705-b240-5d7d9a8f456c"
-      (reference "U5") (unit 1) (value "TCAN337G") (footprint "")
+      (reference "U5") (unit 1) (value "TCAN337G") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/bc47ce0c-b6af-4b4b-8904-1d5c7b30ccae/9494693f-79d3-4774-9184-ce7f706f14b9/3f57f7c7-e0f4-428b-a0bc-cf04ef3683e3"
-      (reference "U6") (unit 1) (value "TLP222A") (footprint "")
+      (reference "U6") (unit 1) (value "AB37S") (footprint "Package_SO:SO-4_4.4x4.3mm_P2.54mm")
     )
   )
 )
