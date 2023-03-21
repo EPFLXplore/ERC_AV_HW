@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 562b4d9b-469e-44d8-8422-0b016a7450f4)
+
+  (paper "A4")
+
+  (title_block
+    (title "Steering controller interface (EPOS4 Compact 50/8 CAN)")
+    (date "2023-03-11")
+    (company "EPFL Xplore")
+    (comment 2 "Vincent Nguyen")
+  )
+
+  (lib_symbols
+  )
+
+)

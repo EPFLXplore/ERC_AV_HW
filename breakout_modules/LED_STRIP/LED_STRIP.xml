@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\41786\Documents\KiCad\Xplore_KiCad\LED_STRIP\LED_STRIP.sch</source>
+    <date>12/06/21 19:09:33</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LED strip driver</title>
+        <company/>
+        <rev>1</rev>
+        <date>2021-11-28</date>
+        <source>LED_STRIP.sch</source>
+        <comment number="1" value="Designed for AISLER 2-Layer Service"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Nguyen Vincent"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A43B29</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PC817XNNIP1B</value>
+      <footprint>PC817X2NIP0F:SOT254P975X400-4N</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE2376</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE3FF9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>110</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE5C16</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>1x2_2.54mm_PTH_LED</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE6BCD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>1x2_2.54mm_PTH_PWR</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE7EE3</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>1x2_2.54mm_PTH_CTRL</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AEA24F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN3024LK3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="DMN2053UW-7" part="DMN3024LK3" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF1A75</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3D0D</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF4647</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF4C07</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF5190</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DMN2053UW-7" part="DMN3024LK3">
+      <aliases>
+        <alias>2N7002_copy</alias>
+        <alias>2N7002E_copy</alias>
+        <alias>2N7002H_copy</alias>
+        <alias>2N7002K_copy</alias>
+        <alias>BS170F_copy</alias>
+        <alias>BS870_copy</alias>
+        <alias>BSN20_copy</alias>
+        <alias>BSS123_copy</alias>
+        <alias>BSS127S_copy</alias>
+        <alias>DMG2302U_copy</alias>
+        <alias>DMG3402L_copy</alias>
+        <alias>DMG3404L_copy</alias>
+        <alias>DMG3406L_copy</alias>
+        <alias>DMG3414U_copy</alias>
+        <alias>DMG3418L_copy</alias>
+        <alias>DMN10H220L_copy</alias>
+        <alias>DMN10H700S_copy</alias>
+        <alias>DMN13H750S_copy</alias>
+        <alias>DMN2041L_copy</alias>
+        <alias>DMN2050L_copy</alias>
+        <alias>DMN2056U_copy</alias>
+        <alias>DMN2058U_copy</alias>
+        <alias>DMN2075U_copy</alias>
+        <alias>DMN2230U_copy</alias>
+        <alias>DMN24H11DS_copy</alias>
+        <alias>DMN24H3D5L_copy</alias>
+        <alias>DMN3042L_copy</alias>
+        <alias>DMN3051L_copy</alias>
+        <alias>DMN30H4D0L_copy</alias>
+        <alias>DMN3110S_copy</alias>
+        <alias>DMN3150L_copy</alias>
+        <alias>DMN3300U_copy</alias>
+        <alias>DMN3404L_copy</alias>
+        <alias>DMN6075S_copy</alias>
+        <alias>DMN6140L_copy</alias>
+        <alias>DMN67D7L_copy</alias>
+        <alias>DMN67D8L_copy</alias>
+        <alias>MMBF170_copy</alias>
+        <alias>VN10LF_copy</alias>
+        <alias>ZVN3306F_copy</alias>
+        <alias>ZVN3310F_copy</alias>
+        <alias>ZVN3320F_copy</alias>
+        <alias>ZVN4106F_copy</alias>
+        <alias>ZXM61N02F_copy</alias>
+        <alias>ZXM61N03F_copy</alias>
+        <alias>ZXMN10A07F_copy</alias>
+        <alias>ZXMN2A01F_copy</alias>
+        <alias>ZXMN2A14F_copy</alias>
+        <alias>ZXMN2B01F_copy</alias>
+        <alias>ZXMN2B14FH_copy</alias>
+        <alias>ZXMN2F30FH_copy</alias>
+        <alias>ZXMN2F34FH_copy</alias>
+        <alias>ZXMN3A01F_copy</alias>
+        <alias>ZXMN3A14F_copy</alias>
+        <alias>ZXMN3B01F_copy</alias>
+        <alias>ZXMN3B14F_copy</alias>
+        <alias>ZXMN3F30FH_copy</alias>
+        <alias>ZXMN6A07F_copy</alias>
+        <alias>IRLML0030_copy</alias>
+        <alias>IRLML2060_copy</alias>
+        <alias>TSM2302CX_copy</alias>
+        <alias>AO3400A_copy</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMN3024LK3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="PC817">
+      <aliases>
+        <alias>EL817</alias>
+      </aliases>
+      <description>DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4</description>
+      <docs>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="DMN2053UW-7">
+      <uri>C:/Users/41786/Documents/KiCad/Xplore_KiCad/lib/Xplore/DMN2053UW-7.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Isolator.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="2" name="/GND_LED">
+      <node ref="J2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="3" name="/5V_ROVER">
+      <node ref="J1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="/GND_ROVER">
+      <node ref="Q1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="/GPIO">
+      <node ref="J3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="/MCU_GND">
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+  </nets>
+</export>

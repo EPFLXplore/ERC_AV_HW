@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "0_power_symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_power_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "max")(type "Legacy")(uri "${KIPRJMOD}/lib/lib_sym/MAX1486CUB_.lib")(options "")(descr ""))
+  (lib (name "0_transceiver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_transceiver.kicad_sym")(options "")(descr ""))
+  (lib (name "0_test")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_test.kicad_sym")(options "")(descr ""))
+)
