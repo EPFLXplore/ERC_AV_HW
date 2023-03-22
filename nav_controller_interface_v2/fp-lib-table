@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_connectors.pretty")(options "")(descr ""))
   (lib (name "0_transceiver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_transceiver.pretty")(options "")(descr ""))
+  (lib (name "0_fuse")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_fuse.pretty")(options "")(descr ""))
 )
