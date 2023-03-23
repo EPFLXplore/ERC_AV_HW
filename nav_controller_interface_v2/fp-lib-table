@@ -1,5 +1,10 @@
 (fp_lib_table
+  (version 7)
   (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_connectors.pretty")(options "")(descr ""))
   (lib (name "0_transceiver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_transceiver.pretty")(options "")(descr ""))
   (lib (name "0_fuse")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_fuse.pretty")(options "")(descr ""))
+  (lib (name "0_inductors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_inductors.pretty")(options "")(descr ""))
+  (lib (name "0_switch")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_switch.pretty")(options "")(descr ""))
+  (lib (name "0_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_regulator.pretty")(options "")(descr ""))
+  (lib (name "0_maxon_controllers")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_maxon_controllers.pretty")(options "")(descr ""))
 )
