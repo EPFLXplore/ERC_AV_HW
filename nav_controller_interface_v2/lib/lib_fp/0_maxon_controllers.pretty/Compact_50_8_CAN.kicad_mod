@@ -29,10 +29,6 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp c0aaa0e2-fcca-4b9c-af3b-4237fe02429e))
   (fp_arc (start -37.58 29.75) (mid -39.842742 28.812742) (end -40.78 26.55)
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp fe37c5d3-043b-4a0b-b299-f3fd2be30644))
-  (fp_line (start -4.5 29.75) (end 4.5 29.75)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9a443c09-7948-4804-84e1-4932839d863f))
-  (fp_line (start 4.5 -29.75) (end -4.5 -29.75)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 81acbbe4-b0e1-4294-9be1-eab83b36473e))
   (model "${KIPRJMOD}/lib/3d_models/504384_EPOS4_Module_50-8.stp"
     (offset (xyz -40.75 -29.75 8.15))
     (scale (xyz 1 1 1))

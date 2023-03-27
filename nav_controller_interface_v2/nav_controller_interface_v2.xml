@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\ybakk\AV_HW_workspace\nav_controller_interface_v2\nav_controller_interface_v2.kicad_sch</source>
+    <date>27.03.2023 14:40:22</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Steering/Driving CAN Controller Interfaces Overview</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-22</date>
+        <source>nav_controller_interface_v2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/">
+      <title_block>
+        <title>Steering controller interface (EPOS4 Micro 24/5 CAN)</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-22</date>
+        <source>steering_interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/">
+      <title_block>
+        <title>Driving controller interface (EPOS4 Compact 50/8 CAN)</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-22</date>
+        <source>driving_interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Power &amp; CAN connectors/" tstamps="/aa6088b3-efb1-464c-8405-1188ce983e1e/">
+      <title_block>
+        <title>Power and CAN connectors</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-11</date>
+        <source>power_can_connectors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/">
+      <title_block>
+        <title>Mechanical parts</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-11</date>
+        <source>mechanical.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/">
+      <title_block>
+        <title>RS422 interface for SSI sensor</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-21</date>
+        <source>RS422_transceiver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Logos/" tstamps="/b3ed7fc0-6e67-4d33-8325-018f9c0a5b39/">
+      <title_block>
+        <title>Logos</title>
+        <company>EPFL Xplore</company>
+        <rev/>
+        <date>2023-03-22</date>
+        <source>logos.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Authors: Vincent Nguyen, Yassine Bakkali"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C201">
+      <value>68uF (EEHZA1V680XP)</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/315/ABA0000C1221-1280637.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">667-EEH-ZA1V680XP</field>
+        <field name="Manufacturer ref">EEH-ZA1V680XP</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="667-EEH-ZA1V680XP"/>
+      <property name="Manufacturer ref" value="EEH-ZA1V680XP"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>17791626-7fcd-496d-a062-11178557f834</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>1uF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">581-06035C105KAT2A</field>
+        <field name="Manufacturer ref">06035C105KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="581-06035C105KAT2A"/>
+      <property name="Manufacturer ref" value="06035C105KAT2A"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>211b78d3-3315-4549-9bd1-c81ec6a010f9</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>1uF 6.3V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">80-C0603C105K9R</field>
+        <field name="Manufacturer ref">C0603C105K9RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="80-C0603C105K9R"/>
+      <property name="Manufacturer ref" value="C0603C105K9RACTU"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>48c75889-eb12-43d8-ba54-1186e25ece60</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>10uF 6.3V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">187-CL31B106KQHNFNE</field>
+        <field name="Manufacturer ref">CL31B106KQHNFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="187-CL31B106KQHNFNE"/>
+      <property name="Manufacturer ref" value="CL31B106KQHNFNE"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>8c93feb1-84f9-4be5-a3f9-e002bd424f4b</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>SMF30A</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.taiwansemi.com/assets/uploads/datasheet/SMF5.0A%20SERIES_D2103.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">637-SMF30A</field>
+        <field name="Manufacturer ref">SMF30A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="637-SMF30A"/>
+      <property name="Manufacturer ref" value="SMF30A"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode, small symbol"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>24d9c43c-85d0-41af-b612-2798b8f07edd</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>SMF30A</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.taiwansemi.com/assets/uploads/datasheet/SMF5.0A%20SERIES_D2103.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">637-SMF30A</field>
+        <field name="Manufacturer ref">SMF30A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="637-SMF30A"/>
+      <property name="Manufacturer ref" value="SMF30A"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode, small symbol"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>b5464c93-afc3-47c5-b39a-4d671bd06ef0</tstamps>
+    </comp>
+    <comp ref="D203">
+      <value>PRTR5V0U2X</value>
+      <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">771-PRTR5V0U2X-T/R</field>
+        <field name="Manufacturer ref">PRTR5V0U2X,215</field>
+      </fields>
+      <libsource lib="Power_Protection" part="PRTR5V0U2X" description="Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="771-PRTR5V0U2X-T/R"/>
+      <property name="Manufacturer ref" value="PRTR5V0U2X,215"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"/>
+      <property name="ki_keywords" value="ESD protection diode"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>483e298d-9e63-4131-91d0-e84c92aff34f</tstamps>
+    </comp>
+    <comp ref="F201">
+      <value>0157010</value>
+      <footprint>0_fuse:Fuseholder_Littelfuse_Nano2_157x</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/240/Littelfuse_Fuse_157_Datasheet_pdf-970924.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">576-0157010.DR</field>
+        <field name="Manufacturer ref">0157010.DR</field>
+      </fields>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="576-0157010.DR"/>
+      <property name="Manufacturer ref" value="0157010.DR"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Fuse, small symbol"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>70193cd0-a217-4a9c-8a70-a385287f3282</tstamps>
+    </comp>
+    <comp ref="G201">
+      <value>~</value>
+      <footprint>0_maxon_controllers:Micro_24_5_CAN</footprint>
+      <datasheet>https://www.maxongroup.com/medias/sys_master/root/8839867334686/EPOS4-Micro-24-5-CAN-Hardware-Reference-En.pdf</datasheet>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="0_graphic" part="EPOS4_Micro_24/5_CAN" description=""/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>ab10d823-c348-491f-951f-c11d025721cc</tstamps>
+    </comp>
+    <comp ref="H201">
+      <value>M2 (2.2mm)</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/445/1/9774045243R-3102790.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">710-9774045243R</field>
+        <field name="Manufacturer ref">9774045243R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="710-9774045243R"/>
+      <property name="Manufacturer ref" value="9774045243R"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>259a0be7-34df-4dff-880c-fec1357f46b5</tstamps>
+    </comp>
+    <comp ref="H202">
+      <value>M2 (2.2mm)</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/445/1/9774045243R-3102790.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">710-9774045243R</field>
+        <field name="Manufacturer ref">9774045243R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="710-9774045243R"/>
+      <property name="Manufacturer ref" value="9774045243R"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>5b26184c-6415-4859-b183-7f49be5f3d74</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>EPOS4 Micro 24/5 CAN Terminal/socket (LSHM-140-02.5-L-DV-A-N-K-TR)</value>
+      <footprint>0_connectors:Samtec_LSHM-140-xx.x-x-DV-N_2x40_P0.50mm_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/527/lshm-2854603.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">200-LSHM1402.5LDVANK</field>
+        <field name="Manufacturer ref">LSHM-140-02.5-L-DV-A-N-K-TR</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x40_Counter_Clockwise" description="Generic connector, double row, 02x40, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="200-LSHM1402.5LDVANK"/>
+      <property name="Manufacturer ref" value="LSHM-140-02.5-L-DV-A-N-K-TR"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x40, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>5f3709cc-64cc-4c69-a5f4-5e8ffd77b322</tstamps>
+    </comp>
+    <comp ref="J202">
+      <value>Motor (X3) - Molex Mini-Fit Jr.</value>
+      <footprint>0_connectors:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/039281023_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-39-28-1043</field>
+        <field name="Manufacturer ref">39-28-1043</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-39-28-1043"/>
+      <property name="Manufacturer ref" value="39-28-1043"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>6f97bb5b-65a2-4b92-ae58-b4aab7487987</tstamps>
+    </comp>
+    <comp ref="J203">
+      <value>Hall Sensor (X4) - Molex Micro-Fit 3.0</value>
+      <footprint>0_connectors:MOLEX_43045-0624</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/276/3/0430450624_PCB_HEADERS-2832714.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-43045-0624</field>
+        <field name="Manufacturer ref">43045-0624</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-43045-0624"/>
+      <property name="Manufacturer ref" value="43045-0624"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>463a181b-4708-4217-9369-71c26e2687d9</tstamps>
+    </comp>
+    <comp ref="J204">
+      <value>Encoder (X5) - Pin headers 2.54mm</value>
+      <footprint>0_connectors:SAMTEC-HTST-105-01-X-DV</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/527/htss-2854457.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">200-HTSS10501TDV</field>
+        <field name="Manufacturer ref">HTSS-105-01-T-DVHTSS-105-01-T-DV</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="200-HTSS10501TDV"/>
+      <property name="Manufacturer ref" value="HTSS-105-01-T-DVHTSS-105-01-T-DV"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>db83895a-fade-48e1-8715-0a6be2e9797c</tstamps>
+    </comp>
+    <comp ref="J205">
+      <value>Sensor (X6) - Molex CLIK-Mate</value>
+      <footprint>0_connectors:MOLEX_5031541090</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/276/4/5031541090_PCB_RECEPTACLES-2885448.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-503154-1090</field>
+        <field name="Manufacturer ref">503154-1090</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-503154-1090"/>
+      <property name="Manufacturer ref" value="503154-1090"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>2caf21ee-db32-4495-8ab6-8fdab6982290</tstamps>
+    </comp>
+    <comp ref="J206">
+      <value>USB_B_Micro</value>
+      <footprint>0_connectors:USB_Micro-B_Molex-105133-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/1051330001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-105133-0001</field>
+        <field name="Manufacturer ref">105133-0001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-105133-0001"/>
+      <property name="Manufacturer ref" value="105133-0001"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>df910f73-7a81-44d1-bd1f-148c9268dda5</tstamps>
+    </comp>
+    <comp ref="L201">
+      <value>LQH5BPH470MT0L (47uH)</value>
+      <footprint>0_inductors:LQH5BPB100MT0L</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/281/1/JELF243A_9149-1569916.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">81-LQH5BPH470MT0L</field>
+        <field name="Manufacturer ref">LQH5BPH470MT0L</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="81-LQH5BPH470MT0L"/>
+      <property name="Manufacturer ref" value="LQH5BPH470MT0L"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>567991b8-08ae-4af0-902a-75a75b4896de</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603120RFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603120RFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603120RFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603120RFKEAHP"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>09c3b555-fb99-49ab-b8c9-b5d30d4ae7f9</tstamps>
+    </comp>
+    <comp ref="SW201">
+      <value>218-8LPST</value>
+      <footprint>0_switch:2188LPST</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/96/218-1144897.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">774-2188LPST</field>
+        <field name="Manufacturer ref">218-8LPST</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="774-2188LPST"/>
+      <property name="Manufacturer ref" value="218-8LPST"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>a559223d-b8dd-489b-a6a5-31e4c765190c</tstamps>
+    </comp>
+    <comp ref="SW202">
+      <value>450301014042</value>
+      <footprint>0_switch:450301014042</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/445/450301014042-3087473.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">710-450301014042</field>
+        <field name="Manufacturer ref">450301014042</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="710-450301014042"/>
+      <property name="Manufacturer ref" value="450301014042"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>428eecbd-2bff-45c9-a892-9507d321eb98</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>MAX15462BATA+T</value>
+      <footprint>0_regulator:MAX15462BATA</footprint>
+      <datasheet>https://www.analog.com/MAX15462/datasheet</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">700-MAX15462BATA+T</field>
+        <field name="Manufacturer ref">MAX15462BATA+T</field>
+      </fields>
+      <libsource lib="0_regulator" part="MAX15462" description="Switching Voltage Regulators 0.3A, 42V,Synchronous Buck Regulator"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="700-MAX15462BATA+T"/>
+      <property name="Manufacturer ref" value="MAX15462BATA+T"/>
+      <property name="Sheetname" value="Steering interface"/>
+      <property name="Sheetfile" value="steering_interface.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 0.3A, 42V,Synchronous Buck Regulator"/>
+      <property name="ki_keywords" value="Switching regulator"/>
+      <sheetpath names="/Steering interface/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/"/>
+      <tstamps>79338c52-48a8-4082-addd-ef5966d35e8c</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>390uF 63V (UCZ1J391MNS1MS)</value>
+      <footprint>Capacitor_SMD:CP_Elec_16x17.5</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/293/e_ucz-1903374.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">647-UCZ1J391MNS1MS</field>
+        <field name="Manufacturer ref">UCZ1J391MNS1MS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="647-UCZ1J391MNS1MS"/>
+      <property name="Manufacturer ref" value="UCZ1J391MNS1MS"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>44723622-e981-452e-91d3-7b90181f1d7e</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>390uF 63V (UCZ1J391MNS1MS)</value>
+      <footprint>Capacitor_SMD:CP_Elec_16x17.5</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/293/e_ucz-1903374.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">647-UCZ1J391MNS1MS</field>
+        <field name="Manufacturer ref">UCZ1J391MNS1MS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="647-UCZ1J391MNS1MS"/>
+      <property name="Manufacturer ref" value="UCZ1J391MNS1MS"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>c008263d-32be-4965-bc76-0f144436c8d6</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>390uF 63V (UCZ1J391MNS1MS)</value>
+      <footprint>Capacitor_SMD:CP_Elec_16x17.5</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/293/e_ucz-1903374.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">647-UCZ1J391MNS1MS</field>
+        <field name="Manufacturer ref">UCZ1J391MNS1MS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="647-UCZ1J391MNS1MS"/>
+      <property name="Manufacturer ref" value="UCZ1J391MNS1MS"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>275232c1-e4da-45bb-8d97-2beba516de28</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>SMBJ54A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet_pdf-1108540.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">576-SMBJ54A</field>
+        <field name="Manufacturer ref">SMBJ54A</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="576-SMBJ54A"/>
+      <property name="Manufacturer ref" value="SMBJ54A"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>15a23c6c-cb72-4eff-a5bd-b01c1950316e</tstamps>
+    </comp>
+    <comp ref="D302">
+      <value>SMBJ54A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet_pdf-1108540.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">576-SMBJ54A</field>
+        <field name="Manufacturer ref">SMBJ54A</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="576-SMBJ54A"/>
+      <property name="Manufacturer ref" value="SMBJ54A"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>68f47375-625c-4d6b-a7c8-b0c868a526a6</tstamps>
+    </comp>
+    <comp ref="F301">
+      <value>0456 020</value>
+      <footprint>0_fuse:0456 020</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/240/Littelfuse_Fuse_456_Datasheet_pdf-1372353.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">576-0157010.DR</field>
+        <field name="Manufacturer ref">0157010.DR</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="576-0157010.DR"/>
+      <property name="Manufacturer ref" value="0157010.DR"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>dd701049-ccd2-4724-a864-838f6467a8bb</tstamps>
+    </comp>
+    <comp ref="G301">
+      <value>~</value>
+      <footprint>0_maxon_controllers:Compact_50_8_CAN</footprint>
+      <datasheet>https://www.maxongroup.com/medias/sys_master/8819146883102.pdf?attachment=true</datasheet>
+      <libsource lib="0_graphic" part="EPOS4_Compact_50/8_CAN" description=""/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>bc85f531-d3d2-4c92-a3c8-25547e6dc464</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>02x23 Socket header (SSM-123-L-DV)</value>
+      <footprint>0_connectors:SSM-123-L-DV</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/527/ssm_sm-2853675.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">200-SSM123LDV</field>
+        <field name="Manufacturer ref">SSM-123-L-DV</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x23_Counter_Clockwise" description="Generic connector, double row, 02x23, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="200-SSM123LDV"/>
+      <property name="Manufacturer ref" value="SSM-123-L-DV"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x23, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>3c60f782-35d2-4f17-a1c0-5b3cbc22f005</tstamps>
+    </comp>
+    <comp ref="J302">
+      <value>02x16 Socket header (SSM-116-L-DV)</value>
+      <footprint>0_connectors:SSM-116-L-DV</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/527/ssm_sm-2853675.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">200-SSM116LDV</field>
+        <field name="Manufacturer ref">SSM-116-L-DV</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x16_Counter_Clockwise" description="Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="200-SSM116LDV"/>
+      <property name="Manufacturer ref" value="SSM-116-L-DV"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>4d86ca5a-7486-4748-a426-bee2e2088b73</tstamps>
+    </comp>
+    <comp ref="J303">
+      <value>Motor (X3) - Molex Mini-Fit Jr.</value>
+      <footprint>0_connectors:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/039281023_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-39-28-1043</field>
+        <field name="Manufacturer ref">39-28-1043</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-39-28-1043"/>
+      <property name="Manufacturer ref" value="39-28-1043"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>b335d67c-1623-473c-9bc3-c79b0c5c0d3d</tstamps>
+    </comp>
+    <comp ref="J304">
+      <value>Hall Sensor (X4) - Molex Micro-Fit 3.0</value>
+      <footprint>0_connectors:MOLEX_43045-0624</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/276/3/0430450624_PCB_HEADERS-2832714.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-43045-0624</field>
+        <field name="Manufacturer ref">43045-0624</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-43045-0624"/>
+      <property name="Manufacturer ref" value="43045-0624"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>22e111e9-b34c-4b15-91a7-360b46e34d9a</tstamps>
+    </comp>
+    <comp ref="J305">
+      <value>Encoder (X5) - Pin headers 2.54mm</value>
+      <footprint>0_connectors:SAMTEC-HTST-105-01-X-DV</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/527/htss-2854457.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">200-HTSS10501TDV</field>
+        <field name="Manufacturer ref">HTSS-105-01-T-DVHTSS-105-01-T-DV</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="200-HTSS10501TDV"/>
+      <property name="Manufacturer ref" value="HTSS-105-01-T-DVHTSS-105-01-T-DV"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>8e28a368-ebeb-4128-9b5d-570ba57b000c</tstamps>
+    </comp>
+    <comp ref="J306">
+      <value>Sensor (X6) - Molex CLIK-Mate</value>
+      <footprint>0_connectors:MOLEX_5031541090</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/276/4/5031541090_PCB_RECEPTACLES-2885448.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-503154-1090</field>
+        <field name="Manufacturer ref">503154-1090</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-503154-1090"/>
+      <property name="Manufacturer ref" value="503154-1090"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>2450e789-b4e0-4cf1-9289-af957eba1685</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603120RFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603120RFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603120RFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603120RFKEAHP"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>cbdfcc64-39d5-44e9-b9d8-49f4eae1c3d8</tstamps>
+    </comp>
+    <comp ref="SW301">
+      <value>218-8LPST</value>
+      <footprint>0_switch:2188LPST</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/96/218-1144897.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">774-2188LPST</field>
+        <field name="Manufacturer ref">218-8LPST</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="774-2188LPST"/>
+      <property name="Manufacturer ref" value="218-8LPST"/>
+      <property name="Sheetname" value="Driving inteface"/>
+      <property name="Sheetfile" value="driving_interface.kicad_sch"/>
+      <property name="ki_description" value="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/Driving inteface/" tstamps="/a3b4f5cb-aa1c-41b1-b510-d3b6e5182360/"/>
+      <tstamps>1527efa0-b935-4e94-8e22-6b6e58b27bc1</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>Power supply (X1) - XT60</value>
+      <footprint>Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical</footprint>
+      <datasheet>https://www.tme.eu/Document/ceb306d6300f4d2860483975b79af125/XT60UPB-M.pdf</datasheet>
+      <fields>
+        <field name="Distributor">TME</field>
+        <field name="Distributor ref">XT60UPB-M</field>
+        <field name="Manufacturer ref">XT60UPB-M</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="TME"/>
+      <property name="Distributor ref" value="XT60UPB-M"/>
+      <property name="Manufacturer ref" value="XT60UPB-M"/>
+      <property name="Sheetname" value="Power &amp; CAN connectors"/>
+      <property name="Sheetfile" value="power_can_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power &amp; CAN connectors/" tstamps="/aa6088b3-efb1-464c-8405-1188ce983e1e/"/>
+      <tstamps>c03e3234-fd3b-4db9-a88a-151192f7ae75</tstamps>
+    </comp>
+    <comp ref="J402">
+      <value>Power supply (X1) - XT60</value>
+      <footprint>Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical</footprint>
+      <datasheet>https://www.tme.eu/Document/ceb306d6300f4d2860483975b79af125/XT60UPB-M.pdf</datasheet>
+      <fields>
+        <field name="Distributor">TME</field>
+        <field name="Distributor ref">XT60UPB-M</field>
+        <field name="Manufacturer ref">XT60UPB-M</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="TME"/>
+      <property name="Distributor ref" value="XT60UPB-M"/>
+      <property name="Manufacturer ref" value="XT60UPB-M"/>
+      <property name="Sheetname" value="Power &amp; CAN connectors"/>
+      <property name="Sheetfile" value="power_can_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power &amp; CAN connectors/" tstamps="/aa6088b3-efb1-464c-8405-1188ce983e1e/"/>
+      <tstamps>ae6584a1-4c20-4e79-8b1d-ddeceaef1acf</tstamps>
+    </comp>
+    <comp ref="J403">
+      <value>CAN 1 (X11) - Molex CLIK-Mate</value>
+      <footprint>0_connectors:MOLEX_5025840460</footprint>
+      <datasheet>https://www.molex.com/webdocs/datasheets/pdf/en-us/5025840460_PCB_RECEPTACLES.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-502584-0460</field>
+        <field name="Manufacturer ref">502584-0460</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-502584-0460"/>
+      <property name="Manufacturer ref" value="502584-0460"/>
+      <property name="Sheetname" value="Power &amp; CAN connectors"/>
+      <property name="Sheetfile" value="power_can_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power &amp; CAN connectors/" tstamps="/aa6088b3-efb1-464c-8405-1188ce983e1e/"/>
+      <tstamps>934a32c5-13a1-4a3a-b8bc-c90fed2ba522</tstamps>
+    </comp>
+    <comp ref="J404">
+      <value>CAN2 (X12) - Molex CLIK-Mate</value>
+      <footprint>0_connectors:MOLEX_5025840460</footprint>
+      <datasheet>https://www.molex.com/webdocs/datasheets/pdf/en-us/5025840460_PCB_RECEPTACLES.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">538-502584-0460</field>
+        <field name="Manufacturer ref">502584-0460</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="538-502584-0460"/>
+      <property name="Manufacturer ref" value="502584-0460"/>
+      <property name="Sheetname" value="Power &amp; CAN connectors"/>
+      <property name="Sheetfile" value="power_can_connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power &amp; CAN connectors/" tstamps="/aa6088b3-efb1-464c-8405-1188ce983e1e/"/>
+      <tstamps>b7748187-aced-484d-8d12-0cd3ae952bde</tstamps>
+    </comp>
+    <comp ref="C501">
+      <value>330nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">810-C1608X7R1H334K</field>
+        <field name="Manufacturer ref">C1608X7R1H334K080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="810-C1608X7R1H334K"/>
+      <property name="Manufacturer ref" value="C1608X7R1H334K080AC"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>db871a1b-91fd-4099-adf2-6099e6d8a383</tstamps>
+    </comp>
+    <comp ref="C502">
+      <value>330nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">810-C1608X7R1H334K</field>
+        <field name="Manufacturer ref">C1608X7R1H334K080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="810-C1608X7R1H334K"/>
+      <property name="Manufacturer ref" value="C1608X7R1H334K080AC"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>c6779afb-6249-43fa-a14e-c9d408ab50bf</tstamps>
+    </comp>
+    <comp ref="C503">
+      <value>330nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">810-C1608X7R1H334K</field>
+        <field name="Manufacturer ref">C1608X7R1H334K080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="810-C1608X7R1H334K"/>
+      <property name="Manufacturer ref" value="C1608X7R1H334K080AC"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>cc5b0141-b0d5-4426-90c0-1ebc1614c0c2</tstamps>
+    </comp>
+    <comp ref="C504">
+      <value>330nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">810-C1608X7R1H334K</field>
+        <field name="Manufacturer ref">C1608X7R1H334K080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="810-C1608X7R1H334K"/>
+      <property name="Manufacturer ref" value="C1608X7R1H334K080AC"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>bc6f486f-5f91-49aa-a54e-2720d5ba511a</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603100KFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603100KFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603100KFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603100KFKEAHP"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>ce6a3f2a-7e90-4ffe-ab24-480c6795cc9f</tstamps>
+    </comp>
+    <comp ref="R502">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603100KFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603100KFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603100KFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603100KFKEAHP"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>8109c388-4616-4789-9553-03574fec74bc</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603100KFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603100KFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603100KFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603100KFKEAHP"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>fd1a4282-4e12-4633-9a28-8f4bd6076350</tstamps>
+    </comp>
+    <comp ref="R504">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603100KFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603100KFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603100KFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603100KFKEAHP"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Mechanical/" tstamps="/34a10433-46e4-4cde-811a-979db0467e4a/"/>
+      <tstamps>5ba0dca3-95be-4878-a533-387c33c2feea</tstamps>
+    </comp>
+    <comp ref="C601">
+      <value>220pF 50V C0G</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">667-ERJ-3EKF2202V</field>
+        <field name="Manufacturer ref">ERJ-3EKF2202V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="667-ERJ-3EKF2202V"/>
+      <property name="Manufacturer ref" value="ERJ-3EKF2202V"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>2005a91a-f2ac-4be8-b8dd-cf1b8d1e5dd0</tstamps>
+    </comp>
+    <comp ref="C602">
+      <value>220pF 50V C0G</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">667-ERJ-3EKF2202V</field>
+        <field name="Manufacturer ref">ERJ-3EKF2202V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="667-ERJ-3EKF2202V"/>
+      <property name="Manufacturer ref" value="ERJ-3EKF2202V"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>3e809115-eb39-4bc6-a5d9-1b158a82b6ed</tstamps>
+    </comp>
+    <comp ref="C603">
+      <value>0.1uF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">80-C603C104K5RAC3121</field>
+        <field name="Manufacturer ref">C0603C104K5RAC3121</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="80-C603C104K5RAC3121"/>
+      <property name="Manufacturer ref" value="C0603C104K5RAC3121"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>b2938bdd-7f90-4c58-96fd-58bc7b05b067</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603150RFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603150RFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603150RFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603150RFKEAHP"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>d0ee344a-e0fa-4c5f-a70d-5d0d0557ee85</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW0603150RFKEAH</field>
+        <field name="Manufacturer ref">CRCW0603150RFKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW0603150RFKEAH"/>
+      <property name="Manufacturer ref" value="CRCW0603150RFKEAHP"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>aa8dcb53-1b45-485b-85db-f1b4d9771701</tstamps>
+    </comp>
+    <comp ref="R603">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/348/ROHM_S_A0011096274_1-2563284.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">755-SDR03EZPF2002</field>
+        <field name="Manufacturer ref">SDR03EZPF2002</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="755-SDR03EZPF2002"/>
+      <property name="Manufacturer ref" value="SDR03EZPF2002"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>ea63886b-552f-462f-801f-cc77adbeb958</tstamps>
+    </comp>
+    <comp ref="R604">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/348/ROHM_S_A0011096274_1-2563284.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">755-SDR03EZPF2002</field>
+        <field name="Manufacturer ref">SDR03EZPF2002</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="755-SDR03EZPF2002"/>
+      <property name="Manufacturer ref" value="SDR03EZPF2002"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>380c32fe-db36-45af-bd4f-ff3346685fbb</tstamps>
+    </comp>
+    <comp ref="R605">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">667-ERJ-3EKF2202V</field>
+        <field name="Manufacturer ref">ERJ-3EKF2202V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="667-ERJ-3EKF2202V"/>
+      <property name="Manufacturer ref" value="ERJ-3EKF2202V"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>261caaf5-1b50-4c63-a0a4-a941079dbb37</tstamps>
+    </comp>
+    <comp ref="R606">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">71-CRCW06031K00FKEAH</field>
+        <field name="Manufacturer ref">CRCW06031K00FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="71-CRCW06031K00FKEAH"/>
+      <property name="Manufacturer ref" value="CRCW06031K00FKEAHP"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>fcd59bc7-3f19-455e-b4c0-33f8c87cb80a</tstamps>
+    </comp>
+    <comp ref="U601">
+      <value>ISL8490E</value>
+      <footprint>0_transceiver:ISL8490E-SOIC-8</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/698/REN_isl8488e_89e_90e_91e_DST_20220203-1998736.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor ref">968-ISL8490EIBZ-T</field>
+        <field name="Manufacturer ref">ISL8490EIBZ-T</field>
+      </fields>
+      <libsource lib="0_transceiver" part="ISL8490E" description="RS-422/RS-485 Interface IC W/ANNEAL IEC61000 8LD -40+85 5V RS-485"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor ref" value="968-ISL8490EIBZ-T"/>
+      <property name="Manufacturer ref" value="ISL8490EIBZ-T"/>
+      <property name="Sheetname" value="RS422 Transceiver"/>
+      <property name="Sheetfile" value="RS422_transceiver.kicad_sch"/>
+      <property name="ki_description" value="RS-422/RS-485 Interface IC W/ANNEAL IEC61000 8LD -40+85 5V RS-485"/>
+      <property name="ki_keywords" value="RS422 Transceiver"/>
+      <sheetpath names="/Steering interface/RS422 Transceiver/" tstamps="/c336e5ad-f126-4296-afc1-36db1aa23877/f1ace67e-33d2-402f-b8be-0669b8f64a3e/"/>
+      <tstamps>fb2df5ed-06ea-4925-9634-df10fb307718</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_graphic" part="EPOS4_Compact_50/8_CAN">
+      <fields>
+        <field name="Reference">G</field>
+      </fields>
+    </libpart>
+    <libpart lib="0_graphic" part="EPOS4_Micro_24/5_CAN">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Footprint">0_maxon_controllers:Micro_24_5_CAN</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
+    <libpart lib="0_regulator" part="MAX15462">
+      <description>Switching Voltage Regulators 0.3A, 42V,Synchronous Buck Regulator</description>
+      <docs>https://www.analog.com/MAX15462/datasheet</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX15462BATA</field>
+        <field name="Footprint">0_regulator:MAX15462BATA</field>
+        <field name="Datasheet">https://www.analog.com/MAX15462/datasheet</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="EN/UVLO" type="input"/>
+        <pin num="3" name="VCC" type="power_out"/>
+        <pin num="4" name="FB/Vout" type="input"/>
+        <pin num="5" name="MODE" type="input"/>
+        <pin num="6" name="~{RESET}" type="open_collector"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="LX" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_transceiver" part="ISL8490E">
+      <description>RS-422/RS-485 Interface IC W/ANNEAL IEC61000 8LD -40+85 5V RS-485</description>
+      <docs>https://www.mouser.ch/datasheet/2/698/REN_isl8488e_89e_90e_91e_DST_20220203-1998736.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL8490E</field>
+        <field name="Footprint">0_transceiver:ISL8490E-SOIC-8</field>
+        <field name="Datasheet">https://www.mouser.ch/datasheet/2/698/REN_isl8488e_89e_90e_91e_DST_20220203-1998736.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="RO" type="output"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Y" type="output"/>
+        <pin num="6" name="Z" type="output"/>
+        <pin num="7" name="B" type="input"/>
+        <pin num="8" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Top_Bottom">
+      <description>Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x16_Counter_Clockwise">
+      <description>Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x16_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x23_Counter_Clockwise">
+      <description>Generic connector, double row, 02x23, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x23_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x40_Counter_Clockwise">
+      <description>Generic connector, double row, 02x40, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x40_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+        <pin num="51" name="Pin_51" type="passive"/>
+        <pin num="52" name="Pin_52" type="passive"/>
+        <pin num="53" name="Pin_53" type="passive"/>
+        <pin num="54" name="Pin_54" type="passive"/>
+        <pin num="55" name="Pin_55" type="passive"/>
+        <pin num="56" name="Pin_56" type="passive"/>
+        <pin num="57" name="Pin_57" type="passive"/>
+        <pin num="58" name="Pin_58" type="passive"/>
+        <pin num="59" name="Pin_59" type="passive"/>
+        <pin num="60" name="Pin_60" type="passive"/>
+        <pin num="61" name="Pin_61" type="passive"/>
+        <pin num="62" name="Pin_62" type="passive"/>
+        <pin num="63" name="Pin_63" type="passive"/>
+        <pin num="64" name="Pin_64" type="passive"/>
+        <pin num="65" name="Pin_65" type="passive"/>
+        <pin num="66" name="Pin_66" type="passive"/>
+        <pin num="67" name="Pin_67" type="passive"/>
+        <pin num="68" name="Pin_68" type="passive"/>
+        <pin num="69" name="Pin_69" type="passive"/>
+        <pin num="70" name="Pin_70" type="passive"/>
+        <pin num="71" name="Pin_71" type="passive"/>
+        <pin num="72" name="Pin_72" type="passive"/>
+        <pin num="73" name="Pin_73" type="passive"/>
+        <pin num="74" name="Pin_74" type="passive"/>
+        <pin num="75" name="Pin_75" type="passive"/>
+        <pin num="76" name="Pin_76" type="passive"/>
+        <pin num="77" name="Pin_77" type="passive"/>
+        <pin num="78" name="Pin_78" type="passive"/>
+        <pin num="79" name="Pin_79" type="passive"/>
+        <pin num="80" name="Pin_80" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="PRTR5V0U2X">
+      <description>Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</docs>
+      <footprints>
+        <fp>SOT?143*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="I/O1" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x08">
+      <description>8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_graphic">
+      <uri>C:\Users\ybakk\AV_HW_workspace\nav_controller_interface_v2/lib/lib_sym/0_graphic.kicad_sym</uri>
+    </library>
+    <library logical="0_regulator">
+      <uri>C:\Users\ybakk\AV_HW_workspace\nav_controller_interface_v2/lib/lib_sym/0_regulator.kicad_sym</uri>
+    </library>
+    <library logical="0_transceiver">
+      <uri>C:\Users\ybakk\AV_HW_workspace\nav_controller_interface_v2/lib/lib_sym/0_transceiver.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Driving inteface/AnIN1+">
+      <node ref="J301" pin="23" pinfunction="Pin_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="2" name="/Driving inteface/AnIN1-">
+      <node ref="J301" pin="24" pinfunction="Pin_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="3" name="/Driving inteface/AnIN2+">
+      <node ref="J301" pin="25" pinfunction="Pin_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="4" name="/Driving inteface/AnIN2-">
+      <node ref="J301" pin="26" pinfunction="Pin_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="5" name="/Driving inteface/AnOUT1">
+      <node ref="J301" pin="27" pinfunction="Pin_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="/Driving inteface/AnOUT2">
+      <node ref="J301" pin="28" pinfunction="Pin_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="7" name="/Driving inteface/Auto bit rate">
+      <node ref="J301" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="SW301" pin="6" pintype="passive"/>
+    </net>
+    <net code="8" name="/Driving inteface/CAN ID 1">
+      <node ref="J301" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="SW301" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Driving inteface/CAN ID 2">
+      <node ref="J301" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="SW301" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/Driving inteface/CAN ID 3">
+      <node ref="J301" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="SW301" pin="3" pintype="passive"/>
+    </net>
+    <net code="11" name="/Driving inteface/CAN ID 4">
+      <node ref="J301" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="SW301" pin="4" pintype="passive"/>
+    </net>
+    <net code="12" name="/Driving inteface/CAN ID 5">
+      <node ref="J301" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="SW301" pin="5" pintype="passive"/>
+    </net>
+    <net code="13" name="/Driving inteface/CANH">
+      <node ref="J201" pin="79" pinfunction="Pin_79" pintype="passive"/>
+      <node ref="J301" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J403" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J404" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/Driving inteface/CANL">
+      <node ref="J201" pin="80" pinfunction="Pin_80" pintype="passive"/>
+      <node ref="J301" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J403" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J404" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW201" pin="10" pintype="passive"/>
+      <node ref="SW301" pin="10" pintype="passive"/>
+    </net>
+    <net code="15" name="/Driving inteface/Channel A">
+      <node ref="J302" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J305" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="16" name="/Driving inteface/Channel A\">
+      <node ref="J302" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J305" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="17" name="/Driving inteface/Channel A{slash}HsDigIN1">
+      <node ref="J301" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J306" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/Driving inteface/Channel A{slash}HsDigIN1\">
+      <node ref="J301" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J306" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/Driving inteface/Channel B">
+      <node ref="J302" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J305" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="20" name="/Driving inteface/Channel B\">
+      <node ref="J302" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J305" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="21" name="/Driving inteface/Channel B{slash}HsDigIN2">
+      <node ref="J301" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J306" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="22" name="/Driving inteface/Channel B{slash}HsDigIN2\">
+      <node ref="J301" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J306" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="23" name="/Driving inteface/Channel I">
+      <node ref="J302" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="J305" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="24" name="/Driving inteface/Channel I\">
+      <node ref="J302" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J305" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="25" name="/Driving inteface/Clock{slash}HsDigOUT1">
+      <node ref="J301" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J306" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="26" name="/Driving inteface/Clock{slash}HsDigOUT1\">
+      <node ref="J301" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J306" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="27" name="/Driving inteface/DSP_RxD">
+      <node ref="J301" pin="39" pinfunction="Pin_39" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="/Driving inteface/DSP_TxD">
+      <node ref="J301" pin="40" pinfunction="Pin_40" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="/Driving inteface/Data{slash}HsDigIN4">
+      <node ref="J301" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J306" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="30" name="/Driving inteface/Data{slash}HsDigIN4\">
+      <node ref="J301" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J306" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="31" name="/Driving inteface/DigIN1">
+      <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="/Driving inteface/DigIN2">
+      <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="/Driving inteface/DigIN3">
+      <node ref="J301" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="/Driving inteface/DigIN4">
+      <node ref="J301" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="/Driving inteface/DigOUT1">
+      <node ref="J301" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="/Driving inteface/DigOUT2">
+      <node ref="J301" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="/Driving inteface/Hall sensor 1">
+      <node ref="J302" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J304" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="38" name="/Driving inteface/Hall sensor 2">
+      <node ref="J302" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J304" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="39" name="/Driving inteface/Hall sensor 3">
+      <node ref="J302" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J304" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="40" name="/Driving inteface/M1{slash}+M">
+      <node ref="J302" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J302" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J302" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J302" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J303" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="41" name="/Driving inteface/M2{slash}-M">
+      <node ref="J302" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J302" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J302" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J302" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J303" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="42" name="/Driving inteface/M3">
+      <node ref="J302" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J302" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J302" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J302" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J303" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="43" name="/Driving inteface/SPI_CLK">
+      <node ref="J301" pin="41" pinfunction="Pin_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="/Driving inteface/SPI_CS1">
+      <node ref="J301" pin="46" pinfunction="Pin_46" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="/Driving inteface/SPI_CS2">
+      <node ref="J301" pin="45" pinfunction="Pin_45" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="/Driving inteface/SPI_IRQ">
+      <node ref="J301" pin="42" pinfunction="Pin_42" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="/Driving inteface/SPI_SIMO">
+      <node ref="J301" pin="44" pinfunction="Pin_44" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="/Driving inteface/SPI_SOMI">
+      <node ref="J301" pin="43" pinfunction="Pin_43" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="/Driving inteface/STO-OUT+">
+      <node ref="J301" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="/Driving inteface/STO-OUT-">
+      <node ref="J301" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="/Driving inteface/VCC_FUSED">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F301" pin="2" pintype="passive"/>
+      <node ref="J302" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J302" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J302" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J302" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="53" name="/Steering interface/AnIN1+">
+      <node ref="J201" pin="46" pinfunction="Pin_46" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="/Steering interface/AnIN1-">
+      <node ref="J201" pin="48" pinfunction="Pin_48" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="/Steering interface/AnIN2+">
+      <node ref="J201" pin="50" pinfunction="Pin_50" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="/Steering interface/AnIN2-">
+      <node ref="J201" pin="52" pinfunction="Pin_52" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="/Steering interface/AnOUT1">
+      <node ref="J201" pin="54" pinfunction="Pin_54" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="/Steering interface/Auto bit rate">
+      <node ref="J201" pin="72" pinfunction="Pin_72" pintype="passive"/>
+      <node ref="SW201" pin="6" pintype="passive"/>
+    </net>
+    <net code="59" name="/Steering interface/CAN ID 1">
+      <node ref="J201" pin="65" pinfunction="Pin_65" pintype="passive"/>
+      <node ref="SW201" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="/Steering interface/CAN ID 2">
+      <node ref="J201" pin="67" pinfunction="Pin_67" pintype="passive"/>
+      <node ref="SW201" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="/Steering interface/CAN ID 3">
+      <node ref="J201" pin="71" pinfunction="Pin_71" pintype="passive"/>
+      <node ref="SW201" pin="3" pintype="passive"/>
+    </net>
+    <net code="62" name="/Steering interface/CAN ID 4">
+      <node ref="J201" pin="73" pinfunction="Pin_73" pintype="passive"/>
+      <node ref="SW201" pin="4" pintype="passive"/>
+    </net>
+    <net code="63" name="/Steering interface/CAN ID 5">
+      <node ref="J201" pin="66" pinfunction="Pin_66" pintype="passive"/>
+      <node ref="SW201" pin="5" pintype="passive"/>
+    </net>
+    <net code="64" name="/Steering interface/CAN ID 6">
+      <node ref="J201" pin="68" pinfunction="Pin_68" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="/Steering interface/Channel A">
+      <node ref="J201" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J204" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="66" name="/Steering interface/Channel A\">
+      <node ref="J201" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J204" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="67" name="/Steering interface/Channel B">
+      <node ref="J201" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J204" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="68" name="/Steering interface/Channel B\">
+      <node ref="J201" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J204" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="69" name="/Steering interface/Channel I">
+      <node ref="J201" pin="42" pinfunction="Pin_42" pintype="passive"/>
+      <node ref="J204" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="70" name="/Steering interface/Channel I\">
+      <node ref="J201" pin="44" pinfunction="Pin_44" pintype="passive"/>
+      <node ref="J204" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="71" name="/Steering interface/Clock{slash}HsDigOUT1">
+      <node ref="J205" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U601" pin="5" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="72" name="/Steering interface/Clock{slash}HsDigOUT1\">
+      <node ref="J205" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U601" pin="6" pinfunction="Z" pintype="output"/>
+    </net>
+    <net code="73" name="/Steering interface/Clock{slash}HsDigOUT1_A55">
+      <node ref="J201" pin="55" pinfunction="Pin_55" pintype="passive"/>
+      <node ref="U601" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="74" name="/Steering interface/DSP_TxD">
+      <node ref="J201" pin="77" pinfunction="Pin_77" pintype="passive"/>
+      <node ref="J201" pin="78" pinfunction="Pin_78" pintype="passive"/>
+    </net>
+    <net code="75" name="/Steering interface/Data{slash}HsDigIN4">
+      <node ref="J205" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="/Steering interface/Data{slash}HsDigIN4\">
+      <node ref="J205" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="/Steering interface/Data{slash}HsDigIN4_A53">
+      <node ref="J201" pin="53" pinfunction="Pin_53" pintype="passive"/>
+      <node ref="R606" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="/Steering interface/DigIN1">
+      <node ref="J201" pin="41" pinfunction="Pin_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="/Steering interface/DigIN2">
+      <node ref="J201" pin="43" pinfunction="Pin_43" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="/Steering interface/DigIN3">
+      <node ref="J201" pin="45" pinfunction="Pin_45" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="/Steering interface/DigIN4">
+      <node ref="J201" pin="47" pinfunction="Pin_47" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="/Steering interface/DigOUT1">
+      <node ref="J201" pin="49" pinfunction="Pin_49" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="/Steering interface/DigOUT2">
+      <node ref="J201" pin="51" pinfunction="Pin_51" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="/Steering interface/Hall Sensor 1">
+      <node ref="J201" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J203" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="85" name="/Steering interface/Hall Sensor 2">
+      <node ref="J201" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J203" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="86" name="/Steering interface/Hall Sensor 3">
+      <node ref="J201" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J203" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="87" name="/Steering interface/LX">
+      <node ref="L201" pin="1" pintype="passive"/>
+      <node ref="U201" pin="8" pinfunction="LX" pintype="power_out"/>
+    </net>
+    <net code="88" name="/Steering interface/M1{slash}+M">
+      <node ref="J201" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J201" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J201" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J201" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J201" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J201" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J202" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="89" name="/Steering interface/M2{slash}-M">
+      <node ref="J201" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J201" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J201" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J201" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J201" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J201" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J202" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="90" name="/Steering interface/M3">
+      <node ref="J201" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J201" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J201" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J201" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J201" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J201" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J202" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="91" name="/Steering interface/MAX_VCC">
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="VCC" pintype="power_out"/>
+    </net>
+    <net code="92" name="/Steering interface/MODE">
+      <node ref="U201" pin="5" pinfunction="MODE" pintype="input"/>
+    </net>
+    <net code="93" name="/Steering interface/RS422 Transceiver/ISL_A">
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="R605" pin="1" pintype="passive"/>
+      <node ref="U601" pin="8" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="94" name="/Steering interface/RS422 Transceiver/ISL_B">
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+      <node ref="R603" pin="1" pintype="passive"/>
+      <node ref="R604" pin="2" pintype="passive"/>
+      <node ref="U601" pin="7" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="95" name="/Steering interface/RS422 Transceiver/ISL_RO">
+      <node ref="R606" pin="1" pintype="passive"/>
+      <node ref="U601" pin="2" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="96" name="/Steering interface/USB_D+">
+      <node ref="D203" pin="2" pinfunction="I/O1" pintype="passive"/>
+      <node ref="J201" pin="61" pinfunction="Pin_61" pintype="passive"/>
+      <node ref="J206" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="/Steering interface/USB_D-">
+      <node ref="D203" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="J201" pin="59" pinfunction="Pin_59" pintype="passive"/>
+      <node ref="J206" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="/Steering interface/VCC_FUSED">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D202" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F201" pin="2" pintype="passive"/>
+      <node ref="J201" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J201" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J201" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J201" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J201" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J201" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J201" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="99" name="GND">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C502" pin="2" pintype="passive"/>
+      <node ref="C503" pin="2" pintype="passive"/>
+      <node ref="C504" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="C603" pin="2" pintype="passive"/>
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D202" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D203" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D302" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H201" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H202" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J201" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J201" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J201" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J201" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J201" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J201" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="J201" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J201" pin="57" pinfunction="Pin_57" pintype="passive"/>
+      <node ref="J201" pin="58" pinfunction="Pin_58" pintype="passive"/>
+      <node ref="J201" pin="63" pinfunction="Pin_63" pintype="passive"/>
+      <node ref="J201" pin="64" pinfunction="Pin_64" pintype="passive"/>
+      <node ref="J201" pin="75" pinfunction="Pin_75" pintype="passive"/>
+      <node ref="J201" pin="76" pinfunction="Pin_76" pintype="passive"/>
+      <node ref="J202" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J203" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J203" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J204" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J205" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J206" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J206" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J301" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J301" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J301" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J301" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J301" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J302" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J302" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J302" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J302" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J302" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J303" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J304" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J304" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J305" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J306" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J402" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J403" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J403" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J404" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J404" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="R605" pin="2" pintype="passive"/>
+      <node ref="SW201" pin="11" pintype="passive"/>
+      <node ref="SW201" pin="12" pintype="passive"/>
+      <node ref="SW201" pin="13" pintype="passive"/>
+      <node ref="SW201" pin="14" pintype="passive"/>
+      <node ref="SW201" pin="15" pintype="passive"/>
+      <node ref="SW201" pin="16" pintype="passive"/>
+      <node ref="SW301" pin="11" pintype="passive"/>
+      <node ref="SW301" pin="12" pintype="passive"/>
+      <node ref="SW301" pin="13" pintype="passive"/>
+      <node ref="SW301" pin="14" pintype="passive"/>
+      <node ref="SW301" pin="15" pintype="passive"/>
+      <node ref="SW301" pin="16" pintype="passive"/>
+      <node ref="U201" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U601" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="100" name="Net-(C501-Pad1)">
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="R501" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(C502-Pad1)">
+      <node ref="C502" pin="1" pintype="passive"/>
+      <node ref="R502" pin="1" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(C503-Pad1)">
+      <node ref="C503" pin="1" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(C504-Pad1)">
+      <node ref="C504" pin="1" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(R201-Pad2)">
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="SW201" pin="7" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="SW301" pin="7" pintype="passive"/>
+    </net>
+    <net code="106" name="VBUS">
+      <node ref="D203" pin="4" pinfunction="VCC" pintype="passive"/>
+      <node ref="J201" pin="60" pinfunction="Pin_60" pintype="passive"/>
+      <node ref="J206" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="107" name="VCC">
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="D302" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F201" pin="1" pintype="passive"/>
+      <node ref="F301" pin="1" pintype="passive"/>
+      <node ref="J302" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J402" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U201" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U201" pin="2" pinfunction="EN/UVLO" pintype="input"/>
+    </net>
+    <net code="108" name="VDD">
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="L201" pin="2" pintype="passive"/>
+      <node ref="SW202" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="FB/Vout" pintype="input"/>
+    </net>
+    <net code="109" name="Vaux">
+      <node ref="C603" pin="1" pintype="passive"/>
+      <node ref="J205" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
+      <node ref="SW202" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U601" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="110" name="Vaux2">
+      <node ref="J301" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J301" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J301" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J306" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="111" name="Vsensor">
+      <node ref="J201" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J203" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J204" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW202" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="112" name="Vsensor2">
+      <node ref="J302" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J304" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J305" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(J201-Pin_56-Pad56)">
+      <node ref="J201" pin="56" pinfunction="Pin_56" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J201-Pin_62-Pad62)">
+      <node ref="J201" pin="62" pinfunction="Pin_62" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J201-Pin_69-Pad69)">
+      <node ref="J201" pin="69" pinfunction="Pin_69" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J201-Pin_70-Pad70)">
+      <node ref="J201" pin="70" pinfunction="Pin_70" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J201-Pin_74-Pad74)">
+      <node ref="J201" pin="74" pinfunction="Pin_74" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J204-Pin_1-Pad1)">
+      <node ref="J204" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J204-Pin_4-Pad4)">
+      <node ref="J204" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J205-Pin_1-Pad1)">
+      <node ref="J205" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J205-Pin_2-Pad2)">
+      <node ref="J205" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J205-Pin_3-Pad3)">
+      <node ref="J205" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J205-Pin_4-Pad4)">
+      <node ref="J205" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J206-ID-Pad4)">
+      <node ref="J206" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J305-Pin_1-Pad1)">
+      <node ref="J305" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J305-Pin_4-Pad4)">
+      <node ref="J305" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(SW201-Pad8)">
+      <node ref="SW201" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(SW201-Pad9)">
+      <node ref="SW201" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(SW301-Pad8)">
+      <node ref="SW301" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(SW301-Pad9)">
+      <node ref="SW301" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U201-~{RESET}-Pad6)">
+      <node ref="U201" pin="6" pinfunction="~{RESET}" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>
