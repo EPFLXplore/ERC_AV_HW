@@ -10,7 +10,7 @@ Collated Components:
 "1,""1"",""C201"",""68uF (EEHZA1V680XP)"",""Device:C_Polarized"",""Capacitor_SMD:CP_Elec_6.3x7.7"",""https://www.mouser.ch/datasheet/2/315/ABA0000C1221-1280637.pdf"","""",""Mouser"",""667-EEH-ZA1V680XP"",""EEH-ZA1V680XP"","""""
 "2,""1"",""C202"",""1uF 50V X7R"",""Device:C_Small"",""Capacitor_SMD:C_0603_1608Metric"",""https://www.mouser.ch/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf"","""",""Mouser"",""581-06035C105KAT2A"",""06035C105KAT2A"","""""
 "3,""1"",""C203"",""1uF 6.3V X7R"",""Device:C_Small"",""Capacitor_SMD:C_0603_1608Metric"",""https://www.mouser.ch/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"","""",""Mouser"",""80-C0603C105K9R"",""C0603C105K9RACTU"","""""
-0
+"4,""1"",""C204"",""10uF 6.3V X7R"",""Device:C_Small"",""Capacitor_SMD:C_1206_3216Metric"",""https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"","""",""Mouser"",""187-CL31B106KQHNFNE"",""CL31B106KQHNFNE"","""""
 "5,""3"",""C301, C302, C303"",""390uF 63V (UCZ1J391MNS1MS)"",""Device:C_Polarized"",""Capacitor_SMD:CP_Elec_16x17.5"",""https://www.mouser.ch/datasheet/2/293/e_ucz-1903374.pdf"","""",""Mouser"",""647-UCZ1J391MNS1MS"",""UCZ1J391MNS1MS"","""""
 "6,""4"",""C501, C502, C503, C504"",""330nF"",""Device:C"",""Capacitor_SMD:C_0603_1608Metric"",""https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"","""",""Mouser"",""810-C1608X7R1H334K"",""C1608X7R1H334K080AC"","""""
 "7,""2"",""C601, C602"",""220pF 50V C0G"",""Device:C"",""Capacitor_SMD:C_0603_1608Metric"",""https://www.mouser.ch/datasheet/2/315/AOA0000C304-1149620.pdf"","""",""Mouser"",""667-ERJ-3EKF2202V"",""ERJ-3EKF2202V"","""""
