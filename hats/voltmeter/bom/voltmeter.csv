@@ -1,0 +1,17 @@
+Reference,Total quantity, Quantity, Value, Footprint, Datasheet, Digikey ref, Manufacurer ref, Manufaturer ref, Manufacturer ref, TME ref
+C1 C2 C5 ,6,3,1uF,Capacitor_SMD:C_0603_1608Metric,,,,,,
+C3 ,5,1,62pF,Capacitor_SMD:C_0603_1608Metric,https://datasheets.kyocera-avx.com/U-Series.pdf,478-10243-1-ND,06031U620FAT2A,,,
+C4 ,2,1,0.1uF,Capacitor_SMD:C_0603_1608Metric,,,,,,
+D1 ,5,1,1N4148W,Diode_SMD:D_SOD-123,https://www.vishay.com/docs/85748/1n4148w.pdf,1655-1N4148WCT-ND,,IN4148W,,
+D2 ,5,1,DAZ23C3V0-7-F,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/AZ23C2V7-AZ23C51.pdf,AZ23C3V0-FDICT-ND,,,DAZ23C3V0-7-F,
+J1 ,2,1,XT30PW-M,0_connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf,,,,XT30PW-M,XT30PW-M
+J2 ,2,1,JST_Picoblade_I2C,0_connectors:PicoBlade-JST-GH-1x04_1.25mm_Vertical,,,,,,
+J3 ,2,1,Hat_connector_hole,0_connectors:Hat_connector_hole,,,,,,
+R1 R2 ,4,2,DNP,Capacitor_SMD:C_0603_1608Metric,,,,,,
+R3 ,5,1,100k,Capacitor_SMD:C_0603_1608Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf,YAG5936CT-ND,,,RT0603BRB07100KL,
+R4 ,5,1,100R,Capacitor_SMD:C_0603_1608Metric,,RMCF0603FT100RCT-ND,,,,
+RN1 ,2,1,MPMA10019001AT1,Package_TO_SOT_SMD:SOT-23,https://www.vishay.com/docs/60001/mpm.pdf,764-1561-1-ND,,,MPMA10019001AT1,
+RN2 ,2,1,MPMT2003AT1,Package_TO_SOT_SMD:SOT-23,https://www.vishay.com/docs/60001/mpm.pdf,MPMT-100K/100KCT-ND,,,MPMT2003AT1,
+U1 ,0,1,TPS7A2030PDBVR,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/tps7a20.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1667736407145,296-TPS7A2030PDBVRCT-ND,,,TPS7A2030PDBVR,
+U2 ,2,1,OPA2336,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/lit/ds/sbos068c/sbos068c.pdf,296-41352-1-ND,,,OPA2336UA/2K5,
+U3 ,2,1,ADS1113IDGS,Package_SO:TSSOP-10_3x3mm_P0.5mm,http://www.ti.com/lit/ds/symlink/ads1113.pdf,296-24930-1-ND,,,ADS1113IDGST,
