@@ -1750,6 +1750,10 @@
     (uuid faea23ce-b281-441b-98c9-350397f98547)
   )
 
+  (text "Back to overview" (at 283.845 180.34 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
+    (uuid 1b2a6ba2-2f56-446d-aaba-fbe0420fca29)
+  )
   (text "1) By using VIO instead of +3.3V, \nthe LEDs are powered off if the\nIC is not connected to USB.\n\n2) GPIO.0 and GPIO.1 need to be programmed\nto TXT/RXT with Xpress Configurator\n"
     (at 187.96 139.065 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
