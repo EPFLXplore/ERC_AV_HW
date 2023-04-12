@@ -465,8 +465,8 @@
       "idf": "",
       "netlist": "nav_controller_interface_v2.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../OneDrive/Bureau/nav_controller_interface_v2.step",
+      "vrml": "nav_controller_interface_v2.wrl"
     },
     "page_layout_descr_file": ""
   },
