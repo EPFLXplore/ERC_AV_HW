@@ -529,40 +529,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power 0.5A",
-        "pattern": "/USB to UART Bridge/CP_VBUS"
-      },
-      {
-        "netclass": "Power 0.5A",
-        "pattern": "/USB to UART Bridge/VBUS_FUSE"
-      },
-      {
-        "netclass": "Power 0.5A",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Power 0.5A",
-        "pattern": "VIO"
-      },
-      {
-        "netclass": "Power 2A",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Power 2A",
-        "pattern": "+3.3VA"
-      },
-      {
-        "netclass": "Power 3A",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power 3A",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

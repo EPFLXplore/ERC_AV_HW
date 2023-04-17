@@ -1672,6 +1672,10 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
     (uuid de8ea477-9278-4350-8d06-ec77eb9ca97d)
   )
+  (text "Back" (at 283.845 170.18 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#8"))
+    (uuid ea4777fa-cc84-4d49-964f-7ba2ca9849a4)
+  )
   (text "Short the correct pad to select between 3.3V and 5V \nfor the external connectors"
     (at 182.88 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
