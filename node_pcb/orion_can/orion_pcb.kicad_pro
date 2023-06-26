@@ -430,7 +430,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "0_power_symbols"
+    ]
   },
   "meta": {
     "filename": "orion_pcb.kicad_pro",
