@@ -1730,8 +1730,8 @@
     )
   )
 
-  (bus_alias "FDCAN1" (members "FDCAN1_TX" "FDCAN1_RX"))
   (bus_alias "FDCAN2" (members "FDCAN2_TX" "FDCAN2_RX"))
+  (bus_alias "FDCAN1" (members "FDCAN1_TX" "FDCAN1_RX"))
   (junction (at 248.285 74.295) (diameter 0) (color 0 0 0 0)
     (uuid 00c22b4a-6833-411d-ba61-cf5439d285a7)
   )
