@@ -7048,7 +7048,7 @@
     (property "Reference" "R221" (at 116.205 41.91 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "4k7" (at 116.205 40.005 0)
+    (property "Value" "100k" (at 116.205 40.005 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.475 41.275 0)
