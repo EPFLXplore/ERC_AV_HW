@@ -9,7 +9,7 @@
     (date "2023-06-30")
     (rev "4")
     (company "EPFL Xplore")
-    (comment 2 "Author: Vincent Nguyen")
+    (comment 4 "Author: Vincent Nguyen")
   )
 
   (lib_symbols
@@ -1765,6 +1765,7 @@
       )
     )
   )
+
 
   (junction (at 248.285 74.295) (diameter 0) (color 0 0 0 0)
     (uuid 00c22b4a-6833-411d-ba61-cf5439d285a7)
@@ -4178,7 +4179,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 9f0f7870-4ea5-469e-8795-c69be1f2e55a)
   )
-  (text "Back to overview" (at 407.035 266.7 0)
+  (text "Back to overview" (at 381.635 252.095 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
     (uuid a0df4725-d42c-47e8-aeb3-5335952cdf2a)
   )

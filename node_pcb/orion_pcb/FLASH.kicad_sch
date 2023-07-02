@@ -258,6 +258,7 @@
     )
   )
 
+
   (junction (at 111.125 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 4936e905-df27-4afe-b804-840a5e07d0ca)
   )
@@ -422,7 +423,7 @@
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 16d7bcb9-b276-416e-9b5c-443e3c411155)
   )
-  (text "Back to overview" (at 196.215 117.475 0)
+  (text "Back to overview" (at 171.45 102.87 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
     (uuid 25bca96a-277c-4b5d-aeed-d6288042fc1c)
   )

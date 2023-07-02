@@ -1321,6 +1321,7 @@
     )
   )
 
+
   (junction (at 68.58 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 0510f601-bbd8-4023-9077-0156d5b9ee9c)
   )
@@ -2137,7 +2138,7 @@
     (uuid ff9523a4-e5b0-4065-9054-7e211297bf6b)
   )
 
-  (rectangle (start 177.165 74.295) (end 281.94 162.56)
+  (rectangle (start 177.165 74.295) (end 281.94 156.21)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 22566bf5-336d-4b0a-8913-31b189bec083)
@@ -3294,7 +3295,7 @@
       SUVORK5CYII=
     )
   )
-  (image (at 230.505 97.155) (scale 0.940638)
+  (image (at 230.505 99.06) (scale 0.744119)
     (uuid cb3acb49-4a8c-4556-aa24-9f391faf165d)
     (data
       iVBORw0KGgoAAAANSUhEUgAAA8sAAAG+CAIAAAAr4wGjAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -4605,7 +4606,7 @@
       gg==
     )
   )
-  (image (at 230.505 137.16) (scale 0.933767)
+  (image (at 230.505 135.89) (scale 0.737996)
     (uuid e718b5b9-f3d6-4504-bd40-97c06f8e19b4)
     (data
       iVBORw0KGgoAAAANSUhEUgAAA9EAAAITCAIAAACPBQgvAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -6368,11 +6369,15 @@
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 4a0d4f3e-60b4-46dd-9a98-e39371d5c5c1)
   )
+  (text "Current ratings" (at 200.025 118.11 0)
+    (effects (font (size 2.032 2.032)) (justify left bottom))
+    (uuid 719bced9-3c75-4bd2-9785-d6530bfc56b8)
+  )
   (text "Switching converter connector" (at 19.685 20.32 0)
     (effects (font (size 2.54 2.54) bold) (justify left bottom))
     (uuid 7b504f65-fe43-4d4f-9015-05c6088fc10d)
   )
-  (text "Back to overview" (at 283.21 180.34 0)
+  (text "Back to overview" (at 258.445 165.1 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
     (uuid 949cab40-8fa2-4f84-b3f6-743325ce2ee1)
   )
@@ -6393,7 +6398,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ec399feb-ddc2-4327-8bc9-3d0cca47669f)
   )
-  (text "STM32H750 Absolute maximum ratings" (at 191.77 78.105 0)
+  (text "Voltage ratings" (at 200.025 83.82 0)
+    (effects (font (size 2.032 2.032)) (justify left bottom))
+    (uuid ecc29cf3-4d2b-4389-ab7e-5e24751fed81)
+  )
+  (text "STM32H750 Absolute maximum ratings" (at 200.025 79.375 0)
     (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
     (uuid ff1178d0-451b-4c2a-a2ef-5293d05d4fc0)
   )

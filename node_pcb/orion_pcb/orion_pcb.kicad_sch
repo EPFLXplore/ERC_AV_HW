@@ -9,7 +9,10 @@
     (date "2023-06-30")
     (rev "4")
     (company "EPFL Xplore")
-    (comment 2 "Author: Vincent Nguyen")
+    (comment 1 "Kerby Avionics motherboard ")
+    (comment 2 "MCU: STM32H750")
+    (comment 3 "Interfaces: CAN FD, UART, SPI, I2C")
+    (comment 4 "Author: Vincent Nguyen")
   )
 
   (lib_symbols

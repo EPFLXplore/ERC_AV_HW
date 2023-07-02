@@ -9,7 +9,8 @@
     (date "2023-06-30")
     (rev "4")
     (company "EPFL Xplore")
-    (comment 2 "Author: Vincent Nguyen")
+    (comment 1 "Standardized footprint for hats")
+    (comment 4 "Author: Vincent Nguyen")
   )
 
   (lib_symbols
@@ -543,7 +544,7 @@
     (effects (font (size 2.54 2.54) bold) (justify right bottom) (href "#10"))
     (uuid 440e76fb-d127-4d01-84ba-24ff34fc5cd2)
   )
-  (text "Back to overview" (at 196.215 117.475 0)
+  (text "Back to overview" (at 171.45 102.87 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
     (uuid 4f8a6593-c6fb-4e20-a69e-915c8c064c8e)
   )

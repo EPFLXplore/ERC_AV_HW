@@ -7,7 +7,7 @@
   (title_block
     (title "Hat Connector")
     (company "EPFL Xplore")
-    (comment 2 "Author: Vincent Nguyen")
+    (comment 4 "Author: Vincent Nguyen")
   )
 
   (lib_symbols
@@ -1453,6 +1453,7 @@
     )
   )
 
+
   (junction (at 226.06 73.025) (diameter 0) (color 0 0 0 0)
     (uuid 0dc723d4-e906-41cc-8e1f-b2459d752b43)
   )
@@ -1947,11 +1948,11 @@
     (effects (font (size 5.08 5.08) bold) (justify left bottom))
     (uuid 1d61f6fb-39dc-418e-b7a8-df50aaed3c27)
   )
-  (text "Back to overview" (at 283.845 179.705 0)
+  (text "Back to overview" (at 258.445 165.1 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#1"))
     (uuid de8ea477-9278-4350-8d06-ec77eb9ca97d)
   )
-  (text "Back" (at 283.845 170.18 0)
+  (text "Back" (at 258.445 170.18 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom) (href "#8"))
     (uuid ea4777fa-cc84-4d49-964f-7ba2ca9849a4)
   )
