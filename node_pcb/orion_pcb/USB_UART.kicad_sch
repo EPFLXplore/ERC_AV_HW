@@ -7,7 +7,7 @@
   (title_block
     (title "USB to UART Bridge")
     (company "EPFL Xplore")
-    (comment 2 "Author: Vincent Nguyen")
+    (comment 4 "Author: Vincent Nguyen")
   )
 
   (lib_symbols
