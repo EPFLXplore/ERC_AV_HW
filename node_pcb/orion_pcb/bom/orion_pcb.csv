@@ -51,7 +51,7 @@
 "50","1","R409","71k5","https://www.koaspeer.com/pdfs/RK73H.pdf","","Resistor_SMD:R_0402_1005Metric","2019-RK73H1ETTP7152FCT-ND","RK73H1ETTP7152F"
 "51","1","R410","6k04","https://www.koaspeer.com/pdfs/RK73H.pdf","","Resistor_SMD:R_0402_1005Metric","2019-RK73H1ETTP6041FCT-ND","RK73H1ETTP6041F"
 "52","4","R501, R502, R503, R504","60R","https://www.vishay.com/docs/20043/crcwhpe3.pdf","","Resistor_SMD:R_0603_1608Metric","541-60.4SCT-ND","CRCW060360R4FKEAHP"
-"53","1","SW201","CL-SB-12C-02","https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf","","0_switch_button:CL-SB-12C-01","563-1323-ND","CL-SB-12C-02"
+"53","1","SW201","CL-SB-12C-01","https://www.nidec-components.com/e/catalog/switch/cl-sb.pdf","","0_switch_button:CL-SB-12C-01","563-1322-ND","CL-SB-12C-01"
 "54","1","SW202","MJTP1140ATR","https://eu.mouser.com/datasheet/2/26/APPM_S_A0000728651_1-2538249.pdf","","0_switch_button:MJTP1140ATR","679-2420-1-ND","MJTP1140ATR"
 "55","1","SW203","218-4LPSTJ","https://www.ctscorp.com/wp-content/uploads/218.pdf","","0_switch_button:218-4LPSTJ","CT3109-ND","218-4LPSTJ"
 "56","2","SW501, SW502","CAS-220TA","https://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf","","0_switch_button:CAS-220A_NDC-L","CAS220JCT-ND","CAS-220TA"
