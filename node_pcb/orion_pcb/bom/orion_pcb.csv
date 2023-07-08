@@ -43,7 +43,7 @@
 "42","1","R303","1k","https://www.koaspeer.com/pdfs/RK73H.pdf","","Resistor_SMD:R_0402_1005Metric","RK73H1ETTP1001F","2019-RK73H1ETTP1001FCT-ND"
 "43","1","R401","5k1","https://www.koaspeer.com/pdfs/RK73H.pdf","","Resistor_SMD:R_0402_1005Metric","2019-RK73H1ETTP5101FCT-ND","RK73H1ETTP5101F"
 "44","3","R402, R408, R413","100k","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf","","Resistor_SMD:R_0402_1005Metric","13-AC0402FR-7W100KLCT-ND","AC0402FR-7W100KL"
-"45","5","R403, R411, R901, R1001, R1101","10k","https://www.seielect.com/Catalog/SEI-RNCP.pdf","","Resistor_SMD:R_0603_1608Metric","RNCP0603FTD10K0CT-ND","RNCP0603FTD10K0"
+"45","6","R403, R411, R414, R901, R1001, R1101","10k","https://www.seielect.com/Catalog/SEI-RNCP.pdf","","Resistor_SMD:R_0603_1608Metric","RNCP0603FTD10K0CT-ND","RNCP0603FTD10K0"
 "46","1","R404","9k53","https://www.koaspeer.com/pdfs/RK73H.pdf","","Resistor_SMD:R_0402_1005Metric","2019-RK73H1ETTP9531FCT-ND","RK73H1ETTP9531F"
 "47","1","R405","470k","https://www.te.com/usa-en/product-5-2176325-7.datasheet.pdf","","Resistor_SMD:R_0402_1005Metric","A130387CT-ND","CRGP0402F470K"
 "48","1","R406","110k","https://www.koaspeer.com/pdfs/RK73H.pdf","","Resistor_SMD:R_0402_1005Metric","2019-RK73H1ETTP1103FCT-ND","RK73H1ETTP1103F"
