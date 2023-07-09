@@ -6,9 +6,11 @@
 
   (paper "A5")
   (title_block
-    (title "Orion Power Supply PCB (Meissa)")
+    (title "Orion Power Supply PCB (Meissa v2)")
+    (date "2023-07-09")
+    (rev "2")
     (company "EPFL Xplore")
-    (comment 2 "Author: Vincent Nguyen")
+    (comment 4 "Author: Vincent Nguyen")
   )
 
   (layers

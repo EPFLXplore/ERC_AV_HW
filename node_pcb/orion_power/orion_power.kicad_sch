@@ -5,8 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "3.3V/5V Dual-channel Switching Regulator")
-    (rev "1")
+    (title "Meissa v2: 3.3V/5V Switching Regulator")
+    (date "2023-07-09")
+    (rev "2")
     (company "EPFL Xplore")
     (comment 1 "Nominal input: 4-30 V (5.1 V min for 5V output)")
     (comment 2 "Absolute maximum ratings: -40 V to 36 V")
