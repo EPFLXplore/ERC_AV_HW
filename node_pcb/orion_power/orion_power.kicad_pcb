@@ -1005,11 +1005,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIiIsICJGb250Q29tYm9Cb3giOiAiYXJlbWF0IGZvbnQiLCAiSGVpZ2h0Q3RybCI6ICIxIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5NYXNrIiwgIk11bHRpTGluZVRleHQiOiAiSnVseSAyMDIzIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjIiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjIiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIyIiwgIlBhZGRpbmdUb3BDdHJsIjogIjIiLCAiV2lkdGhDdHJsIjogIjQifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-64AAA738" (at 0 -3.776663) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp c418766c-6477-44cf-aeb4-b2ee3903f676)
     )
     (fp_text value "G***" (at 0 3.776663) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 92f555b4-86ea-4689-95ea-4248de384bc4)
     )
     (fp_poly
@@ -2636,11 +2636,11 @@
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-634922CB" (at 0 3.693054) (layer "B.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
-      (tstamp fb9cb37d-9d2a-4976-957a-72be6f2b7853)
+      (tstamp eb65d487-84f6-4f7a-b454-295905d11b08)
     )
     (fp_text value "G***" (at 0 -3.693054) (layer "B.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
-      (tstamp 536dd33d-080c-4699-87ae-e48c62e762e8)
+      (tstamp 2c803e31-03a5-46a7-87d7-7cf412832a20)
     )
     (fp_poly
       (pts
@@ -2797,7 +2797,7 @@
         (xy -1.119187 0.645054)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 29bd7086-6e76-4234-bf4a-1b4c639dfff1))
+      (stroke (width 0) (type solid)) (fill solid) (layer "B.SilkS") (tstamp e9a0503e-0c2f-4821-b925-70153c783d24))
   )
 
   (footprint "Diode_SMD:D_SMB" (layer "B.Cu")
@@ -3363,11 +3363,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIiIsICJGb250Q29tYm9Cb3giOiAiVWJ1bnR1TW9uby1CIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuTWFzayIsICJNdWx0aUxpbmVUZXh0IjogInYyIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjIiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjIiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIyIiwgIlBhZGRpbmdUb3BDdHJsIjogIjIiLCAiV2lkdGhDdHJsIjogIjQifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-64AA9EDE" (at 0 3.550444) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 1750dee8-33bd-409b-ba99-d3ae9a4c3a8a)
     )
     (fp_text value "G***" (at 0 -3.550444) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp e0aa7390-4675-4b34-a902-7c92b07050f3)
     )
     (fp_poly
@@ -3793,7 +3793,7 @@
     (property "ki_keywords" "N-Channel MOSFET")
     (path "/d90efc46-2181-4014-97a3-52ed8a0299d9")
     (attr smd)
-    (fp_text reference "Q1" (at 3.15 -3.425) (layer "B.SilkS")
+    (fp_text reference "Q1" (at -4.225 1.5) (layer "B.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp f96af169-a274-4d03-8e50-4f72987f56ab)
     )
@@ -4379,11 +4379,11 @@
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-634922C3" (at 0 3.681942) (layer "B.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
-      (tstamp 0f4ab846-8451-4658-b7ee-5717a08a02c4)
+      (tstamp 8515ab71-6e23-41f1-9f45-54e43b2302f3)
     )
     (fp_text value "G***" (at 0 -3.681942) (layer "B.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
-      (tstamp 57c84243-eec9-4408-a0ce-dfa4c5561c34)
+      (tstamp f7b43917-50e6-4593-8eeb-1e1372a36d46)
     )
     (fp_poly
       (pts
@@ -4481,7 +4481,7 @@
         (xy -0.756444 0.633942)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 7918acd5-7237-4bc4-9d41-f02749d8bc06))
+      (stroke (width 0) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 2504ddea-ee72-41c7-93b2-fbccf21cdf49))
   )
 
   (footprint "0_inductor:0640CDMCCDS-2R2MC" (layer "B.Cu")
@@ -4495,7 +4495,7 @@
     (property "ki_keywords" "inductor choke coil reactor magnetic")
     (path "/2fc9ecba-59cf-4568-b853-7f8ddd0d5712")
     (attr smd)
-    (fp_text reference "L1" (at -0.015 -4.120001 unlocked) (layer "B.SilkS")
+    (fp_text reference "L1" (at -4.34 -2.895001 unlocked) (layer "B.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 270c2ff2-9067-4471-bc9b-80c84d6e1fd5)
     )
@@ -4643,11 +4643,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJhcmVtYXQgZm9udCIsICJIZWlnaHRDdHJsIjogIjEuNyIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICI0LTM2IFYiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMiIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiMiJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-64AA9C09" (at 0 4.266036 270) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp ab50b4db-bf2c-4817-ae9a-f7aaefb1a612)
     )
     (fp_text value "G***" (at 0 -4.266036 270) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 02f53057-730b-422c-82bd-a6ba924df91b)
     )
     (fp_poly
