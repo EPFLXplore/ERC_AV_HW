@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "0_ISOLATED_PWM")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/0_ISOLATED_PWM.kicad_sym")(options "")(descr ""))
-)

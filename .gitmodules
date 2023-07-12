@@ -4,6 +4,3 @@
 [submodule "hats/lib/orion_lib"]
 	path = hats/lib/orion_lib
 	url = https://github.com/EPFLXplore/orion_lib.git
-[submodule "lib/orion_lib"]
-	path = lib/orion_lib
-	url = https://github.com/EPFLXplore/orion_lib.git

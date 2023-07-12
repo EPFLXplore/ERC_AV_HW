@@ -1,8 +1,0 @@
-Reference, Quantity, Value, Footprint, Datasheet, Digikey ref, Manufacturer ref, Datasheet2, Digikey ref2, Manufacturer ref2, Comments
-C1 C2 C4 C5 C6 C8 ,6,0.1uF,Capacitor_SMD:C_0603_1608Metric,,1276-1935-1-ND,CL10B104KB8NNWC,,,,
-C3 C7 C9 C10 ,4,100pF,Capacitor_SMD:C_0603_1608Metric,https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf,478-1175-1-ND,06035A101JAT2A,,,,
-J1 ,1,Terminal block 01x04,0_Jetson_board:1725672,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725672.pdf,277-1275-ND,1725672,,,,
-J2 J4 ,2,Terminal block 01x05,0_Jetson_board:1725685,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725685.pdf,277-1276-ND,1725685,,,,
-J3 ,1,Conn_02x20_Odd_Even,0_Jetson_board:2x20 2.54mm Socket,https://drawings-pdf.s3.amazonaws.com/10494.pdf,S5534-ND,PPTC202LJBN-RC,https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf,S6104-ND,PPTC202LFBN-RC,
-R1 R2 R3 R4 ,4,60R,Resistor_SMD:R_0603_1608Metric,https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf,RMCF0603FT60R4CT-ND,RMCF0603FT60R4,,,,
-U1 U2 ,2,SN65HVD232QDR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf,,,,,,We already have some stock
