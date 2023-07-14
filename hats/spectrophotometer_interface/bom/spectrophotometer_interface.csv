@@ -1,0 +1,3 @@
+"Item","Qty","Reference(s)","Value","Datasheet","DNP","Footprint","Digikey ref","Manufacturer ref"
+"1","1","J1","Hat_connector_hole","","","0_connectors:Hat_connector_hole","",""
+"2","1","J2","B6B-XH-A(LF)(SN)","https://www.jst-mfg.com/product/pdf/eng/eXH.pdf","","Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical","455-2271-ND","B6B-XH-A(LF)(SN)"
