@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\servo_level_shifter\servo_level_shifter.kicad_sch</source>
+    <date>15/07/2023 19:57:20</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TXB104 Bi-directional Voltage Translator Hat</title>
+        <company>EPFL Xplore</company>
+        <rev>2</rev>
+        <date>2023-07-15</date>
+        <source>servo_level_shifter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Vincent Nguyen"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser ref" value=""/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2546125f-c3b5-41ac-8c52-84b880b80620</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser ref" value=""/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94334531-75a5-4d7e-b493-795da5264d12</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser ref" value=""/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7e4d9a5-b204-4e12-aaf9-284bc673a310</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser ref" value=""/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a4aae67-e828-445c-8588-dbb8a52e44da</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Hat_connector_hole</value>
+      <footprint>0_connectors:Hat_connector_hole</footprint>
+      <libsource lib="0_connectors" part="Hat_connector_hole" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2821f7e4-bb6d-4edf-9ad1-bb611d7411e3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">455-2248-ND</field>
+        <field name="Manufacturer ref">B3B-XH-A(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer ref" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Digikey ref" value="455-2248-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50c2dd29-4c0b-4b3e-9c17-d72b6adbcaf7</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">455-2248-ND</field>
+        <field name="Manufacturer ref">B3B-XH-A(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer ref" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Digikey ref" value="455-2248-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e086b9fe-df09-4a42-8e2f-36682c3764b6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">455-2248-ND</field>
+        <field name="Manufacturer ref">B3B-XH-A(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer ref" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Digikey ref" value="455-2248-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b9ecdcc-da74-43a3-b41d-bdca7d5ba70a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>B3B-XH-A(LF)(SN)</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">455-2248-ND</field>
+        <field name="Manufacturer ref">B3B-XH-A(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer ref" value="B3B-XH-A(LF)(SN)"/>
+      <property name="Digikey ref" value="455-2248-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>092f3077-ed10-46bb-887b-2ce26d849702</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>XT30U-M</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical</footprint>
+      <datasheet>https://www.tme.eu/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer ref">XT30U-M</field>
+        <field name="TME ref">XT30U-M</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer ref" value="XT30U-M"/>
+      <property name="TME ref" value="XT30U-M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e595067a-96a2-47b7-b356-72a6c0859644</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0148f232-dabe-4de7-8c00-06477cd45644</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f129959-41bc-4faa-999a-8f9b59f8c65e</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec650946-2995-4f22-b7dc-dfe722c9359f</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c6494f1-68d2-4541-8460-225ab385c079</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c59ca9d-108c-4c66-a638-530f73b53303</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>935b9592-bf84-473b-9281-873d48c657de</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer ref">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer ref" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bf353b8-947c-4960-ae9f-3bd9e692d9a2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>25mR</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/cra.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">CRA2512-FZ-R025ELFCT-ND</field>
+        <field name="Manufacturer ref">CRA2512-FZ-R025ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey ref" value="CRA2512-FZ-R025ELFCT-ND"/>
+      <property name="Manufacturer ref" value="CRA2512-FZ-R025ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11f8cec3-aa35-4fb2-a7f1-c74b880127dc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer ref">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer ref" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cc2702e-087a-43f0-930c-b8bf8ab2d884</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer ref">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer ref" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccbc4c0e-fe87-42b6-8fa2-447cd3b53005</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.te.com/usa-en/product-1622877-1.datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">A121559CT-ND</field>
+        <field name="Manufacturer ref">CRG0603F1M0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="A121559CT-ND"/>
+      <property name="Manufacturer ref" value="CRG0603F1M0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28048168-b7cb-4361-ac1a-b988b909e4d7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>681k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">311-681KHRCT-ND</field>
+        <field name="Manufacturer ref">RC0603FR-07681KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="311-681KHRCT-ND"/>
+      <property name="Manufacturer ref" value="RC0603FR-07681KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd5e28f5-b95d-4e9b-b298-4c210c07273f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.te.com/usa-en/product-1622877-1.datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">A121559CT-ND</field>
+        <field name="Manufacturer ref">CRG0603F1M0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="A121559CT-ND"/>
+      <property name="Manufacturer ref" value="CRG0603F1M0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bda4b653-49e7-4670-9c00-758a1c506c2b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>681k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">311-681KHRCT-ND</field>
+        <field name="Manufacturer ref">RC0603FR-07681KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="311-681KHRCT-ND"/>
+      <property name="Manufacturer ref" value="RC0603FR-07681KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88884c23-4dec-4894-822a-ee283794bcdc</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24d6ddcd-c145-4daa-b2f5-abf8e21513e6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2ac7e60-c315-48b1-a85b-5b023eb6827d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TXB0104PWR</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0104.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">296-21929-1-ND</field>
+        <field name="Manufacturer ref">TXB0104PWR</field>
+      </fields>
+      <libsource lib="Logic_LevelTranslator" part="TXB0104PW" description="4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"/>
+      <property name="Digikey ref" value="296-21929-1-ND"/>
+      <property name="Manufacturer ref" value="TXB0104PWR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"/>
+      <property name="ki_keywords" value="Level-Shifter CMOS-TTL-Translation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e20082f9-b5b1-49e0-a843-c8769428f0f1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LTC4316</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">505-LTC4316IMS#PBF-ND</field>
+        <field name="Manufacturer ref">LTC4316IMS#PBF</field>
+      </fields>
+      <libsource lib="0_interface_expansion" part="LTC4316" description="Address Translator Interface 10-MSOP"/>
+      <property name="Digikey ref" value="505-LTC4316IMS#PBF-ND"/>
+      <property name="Manufacturer ref" value="LTC4316IMS#PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Address Translator Interface 10-MSOP"/>
+      <property name="ki_keywords" value="IC INTERFACE SPECIALIZED 10MSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39f2be73-9959-45b4-a710-533767823e38</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>INA219AIDCNR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina219.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">296-23770-1-ND</field>
+        <field name="Manufacturer ref">INA219AIDCNR</field>
+      </fields>
+      <libsource lib="0_sensor_energy" part="INA219AxDCN" description="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8"/>
+      <property name="Digikey ref" value="296-23770-1-ND"/>
+      <property name="Manufacturer ref" value="INA219AIDCNR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="servo_level_shifter.kicad_sch"/>
+      <property name="ki_description" value="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8"/>
+      <property name="ki_keywords" value="ADC I2C 16-Bit Oversampling Current Shunt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>076f58f5-aa68-4c26-a612-8ee98f1ac465</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_connectors" part="Hat_connector_hole">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Hat_connector_hole</field>
+        <field name="Footprint">0_connectors:Hat_connector_hole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3.3V" type="power_in"/>
+        <pin num="3" name="SPI_SCK" type="output"/>
+        <pin num="4" name="SPI_MOSI" type="output"/>
+        <pin num="5" name="SPI_MISO" type="input"/>
+        <pin num="6" name="SPI_CS" type="output"/>
+        <pin num="7" name="I2C_SCL" type="output"/>
+        <pin num="8" name="I2C_SDA" type="bidirectional"/>
+        <pin num="9" name="GPIO_1" type="bidirectional"/>
+        <pin num="10" name="GPIO_2" type="bidirectional"/>
+        <pin num="11" name="GPIO_3" type="bidirectional"/>
+        <pin num="12" name="GPIO_4" type="bidirectional"/>
+        <pin num="13" name="GPIO_5" type="bidirectional"/>
+        <pin num="14" name="GPIO_6" type="bidirectional"/>
+        <pin num="15" name="5V" type="power_in"/>
+        <pin num="16" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_graphic" part="Xplore_Logo">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">Xplore_Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="0_interface_expansion" part="LTC4316">
+      <description>Address Translator Interface 10-MSOP</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="XORH" type="input"/>
+        <pin num="3" name="XORL" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="ENABLE" type="input"/>
+        <pin num="6" name="READY" type="open_collector"/>
+        <pin num="7" name="SDAIN" type="bidirectional"/>
+        <pin num="8" name="SDAOUT" type="bidirectional"/>
+        <pin num="9" name="SCLOUT" type="output"/>
+        <pin num="10" name="SCLIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_sensor_energy" part="INA219AxDCN">
+      <description>Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina219.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA219AxDCN</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-8</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina219.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VS" type="power_in"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="A1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="TXB0104PW">
+      <description>4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txb0104.pdf</docs>
+      <footprints>
+        <fp>TSSOP*14*5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0104PW</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/txb0104.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="bidirectional"/>
+        <pin num="3" name="A2" type="bidirectional"/>
+        <pin num="4" name="A3" type="bidirectional"/>
+        <pin num="5" name="A4" type="bidirectional"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OE" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="B4" type="bidirectional"/>
+        <pin num="11" name="B3" type="bidirectional"/>
+        <pin num="12" name="B2" type="bidirectional"/>
+        <pin num="13" name="B1" type="bidirectional"/>
+        <pin num="14" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_connectors">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\servo_level_shifter/../lib/orion_lib/lib_sym/0_connectors.kicad_sym</uri>
+    </library>
+    <library logical="0_graphic">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\servo_level_shifter/../lib/orion_lib/lib_sym/0_graphic.kicad_sym</uri>
+    </library>
+    <library logical="0_interface_expansion">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\servo_level_shifter/../lib/orion_lib/lib_sym/0_interface_expansion.kicad_sym</uri>
+    </library>
+    <library logical="0_sensor_energy">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\lib\orion_lib\lib_sym\0_sensor_energy.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Logic_LevelTranslator.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="3.3V" pintype="power_in"/>
+      <node ref="JP6" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="5V" pintype="power_in"/>
+      <node ref="J1" pin="16" pinfunction="5V" pintype="power_in"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="3" name="+VEXT">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="4" name="/A1">
+      <node ref="J1" pin="9" pinfunction="GPIO_1" pintype="bidirectional"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/A2">
+      <node ref="J1" pin="10" pinfunction="GPIO_2" pintype="bidirectional"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/A3">
+      <node ref="J1" pin="11" pinfunction="GPIO_3" pintype="bidirectional"/>
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/A4">
+      <node ref="J1" pin="12" pinfunction="GPIO_4" pintype="bidirectional"/>
+      <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/B1">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/B2">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/B3">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/B4">
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="B4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/EN">
+      <node ref="JP6" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="ENABLE" pintype="input"/>
+    </net>
+    <net code="13" name="/OE">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="OE" pintype="input"/>
+    </net>
+    <net code="14" name="/PWM1">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="15" name="/PWM2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="16" name="/PWM3">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="17" name="/PWM4">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="18" name="/SCL">
+      <node ref="J1" pin="7" pinfunction="I2C_SCL" pintype="output"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SCLIN" pintype="input"/>
+    </net>
+    <net code="19" name="/SCLOUT">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SCLOUT" pintype="output"/>
+      <node ref="U3" pin="5" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="20" name="/SDA">
+      <node ref="J1" pin="8" pinfunction="I2C_SDA" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="SDAIN" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SDAOUT">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="SDAOUT" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/VIN+">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="23" name="/VIN-">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="24" name="/XORH">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="XORH" pintype="input"/>
+    </net>
+    <net code="25" name="/XORL">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="XORL" pintype="input"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="27" name="unconnected-(J1-GPIO_5-Pad13)">
+      <node ref="J1" pin="13" pinfunction="GPIO_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J1-GPIO_6-Pad14)">
+      <node ref="J1" pin="14" pinfunction="GPIO_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J1-SPI_CS-Pad6)">
+      <node ref="J1" pin="6" pinfunction="SPI_CS" pintype="output+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J1-SPI_MISO-Pad5)">
+      <node ref="J1" pin="5" pinfunction="SPI_MISO" pintype="input+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J1-SPI_MOSI-Pad4)">
+      <node ref="J1" pin="4" pinfunction="SPI_MOSI" pintype="output+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J1-SPI_SCK-Pad3)">
+      <node ref="J1" pin="3" pinfunction="SPI_SCK" pintype="output+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-NC-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-NC-Pad9)">
+      <node ref="U1" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U2-READY-Pad6)">
+      <node ref="U2" pin="6" pinfunction="READY" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>
