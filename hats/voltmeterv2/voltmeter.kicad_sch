@@ -3227,58 +3227,6 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -3505,6 +3453,7 @@
     )
   )
 
+
   (junction (at 231.775 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 00b22824-35e5-43a2-8a20-4ced8f513ff0)
   )
@@ -3594,6 +3543,9 @@
   )
   (junction (at 101.6 156.21) (diameter 0) (color 0 0 0 0)
     (uuid 8da3e89d-1762-4077-80c2-4a11ebb10c90)
+  )
+  (junction (at 247.65 97.79) (diameter 0) (color 0 0 0 0)
+    (uuid 962c885d-3a3f-47bb-b153-7a4b96013c78)
   )
   (junction (at 167.64 99.695) (diameter 0) (color 0 0 0 0)
     (uuid 972c5491-e307-4641-b142-2b2a250abca8)
@@ -5430,31 +5382,6 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 140.97 189.865 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 220dcba6-7b02-4c77-863f-b2143234dda6)
-    (property "Reference" "#FLG0102" (at 140.97 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 140.97 194.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 140.97 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 140.97 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ec260a04-19ec-4924-982a-88ecdaf4cd13))
-    (instances
-      (project "voltmeter"
-        (path "/f9053b1a-c2bb-4b6b-92a4-b83e5d4179a7"
-          (reference "#FLG0102") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 51.435 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 221c1707-71ef-41e9-b956-8772e218ff7e)
@@ -6276,6 +6203,31 @@
       (project "voltmeter"
         (path "/f9053b1a-c2bb-4b6b-92a4-b83e5d4179a7"
           (reference "JP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 247.65 97.79 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4a1beb63-2c48-4472-9f01-288f1f02b4b4)
+    (property "Reference" "#FLG02" (at 245.745 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 242.57 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 247.65 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 247.65 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 05654e0b-e69e-4da7-a5d5-019ad0fcac75))
+    (instances
+      (project "voltmeter"
+        (path "/f9053b1a-c2bb-4b6b-92a4-b83e5d4179a7"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -7801,31 +7753,6 @@
       (project "voltmeter"
         (path "/f9053b1a-c2bb-4b6b-92a4-b83e5d4179a7"
           (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 140.97 189.865 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ea2aabc4-ae70-455c-96fa-3184946c995b)
-    (property "Reference" "#PWR0102" (at 140.97 193.675 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 140.97 186.055 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 140.97 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 140.97 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 36bbfe56-5723-46b1-8e2b-373f60e755df))
-    (instances
-      (project "voltmeter"
-        (path "/f9053b1a-c2bb-4b6b-92a4-b83e5d4179a7"
-          (reference "#PWR0102") (unit 1)
         )
       )
     )
