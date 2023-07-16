@@ -8,4 +8,5 @@
   (lib (name "0_mux")(type "KiCad")(uri "C:/Users/ybakk/AV_HW_workspace/hats/lib/orion_lib/lib_fp/0_mux.pretty")(options "")(descr ""))
   (lib (name "0_switch_button")(type "KiCad")(uri "C:/Users/ybakk/AV_HW_workspace/hats/lib/orion_lib/lib_fp/0_switch_button.pretty")(options "")(descr ""))
   (lib (name "0_various")(type "KiCad")(uri "C:/Users/ybakk/AV_HW_workspace/hats/lib/orion_lib/lib_fp/0_various.pretty")(options "")(descr ""))
+  (lib (name "footprint.ugly")(type "KiCad")(uri "${KIPRJMOD}/footprint.ugly")(options "")(descr ""))
 )
