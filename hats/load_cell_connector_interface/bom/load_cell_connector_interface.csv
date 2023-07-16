@@ -1,0 +1,3 @@
+"Item","Qty","Reference(s)","Value","Datasheet","DNP","Footprint","Digikey ref","Manufacturer ref"
+"1","1","J1","Terminal block 2.54mm 01x04","https://www.phoenixcontact.com/product/pdf/api/v1/MTcyNTY3Mg?_realm=us&_locale=en-US&blocks=commercial-data%2Ctechnical-data%2Cdrawings%2Capprovals%2Cclassifications%2Cenvironmental-compliance-data%2Call-accessories","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal","277-1275-ND","1725672"
+"2","1","J3","B5B-PH-K-S","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","","Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical","455-1707-ND","B5B-PH-K-S"
