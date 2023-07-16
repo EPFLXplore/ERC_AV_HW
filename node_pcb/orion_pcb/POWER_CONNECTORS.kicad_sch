@@ -6677,7 +6677,7 @@
   (symbol (lib_id "0_transistor:PJA3404") (at 128.27 42.545 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b05c934-6259-4af2-8063-6c3e5867c309)
-    (property "Reference" "Q1" (at 128.27 48.26 90)
+    (property "Reference" "Q401" (at 128.27 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DMN313DLT-7" (at 128.27 50.165 90)
@@ -6701,7 +6701,7 @@
     (instances
       (project "orion_pcb"
         (path "/a74c9b1d-0c19-426f-815b-ee7b514487ba/af32da82-ad52-4859-b708-d110e72e3164"
-          (reference "Q1") (unit 1)
+          (reference "Q401") (unit 1)
         )
       )
       (project "orion_power"
