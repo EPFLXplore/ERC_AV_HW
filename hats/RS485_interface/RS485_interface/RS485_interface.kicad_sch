@@ -8,7 +8,7 @@
     (title "RS485 interface board")
     (date "2023-07-14")
     (company "EPFL Xplore")
-    (comment 3 "Author : Your mom")
+    (comment 3 "Author : Yassine Bakkali")
   )
 
   (lib_symbols
@@ -15195,6 +15195,11 @@
   (text "It's just a phase\n" (at 36.195 16.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1dbe7098-e05d-45d4-b535-c6805cfc8d3b)
+  )
+  (text "Come, come and put that disgusting \nmission patch here. I dare you"
+    (at 219.075 177.165 0)
+    (effects (font (size 2.27 2.27) (thickness 0.454) bold) (justify left bottom))
+    (uuid d038fa76-6f96-4451-b3c9-b55ca46a7b7d)
   )
 
   (label "RS485+" (at 67.945 149.225 0) (fields_autoplaced)

@@ -4,9 +4,12 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "A5")
   (title_block
-    (comment 4 "AISLER Project ID: JIZAFIGH")
+    (title "RS485 Transceiver")
+    (date "2023-07-16")
+    (company "EPFL Xplore")
+    (comment 3 "Made by : Yassine Bakkali")
   )
 
   (layers
