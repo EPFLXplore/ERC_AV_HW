@@ -40,12 +40,12 @@
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.7999999999999999,
+        "silk_text_size_v": 0.7999999999999999,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -111,21 +111,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.19999999999999998,
+        "min_via_diameter": 0.7,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -144,7 +144,7 @@
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -153,7 +153,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -162,7 +162,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -173,22 +173,15 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.2,
-        0.25,
         0.3,
-        0.35,
-        0.4,
-        0.5
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.2
         },
         {
           "diameter": 0.7,
@@ -420,7 +413,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jetson_hat.kicad_pro",
+    "filename": "RS485_interface.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -438,8 +431,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -454,12 +447,12 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "RS485_interface.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "misc/xplore_kerby_template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -484,9 +477,9 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "net_format_name": "KiCad",
+    "page_layout_descr_file": "misc\\xplore_kerby_template.kicad_wks",
+    "plot_directory": "plot/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -497,28 +490,8 @@
   },
   "sheets": [
     [
-      "0f916fab-c833-4dfb-8571-38d2e6873b9d",
+      "081a85a0-6dfd-4a8e-ab24-960c7853fa8e",
       ""
-    ],
-    [
-      "412da465-9a49-40c6-bf39-4223ae752f73",
-      "FDCAN_TRANSCEIVER"
-    ],
-    [
-      "338a4b16-6a67-4db1-894d-66a6e6c0ed60",
-      "FDCAN_TRANSCEIVER1"
-    ],
-    [
-      "ccc13411-bfab-44d5-ad1e-9fab96777b0b",
-      "UART_TRANSCEIVER"
-    ],
-    [
-      "269f8fd4-d9cb-4a1b-b3fd-fc3b4f7de878",
-      "SPI_FDCAN_CONTROLLER"
-    ],
-    [
-      "994563d5-1235-4e37-ab4d-0afda01e2bfb",
-      "FDCAN_TRANSCEIVER2"
     ]
   ],
   "text_variables": {}
