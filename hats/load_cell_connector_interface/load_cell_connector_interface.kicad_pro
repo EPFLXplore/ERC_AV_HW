@@ -450,7 +450,7 @@
       "idf": "",
       "netlist": "load_cell_connector_interface.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/load_cell_connector_interface.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -3,7 +3,7 @@
 "2","15","C202, 204, 206, 208, 210, 212, 217, 303, 403-04, 509-12, 601","100nF","https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf","","Capacitor_SMD:C_0402_1005Metric","587-3498-1-ND","UMK105B7104KV-FR"
 "3","2","C203, 207","6pF","https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf","","Capacitor_SMD:C_0402_1005Metric","311-3707-1-ND","CC0402BRNPO9BN6R0"
 "4","8","C205, 209, 301-02, 401-02, 405, 408","1uF","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01.pdf","","Capacitor_SMD:C_0402_1005Metric","490-13339-1-ND","GRM155R70J105KA12J"
-"5","1","C211","10nF","https://datasheets.kyocera-avx.com/KGM_X7R.pdf","","Capacitor_SMD:C_0402_1005Metric","478-1113-1-ND","04023C103KAT2A"
+"5","1","C211","10nF","https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf","","Capacitor_SMD:C_0402_1005Metric","445-6893-1-ND","CGA2B3X7R1H103K050BB"
 "6","2","C213-14","2.2uF","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf","","Capacitor_SMD:C_0402_1005Metric","490-GRM155Z71A225KE44DCT-ND","GRM155Z71A225KE44D"
 "7","2","C215-16","3.9pF","https://www.johansontechnology.com/downloads/catalog/johanson-technology-multi-layer-high-q-capacitors.pdf","","Capacitor_SMD:C_0402_1005Metric","712-1401-1-ND","500R07S3R9BV4T"
 "8","1","C406","DNP","~","DNP","Capacitor_SMD:C_0402_1005Metric","",""
