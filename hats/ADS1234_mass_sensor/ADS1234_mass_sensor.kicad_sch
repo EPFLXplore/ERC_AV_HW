@@ -3138,8 +3138,8 @@
     (effects (font (size 2.54 2.54) (thickness 0.254) bold) (justify left bottom))
     (uuid 23ae917c-70e7-4209-b33d-58baf5f66dfd)
   )
-  (text "Translation bytes: 0x66 = 0b1100110\nTranslated address: XOR(0x00, 0x66) = 0x66"
-    (at 119.38 86.36 0)
+  (text "Translation bytes: 0x0C = 0b00001100\nTranslated address: XOR(0x00, 0x0C) \n= 0x0C = 12 (decimal)\nFor some reason it finds 78..."
+    (at 120.65 89.535 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 38e12b2a-1eef-4175-946d-de5f4b5370d7)
   )
@@ -3783,7 +3783,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 133.985 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 1968718d-5ea4-4cc1-9f3a-a6510726bfb0)
     (property "Reference" "R7" (at 135.89 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))

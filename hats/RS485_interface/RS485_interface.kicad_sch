@@ -2401,7 +2401,6 @@
     )
   )
 
-
   (junction (at 255.905 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 013895f8-c4c7-4c60-a84e-3acf14fb1177)
   )
@@ -3189,8 +3188,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07c1e486-5b10-415a-85b1-04012403b123)
   )
-  (text "Translation bytes: 0x55 = 0b1010101\nTranslated address: XOR(0x00, 0x55) = 0x55"
-    (at 71.755 86.995 0)
+  (text "Translation bytes: 0x0A = 0b00001010\nTranslated address: XOR(0x00, 0x0A) \n= 0x0A = 10 (decimal)\nFor some reason, the address received is 77"
+    (at 68.58 92.075 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 239f49bf-cbfa-4888-a7aa-a42c9ae8186f)
   )
@@ -5043,7 +5042,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 86.36 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid b8f1ea01-5eb8-4916-8bf3-c9e31518abb7)
     (property "Reference" "R10" (at 88.265 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
