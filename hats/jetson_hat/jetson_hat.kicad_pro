@@ -454,7 +454,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "jetson_hat.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -484,8 +484,8 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "page_layout_descr_file": "",
+    "net_format_name": "KiCad",
+    "page_layout_descr_file": "misc\\xplore_kerby_template.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
