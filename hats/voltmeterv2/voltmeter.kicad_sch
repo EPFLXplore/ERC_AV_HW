@@ -7,7 +7,7 @@
   (title_block
     (title "30 V Voltmeter Hat")
     (date "2023-07-13")
-    (rev "3")
+    (rev "3.1")
     (company "EPFL Xplore")
     (comment 1 "Nominal input differential voltage: -30 to 30 V")
     (comment 2 "Absolute maximum ratings: -33 to 33 V")
