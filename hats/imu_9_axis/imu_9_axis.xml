@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\imu_9_axis\imu_9_axis.kicad_sch</source>
+    <date>20/07/2023 02:46:29</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BMI088 + LIS3MDL 9-axis IMU Hat</title>
+        <company>EPFL Xplore</company>
+        <rev>2</rev>
+        <date>2023-07-19</date>
+        <source>imu_9_axis.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Authors: Vincent Nguyen, Leo Kruglikov"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7493cb7e-c08f-4663-bc36-2af12ffa653e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab3ee283-7fe6-42b7-91a5-2da233b60150</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca8a6548-1492-4acd-a2d5-fba45dd8c248</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3247-1-ND</field>
+        <field name="Manufacturer ref">UMK107AB7105KA-T</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey ref" value="587-3247-1-ND"/>
+      <property name="Manufacturer ref" value="UMK107AB7105KA-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983c134f-5426-4a91-88cc-5db3af6677df</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">478-KGM15BR71H104JTCT-ND</field>
+        <field name="Manufacturer ref">06035C104JAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey ref" value="478-KGM15BR71H104JTCT-ND"/>
+      <property name="Manufacturer ref" value="06035C104JAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13ba2408-6b8c-4e63-8062-28c90bbf2ba7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Hat_connector_hole</value>
+      <footprint>0_connectors:Hat_connector_hole</footprint>
+      <libsource lib="0_connectors" part="Hat_connector_hole" description=""/>
+      <property name="Digikey ref" value=""/>
+      <property name="Manufacturer ref" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>808f5ceb-0cfb-4ef5-a724-1bb34e0f6fc2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>BM06B-GHS-TBT(LF)(SN)(N)</value>
+      <footprint>0_connectors:PicoBlade_JST-GH-1x06_1.25mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey ref" value=""/>
+      <property name="Manufacturer ref" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdb76241-3f79-4979-9634-b76c62c53979</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>BM04B-GHS-TBT(LF)(SN)(N)</value>
+      <footprint>0_connectors:PicoBlade-JST-GH-1x04_1.25mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">455-1580-1-ND</field>
+        <field name="Manufacturer ref">BM04B-GHS-TBT(LF)(SN)(N)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey ref" value="455-1580-1-ND"/>
+      <property name="Manufacturer ref" value="BM04B-GHS-TBT(LF)(SN)(N)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a18e67c-ad1c-4183-959a-d5e08f8c1dfb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LIS3MDL</value>
+      <footprint>lib_fp:LGA12_2X2</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">497-13892-1-ND</field>
+        <field name="Manufacturer ref">LIS3MDLTR</field>
+      </fields>
+      <libsource lib="0_sensors" part="LIS3MDL" description="Magnetoresistive Sensor X, Y, Z Axis 12-LGA (2x2)"/>
+      <property name="Digikey ref" value="497-13892-1-ND"/>
+      <property name="Manufacturer ref" value="LIS3MDLTR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Magnetoresistive Sensor X, Y, Z Axis 12-LGA (2x2)"/>
+      <property name="ki_keywords" value="SENSOR MR I2C/SPI 12LGA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84410902-76b9-4e8c-8d26-dccaf2b87c52</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BMI088</value>
+      <footprint>lib_fp:BMI088</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">828-1082-1-ND</field>
+        <field name="Manufacturer ref">BMI088</field>
+      </fields>
+      <libsource lib="0_sensors" part="BMI088" description="Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"/>
+      <property name="Digikey ref" value="828-1082-1-ND"/>
+      <property name="Manufacturer ref" value="BMI088"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu_9_axis.kicad_sch"/>
+      <property name="ki_description" value="Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"/>
+      <property name="ki_keywords" value="ACCELEROMETER 16LGA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16341c2e-ca50-4937-bb77-55acc2d6e9c4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_connectors" part="Hat_connector_hole">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Hat_connector_hole</field>
+        <field name="Footprint">0_connectors:Hat_connector_hole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3.3V" type="power_in"/>
+        <pin num="3" name="SPI_SCK" type="output"/>
+        <pin num="4" name="SPI_MOSI" type="output"/>
+        <pin num="5" name="SPI_MISO" type="input"/>
+        <pin num="6" name="SPI_CS" type="output"/>
+        <pin num="7" name="I2C_SCL" type="output"/>
+        <pin num="8" name="I2C_SDA" type="bidirectional"/>
+        <pin num="9" name="GPIO_1" type="bidirectional"/>
+        <pin num="10" name="GPIO_2" type="bidirectional"/>
+        <pin num="11" name="GPIO_3" type="bidirectional"/>
+        <pin num="12" name="GPIO_4" type="bidirectional"/>
+        <pin num="13" name="GPIO_5" type="bidirectional"/>
+        <pin num="14" name="GPIO_6" type="bidirectional"/>
+        <pin num="15" name="5V" type="power_in"/>
+        <pin num="16" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_graphic" part="Xplore_Logo">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">Xplore_Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="0_sensors" part="BMI088">
+      <description>Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output</description>
+      <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMI088</field>
+        <field name="Footprint">lib_fp:BMI088</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT2" type="bidirectional"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="CSB2" type="input"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="PS" type="input"/>
+        <pin num="8" name="SCL/SCK" type="input"/>
+        <pin num="9" name="SDA/SDI" type="bidirectional"/>
+        <pin num="10" name="SDO2" type="passive"/>
+        <pin num="11" name="VDDIO" type="power_in"/>
+        <pin num="12" name="INT3" type="output"/>
+        <pin num="13" name="INT4" type="output"/>
+        <pin num="14" name="CSB1" type="input"/>
+        <pin num="15" name="SDO1" type="passive"/>
+        <pin num="16" name="INT1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_sensors" part="LIS3MDL">
+      <description>Magnetoresistive Sensor X, Y, Z Axis 12-LGA (2x2)</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS3MDL</field>
+        <field name="Footprint">lib_fp:LGA12_2X2</field>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPC" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="C1" type="input"/>
+        <pin num="5" name="Vdd" type="power_in"/>
+        <pin num="6" name="Vdd_IO" type="power_in"/>
+        <pin num="7" name="INT" type="output"/>
+        <pin num="8" name="DRDY" type="output"/>
+        <pin num="9" name="SDO/SA1" type="input"/>
+        <pin num="10" name="CS" type="input"/>
+        <pin num="11" name="SDA/SDI/SDO" type="bidirectional"/>
+        <pin num="12" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_connectors">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\imu_9_axis/../lib/orion_lib/lib_sym/0_connectors.kicad_sym</uri>
+    </library>
+    <library logical="0_graphic">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\imu_9_axis/../lib/orion_lib/lib_sym/0_graphic.kicad_sym</uri>
+    </library>
+    <library logical="0_sensors">
+      <uri>C:\Users\Vincent\Documents\Xplore\GitHub\AV_HW_workspace\hats\imu_9_axis/lib/lib_sym/0_sensors.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="3.3V" pintype="power_in"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="CS" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="Vdd_IO" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="SDO/SA1" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="PS" pintype="input"/>
+    </net>
+    <net code="2" name="/BMI_SCL">
+      <node ref="U2" pin="8" pinfunction="SCL/SCK" pintype="input"/>
+    </net>
+    <net code="3" name="/BMI_SDA">
+      <node ref="U2" pin="9" pinfunction="SDA/SDI" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/C1">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="C1" pintype="input"/>
+    </net>
+    <net code="5" name="/CSB1">
+      <node ref="U2" pin="14" pinfunction="CSB1" pintype="input"/>
+    </net>
+    <net code="6" name="/CSB2">
+      <node ref="U2" pin="5" pinfunction="CSB2" pintype="input"/>
+    </net>
+    <net code="7" name="/INT1">
+      <node ref="J1" pin="11" pinfunction="GPIO_3" pintype="bidirectional"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="INT1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/INT3">
+      <node ref="J1" pin="12" pinfunction="GPIO_4" pintype="bidirectional"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="INT3" pintype="output"/>
+    </net>
+    <net code="9" name="/SCL">
+      <node ref="J1" pin="7" pinfunction="I2C_SCL" pintype="output"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SCL/SPC" pintype="input"/>
+    </net>
+    <net code="10" name="/SCL_ALT">
+      <node ref="J1" pin="9" pinfunction="GPIO_1" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="11" name="/SDA">
+      <node ref="J1" pin="8" pinfunction="I2C_SDA" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SDA/SDI/SDO" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/SDA_ALT">
+      <node ref="J1" pin="10" pinfunction="GPIO_2" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="SDO2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="SDO1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+    </net>
+    <net code="14" name="unconnected-(J1-5V-Pad15)">
+      <node ref="J1" pin="15" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-5V-Pad16)">
+      <node ref="J1" pin="16" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(J1-GPIO_5-Pad13)">
+      <node ref="J1" pin="13" pinfunction="GPIO_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J1-GPIO_6-Pad14)">
+      <node ref="J1" pin="14" pinfunction="GPIO_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J1-SPI_CS-Pad6)">
+      <node ref="J1" pin="6" pinfunction="SPI_CS" pintype="output+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J1-SPI_MISO-Pad5)">
+      <node ref="J1" pin="5" pinfunction="SPI_MISO" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J1-SPI_MOSI-Pad4)">
+      <node ref="J1" pin="4" pinfunction="SPI_MOSI" pintype="output+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-SPI_SCK-Pad3)">
+      <node ref="J1" pin="3" pinfunction="SPI_SCK" pintype="output+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-DRDY-Pad8)">
+      <node ref="U1" pin="8" pinfunction="DRDY" pintype="output+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-INT-Pad7)">
+      <node ref="U1" pin="7" pinfunction="INT" pintype="output+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U2-INT2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="INT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-INT4-Pad13)">
+      <node ref="U2" pin="13" pinfunction="INT4" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

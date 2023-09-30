@@ -1,0 +1,8 @@
+"Item","Qty","Reference(s)","Value","Datasheet","DNP","Footprint","Digikey ref","Manufacturer ref"
+"1","4","C1-3, 5","100nF","https://www.mouser.ch/datasheet/2/40/KGM_X7R-3223212.pdf","","Resistor_SMD:R_0603_1608Metric","478-KGM15BR71H104JTCT-ND","06035C104JAT2A"
+"2","1","C4","1uF","https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf","","Resistor_SMD:R_0603_1608Metric","587-3247-1-ND","UMK107AB7105KA-T"
+"3","1","J1","Hat_connector_hole","","","0_connectors:Hat_connector_hole","",""
+"4","1","J2","BM06B-GHS-TBT(LF)(SN)(N)","https://www.jst-mfg.com/product/pdf/eng/eGH.pdf","","0_connectors:PicoBlade_JST-GH-1x06_1.25mm_Vertical","",""
+"5","1","J3","BM04B-GHS-TBT(LF)(SN)(N)","https://www.jst-mfg.com/product/pdf/eng/eGH.pdf","","0_connectors:PicoBlade-JST-GH-1x04_1.25mm_Vertical","455-1580-1-ND","BM04B-GHS-TBT(LF)(SN)(N)"
+"6","1","U1","LIS3MDL","https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf","","lib_fp:LGA12_2X2","497-13892-1-ND","LIS3MDLTR"
+"7","1","U2","BMI088","https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf","","lib_fp:BMI088","828-1082-1-ND","BMI088"
