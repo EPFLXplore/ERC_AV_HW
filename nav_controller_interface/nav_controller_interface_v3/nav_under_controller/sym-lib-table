@@ -1,9 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_connectors.kicad_sym")(options "")(descr ""))
-  (lib (name "0_power_symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_power_symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "0_transceiver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_transceiver.kicad_sym")(options "")(descr ""))
-  (lib (name "0_test")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_test.kicad_sym")(options "")(descr ""))
-  (lib (name "0_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_regulator.kicad_sym")(options "")(descr ""))
-  (lib (name "0_graphic")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_graphic.kicad_sym")(options "")(descr ""))
-)

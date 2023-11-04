@@ -1,26 +1,6 @@
 {
   "board": {
-    "3dviewports": [
-      {
-        "name": "Top",
-        "ww": 1.0,
-        "wx": -14.14630126953125,
-        "wy": 11.035588264465332,
-        "wz": -16.0,
-        "xw": 0.0,
-        "xx": 1.0,
-        "xy": 0.0,
-        "xz": 0.0,
-        "yw": 0.0,
-        "yx": 0.0,
-        "yy": 1.0,
-        "yz": 0.0,
-        "zw": 0.0,
-        "zx": 0.0,
-        "zy": 0.0,
-        "zz": 1.0
-      }
-    ],
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -54,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.5,
-          "height": 6.5,
-          "width": 6.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -65,23 +45,16 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "ignore",
+        "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -117,7 +90,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -131,24 +104,22 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.125,
-        "min_connection": 0.125,
-        "min_copper_edge_clearance": 0.3,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.6,
+        "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.125,
-        "min_via_annular_width": 0.19999999999999998,
-        "min_via_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.09999999999999999,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -167,7 +138,7 @@
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -176,7 +147,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -185,7 +156,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,37 +165,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.125,
-        0.15,
-        0.2,
-        0.3,
-        0.5,
-        0.75,
-        1.0,
-        2.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
-        }
-      ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "track_widths": [],
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
     },
     "layer_presets": [],
     "viewports": []
@@ -437,7 +380,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -449,14 +392,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nav_controller_interface_v2.kicad_pro",
+    "filename": "nav_multiplexer.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -466,9 +409,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -483,10 +426,10 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "nav_controller_interface_v2.net",
+      "netlist": "",
       "specctra_dsn": "",
-      "step": "step/nav_controller_interface_v2.step",
-      "vrml": "nav_controller_interface_v2.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -513,19 +456,9 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
+    "net_format_name": "",
     "page_layout_descr_file": "misc\\xplore_kerby_template.kicad_wks",
-    "plot_directory": "plot/",
-    "spice_adjust_passive_values": false,
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -536,32 +469,8 @@
   },
   "sheets": [
     [
-      "f0803068-2e71-498b-a1b0-83a54c15ca3c",
+      "f12f4fc4-3626-4589-9f94-1a2a28a00cd8",
       ""
-    ],
-    [
-      "c336e5ad-f126-4296-afc1-36db1aa23877",
-      "Steering interface"
-    ],
-    [
-      "a3b4f5cb-aa1c-41b1-b510-d3b6e5182360",
-      "Driving inteface"
-    ],
-    [
-      "aa6088b3-efb1-464c-8405-1188ce983e1e",
-      "Power & CAN connectors"
-    ],
-    [
-      "34a10433-46e4-4cde-811a-979db0467e4a",
-      "Mechanical"
-    ],
-    [
-      "f1ace67e-33d2-402f-b8be-0669b8f64a3e",
-      "RS422 Transceiver"
-    ],
-    [
-      "b3ed7fc0-6e67-4d33-8325-018f9c0a5b39",
-      "Logos"
     ]
   ],
   "text_variables": {}
