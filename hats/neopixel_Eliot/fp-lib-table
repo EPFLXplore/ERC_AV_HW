@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_fp/0_connectors.pretty")(options "")(descr ""))
+  (lib (name "0_graphic")(type "KiCad")(uri "${KIPRJMOD}/../lib/orion_lib/lib_fp/0_graphic.pretty")(options "")(descr ""))
+  (lib (name "0_lib_mcu")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_lib_mcu.pretty")(options "")(descr ""))
+  (lib (name "0_lib_jumper")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_lib_jumper.pretty")(options "")(descr ""))
+)
