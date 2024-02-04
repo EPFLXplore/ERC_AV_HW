@@ -1,0 +1,51 @@
+### Footprint positions - created on Sun Feb  4 14:40:51 2024 ###
+### Printed by KiCad version 7.0.8
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                          Package                                                 PosX       PosY       Rot  Side
+C1        4.7uF                        C_0402_1005Metric                                    25.3189    11.7342  180.0000  top
+C2        100nF                        C_0402_1005Metric                                    27.5187    11.6991    0.0000  top
+C3        100nF                        C_0402_1005Metric                                    31.9300     9.4950    0.0000  top
+C4        4.7uF                        C_0402_1005Metric                                    31.9185     8.2749    0.0000  top
+C5        4.7nF                        C_0402_1005Metric                                    12.2123     9.2142  180.0000  top
+C6        4.7uF                        C_0402_1005Metric                                    25.1369     5.2731  180.0000  top
+C7        100nF                        C_0402_1005Metric                                    27.3922     5.9571    0.0000  top
+C8        100nF                        C_0402_1005Metric                                    31.9300     3.7650    0.0000  top
+C9        4.7uF                        C_0402_1005Metric                                    31.9259     2.4950    0.0000  top
+C10       4.7nF                        C_0402_1005Metric                                    11.1360     3.5778  180.0000  top
+C11       22pF                         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          75.1590     7.6956    0.0000  top
+C12       22pF                         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          75.1575     9.5250    0.0000  top
+C13       0.1uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          64.7700     7.6200  180.0000  top
+C14       0.1uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          56.1416     9.8836    0.0000  top
+C15       0.1uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          41.8250     9.2000  180.0000  top
+C16       0.1uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          43.2750     4.1200  180.0000  top
+C17       0.1uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          46.6775    11.6181  180.0000  top
+C18       0.1uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder          44.1375     6.6600   90.0000  top
+C19       4.7uF                        C_0402_1005Metric                                    74.5964     5.4018  180.0000  top
+C20       100nF                        C_0402_1005Metric                                    77.6250     6.1480    0.0000  top
+C21       100nF                        C_0402_1005Metric                                    81.7950     3.6927    0.0000  top
+C22       4.7uF                        C_0402_1005Metric                                    81.7950     2.4227    0.0000  top
+C23       4.7nF                        C_0402_1005Metric                                    60.9327     3.5657  180.0000  top
+FL1       ACE1V2012-222-R              ACE1V2012-222-R                                      24.2518     9.1449   90.0000  top
+FL2       ACE1V2012-222-R              ACE1V2012-222-R                                      24.1477     3.4100   90.0000  top
+FL3       ACE1V2012-222-R              ACE1V2012-222-R                                      73.1114     3.5177   90.0000  top
+J5        02x20_2.54_mm_Female_Socket  PinSocket_2x20_P2.54mm_Vertical                      26.4110    18.4150   90.0000  top
+R1        4k7                          R_0402_1005Metric                                    25.4016     7.4795  180.0000  top
+R2        60R                          R_0603_1608Metric                                    14.9075     8.2250  180.0000  top
+R3        60R                          R_0603_1608Metric                                    14.9075    10.1300    0.0000  top
+R4        4k7                          R_0402_1005Metric                                    25.1377     1.7037  180.0000  top
+R5        60R                          R_0603_1608Metric                                    14.1600     2.4420  180.0000  top
+R6        60R                          R_0603_1608Metric                                    14.1600     4.3470    0.0000  top
+R7        10k                          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder          73.9076     1.6900  180.0000  top
+R8        60R                          R_0603_1608Metric                                    64.0361     2.7150  180.0000  top
+R9        60R                          R_0603_1608Metric                                    64.0500     4.3277    0.0000  top
+U1        TCAN1051HGVDRBRQ1            HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias    28.5750     9.1550  180.0000  top
+U2        PESD2CANFD27V-TR             SOT-23                                               19.3525     9.1449    0.0000  top
+U3        TCAN1051HGVDRBRQ1            HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias    28.5750     3.4700  180.0000  top
+U4        PESD2CANFD27V-TR             SOT-23                                               19.5740     3.4095    0.0000  top
+U5        MCP2517FD-xJHA               DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm             68.9925    10.1150  180.0000  top
+U6        TRSF3232EIPWR                TSSOP-16_4.4x5mm_P0.65mm                             50.1650     7.6200    0.0000  top
+U7        TCAN1051HGVDRBRQ1            HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias    77.9250     3.4700  180.0000  top
+U8        PESD2CANFD27V-TR             SOT-23                                               68.4981     3.5399    0.0000  top
+Y1        CN4040M00010T1521016         Crystal_SMD_2016-4Pin_2.0x1.6mm                      74.8650    12.1500    0.0000  top
+## End

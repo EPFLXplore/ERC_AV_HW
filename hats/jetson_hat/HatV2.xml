@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Archivos Personales\EPFL\ERC 2023\KiCAD\NEW HAT\mio\HatV2\HatV2.kicad_sch</source>
+    <date>2/4/2024 2:35:41 PM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Jetson AGX Xavier 40-Pin Header Hat</title>
+        <company/>
+        <rev>3</rev>
+        <date>2023-11-15</date>
+        <source>HatV2.kicad_sch</source>
+        <comment number="1" value="Author Originel: Yassine Bakkali"/>
+        <comment number="2" value="Revision faite par Pedro Conde"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/">
+      <title_block>
+        <title>CAN Bus 0 Interface </title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>canbus_0.kicad_sch</source>
+        <comment number="1" value="Author Originel: Yassine Bakkali"/>
+        <comment number="2" value="Revision faite par Pedro Conde"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/">
+      <title_block>
+        <title>CAN Bus 1 Interface </title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CANBUS_1.kicad_sch</source>
+        <comment number="1" value="Author Originel: Yassine Bakkali"/>
+        <comment number="2" value="Revision faite par Pedro Conde"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SPI to CAN/" tstamps="/8e056db8-9011-4f12-a0f6-cb1075dff91f/">
+      <title_block>
+        <title>SPI to CAN converter</title>
+        <company/>
+        <rev/>
+        <date>2023-11-15</date>
+        <source>SPI_TO_CAN.kicad_sch</source>
+        <comment number="1" value="Author Originel: Yassine Bakkali"/>
+        <comment number="2" value="Revision faite par Pedro Conde"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/">
+      <title_block>
+        <title>CAN Bus SPI Extension Interface </title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CAN_BUS_SPI.kicad_sch</source>
+        <comment number="1" value="Author Originel: Yassine Bakkali"/>
+        <comment number="2" value="Revision faite par Pedro Conde"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/">
+      <title_block>
+        <title>RS232 to UART</title>
+        <company/>
+        <rev/>
+        <date>2023-11-15</date>
+        <source>RS232_TO_UART.kicad_sch</source>
+        <comment number="1" value="Author Originel: Yassine Bakkali"/>
+        <comment number="2" value="Revision faite par Pedro Conde"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J5">
+      <value>02x20 2.54 mm Female Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Link">https://es.aliexpress.com/item/1005004445772055.html?spm=a2g0o.productlist.main.11.30d15e8arHPqjK&amp;algo_pvid=0c18a278-09d9-4dcc-85c9-2a909e585693&amp;aem_p4p_detail=202312091427484109204361369730001836234&amp;algo_exp_id=0c18a278-09d9-4dcc-85c9-2a909e585693-5&amp;pdp_npi=4%40dis%21CHF%211.65%211.57%21%21%211.85%21%21%402103200617021608682036617e26ed%2112000029205337171%21sea%21CH%210%21AB&amp;curPageLogUid=q3tFvyOvMcCG&amp;search_p4p_id=202312091427484109204361369730001836234_6</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Link" value="https://es.aliexpress.com/item/1005004445772055.html?spm=a2g0o.productlist.main.11.30d15e8arHPqjK&amp;algo_pvid=0c18a278-09d9-4dcc-85c9-2a909e585693&amp;aem_p4p_detail=202312091427484109204361369730001836234&amp;algo_exp_id=0c18a278-09d9-4dcc-85c9-2a909e585693-5&amp;pdp_npi=4%40dis%21CHF%211.65%211.57%21%21%211.85%21%21%402103200617021608682036617e26ed%2112000029205337171%21sea%21CH%210%21AB&amp;curPageLogUid=q3tFvyOvMcCG&amp;search_p4p_id=202312091427484109204361369730001836234_6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HatV2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f02ca1b6-f2a5-41ab-b472-dc937cfd7f28</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>02x04 2.54mm Pin Headers</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0802FBV0T</field>
+      </fields>
+      <libsource lib="PCM_4ms_Connector" part="Conn_02x04" description="HEADER 2x4 MALE PINS 0.100” 180deg"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="Part Number" value="1-0802FBV0T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HatV2.kicad_sch"/>
+      <property name="ki_description" value="HEADER 2x4 MALE PINS 0.100” 180deg"/>
+      <property name="ki_keywords" value="Conn_02x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9317c581-d166-4f9e-b9ba-ac3585456553</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1482-1-ND</field>
+        <field name="Manufacturer ref">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1482-1-ND"/>
+      <property name="Manufacturer ref" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>828f9a49-8a83-410f-87bf-26ac60109505</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3498-1-ND</field>
+        <field name="Manufacturer ref">UMK105B7104KV-FR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="587-3498-1-ND"/>
+      <property name="Manufacturer ref" value="UMK105B7104KV-FR"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>363ab95b-8b07-4bcf-867b-5d62e086145f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3498-1-ND</field>
+        <field name="Manufacturer ref">UMK105B7104KV-FR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="587-3498-1-ND"/>
+      <property name="Manufacturer ref" value="UMK105B7104KV-FR"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>109a0825-c47b-4b84-a399-32a845bca095</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1482-1-ND</field>
+        <field name="Manufacturer ref">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1482-1-ND"/>
+      <property name="Manufacturer ref" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>66a6f6db-c764-469d-812e-c76b7e1758ec</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B472KB5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1125-1-ND</field>
+        <field name="Manufacturer ref">CL05B472KB5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1125-1-ND"/>
+      <property name="Manufacturer ref" value="CL05B472KB5NNNC"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>32160926-032d-412b-b9ce-fc8f2a1d3e54</tstamps>
+    </comp>
+    <comp ref="FL1">
+      <value>ACE1V2012-222-R</value>
+      <footprint>0_inductor:ACE1V2012-222-R</footprint>
+      <datasheet>https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ace1v2012-automotive-common-mode-chip-inductor-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">283-ACE1V2012-222-RCT-ND</field>
+        <field name="Manufacturer ref">ACE1V2012-222-R</field>
+      </fields>
+      <libsource lib="Device" part="Filter_EMI_LL_1423" description="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <property name="Digikey ref" value="283-ACE1V2012-222-RCT-ND"/>
+      <property name="Manufacturer ref" value="ACE1V2012-222-R"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <property name="ki_keywords" value="EMI filter common-mode choke"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>b2b91e18-a110-41da-8f4c-39041f1ff4ab</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CLIK-Mate 502584</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>94790983-d010-470e-80c9-615d6bc9d2b8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CLIK-Mate 502584</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>4917664c-f59f-4239-8c08-52ef2d92aa65</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.te.com/usa-en/product-3-2176325-3.datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">A130363CT-ND</field>
+        <field name="Manufacturer ref">CRGP0402F4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey ref" value="A130363CT-ND"/>
+      <property name="Manufacturer ref" value="CRGP0402F4K7"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>87083fef-fbea-4aca-a3d5-163fb2183dd7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">541-60.4SCT-ND</field>
+        <field name="Manufacturer ref">CRCW060360R4FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="541-60.4SCT-ND"/>
+      <property name="Manufacturer ref" value="CRCW060360R4FKEAHP"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>50019c80-2f45-40af-8ae1-5c2ed2b9466b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">541-60.4SCT-ND</field>
+        <field name="Manufacturer ref">CRCW060360R4FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="541-60.4SCT-ND"/>
+      <property name="Manufacturer ref" value="CRCW060360R4FKEAHP"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>24773d2d-5d79-44c6-9559-c4a2afb493df</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TCAN1051HGVDRBRQ1</value>
+      <footprint>0_various:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftcan1051-q1</datasheet>
+      <fields>
+        <field name="Digikey ref">296-TCAN1051HGVDRBRQ1CT-ND</field>
+        <field name="Manufacturer ref">TCAN1051HGVDRBRQ1</field>
+      </fields>
+      <libsource lib="Jetson Hat" part="TCAN1051HGDQ1" description="1/1 Transceiver Half CANbus 8-SOIC"/>
+      <property name="Manufacturer ref" value="TCAN1051HGVDRBRQ1"/>
+      <property name="Digikey ref" value="296-TCAN1051HGVDRBRQ1CT-ND"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="1/1 Transceiver Half CANbus 8-SOIC"/>
+      <property name="ki_keywords" value="FD CAN Transceiver"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>dc9ebb02-645c-439f-b4ab-d87ff0f57957</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>PESD2CANFD27V-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD27V-T.pdf</datasheet>
+      <libsource lib="0_power_protection" part="PESD2CANFD27V-TR" description="44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB"/>
+      <property name="Sheetname" value="CAN BUS 0"/>
+      <property name="Sheetfile" value="canbus_0.kicad_sch"/>
+      <property name="ki_description" value="44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB"/>
+      <property name="ki_keywords" value="FD CAN TVS Diode"/>
+      <sheetpath names="/CAN BUS 0/" tstamps="/4448ef21-f1d9-43a9-ad6e-52543a18520b/"/>
+      <tstamps>3ae695ad-aaee-4db9-9a8c-79186cb6c8a9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1482-1-ND</field>
+        <field name="Manufacturer ref">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1482-1-ND"/>
+      <property name="Manufacturer ref" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>957d1434-4cbc-498f-8cb3-2e8505cb4514</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3498-1-ND</field>
+        <field name="Manufacturer ref">UMK105B7104KV-FR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="587-3498-1-ND"/>
+      <property name="Manufacturer ref" value="UMK105B7104KV-FR"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>83a6a930-63f8-4262-9b8b-8c52cbfc17c3</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3498-1-ND</field>
+        <field name="Manufacturer ref">UMK105B7104KV-FR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="587-3498-1-ND"/>
+      <property name="Manufacturer ref" value="UMK105B7104KV-FR"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>62a74cef-a76b-48aa-89fb-1d55c7d6fcfd</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1482-1-ND</field>
+        <field name="Manufacturer ref">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1482-1-ND"/>
+      <property name="Manufacturer ref" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>025314db-00f9-478b-9eec-34ddc603053d</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B472KB5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1125-1-ND</field>
+        <field name="Manufacturer ref">CL05B472KB5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1125-1-ND"/>
+      <property name="Manufacturer ref" value="CL05B472KB5NNNC"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>bc42aa23-32b6-42eb-85ca-9b0bc292b197</tstamps>
+    </comp>
+    <comp ref="FL2">
+      <value>ACE1V2012-222-R</value>
+      <footprint>0_inductor:ACE1V2012-222-R</footprint>
+      <datasheet>https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ace1v2012-automotive-common-mode-chip-inductor-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">283-ACE1V2012-222-RCT-ND</field>
+        <field name="Manufacturer ref">ACE1V2012-222-R</field>
+      </fields>
+      <libsource lib="Device" part="Filter_EMI_LL_1423" description="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <property name="Digikey ref" value="283-ACE1V2012-222-RCT-ND"/>
+      <property name="Manufacturer ref" value="ACE1V2012-222-R"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <property name="ki_keywords" value="EMI filter common-mode choke"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>e40247d9-fe53-4afd-ba37-0f4a2caa3020</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CLIK-Mate 502584</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>cc9e01cc-c119-4b7f-9780-f03d28abc27a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CLIK-Mate 502584</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>80a15d8d-ccc6-4bb4-b2aa-d331ea581537</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.te.com/usa-en/product-3-2176325-3.datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">A130363CT-ND</field>
+        <field name="Manufacturer ref">CRGP0402F4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey ref" value="A130363CT-ND"/>
+      <property name="Manufacturer ref" value="CRGP0402F4K7"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>0ade7abb-f322-40d8-9761-33b5ea8a462f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">541-60.4SCT-ND</field>
+        <field name="Manufacturer ref">CRCW060360R4FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="541-60.4SCT-ND"/>
+      <property name="Manufacturer ref" value="CRCW060360R4FKEAHP"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>f2d31b99-0544-4403-9527-ad56af55106b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">541-60.4SCT-ND</field>
+        <field name="Manufacturer ref">CRCW060360R4FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="541-60.4SCT-ND"/>
+      <property name="Manufacturer ref" value="CRCW060360R4FKEAHP"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>519eac40-4cb4-4d49-960e-95ccb8554292</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TCAN1051HGVDRBRQ1</value>
+      <footprint>0_various:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftcan1051-q1</datasheet>
+      <fields>
+        <field name="Digikey ref">296-TCAN1051HGVDRBRQ1CT-ND</field>
+        <field name="Manufacturer ref">TCAN1051HGVDRBRQ1</field>
+      </fields>
+      <libsource lib="Jetson Hat" part="TCAN1051HGDQ1" description="1/1 Transceiver Half CANbus 8-SOIC"/>
+      <property name="Manufacturer ref" value="TCAN1051HGVDRBRQ1"/>
+      <property name="Digikey ref" value="296-TCAN1051HGVDRBRQ1CT-ND"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="1/1 Transceiver Half CANbus 8-SOIC"/>
+      <property name="ki_keywords" value="FD CAN Transceiver"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>d87a89d8-49de-441b-bfc8-15adc30040da</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>PESD2CANFD27V-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD27V-T.pdf</datasheet>
+      <libsource lib="0_power_protection" part="PESD2CANFD27V-TR" description="44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB"/>
+      <property name="Sheetname" value="CAN BUS 1"/>
+      <property name="Sheetfile" value="CANBUS_1.kicad_sch"/>
+      <property name="ki_description" value="44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB"/>
+      <property name="ki_keywords" value="FD CAN TVS Diode"/>
+      <sheetpath names="/CAN BUS 1/" tstamps="/29e7c65f-1887-4e15-b82e-218f79f6eae7/"/>
+      <tstamps>60d7d320-c96a-4a64-b442-14ea264e1af8</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPI to CAN"/>
+      <property name="Sheetfile" value="SPI_TO_CAN.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SPI to CAN/" tstamps="/8e056db8-9011-4f12-a0f6-cb1075dff91f/"/>
+      <tstamps>c9eb54f9-d7cd-44d2-880d-64ba917abfa5</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPI to CAN"/>
+      <property name="Sheetfile" value="SPI_TO_CAN.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SPI to CAN/" tstamps="/8e056db8-9011-4f12-a0f6-cb1075dff91f/"/>
+      <tstamps>dc3889ba-48e2-4999-9222-48562a79c3a8</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPI to CAN"/>
+      <property name="Sheetfile" value="SPI_TO_CAN.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SPI to CAN/" tstamps="/8e056db8-9011-4f12-a0f6-cb1075dff91f/"/>
+      <tstamps>943a7f07-ada7-4d44-8c9b-6034bc345bf2</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP2517FD-xJHA</value>
+      <footprint>Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf</datasheet>
+      <libsource lib="Interface_CAN_LIN" part="MCP2517FD-xJHA" description="External CAN FD Controller with SPI Interface, VDFN-14"/>
+      <property name="Sheetname" value="SPI to CAN"/>
+      <property name="Sheetfile" value="SPI_TO_CAN.kicad_sch"/>
+      <property name="ki_description" value="External CAN FD Controller with SPI Interface, VDFN-14"/>
+      <property name="ki_keywords" value="CAN FD Controller SPI"/>
+      <sheetpath names="/SPI to CAN/" tstamps="/8e056db8-9011-4f12-a0f6-cb1075dff91f/"/>
+      <tstamps>8d851624-39cc-4445-8149-b324eca57f4a</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>CN4040M00010T1521016</value>
+      <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Sheetname" value="SPI to CAN"/>
+      <property name="Sheetfile" value="SPI_TO_CAN.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/SPI to CAN/" tstamps="/8e056db8-9011-4f12-a0f6-cb1075dff91f/"/>
+      <tstamps>bc6bff83-59bb-4572-b53e-4f32aa529118</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1482-1-ND</field>
+        <field name="Manufacturer ref">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1482-1-ND"/>
+      <property name="Manufacturer ref" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>3c478efc-eda1-4d78-a7fe-ce0af2123f94</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3498-1-ND</field>
+        <field name="Manufacturer ref">UMK105B7104KV-FR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="587-3498-1-ND"/>
+      <property name="Manufacturer ref" value="UMK105B7104KV-FR"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>ebf8604c-6fd2-4b91-83db-345efb9c3e0d</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">587-3498-1-ND</field>
+        <field name="Manufacturer ref">UMK105B7104KV-FR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="587-3498-1-ND"/>
+      <property name="Manufacturer ref" value="UMK105B7104KV-FR"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>3c649de5-ce11-4dc1-a9ce-bfffae631ae7</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1482-1-ND</field>
+        <field name="Manufacturer ref">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1482-1-ND"/>
+      <property name="Manufacturer ref" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>026faf0e-02df-4ea2-896a-81021b0f190a</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B472KB5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">1276-1125-1-ND</field>
+        <field name="Manufacturer ref">CL05B472KB5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey ref" value="1276-1125-1-ND"/>
+      <property name="Manufacturer ref" value="CL05B472KB5NNNC"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>56230c0d-d29d-4528-94da-3517ec249afb</tstamps>
+    </comp>
+    <comp ref="FL3">
+      <value>ACE1V2012-222-R</value>
+      <footprint>0_inductor:ACE1V2012-222-R</footprint>
+      <datasheet>https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ace1v2012-automotive-common-mode-chip-inductor-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">283-ACE1V2012-222-RCT-ND</field>
+        <field name="Manufacturer ref">ACE1V2012-222-R</field>
+      </fields>
+      <libsource lib="Device" part="Filter_EMI_LL_1423" description="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <property name="Digikey ref" value="283-ACE1V2012-222-RCT-ND"/>
+      <property name="Manufacturer ref" value="ACE1V2012-222-R"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <property name="ki_keywords" value="EMI filter common-mode choke"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>d7b02b2a-4ea9-486f-84cc-4006b04b67de</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>CLIK-Mate 502584</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>62c10e25-45d7-42a3-a35d-c3dd23890f06</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>CLIK-Mate 502584</value>
+      <footprint>Connector_Molex:Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>feb46b1f-52b8-4073-b5cb-fa12ddd620ef</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>eaee6588-6745-4d16-ac0e-bf79f49fc880</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">541-60.4SCT-ND</field>
+        <field name="Manufacturer ref">CRCW060360R4FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="541-60.4SCT-ND"/>
+      <property name="Manufacturer ref" value="CRCW060360R4FKEAHP"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>dad37f83-0542-443e-ae4b-c0e6a746b234</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Digikey ref">541-60.4SCT-ND</field>
+        <field name="Manufacturer ref">CRCW060360R4FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digikey ref" value="541-60.4SCT-ND"/>
+      <property name="Manufacturer ref" value="CRCW060360R4FKEAHP"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>35865760-fe6d-41d0-ba16-d17d386657f1</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TCAN1051HGVDRBRQ1</value>
+      <footprint>0_various:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftcan1051-q1</datasheet>
+      <fields>
+        <field name="Digikey ref">296-TCAN1051HGVDRBRQ1CT-ND</field>
+        <field name="Manufacturer ref">TCAN1051HGVDRBRQ1</field>
+      </fields>
+      <libsource lib="Jetson Hat" part="TCAN1051HGDQ1" description="1/1 Transceiver Half CANbus 8-SOIC"/>
+      <property name="Manufacturer ref" value="TCAN1051HGVDRBRQ1"/>
+      <property name="Digikey ref" value="296-TCAN1051HGVDRBRQ1CT-ND"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="1/1 Transceiver Half CANbus 8-SOIC"/>
+      <property name="ki_keywords" value="FD CAN Transceiver"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>13e86d51-0e9a-4f31-8f49-1fe79f30ccc0</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>PESD2CANFD27V-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD27V-T.pdf</datasheet>
+      <libsource lib="0_power_protection" part="PESD2CANFD27V-TR" description="44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB"/>
+      <property name="Sheetname" value="CAN BUS SPI"/>
+      <property name="Sheetfile" value="CAN_BUS_SPI.kicad_sch"/>
+      <property name="ki_description" value="44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB"/>
+      <property name="ki_keywords" value="FD CAN TVS Diode"/>
+      <sheetpath names="/CAN BUS SPI/" tstamps="/943726b5-10d2-4ef0-90f1-df37cc061dc5/"/>
+      <tstamps>46ca5856-f20a-47b8-8624-93feb374236e</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>47d06cd6-fe9a-4872-8115-c4a9793391cb</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>bc859344-5f24-4d60-9dad-756f2624bf99</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>f2351b70-bf60-4328-98aa-c233e746ae99</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>da6c822f-be2f-47a8-9a95-36611d90a991</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>fc38f4a2-7e56-44c7-a272-46b3f17bc256</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>84f01d38-4bb3-430c-96a5-d3495e4535e2</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TRSF3232EIPWR</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftrsf3232e</datasheet>
+      <libsource lib="0_interface_uart" part="TRSF3232EIPWR" description="2/2 Transceiver Full RS232 1Mbps 16-TSSOP"/>
+      <property name="Sheetname" value="RS232 to UART"/>
+      <property name="Sheetfile" value="RS232_TO_UART.kicad_sch"/>
+      <property name="ki_description" value="2/2 Transceiver Full RS232 1Mbps 16-TSSOP"/>
+      <property name="ki_keywords" value="RS232 Transceivers"/>
+      <sheetpath names="/RS232 to UART/" tstamps="/9e7e9d4a-8e15-422b-b186-d33b0981fc42/"/>
+      <tstamps>a742fcb8-3995-46a9-a2fd-0af24dc3537e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_interface_uart" part="TRSF3232EIPWR">
+      <description>2/2 Transceiver Full RS232 1Mbps 16-TSSOP</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftrsf3232e</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TRSF3232EIPWR</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftrsf3232e</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="passive"/>
+        <pin num="2" name="V+" type="power_out"/>
+        <pin num="3" name="C1-" type="passive"/>
+        <pin num="4" name="C2+" type="passive"/>
+        <pin num="5" name="C2-" type="passive"/>
+        <pin num="6" name="V-" type="power_out"/>
+        <pin num="7" name="DOUT2" type="output"/>
+        <pin num="8" name="RIN2" type="input"/>
+        <pin num="9" name="ROUT2" type="output"/>
+        <pin num="10" name="DIN2" type="input"/>
+        <pin num="11" name="DIN1" type="input"/>
+        <pin num="12" name="ROUT1" type="output"/>
+        <pin num="13" name="RIN1" type="input"/>
+        <pin num="14" name="DOUT1" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_power_protection" part="PESD2CANFD27V-TR">
+      <description>44V Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD27V-T.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PESD2CANFD27V-TR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CANFD27V-T.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+        <pin num="3" name="CC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Filter_EMI_LL_1423">
+      <description>EMI 2-inductor filter, pin-connections 1-4 and 2-3</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Bourns*SRF0905*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">Filter_EMI_LL_1423</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="MCP2517FD-xJHA">
+      <description>External CAN FD Controller with SPI Interface, VDFN-14</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x4.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2517FD-xJHA</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKO/SOF" type="output"/>
+        <pin num="4" name="~{INT}" type="output"/>
+        <pin num="5" name="OSC2" type="output"/>
+        <pin num="6" name="OSC1" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~{INT1}/GPIO1" type="bidirectional"/>
+        <pin num="9" name="~{INT0}/GPIO0/XSTBY" type="bidirectional"/>
+        <pin num="10" name="SCK" type="input"/>
+        <pin num="11" name="SDI" type="input"/>
+        <pin num="12" name="SDO" type="output"/>
+        <pin num="13" name="nCS" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jetson Hat" part="TCAN1051HGDQ1">
+      <description>1/1 Transceiver Half CANbus 8-SOIC</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftcan1051-q1</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">TCAN1051HGVDRBRQ1</field>
+        <field name="Footprint">0_various:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftcan1051-q1</field>
+        <field name="Manufacturer ref">TCAN1051HGVDRBRQ1</field>
+        <field name="Digikey ref">296-TCAN1051HGVDRBRQ1CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="S" type="input"/>
+        <pin num="9" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PCM_4ms_Connector" part="Conn_02x04">
+      <description>HEADER 2x4 MALE PINS 0.100” 180deg</description>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04</field>
+        <field name="Footprint">4ms_Connector:Pins_2x04_2.54mm_TH</field>
+        <field name="Specifications">HEADER 2x4 MALE PINS 0.100” 180deg</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0802FBV0T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_CAN_LIN.kicad_sym</uri>
+    </library>
+    <library logical="Jetson Hat">
+      <uri>C:/Users/Pedro Conde/Documents/KiCad/7.0/symbols/Jetson Hat.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VIO" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CAN BUS 0/CAN+">
+      <node ref="FL1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/CAN BUS 0/CAN-">
+      <node ref="FL1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CAN BUS 0/CAN_SILENT_1">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="6" name="/CAN BUS 0/CH0+">
+      <node ref="FL1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="K2" pintype="passive"/>
+    </net>
+    <net code="7" name="/CAN BUS 0/CH0-">
+      <node ref="FL1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="K1" pintype="passive"/>
+    </net>
+    <net code="8" name="/CAN BUS 0/TERM_CAPA">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/CAN BUS 1/CAN+">
+      <node ref="FL2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/CAN BUS 1/CAN-">
+      <node ref="FL2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/CAN BUS 1/CAN_SILENT_1">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="12" name="/CAN BUS 1/CH1+">
+      <node ref="FL2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="K2" pintype="passive"/>
+    </net>
+    <net code="13" name="/CAN BUS 1/CH1-">
+      <node ref="FL2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="K1" pintype="passive"/>
+    </net>
+    <net code="14" name="/CAN BUS 1/TERM_CAPA">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/CAN BUS SPI/CAN+">
+      <node ref="FL3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/CAN BUS SPI/CAN-">
+      <node ref="FL3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/CAN BUS SPI/CHS_N">
+      <node ref="FL3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="K1" pintype="passive"/>
+    </net>
+    <net code="18" name="/CAN BUS SPI/CHS_P">
+      <node ref="FL3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="K2" pintype="passive"/>
+    </net>
+    <net code="19" name="/CAN BUS SPI/RDX_SPI">
+      <node ref="U5" pin="2" pinfunction="RXCAN" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="20" name="/CAN BUS SPI/TDX_SPI">
+      <node ref="U5" pin="1" pinfunction="TXCAN" pintype="output"/>
+      <node ref="U7" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="21" name="/CAN BUS SPI/TERM_CAPA">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/CAN0_DIN">
+      <node ref="J5" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="23" name="/CAN0_DOUT">
+      <node ref="J5" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="24" name="/CAN1_DIN">
+      <node ref="J5" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="25" name="/CAN1_DOUT">
+      <node ref="J5" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="26" name="/GPIO8_AO_DMIC_IN_DAT">
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="27" name="/GPIO9_CAN1_GPIO0_DMIC_CLK">
+      <node ref="J5" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="28" name="/GPIO17_40HEADER">
+      <node ref="J5" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="29" name="/GPIO27_PWM2">
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="30" name="/GPIO35_PWM3">
+      <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="31" name="/I2C_GP2_CLK">
+      <node ref="J5" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="~{INT0}/GPIO0/XSTBY" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/I2C_GP2_DAT">
+      <node ref="J5" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="~{INT1}/GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/I2C_GP5_CLK">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="34" name="/I2C_GP5_DAT">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="35" name="/I2S2_CLK">
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="36" name="/I2S_FS">
+      <node ref="J5" pin="35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="37" name="/I2S_SDIN">
+      <node ref="J5" pin="38" pinfunction="Pin_38" pintype="passive"/>
+    </net>
+    <net code="38" name="/I2S_SDOUT">
+      <node ref="J5" pin="40" pinfunction="Pin_40" pintype="passive"/>
+    </net>
+    <net code="39" name="/MCLK05">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="40" name="/PWM01">
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="41" name="/RS232 to UART/C1+">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="C1+" pintype="passive"/>
+    </net>
+    <net code="42" name="/RS232 to UART/C1-">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="C1-" pintype="passive"/>
+    </net>
+    <net code="43" name="/RS232 to UART/C2+">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="C2+" pintype="passive"/>
+    </net>
+    <net code="44" name="/RS232 to UART/C2-">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="C2-" pintype="passive"/>
+    </net>
+    <net code="45" name="/RS232 to UART/DOUT1">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="DOUT1" pintype="output"/>
+    </net>
+    <net code="46" name="/RS232 to UART/RIN1">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="RIN1" pintype="input"/>
+    </net>
+    <net code="47" name="/RS232 to UART/V+">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="V+" pintype="power_out"/>
+    </net>
+    <net code="48" name="/RS232 to UART/V-">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="V-" pintype="power_out"/>
+    </net>
+    <net code="49" name="/SPI to CAN/OSC1">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="OSC1" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="/SPI to CAN/OSC2">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="OSC2" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="51" name="/SPI1_CS0">
+      <node ref="J5" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="nCS" pintype="input"/>
+    </net>
+    <net code="52" name="/SPI1_CS1">
+      <node ref="J5" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="53" name="/SPI1_MISO">
+      <node ref="J5" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="54" name="/SPI1_MOSI">
+      <node ref="J5" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="55" name="/SPI1_SCK">
+      <node ref="J5" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="56" name="/UART1_CTS">
+      <node ref="J5" pin="36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+    <net code="57" name="/UART1_RTS">
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="58" name="/UART1_RX">
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="ROUT1" pintype="output"/>
+    </net>
+    <net code="59" name="/UART1_TX">
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="DIN1" pintype="input"/>
+    </net>
+    <net code="60" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J5" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J5" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J5" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J5" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J5" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="PAD" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="CC" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="PAD" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="CC" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="VSS" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="PAD" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="CC" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(U7-S)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="62" name="unconnected-(U5-CLKO{slash}SOF-Pad3)">
+      <node ref="U5" pin="3" pinfunction="CLKO/SOF" pintype="output+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U6-DIN2-Pad10)">
+      <node ref="U6" pin="10" pinfunction="DIN2" pintype="input+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U6-DOUT2-Pad7)">
+      <node ref="U6" pin="7" pinfunction="DOUT2" pintype="output+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U6-RIN2-Pad8)">
+      <node ref="U6" pin="8" pinfunction="RIN2" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U6-ROUT2-Pad9)">
+      <node ref="U6" pin="9" pinfunction="ROUT2" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
