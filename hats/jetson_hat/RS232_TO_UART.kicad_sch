@@ -621,7 +621,7 @@
           (reference "#PWR029") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "#PWR033") (unit 1)
         )
@@ -652,7 +652,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "C14") (unit 1)
         )
@@ -682,7 +682,7 @@
           (reference "#PWR027") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "#PWR032") (unit 1)
         )
@@ -715,7 +715,7 @@
           (reference "J6") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "J7") (unit 1)
         )
@@ -745,7 +745,7 @@
           (reference "#PWR030") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "#PWR034") (unit 1)
         )
@@ -790,7 +790,7 @@
           (reference "U5") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "U6") (unit 1)
         )
@@ -821,7 +821,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "C15") (unit 1)
         )
@@ -851,7 +851,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "#PWR031") (unit 1)
         )
@@ -882,7 +882,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "C17") (unit 1)
         )
@@ -913,7 +913,7 @@
           (reference "C17") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "C16") (unit 1)
         )
@@ -944,7 +944,7 @@
           (reference "C19") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/9e7e9d4a-8e15-422b-b186-d33b0981fc42"
           (reference "C18") (unit 1)
         )

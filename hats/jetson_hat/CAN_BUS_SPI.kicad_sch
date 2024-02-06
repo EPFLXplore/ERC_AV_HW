@@ -448,6 +448,45 @@
         )
       )
     )
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -770,6 +809,9 @@
   (junction (at 130.81 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 9a057821-97df-4d2d-ae98-fc0772600097)
   )
+  (junction (at 49.53 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid a35fd0ad-0190-4d72-969f-d4da59662f4c)
+  )
   (junction (at 130.81 91.44) (diameter 0) (color 0 0 0 0)
     (uuid c046441a-3306-4802-99c8-d0d31cb2db46)
   )
@@ -857,6 +899,10 @@
     (stroke (width 0) (type default))
     (uuid 31ebe29d-94aa-42be-8cca-7be9806699c5)
   )
+  (wire (pts (xy 49.53 116.84) (xy 49.53 118.11))
+    (stroke (width 0) (type default))
+    (uuid 36f6e98a-53db-4205-9ea2-1a3750be1ba8)
+  )
   (wire (pts (xy 67.945 114.3) (xy 66.04 114.3))
     (stroke (width 0) (type default))
     (uuid 39d394fa-bc6c-462b-925e-2a6cecf21539)
@@ -872,10 +918,6 @@
   (wire (pts (xy 41.91 99.06) (xy 53.34 99.06))
     (stroke (width 0) (type default))
     (uuid 3c0478fc-f1ec-46f1-89cc-f374fdf1e317)
-  )
-  (wire (pts (xy 48.26 122.555) (xy 48.26 118.11))
-    (stroke (width 0) (type default))
-    (uuid 40b2397f-9c98-4d0a-8a4c-938f69426553)
   )
   (wire (pts (xy 109.22 101.6) (xy 130.81 101.6))
     (stroke (width 0) (type default))
@@ -928,10 +970,6 @@
   (wire (pts (xy 238.125 106.68) (xy 240.03 106.68))
     (stroke (width 0) (type default))
     (uuid 6d5b4692-165c-404e-b24a-fe7755acb0ac)
-  )
-  (wire (pts (xy 48.26 109.22) (xy 53.34 109.22))
-    (stroke (width 0) (type default))
-    (uuid 7347c1d6-b88e-46e8-b5f7-20b28a2b333d)
   )
   (wire (pts (xy 95.25 82.55) (xy 95.25 85.09))
     (stroke (width 0) (type default))
@@ -1041,10 +1079,6 @@
     (stroke (width 0) (type default))
     (uuid d8ba22ee-cc2b-407d-8908-f9ed6ac31bc2)
   )
-  (wire (pts (xy 48.26 109.22) (xy 48.26 113.03))
-    (stroke (width 0) (type default))
-    (uuid d9044003-5971-4cf0-a760-18594415e426)
-  )
   (wire (pts (xy 49.53 71.755) (xy 49.53 72.39))
     (stroke (width 0) (type default))
     (uuid e8e1e7a6-a75f-49f8-97d5-3eefac27865f)
@@ -1065,6 +1099,10 @@
     (stroke (width 0) (type default))
     (uuid f5ba6ab5-1ad7-4ab7-a16f-27b9a9d173d1)
   )
+  (wire (pts (xy 53.34 109.22) (xy 49.53 109.22))
+    (stroke (width 0) (type default))
+    (uuid f6a38125-951d-4f04-bfe8-f94f23338e39)
+  )
   (wire (pts (xy 130.81 91.44) (xy 150.495 91.44))
     (stroke (width 0) (type default))
     (uuid f6de4422-9a3a-4db8-bee2-01108f16dc25)
@@ -1073,12 +1111,16 @@
     (stroke (width 0) (type default))
     (uuid f8651d15-6eb6-484c-a062-aaa31e7dcc0c)
   )
+  (wire (pts (xy 44.45 109.22) (xy 49.53 109.22))
+    (stroke (width 0) (type default))
+    (uuid fdbfe70f-4627-49a8-8a9b-72251309ff31)
+  )
   (wire (pts (xy 95.25 72.39) (xy 95.25 74.93))
     (stroke (width 0) (type default))
     (uuid feab4ac5-a696-4ed4-94c9-fde7b3d9e7e0)
   )
 
-  (label "CHS_P" (at 118.11 101.6 0) (fields_autoplaced)
+  (label "CHS+" (at 118.11 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17997044-228c-4f7a-9812-7a4b4b392f24)
   )
@@ -1086,7 +1128,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5038ac5c-4be3-4ab9-a81f-7d3a8201599c)
   )
-  (label "CHS_N" (at 118.11 106.68 0) (fields_autoplaced)
+  (label "CHS-" (at 118.11 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6462a5f1-0906-4581-ade0-ee3ecfe08f99)
   )
@@ -1102,6 +1144,10 @@
   (hierarchical_label "RDX_SPI" (shape input) (at 41.91 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 02dabd77-6a27-475e-9305-7b19e458b590)
+  )
+  (hierarchical_label "CAN_SILENT_1" (shape input) (at 44.45 109.22 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7a96469c-dc49-4615-b206-00819500fad3)
   )
   (hierarchical_label "TDX_SPI" (shape input) (at 41.91 99.06 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -1125,7 +1171,7 @@
     )
     (pin "1" (uuid 7eb65b8b-d39d-4941-8bf7-81c684f1e2d7))
     (instances
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
           (reference "#PWR039") (unit 1)
         )
@@ -1172,7 +1218,7 @@
           (reference "C513") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "C4") (unit 1)
         )
@@ -1214,7 +1260,7 @@
     (pin "8" (uuid 511c918a-390b-4595-b4c8-0f15f02acd9d))
     (pin "9" (uuid 2dea2418-7518-4aed-936a-224523938660))
     (instances
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "U1") (unit 1)
         )
@@ -1257,7 +1303,7 @@
           (reference "#PWR0522") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR06") (unit 1)
         )
@@ -1302,7 +1348,7 @@
           (reference "R502") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "R3") (unit 1)
         )
@@ -1352,7 +1398,7 @@
           (reference "C508") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "C1") (unit 1)
         )
@@ -1402,7 +1448,7 @@
           (reference "C511") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "C3") (unit 1)
         )
@@ -1445,7 +1491,7 @@
           (reference "#PWR0515") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR01") (unit 1)
         )
@@ -1486,7 +1532,7 @@
           (reference "U8") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "U2") (unit 1)
         )
@@ -1528,7 +1574,7 @@
           (reference "#PWR044") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR08") (unit 1)
         )
@@ -1573,12 +1619,60 @@
           (reference "C505") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "C5") (unit 1)
         )
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
           (reference "C23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 49.53 113.03 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5e0b41f8-3f08-4041-831c-979bee21ae57)
+    (property "Reference" "R3" (at 51.435 111.7599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4k7" (at 51.435 114.2999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 47.752 113.03 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.te.com/usa-en/product-3-2176325-3.datasheet.pdf" (at 49.53 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digikey ref" "A130363CT-ND" (at 49.53 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer ref" "CRGP0402F4K7" (at 49.53 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 45015bb8-9c5a-4695-aa2a-7eee1d1d2de2))
+    (pin "2" (uuid 3fbcb93e-4b2c-47c8-987a-c71149a123e4))
+    (instances
+      (project "can_transceiver"
+        (path "/8d99185c-2e79-4c58-802e-90e53c79cacc"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "orion_pcb"
+        (path "/a74c9b1d-0c19-426f-815b-ee7b514487ba/f7e53887-066b-4323-827a-ba17f8017d29"
+          (reference "R505") (unit 1)
+        )
+      )
+      (project "HatV3"
+        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/29e7c65f-1887-4e15-b82e-218f79f6eae7"
+          (reference "R4") (unit 1)
+        )
+        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
+          (reference "R1") (unit 1)
+        )
+        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1615,12 +1709,53 @@
           (reference "J7") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "J1") (unit 1)
         )
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
           (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 49.53 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8083b2e1-7509-494c-9744-7f29be14d2bb)
+    (property "Reference" "#PWR010" (at 49.53 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 49.53 122.555 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 49.53 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 49.53 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 415e93c6-513a-45a0-8591-0b04304faa80))
+    (instances
+      (project "can_transceiver"
+        (path "/8d99185c-2e79-4c58-802e-90e53c79cacc"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "orion_pcb"
+        (path "/a74c9b1d-0c19-426f-815b-ee7b514487ba/f7e53887-066b-4323-827a-ba17f8017d29"
+          (reference "#PWR0519") (unit 1)
+        )
+      )
+      (project "HatV3"
+        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/29e7c65f-1887-4e15-b82e-218f79f6eae7"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1658,7 +1793,7 @@
           (reference "#PWR0516") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR02") (unit 1)
         )
@@ -1700,51 +1835,12 @@
           (reference "#PWR046") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR09") (unit 1)
         )
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
           (reference "#PWR043") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 48.26 122.555 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d39de1c2-95fd-44a4-8141-18f4cfb4a60c)
-    (property "Reference" "#PWR02" (at 48.26 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 48.26 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 48.26 122.555 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 48.26 122.555 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 962722ea-88f5-4b13-9bb4-bc9441cf11df))
-    (instances
-      (project "jetson_hat"
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d/412da465-9a49-40c6-bf39-4223ae752f73"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d/338a4b16-6a67-4db1-894d-66a6e6c0ed60"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d/994563d5-1235-4e37-ab4d-0afda01e2bfb"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-      (project "HatV2"
-        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
-          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1786,7 +1882,7 @@
           (reference "FL501") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "FL1") (unit 1)
         )
@@ -1831,49 +1927,12 @@
           (reference "R501") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "R2") (unit 1)
         )
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
           (reference "R8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 48.26 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid eaee6588-6745-4d16-ac0e-bf79f49fc880)
-    (property "Reference" "R3" (at 50.165 114.935 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10k" (at 50.165 117.475 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 48.26 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 48.26 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7b7e2caf-591c-429c-b476-faa4ffe0ee9c))
-    (pin "2" (uuid db325393-18e9-4ab8-ae73-ac4f5add95d5))
-    (instances
-      (project "jetson_hat"
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d/412da465-9a49-40c6-bf39-4223ae752f73"
-          (reference "R3") (unit 1)
-        )
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d/338a4b16-6a67-4db1-894d-66a6e6c0ed60"
-          (reference "R4") (unit 1)
-        )
-        (path "/0f916fab-c833-4dfb-8571-38d2e6873b9d/994563d5-1235-4e37-ab4d-0afda01e2bfb"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "HatV2"
-        (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/943726b5-10d2-4ef0-90f1-df37cc061dc5"
-          (reference "R7") (unit 1)
         )
       )
     )
@@ -1918,7 +1977,7 @@
           (reference "C510") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "C2") (unit 1)
         )
@@ -1956,7 +2015,7 @@
           (reference "#PWR0511") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR07") (unit 1)
         )
@@ -1994,7 +2053,7 @@
           (reference "#PWR0519") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "#PWR04") (unit 1)
         )
@@ -2036,7 +2095,7 @@
           (reference "J9") (unit 1)
         )
       )
-      (project "HatV2"
+      (project "HatV3"
         (path "/b5182505-b72e-4fb7-8d3a-4b83f74772cf/4448ef21-f1d9-43a9-ad6e-52543a18520b"
           (reference "J2") (unit 1)
         )
