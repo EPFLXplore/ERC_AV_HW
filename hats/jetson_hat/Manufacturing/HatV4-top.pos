@@ -1,4 +1,4 @@
-### Footprint positions - created on Sat Feb 10 17:45:23 2024 ###
+### Footprint positions - created on Mon Feb 12 21:11:27 2024 ###
 ### Printed by KiCad version 7.0.8
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -29,7 +29,7 @@ C23       4.7nF                        C_0402_1005Metric                        
 FL1       ACE1V2012-222-R              ACE1V2012-222-R                                      11.0676     6.3972  -90.0000  top
 FL2       ACE1V2012-222-R              ACE1V2012-222-R                                      34.9526    11.3648  -90.0000  top
 FL3       ACE1V2012-222-R              ACE1V2012-222-R                                      58.7494     6.1930  -90.0000  top
-J5        02x20_2.54_mm_Female_Socket  PinSocket_2x20_P2.54mm_Vertical                      26.4880    22.0734   90.0000  top
+J5        02x20_2.54_mm_Female_Socket  PinSocket_2x20_P2.54mm_Vertical                      29.7434    26.7970   90.0000  top
 R1        4k7                          R_0402_1005Metric                                    10.5208     8.0228    0.0000  top
 R2        60R                          R_0603_1608Metric                                    15.5424     7.6200    0.0000  top
 R3        60R                          R_0603_1608Metric                                    15.5424     5.2070  180.0000  top
