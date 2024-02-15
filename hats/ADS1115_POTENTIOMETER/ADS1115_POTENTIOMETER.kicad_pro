@@ -56,12 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "annular_width|110725000|85600000|aee0aa03-5188-4ac5-b83e-74b3702d0888|00000000-0000-0000-0000-000000000000",
-        "annular_width|110725000|86850000|384b47c2-a3a2-4919-8def-1ad622345add|00000000-0000-0000-0000-000000000000",
-        "annular_width|110725000|88100000|f4ca975a-4927-4612-a6f1-f8eb92c60146|00000000-0000-0000-0000-000000000000",
-        "annular_width|110725000|89350000|c1ee3ede-8d70-4cb7-9a09-f1d5dcc2fbef|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -183,6 +178,7 @@
         0.0,
         0.15,
         0.2,
+        0.25,
         0.3,
         0.5,
         1.0
@@ -466,7 +462,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "misc/xplore_kerby_template.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
