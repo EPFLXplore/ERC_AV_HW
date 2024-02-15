@@ -53,19 +53,6 @@
     (uuid cff3f86b-b2b2-4147-9d5e-78f82390237c)
   )
 
-  (hierarchical_label "{CAN}" (shape bidirectional) (at 148.59 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9267cfb6-6e14-4403-8af4-e585e7284a52)
-  )
-  (hierarchical_label "{CAN}" (shape bidirectional) (at 148.59 121.92 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b898f346-c84a-49e2-8ba1-08a4987168ab)
-  )
-  (hierarchical_label "{CAN}" (shape bidirectional) (at 123.19 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid df1a8a4a-93b1-4436-910a-941384485301)
-  )
-
   (sheet (at 91.44 58.42) (size 31.75 29.21) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 248 255 112 1.0000))
@@ -75,6 +62,10 @@
     )
     (property "Sheetfile" "power_can_connector.kicad_sch" (at 91.44 88.2146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "{CAN}" bidirectional (at 123.19 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid e832f6da-15ad-4d32-a21f-a5ca4db21d99)
     )
     (instances
       (project "nav_lower_controller"
@@ -93,6 +84,10 @@
     (property "Sheetfile" "steering_controller.kicad_sch" (at 148.59 88.2146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "{CAN}" bidirectional (at 148.59 73.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bbeae82d-1b91-4275-99dd-4233e7cc2a3a)
+    )
     (instances
       (project "nav_lower_controller"
         (path "/c33f1911-8ce0-4760-84e8-8afddd8478b5" (page "3"))
@@ -109,6 +104,10 @@
     )
     (property "Sheetfile" "driving_controller.kicad_sch" (at 148.59 136.4746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "{CAN}" bidirectional (at 148.59 121.92 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 40734443-d5b3-4ee3-9f5c-45d62c560aee)
     )
     (instances
       (project "nav_lower_controller"
