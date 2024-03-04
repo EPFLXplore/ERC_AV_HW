@@ -1,0 +1,17 @@
+### Footprint positions - created on Mon Feb 12 21:11:27 2024 ###
+### Printed by KiCad version 7.0.8
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                       Package                                                     PosX       PosY       Rot  Side
+J1        CLIK-Mate_502584          Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical    13.3146     8.6226  -90.0000  bottom
+J2        CLIK-Mate_502584          Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical    22.6204     8.6470  -90.0000  bottom
+J3        CLIK-Mate_502584          Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical    37.3350     8.7232  -90.0000  bottom
+J4        CLIK-Mate_502584          Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical    46.7440     8.7376  -90.0000  bottom
+J6        02x04_2.54mm_Pin_Headers  PinSocket_2x04_P2.54mm_Vertical                          14.6050    24.1808  -90.0000  bottom
+J7        Conn_01x04                JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical           84.5400     5.8390  180.0000  bottom
+J8        CLIK-Mate_502584          Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical    60.9456     8.8278  -90.0000  bottom
+J9        CLIK-Mate_502584          Molex_CLIK-Mate_505405-0470_1x04-1MP_P1.50mm_Vertical    70.3622     8.7880  -90.0000  bottom
+U2        PESD2CANFD27V-TR          SOT-23                                                   30.0349     4.1664    0.0000  bottom
+U4        PESD2CANFD27V-TR          SOT-23                                                   53.7695    13.2232    0.0000  bottom
+U8        PESD2CANFD27V-TR          SOT-23                                                   77.5893    13.3342    0.0000  bottom
+## End
