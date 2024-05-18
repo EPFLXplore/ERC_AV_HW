@@ -49,9 +49,9 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "#FFFFC2FF"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (color "Purple") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "prepreg") (color "FR4 natural") (thickness 0.2104) (material "7628, RC 49%") (epsilon_r 4.3) (loss_tangent 0))
       (layer "In1.Cu" (type "copper") (thickness 0.0152))
@@ -59,9 +59,9 @@
       (layer "In2.Cu" (type "copper") (thickness 0.0152))
       (layer "dielectric 3" (type "prepreg") (color "FR4 natural") (thickness 0.2104) (material "7628, RC 49%") (epsilon_r 4.3) (loss_tangent 0))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (color "Purple") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
-      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "#FFFFC2FF"))
       (copper_finish "None")
       (dielectric_constraints no)
     )
@@ -2825,7 +2825,7 @@
       (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp dc1de81b-627a-4cc3-8f94-2f8bb851d225))
     (fp_arc (start 12.9 16.4) (mid 12.167767 18.167767) (end 10.4 18.9)
       (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp bf8109e3-1922-4e4b-8a68-c1e50eedee2f))
-    (model "${KIPRJMOD}/lib/3d_models/638328_EPOS4_Micro_24-5_CAN.stp"
+    (model "${KIPRJMOD}/lib/3d_models/638328_EPOS4_Micro_24-5_CAN.stp" hide
       (offset (xyz 13 3 5.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))
@@ -5505,7 +5505,7 @@
       (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 852abee7-38d6-4bb5-b395-d807c0201329))
     (fp_arc (start -37.58 29.75) (mid -39.842742 28.812742) (end -40.78 26.55)
       (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 2f21e2b7-42f9-4886-a93e-5bb95565def2))
-    (model "${KIPRJMOD}/lib/3d_models/504384_EPOS4_Module_50-8.stp"
+    (model "${KIPRJMOD}/lib/3d_models/504384_EPOS4_Module_50-8.stp" hide
       (offset (xyz -40.75 -29.75 8.15))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -17355,6 +17355,12 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ebf32846-3b85-4d5c-8d9c-ba2b8b622861))
   (gr_line (start 111.75 52.25) (end 191.25 52.25)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f348285f-15f2-420a-a64c-d5682880b22e))
+  (gr_text "NAV\nv3.0" (at 190.01 54.77 90) (layer "B.Mask") (tstamp 7269799f-397d-4c1a-a1ad-eba1216a1b2e)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom mirror))
+  )
+  (gr_text "Federico Bise\nNovember 2023" (at 189.79 137.47 90) (layer "B.Mask") (tstamp e64eeb21-a632-4f6b-a618-6f8922946ba0)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify right bottom mirror))
+  )
 
   (segment (start 182.866397 59) (end 183.73 59) (width 0.2) (layer "F.Cu") (net 1) (tstamp 0ebb4308-7592-42ac-9d8b-7ccbc5849bd2))
   (segment (start 126.35 132.325) (end 124.7 132.325) (width 0.2) (layer "F.Cu") (net 1) (tstamp 2344e689-f798-467a-a3bc-2c10a59bf15b))
