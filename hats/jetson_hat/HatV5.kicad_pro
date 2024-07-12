@@ -63,7 +63,17 @@
           "width": 0.1354
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|115462400|89079400|aa67a0ce-45b8-465a-aa37-4c38f850391f|a1028865-badb-45ba-9b64-71436293514d|B.Cu",
+        "starved_thermal|125202400|111619400|aa67a0ce-45b8-465a-aa37-4c38f850391f|2edef954-5b9b-488c-ba50-7d1f7d6899e2|B.Cu",
+        "starved_thermal|125202400|111619400|aa67a0ce-45b8-465a-aa37-4c38f850391f|2edef954-5b9b-488c-ba50-7d1f7d6899e2|F.Cu",
+        "starved_thermal|140195400|104836200|aa67a0ce-45b8-465a-aa37-4c38f850391f|0a5084f7-a379-4c84-b1ad-8dd8f1d725aa|B.Cu",
+        "starved_thermal|153142400|114159400|aa67a0ce-45b8-465a-aa37-4c38f850391f|0c6183d7-49da-46e5-a16f-be21a8ec79af|B.Cu",
+        "starved_thermal|153142400|114159400|aa67a0ce-45b8-465a-aa37-4c38f850391f|0c6183d7-49da-46e5-a16f-be21a8ec79af|F.Cu",
+        "starved_thermal|153562400|89079400|aa67a0ce-45b8-465a-aa37-4c38f850391f|5753afc6-97ec-420e-a5bc-1bfe456a479b|B.Cu",
+        "starved_thermal|153562400|89079400|aa67a0ce-45b8-465a-aa37-4c38f850391f|5753afc6-97ec-420e-a5bc-1bfe456a479b|F.Cu",
+        "starved_thermal|153562400|89079400|aa67a0ce-45b8-465a-aa37-4c38f850391f|5753afc6-97ec-420e-a5bc-1bfe456a479b|In2.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -479,7 +489,7 @@
       {
         "bus_width": 8,
         "clearance": 0.1,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.5,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
