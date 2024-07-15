@@ -9,4 +9,5 @@
   (lib (name "SP0503BAHTG")(type "KiCad")(uri "C:/Users/eliot/Downloads/SP0503BAHTG/SP0503BAHTG.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC1T45")(type "KiCad")(uri "C:/Users/eliot/Downloads/SN74LVC1T45/SN74LVC1T45.kicad_sym")(options "")(descr ""))
   (lib (name "0_connectors")(type "KiCad")(uri "C:/Users/eliot/Documents/University Documents/Xplore/AV_HW_workspace/node_pcb/lib/orion_lib/lib_sym/0_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "SS8050-G")(type "KiCad")(uri "C:/Users/eliot/Downloads/SS8050-G/SS8050-G.kicad_sym")(options "")(descr ""))
 )

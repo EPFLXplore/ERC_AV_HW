@@ -7,4 +7,5 @@
   (lib (name "0_graphic")(type "KiCad")(uri "C:/Users/eliot/Documents/University Documents/Xplore/AV_HW_workspace/node_pcb/lib/orion_lib/lib_fp/0_graphic.pretty")(options "")(descr ""))
   (lib (name "0_switch_button")(type "KiCad")(uri "C:/Users/eliot/Documents/University Documents/Xplore/AV_HW_workspace/node_pcb/lib/orion_lib/lib_fp/0_switch_button.pretty")(options "")(descr ""))
   (lib (name "RUEF300-1")(type "KiCad")(uri "C:/Users/eliot/Downloads/RUEF300-1")(options "")(descr ""))
+  (lib (name "SS8050-G")(type "KiCad")(uri "C:/Users/eliot/Downloads/SS8050-G")(options "")(descr ""))
 )
