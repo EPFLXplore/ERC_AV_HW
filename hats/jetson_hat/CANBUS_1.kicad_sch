@@ -3342,6 +3342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73d2c93c-1947-4c76-ba54-b22d994cb379")
 		)
@@ -3440,6 +3449,15 @@
 			)
 		)
 		(property "Manufacturer ref" "CRGP0402F4K7"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/te-connectivity-passive-product/CRGP0402F4K7/8576965"
 			(at 50.8 107.95 0)
 			(effects
 				(font
@@ -3703,6 +3721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/vishay-dale/CRCW060360R4FKEAHP/2226044"
+			(at 155.575 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b59a98a6-f0e8-48b7-9a7e-e37b4a8f3b77")
 		)
@@ -3866,6 +3893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/nexperia-usa-inc/PESD2CANFD27V-TR/11686246"
+			(at 197.485 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b05091fd-ecb4-4587-8c97-3cd5f262a916")
 		)
@@ -3963,6 +3999,15 @@
 			)
 		)
 		(property "Manufacturer ref" "UMK105B7104KV-FR"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/taiyo-yuden/UMK105B7104KV-FR/4157221"
 			(at 86.36 73.66 0)
 			(effects
 				(font
@@ -4126,7 +4171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ch/en/products/detail/molex/2132250410/11565257"
 			(at 250.19 99.06 0)
 			(effects
 				(font
@@ -4136,6 +4181,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/molex/2132250410/11565257"
 			(at 250.19 99.06 0)
 			(effects
 				(font
@@ -4243,6 +4297,15 @@
 			)
 		)
 		(property "Manufacturer ref" "UMK105B7104KV-FR"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/taiyo-yuden/UMK105B7104KV-FR/4157221"
 			(at 54.61 73.66 0)
 			(effects
 				(font
@@ -4428,6 +4491,15 @@
 			)
 		)
 		(property "Manufacturer ref" "CL05A475MP5NRNC"
+			(at 41.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
 			(at 41.91 73.66 0)
 			(effects
 				(font
@@ -4705,6 +4777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/samsung-electro-mechanics/CL05B472KB5NNNC/3886783"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee5c8b8e-4f9c-445d-98d2-4688672b5b1d")
 		)
@@ -4773,7 +4854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ch/en/products/detail/molex/2132250410/11565257"
 			(at 250.19 83.185 0)
 			(effects
 				(font
@@ -4783,6 +4864,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/molex/2132250410/11565257"
 			(at 250.19 83.185 0)
 			(effects
 				(font
@@ -4889,6 +4979,15 @@
 			)
 		)
 		(property "Digikey ref" "296-TCAN1051HGVDRBRQ1CT-ND"
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/texas-instruments/TCAN1051HGVDRBRQ1/8106053"
 			(at 71.12 99.06 0)
 			(effects
 				(font
@@ -5090,6 +5189,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/eaton-electronics-division/ACE1V2012-222-R/12349622"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8811e3db-6120-4380-a6c2-ee2978644b53")
 		)
@@ -5272,6 +5380,15 @@
 			)
 		)
 		(property "Manufacturer ref" "CRCW060360R4FKEAHP"
+			(at 155.575 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ch/en/products/detail/vishay-dale/CRCW060360R4FKEAHP/2226044"
 			(at 155.575 89.535 0)
 			(effects
 				(font
