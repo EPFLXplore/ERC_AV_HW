@@ -1,0 +1,42 @@
+Reference,;Value;Footprint;Datasheet;Distributor;link;Qty
+C1, C4, C8, C13,;4.7uF;Capacitor_SMD:C_0603_1608Metric;https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf;Mouser;https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B475KQ8NQNC?qs=6tbHoouHnQxd6rcaSwpT7Q%3D%3D;4
+C2, C3, C5-C7, C9, C12, C17, C18,;0.1uF;Capacitor_SMD:C_0603_1608Metric;https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf;Mouser;https://eu.mouser.com/ProductDetail/TAIYO-YUDEN/TMK107B7104KAHT?qs=CNQs48zzdnrXka%2F%2FvxSUzw%3D%3D;9
+C10,;0.1uF;Capacitor_SMD:C_0402_1005Metric;https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf;Mouser;https://eu.mouser.com/ProductDetail/TAIYO-YUDEN/UMK105B7104KV-FR?qs=CNQs48zzdnpletoWYyNGGg%3D%3D;1
+C11,;4.7uF;Capacitor_SMD:C_0402_1005Metric;https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Spec.pdf;Mouser;https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A475MP5NRNC?qs=o1waKiAPAqcD9NPTF25fGg%3D%3D;1
+C14,;22uF;Capacitor_SMD:C_0603_1608Metric;https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C61E226ME01-01A.pdf;Mouser;https://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188C61E226ME01J?qs=Z%252BL2brAPG1Ka41zYia00qA%3D%3D;1
+C15,;10uF;Capacitor_SMD:C_0805_2012Metric;https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf;Mouser;https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B106KAYQNNE?qs=xZ%2FP%252Ba9zWqY0bQJumFZaYQ%3D%3D;1
+C16,;1uF;Capacitor_SMD:C_0603_1608Metric;https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf;Mouser;https://eu.mouser.com/ProductDetail/TAIYO-YUDEN/MBAST168AB7105KTNA01?qs=tlsG%2FOw5FFi%252Bm%2FzZsgRtHw%3D%3D;1
+D1,;ESDALC6V1W5;0_various:SOT323-5L;https://www.st.com/content/ccc/resource/technical/document/datasheet/32/30/02/e6/ac/0f/46/c2/CD00002946.pdf/files/CD00002946.pdf/jcr:content/translations/en.CD00002946.pdf;Mouser;https://eu.mouser.com/ProductDetail/STMicroelectronics/ESDALC6V1W5?qs=C%2FEejvvdwQ4xcyFnfrFaDw%3D%3D;1
+D2,;RED;LED_SMD:LED_0603_1608Metric;https://eu.mouser.com/datasheet/2/588/asset_pdf_5183563-3418814.pdf;Mouser;https://eu.mouser.com/ProductDetail/ams-OSRAM/LS-L296-N2Q1-1?qs=sGAEpiMZZMusoohG2hS%252B1%2Fnw4GcMFzZ2BbiLGnY3lVQ%3D;1
+D3,;SMF5.0CA-TP;Diode_SMD:D_SOD-123;https://www.mouser.ch/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf;Mouser;https://eu.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SMF5.0CA-TP?qs=y6ZabgHbY%252Bx5chrSGzaXjw%3D%3D;1
+F1,;0805L075SLYR;Fuse:Fuse_0805_2012Metric;https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf;;https://eu.mouser.com/ProductDetail/Littelfuse/0805L075SLYR?qs=C%2F0tY%2F%2FqZe89Ht%2FbgKOotQ%3D%3D;1
+G1,;Xplore_Logo;0_graphic:Xplore_Logo_X_only_20mm;;;;1
+J1,;B3B-XH-A(LF)(SN);Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical;https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;Digikey;https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-XH-A/1651046;1
+J2,;Hat_connector;0_connectors:Hat_connector;;;;1
+J5,;USB_B_Micro;0_connectors:USB_Micro-B_Molex-105017-0001;https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf;Digikey;https://www.digikey.com/en/products/detail/molex/1050170001/2350832;1
+J7,;Conn_Picoblade_JST_DEBUG;0_connectors:PicoBlade-JST-GH-1x06_1.25mm_Horizontal;https://www.jst-mfg.com/product/pdf/eng/eGH.pdf;Digikey;https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM06B-GHS-TB/807790;1
+LV1,;SN74LVC1T45DCKT;SN74LVC1T45DCKT:SOP65P210X110-6N;http://www.ti.com/lit/gpn/sn74lvc1t45;Mouser;https://www.mouser.ch/ProductDetail/Texas-Instruments/SN74LVC1T45DCKT?qs=pajgIaoyDUjDLsI8Vf1Row%3D%3D;1
+Q1, Q2,;SS8050-G;SS8050-G:TRANS_SS8050-G;https://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf;Digikey;https://www.digikey.com/en/products/detail/comchip-technology/SS8050-G/6138901?s=N4IgTCBcDaIMpwBwAYCsyC0BxEBdAvkA;2
+Q3,;PJA3405;Package_TO_SOT_SMD:SOT-23;https://www.panjit.com.tw/upload/datasheet/PJA3405.pdf;;https://www.digikey.com/en/products/detail/panjit-international-inc/PJA3405-R1-00001/14660219;1
+R1, R2, R21, R23,;10k;Resistor_SMD:R_0603_1608Metric;https://www.vishay.com/docs/20035/dcrcwe3.pdf;Mouser;https://www.mouser.ch/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=sGAEpiMZZMtlubZbdhIBIHFHA%252BLjIXrexE6X%2Fz%252Bm29E%3D;4
+R3,;100R;Resistor_SMD:R_0603_1608Metric;https://www.mouser.ch/datasheet/2/315/AOA0000C307-1149632.pdf;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERA-3AED101V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2Fkrkg4NlTlco%3D;1
+R4, R5,;2k2;Resistor_SMD:R_0603_1608Metric;https://www.mouser.ch/datasheet/2/210/ASC_WR-1525196.pdf;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERA-3APB222V?qs=sGAEpiMZZMtlubZbdhIBIJiMSTY83nT4dgKl99QMp00%3D;2
+R6,;499R;Resistor_SMD:R_0603_1608Metric;https://www.mouser.ch/datasheet/2/210/ASC_WR-1525196.pdf;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERA-3AED4990V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2FMIWmVWTbDLQ%3D;1
+R8-R11,;22R;Resistor_SMD:R_0402_1005Metric;https://www.te.com/usa-en/product-2176325-5.datasheet.pdf;Digikey;https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGP0402F22R/8576937;4
+R12,;2K(1%);Resistor_SMD:R_0603_1608Metric;~;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERA-3AED202V?qs=sGAEpiMZZMtlubZbdhIBINnjttWTECnXPYH118Z5ZyA%3D;1
+R18,;22k1;Resistor_SMD:R_0603_1608Metric;https://www.mouser.ch/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERA-3ARB2212V?qs=sGAEpiMZZMtlubZbdhIBIAJzGQ31d3NR786Kg%252BR%2FRvM%3D;1
+R19,;47k5;Resistor_SMD:R_0603_1608Metric;https://www.mouser.ch/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERA-3AEB47R5V?qs=sGAEpiMZZMtlubZbdhIBIMAidfQNnlNVd0Ps3qJiCEk%3D;1
+R20,;10k;Resistor_SMD:R_0402_1005Metric;~;Mouser;https://www.mouser.ch/ProductDetail/Panasonic/ERJ-S02D1002X?qs=sGAEpiMZZMtlubZbdhIBIKdosItZ%252BjARfDCvizwoaic%3D;1
+R22,;1k;Resistor_SMD:R_0402_1005Metric;~;;https://www.mouser.ch/ProductDetail/Panasonic/ERA-2ARC102X?qs=sGAEpiMZZMtlubZbdhIBIAJzGQ31d3NRhtZRa%2F7d1%2FU%3D;1
+TP1,;LED_Sig;0_various:TestPoint;~;;;1
+TP2,;VBUS_REV;0_various:TestPoint;~;;;1
+TP3,;RXD;0_various:TestPoint;~;;;1
+TP4,;TXD;0_various:TestPoint;~;;;1
+TP6,;EN;0_various:TestPoint;~;;;1
+TP7,;DTR;0_various:TestPoint;~;;;1
+TP8,;RTS;0_various:TestPoint;~;;;1
+TP9,;IO0;0_various:TestPoint;~;;;1
+U1,;ESP32-PICO-D4;Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm;https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf;Digikey;https://www.digikey.com/en/products/detail/espressif-systems/ESP32-PICO-D4/9381722;1
+U2,;AMS1117;Package_TO_SOT_SMD:SOT-223-3_TabPin2;http://www.advanced-monolithic.com/pdf/ds1117.pdf;Digikey;https://www.digikey.ch/en/products/detail/evvo/AMS1117-3-3/22482148;1
+U3,;SRV05-4A;Package_TO_SOT_SMD:SOT-23-6;http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF;Digikey;https://www.digikey.ch/en/products/detail/smc-diode-solutions/SRV05-4A/6022743;1
+U5,;CP2102N-A02-GQFN24;Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias;https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf;Digikey;https://www.digikey.ch/en/products/detail/silicon-labs/CP2102N-A02-GQFN24/9863476;1
