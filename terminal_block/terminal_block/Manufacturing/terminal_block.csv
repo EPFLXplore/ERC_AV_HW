@@ -1,3 +1,6 @@
-"Id";"Identificador";"Huella";"Cantidad";"Identificación";"Suministrador y ref";
-1;"J3,J4,J14,J13,J10,J7,J9,J1,J11,J12,J8,J6,J5,J2";"AMASS_XT60-F_1x02_P7.20mm_Vertical";14;"Conn_01x03";;;
-2;"J24,J15,J20,J23,J22,J25,J26,J17,J18,J21,J19,J16";"AMASS_XT30UPB-F_1x02_P5.0mm_Vertical";12;"Conn_01x03";;;
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J23,J18,J15,J9,J10";"AMASS_XT60PW-F_1x02_P7.20mm_Horizontal";5;"XT60F";;;
+2;"J38,J33,J29,J32,J27";"AMASS_XT60PW-M_1x02_P7.20mm_Horizontal";5;"XT60M";;;
+3;"J21,J30,J25,J17,J8,J19,J24,J5,J16,J31,J7,J14,J2,J20,J28,J1,J26,J22,J3,J13,J4,J12,J11,J6";"AMASS_XT60-F_1x02_P7.20mm_Vertical";24;"XT60F";;;
+4;"J41,J34,J36,J37,J45,J43,J42,J35";"AMASS_XT30UPB-M_1x02_P5.0mm_Vertical";8;"XT30F";;;
+5;",,,";"";4;"";;;
