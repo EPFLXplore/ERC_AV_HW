@@ -1794,9 +1794,9 @@
 			)
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
 					(page "2")
 				)
@@ -1876,9 +1876,9 @@
 			)
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
@@ -1917,7 +1917,7 @@
 			)
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
 					(page "3")
 				)

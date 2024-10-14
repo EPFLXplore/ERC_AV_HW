@@ -1438,7 +1438,7 @@
 			(uuid "92d70555-d12f-4c57-adfe-07bf5ec9b3e4")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "8")
 				)
@@ -1504,7 +1504,7 @@
 			(uuid "70222491-feee-4eea-af6f-861a56dbe59f")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "5")
 				)
@@ -1596,7 +1596,7 @@
 			(uuid "c609529b-869b-44da-b61c-3cda313a0c94")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "6")
 				)
@@ -1675,7 +1675,7 @@
 			(uuid "595f6f52-d1a5-4ed1-bb09-a5822338842e")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "7")
 				)
@@ -1728,7 +1728,7 @@
 			(uuid "90c2611b-65da-4326-b2fd-a7aec8bf75a6")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "11")
 				)
@@ -1820,7 +1820,7 @@
 			(uuid "e63c6654-6734-49c7-acec-ba44c4453781")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "9")
 				)
@@ -1899,7 +1899,7 @@
 			(uuid "84744060-5e7c-4806-92ff-d1ee4e3f2c4a")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "10")
 				)
@@ -2030,7 +2030,7 @@
 			(uuid "8749bb5b-949e-4cd5-be1d-8ff75e16fc57")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "charge_manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "4")
 				)
