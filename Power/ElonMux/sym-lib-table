@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ECS-400-10-33B-CKM-TR")(type "KiCad")(uri "/Users/theoh/Downloads/ECS_400_10_33B_CKM_TR-2/ECS-400-10-33B-CKM-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "Charge_Manager_SYM")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Charge_Manager_SYM.kicad_sym")(options "")(descr ""))
+)
