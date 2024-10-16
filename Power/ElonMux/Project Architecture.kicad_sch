@@ -251,16 +251,6 @@
 		)
 		(uuid "26b9c9a7-0575-4ee9-9d73-fe9808a125db")
 	)
-	(bus
-		(pts
-			(xy 190.5 116.84) (xy 238.76 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3719bf2d-2a74-4bdd-906e-fbaa95a3d912")
-	)
 	(polyline
 		(pts
 			(xy 199.39 149.225) (xy 200.025 149.225)
@@ -302,6 +292,16 @@
 			(type default)
 		)
 		(uuid "43ed64f7-5160-40d4-a3ca-e0643104ccdc")
+	)
+	(bus
+		(pts
+			(xy 190.5 119.38) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d6d212-528c-4acd-b9d6-2d3e7052eaac")
 	)
 	(wire
 		(pts
@@ -394,6 +394,16 @@
 		)
 		(uuid "79d0f8e3-701e-4e41-969c-b407f9f3f0fa")
 	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 238.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2716c0-af82-4032-9fe9-f4f5a4c3a896")
+	)
 	(polyline
 		(pts
 			(xy 199.39 144.145) (xy 200.025 144.145)
@@ -407,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 121.92) (xy 195.58 144.78)
+			(xy 195.58 123.19) (xy 195.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92) (xy 195.58 121.92)
+			(xy 190.5 123.19) (xy 195.58 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1656,7 @@
 			)
 		)
 		(pin "+VCHARGE" output
-			(at 190.5 121.92 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1669,7 @@
 			(uuid "fdbc573e-e57c-4b04-93ff-49abe7557fbc")
 		)
 		(pin "{I2C_CHARGER}" bidirectional
-			(at 190.5 116.84 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,6 +1693,19 @@
 				(justify left)
 			)
 			(uuid "595f6f52-d1a5-4ed1-bb09-a5822338842e")
+		)
+		(pin "CHARGER_STATUS" output
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "f3cc22ed-c185-4d72-b28f-20192d3b394a")
 		)
 		(instances
 			(project "ElonMux"
@@ -1724,7 +1747,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{LED_DBG}" input
+		(pin "LED_DBG" input
 			(at 283.21 123.19 180)
 			(effects
 				(font
@@ -1735,7 +1758,7 @@
 				)
 				(justify left)
 			)
-			(uuid "90c2611b-65da-4326-b2fd-a7aec8bf75a6")
+			(uuid "d99e2809-212b-4ed6-b0a1-7c6be2b197d8")
 		)
 		(instances
 			(project "ElonMux"
@@ -2001,7 +2024,7 @@
 			(uuid "837095e7-f51f-46b9-9f7f-86c4fd95450d")
 		)
 		(pin "{I2C_CHARGER}" bidirectional
-			(at 238.76 116.84 180)
+			(at 238.76 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)

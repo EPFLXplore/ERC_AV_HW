@@ -7370,7 +7370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34bac973-177c-437c-a7e0-d13289560a73")
-		(property "Reference" "R821"
+		(property "Reference" "R816"
 			(at 367.03 134.112 90)
 			(effects
 				(font
@@ -7440,7 +7440,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
-					(reference "R821")
+					(reference "R816")
 					(unit 1)
 				)
 			)
