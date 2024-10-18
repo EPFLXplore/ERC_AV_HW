@@ -14289,7 +14289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_connectors:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -14400,7 +14400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_connectors:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -14579,7 +14579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
 			(at 351.46 171.45 0)
 			(effects
 				(font
@@ -14755,7 +14755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
 			(at 73.99 171.45 0)
 			(effects
 				(font
@@ -14931,7 +14931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_connectors:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 281.94 161.29 0)
 			(effects
 				(font
@@ -15043,7 +15043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
 			(at 77.8 74.93 0)
 			(effects
 				(font
@@ -15218,7 +15218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
 			(at 351.46 74.93 0)
 			(effects
 				(font
@@ -15326,7 +15326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_connectors:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 281.94 64.77 0)
 			(effects
 				(font

@@ -2196,6 +2196,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 345.44 175.26)
@@ -2232,6 +2328,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b7c64f6-09fb-49d1-a77a-a59e76f8b918")
+	)
+	(junction
+		(at 138.43 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118eb09f-1d59-4993-9576-34d42c9dc218")
 	)
 	(junction
 		(at 341.63 175.26)
@@ -2382,6 +2484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f90e8b2-54cf-4dbd-bb89-d9a7f6f666d0")
+	)
+	(junction
+		(at 138.43 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863877d8-b7aa-4a36-853f-d8fd2b0e65dc")
 	)
 	(junction
 		(at 207.01 67.31)
@@ -3004,6 +3112,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380da27c-2447-46ac-a957-335944d57576")
+	)
+	(wire
+		(pts
 			(xy 314.96 69.85) (xy 314.96 74.93)
 		)
 		(stroke
@@ -3596,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 74.93) (xy 151.13 74.93)
+			(xy 133.35 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4198,6 +4316,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 74.93) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f69662-c84a-466f-991d-1fdebed1cdb5")
+	)
+	(wire
+		(pts
 			(xy 207.01 85.09) (xy 207.01 90.17)
 		)
 		(stroke
@@ -4550,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 146.05 90.17)
+			(xy 133.35 90.17) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5584,6 +5712,19 @@
 		)
 		(uuid "07778f50-bfc0-4792-87ec-8f43b985350f")
 	)
+	(label "VDD"
+		(at 220.98 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0902ec74-1edf-4e46-835b-1a8bf664668c")
+	)
 	(label "OUTB"
 		(at 287.02 213.36 0)
 		(fields_autoplaced yes)
@@ -5602,8 +5743,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 				(color 132 0 0 1)
 			)
 			(justify right bottom)
@@ -5616,26 +5756,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 				(color 132 0 0 1)
 			)
 			(justify right bottom)
 		)
 		(uuid "1210a00e-ba7d-4c4b-9a00-b56cf9722c4e")
-	)
-	(label "TIMER1"
-		(at 220.98 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "12121e02-c801-4769-8f3f-c9f76d248cf6")
 	)
 	(label "IMON2"
 		(at 320.04 160.02 0)
@@ -5673,14 +5799,26 @@
 			)
 		)
 	)
-	(label "shunt_supply+"
-		(at 55.88 69.85 180)
+	(label "VDD"
+		(at 190.5 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "33ba76ee-cb92-41bf-807d-998969460f4d")
+	)
+	(label "shunt_supply+"
+		(at 55.88 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
 				(color 132 0 0 1)
 			)
 			(justify right bottom)
@@ -5693,8 +5831,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -5795,26 +5932,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 				(color 132 0 0 1)
 			)
 			(justify right bottom)
 		)
 		(uuid "6dd38e77-aa68-40ad-92f8-d4f665428210")
-	)
-	(label "RUN2"
-		(at 320.04 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "724b9759-71da-4757-9a8b-515524b8a3f9")
 	)
 	(label "GND"
 		(at 359.41 232.41 0)
@@ -5838,6 +5961,19 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "VDD"
+		(at 320.04 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7be44cd4-961b-4423-bcee-d77cd41e1dcf")
 	)
 	(label "OUTB"
 		(at 320.04 156.21 0)
@@ -5938,8 +6074,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -6007,19 +6142,6 @@
 		)
 		(uuid "b31c1b6b-ef37-4899-8e72-bcc445312ea6")
 	)
-	(label "RUN1"
-		(at 220.98 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb32fad7-2fda-430c-bdec-3b3b1032612b")
-	)
 	(label "VCC1"
 		(at 359.41 217.17 0)
 		(fields_autoplaced yes)
@@ -6060,27 +6182,13 @@
 		)
 		(uuid "d1df1786-2472-40f5-964b-c1f25e5d86f5")
 	)
-	(label "TIMER2"
-		(at 320.04 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a7ea90-0e83-45c1-9cd9-efb2ecd5beab")
-	)
 	(label "shunt_supply-"
 		(at 69.85 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 				(color 132 0 0 1)
 			)
 			(justify right bottom)
@@ -6118,8 +6226,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -6320,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 266.7 140.208 90)
 			(effects
 				(font
@@ -6329,7 +6436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -6347,7 +6454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -6356,7 +6463,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -6407,7 +6532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.052 138.43 90)
 			(effects
 				(font
@@ -6416,7 +6541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 163.83 138.43 0)
 			(effects
 				(font
@@ -6434,7 +6559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" " RK73H1ETTP2052F"
 			(at 163.83 138.43 0)
 			(effects
 				(font
@@ -6443,7 +6568,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-RK73H1ETTP2052F"
 			(at 163.83 138.43 0)
 			(effects
 				(font
@@ -6495,7 +6638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.1052 170.18 0)
 			(effects
 				(font
@@ -6504,7 +6647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
 			(at 104.14 166.37 0)
 			(effects
 				(font
@@ -6522,7 +6665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
 			(at 104.14 166.37 0)
 			(effects
 				(font
@@ -6531,7 +6674,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
 			(at 104.14 166.37 0)
 			(effects
 				(font
@@ -6580,7 +6741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 218.44 112.268 90)
 			(effects
 				(font
@@ -6668,7 +6829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 382.27 204.47 0)
 			(effects
 				(font
@@ -6868,7 +7029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.872 166.37 90)
 			(effects
 				(font
@@ -6877,7 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 120.65 166.37 0)
 			(effects
 				(font
@@ -6895,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
 			(at 120.65 166.37 0)
 			(effects
 				(font
@@ -6904,7 +7065,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
 			(at 120.65 166.37 0)
 			(effects
 				(font
@@ -6955,7 +7134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.028 138.43 90)
 			(effects
 				(font
@@ -6964,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/AOA0000C331-1141874.pdf"
 			(at 222.25 138.43 0)
 			(effects
 				(font
@@ -6982,7 +7161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-PA2F1003X"
 			(at 222.25 138.43 0)
 			(effects
 				(font
@@ -6991,7 +7170,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-PA2F1003X"
 			(at 222.25 138.43 0)
 			(effects
 				(font
@@ -7043,7 +7240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 309.88 223.52 0)
 			(effects
 				(font
@@ -7125,7 +7322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.17 65.278 90)
 			(effects
 				(font
@@ -7134,7 +7331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 217.17 63.5 0)
 			(effects
 				(font
@@ -7152,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RK73H1ETTP3R00F"
 			(at 217.17 63.5 0)
 			(effects
 				(font
@@ -7161,7 +7358,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-RK73H1ETTP3R00F"
 			(at 217.17 63.5 0)
 			(effects
 				(font
@@ -7213,7 +7428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.872 157.48 90)
 			(effects
 				(font
@@ -7222,7 +7437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -7240,7 +7455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -7249,7 +7464,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -7301,7 +7534,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 59.69 73.152 90)
 			(effects
 				(font
@@ -7310,7 +7543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcs.pdf"
 			(at 59.69 74.93 0)
 			(effects
 				(font
@@ -7328,7 +7561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "	 HCS1206FT1L00"
 			(at 59.69 74.93 0)
 			(effects
 				(font
@@ -7337,7 +7570,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
+			(at 59.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 59.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "HCS1206FT1L00CT-ND "
 			(at 59.69 74.93 0)
 			(effects
 				(font
@@ -7386,7 +7637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 367.03 140.208 90)
 			(effects
 				(font
@@ -7395,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 367.03 138.43 0)
 			(effects
 				(font
@@ -7413,7 +7664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
 			(at 367.03 138.43 0)
 			(effects
 				(font
@@ -7422,7 +7673,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 367.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 367.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
 			(at 367.03 138.43 0)
 			(effects
 				(font
@@ -7474,7 +7743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PMEG4010EXEX"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 366.7 146.05 0)
 			(effects
 				(font
@@ -7582,7 +7851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 59.69 88.392 90)
 			(effects
 				(font
@@ -7591,7 +7860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcs.pdf"
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -7609,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "	 HCS1206FT1L00"
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -7618,7 +7887,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "HCS1206FT1L00CT-ND "
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -7637,6 +7924,73 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
 					(reference "R806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42759380-e1cf-402b-b3b1-e2279e4d95e9")
+		(property "Reference" "#FLG0802"
+			(at 138.43 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f25ed7c5-3918-488c-a38b-9ab37f581ecc")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
+					(reference "#FLG0802")
 					(unit 1)
 				)
 			)
@@ -7670,7 +8024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 309.88 212.09 0)
 			(effects
 				(font
@@ -7754,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-17N"
+		(property "Footprint" "Charge_Manager_FP:LTC7000EMSE#PBF"
 			(at 356.87 225.73 0)
 			(effects
 				(font
@@ -7906,7 +8260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-17N"
+		(property "Footprint" "Charge_Manager_FP:LTC7000EMSE#PBF"
 			(at 257.81 225.73 0)
 			(effects
 				(font
@@ -8058,7 +8412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 295.6052 171.45 0)
 			(effects
 				(font
@@ -8067,7 +8421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 294.64 167.64 0)
 			(effects
 				(font
@@ -8085,7 +8439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB105"
 			(at 294.64 167.64 0)
 			(effects
 				(font
@@ -8094,7 +8448,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 294.64 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-CC603KRX7R9BB105"
 			(at 294.64 167.64 0)
 			(effects
 				(font
@@ -8146,7 +8518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 382.27 223.52 0)
 			(effects
 				(font
@@ -8231,7 +8603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 264.16 106.172 90)
 			(effects
 				(font
@@ -8240,7 +8612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/418/8/NG_DS_1773204_4_A-1532794.pdf"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -8258,7 +8630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "35021K0FT"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -8267,7 +8639,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity / Holsworthy"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "279-35021K0FT"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -8319,7 +8709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 382.27 208.28 0)
 			(effects
 				(font
@@ -8519,7 +8909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 273.05 56.642 90)
 			(effects
 				(font
@@ -8528,7 +8918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/418/8/NG_DS_1773204_4_A-1532794.pdf"
 			(at 273.05 58.42 0)
 			(effects
 				(font
@@ -8546,7 +8936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "35021K0FT"
 			(at 273.05 58.42 0)
 			(effects
 				(font
@@ -8555,7 +8945,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 273.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity / Holsworthy"
+			(at 273.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "279-35021K0FT"
 			(at 273.05 58.42 0)
 			(effects
 				(font
@@ -8606,7 +9014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P280X110-6N"
+		(property "Footprint" "Charge_Manager_FP:TPS3701DDCR"
 			(at 158.75 239.7 0)
 			(effects
 				(font
@@ -8726,7 +9134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 170.18 0)
 			(effects
 				(font
@@ -8735,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
 			(at 132.08 166.37 0)
 			(effects
 				(font
@@ -8753,7 +9161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
 			(at 132.08 166.37 0)
 			(effects
 				(font
@@ -8762,7 +9170,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 132.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 132.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
 			(at 132.08 166.37 0)
 			(effects
 				(font
@@ -8811,7 +9237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 218.44 107.188 90)
 			(effects
 				(font
@@ -8820,7 +9246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 218.44 105.41 0)
 			(effects
 				(font
@@ -8838,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RK73H1ETTP3R00F"
 			(at 218.44 105.41 0)
 			(effects
 				(font
@@ -8847,7 +9273,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-RK73H1ETTP3R00F"
 			(at 218.44 105.41 0)
 			(effects
 				(font
@@ -8898,7 +9342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.212 166.37 90)
 			(effects
 				(font
@@ -8907,7 +9351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 173.99 166.37 0)
 			(effects
 				(font
@@ -8925,7 +9369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
 			(at 173.99 166.37 0)
 			(effects
 				(font
@@ -8934,7 +9378,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 173.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 173.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
 			(at 173.99 166.37 0)
 			(effects
 				(font
@@ -8953,6 +9415,73 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
 					(reference "R820")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8338f65d-0e58-402a-9dc9-4832f236eaf2")
+		(property "Reference" "#FLG0801"
+			(at 138.43 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6117e0-1cec-45fe-965c-050fbb186ee4")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
+					(reference "#FLG0801")
 					(unit 1)
 				)
 			)
@@ -8985,7 +9514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 364.1852 156.21 0)
 			(effects
 				(font
@@ -8994,7 +9523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
 			(at 363.22 152.4 0)
 			(effects
 				(font
@@ -9012,7 +9541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
 			(at 363.22 152.4 0)
 			(effects
 				(font
@@ -9021,7 +9550,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 363.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 363.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
 			(at 363.22 152.4 0)
 			(effects
 				(font
@@ -9073,7 +9620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 382.27 227.33 0)
 			(effects
 				(font
@@ -9273,7 +9820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.1252 156.21 0)
 			(effects
 				(font
@@ -9282,7 +9829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
 			(at 264.16 152.4 0)
 			(effects
 				(font
@@ -9300,7 +9847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
 			(at 264.16 152.4 0)
 			(effects
 				(font
@@ -9309,7 +9856,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 264.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 264.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
 			(at 264.16 152.4 0)
 			(effects
 				(font
@@ -9361,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.872 133.35 90)
 			(effects
 				(font
@@ -9370,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/AOA0000C331-1141874.pdf"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -9388,7 +9953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-P06F2403V"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -9397,7 +9962,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-P06F2403V"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -9516,7 +10099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 309.88 227.33 0)
 			(effects
 				(font
@@ -9600,7 +10183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM1206SRC"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 275.59 -35.23 0)
 			(effects
 				(font
@@ -9706,7 +10289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.052 166.37 90)
 			(effects
 				(font
@@ -9715,7 +10298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 163.83 166.37 0)
 			(effects
 				(font
@@ -9733,7 +10316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
 			(at 163.83 166.37 0)
 			(effects
 				(font
@@ -9742,7 +10325,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
 			(at 163.83 166.37 0)
 			(effects
 				(font
@@ -9793,7 +10394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.088 138.43 90)
 			(effects
 				(font
@@ -9802,7 +10403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/AOA0000C331-1141874.pdf"
 			(at 321.31 138.43 0)
 			(effects
 				(font
@@ -9820,7 +10421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-PA2F1003X"
 			(at 321.31 138.43 0)
 			(effects
 				(font
@@ -9829,7 +10430,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 321.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 321.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-PA2F1003X"
 			(at 321.31 138.43 0)
 			(effects
 				(font
@@ -9948,7 +10567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 256.54 56.642 90)
 			(effects
 				(font
@@ -9957,7 +10576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 256.54 58.42 0)
 			(effects
 				(font
@@ -9975,7 +10594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
 			(at 256.54 58.42 0)
 			(effects
 				(font
@@ -9984,7 +10603,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 256.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 256.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
 			(at 256.54 58.42 0)
 			(effects
 				(font
@@ -10035,7 +10672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.3552 170.18 0)
 			(effects
 				(font
@@ -10044,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 199.39 166.37 0)
 			(effects
 				(font
@@ -10062,7 +10699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB105"
 			(at 199.39 166.37 0)
 			(effects
 				(font
@@ -10071,7 +10708,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 199.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 199.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-CC603KRX7R9BB105"
 			(at 199.39 166.37 0)
 			(effects
 				(font
@@ -10123,7 +10778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 170.18 0)
 			(effects
 				(font
@@ -10132,7 +10787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -10150,7 +10805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -10159,7 +10814,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -10210,7 +10883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM1206SRC"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 271.78 14.3 0)
 			(effects
 				(font
@@ -10317,7 +10990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 309.88 204.47 0)
 			(effects
 				(font
@@ -10399,7 +11072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.17 60.198 90)
 			(effects
 				(font
@@ -10487,7 +11160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 382.27 212.09 0)
 			(effects
 				(font
@@ -10572,7 +11245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO-263AB_1"
+		(property "Footprint" "Charge_Manager_FP:SOT26-6 VBT3045C-E3"
 			(at 53.67 127 0)
 			(effects
 				(font
@@ -10682,7 +11355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 170.18 0)
 			(effects
 				(font
@@ -10691,7 +11364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 187.96 166.37 0)
 			(effects
 				(font
@@ -10709,7 +11382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB105"
 			(at 187.96 166.37 0)
 			(effects
 				(font
@@ -10718,7 +11391,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 187.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 187.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-CC603KRX7R9BB105"
 			(at 187.96 166.37 0)
 			(effects
 				(font
@@ -10770,7 +11461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 382.27 215.9 0)
 			(effects
 				(font
@@ -10984,7 +11675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 307.0352 171.45 0)
 			(effects
 				(font
@@ -10993,7 +11684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_250V_24-3441574.pdf"
 			(at 306.07 167.64 0)
 			(effects
 				(font
@@ -11011,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB105"
 			(at 306.07 167.64 0)
 			(effects
 				(font
@@ -11020,7 +11711,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 306.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 306.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-CC603KRX7R9BB105"
 			(at 306.07 167.64 0)
 			(effects
 				(font
@@ -11072,7 +11781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 309.88 208.28 0)
 			(effects
 				(font
@@ -11273,7 +11982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PMEG4010EXEX"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 465.76 146.05 0)
 			(effects
 				(font
@@ -11380,7 +12089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.212 138.43 90)
 			(effects
 				(font
@@ -11389,7 +12098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 173.99 138.43 0)
 			(effects
 				(font
@@ -11407,7 +12116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" " RK73H1ETTP2052F"
 			(at 173.99 138.43 0)
 			(effects
 				(font
@@ -11416,7 +12125,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-RK73H1ETTP2052F"
 			(at 173.99 138.43 0)
 			(effects
 				(font
