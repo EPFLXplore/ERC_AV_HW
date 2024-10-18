@@ -164,7 +164,7 @@
 		)
 		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
 	)
-	(text_box "- Added the pin 29 on the ESP32 that was missing.\n\n- Added test points for the status pins of the other ICs.\n\n- Improved brightness of debug LED.\n\n- Switch to differential pairs for shunt resistors.\n\n- Reduced BOM size by using the same 8 N-MOSFETs\n\n- Connecting some debug GPIO to Ics (ex: VALID1/2).\n\n- Reduced BOM size from 61 to 54.\n\n- Found board name, added Logo.\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n"
+	(text_box "- Added the pin 29 on the ESP32 that was missing.\n\n- Added test points for the status pins of the other ICs.\n\n- Improved brightness of debug LED.\n\n- Switch to differential pairs for shunt resistors.\n\n- Reduced BOM size by using the same 8 N-MOSFETs\n\n- Connecting some debug GPIO to Ics (ex: VALID1/2).\n\n- Reduced BOM size from 61 to 53.\n\n- Found board name, added Logo.\n\n- Added bulk capacitors and refined their value from dev board of LM51772.\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n"
 		(exclude_from_sim no)
 		(at 22.86 40.64 0)
 		(size 58.42 115.57)

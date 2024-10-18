@@ -5046,7 +5046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_package_SOT_TO_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -5157,7 +5157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 99.822 90)
 			(effects
 				(font
@@ -5166,7 +5166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -5184,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -5193,7 +5193,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -5311,7 +5329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 173.482 74.93 90)
 			(effects
 				(font
@@ -5320,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 175.26 74.93 0)
 			(effects
 				(font
@@ -5338,7 +5356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SG73P2ATTD56R0F"
 			(at 175.26 74.93 0)
 			(effects
 				(font
@@ -5347,7 +5365,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-SG73P2ATTD56R0F"
 			(at 175.26 74.93 0)
 			(effects
 				(font
@@ -5466,7 +5502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.892 107.95 90)
 			(effects
 				(font
@@ -5475,7 +5511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/AOA0000C331-1141874.pdf"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -5493,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-PA2F1003X"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -5502,7 +5538,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Mouser Electronics"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-PA2F1003X"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -5553,7 +5607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDC1608X60N"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 268.91 74.93 0)
 			(effects
 				(font
@@ -5563,7 +5617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SM1206GC.pdf"
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_599-1206_Apr2018.pdf"
 			(at 368.91 74.93 0)
 			(effects
 				(font
