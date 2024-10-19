@@ -9,4 +9,6 @@
   (lib (name "BM07B-GHS-TBT")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/BM07B_GHS_TBT.kicad_sym")(options "")(descr ""))
   (lib (name "LT3960JMSE-PBF")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LT3960JMSE-PBF.kicad_sym")(options "")(descr ""))
   (lib (name "PESD2CAN27v")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/PESD2CAN27v.kicad_sym")(options "")(descr ""))
+  (lib (name "502585470")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/502585470.kicad_sym")(options "")(descr ""))
+  (lib (name "502585570")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/502585570.kicad_sym")(options "")(descr ""))
 )
