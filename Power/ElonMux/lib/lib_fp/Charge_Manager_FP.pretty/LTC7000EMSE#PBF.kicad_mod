@@ -278,7 +278,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9a707399-5536-43be-8db6-b63ae336b125")
 	)
-	(model "LTC7000EMSE#PBF.stp"
+	(model "${KIPRJMOD}/lib/3D_models/LTC7000EMSE#PBF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

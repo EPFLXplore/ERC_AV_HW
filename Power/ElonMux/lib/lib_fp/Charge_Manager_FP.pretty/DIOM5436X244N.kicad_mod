@@ -198,7 +198,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6c5926c0-0be5-4441-a8be-975440138fe5")
 	)
-	(model "SMBJ30CA.stp"
+	(model "${KIPRJMOD}/lib/3D_models/SMBJ30CA.stp"
 		(offset
 			(xyz 0 0 0)
 		)

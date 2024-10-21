@@ -252,7 +252,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d74e8f09-17e9-47e8-bf51-231f1e2b707e")
 	)
-	(model "TPS3701DDCR.stp"
+	(model "${KIPRJMOD}/lib/3D_models/TPS3701DDCR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

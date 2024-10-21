@@ -276,15 +276,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7e853dc0-1419-48ec-bfd0-23049f4bbc40")
 	)
-	(model "INA239AQDGSRQ1.stp"
+	(model "${KIPRJMOD}/lib/3D_models/INA239AQDGSRQ1.stp"
 		(offset
-			(xyz 0 0 0.6899999873)
+			(xyz 0 0 0.67)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz -90 0 90)
 		)
 	)
 )

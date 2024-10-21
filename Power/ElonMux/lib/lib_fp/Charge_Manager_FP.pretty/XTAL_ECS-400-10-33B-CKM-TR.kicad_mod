@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.55178 0.55178)
-				(thickness 0.15)
+				(thickness 0.137945)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.552291 0.552291)
-				(thickness 0.15)
+				(thickness 0.138073)
 			)
 		)
 	)
@@ -211,5 +211,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "a87f882b-7ff5-49c5-858e-a99145a3c04a")
+	)
+	(model "${KIPRJMOD}/lib/3D_models/ECS-400-10-33B-CKM-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

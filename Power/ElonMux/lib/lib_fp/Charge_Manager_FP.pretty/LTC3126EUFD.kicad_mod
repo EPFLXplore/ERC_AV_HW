@@ -351,7 +351,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b923fc3f-6a85-4e6d-9bca-d64733ff197b")
 	)
-	(model "LTC3126EUFD#PBF.stp"
+	(model "${KIPRJMOD}/lib/3D_models/LTC3126EUFD#PBF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -271,15 +271,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d87f4bf9-3d0b-442f-8c2e-addb4bdd448d")
 	)
-	(model "FTSH-107-01-F-DV-K.stp"
+	(model "${KIPRJMOD}/lib/3D_models/FTSH-107-01-F-DV-K.stp"
 		(offset
-			(xyz 0 -0.2300000007 0.4099999903)
+			(xyz 0 0 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -180 0)
+			(xyz -90 0 0)
 		)
 	)
 )

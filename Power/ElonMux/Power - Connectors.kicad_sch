@@ -11,207 +11,6 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "0_connectors:Conn_01x02_Mounting"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 2.54 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Mounting"
-				(at 15.24 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row with mounting pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Mounting_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Mounting_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 6.35 270)
-					(length 3.81)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 3.81)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Charge_Manager_SYM:SMBJ30CA"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -461,6 +260,245 @@
 				)
 			)
 		)
+		(symbol "Conn_01x02_Mounting_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J502"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Charge_Manager_FP:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "XT60PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Transfer Multisort Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "XT60PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Mounting_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Mounting_1_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 6.35 270)
+					(length 3.81)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 3.81)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -583,6 +621,12 @@
 		(uuid "4ee66426-5824-4d88-ac2a-a5d3b6f5036d")
 	)
 	(junction
+		(at 171.45 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f27671-d867-4d56-9aca-b35f600674c0")
+	)
+	(junction
 		(at 151.13 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -648,12 +692,6 @@
 		(color 0 0 0 0)
 		(uuid "dd5097b6-d251-42c0-bb76-c4a83a785fc2")
 	)
-	(junction
-		(at 171.45 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec06dc2e-0216-4392-80ef-cd2eb0e99d64")
-	)
 	(wire
 		(pts
 			(xy 151.13 55.88) (xy 151.13 64.77)
@@ -703,16 +741,6 @@
 			(type default)
 		)
 		(uuid "20d37972-6c55-4362-b0d9-069706716112")
-	)
-	(wire
-		(pts
-			(xy 257.81 62.23) (xy 276.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22cb2fd1-3baf-4eef-85cf-4ce96993ab51")
 	)
 	(wire
 		(pts
@@ -786,16 +814,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 152.4) (xy 274.32 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f32cfd7-f0d1-432d-8d4b-afa298961cc3")
-	)
-	(wire
-		(pts
 			(xy 142.24 167.64) (xy 151.13 167.64)
 		)
 		(stroke
@@ -813,16 +831,6 @@
 			(type default)
 		)
 		(uuid "4bb62cb5-7e03-4d9d-9b5f-71636ec540d3")
-	)
-	(wire
-		(pts
-			(xy 276.86 161.29) (xy 274.32 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c93af54-69c1-4dc5-ba56-50b788f64d52")
 	)
 	(wire
 		(pts
@@ -955,6 +963,16 @@
 		)
 		(uuid "93b511f4-7e18-4b2a-b084-ea9e3f95b1c5")
 	)
+	(wire
+		(pts
+			(xy 148.59 62.23) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9400d269-7700-4b8c-ab9d-ccc5554c8773")
+	)
 	(polyline
 		(pts
 			(xy 244.475 81.28) (xy 224.79 125.095)
@@ -988,6 +1006,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 152.4) (xy 283.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95360194-f332-4a7b-8969-f49c65df3b52")
+	)
+	(wire
+		(pts
 			(xy 283.21 55.88) (xy 274.32 55.88)
 		)
 		(stroke
@@ -1005,26 +1033,6 @@
 			(type default)
 		)
 		(uuid "98fce04c-5a60-4238-aa9c-92389c483b44")
-	)
-	(wire
-		(pts
-			(xy 148.59 62.23) (xy 171.45 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996fcf59-b2cf-4939-83e2-09a1c072a154")
-	)
-	(wire
-		(pts
-			(xy 283.21 167.64) (xy 274.32 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a959087-5c87-4d08-8d98-fff2bd5184b6")
 	)
 	(wire
 		(pts
@@ -1058,6 +1066,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 62.23) (xy 276.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6440183-b66b-4dc7-ad2b-584ade6bed8a")
+	)
+	(wire
+		(pts
 			(xy 142.24 152.4) (xy 151.13 152.4)
 		)
 		(stroke
@@ -1065,6 +1083,16 @@
 			(type default)
 		)
 		(uuid "c8876aa1-65fc-45a1-8f72-49ebfc5f9f00")
+	)
+	(wire
+		(pts
+			(xy 274.32 161.29) (xy 276.86 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d325c2c0-8d3d-456c-b380-ffaf4f2dc5a4")
 	)
 	(polyline
 		(pts
@@ -1097,6 +1125,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "e9622dbd-6b0d-474e-84b9-843de805263a")
+	)
+	(wire
+		(pts
+			(xy 274.32 167.64) (xy 283.21 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec8fe42-d0dd-4aec-9eb6-327c24f6d43a")
 	)
 	(rectangle
 		(start 99.695 145.415)
@@ -14263,117 +14301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_01x02_Mounting")
-		(at 143.51 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "292b2b0d-42d4-4000-a7c4-8f3463684fea")
-		(property "Reference" "J501"
-			(at 138.43 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 138.43 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AMASS"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "XT60PW-M"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Transfer Multisort Elektronik"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "XT60PW-M"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a4427ab-ee2f-4c2f-83fe-4ac635c7ecd7")
-		)
-		(pin "2"
-			(uuid "c8aa9259-6c0e-489a-904e-65d00a38de5a")
-		)
-		(pin "MP1"
-			(uuid "63db18a0-69da-481f-91c5-b598f59c010e")
-		)
-		(pin "MP2"
-			(uuid "96038fb2-4f03-46b5-ae92-086e922091fe")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "J501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "Conn_01x02_Mounting_1")
 		(lib_id "0_connectors:Conn_01x02_Mounting")
 		(at 143.51 161.29 180)
 		(unit 1)
@@ -14381,9 +14309,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4341a03b-931e-4a70-a443-0d482e373281")
+		(uuid "4303c4bb-4a53-4bbc-a096-7f2834ecdad3")
 		(property "Reference" "J503"
-			(at 138.43 161.29 0)
+			(at 138.938 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14392,7 +14320,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 138.43 158.75 0)
+			(at 138.43 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14400,7 +14328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Charge_Manager_FP:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -14464,19 +14392,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "61f3636a-a15f-44a0-b6df-8df136549339")
+			(uuid "d2c8aae7-16aa-48fb-9f12-1b42003dbe5a")
 		)
 		(pin "2"
-			(uuid "dab98ffc-316e-41af-bb91-a86b04e89315")
+			(uuid "140963eb-e12f-4979-9d71-f4c6b0704a45")
 		)
-		(pin "MP1"
-			(uuid "6b0c7f14-4d19-4fdf-9367-dc5dfad72c42")
+		(pin "3"
+			(uuid "22cdc096-7235-4ea3-8b6c-9366b71c90df")
 		)
-		(pin "MP2"
-			(uuid "476e1e27-d803-4517-b55b-7566d0db7f48")
+		(pin "4"
+			(uuid "e16791f2-b2ce-4392-bd3f-e05d89ab0ad7")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
 					(reference "J503")
 					(unit 1)
@@ -14728,6 +14656,118 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x02_Mounting_1")
+		(lib_id "0_connectors:Conn_01x02_Mounting")
+		(at 143.51 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cde587e-aef3-49d6-bad3-e78f3e3d7d87")
+		(property "Reference" "J501"
+			(at 138.938 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 138.43 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMASS"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XT60PW-M"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Transfer Multisort Elektronik"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "XT60PW-M"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aef668b-44db-4317-8159-1686eb21e450")
+		)
+		(pin "2"
+			(uuid "025c59d2-493d-4106-9879-dd6ece9c8f04")
+		)
+		(pin "3"
+			(uuid "5b760215-2790-4b97-b2a1-fc153e842d80")
+		)
+		(pin "4"
+			(uuid "8b804004-e98f-4398-b9e8-2e662d0dce25")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
+					(reference "J501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Charge_Manager_SYM:SMBJ30CA")
 		(at 167.64 158.75 270)
 		(unit 1)
@@ -14898,118 +14938,6 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
 					(reference "#PWR0502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_connectors:Conn_01x02_Mounting")
-		(at 281.94 161.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a395970d-8174-418c-83ef-3ff408f8f889")
-		(property "Reference" "J504"
-			(at 287.02 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 287.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AMASS"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "XT60PW-M"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Transfer Multisort Elektronik"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "XT60PW-M"
-			(at 281.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3040f42-e51e-4081-9628-fbe046d0d420")
-		)
-		(pin "2"
-			(uuid "fa03e505-3211-4c17-891e-ca02d56ef3db")
-		)
-		(pin "MP1"
-			(uuid "a630a917-78ac-41cf-9bd4-0ba859bfec4c")
-		)
-		(pin "MP2"
-			(uuid "c4ae8088-090a-4c31-9efb-208a214fa523")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "J504")
 					(unit 1)
 				)
 			)
@@ -15299,6 +15227,120 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x02_Mounting_1")
+		(lib_id "0_connectors:Conn_01x02_Mounting")
+		(at 281.94 161.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e44b4a4b-993b-42c4-96f9-6bbcb3ad37d8")
+		(property "Reference" "J504"
+			(at 287.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 287.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMASS"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XT60PW-M"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Transfer Multisort Elektronik"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "XT60PW-M"
+			(at 281.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40b61146-ee7f-4539-a51a-1ee6fff7b726")
+		)
+		(pin "2"
+			(uuid "e70f2de5-458f-43bc-9160-7ce88582cb3d")
+		)
+		(pin "3"
+			(uuid "c987e4ef-9f7a-4f92-9a57-7fe8e8339401")
+		)
+		(pin "4"
+			(uuid "32518dee-83a6-47c5-b5d9-dbca0a9d15ac")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
+					(reference "J504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Mounting_1")
 		(lib_id "0_connectors:Conn_01x02_Mounting")
 		(at 281.94 64.77 0)
 		(mirror x)
@@ -15326,7 +15368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Charge_Manager_FP:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 281.94 64.77 0)
 			(effects
 				(font
@@ -15395,10 +15437,10 @@
 		(pin "2"
 			(uuid "3ff234be-8e01-48f4-aebf-212f40e3bc8a")
 		)
-		(pin "MP1"
+		(pin "3"
 			(uuid "9893c426-61ad-4428-9255-85461fcb25e8")
 		)
-		(pin "MP2"
+		(pin "4"
 			(uuid "1681d60e-9124-4350-8d3f-f866654b01f7")
 		)
 		(instances

@@ -210,7 +210,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4cb17408-f4b4-46c3-9623-90884deb8c3b")
 	)
-	(model "74439323010.stp"
+	(model "${KIPRJMOD}/lib/3D_models/74439323010.stp"
 		(offset
 			(xyz 0 0 0)
 		)

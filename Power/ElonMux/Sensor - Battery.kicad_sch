@@ -1077,6 +1077,17 @@
 			(justify left bottom)
 		)
 		(uuid "f3ae15cd-e65f-4f42-bb85-43ad496c91b7")
+		(property "Netclass" "Kelvin Diff Pair"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "shunt_bat+"
 		(at 121.92 86.36 0)
@@ -1089,9 +1100,20 @@
 			(justify left bottom)
 		)
 		(uuid "fa8701d4-1884-4952-b535-3a8ae3e2101c")
+		(property "Netclass" "Kelvin Diff Pair"
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "SENS_OUT"
-		(shape output)
+		(shape input)
 		(at 100.33 88.9 180)
 		(fields_autoplaced yes)
 		(effects
