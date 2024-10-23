@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "409aedda-ee28-4821-abf9-0319954a490c")
 	(paper "A5")
+	(title_block
+		(title "Mechanical Holes")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -313,7 +319,7 @@
 		)
 		(uuid "9aec0da0-d605-4bd3-ab6d-7d5239ded877")
 	)
-	(text_box "[9] Mechanical Holes"
+	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.7 14.605 0)
 		(size 185.42 12.7)
@@ -343,7 +349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c03942f-8585-4264-a066-872b0a7759da")
-		(property "Reference" "FM704"
+		(property "Reference" "FM1102"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -391,7 +397,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "FM704")
+					(reference "FM1102")
 					(unit 1)
 				)
 			)
@@ -407,7 +413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1edaa22b-5c20-49f2-936b-51cf430ab118")
-		(property "Reference" "H801"
+		(property "Reference" "H1101"
 			(at 71.755 62.23 0)
 			(effects
 				(font
@@ -458,7 +464,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "H801")
+					(reference "H1101")
 					(unit 1)
 				)
 			)
@@ -485,7 +491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41f31619-4de7-4958-b9b1-c1a4923a7097")
-		(property "Reference" "FM702"
+		(property "Reference" "FM1103"
 			(at 146.685 59.69 0)
 			(effects
 				(font
@@ -533,7 +539,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "FM702")
+					(reference "FM1103")
 					(unit 1)
 				)
 			)
@@ -548,7 +554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62961f93-18f6-4d96-b4cd-316e126407aa")
-		(property "Reference" "FM701"
+		(property "Reference" "FM1101"
 			(at 137.16 59.69 0)
 			(effects
 				(font
@@ -596,7 +602,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "FM701")
+					(reference "FM1101")
 					(unit 1)
 				)
 			)
@@ -612,7 +618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eada5a8-57e9-454b-935f-98feebe52194")
-		(property "Reference" "H802"
+		(property "Reference" "H1102"
 			(at 98.425 62.23 0)
 			(effects
 				(font
@@ -663,7 +669,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "H802")
+					(reference "H1102")
 					(unit 1)
 				)
 			)
@@ -690,7 +696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f120a9-4b38-4cfa-9256-e44586b547ee")
-		(property "Reference" "FM706"
+		(property "Reference" "FM1105"
 			(at 155.575 74.93 0)
 			(effects
 				(font
@@ -738,7 +744,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "FM706")
+					(reference "FM1105")
 					(unit 1)
 				)
 			)
@@ -753,7 +759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ae48a0-1d9b-4b6f-bb17-612ccc02735d")
-		(property "Reference" "FM703"
+		(property "Reference" "FM1106"
 			(at 156.21 59.69 0)
 			(effects
 				(font
@@ -801,7 +807,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "FM703")
+					(reference "FM1106")
 					(unit 1)
 				)
 			)
@@ -816,7 +822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc021fc8-5591-47c2-97ff-1fee316c2c6c")
-		(property "Reference" "FM705"
+		(property "Reference" "FM1104"
 			(at 146.685 74.93 0)
 			(effects
 				(font
@@ -864,7 +870,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1"
-					(reference "FM705")
+					(reference "FM1104")
 					(unit 1)
 				)
 			)

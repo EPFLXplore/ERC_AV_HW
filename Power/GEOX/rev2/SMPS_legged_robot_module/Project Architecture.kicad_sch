@@ -458,7 +458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b29121e-f23b-4811-bb73-8fbca2aab4f8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0301"
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -508,7 +508,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "#PWR07")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)

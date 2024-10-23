@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "dd21ae6b-a93d-4c0d-a093-613c0c109981")
 	(paper "A5")
+	(title_block
+		(title "Connector - Rail Output")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols
 		(symbol "0_connectors:Molex__755611500"
 			(exclude_from_sim no)
@@ -466,7 +472,7 @@
 		)
 		(uuid "7d9a9482-6753-4cf4-92a5-d8289da73248")
 	)
-	(text_box "[9] Connector - Rail Output"
+	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.446 15.24 0)
 		(size 185.42 12.7)
@@ -544,7 +550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285db261-f09e-40d9-b7d8-54b88e2a8b09")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0402"
 			(at 146.685 83.439 0)
 			(effects
 				(font
@@ -595,7 +601,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3d1802e1-bbda-43bc-9064-3e13fe6f262e"
-					(reference "#PWR09")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -610,8 +616,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d6e584e-8e25-49a6-a083-d90a1c1d652a")
-		(property "Reference" "J2"
-			(at 151.257 65.278 0)
+		(property "Reference" "J404"
+			(at 152.146 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +671,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3d1802e1-bbda-43bc-9064-3e13fe6f262e"
-					(reference "J2")
+					(reference "J404")
 					(unit 1)
 				)
 			)
@@ -680,8 +686,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e2a39a4-1e0e-453a-845b-ab75cd7580ef")
-		(property "Reference" "J3"
-			(at 65.405 65.786 0)
+		(property "Reference" "J402"
+			(at 66.294 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +741,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3d1802e1-bbda-43bc-9064-3e13fe6f262e"
-					(reference "J3")
+					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -751,7 +757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c82d372-b030-469a-892a-4d96ab061fc2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0401"
 			(at 60.833 83.947 0)
 			(effects
 				(font
@@ -802,7 +808,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3d1802e1-bbda-43bc-9064-3e13fe6f262e"
-					(reference "#PWR06")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -817,8 +823,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0f8239b-ddd2-495d-91e2-f6d93f17bcaa")
-		(property "Reference" "J1"
-			(at 65.405 51.816 0)
+		(property "Reference" "J401"
+			(at 66.294 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +878,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3d1802e1-bbda-43bc-9064-3e13fe6f262e"
-					(reference "J1")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -887,8 +893,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5f9827d-9481-4690-af6c-ab5d7c301fa5")
-		(property "Reference" "J4"
-			(at 151.257 51.308 0)
+		(property "Reference" "J403"
+			(at 152.146 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +948,7 @@
 		(instances
 			(project "SMPS_legged_robot_module"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3d1802e1-bbda-43bc-9064-3e13fe6f262e"
-					(reference "J4")
+					(reference "J403")
 					(unit 1)
 				)
 			)
