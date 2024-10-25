@@ -1,7 +1,7 @@
 <p align="center" width="100%">
   <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/PuffMux.svg">
   <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/PuffMux.svg">
-  <img alt="AMULET logo" width="33%" src="./Logos/PuffMuxsvg">
+  <img alt="ElonMux logo" width="33%" src="./Logos/PuffMux.svg">
 </p>
 
 <h1 align="center">ElonMux</h1>
