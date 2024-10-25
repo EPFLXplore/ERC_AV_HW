@@ -4992,6 +4992,30 @@
 		)
 		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
 	)
+	(label "LED_D0"
+		(at 166.37 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a7b46b0-85ff-4da3-b5ec-3cd8edb1d1aa")
+	)
+	(label "LED_D1"
+		(at 175.26 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b470413-8f65-4935-81c5-9d8fc03b77cd")
+	)
 	(label "LED_DBG"
 		(at 133.35 101.6 0)
 		(fields_autoplaced yes)
@@ -5003,6 +5027,18 @@
 			(justify left bottom)
 		)
 		(uuid "6a61d790-15a9-43fb-9727-c4dc6b9759da")
+	)
+	(label "LED_D2"
+		(at 175.26 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5c3c23e-79fd-4d54-9290-da903ceb27d3")
 	)
 	(hierarchical_label "LED_DBG"
 		(shape input)
@@ -5113,16 +5149,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "07a372b5-87e5-436a-ab97-e98dfd534441")
+			(uuid "45705c4d-3a65-44ac-8584-20e881df39cc")
 		)
 		(pin "2"
-			(uuid "d42c03ab-f28c-4896-8fd3-195414dc71c3")
+			(uuid "6c46d2fc-60ed-45ae-ac3a-8bba2927c0ef")
 		)
 		(pin "3"
-			(uuid "7f7ecc19-0aaa-4d6f-8a4f-894ab1da73e8")
+			(uuid "d5a0dee4-a8c6-4597-beea-5820f14392db")
 		)
 		(instances
-			(project "Charge Manager"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95e919be-32f9-400a-bc42-ccd9343a00dc"
 					(reference "Q1101")
 					(unit 1)
@@ -5221,13 +5257,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "0e99731d-87ab-486c-80a3-e7a316e5498f")
+			(uuid "20cb03b7-f068-41f0-9ff2-139fa9813366")
 		)
 		(pin "1"
-			(uuid "ca66adce-b35a-4c42-8b2f-9f61430d1356")
+			(uuid "8e0f675a-b7f7-4e71-be8e-78a193aa01c0")
 		)
 		(instances
-			(project "Charge Manager"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95e919be-32f9-400a-bc42-ccd9343a00dc"
 					(reference "R1102")
 					(unit 1)
@@ -5290,10 +5326,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a719c13-c840-401e-b310-601a340213f2")
+			(uuid "5aaa9cf0-342a-4d61-a116-7fcae4b6929f")
 		)
 		(instances
-			(project "Charge Manager"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95e919be-32f9-400a-bc42-ccd9343a00dc"
 					(reference "#PWR01101")
 					(unit 1)
@@ -5393,13 +5429,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e48c3ea-307f-487c-8292-e9262c5792b7")
+			(uuid "b0f4183a-e23a-49cf-968d-ba0510459546")
 		)
 		(pin "2"
-			(uuid "d915f124-b467-46a8-90e8-3753e2f6cf95")
+			(uuid "99c4dfa8-4728-411f-9372-74666907c65f")
 		)
 		(instances
-			(project "Charge Manager"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95e919be-32f9-400a-bc42-ccd9343a00dc"
 					(reference "R1101")
 					(unit 1)
@@ -5463,10 +5499,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1521cbe1-1c31-4248-bb1f-5e52f64cccfa")
+			(uuid "afd33ef8-ef6b-469f-a9d9-6e8081d4e43c")
 		)
 		(instances
-			(project "Charge Manager"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95e919be-32f9-400a-bc42-ccd9343a00dc"
 					(reference "#PWR01102")
 					(unit 1)
@@ -5566,13 +5602,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "298247c8-de7e-461a-ae72-28ddbf5f128d")
+			(uuid "16287381-6452-437a-9c22-5067c795c2af")
 		)
 		(pin "2"
-			(uuid "04021158-137c-4a62-ba5b-1c4ba119f870")
+			(uuid "60126c93-68fd-4225-bc28-2b876aeb5b39")
 		)
 		(instances
-			(project "Charge Manager"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95e919be-32f9-400a-bc42-ccd9343a00dc"
 					(reference "R1103")
 					(unit 1)
@@ -5672,10 +5708,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "878532fd-64df-490e-8457-da61c3d1b61e")
+			(uuid "eabe1ed2-94dd-49dd-bca0-0f988f0eaf5c")
 		)
 		(pin "2"
-			(uuid "a432caad-638d-4859-8a23-e1033fb860e6")
+			(uuid "2d1e778c-e7d9-4e8f-a78d-0a216602258b")
 		)
 		(instances
 			(project ""
