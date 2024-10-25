@@ -9390,7 +9390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:Xplore_Logo_X_only_10mm"
+		(property "Footprint" "footprints:Xplore_Logo_X_only_5mm"
 			(at 247.65 149.86 0)
 			(effects
 				(font
