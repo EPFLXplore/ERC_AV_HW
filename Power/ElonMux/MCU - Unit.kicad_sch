@@ -3675,12 +3675,6 @@
 		(uuid "207ed60a-3b59-46fb-9385-b36c59f86085")
 	)
 	(junction
-		(at 284.48 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bcb5d2b-d335-471f-83a1-920c5d58cd31")
-	)
-	(junction
 		(at 85.09 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4371,16 +4365,6 @@
 			(type default)
 		)
 		(uuid "205ca259-4db5-4de4-9811-83748ed8a0e7")
-	)
-	(wire
-		(pts
-			(xy 279.4 93.98) (xy 284.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ce207d-fc9a-423f-b9d4-1161febb844f")
 	)
 	(wire
 		(pts
@@ -6317,7 +6301,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 93.98) (xy 290.83 93.98)
+			(xy 279.4 93.98) (xy 290.83 93.98)
 		)
 		(stroke
 			(width 0)
@@ -11068,72 +11052,6 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
 					(reference "TP405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 284.48 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74b137c0-85b8-48ec-8356-c0b50e666be1")
-		(property "Reference" "#PWR0404"
-			(at 284.48 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 284.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 284.48 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d4578d9-22fc-4379-9601-1afb5dd7f9d2")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0404")
 					(unit 1)
 				)
 			)

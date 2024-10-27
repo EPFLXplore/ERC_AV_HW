@@ -11,6 +11,195 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Charge_Manager_SYM:74439323010"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -0.254 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74439323010"
+				(at -4.826 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "74439323010"
+				(at -1.524 20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74439323010.pdf"
+				(at 22.606 -49.022 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Inductors - SMD WE-XHMI 1.0 uH  10.00 A  13.44 mOhms 4020"
+				(at 1.778 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.2"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-74439323010"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74439323010?qs=HFfMDpzxxd1IoC0cx2Ea6Q%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74439323010"
+				(at 0.254 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74439323010_0_1"
+				(arc
+					(start -1.27 0)
+					(mid -1.905 0.6323)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.635 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.905 0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74439323010_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Charge_Manager_SYM:IMC0805ER4R7J01"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1517,6 +1706,12 @@
 		(uuid "1914d9cb-34ff-466c-8e44-58252ffbd94b")
 	)
 	(junction
+		(at 74.93 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231ff94b-24e6-4d84-a958-e42b4d2e089a")
+	)
+	(junction
 		(at 143.51 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1539,6 +1734,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "414633f7-f429-4240-8e0c-699e9b7964c4")
+	)
+	(junction
+		(at 74.93 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a5820a1-2bc5-4a77-b476-a9657dda6488")
 	)
 	(junction
 		(at 152.4 86.36)
@@ -1569,12 +1770,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7add5d90-d3b5-46d0-8127-df72d4c9a6fc")
-	)
-	(junction
-		(at 74.93 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7af61b76-8704-4ac6-be76-8e0820cdcaaa")
 	)
 	(junction
 		(at 173.99 86.36)
@@ -1619,6 +1814,12 @@
 		(uuid "b049f690-318a-494d-a975-8c5a4518e089")
 	)
 	(junction
+		(at 60.96 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6fd32fd-26bc-4815-a540-35da953d1101")
+	)
+	(junction
 		(at 152.4 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1637,18 +1838,6 @@
 		(uuid "c43e5cfb-a13a-48fe-b58f-cb3f7b15d299")
 	)
 	(junction
-		(at 68.58 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7000940-1277-4783-b0b0-5141bcc69db1")
-	)
-	(junction
-		(at 74.93 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc374d56-147d-471b-a797-67e7d73b0547")
-	)
-	(junction
 		(at 138.43 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1665,6 +1854,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daf2b7eb-9a6b-4814-a299-6e3426932974")
+	)
+	(junction
+		(at 57.15 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd98f91b-5e40-4d1d-b5af-0385070145ce")
 	)
 	(junction
 		(at 162.56 86.36)
@@ -1695,12 +1890,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6e1319f-7b1d-4ad1-a310-f920e9b56c00")
-	)
-	(junction
-		(at 68.58 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f77aebe8-ab76-4dad-8898-908cbf451698")
 	)
 	(bus_entry
 		(at 228.6 91.44)
@@ -1760,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 80.01) (xy 68.58 82.55)
+			(xy 57.15 80.01) (xy 57.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 71.12) (xy 71.12 71.12)
+			(xy 60.96 68.58) (xy 73.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1867,26 +2056,6 @@
 			(type default)
 		)
 		(uuid "1c993d97-8cdf-4e5b-88a5-2021ff9c7b2b")
-	)
-	(wire
-		(pts
-			(xy 68.58 68.58) (xy 68.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20bfa0ed-d366-43a9-a0dd-a968c17b8a2e")
-	)
-	(wire
-		(pts
-			(xy 74.93 72.39) (xy 93.98 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21608cf3-df98-4abd-ad5a-467619abb503")
 	)
 	(wire
 		(pts
@@ -2021,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 180.34) (xy 77.47 180.34)
+			(xy 44.45 180.34) (xy 67.31 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2058,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "48eaf477-c67e-4f20-8598-aa523ec64170")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 93.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491bddd3-b189-4a7e-91c3-c20c24cef11c")
 	)
 	(wire
 		(pts
@@ -2121,6 +2300,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 60.96) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd499c4-6573-4854-b50d-b2cd5e17219c")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff565fd-7ce6-477a-af14-b1535ca7b2d0")
+	)
+	(wire
+		(pts
 			(xy 74.93 72.39) (xy 74.93 74.93)
 		)
 		(stroke
@@ -2128,6 +2327,16 @@
 			(type default)
 		)
 		(uuid "60162341-90cb-4ff9-b6ab-259bbe4b728d")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 74.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647ce3d7-cc4d-4194-8cf5-139df9579b8f")
 	)
 	(wire
 		(pts
@@ -2151,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 171.45) (xy 77.47 171.45)
+			(xy 44.45 167.64) (xy 67.31 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2221,26 +2430,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 73.66 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8194a9fe-a7fc-495d-ab80-17a341832c14")
-	)
-	(wire
-		(pts
-			(xy 71.12 68.58) (xy 71.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8408e932-68e6-48bd-a7c0-195de131a27b")
-	)
-	(wire
-		(pts
 			(xy 134.62 99.06) (xy 222.25 99.06)
 		)
 		(stroke
@@ -2271,6 +2460,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b2dea0-3f9a-4a93-a52d-bfb12894c468")
+	)
+	(wire
+		(pts
 			(xy 138.43 86.36) (xy 134.62 86.36)
 		)
 		(stroke
@@ -2291,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 72.39) (xy 68.58 72.39)
+			(xy 53.34 72.39) (xy 57.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 163.83) (xy 77.47 163.83)
+			(xy 44.45 163.83) (xy 67.31 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 60.96) (xy 68.58 60.96)
+			(xy 53.34 60.96) (xy 60.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2504,13 +2703,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 167.64) (xy 77.47 167.64)
+			(xy 57.15 72.39) (xy 63.5 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf9e111c-bc15-4c2f-a276-2d01c02db6de")
+		(uuid "c47d22e7-40c9-4b51-8df5-88a98b70dc30")
 	)
 	(wire
 		(pts
@@ -2524,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 82.55) (xy 71.12 82.55)
+			(xy 57.15 82.55) (xy 71.12 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2595,16 +2794,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 74.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7faa948-24e6-4144-a673-9763984e8b54")
-	)
-	(wire
-		(pts
 			(xy 152.4 86.36) (xy 162.56 86.36)
 		)
 		(stroke
@@ -2622,16 +2811,6 @@
 			(type default)
 		)
 		(uuid "d87e2d05-2e10-4591-b1fd-d6a2cc17f687")
-	)
-	(wire
-		(pts
-			(xy 68.58 72.39) (xy 74.93 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0c85ad-c604-48a8-8db8-4d4773fb2f2d")
 	)
 	(wire
 		(pts
@@ -2783,16 +2962,6 @@
 		)
 		(uuid "fcb1835c-1116-47c8-a22e-c104e4df699e")
 	)
-	(wire
-		(pts
-			(xy 74.93 60.96) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1713d9-29ed-435c-9214-b1e87819a0ca")
-	)
 	(rectangle
 		(start 231.775 65.405)
 		(end 238.76 69.215)
@@ -2820,8 +2989,8 @@
 		(uuid 64050f20-bfb1-40d6-bda8-172d033cf807)
 	)
 	(rectangle
-		(start 50.8 153.67)
-		(end 97.155 190.5)
+		(start 40.64 153.67)
+		(end 86.995 190.5)
 		(stroke
 			(width 1)
 			(type default)
@@ -2846,7 +3015,7 @@
 		(uuid 93bff35e-35b3-407d-9dbe-d11f79f67152)
 	)
 	(rectangle
-		(start 50.8 30.48)
+		(start 40.005 30.48)
 		(end 248.285 149.86)
 		(stroke
 			(width 1)
@@ -2895,7 +3064,7 @@
 	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
-		(at 50.165 180.975 0)
+		(at 40.005 180.975 0)
 		(size 47.625 9.525)
 		(stroke
 			(width -0.0001)
@@ -2940,9 +3109,31 @@
 		)
 		(uuid "34f82e54-4217-4d14-a0e5-49efcb1e034d")
 	)
+	(text_box "DESIGN NOTE - PI filter:\n\nTarget cutoff frequency = Switching frequ/10 = 75kHz\n\nFor a LC filter: lc = 1 / (2pi*sqrt(L x C))\n\nL = 1 / ((2pi x fc)^2 x 4.7uF)\nL = 1 uH\n\n"
+		(exclude_from_sim no)
+		(at 89.535 153.67 0)
+		(size 47.625 36.83)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "444c66ab-abf4-45a7-9e64-1c20ad54db25")
+	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 52.07 170.18 0)
+		(at 41.91 170.18 0)
 		(size 64.77 8.255)
 		(stroke
 			(width -0.0001)
@@ -2965,7 +3156,7 @@
 	)
 	(text_box "Filtered Power Rails"
 		(exclude_from_sim no)
-		(at 52.07 152.4 0)
+		(at 41.91 152.4 0)
 		(size 64.77 9.525)
 		(stroke
 			(width -0.0001)
@@ -3133,7 +3324,7 @@
 		)
 		(uuid "e6fea1fe-2cf8-4a39-929e-14f4aedafb02")
 	)
-	(label "SW2_3V3"
+	(label "SW_3V3"
 		(at 134.62 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3244,29 +3435,6 @@
 		)
 		(uuid "80d2e5c8-8170-4a70-a965-9bbbc1ca20e7")
 	)
-	(label "SW1_3V3"
-		(at 134.62 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "84e2eda6-913c-4fb3-9a93-5d72761bd771")
-		(property "Netclass" "+3V3"
-			(at 134.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "PGOOD"
 		(at 135.89 99.06 0)
 		(fields_autoplaced yes)
@@ -3300,29 +3468,6 @@
 		)
 		(uuid "b0e848e0-7d1f-4bfb-af70-57c6a5c2f443")
 	)
-	(label "+VBUS"
-		(at 54.61 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0e46c3f-0ff6-48c5-b9ce-7258e23b4705")
-		(property "Netclass" "+VBUS"
-			(at 54.61 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "EXTVCC_3V3"
 		(at 134.62 69.85 0)
 		(fields_autoplaced yes)
@@ -3336,7 +3481,7 @@
 		(uuid "c34445e6-146a-4fc9-b910-a7ee1b925848")
 	)
 	(label "GND"
-		(at 54.61 180.34 0)
+		(at 44.45 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3347,7 +3492,7 @@
 		)
 		(uuid "cddeedc9-000d-41d8-a740-b2b3fb4894c1")
 		(property "Netclass" "GND"
-			(at 54.61 181.61 0)
+			(at 44.45 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3504,7 @@
 		)
 	)
 	(label "+3V3"
-		(at 54.61 171.45 0)
+		(at 44.45 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3370,7 +3515,7 @@
 		)
 		(uuid "d504091b-e0ea-4975-83c4-7e618a049f65")
 		(property "Netclass" "+3V3"
-			(at 54.61 172.72 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3527,7 @@
 		)
 	)
 	(label "+VOUT"
-		(at 54.61 163.83 0)
+		(at 44.45 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3436,7 +3581,7 @@
 	)
 	(hierarchical_label "+VBUS"
 		(shape input)
-		(at 60.96 72.39 180)
+		(at 53.34 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3450,7 +3595,7 @@
 		)
 		(uuid "459722ad-e940-44e0-a207-d5e19b3bae3b")
 		(property "Netclass" "+VBUS"
-			(at 60.96 73.66 0)
+			(at 53.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3608,7 @@
 	)
 	(hierarchical_label "+VOUT"
 		(shape input)
-		(at 60.96 60.96 180)
+		(at 53.34 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3477,7 +3622,7 @@
 		)
 		(uuid "e8c97376-c5fb-4915-86ae-a641cccf4d72")
 		(property "Netclass" "+VOUT"
-			(at 60.96 62.23 0)
+			(at 53.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e7e376-a853-4e63-9869-367e6968e0ea")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0604"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -3549,7 +3694,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "#PWR0603")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a87c2ea-2ce1-47ed-842c-c143a9ddb2b1")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR0606"
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -3822,7 +3967,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "#PWR0605")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4475,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 180.34 270)
+		(at 67.31 180.34 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4339,7 +4484,7 @@
 		(dnp no)
 		(uuid "3fe8e295-139a-4cfb-85fd-0fe8679fd85b")
 		(property "Reference" "TP604"
-			(at 82.55 180.34 90)
+			(at 72.39 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.948 180.34 90)
+			(at 81.788 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4502,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 77.47 175.26 0)
+			(at 67.31 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 175.26 0)
+			(at 67.31 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4520,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 180.34 0)
+			(at 67.31 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4529,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 77.47 180.34 0)
+			(at 67.31 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4538,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 77.47 180.34 0)
+			(at 67.31 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ae9780-e9db-4b07-91f7-82a7ff4867df")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0603"
 			(at 73.66 86.36 0)
 			(effects
 				(font
@@ -4683,7 +4828,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "#PWR0602")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4836,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 171.45 270)
+		(at 67.31 167.64 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4700,7 +4845,7 @@
 		(dnp no)
 		(uuid "5b56a8a4-b44e-4aab-830e-c553a420fa19")
 		(property "Reference" "TP603"
-			(at 82.55 171.45 90)
+			(at 72.39 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4854,7 @@
 			)
 		)
 		(property "Value" "VIN2"
-			(at 91.694 171.45 90)
+			(at 81.534 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4863,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 77.47 166.37 0)
+			(at 67.31 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 166.37 0)
+			(at 67.31 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4881,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 171.45 0)
+			(at 67.31 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4890,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 77.47 171.45 0)
+			(at 67.31 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4899,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 77.47 171.45 0)
+			(at 67.31 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +4928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e895442-50da-4402-a807-ec9cf885249d")
-		(property "Reference" "L601"
+		(property "Reference" "L602"
 			(at 147.574 62.738 0)
 			(effects
 				(font
@@ -4871,6 +5016,110 @@
 		)
 		(instances
 			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
+					(reference "L602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:74439323010")
+		(at 67.31 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6555be6c-87f7-49e1-ba8f-dc3c15d15609")
+		(property "Reference" "L601"
+			(at 65.532 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 70.104 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 65.786 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/PLEI_S_A0011079421_1-2903169.pdf"
+			(at 89.916 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Inductors - SMD 0603 1uH 900mA DCR=260mOhms RF"
+			(at 69.088 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PE-0603CLH1R0STS"
+			(at 67.31 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "673-PE-0603CLH1R0STS"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f2463c0-c1ee-433d-9193-c535790a927e")
+		)
+		(pin "1"
+			(uuid "9088277b-4a97-4a67-82c4-e9d6415e1a01")
+		)
+		(instances
+			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
 					(reference "L601")
 					(unit 1)
@@ -5100,7 +5349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82fb6490-157b-4a47-8c21-f62bb09af482")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0605"
 			(at 81.28 107.95 0)
 			(effects
 				(font
@@ -5151,7 +5400,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "#PWR0604")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -5367,7 +5616,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 163.83 270)
+		(at 67.31 163.83 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5376,7 +5625,7 @@
 		(dnp no)
 		(uuid "9fc1a285-cf4c-4e96-a44b-dbcb3c63bc48")
 		(property "Reference" "TP601"
-			(at 82.55 163.83 90)
+			(at 72.39 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5634,7 @@
 			)
 		)
 		(property "Value" "+VOUT"
-			(at 90.17 163.83 90)
+			(at 80.01 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5643,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 77.47 158.75 0)
+			(at 67.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 158.75 0)
+			(at 67.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5661,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 163.83 0)
+			(at 67.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5670,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 77.47 163.83 0)
+			(at 67.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5679,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 77.47 163.83 0)
+			(at 67.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,35 +5767,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 167.64 270)
-		(mirror x)
+		(lib_id "Charge_Manager_SYM:74439323010")
+		(at 67.31 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba1c5d1a-252d-404b-bbaa-255224bf2a03")
-		(property "Reference" "TP602"
-			(at 82.55 167.64 90)
+		(uuid "b32dee72-0287-4f80-8d98-4bb756d935d5")
+		(property "Reference" "L603"
+			(at 63.754 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "+VBUS"
-			(at 90.17 167.64 90)
+		(property "Value" "1u"
+			(at 67.31 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 77.47 162.56 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 65.786 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/PLEI_S_A0011079421_1-2903169.pdf"
+			(at 89.916 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Inductors - SMD 0603 1uH 900mA DCR=260mOhms RF"
+			(at 69.088 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,8 +5820,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 162.56 0)
+		(property "Manufacturer Part Number" "PE-0603CLH1R0STS"
+			(at 65.786 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics"
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,8 +5837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 77.47 167.64 0)
+		(property "Supplier Part Number" "673-PE-0603CLH1R0STS"
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,8 +5846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 77.47 167.64 0)
+		(property "Supplier" "Mouser Electronics"
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,22 +5855,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 77.47 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "08a48a3a-9f78-45e2-848b-c22d7e5031e2")
 		)
 		(pin "1"
-			(uuid "d88be9d7-a3c5-438a-b1b9-b6c5420110e8")
+			(uuid "34a862ca-5639-4ede-acbb-1af2638eeeb7")
 		)
 		(instances
-			(project "Charge Manager"
+			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "TP602")
+					(reference "L603")
 					(unit 1)
 				)
 			)
@@ -6019,7 +6287,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 76.2 0)
+		(at 57.15 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6028,7 +6296,7 @@
 		(dnp no)
 		(uuid "de927472-2a9c-4daf-b83e-139411ace904")
 		(property "Reference" "C608"
-			(at 64.77 74.93 0)
+			(at 53.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6305,7 @@
 			)
 		)
 		(property "Value" "4u7 X7R 50V"
-			(at 64.77 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6314,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 67.6148 80.01 0)
+			(at 56.1848 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 68.58 76.2 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6332,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 76.2 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6341,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CGA4J1X7R1H475K125AC"
-			(at 68.58 76.2 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6350,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 68.58 76.2 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6359,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 68.58 76.2 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6368,7 @@
 			)
 		)
 		(property "Supplier Part Number" "810-CGA4J1X7R1H475K1"
-			(at 68.58 76.2 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6393,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 64.77 0)
+		(at 60.96 64.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6134,7 +6402,7 @@
 		(dnp no)
 		(uuid "df970654-2f5b-4346-9620-68ade6ead7c8")
 		(property "Reference" "C603"
-			(at 64.77 63.5 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6411,7 @@
 			)
 		)
 		(property "Value" "4u7 X7R 50V"
-			(at 64.77 66.04 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6420,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 67.6148 68.58 0)
+			(at 59.9948 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6429,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 68.58 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6438,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6447,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CGA4J1X7R1H475K125AC"
-			(at 68.58 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6456,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 68.58 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6465,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 68.58 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6474,7 @@
 			)
 		)
 		(property "Supplier Part Number" "810-CGA4J1X7R1H475K1"
-			(at 68.58 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

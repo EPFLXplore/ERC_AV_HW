@@ -694,6 +694,7 @@
       "/Project Architecture/Power - Connectors/+VOUT": "+VOUT",
       "/Project Architecture/Power - Generation/+VOUT": "+VOUT",
       "/Project Architecture/Power - Generation/SW1_3V3": "+3V3",
+      "/Project Architecture/Power - Generation/SW_3V3": "+3V3",
       "/Project Architecture/Power - Generation/VIN1": "+VOUT",
       "/Project Architecture/Power - Power Path/SENS_LOW": "+VBAT",
       "/Project Architecture/Power - Power Path/TS": "+VOUT",
