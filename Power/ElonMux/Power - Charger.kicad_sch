@@ -2513,6 +2513,12 @@
 		(uuid "02c2f5f2-a792-48b8-a0f0-0f388ec4f1e4")
 	)
 	(junction
+		(at 339.09 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0973da4d-1caf-463b-9532-fe3c3da06609")
+	)
+	(junction
 		(at 316.23 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2789,6 +2795,12 @@
 		(uuid "851b5d8e-20e6-46f5-892b-bb344cc9decf")
 	)
 	(junction
+		(at 347.98 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b1f9d0c-363e-4acf-9719-82c102191ba5")
+	)
+	(junction
 		(at 143.51 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2817,6 +2829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9590bb7c-2f3e-45ef-8322-0c3f598f886f")
+	)
+	(junction
+		(at 342.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c6daa5-8bd5-4437-8df2-f70848b448da")
 	)
 	(junction
 		(at 261.62 167.64)
@@ -2871,12 +2889,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab9dd388-3b28-4ec0-b05b-185b24368011")
-	)
-	(junction
-		(at 335.28 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aece7bd6-7a78-4450-b234-82dc9a4d38af")
 	)
 	(junction
 		(at 326.39 43.18)
@@ -3004,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 43.18) (xy 350.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015dfb66-a175-4546-a390-3fbc098e7ad8")
+	)
+	(wire
+		(pts
 			(xy 78.74 43.18) (xy 82.55 43.18)
 		)
 		(stroke
@@ -3054,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 54.61) (xy 335.28 62.23)
+			(xy 339.09 54.61) (xy 339.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 73.66) (xy 335.28 73.66)
+			(xy 326.39 73.66) (xy 339.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3191,6 +3213,16 @@
 			(type default)
 		)
 		(uuid "13322446-c0fe-4b61-b28d-0cbd18ba9465")
+	)
+	(wire
+		(pts
+			(xy 339.09 43.18) (xy 342.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13441e4d-21fc-48aa-a8b5-8ebc7bde4c42")
 	)
 	(wire
 		(pts
@@ -3304,16 +3336,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 43.18) (xy 340.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d92b7ad-7127-4f6e-b717-c9df21539274")
-	)
-	(wire
-		(pts
 			(xy 200.66 66.04) (xy 200.66 68.58)
 		)
 		(stroke
@@ -3414,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 38.1) (xy 349.25 38.1)
+			(xy 332.74 38.1) (xy 340.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3441,6 +3463,16 @@
 			(type default)
 		)
 		(uuid "2c780252-55a7-4e73-a3c0-ae2de74e4600")
+	)
+	(wire
+		(pts
+			(xy 326.39 43.18) (xy 327.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4fe11f-e495-44d6-9b97-3568264e8db3")
 	)
 	(wire
 		(pts
@@ -3526,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 43.18) (xy 335.28 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b5fb1b-ddd7-40bf-9bfd-a9ae05515a7f")
-	)
-	(wire
-		(pts
 			(xy 264.16 137.16) (xy 270.51 137.16)
 		)
 		(stroke
@@ -3583,16 +3605,6 @@
 			(type default)
 		)
 		(uuid "3c15da07-3626-4f65-bdc0-3198e9e26336")
-	)
-	(wire
-		(pts
-			(xy 347.98 43.18) (xy 350.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c5da164-1473-4b86-82ee-a3a39ac12217")
 	)
 	(wire
 		(pts
@@ -3937,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 38.1) (xy 336.55 38.1)
+			(xy 326.39 38.1) (xy 327.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3947,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 43.18) (xy 335.28 46.99)
+			(xy 339.09 43.18) (xy 339.09 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4044,6 +4056,16 @@
 			(type default)
 		)
 		(uuid "5f821f88-2d31-46e0-aa98-4d4fb4100063")
+	)
+	(wire
+		(pts
+			(xy 342.9 43.18) (xy 347.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe71866-925f-4099-bd53-c5f6409d710e")
 	)
 	(wire
 		(pts
@@ -4390,6 +4412,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 43.18) (xy 339.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890e1a1b-350e-4de1-8b22-f65bcd371f7b")
+	)
+	(wire
+		(pts
 			(xy 242.57 43.18) (xy 242.57 45.72)
 		)
 		(stroke
@@ -4592,7 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 38.1) (xy 335.28 43.18)
+			(xy 326.39 38.1) (xy 326.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5117,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 43.18) (xy 356.87 43.18)
+			(xy 350.52 43.18) (xy 354.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5469,7 +5501,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 69.85) (xy 335.28 73.66)
+			(xy 339.09 69.85) (xy 339.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5821,8 +5853,8 @@
 		(uuid ec9f8b78-554a-467d-a609-ff1c8b243847)
 	)
 	(rectangle
-		(start 332.74 62.865)
-		(end 349.25 71.12)
+		(start 336.55 62.865)
+		(end 353.06 71.12)
 		(stroke
 			(width 0)
 			(type dot)
@@ -9857,7 +9889,7 @@
 		(uuid "3816e623-1c5a-4ae5-979f-642560fce38e")
 	)
 	(label "LED_C"
-		(at 335.28 57.15 0)
+		(at 339.09 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9997,7 +10029,7 @@
 		(uuid "6b8d9cde-297a-447b-9745-dbc08ebcfaf9")
 	)
 	(label "shunt_charger+"
-		(at 349.25 38.1 180)
+		(at 340.36 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10010,7 +10042,7 @@
 		)
 		(uuid "71283baa-12b7-4db8-8d80-6188dd958735")
 		(property "Netclass" "+VCHARGE"
-			(at 349.25 39.37 0)
+			(at 340.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,9 +10611,9 @@
 		)
 		(uuid "43d49b00-c266-48ee-a83d-f27f7feeabf7")
 	)
-	(hierarchical_label "+VCHARGE"
+	(hierarchical_label "+VCHARGE_O"
 		(shape output)
-		(at 356.87 43.18 0)
+		(at 354.33 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10593,8 +10625,8 @@
 			(justify left)
 		)
 		(uuid "4a877d4d-eb87-4de9-b4b4-d14c7471577b")
-		(property "Netclass" "+VCHARGE"
-			(at 356.87 44.45 0)
+		(property "Netclass" "+VCHARGE_O"
+			(at 354.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11778,7 +11810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38de89ce-1a6b-4c4a-b372-692978d3dac6")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0706"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -11829,7 +11861,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0705")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -11930,7 +11962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc569e9-83d8-4882-ac8c-5760428eda81")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0707"
 			(at 200.66 193.04 0)
 			(effects
 				(font
@@ -11981,7 +12013,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0706")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -12092,7 +12124,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 50.8 0)
+		(at 339.09 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12101,7 +12133,7 @@
 		(fields_autoplaced yes)
 		(uuid "40d0e114-de71-48c1-a063-b2c39c7c01d8")
 		(property "Reference" "R705"
-			(at 337.82 49.53 0)
+			(at 341.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +12142,7 @@
 			)
 		)
 		(property "Value" "1k 1% 2W"
-			(at 337.82 52.07 0)
+			(at 341.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12151,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 333.502 50.8 90)
+			(at 337.312 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12128,7 +12160,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ch/datasheet/2/418/8/NG_DS_1773204_4_A-1532794.pdf"
-			(at 335.28 50.8 0)
+			(at 339.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12137,7 +12169,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 50.8 0)
+			(at 339.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12146,7 +12178,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "35021K0FT"
-			(at 335.28 50.8 0)
+			(at 339.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +12187,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 335.28 50.8 0)
+			(at 339.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,7 +12196,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity / Holsworthy"
-			(at 335.28 50.8 0)
+			(at 339.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,7 +12205,7 @@
 			)
 		)
 		(property "Supplier Part Number" "279-35021K0FT"
-			(at 335.28 50.8 0)
+			(at 339.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12302,112 +12334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 344.17 43.18 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43188f1e-8376-4a4d-a72a-b6667d33f5b0")
-		(property "Reference" "R701"
-			(at 340.868 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7m 1% 1W"
-			(at 345.948 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 344.17 41.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/30298/wslp18.pdf"
-			(at 344.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 344.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "WSLP08057L000FEA18"
-			(at 344.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 344.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 344.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "541-WSLP08057L000FEA18CT-ND"
-			(at 344.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "086b1db1-e603-4bb0-ac41-84dc40aa9b54")
-		)
-		(pin "1"
-			(uuid "d7b4ea89-7dd8-40c6-a881-afafa163d0c1")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "R701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 40.64 187.96 270)
 		(mirror x)
@@ -12495,12 +12421,12 @@
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 250.19 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a326084-0516-4dbb-b10c-bb43b0b7d201")
 		(property "Reference" "#FLG0701"
 			(at 250.19 41.275 0)
@@ -13519,7 +13445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa3a7ce-0bb1-476d-8e33-b02d393fb044")
-		(property "Reference" "#PWR0702"
+		(property "Reference" "#PWR0703"
 			(at 110.49 81.28 0)
 			(effects
 				(font
@@ -13570,7 +13496,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0702")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -14834,7 +14760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "922b9f0c-ae25-4f23-bb9a-0b733ebe2aad")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0704"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -14885,7 +14811,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0703")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -16439,6 +16365,112 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 331.47 43.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c25b3f25-f9f4-4721-a701-f9a38148a33c")
+		(property "Reference" "R701"
+			(at 328.168 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7m 1% 1W"
+			(at 333.248 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 331.47 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/30298/wslp18.pdf"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WSLP08057L000FEA18"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-WSLP08057L000FEA18CT-ND"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6448832c-15fc-4ad4-af0e-cc68c780899c")
+		)
+		(pin "1"
+			(uuid "0d250fd5-8cb2-4d49-bb43-5945b8cc6d93")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "R701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 254 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16647,8 +16679,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 342.9 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d06f448b-97e1-476a-bdcb-673e0962d9eb")
+		(property "Reference" "#PWR0702"
+			(at 342.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCHARGE_O"
+			(at 342.392 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c971c944-990e-43a3-9f0b-e0f3acfab92a")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR0702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Charge_Manager_SYM:SM1206SRC")
-		(at 335.28 67.31 90)
+		(at 339.09 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16656,7 +16753,7 @@
 		(dnp no)
 		(uuid "d23b5746-dbef-40b4-816b-269d7cb94f10")
 		(property "Reference" "LED701"
-			(at 339.09 64.516 90)
+			(at 342.9 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16762,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 339.09 69.596 90)
+			(at 342.9 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16771,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 428.93 54.61 0)
+			(at 432.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16684,7 +16781,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bivar.com/parts_content/Datasheets/SM1206SRC.pdf"
-			(at 528.93 54.61 0)
+			(at 532.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16694,7 +16791,7 @@
 			)
 		)
 		(property "Description" "Red 640nm LED Indication - Discrete 1.85V 1206 (3216 Metric)"
-			(at 324.866 62.992 0)
+			(at 328.676 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16703,7 +16800,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SM1206SRC"
-			(at 343.662 67.056 90)
+			(at 347.472 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16711,7 +16808,7 @@
 			)
 		)
 		(property "Manufacturer" "Bivar"
-			(at 335.28 67.31 0)
+			(at 339.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +16817,7 @@
 			)
 		)
 		(property "Supplier Part Number" "749-SM1206SRC"
-			(at 335.28 67.31 0)
+			(at 339.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16729,7 +16826,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 335.28 67.31 0)
+			(at 339.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16973,7 +17070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d90fd9e8-e305-411f-8e76-2a7dbfe3aae8")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0705"
 			(at 313.69 81.28 0)
 			(effects
 				(font
@@ -17024,7 +17121,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0704")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -17298,7 +17395,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 339.09 38.1 0)
+		(at 330.2 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17306,7 +17403,7 @@
 		(dnp no)
 		(uuid "f0ffa998-5380-4c74-be4c-16593259feb0")
 		(property "Reference" "NT701"
-			(at 334.01 36.576 0)
+			(at 325.12 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17314,7 +17411,7 @@
 			)
 		)
 		(property "Value" "NetTie_shunt_charger+"
-			(at 326.39 38.862 0)
+			(at 317.5 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17322,7 +17419,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:NetTie-2_SMD_Pad0.2mm"
-			(at 339.09 38.1 0)
+			(at 330.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17331,7 +17428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 339.09 38.1 0)
+			(at 330.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17340,7 +17437,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 339.09 38.1 0)
+			(at 330.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17564,6 +17661,73 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 347.98 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec8c738-b4a1-4d84-8060-6c7eb3f1bae4")
+		(property "Reference" "#FLG0702"
+			(at 347.98 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 347.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81089f4d-5e9d-41ff-adb0-78b385782960")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#FLG0702")
 					(unit 1)
 				)
 			)

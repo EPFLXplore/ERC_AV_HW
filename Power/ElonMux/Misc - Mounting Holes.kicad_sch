@@ -11,6 +11,141 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -410,29 +545,185 @@
 			)
 		)
 	)
+	(junction
+		(at 165.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d58d6eb-38b1-49a7-9bfd-8567ac554647")
+	)
+	(junction
+		(at 137.16 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f22260-bc5b-4e1a-870f-ba945da94db6")
+	)
+	(junction
+		(at 137.16 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ccc7afc-7011-4bb4-a8d1-41d9222b2eb4")
+	)
+	(junction
+		(at 104.14 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f2bca8e-0a3d-44c2-8187-58aadfbb4df0")
+	)
+	(junction
+		(at 165.1 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9926c7db-95ea-4a98-a36c-391f6639d7b5")
+	)
+	(junction
+		(at 104.14 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6c77fbc-cd91-4581-bdf7-bb5067e3a938")
+	)
 	(wire
 		(pts
-			(xy 163.83 85.725) (xy 163.83 88.9)
+			(xy 165.1 87.63) (xy 171.45 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3835f285-71c6-44c4-b08e-0a576007e42f")
+		(uuid "02a7eb63-4d61-477b-a01b-68139975f0f1")
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 163.83 100.33)
+			(xy 110.49 87.63) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a08580e-1e6b-4c07-95e4-697a6b4991ce")
+		(uuid "045097eb-4613-41de-81b2-1b6090a668b0")
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 110.49 100.33)
+			(xy 137.16 85.09) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078149bf-1244-4f1b-890d-95f6ba81ba2c")
+	)
+	(wire
+		(pts
+			(xy 158.75 87.63) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a5c1a7-02b1-4706-8860-c6d78d3e67d7")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f19794c-5ea0-463b-abc8-038c3f9255bb")
+	)
+	(wire
+		(pts
+			(xy 104.14 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bbd0ca-d407-436c-97d7-610606275c51")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16dcacb0-da03-4b9a-bdd2-ecdcdb9d4b8d")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220fee14-35c2-40d6-a0e6-7411fbcbab0f")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae108c0-487a-47ee-8882-eda041c462c7")
+	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a5ea21-b948-46d3-82ff-3ae8bec398c6")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4309d4-7bd0-4123-8f2c-e9d5a5116b66")
+	)
+	(wire
+		(pts
+			(xy 143.51 87.63) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ece428-1f36-461c-8416-c2c08b2122a2")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e3ddbe-7b53-4610-b1b4-68a6c3afb1dd")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7ee12c-216c-4550-ba53-0fc3c0c74886")
+	)
+	(wire
+		(pts
+			(xy 110.49 96.52) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -442,33 +733,153 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.725) (xy 137.16 88.9)
+			(xy 104.14 97.79) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "890d9266-26e8-4877-bd83-c32c6aca42cb")
+		(uuid "7caaf973-4101-4cbd-b50f-59aeeeffdeb7")
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 137.16 100.33)
+			(xy 165.1 97.79) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da6a628f-8fbb-4ff0-a5de-f0c5e6e07bc1")
+		(uuid "89281e90-9613-4ca7-8034-f561b3affa74")
 	)
 	(wire
 		(pts
-			(xy 110.49 85.725) (xy 110.49 88.9)
+			(xy 130.81 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afa26a1-bc0c-450b-ae06-04cbb2b63b31")
+	)
+	(wire
+		(pts
+			(xy 158.75 87.63) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d235834-4077-45d4-b8f3-944a14ea2cb2")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9783e04c-0994-4c54-b286-1d0664de6cba")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55fc971-d5e0-4fc6-b185-14672b2ae1e2")
+	)
+	(wire
+		(pts
+			(xy 97.79 95.25) (xy 97.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd4d250-cfe9-48f1-a88b-3f8f2e1df711")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba53bfe7-b297-45e5-b92b-8a8c82481162")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63057af-6066-4794-bdce-a7717ebaab50")
+	)
+	(wire
+		(pts
+			(xy 97.79 97.79) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ecb426-3635-4b19-a433-1860775aadb6")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e532dd-f029-4a8c-a343-6d63f0430c13")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e558b4c1-2c6a-43e1-b9e5-bb6fae9fa667")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64d9b23-d9cc-4e09-9dee-6904d188dac3")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc34369-7d5a-44b7-9a9b-28df568a388d")
+	)
+	(wire
+		(pts
+			(xy 130.81 87.63) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff6c517-5e29-4969-a7a1-1d04fa5b13c6")
 	)
 	(rectangle
 		(start 215.265 64.135)
@@ -625,73 +1036,6 @@
 		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 163.83 83.185 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09dd8709-3141-40fd-bd5e-0a562bf7d9bf")
-		(property "Reference" "H1203"
-			(at 167.005 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3 (3.2mm)"
-			(at 167.005 83.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 163.83 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3fb9cdf-c932-4596-a63b-786ae42a8326")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "H1203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 231.14 110.49 0)
 		(unit 1)
@@ -818,6 +1162,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3d788c63-22bf-43af-a2d7-c6163baa2bdc")
+		(property "Reference" "R1203"
+			(at 176.022 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R 1%"
+			(at 176.022 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.672 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0603FR-100RL"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-RC0603FR-100RL"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbd8aab3-1b28-48e0-a27c-e088757d28be")
+		)
+		(pin "1"
+			(uuid "853d59a1-1ead-406c-82b6-40d2925db3c7")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "R1203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fe6a543-914a-4e61-94e6-cc258ccaaa3e")
+		(property "Reference" "#PWR01202"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6be9288e-aa37-4fab-9e7b-f673cea4396b")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "#PWR01202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 221.615 110.49 0)
 		(unit 1)
@@ -881,41 +1395,101 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 92.71 0)
+		(lib_id "power:GND")
+		(at 165.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be8b4fb-87f3-411e-9ee8-8176f111d461")
+		(property "Reference" "#PWR01203"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e783be2d-ff53-4a02-a8b5-732f4d6ef2c8")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "#PWR01203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 97.79 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(uuid "94c1a8de-cd2c-42a0-82cf-95b498329c3f")
-		(property "Reference" "R1202"
-			(at 141.732 91.694 0)
+		(uuid "9278204f-a5e6-41c3-9aaa-c2fb38273e4e")
+		(property "Reference" "C1201"
+			(at 100.33 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0R 1%"
-			(at 141.732 93.98 0)
+		(property "Value" "1n X7R 1kV"
+			(at 99.695 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.382 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 137.16 92.71 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,8 +1497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 137.16 92.71 0)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,8 +1506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0603FR-100RL"
-			(at 137.16 92.71 0)
+		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,8 +1515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser Electronics"
-			(at 137.16 92.71 0)
+		(property "Manufacturer" "KEMET"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,8 +1524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 137.16 92.71 0)
+		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,8 +1533,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "603-RC0603FR-100RL"
-			(at 137.16 92.71 0)
+		(property "Supplier" "Digikey"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,16 +1542,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a9cabffa-4ada-4562-a1d6-f261de5e72a0")
+		(property "Supplier Part Number" "399-12306-1-ND"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "99320595-5c45-4f87-ae9b-6e2533f01b67")
+			(uuid "69623ec6-4d84-4c17-884f-ab25cad4b8ff")
+		)
+		(pin "2"
+			(uuid "d58d1586-b558-4ff5-815a-ef657830b5d5")
 		)
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "R1202")
+					(reference "C1201")
 					(unit 1)
 				)
 			)
@@ -1047,17 +1630,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 100.33 0)
+		(lib_id "Device:C_Small")
+		(at 130.81 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a4d8797-a1c9-4923-bbee-9ef4dcd49331")
-		(property "Reference" "#PWR01203"
-			(at 163.83 106.68 0)
+		(dnp yes)
+		(uuid "9d690e9b-ba53-4e99-b66f-160a1998514b")
+		(property "Reference" "C1202"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n X7R 1kV"
+			(at 132.715 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,8 +1665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 163.83 104.775 0)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,8 +1674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 100.33 0)
+		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,8 +1683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 100.33 0)
+		(property "Manufacturer" "KEMET"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,8 +1692,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 100.33 0)
+		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "399-12306-1-ND"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,12 +1720,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce151050-7ce9-40bb-8066-f0363e7f5555")
+			(uuid "126cf08e-c842-4e39-9f37-b59cc93196a1")
+		)
+		(pin "2"
+			(uuid "58fa0dc2-fddd-499b-8661-4c81ffd6d8f1")
 		)
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "#PWR01203")
+					(reference "C1202")
 					(unit 1)
 				)
 			)
@@ -1217,17 +1838,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 100.33 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac12b213-bacf-4c3e-9b32-03656e9c5a65")
-		(property "Reference" "#PWR01201"
-			(at 110.49 106.68 0)
+		(uuid "a96bfb72-c926-4acd-9427-3f29c27cdece")
+		(property "Reference" "H1203"
+			(at 168.275 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 (3.2mm)"
+			(at 168.275 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 165.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,26 +1874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 100.33 0)
+		(property "Datasheet" "~"
+			(at 165.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1884,74 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 100.33 0)
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0952b545-6c58-471f-91fc-4fe570e793a1")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "H1203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac12b213-bacf-4c3e-9b32-03656e9c5a65")
+		(property "Reference" "#PWR01201"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,6 +1966,281 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "#PWR01201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb4ce24-513d-4062-bca5-975621bba9d4")
+		(property "Reference" "C1203"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n X7R 1kV"
+			(at 160.655 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "399-12306-1-ND"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12d69ad2-a292-4785-95e7-bdb52bf931bd")
+		)
+		(pin "2"
+			(uuid "b9ea07a0-857e-41a8-bd32-9b5e9d639cc4")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "C1203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36bb45a-82e1-4e63-8345-57dbc22f3994")
+		(property "Reference" "H1202"
+			(at 140.335 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 (3.2mm)"
+			(at 140.335 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3335b7b6-be10-49ca-bb31-430339bb4b4f")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "H1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b948d3bf-1203-4827-9a9d-dc9ebe441416")
+		(property "Reference" "R1202"
+			(at 148.082 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R 1%"
+			(at 148.082 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 141.732 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0603FR-100RL"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-RC0603FR-100RL"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5522dbb7-5112-4bc7-86c4-8a783c7971d1")
+		)
+		(pin "1"
+			(uuid "80f26128-fcb4-4179-b644-91c55219d9dc")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "R1202")
 					(unit 1)
 				)
 			)
@@ -1341,243 +2304,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "FM1206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e563f0c6-a879-47cf-9f4e-77aef8703baf")
-		(property "Reference" "R1203"
-			(at 168.402 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R 1%"
-			(at 168.402 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.052 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603FR-100RL"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "603-RC0603FR-100RL"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d1fbb17-826b-494d-8b52-aa9162ec7eab")
-		)
-		(pin "1"
-			(uuid "cf4292e0-99d5-4df4-b3f6-94aa0b2ae559")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "R1203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecf3d941-74d3-4bfb-896c-d90d41154831")
-		(property "Reference" "#PWR01202"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4d98d1b-ab0e-4a97-86df-e4d646426dba")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "#PWR01202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 137.16 83.185 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed0adb9f-0936-4359-b4b6-7e3dc34a190a")
-		(property "Reference" "H1202"
-			(at 140.335 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3 (3.2mm)"
-			(at 140.335 83.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 137.16 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38566263-0ac7-4790-9534-6e0c9455f72a")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "H1202")
 					(unit 1)
 				)
 			)
@@ -1648,7 +2374,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 110.49 83.185 0)
+		(at 104.14 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1657,7 +2383,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2c5cc7c-1aed-4fb9-a7da-5c84ea18af01")
 		(property "Reference" "H1201"
-			(at 113.665 80.6449 0)
+			(at 107.315 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +2392,7 @@
 			)
 		)
 		(property "Value" "M3 (3.2mm)"
-			(at 113.665 83.1849 0)
+			(at 107.315 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2401,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 110.49 83.185 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +2410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 83.185 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +2419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 83.185 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
