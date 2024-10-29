@@ -5991,6 +5991,17 @@
 		)
 		(uuid "c562bfd7-41c9-4a2f-b914-a0c2b1229403")
 	)
+	(polyline
+		(pts
+			(xy 110.49 92.71) (xy 67.945 99.695)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "c5b4fef2-2c2b-4b6f-a2c1-55b673ade933")
+	)
 	(wire
 		(pts
 			(xy 44.45 182.88) (xy 63.5 182.88)
@@ -7228,6 +7239,28 @@
 			(justify bottom)
 		)
 		(uuid "a6d88201-b58c-4670-9dd4-2d50f2fbf85b")
+	)
+	(text_box "The MISO pin doesn't require a pull-ip resistor as the only slave device on this line, INA239AQDGSRQ1, has an internal push-pull."
+		(exclude_from_sim no)
+		(at 20.32 97.79 0)
+		(size 46.355 8.255)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c349b41b-f802-4ec2-9d5d-3fee2187318e")
 	)
 	(text_box "MCU POWER"
 		(exclude_from_sim no)

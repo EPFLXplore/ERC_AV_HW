@@ -7,13 +7,13 @@
 
 # 2oz copper
 (rule "Minimum Trace Width and Spacing (outer layer)"
-(constraint track_width (min 0.2mm))
+(constraint track_width (min 0.16mm))
 (constraint clearance (min 0.2mm))
 (layer outer)
 (condition "A.Type == 'track'"))
 
 (rule "Minimum Trace Width and Spacing (innner layer)"
-(constraint track_width (min 0.2mm))
+(constraint track_width (min 0.16mm))
 (constraint clearance (min 0.2mm))
 (layer inner)
 (condition "A.Type == 'track'"))

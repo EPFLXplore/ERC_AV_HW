@@ -30667,7 +30667,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Connector:USB_C_Receptacle_USB2.0_16P")
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 180.34 96.52 0)
 		(unit 1)
