@@ -1645,7 +1645,7 @@
 		(uuid "0b45c6f3-a0ef-4503-a62a-00164e455683")
 	)
 	(junction
-		(at 78.74 85.09)
+		(at 76.2 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ba70938-ae7a-47f1-be88-40e83f3afd67")
@@ -1663,7 +1663,7 @@
 		(uuid "0d4e1685-f746-45a7-9f51-17d535304768")
 	)
 	(junction
-		(at 63.5 72.39)
+		(at 60.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dc95cd9-28a8-4e7f-b850-e09c263f2abd")
@@ -1687,7 +1687,7 @@
 		(uuid "2df72fbd-a7fc-42f5-82b7-c491e8a56ac8")
 	)
 	(junction
-		(at 63.5 85.09)
+		(at 60.96 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32f21d95-3a6d-4b2f-9fc5-4564c766b434")
@@ -1705,7 +1705,7 @@
 		(uuid "3b755e59-bc1c-401f-92ae-5e0078ef3343")
 	)
 	(junction
-		(at 95.25 74.93)
+		(at 92.71 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "466fe96e-ef33-43c4-97bc-0506401cf198")
@@ -1759,7 +1759,7 @@
 		(uuid "80756ed1-c2cc-422d-b31b-80c783197de0")
 	)
 	(junction
-		(at 68.58 85.09)
+		(at 66.04 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88a2c4be-8754-4866-a905-1e1a3827954d")
@@ -1771,7 +1771,7 @@
 		(uuid "9e8478ee-7bb7-4111-92bc-25b9be9c4d1b")
 	)
 	(junction
-		(at 92.71 72.39)
+		(at 90.17 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1235a86-ff6c-490c-a6c8-b99b4a1b2c0d")
@@ -1855,13 +1855,13 @@
 		(uuid "d3d08c7f-48e6-4b16-9544-1c03a9702bf1")
 	)
 	(junction
-		(at 48.26 72.39)
+		(at 45.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4bd213c-914a-46d1-8c23-7da51238bfc5")
 	)
 	(junction
-		(at 78.74 72.39)
+		(at 76.2 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5ae21db-09e0-4549-adc1-e42fa3496a62")
@@ -1984,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 63.5 85.09)
+			(xy 60.96 83.82) (xy 60.96 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1994,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 85.09)
+			(xy 76.2 83.82) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 95.25 74.93)
+			(xy 92.71 76.2) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2024,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 146.05 110.49)
+			(xy 146.05 107.95) (xy 146.05 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2064,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 74.93) (xy 125.73 74.93)
+			(xy 92.71 74.93) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 72.39) (xy 92.71 72.39)
+			(xy 76.2 72.39) (xy 90.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 78.74 72.39)
+			(xy 76.2 76.2) (xy 76.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 72.39) (xy 48.26 72.39)
+			(xy 41.91 72.39) (xy 45.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 180.34) (xy 67.31 180.34)
+			(xy 93.98 182.88) (xy 116.84 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 167.64) (xy 67.31 167.64)
+			(xy 93.98 170.18) (xy 116.84 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.09) (xy 95.25 85.09)
+			(xy 76.2 85.09) (xy 92.71 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 68.58 85.09)
+			(xy 60.96 85.09) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 48.26 76.2)
+			(xy 45.72 72.39) (xy 45.72 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 72.39) (xy 92.71 74.93)
+			(xy 90.17 72.39) (xy 90.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 85.09) (xy 63.5 85.09)
+			(xy 45.72 85.09) (xy 60.96 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 83.82) (xy 48.26 85.09)
+			(xy 45.72 83.82) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2575,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 72.39) (xy 78.74 72.39)
+			(xy 60.96 72.39) (xy 76.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 163.83) (xy 67.31 163.83)
+			(xy 93.98 166.37) (xy 116.84 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2637,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 68.58 87.63)
+			(xy 66.04 85.09) (xy 66.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 72.39) (xy 63.5 72.39)
+			(xy 57.15 72.39) (xy 60.96 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 95.25 74.93)
+			(xy 90.17 74.93) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 72.39) (xy 125.73 72.39)
+			(xy 90.17 72.39) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2928,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 95.25 83.82)
+			(xy 92.71 85.09) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2948,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 72.39) (xy 63.5 76.2)
+			(xy 60.96 72.39) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 78.74 85.09)
+			(xy 66.04 85.09) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 52.07 72.39)
+			(xy 45.72 72.39) (xy 49.53 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3224,8 +3224,8 @@
 		(uuid 64050f20-bfb1-40d6-bda8-172d033cf807)
 	)
 	(rectangle
-		(start 40.64 153.67)
-		(end 86.995 190.5)
+		(start 90.17 156.21)
+		(end 136.525 193.04)
 		(stroke
 			(width 1)
 			(type default)
@@ -3299,7 +3299,7 @@
 	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
-		(at 40.005 180.975 0)
+		(at 89.535 183.515 0)
 		(size 47.625 9.525)
 		(stroke
 			(width -0.0001)
@@ -3346,8 +3346,8 @@
 	)
 	(text_box "DESIGN NOTE - PI filter:\n\nTarget cutoff frequency = Switching frequ/10 = 75kHz\n\nFor a LC filter: lc = 1 / (2pi*sqrt(L x C))\n\nL = 1 / ((2pi x fc)^2 x 4.7uF)\nL = 1 uH\n\n"
 		(exclude_from_sim no)
-		(at 89.535 153.67 0)
-		(size 47.625 36.83)
+		(at 38.735 116.205 0)
+		(size 47.625 19.05)
 		(stroke
 			(width 1)
 			(type solid)
@@ -3368,7 +3368,7 @@
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 41.91 170.18 0)
+		(at 91.44 172.72 0)
 		(size 64.77 8.255)
 		(stroke
 			(width -0.0001)
@@ -3391,7 +3391,7 @@
 	)
 	(text_box "Filtered Power Rails"
 		(exclude_from_sim no)
-		(at 41.91 152.4 0)
+		(at 91.44 154.94 0)
 		(size 64.77 9.525)
 		(stroke
 			(width -0.0001)
@@ -3727,7 +3727,7 @@
 		(uuid "c34445e6-146a-4fc9-b910-a7ee1b925848")
 	)
 	(label "GND"
-		(at 44.45 180.34 0)
+		(at 93.98 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3738,7 +3738,7 @@
 		)
 		(uuid "cddeedc9-000d-41d8-a740-b2b3fb4894c1")
 		(property "Netclass" "GND"
-			(at 44.45 181.61 0)
+			(at 93.98 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3750,7 @@
 		)
 	)
 	(label "+3V3"
-		(at 44.45 167.64 0)
+		(at 93.98 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3761,7 +3761,7 @@
 		)
 		(uuid "d504091b-e0ea-4975-83c4-7e618a049f65")
 		(property "Netclass" "+3V3"
-			(at 44.45 168.91 0)
+			(at 93.98 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3784,7 @@
 		(uuid "e9405294-99b7-44e3-b444-5afe4313db83")
 	)
 	(label "+VOUT"
-		(at 44.45 163.83 0)
+		(at 93.98 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3838,7 +3838,7 @@
 	)
 	(hierarchical_label "+VBUS"
 		(shape input)
-		(at 44.45 72.39 180)
+		(at 41.91 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3852,7 +3852,7 @@
 		)
 		(uuid "459722ad-e940-44e0-a207-d5e19b3bae3b")
 		(property "Netclass" "+VBUS"
-			(at 44.45 73.66 0)
+			(at 41.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4165,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 110.49 0)
+		(at 146.05 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4174,15 +4174,6 @@
 		(fields_autoplaced yes)
 		(uuid "0a87c2ea-2ce1-47ed-842c-c143a9ddb2b1")
 		(property "Reference" "#PWR0605"
-			(at 146.05 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
 			(at 146.05 115.57 0)
 			(effects
 				(font
@@ -4191,8 +4182,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 146.05 110.49 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 110.49 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 110.49 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4232,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 55.88 72.39 90)
+		(at 53.34 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4240,7 +4240,7 @@
 		(dnp no)
 		(uuid "19d1fc4e-8cbc-4323-b242-90df851c5a96")
 		(property "Reference" "FB602"
-			(at 55.88 65.405 90)
+			(at 53.34 65.405 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4248,7 @@
 			)
 		)
 		(property "Value" "1k @ 100MHz"
-			(at 55.88 67.945 90)
+			(at 53.34 67.945 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4256,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 55.88 74.168 90)
+			(at 53.34 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4265,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/742792096.pdf"
-			(at 55.88 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4274,7 @@
 			)
 		)
 		(property "Description" "1 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 1A 300mOhm"
-			(at 55.88 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4283,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "742792096"
-			(at 55.88 67.31 90)
+			(at 53.34 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4292,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 55.88 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 55.88 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4310,7 @@
 			)
 		)
 		(property "Supplier Part Number" "710-742792096"
-			(at 55.88 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 87.63 0)
+		(at 66.04 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4344,7 +4344,7 @@
 		(fields_autoplaced yes)
 		(uuid "278d0c9e-d8bf-4075-9846-de78bee20390")
 		(property "Reference" "#PWR0603"
-			(at 68.58 93.98 0)
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 92.71 0)
+			(at 66.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4797,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 180.34 270)
+		(at 116.84 182.88 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4806,7 +4806,7 @@
 		(dnp no)
 		(uuid "3fe8e295-139a-4cfb-85fd-0fe8679fd85b")
 		(property "Reference" "TP603"
-			(at 72.39 180.34 90)
+			(at 121.92 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.788 180.34 90)
+			(at 131.318 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4824,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 67.31 175.26 0)
+			(at 116.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 175.26 0)
+			(at 116.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4842,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 180.34 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4851,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 67.31 180.34 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4860,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 67.31 180.34 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 167.64 270)
+		(at 116.84 170.18 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5100,7 +5100,7 @@
 		(dnp no)
 		(uuid "5b56a8a4-b44e-4aab-830e-c553a420fa19")
 		(property "Reference" "TP602"
-			(at 72.39 167.64 90)
+			(at 121.92 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5109,7 @@
 			)
 		)
 		(property "Value" "VIN2"
-			(at 81.534 167.64 90)
+			(at 131.064 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 67.31 162.56 0)
+			(at 116.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 162.56 0)
+			(at 116.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5136,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 167.64 0)
+			(at 116.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5145,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 67.31 167.64 0)
+			(at 116.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5154,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 67.31 167.64 0)
+			(at 116.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5771,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 80.01 0)
+		(at 60.96 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5780,7 +5780,7 @@
 		(dnp no)
 		(uuid "84cc3b53-6e95-4f49-8c5c-45032f2bc68b")
 		(property "Reference" "C611"
-			(at 60.96 78.74 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5789,7 @@
 			)
 		)
 		(property "Value" "4u7 X7R 50V"
-			(at 60.96 81.28 0)
+			(at 58.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5798,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 62.5348 83.82 0)
+			(at 59.9948 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5807,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 63.5 80.01 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5816,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 80.01 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5825,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CGA4J1X7R1H475K125AC"
-			(at 63.5 80.01 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5834,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 63.5 80.01 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5843,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 63.5 80.01 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5852,7 @@
 			)
 		)
 		(property "Supplier Part Number" "810-CGA4J1X7R1H475K1"
-			(at 63.5 80.01 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6085,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 163.83 270)
+		(at 116.84 166.37 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6094,7 +6094,7 @@
 		(dnp no)
 		(uuid "9fc1a285-cf4c-4e96-a44b-dbcb3c63bc48")
 		(property "Reference" "TP601"
-			(at 72.39 163.83 90)
+			(at 121.92 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 			)
 		)
 		(property "Value" "+VOUT"
-			(at 80.01 163.83 90)
+			(at 129.54 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6112,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 67.31 158.75 0)
+			(at 116.84 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 158.75 0)
+			(at 116.84 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 163.83 0)
+			(at 116.84 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6139,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 67.31 163.83 0)
+			(at 116.84 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6148,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 67.31 163.83 0)
+			(at 116.84 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6237,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 80.01 0)
+		(at 92.71 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6246,7 +6246,7 @@
 		(dnp no)
 		(uuid "b97e6708-71b1-459b-8790-90b7c6b1bc06")
 		(property "Reference" "C613"
-			(at 92.71 78.74 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6255,7 @@
 			)
 		)
 		(property "Value" "100n X7R 50V"
-			(at 92.71 81.28 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6264,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 94.2848 83.82 0)
+			(at 91.7448 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6273,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
-			(at 95.25 80.01 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6282,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 95.25 80.01 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6291,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "UMK105B7104KVHF"
-			(at 95.25 80.01 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,7 +6300,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 95.25 80.01 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6309,7 @@
 			)
 		)
 		(property "Manufacturer" "TAIYO YUDEN"
-			(at 95.25 80.01 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6318,7 @@
 			)
 		)
 		(property "Supplier Part Number" "963-UMK105B7104KVHF"
-			(at 95.25 80.01 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6446,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 80.01 0)
+		(at 76.2 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6455,7 +6455,7 @@
 		(dnp no)
 		(uuid "bffaa4e8-c681-4ca5-be7b-cdd05929cb7b")
 		(property "Reference" "C612"
-			(at 76.2 78.74 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6464,7 @@
 			)
 		)
 		(property "Value" "4u7 X7R 50V"
-			(at 76.2 81.28 0)
+			(at 73.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6473,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 77.7748 83.82 0)
+			(at 75.2348 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6482,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 78.74 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6491,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6500,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CGA4J1X7R1H475K125AC"
-			(at 78.74 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6509,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 78.74 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6518,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 78.74 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6527,7 @@
 			)
 		)
 		(property "Supplier Part Number" "810-CGA4J1X7R1H475K1"
-			(at 78.74 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 80.01 0)
+		(at 45.72 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6561,7 +6561,7 @@
 		(dnp no)
 		(uuid "c70fc55a-f7e2-4503-8158-e6f72c83cc87")
 		(property "Reference" "C610"
-			(at 45.72 78.74 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6570,7 @@
 			)
 		)
 		(property "Value" "4u7 X7R 50V"
-			(at 45.72 81.28 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6579,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 47.2948 83.82 0)
+			(at 44.7548 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6588,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 48.26 80.01 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 80.01 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +6606,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CGA4J1X7R1H475K125AC"
-			(at 48.26 80.01 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6615,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 48.26 80.01 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6624,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 48.26 80.01 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6633,7 @@
 			)
 		)
 		(property "Supplier Part Number" "810-CGA4J1X7R1H475K1"
-			(at 48.26 80.01 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

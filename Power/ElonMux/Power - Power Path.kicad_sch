@@ -541,6 +541,42 @@
 			(symbol "VBT3045C-E3_8W_0_0"
 				(polyline
 					(pts
+						(xy 3.302 -3.81) (xy 3.302 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.27) (xy 3.302 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 3.302 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.81 -1.27) (xy 3.81 -3.81)
 					)
 					(stroke
@@ -553,7 +589,67 @@
 				)
 				(polyline
 					(pts
+						(xy 3.81 -1.27) (xy 4.318 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.81 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 4.318 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -1.27) (xy 4.318 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 3.81) (xy 4.318 3.556)
 					)
 					(stroke
 						(width 0.254)
@@ -3799,7 +3895,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 99.06) (xy 77.47 99.695)
+			(xy 132.715 104.775) (xy 78.105 107.315)
 		)
 		(stroke
 			(width 0)
@@ -7362,6 +7458,28 @@
 		)
 		(uuid "2e0bf8e5-3106-4e38-bcf1-76c51477e71b")
 	)
+	(text_box "DESIGN NOTE:\nCurrent setup will use battery energy to power the power path when VBAT > VSUPPLY"
+		(exclude_from_sim no)
+		(at 28.575 116.84 0)
+		(size 48.895 15.875)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "561fa5ad-6f04-4cf6-a5fc-3deb452266f6")
+	)
 	(text_box "Drivers Status & Sensing"
 		(exclude_from_sim no)
 		(at 356.235 92.71 0)
@@ -7475,10 +7593,10 @@
 		)
 		(uuid "a8d9d073-ba18-469f-87be-976699657bc3")
 	)
-	(text_box "VBT3045C-E3\nReverse Voltage: 45V\nForward current: 15A per diode, 30A total.\nForward voltage: 390mV @ 15A"
+	(text_box "STPS15L60C - Power Schottky rectifier:\nReverse Voltage: 60V\nForward current: 7.5A per diode, 15A total.\nForward voltage: 520mV @ 7.5A\n\nSchottky diodes have a relatively small forward voltage, enabling them to switch on and off much faster than traditional PN junction diodes."
 		(exclude_from_sim no)
-		(at 29.845 98.425 0)
-		(size 46.355 12.7)
+		(at 28.575 87.63 0)
+		(size 48.895 27.305)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -7652,28 +7770,6 @@
 			(justify left top)
 		)
 		(uuid "e341b1c2-2630-4de3-bf76-6e2764f88751")
-	)
-	(text_box "CSD18540Q5B 60 V N-Channel NexFET™ Power MOSFET:\n\nVDS(Drain-Source Breakdown Voltage) = 60V\nRDS(on) (Drain-Source On-Resistance) = 2.6mΩ @ 4.5V VGS  \nID - Continuous Drain Current = 29A\nVGS(th) - Gate-Source Threshold Voltage = 1.9V\nVGS - Gate-Source Voltage = ±20V"
-		(exclude_from_sim no)
-		(at 27.94 29.845 0)
-		(size 73.025 22.86)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.778 1.778)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "ea0328ce-a74d-44a0-9865-e40eaf2c1c20")
 	)
 	(text_box "DESIGN NOTE - Pull-up/\nDivider Resistors:\n\nOUTA/B are open drain, so this design ensure a logic signal between 3.4V (10V input) and 12.4V (36V input). The INP pin of LTC7000 requires at least 2V but less than 15V to turn on the FETs, making this design a proper fit.\n\n3V3 is not used for the pull up, as it is generated from VOUT, which itself needs first to be turned using OUTA/B, signals requiring 3V3 pull-up."
 		(exclude_from_sim no)
@@ -15164,7 +15260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stps15l60c-1851546.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/89360/vbt3045c.pdf"
 			(at 156.21 300.33 0)
 			(effects
 				(font
@@ -15174,7 +15270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky Diodes & Rectifiers 2X7.5 Amp 60 Volt"
+		(property "Description" "VISHAY - VBT3045C-E3/8W - SCHOTTKY RECTIFIER ARRAY, 30A, TO-263AB"
 			(at 137.16 105.41 0)
 			(effects
 				(font

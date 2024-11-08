@@ -3705,7 +3705,7 @@
 		(members "USB_D-" "USB_D+")
 	)
 	(junction
-		(at 250.19 193.04)
+		(at 246.38 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01b33386-00cc-41a6-99dc-8831442a1ce9")
@@ -3741,7 +3741,7 @@
 		(uuid "0cb6801e-3cf5-444c-bcd5-448789d81813")
 	)
 	(junction
-		(at 372.11 217.17)
+		(at 375.92 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d5b6ecd-962c-41cd-bc6e-c4f7d062498b")
@@ -3759,7 +3759,7 @@
 		(uuid "0de08a4b-4e5a-45e0-8f88-cb6f84232854")
 	)
 	(junction
-		(at 250.19 217.17)
+		(at 246.38 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e85258d-f7f5-4b81-aae4-06e26c245730")
@@ -3787,6 +3787,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34363b86-3fc6-4f9b-8a84-3273dcc5a9fe")
+	)
+	(junction
+		(at 281.94 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49c747bc-4a96-4298-a8f7-7262a5145491")
 	)
 	(junction
 		(at 267.97 107.95)
@@ -3861,12 +3867,6 @@
 		(uuid "aab988a1-f632-47c2-8d64-8b9adb4ab841")
 	)
 	(junction
-		(at 285.75 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd18ee65-304e-4e85-89b2-7525818bfa55")
-	)
-	(junction
 		(at 247.65 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3921,7 +3921,7 @@
 		(uuid "f1b302d8-8e33-4bdf-8e58-f7c51685fb0f")
 	)
 	(junction
-		(at 372.11 193.04)
+		(at 375.92 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd01aebd-d7ad-4493-9400-32a4c5a58508")
@@ -4420,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 127) (xy 105.41 127)
+			(xy 59.69 127) (xy 78.74 127)
 		)
 		(stroke
 			(width 0)
@@ -4500,16 +4500,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 93.98) (xy 290.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ee6d7c-c905-4393-a7cb-892052a6087f")
-	)
-	(wire
-		(pts
 			(xy 289.56 132.08) (xy 289.56 134.62)
 		)
 		(stroke
@@ -4540,7 +4530,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 203.2) (xy 368.3 203.2)
+			(xy 368.3 203.2) (xy 372.11 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4790,7 +4780,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 203.2) (xy 242.57 217.17)
+			(xy 238.76 203.2) (xy 238.76 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5101,7 +5091,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 215.9) (xy 250.19 217.17)
+			(xy 246.38 215.9) (xy 246.38 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5241,7 +5231,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 217.17) (xy 250.19 218.44)
+			(xy 246.38 217.17) (xy 246.38 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5381,7 +5371,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 193.04) (xy 372.11 193.04)
+			(xy 353.06 193.04) (xy 375.92 193.04)
 		)
 		(stroke
 			(width 0)
@@ -5641,7 +5631,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 193.04) (xy 372.11 198.12)
+			(xy 375.92 193.04) (xy 375.92 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5791,7 +5781,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 203.2) (xy 364.49 217.17)
+			(xy 368.3 203.2) (xy 368.3 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5982,7 +5972,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.48 207.01) (xy 265.43 208.915)
+			(xy 277.495 189.23) (xy 261.62 208.915)
 		)
 		(stroke
 			(width 0)
@@ -6084,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 217.17) (xy 372.11 218.44)
+			(xy 375.92 217.17) (xy 375.92 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6104,7 +6094,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 217.17) (xy 372.11 217.17)
+			(xy 368.3 217.17) (xy 375.92 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6124,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 182.88) (xy 372.11 185.42)
+			(xy 375.92 182.88) (xy 375.92 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6151,6 +6141,17 @@
 			(type default)
 		)
 		(uuid "d6214072-ee6d-4af1-a697-ea4ab54ca945")
+	)
+	(polyline
+		(pts
+			(xy 370.205 205.105) (xy 338.455 223.52)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "d719bdbc-663b-4dc8-8e03-ef6e7bd02937")
 	)
 	(bus
 		(pts
@@ -6204,6 +6205,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 93.98) (xy 290.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1bd007-1999-46ca-93ac-d52a68137e42")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 102.87 88.9)
 		)
 		(stroke
@@ -6224,7 +6235,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 193.04) (xy 250.19 193.04)
+			(xy 223.52 193.04) (xy 246.38 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6394,7 +6405,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 217.17) (xy 250.19 217.17)
+			(xy 238.76 217.17) (xy 246.38 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6424,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 93.98) (xy 285.75 93.98)
+			(xy 279.4 93.98) (xy 281.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6434,7 +6445,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 193.04) (xy 250.19 198.12)
+			(xy 246.38 193.04) (xy 246.38 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6484,7 +6495,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 182.88) (xy 250.19 185.42)
+			(xy 246.38 182.88) (xy 246.38 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +6515,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 203.2) (xy 246.38 203.2)
+			(xy 238.76 203.2) (xy 242.57 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6514,7 +6525,17 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 208.28) (xy 372.11 217.17)
+			(xy 86.36 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbcf836-871f-46b8-bd56-29504ff75558")
+	)
+	(wire
+		(pts
+			(xy 375.92 208.28) (xy 375.92 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6563,7 +6584,7 @@
 		(uuid "ff589f7e-2293-40cd-81df-cb1c535c1db3")
 	)
 	(rectangle
-		(start 18.415 229.235)
+		(start 18.415 229.87)
 		(end 113.03 248.92)
 		(stroke
 			(width 1)
@@ -6720,7 +6741,7 @@
 	)
 	(rectangle
 		(start 213.36 171.45)
-		(end 281.94 240.03)
+		(end 275.59 240.03)
 		(stroke
 			(width 1)
 			(type default)
@@ -6732,7 +6753,7 @@
 		(uuid bb27a2c7-3e74-4cc1-bc4f-bb300ca7e221)
 	)
 	(rectangle
-		(start 335.28 171.45)
+		(start 340.995 171.45)
 		(end 403.86 240.03)
 		(stroke
 			(width 1)
@@ -6771,8 +6792,8 @@
 		(uuid ed78b7e7-9d87-4eba-bb13-ab88d26954ef)
 	)
 	(rectangle
-		(start 246.38 208.915)
-		(end 265.43 215.265)
+		(start 242.57 208.915)
+		(end 261.62 215.265)
 		(stroke
 			(width 0)
 			(type dot)
@@ -6809,7 +6830,7 @@
 	(text_box "MCU Chip Reset"
 		(exclude_from_sim no)
 		(at 212.725 229.87 0)
-		(size 69.85 9.525)
+		(size 63.5 9.525)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -6897,6 +6918,30 @@
 			(justify bottom)
 		)
 		(uuid "20cd0feb-4c7b-4682-a7f7-b9700357c5af")
+	)
+	(text_box "The ESP32-S3 will enter the serial bootloader when GPIO0 is held low on reset. Otherwise it will run the program in flash."
+		(exclude_from_sim no)
+		(at 278.765 229.235 0)
+		(size 59.055 10.16)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "254f1ae8-89cb-4938-893f-e118cbea2c26")
 	)
 	(text_box "JTAG (Debug) port"
 		(exclude_from_sim no)
@@ -7080,8 +7125,8 @@
 	)
 	(text_box "MCU JTAG Boot"
 		(exclude_from_sim no)
-		(at 334.645 229.87 0)
-		(size 69.85 9.525)
+		(at 340.36 229.87 0)
+		(size 64.135 9.525)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -7240,6 +7285,30 @@
 		)
 		(uuid "a6d88201-b58c-4670-9dd4-2d50f2fbf85b")
 	)
+	(text_box "LAYOUT NOTE:\nPlace the 24nH inductor as close as the IC as possible. It is best not to route any signal trace under the crystal."
+		(exclude_from_sim no)
+		(at 20.32 144.145 0)
+		(size 24.765 17.78)
+		(stroke
+			(width 0.8128)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "af28dd33-f8f3-46e9-96ae-a44450f9a480")
+	)
 	(text_box "The MISO pin doesn't require a pull-ip resistor as the only slave device on this line, INA239AQDGSRQ1, has an internal push-pull."
 		(exclude_from_sim no)
 		(at 20.32 97.79 0)
@@ -7356,8 +7425,8 @@
 	)
 	(text_box "DESIGN NOTE:\n\nUSB flashing is fully automated because of its ability to reset the ESP32 directly, while JTAG debugging operates through distinct dedicated pins that do not handle the board's power state changes automatically. Therefore, the BOOT button is necessary to enable flash mode when using JTAG for programming or debugging."
 		(exclude_from_sim no)
-		(at 285.115 210.185 0)
-		(size 46.99 29.845)
+		(at 278.13 206.375 0)
+		(size 60.325 33.655)
 		(stroke
 			(width 0.8)
 			(type solid)
@@ -7376,10 +7445,10 @@
 		)
 		(uuid "f0cc2c3f-153b-435e-8c22-c2c9bff485bd")
 	)
-	(text_box "DESIGN NOTE:\n\nDebouncing: It smooths out any quick, unintended changes in voltage due to mechanical bounce in the button switch. This ensures that when you press the reset button, it reliably resets without multiple unintended toggles.\n\nPower Stabilization: It can also help stabilize the power when the chip resets, which may reduce potential issues during the reset process."
+	(text_box "DESIGN NOTE - reset button capacitor:\n\nDebouncing: It smooths out any quick, unintended changes in voltage due to mechanical bounce in the button switch. This ensures that when the reset button is pressed, it reliably resets without multiple unintended toggles.\n\nPower Stabilization: It can also help stabilize the power when the chip resets, which may reduce potential issues during the reset process."
 		(exclude_from_sim no)
-		(at 285.115 171.45 0)
-		(size 46.99 35.56)
+		(at 278.13 171.45 0)
+		(size 60.325 32.385)
 		(stroke
 			(width 0.8128)
 			(type solid)
@@ -7400,7 +7469,7 @@
 	)
 	(text "Espressif Datasheet p.25 (CHIP_PU)"
 		(exclude_from_sim no)
-		(at 264.414 253.238 0)
+		(at 264.414 251.968 0)
 		(effects
 			(font
 				(face "Arial")
@@ -7412,9 +7481,23 @@
 		)
 		(uuid "358cd1e8-e285-4ba8-8979-f8b7f34bd88d")
 	)
+	(text "Flashing ESP32-s3 with USB"
+		(exclude_from_sim no)
+		(at 264.414 258.318 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/establish-serial-connection.html")
+		)
+		(uuid "479ed9db-d1db-4f31-a6ca-307603e5f7a1")
+	)
 	(text "Phil's Lab - SPI Hardware & PCB Design"
 		(exclude_from_sim no)
-		(at 264.414 259.842 0)
+		(at 264.414 256.286 0)
 		(effects
 			(font
 				(face "Arial")
@@ -7428,7 +7511,7 @@
 	)
 	(text "Espressif Datasheet p.30 (GPIO0 boot)"
 		(exclude_from_sim no)
-		(at 264.414 256.54 0)
+		(at 264.414 254 0)
 		(effects
 			(font
 				(face "Arial")
@@ -7439,6 +7522,20 @@
 			(href "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf")
 		)
 		(uuid "a3141fda-8803-4fc5-a657-6691a460ba3f")
+	)
+	(text "ESP32-s3 BOOT selection"
+		(exclude_from_sim no)
+		(at 264.414 260.35 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://docs.espressif.com/projects/esptool/en/latest/esp32s3/advanced-topics/boot-mode-selection.html")
+		)
+		(uuid "cd5b35ba-bfc9-4077-a5a6-d80a21870328")
 	)
 	(text "Espressif Scematic Checklist"
 		(exclude_from_sim no)
@@ -7692,7 +7789,7 @@
 		(uuid "34e2a4c2-cf42-4a43-8290-907f39aeef6c")
 	)
 	(label "CHUP_PU"
-		(at 227.33 193.04 0)
+		(at 223.52 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8084,6 +8181,17 @@
 		)
 		(uuid "807efcc4-3fd5-4a0b-a26b-0547586edb7b")
 	)
+	(label "VDD3P3"
+		(at 283.21 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86bd2b80-caf0-40dd-b41c-2aa5343ec33c")
+	)
 	(label "IMON1"
 		(at 110.49 76.2 0)
 		(fields_autoplaced yes)
@@ -8290,6 +8398,17 @@
 			(justify right bottom)
 		)
 		(uuid "af21711d-a5f9-4d22-a0f0-d8380ef4bff9")
+	)
+	(label "CLOCK_IN_C"
+		(at 60.96 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b451ca-ef6f-4091-8af8-43e1e58c26ec")
 	)
 	(label "CHARGER_STATUS"
 		(at 347.98 106.68 0)
@@ -8506,7 +8625,7 @@
 		(uuid "e7cfdfe2-449d-4253-a682-05f920459cea")
 	)
 	(label "GPIO0"
-		(at 349.25 193.04 0)
+		(at 353.06 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8940,9 +9059,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Charge_Manager_SYM:LQP02HQ2N0B02E")
+		(at 72.39 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d59c926-424a-4150-a9de-d8e6fd964b63")
+		(property "Reference" "L402"
+			(at 82.55 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24n 2%"
+			(at 82.55 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 88.9 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mhq1005p_en.pdf"
+			(at 88.9 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Inductors - SMD IND 0402 24nH S-HQ AEC Q200 RF IND"
+			(at 73.025 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MHQ1005P24NGTD25"
+			(at 82.296 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "810-MHQ1005P24NGTD25"
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed569cc8-8d01-4092-ae31-7c0ca097e155")
+		)
+		(pin "2"
+			(uuid "f7ccaa89-4aaa-46cf-969c-63875f6c5748")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "L402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "B3U-1100P_1")
 		(lib_id "Charge_Manager_SYM:B3U-1100P")
-		(at 358.14 189.23 0)
+		(at 361.95 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8951,7 +9174,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e005e1d-ba33-473d-b7c3-8f816a222b6c")
 		(property "Reference" "S402"
-			(at 375.92 201.93 0)
+			(at 379.73 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +9183,7 @@
 			)
 		)
 		(property "Value" "B3U-1100P-B"
-			(at 375.92 204.47 0)
+			(at 379.73 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +9192,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:B3U1100PB"
-			(at 374.65 284.15 0)
+			(at 378.46 284.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +9202,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
-			(at 374.65 384.15 0)
+			(at 378.46 384.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +9212,7 @@
 			)
 		)
 		(property "Description" "Switch Tact,ultra small,top act,grnd trm Button Tactile Switch, SPST-NO 0.05 A@ 12 V dc 0.4mm"
-			(at 358.14 189.23 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,7 +9221,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B3U-1100P-B"
-			(at 358.14 189.23 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9230,7 @@
 			)
 		)
 		(property "Manufacturer" "Omron Electronics"
-			(at 358.14 189.23 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9239,7 @@
 			)
 		)
 		(property "Supplier Part Number" "653-B3U-1100P-B"
-			(at 358.14 189.23 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9248,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 358.14 189.23 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 372.11 189.23 0)
+		(at 375.92 189.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9570,7 +9793,7 @@
 		(dnp no)
 		(uuid "243d877c-be2b-489b-8d24-d2ac1056d27b")
 		(property "Reference" "R408"
-			(at 373.38 187.96 0)
+			(at 377.19 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9802,7 @@
 			)
 		)
 		(property "Value" "10k 1%"
-			(at 373.38 190.5 0)
+			(at 377.19 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,7 +9811,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 373.888 189.23 90)
+			(at 377.698 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 372.11 189.23 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9606,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 372.11 189.23 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,7 +9838,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 372.11 189.23 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +9847,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 372.11 189.23 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9856,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 372.11 189.23 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,7 +9865,7 @@
 			)
 		)
 		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 372.11 189.23 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +10099,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 372.11 182.88 0)
+		(at 375.92 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9884,7 +10107,7 @@
 		(dnp no)
 		(uuid "371b2aaf-8b7c-4d80-9359-75200aaeb883")
 		(property "Reference" "#PWR0412"
-			(at 372.11 186.69 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +10116,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 372.11 177.8 0)
+			(at 375.92 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +10124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 182.88 0)
+			(at 375.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +10133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 182.88 0)
+			(at 375.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +10142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 372.11 182.88 0)
+			(at 375.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +10151,7 @@
 			)
 		)
 		(property "Net Class" "+3V3"
-			(at 372.11 182.88 0)
+			(at 375.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10450,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 250.19 212.09 0)
+		(at 246.38 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10236,7 +10459,7 @@
 		(fields_autoplaced yes)
 		(uuid "53cec87a-9aaf-431f-9143-0850fd6c3411")
 		(property "Reference" "C413"
-			(at 254 210.82 0)
+			(at 250.19 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10468,7 @@
 			)
 		)
 		(property "Value" "100n X7R 50V"
-			(at 254 213.36 0)
+			(at 250.19 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10477,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 251.1552 215.9 0)
+			(at 247.3452 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
-			(at 250.19 212.09 0)
+			(at 246.38 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10495,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 212.09 0)
+			(at 246.38 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,7 +10504,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "UMK105B7104KVHF"
-			(at 250.19 212.09 0)
+			(at 246.38 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +10513,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 250.19 212.09 0)
+			(at 246.38 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10522,7 @@
 			)
 		)
 		(property "Manufacturer" "TAIYO YUDEN"
-			(at 250.19 212.09 0)
+			(at 246.38 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +10531,7 @@
 			)
 		)
 		(property "Supplier Part Number" "963-UMK105B7104KVHF"
-			(at 250.19 212.09 0)
+			(at 246.38 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +10623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 218.44 0)
+		(at 246.38 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10409,7 +10632,7 @@
 		(fields_autoplaced yes)
 		(uuid "5656ae04-abe2-4a3a-bdf8-1612eb4ac953")
 		(property "Reference" "#PWR0413"
-			(at 250.19 224.79 0)
+			(at 246.38 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 223.52 0)
+			(at 246.38 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 218.44 0)
+			(at 246.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 218.44 0)
+			(at 246.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 218.44 0)
+			(at 246.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11532,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 285.75 93.98 0)
+		(at 281.94 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11318,7 +11541,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f726e73-02aa-4f61-9c74-4e076a44b4a9")
 		(property "Reference" "#FLG0401"
-			(at 285.75 92.075 0)
+			(at 281.94 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,7 +11550,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 285.75 88.9 0)
+			(at 281.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,7 +11559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 93.98 0)
+			(at 281.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 285.75 93.98 0)
+			(at 281.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11577,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 285.75 93.98 0)
+			(at 281.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11964,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 250.19 182.88 0)
+		(at 246.38 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11749,7 +11972,7 @@
 		(dnp no)
 		(uuid "a0f7f841-3765-4d14-9c9c-66fe346ce0b2")
 		(property "Reference" "#PWR0411"
-			(at 250.19 186.69 0)
+			(at 246.38 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +11981,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 250.19 177.8 0)
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,7 +11989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 182.88 0)
+			(at 246.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11775,7 +11998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 182.88 0)
+			(at 246.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11784,7 +12007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 250.19 182.88 0)
+			(at 246.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +12016,7 @@
 			)
 		)
 		(property "Net Class" "+3V3"
-			(at 250.19 182.88 0)
+			(at 246.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +12124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 372.11 218.44 0)
+		(at 375.92 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11910,7 +12133,7 @@
 		(fields_autoplaced yes)
 		(uuid "a55aded0-255f-4934-9085-30a8d6533573")
 		(property "Reference" "#PWR0414"
-			(at 372.11 224.79 0)
+			(at 375.92 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +12142,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 372.11 223.52 0)
+			(at 375.92 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +12151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 218.44 0)
+			(at 375.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +12160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 218.44 0)
+			(at 375.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,7 +12169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 372.11 218.44 0)
+			(at 375.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +12722,7 @@
 	(symbol
 		(lib_name "B3U-1100P_1")
 		(lib_id "Charge_Manager_SYM:B3U-1100P")
-		(at 236.22 189.23 0)
+		(at 232.41 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12508,7 +12731,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b537ba-e850-4461-995d-1a288e11e846")
 		(property "Reference" "S401"
-			(at 254 201.93 0)
+			(at 250.19 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +12740,7 @@
 			)
 		)
 		(property "Value" "B3U-1100P-B"
-			(at 254 204.47 0)
+			(at 250.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +12749,7 @@
 			)
 		)
 		(property "Footprint" "Charge_Manager_FP:B3U1100PB"
-			(at 252.73 284.15 0)
+			(at 248.92 284.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +12759,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
-			(at 252.73 384.15 0)
+			(at 248.92 384.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12769,7 @@
 			)
 		)
 		(property "Description" "Switch Tact,ultra small,top act,grnd trm Button Tactile Switch, SPST-NO 0.05 A@ 12 V dc 0.4mm"
-			(at 236.22 189.23 0)
+			(at 232.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12778,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B3U-1100P-B"
-			(at 236.22 189.23 0)
+			(at 232.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12787,7 @@
 			)
 		)
 		(property "Manufacturer" "Omron Electronics"
-			(at 236.22 189.23 0)
+			(at 232.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +12796,7 @@
 			)
 		)
 		(property "Supplier Part Number" "653-B3U-1100P-B"
-			(at 236.22 189.23 0)
+			(at 232.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12582,7 +12805,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 236.22 189.23 0)
+			(at 232.41 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +13283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.19 189.23 0)
+		(at 246.38 189.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13069,7 +13292,7 @@
 		(dnp no)
 		(uuid "d1888f41-b569-4d1f-b6c9-80f4ca1d3198")
 		(property "Reference" "R407"
-			(at 251.46 187.96 0)
+			(at 247.65 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,7 +13301,7 @@
 			)
 		)
 		(property "Value" "10k 1%"
-			(at 251.46 190.5 0)
+			(at 247.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13087,7 +13310,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 251.968 189.23 90)
+			(at 248.158 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13319,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 250.19 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +13328,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 250.19 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13114,7 +13337,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 250.19 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13346,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 250.19 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13132,7 +13355,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 250.19 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13141,7 +13364,7 @@
 			)
 		)
 		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 250.19 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

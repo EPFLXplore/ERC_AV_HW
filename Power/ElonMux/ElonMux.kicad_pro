@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.4,
-          "width": 1.2
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -716,9 +716,13 @@
       "+VSUPPLY": "rgb(114, 255, 0)",
       "+VSUPPLY_O": "rgb(114, 255, 0)",
       "/Project Architecture/Interface - Connectors/MTCK": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTCK_C": "rgb(0, 132, 0)",
       "/Project Architecture/Interface - Connectors/MTDI": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDI_C": "rgb(0, 132, 0)",
       "/Project Architecture/Interface - Connectors/MTDO": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDO_C": "rgb(0, 132, 0)",
       "/Project Architecture/Interface - Connectors/MTMS": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTMS_C": "rgb(0, 132, 0)",
       "/Project Architecture/Interface - Connectors/USB_C+": "rgb(0, 0, 255)",
       "/Project Architecture/Interface - Connectors/USB_C-": "rgb(0, 0, 255)",
       "/Project Architecture/Interface - Connectors/USB_D+": "rgb(0, 0, 255)",
@@ -729,6 +733,7 @@
       "/Project Architecture/MCU - Unit/SPI_MISO": "rgb(132, 0, 132)",
       "/Project Architecture/MCU - Unit/SPI_MOSI": "rgb(132, 0, 132)",
       "/Project Architecture/MCU - Unit/SPI_NCS": "rgb(132, 0, 132)",
+      "/Project Architecture/Power - Generation/PVIN1": "rgb(194, 194, 194)",
       "/Project Architecture/Power - Power Path/VDD": "rgb(132, 132, 0)",
       "GND": "rgb(74, 90, 126)"
     },
