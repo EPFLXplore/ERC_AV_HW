@@ -1119,7 +1119,7 @@
 			(justify left bottom)
 		)
 		(uuid "f3ae15cd-e65f-4f42-bb85-43ad496c91b7")
-		(property "Netclass" "+VBAT"
+		(property "Netclass" "Power Bat"
 			(at 123.19 88.9 0)
 			(effects
 				(font
@@ -1141,7 +1141,7 @@
 			(justify left bottom)
 		)
 		(uuid "fa8701d4-1884-4952-b535-3a8ae3e2101c")
-		(property "Netclass" "+VBAT"
+		(property "Netclass" "Power Bat"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -1195,7 +1195,7 @@
 			(justify right)
 		)
 		(uuid "97cb5596-6d8e-484b-9273-9a96ccc81f1a")
-		(property "Netclass" "+3V3"
+		(property "Netclass" "Power 3V3"
 			(at 95.25 92.71 0)
 			(effects
 				(font

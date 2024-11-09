@@ -873,22 +873,10 @@
 		(uuid "6a0abf0c-d5de-4e4b-9a21-dae22a5b31bf")
 	)
 	(junction
-		(at 165.1 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bf4c26c-9e20-4ef9-bba5-f24f4f093e68")
-	)
-	(junction
 		(at 151.13 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c7940f8-fb16-4134-bf55-54abfa29e800")
-	)
-	(junction
-		(at 170.18 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "985a7728-f50e-4811-8147-e96c5961257d")
 	)
 	(junction
 		(at 151.13 161.29)
@@ -1185,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 158.75) (xy 187.96 158.75)
+			(xy 167.64 158.75) (xy 187.96 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1202,6 +1190,16 @@
 			(type default)
 		)
 		(uuid "825e119e-ecb4-4d01-ae44-6f6810317333")
+	)
+	(wire
+		(pts
+			(xy 274.32 55.88) (xy 283.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bac4855-a1da-4dcd-96f7-72d9320842e8")
 	)
 	(wire
 		(pts
@@ -1276,16 +1274,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 55.88) (xy 274.32 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "979ed18f-6d70-455f-bef8-320e9d87c509")
-	)
-	(wire
-		(pts
 			(xy 283.21 71.12) (xy 274.32 71.12)
 		)
 		(stroke
@@ -1306,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 158.75) (xy 165.1 158.75)
+			(xy 148.59 158.75) (xy 167.64 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1323,16 +1311,6 @@
 			(type default)
 		)
 		(uuid "c8876aa1-65fc-45a1-8f72-49ebfc5f9f00")
-	)
-	(wire
-		(pts
-			(xy 165.1 158.75) (xy 167.64 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a2d786-68a1-498f-93ca-b553691c95bb")
 	)
 	(wire
 		(pts
@@ -1395,16 +1373,6 @@
 			(type default)
 		)
 		(uuid "ee703e30-56c5-4a88-8374-6f639156beee")
-	)
-	(wire
-		(pts
-			(xy 167.64 158.75) (xy 170.18 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d3ca19-1071-474b-80ec-20fa6e4fa309")
 	)
 	(wire
 		(pts
@@ -14133,7 +14101,7 @@
 			(justify left)
 		)
 		(uuid "500409ef-676d-410b-93b7-3b1fec79ce9c")
-		(property "Netclass" "+VSUPPLY"
+		(property "Netclass" "Power Supply"
 			(at 187.96 63.5 0)
 			(effects
 				(font
@@ -14160,7 +14128,7 @@
 			(justify right)
 		)
 		(uuid "62f9f126-f7e6-44c8-8d98-74e795fe81dd")
-		(property "Netclass" "+VOUT"
+		(property "Netclass" "Power Out"
 			(at 237.49 160.02 0)
 			(effects
 				(font
@@ -14187,7 +14155,7 @@
 			(justify right)
 		)
 		(uuid "8d86cc51-1245-4696-9f41-cb78092d2085")
-		(property "Netclass" "+VCHARGE_O"
+		(property "Netclass" "Power Charge"
 			(at 237.49 63.5 0)
 			(effects
 				(font
@@ -14214,7 +14182,7 @@
 			(justify left)
 		)
 		(uuid "d72621f1-1c00-4f98-8085-9be0b4de8e48")
-		(property "Netclass" "+VBAT"
+		(property "Netclass" "Power Bat"
 			(at 187.96 160.02 0)
 			(effects
 				(font
@@ -14223,73 +14191,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 170.18 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "015e4732-b9ea-4a94-9452-7b733d94a204")
-		(property "Reference" "#FLG0502"
-			(at 170.18 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 170.18 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 170.18 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37ce21ba-eb61-45c1-b099-1205792d9b7f")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "#FLG0502")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -14482,7 +14383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b262cc6-bd09-46d9-8e18-ed577fb44084")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0504"
 			(at 151.13 186.69 0)
 			(effects
 				(font
@@ -14533,7 +14434,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "#PWR0505")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -14658,7 +14559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600b244c-389e-4a8a-8028-e8d8b857849c")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0505"
 			(at 274.32 186.69 0)
 			(effects
 				(font
@@ -14709,7 +14610,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "#PWR0506")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -14822,71 +14723,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
 					(reference "J501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ed6e4c0-8089-4222-9481-f5763564c7a2")
-		(property "Reference" "#PWR0504"
-			(at 165.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBAT"
-			(at 164.846 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96132f28-2e42-4b36-be60-2034045b9046")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "#PWR0504")
 					(unit 1)
 				)
 			)

@@ -8187,10 +8187,22 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "86bd2b80-caf0-40dd-b41c-2aa5343ec33c")
+		(property "Netclass" "Power 3V3"
+			(at 283.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "IMON1"
 		(at 110.49 76.2 0)
@@ -8742,6 +8754,21 @@
 		)
 		(uuid "183add86-d082-48b4-b3c4-2139af03465d")
 	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 222.25 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "24e36894-9984-4313-8298-d9fa554f96d7")
+	)
 	(hierarchical_label "{GPIOs}"
 		(shape bidirectional)
 		(at 177.8 176.53 0)
@@ -8827,32 +8854,6 @@
 			(justify left)
 		)
 		(uuid "ad4f9a21-da21-4d2f-8138-1530f7a5379b")
-	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 222.25 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "bd63f94e-3dff-4ca4-94f7-b3a1c71b5392")
-		(property "Netclass" "+3V3"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "{I2C_CHARGER}"
 		(shape bidirectional)
@@ -10150,16 +10151,6 @@
 				(hide yes)
 			)
 		)
-		(property "Net Class" "+3V3"
-			(at 375.92 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f97c0d1b-f720-4893-acbc-eb3e1af66931")
 		)
@@ -11148,16 +11139,6 @@
 				(hide yes)
 			)
 		)
-		(property "Net Class" "+3V3"
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "865c670a-4764-4273-a0d8-a29f396994e0")
 		)
@@ -12011,16 +11992,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Net Class" "+3V3"
-			(at 246.38 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
