@@ -10,4 +10,7 @@
   (lib (name "LT3960JMSE-PBF")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LT3960JMSE-PBF.kicad_sym")(options "")(descr ""))
   (lib (name "PESD2CAN27v")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/PESD2CAN27v.kicad_sym")(options "")(descr ""))
   (lib (name "5025850970")(type "KiCad")(uri "${PROJECT_SYMBOLS}/5025850970.kicad_sym")(options "")(descr ""))
+  (lib (name "D5V0H1B2LP_7B")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/D5V0H1B2LP_7B.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD4E05U06DQAR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD6E05U06RVZR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD6E05U06RVZR.kicad_sym")(options "")(descr ""))
 )
