@@ -9925,7 +9925,7 @@
 			(justify right bottom)
 		)
 		(uuid "41d9a789-afea-44bc-8fe3-1c4cfe51ea62")
-		(property "Netclass" "+VCHARGE"
+		(property "Netclass" "Power Charge"
 			(at 367.03 39.37 0)
 			(effects
 				(font
@@ -10041,7 +10041,7 @@
 			(justify right bottom)
 		)
 		(uuid "71283baa-12b7-4db8-8d80-6188dd958735")
-		(property "Netclass" "+VCHARGE"
+		(property "Netclass" "Power Charge"
 			(at 340.36 39.37 0)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 			(justify right bottom)
 		)
 		(uuid "9adfd85c-657a-4631-8deb-25bfb7efe961")
-		(property "Netclass" "+VCHARGE"
+		(property "Netclass" "Power Charge"
 			(at 274.32 168.91 0)
 			(effects
 				(font
@@ -10166,7 +10166,7 @@
 			(justify right bottom)
 		)
 		(uuid "a0ecec45-1858-4e13-bc6d-92f618789fba")
-		(property "Netclass" "+VCHARGE"
+		(property "Netclass" "Power Charge"
 			(at 274.32 176.53 0)
 			(effects
 				(font
@@ -10212,7 +10212,7 @@
 			(justify left bottom)
 		)
 		(uuid "a7644314-1dc4-43f9-bc3c-b0df8ea910dc")
-		(property "Netclass" "+VSUPPLY"
+		(property "Netclass" "Power Supply"
 			(at 19.05 168.91 0)
 			(effects
 				(font
@@ -10427,7 +10427,7 @@
 			(justify left bottom)
 		)
 		(uuid "dd68a81a-0ef4-4062-a88c-bc7383d652f2")
-		(property "Netclass" "+VCHARGE"
+		(property "Netclass" "Power Charge"
 			(at 19.05 165.1 0)
 			(effects
 				(font
@@ -10571,7 +10571,7 @@
 			(justify right)
 		)
 		(uuid "04af61d9-1caf-42df-a13a-60fb923625e8")
-		(property "Netclass" "+VSUPPLY"
+		(property "Netclass" "Power Supply"
 			(at 78.74 44.45 0)
 			(effects
 				(font
@@ -10625,8 +10625,104 @@
 			(justify left)
 		)
 		(uuid "4a877d4d-eb87-4de9-b4b4-d14c7471577b")
-		(property "Netclass" "+VCHARGE_O"
+		(property "Netclass" "Power Charge"
 			(at 354.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 250.19 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b3ddb39-7ee8-4b3b-9800-a4c5daa4ebf6")
+		(property "Netclass" "Other High Voltage"
+			(at 247.65 52.6415 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 193.04 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49b3ded2-fe8e-4631-80fa-58bf690bd220")
+		(property "Netclass" "Other High Voltage"
+			(at 193.7385 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 193.04 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d972f846-36ef-4149-b52a-7521afbe9c7e")
+		(property "Netclass" "Other High Voltage"
+			(at 193.7385 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 250.19 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0ad0fbd-7e6e-4ed8-bf39-02f3a7c2418d")
+		(property "Netclass" "Other High Voltage"
+			(at 247.65 79.3115 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -506,159 +506,6 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "+3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VBAT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VBAT_O",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VBUS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VCHARGE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 194)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VCHARGE_O",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 194)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VOUT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 132, 132)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VSUPPLY",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+VSUPPLY_O",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
@@ -683,6 +530,125 @@
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Other High Voltage",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Bat",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Charge",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Out",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 132, 132)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -733,66 +699,80 @@
       "/Project Architecture/MCU - Unit/SPI_MISO": "rgb(132, 0, 132)",
       "/Project Architecture/MCU - Unit/SPI_MOSI": "rgb(132, 0, 132)",
       "/Project Architecture/MCU - Unit/SPI_NCS": "rgb(132, 0, 132)",
+      "/Project Architecture/Power - Generation/+VOUT": "rgb(194, 194, 194)",
       "/Project Architecture/Power - Generation/PVIN1": "rgb(194, 194, 194)",
+      "/Project Architecture/Power - Power Path/+VBAT": "rgb(224, 21, 255)",
+      "/Project Architecture/Power - Power Path/+VBAT_O": "rgb(224, 21, 255)",
+      "/Project Architecture/Power - Power Path/+VSUPPLY_O": "rgb(114, 255, 0)",
       "/Project Architecture/Power - Power Path/VDD": "rgb(132, 132, 0)",
       "GND": "rgb(74, 90, 126)"
     },
     "netclass_assignments": {
-      "+3V3": "+3V3",
+      "+3V3": "Power 3V3",
       "+VBAT": "+VBAT",
       "+VBAT_O": "+VBAT",
-      "+VBUS": "+VBUS",
-      "+VCHARGE": "+VCHARGE",
-      "+VCHARGE_O": "+VCHARGE_O",
+      "+VBUS": "Power USB",
+      "+VCHARGE": "Power Charge",
+      "+VCHARGE_O": "Power Charge",
       "+VOUT": "+VOUT",
-      "+VSUPPLY": "+VSUPPLY",
+      "+VSUPPLY": "Power Supply",
       "+VSUPPLY_O": "+VSUPPLY_O",
       "/Project Architecture/+VCHARGE": "+CHARGE",
       "/Project Architecture/Interface - Connectors/GND": "GND",
       "/Project Architecture/MCU - Unit/PGOOD": "Default",
+      "/Project Architecture/MCU - Unit/VDD3P3": "Power 3V3",
       "/Project Architecture/Power - Charger/+VCHARGE": "+VCHARGE",
       "/Project Architecture/Power - Charger/BIAS": "+24V",
       "/Project Architecture/Power - Charger/HO2": "+24V",
       "/Project Architecture/Power - Charger/LO2": "+24V",
       "/Project Architecture/Power - Charger/SW2": "+24V",
-      "/Project Architecture/Power - Charger/shunt_charger+": "+VCHARGE",
-      "/Project Architecture/Power - Charger/shunt_charger-": "+VCHARGE",
+      "/Project Architecture/Power - Charger/shunt_charger+": "Power Charge",
+      "/Project Architecture/Power - Charger/shunt_charger-": "Power Charge",
       "/Project Architecture/Power - Connectors/+VBAT": "+VBAT",
       "/Project Architecture/Power - Connectors/+VCHARGE": "+VCHARGE",
       "/Project Architecture/Power - Connectors/+VOUT": "+VOUT",
-      "/Project Architecture/Power - Generation/+VOUT": "+VOUT",
+      "/Project Architecture/Power - Generation/+VOUT": "Power Out",
+      "/Project Architecture/Power - Generation/PVIN1": "Power Out",
+      "/Project Architecture/Power - Generation/PVIN2": "Power USB",
       "/Project Architecture/Power - Generation/SW1_3V3": "+3V3",
-      "/Project Architecture/Power - Generation/SW_3V3": "+3V3",
+      "/Project Architecture/Power - Generation/SW_3V3": "Power 3V3",
       "/Project Architecture/Power - Generation/VIN1": "+VOUT",
+      "/Project Architecture/Power - Power Path/+VBAT": "Power Bat",
+      "/Project Architecture/Power - Power Path/+VBAT_O": "Power Bat",
+      "/Project Architecture/Power - Power Path/+VSUPPLY_O": "Power Supply",
       "/Project Architecture/Power - Power Path/SENS_LOW": "+VBAT",
       "/Project Architecture/Power - Power Path/TS": "+VOUT",
-      "/Project Architecture/Power - Power Path/shunt_bat+": "+VBAT",
-      "/Project Architecture/Power - Power Path/shunt_bat-": "+VBAT",
-      "/Project Architecture/Power - Power Path/shunt_supply+": "+VSUPPLY",
-      "/Project Architecture/Power - Power Path/shunt_supply-": "+VSUPPLY",
+      "/Project Architecture/Power - Power Path/shunt_bat+": "Power Bat",
+      "/Project Architecture/Power - Power Path/shunt_bat-": "Power Bat",
+      "/Project Architecture/Power - Power Path/shunt_supply+": "Power Supply",
+      "/Project Architecture/Power - Power Path/shunt_supply-": "Power Supply",
       "/Project Architecture/Sensing - Battery/+3V3": "+3V3",
       "/Project Architecture/Sensing - Battery/+CHARGE": "+VCHARGE",
       "/Project Architecture/Sensing - Battery/SENS_IN": "+VBAT",
       "/Project Architecture/Sensing - Battery/SENS_OUT": "+VBAT",
-      "/Project Architecture/Sensing - Battery/shunt_bat+": "+VBAT",
-      "/Project Architecture/Sensing - Battery/shunt_bat-": "+VBAT",
-      "GND": "GND"
+      "/Project Architecture/Sensing - Battery/shunt_bat+": "Power Bat",
+      "/Project Architecture/Sensing - Battery/shunt_bat-": "Power Bat",
+      "GND": "GND",
+      "Net-(Q701-G)": "Other High Voltage",
+      "Net-(Q702-G)": "Other High Voltage",
+      "Net-(Q703-G)": "Other High Voltage",
+      "Net-(Q704-G)": "Other High Voltage"
     },
     "netclass_patterns": [
       {
-        "netclass": "+VSUPPLY",
+        "netclass": "Power Supply",
         "pattern": "+VSUPPLY"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Power Bat",
         "pattern": "/Project Architecture/Sensing - Battery/shunt_bat+"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Power Bat",
         "pattern": "/Project Architecture/Sensing - Battery/shunt_bat-"
       },
       {
-        "netclass": "+VBAT",
+        "netclass": "Power Bat",
         "pattern": "+VBAT"
       },
       {
@@ -814,6 +794,122 @@
       {
         "netclass": "USB Diff Pair",
         "pattern": "/Project Architecture/Interface - Connectors/USB_C+"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "+VCHARGE"
+      },
+      {
+        "netclass": "Power Out",
+        "pattern": "+VOUT"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "+VSUPPLY_O"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "+VCHARGE_O"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/SW1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/shunt_bridge-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/LO1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HO1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/LO2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HO2"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "/Project Architecture/Power - Power Path/SOURCE1"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SOURCE2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/LED_S1"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SNS2-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TGDN2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TGDN1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/VDD"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TS"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SENS_IN"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SENS_OUT"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "/Project Architecture/Power - Charger/shunt_charger+"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "/Project Architecture/Power - Charger/shunt_charger-"
+      },
+      {
+        "netclass": "Power Out",
+        "pattern": "/Project Architecture/Power - Generation/+VOUT"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/GATE1"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "/Project Architecture/Power - Power Path/SNS1-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/BST_D1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/BST_D2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/SW2"
       }
     ]
   },

@@ -3570,7 +3570,7 @@
 			(justify left bottom)
 		)
 		(uuid "0f27c9e9-c06e-4cd1-9997-c4833ee15978")
-		(property "Netclass" "+3V3"
+		(property "Netclass" "Power 3V3"
 			(at 166.37 64.77 0)
 			(effects
 				(font
@@ -3665,10 +3665,22 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "805f8b4e-6a71-40e5-9a34-b013938b9362")
+		(property "Netclass" "Power Out"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "PRIORITY"
 		(at 173.99 91.44 180)
@@ -3725,6 +3737,17 @@
 			(justify left bottom)
 		)
 		(uuid "c34445e6-146a-4fc9-b910-a7ee1b925848")
+		(property "Netclass" "Power 3V3"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "GND"
 		(at 93.98 182.88 0)
@@ -3760,8 +3783,20 @@
 			(justify left bottom)
 		)
 		(uuid "d504091b-e0ea-4975-83c4-7e618a049f65")
-		(property "Netclass" "+3V3"
-			(at 93.98 171.45 0)
+	)
+	(label "PVIN2"
+		(at 101.6 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9405294-99b7-44e3-b444-5afe4313db83")
+		(property "Netclass" "Power USB"
+			(at 101.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,17 +3806,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(label "PVIN2"
-		(at 101.6 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9405294-99b7-44e3-b444-5afe4313db83")
 	)
 	(label "+VOUT"
 		(at 93.98 166.37 0)
@@ -3824,7 +3848,7 @@
 			(justify left)
 		)
 		(uuid "22a7e06f-3930-46d0-8548-76d8559d726a")
-		(property "Netclass" "+3V3"
+		(property "Netclass" "Power 3V3"
 			(at 264.16 68.58 0)
 			(effects
 				(font
@@ -3851,7 +3875,7 @@
 			(justify right)
 		)
 		(uuid "459722ad-e940-44e0-a207-d5e19b3bae3b")
-		(property "Netclass" "+VBUS"
+		(property "Netclass" "Power USB"
 			(at 41.91 73.66 0)
 			(effects
 				(font
@@ -3878,7 +3902,7 @@
 			(justify right)
 		)
 		(uuid "e8c97376-c5fb-4915-86ae-a641cccf4d72")
-		(property "Netclass" "+VOUT"
+		(property "Netclass" "Power Out"
 			(at 41.91 45.72 0)
 			(effects
 				(font

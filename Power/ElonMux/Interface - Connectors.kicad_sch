@@ -27541,7 +27541,7 @@
 			(justify left bottom)
 		)
 		(uuid "3323df6b-a13b-4725-8ae6-3ca7610a0d6d")
-		(property "Netclass" "+VBUS"
+		(property "Netclass" "Power USB"
 			(at 111.76 119.38 0)
 			(effects
 				(font
@@ -27825,7 +27825,7 @@
 			(justify left)
 		)
 		(uuid "7709d681-c045-4072-9b37-518ccb2346f4")
-		(property "Netclass" "+VBUS"
+		(property "Netclass" "Power USB"
 			(at 267.97 77.47 0)
 			(effects
 				(font
