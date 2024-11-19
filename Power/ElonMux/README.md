@@ -1,7 +1,9 @@
 <p align="center" width="100%">
-  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/ElonMuxLight.png">
-  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/ElonMuxDark.png">
-  <img alt="ElonMux logo" width="33%" src="./Logos/ElonMuxDark.png">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Logos/ElonMuxLight.png">
+    <source media="(prefers-color-scheme: light)" srcset="./Logos/ElonMuxDark.png">
+    <img alt="ElonMux logo" width="33%" src="./Logos/ElonMuxDark.png">
+  </picture>
 </p>
 
 <h1 align="center">ElonMux</h1>
@@ -13,6 +15,7 @@ The system will always try to use the external power supply as the primary power
     <img src="./Images/ElonMux_r1.png">
 </p>
 
+| --- | --- |
 | Designer | Théo Heng| 
 | Date | Oct. - Nov. 2024 |
 | Project | ERC |
