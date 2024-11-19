@@ -8,18 +8,12 @@
 
 <h1 align="center">ElonMux</h1>
 
-ElonMux was designed for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
+ElonMux was designed by Théo Heng for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
 The system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible.
 
 <p align="center" width="100%">
     <img src="./Images/ElonMux_r1.png">
 </p>
-
-| Info       |                 |
-|------------|-----------------|
-| Designer   | Théo           |
-| Date       | Oct. - Nov. 2024 |
-| Project    | ERC            |
 
 ***
 
@@ -35,6 +29,9 @@ The system will always try to use the external power supply as the primary power
 | Communication | USB 2.0 / JTAG |
 | MCU | ESP32-S3FN8 |
 | Dimensions | 100x70x13mm |
+| Designer   | Théo Heng        |
+| Date       | Oct. - Nov. 2024 |
+| Project    | ERC            |
 
 ***
 
