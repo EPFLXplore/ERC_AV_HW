@@ -15,10 +15,11 @@ The system will always try to use the external power supply as the primary power
     <img src="./Images/ElonMux_r1.png">
 </p>
 
-| --- | --- |
-| Designer | Théo Heng| 
-| Date | Oct. - Nov. 2024 |
-| Project | ERC |
+| Info       |                 |
+|------------|-----------------|
+| Designer   | Théo           |
+| Date       | Oct. - Nov. 2024 |
+| Project    | ERC            |
 
 ***
 
