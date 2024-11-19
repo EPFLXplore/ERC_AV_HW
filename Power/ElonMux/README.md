@@ -1,7 +1,7 @@
 <p align="center" width="100%">
-  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/PuffMux.svg">
-  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/PuffMux.svg">
-  <img alt="AMULET logo" width="33%" src="./Logos/PuffMuxsvg">
+  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/ElonMuxLight.png">
+  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/ElonMuxDark.png">
+  <img alt="ElonMux logo" width="33%" src="./Logos/ElonMuxDark.png">
 </p>
 
 <h1 align="center">ElonMux</h1>
@@ -13,20 +13,24 @@ The system will always try to use the external power supply as the primary power
     <img src="./Images/ElonMux_r1.png">
 </p>
 
+| Designer | Théo Heng| 
+| Date | Oct. - Nov. 2024 |
+| Project | ERC |
+
 ***
 
 ## SPECIFICATIONS
 
-| Parameter | Charge Manager V1.0 | 
+| Parameter | ElonMux V1.0 | 
 | --- | --- |
-| Voltage Input | 10-36V |
+| Voltage Input | 10-33V |
 | Continuous Supply Current | 30A |
 | Continuous Discharge Current | 30A |
 | Continuous Charge Current | 7A |
 | Mass | TBD |
 | Communication | USB 2.0 / JTAG |
-| MCU | ESP32-S3FN() |
-| Dimensions | TBD |
+| MCU | ESP32-S3FN8 |
+| Dimensions | 100x70x13mm |
 
 ***
 
@@ -34,27 +38,30 @@ The system will always try to use the external power supply as the primary power
 
 ```
 ElonMux
+├── Computations        # Computation sheets an simulation performed
+├── Datasheets          # Datasheet of major components
 ├── Images              # Pictures and screenshots
+├── lib
+    |── 3d_models       # Component 3D models
+    |── lib_fp          # Footprint libraries
+    └── lib_sym         # Symbol libraries
 ├── Logos               # Xplore and ElonMux logos
-├── Dtasheets           # Datasheet of major components
 ├── Manufacturing & BOMs
 │   |── Assembly        # Position files, BOM, assembly document
 |   |   └── ibom        # HTML BOM
 |   └── Fabrication     # Fabrication document and testpoints positions
 |       └── Gerbers     # Gerbers
 ├── Schematic           # PDF of schematic
-├── Templates           # Title block templates
-└── lib
-    |── 3d_models       # Component 3D models
-    |── lib_fp          # Footprint libraries
-    └── lib_sym         # Symbol libraries
+├── STEP                # Step file of the board
+└── Templates           # Title block templates
+
 ```
 
 ***
 
 ## FIRMWARE
 
-TBD
+TBI
 
 ***
 
@@ -67,5 +74,9 @@ Schematic template & project structure is hugely inspired by the work of Vincent
 ## PHOTOS
 
 <p align="center" width="100%">
-    <img src="./Images/ElonMuxFront.png">
+    <img src="./Images/ElonMuxFront3.png">
+</p>
+
+<p align="center" width="100%">
+    <img src="./Images/ElonMuxBack3.png">
 </p>
