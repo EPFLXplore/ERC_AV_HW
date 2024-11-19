@@ -1045,6 +1045,30 @@
 		)
 		(uuid "80f76b8d-52cb-49fe-9647-9cd8137cf5f3")
 	)
+	(text_box "TBD"
+		(exclude_from_sim no)
+		(at 227.33 75.565 0)
+		(size 23.495 13.97)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 5.08 5.08)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8d831920-3191-46fa-b3d9-201fefa55ec9")
+	)
 	(text_box "~ ??V"
 		(exclude_from_sim no)
 		(at 93.98 101.6 0)

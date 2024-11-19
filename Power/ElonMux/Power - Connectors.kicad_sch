@@ -13820,28 +13820,6 @@
 			"EBHRrhg8RES0KwYPERHtisFDRES7+gcBGmpUY36r4gAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "DESIGN NOTE:\nCurrent TVS diode setup will introduce losses between 33V and 36V, reducing the optimal usable range of the board."
-		(exclude_from_sim no)
-		(at 73.025 225.425 0)
-		(size 58.42 15.875)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "0aba6aa5-ef0a-4aad-a401-07936de5a29e")
-	)
 	(text_box "SMBJ33CA:\n\nReverse Stand off voltage: 33.0V (maximum continuous voltage that can be applied to the diode without it conducting significant current)\nMin Breakdown Voltage: 36.70V\nMax Breakdown Voltage: 40.6V \nThe breakdown voltage range (from 36.7V to 40.6V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 53.30V (maximun voltage the protected circuit will experience for any spike of 48.4V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
 		(exclude_from_sim no)
 		(at 73.025 243.205 0)
@@ -13864,7 +13842,7 @@
 		)
 		(uuid "283a220d-f4ac-4b80-890d-82968222bd81")
 	)
-	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 36V."
+	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
 		(exclude_from_sim no)
 		(at 105.41 88.9 0)
 		(size 38.1 17.145)
@@ -14048,7 +14026,7 @@
 		)
 		(uuid "c4849e0a-a525-42bc-9ec3-393265ab14eb")
 	)
-	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 36V."
+	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
 		(exclude_from_sim no)
 		(at 105.41 187.325 0)
 		(size 38.1 17.145)

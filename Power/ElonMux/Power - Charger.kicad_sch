@@ -2621,12 +2621,6 @@
 		(uuid "2b3faf23-5e17-4a4e-be52-a5d1013e873a")
 	)
 	(junction
-		(at 200.66 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fd26a17-de64-4243-8394-9d7b496ee7b9")
-	)
-	(junction
 		(at 248.92 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2951,6 +2945,12 @@
 		(uuid "de900a29-29d2-4881-b684-d34f753376a1")
 	)
 	(junction
+		(at 200.66 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df819fab-a3ea-4cc2-bb85-fe4f900dc4cf")
+	)
+	(junction
 		(at 130.81 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3183,6 +3183,16 @@
 			(type default)
 		)
 		(uuid "101f1c34-f82b-431a-8301-07ba71984ffc")
+	)
+	(wire
+		(pts
+			(xy 196.85 68.58) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107fe90b-695a-48e9-84fd-e31aa041c0cf")
 	)
 	(wire
 		(pts
@@ -3758,16 +3768,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 200.66 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46efe559-bb85-4c92-b8ac-be596edb83c8")
-	)
-	(wire
-		(pts
 			(xy 275.59 43.18) (xy 275.59 55.88)
 		)
 		(stroke
@@ -4049,16 +4049,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 68.58) (xy 200.66 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f821f88-2d31-46e0-aa98-4d4fb4100063")
-	)
-	(wire
-		(pts
 			(xy 342.9 43.18) (xy 347.98 43.18)
 		)
 		(stroke
@@ -4258,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "6fb640e0-7807-464e-8a1e-6f6e89a85bbc")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d3bd07-4cc3-4d37-b3fb-1ad2af6e5234")
 	)
 	(polyline
 		(pts
@@ -4513,7 +4513,7 @@
 	)
 	(polyline
 		(pts
-			(xy 133.35 180.34) (xy 111.76 193.04)
+			(xy 133.35 180.34) (xy 106.045 192.405)
 		)
 		(stroke
 			(width 0)
@@ -5136,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "cf29e42b-128d-44d2-bfd8-82a1efd909e4")
+	)
+	(wire
+		(pts
+			(xy 186.69 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf42670a-e789-4f7b-ab0d-f04ef1c0830e")
 	)
 	(wire
 		(pts
@@ -9065,7 +9075,7 @@
 	)
 	(text_box "Compensation network that stabilizes the regulator's voltage loop. Balance betwwen BOM size and performance."
 		(exclude_from_sim no)
-		(at 119.38 193.04 0)
+		(at 112.395 193.04 0)
 		(size 34.925 12.7)
 		(stroke
 			(width 0.508)
@@ -9531,10 +9541,10 @@
 		)
 		(uuid "b5559172-ac39-492d-be7a-678c081d6b68")
 	)
-	(text_box "Cable drop compensation"
+	(text_box "Cable drop compensation\n1) The ISNSP/ISNSN pins sense the output current.\n2) A transconductance amplifier in the device generates a current proportional to the sensed voltage difference.\n3) This current is directed to the CDC pin, where an external resistor RCDC is connected. The voltage at this pin represents the voltage drop across the cable, calculated as:\nVCDC=(VISNSP−VISNSN)×gm×RCDC\n "
 		(exclude_from_sim no)
-		(at 101.6 193.04 0)
-		(size 16.51 12.7)
+		(at 67.945 193.04 0)
+		(size 43.18 19.05)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -9546,7 +9556,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 1.651 1.651)
+				(size 1.143 1.143)
 				(color 0 0 0 1)
 			)
 			(justify left top)
@@ -9576,10 +9586,10 @@
 		)
 		(uuid "b6e1088f-a6cc-44d9-80b5-d5eeec3c6829")
 	)
-	(text_box "SOFTSTART:\nENABLED"
+	(text_box "SOFTSTART ENABLED:\ntss = (Css x Vss) / Iss\ntss = 100nF x 4.1V / 10uA\ntss = 41ms"
 		(exclude_from_sim no)
-		(at 155.575 193.04 0)
-		(size 16.51 12.7)
+		(at 148.59 193.04 0)
+		(size 23.495 12.7)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -9591,7 +9601,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 1.651 1.651)
+				(size 1.27 1.27)
 				(color 0 0 0 1)
 			)
 			(justify left top)
@@ -9621,7 +9631,7 @@
 		)
 		(uuid "bc27e00e-fffe-4f71-9014-800e183cfab4")
 	)
-	(text_box "Those feedback resistors networks need to be the same to enable the Programmable Conduction Mode (PCM).\nThis mode uses the device's internal charge pumps to keep the High side MOS ON when specific input/output voltages requirements are met.\n\nVREF = 1V\nVout = 1V X (130k + 5k6) / 5k6 = 24.21V\nThis is the default output when I2C is disabled."
+	(text_box "Those feedback resistors networks need to be the same to enable the Programmable Conduction Mode (PCM).\nThis mode uses the device's internal charge pumps to keep the High side MOS ON when specific input/output voltages requirements are met.\n\nVREF = 1V\nVout = 1V x (130k + 5k6) / 5k6 = 24.21V\nThis is the default output when I2C is disabled."
 		(exclude_from_sim no)
 		(at 292.735 85.09 0)
 		(size 59.69 29.845)
@@ -11301,111 +11311,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "NT702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 93.98 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21649de6-35d8-4f83-9475-0afe67116f52")
-		(property "Reference" "C702"
-			(at 96.774 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27u 63V"
-			(at 96.774 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.7"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/KEM_A4088_A768-3316438.pdf"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "A768KE276M1JLAE054"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "80-A768KE276M1JLAE54"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7e33d14-3203-4f4d-90fe-9ca5786f8dee")
-		)
-		(pin "2"
-			(uuid "9603b243-48b8-41d8-a101-38a3cbc90f9f")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -13790,111 +13695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 105.41 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ea2f4f8-6036-4a66-b171-51cd6fc1be69")
-		(property "Reference" "C703"
-			(at 108.204 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27u 63V"
-			(at 108.204 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.7"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/KEM_A4088_A768-3316438.pdf"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "A768KE276M1JLAE054"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "80-A768KE276M1JLAE54"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70638940-9cd4-4f19-8a5f-f9c7da13bf41")
-		)
-		(pin "2"
-			(uuid "c9f6e25f-2ebc-4ac8-a280-fc7d49763ba7")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 254 55.88 270)
 		(unit 1)
@@ -14130,7 +13930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27u 63V"
+		(property "Value" "33u 80V"
 			(at 85.344 60.452 0)
 			(effects
 				(font
@@ -14139,7 +13939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.7"
+		(property "Footprint" "Charge_Manager_FP:Hybrid_F_VP"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -14148,7 +13948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/KEM_A4088_A768-3316438.pdf"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/ABA0000C1234-1218024.pdf"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -14166,7 +13966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "A768KE276M1JLAE054"
+		(property "Manufacturer Part Number" "EEH-ZC1K330V"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -14184,7 +13984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Panasonic"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -14193,7 +13993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "80-A768KE276M1JLAE54"
+		(property "Supplier Part Number" "667-EEH-ZC1K330V"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -14631,111 +14431,6 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C712")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 326.39 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8eb627d5-fe72-4b19-8ee9-5b3d8adfa827")
-		(property "Reference" "C710"
-			(at 329.184 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27u 63V"
-			(at 329.184 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.7"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/447/KEM_A4088_A768-3316438.pdf"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "A768KE276M1JLAE054"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "80-A768KE276M1JLAE54"
-			(at 326.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da85d49-5821-48c5-be73-390a58e87144")
-		)
-		(pin "2"
-			(uuid "fc6aad0c-3bf5-4c5d-bd72-5cb104839221")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C710")
 					(unit 1)
 				)
 			)
@@ -15228,111 +14923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 163.83 176.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a152483d-87d9-43e9-a98c-dc1175cbc26c")
-		(property "Reference" "C722"
-			(at 167.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u X5R 50V"
-			(at 164.084 178.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 162.8648 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/281/1/GRT188R61A226ME13_01A-3158190.pdf"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRT188R61A226ME13D"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "81-GRT188R61A226ME13"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2a9035af-316c-47d7-8a6c-39272d8f3518")
-		)
-		(pin "1"
-			(uuid "33560a06-b4be-4cfb-87ec-6c0ef953191d")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C722")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 160.02 52.07 0)
 		(mirror y)
@@ -15433,6 +15023,111 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 326.39 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a53cd226-9550-489b-82fe-29411a6354ed")
+		(property "Reference" "C710"
+			(at 329.184 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33u 80V"
+			(at 329.184 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:Hybrid_F_VP"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/ABA0000C1234-1218024.pdf"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EEH-ZC1K330V"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-EEH-ZC1K330V"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef67470e-644c-4f87-8522-f6fb1a4d009c")
+		)
+		(pin "2"
+			(uuid "894d4fec-429c-48b7-aed7-33f24a0c3742")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "C710")
 					(unit 1)
 				)
 			)
@@ -16566,6 +16261,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 93.98 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5ef9d96-4c62-459d-9a35-5de1c034d653")
+		(property "Reference" "C702"
+			(at 96.774 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33u 80V"
+			(at 96.774 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:Hybrid_F_VP"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/ABA0000C1234-1218024.pdf"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EEH-ZC1K330V"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-EEH-ZC1K330V"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b5148f-8d84-44f8-814d-61612b47ef9d")
+		)
+		(pin "2"
+			(uuid "204bceb7-4fcf-40e3-87e0-51da914adf78")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "C702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 254 77.47 90)
 		(unit 1)
@@ -16663,6 +16463,111 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R715")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce4525d8-1e81-416e-be11-078b6df698ca")
+		(property "Reference" "C722"
+			(at 167.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 164.084 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.8648 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f1f2252-8d3a-46d2-bc47-bb185fcf84b1")
+		)
+		(pin "1"
+			(uuid "3bb7e9c9-2492-4012-aa31-e9affc77a7d8")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "C722")
 					(unit 1)
 				)
 			)
@@ -17151,6 +17056,73 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 194.31 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7fd3ae1-cccb-4af1-b059-4b050575b5d2")
+		(property "Reference" "NT703"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_shunt_bridge+"
+			(at 191.516 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:NetTie-2_SMD_Pad0.2mm"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cc2beae-9d4b-4e3c-82d4-8dbbf0734d3b")
+		)
+		(pin "1"
+			(uuid "2e048309-e3c8-444d-8582-46c78a803410")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "NT703")
 					(unit 1)
 				)
 			)
@@ -17654,6 +17626,111 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 105.41 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f31ec926-0336-4022-b9c0-ef23cf755de3")
+		(property "Reference" "C703"
+			(at 108.204 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33u 80V"
+			(at 108.204 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:Hybrid_F_VP"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/315/ABA0000C1234-1218024.pdf"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EEH-ZC1K330V"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-EEH-ZC1K330V"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d7c4aed-7b80-488d-9dea-c96696201eec")
+		)
+		(pin "2"
+			(uuid "a0a9ade1-683c-428c-ab4e-59891eddac00")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "C703")
 					(unit 1)
 				)
 			)
