@@ -5281,16 +5281,16 @@
 		)
 	)
 	(junction
-		(at 219.71 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0449fa8c-eeb7-4592-9423-f08c9798399f")
-	)
-	(junction
 		(at 157.48 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06051f6d-f305-4bd6-96bd-70f056c19bc8")
+	)
+	(junction
+		(at 219.71 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07488162-e425-4aa0-9f48-76b8aa794cd6")
 	)
 	(junction
 		(at 139.7 162.56)
@@ -5299,16 +5299,28 @@
 		(uuid "0812cd76-7a4c-4450-87c9-28d08a6d7939")
 	)
 	(junction
+		(at 215.9 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d5912ff-d9fa-4a8f-a51c-82744179c3f8")
+	)
+	(junction
 		(at 147.32 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d68ea29-c6ee-4961-ae47-e34e125a7756")
 	)
 	(junction
-		(at 243.84 58.42)
+		(at 264.16 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f035066-ff4e-43e7-b016-c5769194148f")
+	)
+	(junction
+		(at 219.71 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c934f9-06e0-4a2f-ab46-20ce312aa775")
 	)
 	(junction
 		(at 139.7 151.13)
@@ -5365,6 +5377,18 @@
 		(uuid "5010465d-8a53-4bf3-aa48-dfc2a9fb29e4")
 	)
 	(junction
+		(at 219.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6728a6c0-bf23-439d-a3f1-37acd4be7684")
+	)
+	(junction
+		(at 219.71 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68740dbd-fa17-4703-9dc1-2959121144ff")
+	)
+	(junction
 		(at 139.7 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5375,6 +5399,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ebbeb02-4ce3-4e47-837b-1476d72da38b")
+	)
+	(junction
+		(at 219.71 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7519d174-821e-40c1-94b9-2f71f718cc9d")
+	)
+	(junction
+		(at 233.68 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76aa045e-a3ff-45bb-b028-54de450e1619")
 	)
 	(junction
 		(at 209.55 135.89)
@@ -5407,6 +5443,12 @@
 		(uuid "9d59fc01-0dd4-4cb7-9731-60f2ca2f1132")
 	)
 	(junction
+		(at 233.68 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a50c7b93-0e8b-47b8-9de5-09c98350efe5")
+	)
+	(junction
 		(at 66.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5431,10 +5473,16 @@
 		(uuid "c2e2cf4e-30f3-4836-bdbd-9ec18e46af96")
 	)
 	(junction
-		(at 215.392 71.12)
+		(at 219.71 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c58ffa9d-d078-44c3-9cc7-f04c3e69f3f2")
+		(uuid "c36dd3f9-f285-4bf3-85c2-d9b5c6789789")
+	)
+	(junction
+		(at 233.68 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4bb739e-600c-4d23-9fb7-ea821f963d1c")
 	)
 	(junction
 		(at 250.19 100.33)
@@ -5453,6 +5501,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca46ca90-e874-4c68-a22b-8d462cf9f98a")
+	)
+	(junction
+		(at 233.68 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d40fde-ed96-48da-993c-d933385f158d")
+	)
+	(junction
+		(at 233.68 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8d155c-a053-4fa0-8161-de4fe3290069")
 	)
 	(junction
 		(at 41.91 38.1)
@@ -5477,6 +5537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e365456a-51b9-48aa-8cff-5a6b478ef8c6")
+	)
+	(junction
+		(at 219.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e602e52d-9a4f-435c-9db3-3f61b702966a")
 	)
 	(junction
 		(at 80.01 82.55)
@@ -5512,26 +5578,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 38.1) (xy 231.14 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0000b79f-3a2a-421a-a7e3-ff260b96963c")
-	)
-	(wire
-		(pts
-			(xy 245.11 58.42) (xy 243.84 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019a4e37-7e0c-4a63-9bb5-05dc53d24913")
-	)
-	(wire
-		(pts
 			(xy 80.01 82.55) (xy 80.01 85.09)
 		)
 		(stroke
@@ -5559,6 +5605,16 @@
 			(type default)
 		)
 		(uuid "05ea6f9b-8ed7-44dd-b57c-059d75c517c9")
+	)
+	(wire
+		(pts
+			(xy 260.35 48.26) (xy 264.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fcebb1-0052-4235-a707-32058446918c")
 	)
 	(wire
 		(pts
@@ -5592,7 +5648,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 55.88) (xy 243.84 58.42)
+			(xy 231.14 35.56) (xy 233.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1dab30-fad2-4ba1-b062-cd9abd14863d")
+	)
+	(wire
+		(pts
+			(xy 264.16 55.88) (xy 264.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5672,6 +5738,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 62.23) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1433064b-cc91-462e-b276-1f110417d8e6")
+	)
+	(wire
+		(pts
 			(xy 157.48 43.18) (xy 157.48 45.72)
 		)
 		(stroke
@@ -5732,16 +5808,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 40.64) (xy 245.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2526228d-e466-42fa-86fa-04f1711e79a9")
-	)
-	(wire
-		(pts
 			(xy 33.274 139.7) (xy 33.274 138.43)
 		)
 		(stroke
@@ -5752,23 +5818,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 41.91) (xy 220.98 41.91)
+			(xy 219.71 35.56) (xy 220.98 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2708ea18-1db0-49c9-ba6c-1a0c39deb595")
-	)
-	(wire
-		(pts
-			(xy 231.14 43.18) (xy 245.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277bd805-19f5-4fbe-a0af-62cfada66f03")
 	)
 	(wire
 		(pts
@@ -5802,6 +5858,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 49.53) (xy 208.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c667ad0-8334-43f3-911a-88dff8cdb0f1")
+	)
+	(wire
+		(pts
 			(xy 250.19 97.79) (xy 250.19 100.33)
 		)
 		(stroke
@@ -5822,6 +5888,36 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 38.1) (xy 219.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f182496-3c19-4ef2-9e0e-05b56400d0fa")
+	)
+	(wire
+		(pts
+			(xy 219.71 54.61) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3000cc2d-827e-46a6-8115-deaf2b8420ce")
+	)
+	(wire
+		(pts
+			(xy 233.68 30.48) (xy 231.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30816a9d-a930-4d6f-9ae9-95a5d44f8711")
+	)
+	(wire
+		(pts
 			(xy 137.16 82.55) (xy 140.97 82.55)
 		)
 		(stroke
@@ -5829,16 +5925,6 @@
 			(type default)
 		)
 		(uuid "30fd4104-f16b-4c8a-ade7-3ec1b6ade068")
-	)
-	(wire
-		(pts
-			(xy 233.68 57.15) (xy 233.68 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32315508-e9e9-41e8-8608-3679015db489")
 	)
 	(wire
 		(pts
@@ -5859,6 +5945,16 @@
 			(type default)
 		)
 		(uuid "32e1d4fc-2534-4215-9eb9-59fd104cf8c3")
+	)
+	(wire
+		(pts
+			(xy 215.9 83.82) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336c362e-979a-45a5-965c-238b921a986c")
 	)
 	(wire
 		(pts
@@ -5922,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 38.1) (xy 220.98 38.1)
+			(xy 209.55 33.02) (xy 219.71 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5992,7 +6088,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 53.34) (xy 232.41 53.34)
+			(xy 231.14 57.15) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6002,13 +6098,33 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 57.15) (xy 220.98 57.15)
+			(xy 219.71 44.45) (xy 219.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4771916a-3b41-4aae-8dbc-0a6143579710")
+	)
+	(wire
+		(pts
+			(xy 219.71 62.23) (xy 220.98 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "498cd8cb-66f7-40b8-b7e2-f56fcb1b4f0d")
+	)
+	(wire
+		(pts
+			(xy 233.68 52.07) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c2d3b8-4fa0-4fd0-8a03-d2061d5b730d")
 	)
 	(wire
 		(pts
@@ -6022,17 +6138,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 231.14 43.18)
+			(xy 261.62 38.1) (xy 261.62 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d270a8a-a3a7-4cbe-aa22-3044ed30a1a3")
+		(uuid "4d3c249a-23b2-40c4-a2eb-249d72ad96a1")
 	)
 	(wire
 		(pts
-			(xy 219.71 82.55) (xy 219.71 71.12)
+			(xy 219.71 82.55) (xy 219.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6049,6 +6165,16 @@
 			(type default)
 		)
 		(uuid "5259500b-5129-40ea-b6ff-c987ed4b3a22")
+	)
+	(wire
+		(pts
+			(xy 219.71 59.69) (xy 262.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54915a06-39fe-42b7-b1f6-795c999f3e93")
 	)
 	(wire
 		(pts
@@ -6072,6 +6198,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 57.15) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5724ba5c-8dd4-45fd-8ef0-2f1b43ddb590")
+	)
+	(wire
+		(pts
 			(xy 73.66 62.23) (xy 80.01 62.23)
 		)
 		(stroke
@@ -6079,16 +6215,6 @@
 			(type default)
 		)
 		(uuid "5add4766-91b1-490c-94e2-dcc0de0042ad")
-	)
-	(wire
-		(pts
-			(xy 232.41 50.8) (xy 245.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b12c914-c705-45b2-a9fe-2b2ca97a057f")
 	)
 	(wire
 		(pts
@@ -6102,6 +6228,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 30.48) (xy 219.71 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e06c097-8d68-42a2-8200-bf11f3d831d6")
+	)
+	(wire
+		(pts
 			(xy 27.94 166.37) (xy 31.75 166.37)
 		)
 		(stroke
@@ -6109,6 +6245,16 @@
 			(type default)
 		)
 		(uuid "5f6fbe07-e52a-4ab7-8300-ccadcf90bc33")
+	)
+	(wire
+		(pts
+			(xy 219.71 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f944b7c-286d-4020-acb9-fab12951e440")
 	)
 	(wire
 		(pts
@@ -6129,16 +6275,6 @@
 			(type default)
 		)
 		(uuid "62e72d1c-336e-4758-aebb-8e922687c451")
-	)
-	(wire
-		(pts
-			(xy 215.392 71.12) (xy 219.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643e0f15-601f-4534-8b21-de813f22d065")
 	)
 	(wire
 		(pts
@@ -6232,6 +6368,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 62.23) (xy 219.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7306d502-2532-480f-be85-24738cdd20fd")
+	)
+	(wire
+		(pts
+			(xy 260.35 49.53) (xy 260.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f5caca-ad0e-41d5-a3da-69cc56132453")
+	)
+	(wire
+		(pts
 			(xy 137.16 83.82) (xy 137.16 82.55)
 		)
 		(stroke
@@ -6282,6 +6438,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 82.55) (xy 219.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d35849b-f90c-40a7-a7a0-be924316cb6b")
+	)
+	(wire
+		(pts
 			(xy 100.33 173.99) (xy 104.14 173.99)
 		)
 		(stroke
@@ -6309,16 +6475,6 @@
 			(type default)
 		)
 		(uuid "7f59ba36-2e91-477c-b90a-8dcfa0949a2d")
-	)
-	(wire
-		(pts
-			(xy 232.41 38.1) (xy 232.41 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80174a6f-291a-42f0-82d1-434b6c4ec956")
 	)
 	(wire
 		(pts
@@ -6352,16 +6508,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 48.26) (xy 245.11 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f099c9-dfe1-4d05-989b-1eabb8f965df")
-	)
-	(wire
-		(pts
 			(xy 76.2 130.81) (xy 76.2 121.92)
 		)
 		(stroke
@@ -6392,6 +6538,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 43.18) (xy 264.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8858bbf6-c7bf-46f7-a4a7-e44c665656c9")
+	)
+	(wire
+		(pts
 			(xy 154.94 63.5) (xy 153.67 63.5)
 		)
 		(stroke
@@ -6412,13 +6568,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 71.12) (xy 246.38 71.12)
+			(xy 245.11 76.2) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9118dac1-cadf-4a0b-9943-1a74d0e64f5b")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93437bb3-7483-4808-abb0-870c65749a2c")
 	)
 	(wire
 		(pts
@@ -6462,23 +6628,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 49.53) (xy 220.98 49.53)
+			(xy 219.71 52.07) (xy 220.98 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b9e7979-4464-40e4-b70b-5f889cda8a8d")
-	)
-	(wire
-		(pts
-			(xy 232.41 53.34) (xy 232.41 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf8bf44-0ad4-40f7-a61b-c686f1e5e09d")
 	)
 	(wire
 		(pts
@@ -6502,6 +6658,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 30.48) (xy 220.98 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db9caa4-e02d-4958-bcf6-92cb64f1dcc0")
+	)
+	(wire
+		(pts
 			(xy 228.6 90.17) (xy 250.19 90.17)
 		)
 		(stroke
@@ -6512,13 +6678,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 45.72) (xy 220.98 45.72)
+			(xy 262.89 40.64) (xy 264.16 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a02919f5-cfdd-488c-9ef1-e10ce07a104d")
+		(uuid "a040f4af-0bab-46c1-8715-666e6ea301fe")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a118721a-d010-4c52-8b80-0eb76a2f3d79")
 	)
 	(wire
 		(pts
@@ -6542,6 +6718,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 52.07) (xy 233.68 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4257cf4-aeb3-40dd-a698-0b4e6d5ea3a4")
+	)
+	(wire
+		(pts
 			(xy 209.55 147.32) (xy 209.55 151.13)
 		)
 		(stroke
@@ -6562,16 +6748,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 55.88) (xy 243.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a789a958-778e-4012-a594-4699024f3bad")
-	)
-	(wire
-		(pts
 			(xy 33.274 129.54) (xy 33.274 130.81)
 		)
 		(stroke
@@ -6582,23 +6758,43 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 57.15) (xy 233.68 57.15)
+			(xy 262.89 33.02) (xy 262.89 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a959660e-9cec-4389-9c10-0ef06d20c780")
+		(uuid "a8f67890-2f8d-48a6-9d92-5fb85436fe8f")
 	)
 	(wire
 		(pts
-			(xy 233.68 53.34) (xy 245.11 53.34)
+			(xy 233.68 62.23) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af330e1e-21ee-4ccf-918a-c49060e3f409")
+		(uuid "aa5cf276-bd7a-4ea1-a522-fa968e46a621")
+	)
+	(wire
+		(pts
+			(xy 219.71 33.02) (xy 262.89 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf985c7-30e4-4f02-9d16-43e27b8bf4b6")
+	)
+	(wire
+		(pts
+			(xy 233.68 52.07) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0592f9-0c1a-4833-a8b5-f183e837d366")
 	)
 	(wire
 		(pts
@@ -6672,16 +6868,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 48.26) (xy 231.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0bb9f5-2f10-4ace-ac5f-f1cdb55ff87e")
-	)
-	(wire
-		(pts
 			(xy 182.88 132.08) (xy 182.88 135.89)
 		)
 		(stroke
@@ -6692,6 +6878,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 52.07) (xy 219.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07f6a40-527e-4d9d-a3d0-9cfa289efd60")
+	)
+	(wire
+		(pts
 			(xy 158.75 169.545) (xy 158.75 170.18)
 		)
 		(stroke
@@ -6699,6 +6895,26 @@
 			(type default)
 		)
 		(uuid "c1a5c6c5-44ed-4822-8673-fb2f998c1ccf")
+	)
+	(wire
+		(pts
+			(xy 260.35 45.72) (xy 264.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2479144-d136-49cc-a8e9-243429fef841")
+	)
+	(wire
+		(pts
+			(xy 219.71 44.45) (xy 260.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33b6a95-6030-4957-810f-e892234903a7")
 	)
 	(wire
 		(pts
@@ -6742,16 +6958,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 45.72) (xy 245.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80803bf-f46a-41ba-81f7-1615fe60198f")
-	)
-	(wire
-		(pts
 			(xy 228.6 85.09) (xy 250.19 85.09)
 		)
 		(stroke
@@ -6772,6 +6978,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 54.61) (xy 261.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd1527c-6670-48fe-994e-e2d501ed1292")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 261.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6cbbaa-90e4-4eb1-a1f7-6a37a44f8704")
+	)
+	(wire
+		(pts
 			(xy 106.68 138.43) (xy 104.14 138.43)
 		)
 		(stroke
@@ -6779,6 +7005,26 @@
 			(type default)
 		)
 		(uuid "cf66d08b-24a0-44cf-bee8-d8e0b0715ac2")
+	)
+	(wire
+		(pts
+			(xy 209.55 44.45) (xy 219.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf722d5b-a0dd-428c-973a-938404e36b20")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff410fd-8d87-4d74-9cb0-ad35c4683d7f")
 	)
 	(wire
 		(pts
@@ -6792,6 +7038,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 50.8) (xy 264.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21b4373-4d78-4c2c-a98f-ad99e2529e33")
+	)
+	(wire
+		(pts
 			(xy 139.7 151.13) (xy 139.7 153.67)
 		)
 		(stroke
@@ -6802,7 +7058,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 60.96) (xy 243.84 58.42)
+			(xy 264.16 62.23) (xy 264.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6842,6 +7098,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 53.34) (xy 264.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4db7ee-16c9-42e1-987f-5709ae52215e")
+	)
+	(wire
+		(pts
 			(xy 182.88 151.13) (xy 182.88 147.32)
 		)
 		(stroke
@@ -6849,6 +7115,36 @@
 			(type default)
 		)
 		(uuid "db4987a3-7c77-4035-947b-ab0952ba7bce")
+	)
+	(wire
+		(pts
+			(xy 260.35 44.45) (xy 260.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc66feea-ba1d-49f5-ad1e-15e464cd1f16")
+	)
+	(wire
+		(pts
+			(xy 219.71 41.91) (xy 220.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdfa978-b0bd-43ff-a403-1843857a9958")
+	)
+	(wire
+		(pts
+			(xy 262.89 59.69) (xy 262.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7407c1-e380-4e55-a2e3-8116c13aa622")
 	)
 	(wire
 		(pts
@@ -6932,7 +7228,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 53.34) (xy 220.98 53.34)
+			(xy 231.14 41.91) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d615a6-61fc-4491-aaee-e591d43a3e4d")
+	)
+	(wire
+		(pts
+			(xy 219.71 57.15) (xy 220.98 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6962,13 +7268,33 @@
 	)
 	(wire
 		(pts
-			(xy 215.392 68.834) (xy 215.392 71.12)
+			(xy 233.68 41.91) (xy 233.68 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee46c077-37de-4e86-8268-2b4d77104118")
+		(uuid "ed3ca8a5-b57e-4519-9da6-98c874b497d5")
+	)
+	(wire
+		(pts
+			(xy 261.62 54.61) (xy 261.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee990acc-7024-4a12-a4a1-8f0b5593301c")
+	)
+	(wire
+		(pts
+			(xy 233.68 35.56) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04b932e-2ed5-4e7f-9814-ea51a1618f9a")
 	)
 	(wire
 		(pts
@@ -7009,6 +7335,16 @@
 			(type default)
 		)
 		(uuid "fe57d87e-71ce-4b63-a42a-21806b50422f")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 260.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed476ec-bb37-482f-b8f4-79d3bc5ee224")
 	)
 	(rectangle
 		(start 13.97 20.32)
@@ -7263,7 +7599,7 @@
 		(uuid "0c9df821-c823-44eb-a1ac-2e4b4e296c3f")
 	)
 	(label "INT2"
-		(at 217.17 38.1 180)
+		(at 209.55 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7329,7 +7665,7 @@
 		(uuid "3d4f04d2-8c31-42fc-99e6-2fe38a48fbf1")
 	)
 	(label "INT3"
-		(at 217.17 49.53 180)
+		(at 208.28 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7340,7 +7676,7 @@
 		(uuid "4675d920-a6e4-499f-bf24-25a53ed61feb")
 	)
 	(label "INT4"
-		(at 217.17 45.72 180)
+		(at 209.55 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7351,7 +7687,7 @@
 		(uuid "4b961b80-4ec0-4fd2-b388-15180972993e")
 	)
 	(label "DRDY"
-		(at 217.17 57.15 180)
+		(at 209.55 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7362,7 +7698,7 @@
 		(uuid "5dfc9451-833f-4d12-bcb6-029b25b4abc6")
 	)
 	(label "5v_in"
-		(at 240.284 82.55 0)
+		(at 227.33 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7439,7 +7775,7 @@
 		(uuid "963dadad-6048-4978-9920-26f760bcce07")
 	)
 	(label "MAG_INT"
-		(at 217.17 53.34 180)
+		(at 209.55 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7505,7 +7841,7 @@
 		(uuid "cf9888b0-92fe-453d-91ae-eed9375664d1")
 	)
 	(label "INT1"
-		(at 217.17 41.91 180)
+		(at 209.55 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7873,145 +8209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
-		(at 226.06 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ff672de-47b1-46ed-a70f-13262bf4761f")
-		(property "Reference" "D2"
-			(at 223.012 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PESD5V0S1UL_315"
-			(at 226.06 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Nexperia USA"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PESD5V0S1UL,315"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "29abcfa9-dd94-4ecb-9690-db0508b0e050")
-		)
-		(pin "K"
-			(uuid "6fca28f1-a79a-4ce3-ac2a-801d2e53345d")
-		)
-		(instances
-			(project ""
-				(path "/52d76c23-ecf1-4115-8362-f772e097cafa"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 33.274 129.54 0)
 		(unit 1)
@@ -8078,7 +8275,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.392 74.93 180)
+		(at 215.9 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8086,7 +8283,7 @@
 		(dnp no)
 		(uuid "15db1626-f091-4259-9da1-3636470bac8f")
 		(property "Reference" "C12"
-			(at 213.106 76.2 0)
+			(at 213.614 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8292,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 213.106 74.422 0)
+			(at 213.614 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8301,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 214.4268 71.12 0)
+			(at 214.9348 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.392 74.93 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8319,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.392 74.93 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,6 +8613,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 233.68 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "216f9595-a13a-48a2-97bc-26b351f17aa5")
+		(property "Reference" "#PWR035"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb782c89-7ad2-480b-9659-edea5af9a322")
+		)
+		(instances
+			(project ""
+				(path "/52d76c23-ecf1-4115-8362-f772e097cafa"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 41.91 41.91 0)
 		(unit 1)
@@ -8479,6 +8743,145 @@
 			(project "Xplore ERC IMU"
 				(path "/52d76c23-ecf1-4115-8362-f772e097cafa"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
+		(at 226.06 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "281942f2-194e-4c26-af20-beb0685b1b9d")
+		(property "Reference" "D2"
+			(at 217.17 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V0S1UL_315"
+			(at 226.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Nexperia USA"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD5V0S1UL,315"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "8f0310c5-52d9-4805-8958-fc009aecf2cd")
+		)
+		(pin "K"
+			(uuid "7bb005c5-91c7-4286-b189-88eaf3c064f1")
+		)
+		(instances
+			(project "Xplore ERC IMU"
+				(path "/52d76c23-ecf1-4115-8362-f772e097cafa"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8718,7 +9121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.392 78.74 0)
+		(at 215.9 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8727,7 +9130,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bfad3b-5a21-4d6f-ad68-7c13714bfa58")
 		(property "Reference" "#PWR032"
-			(at 215.392 85.09 0)
+			(at 215.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +9139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.392 83.82 0)
+			(at 215.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +9148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.392 78.74 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,7 +9157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.392 78.74 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +9166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.392 78.74 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +9452,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
-		(at 226.06 53.34 180)
+		(at 226.06 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9057,7 +9460,7 @@
 		(dnp no)
 		(uuid "47c625e0-1089-4795-bdb9-d48a5bfb4323")
 		(property "Reference" "D6"
-			(at 222.758 54.61 0)
+			(at 217.678 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +9468,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 228.092 57.658 0)
+			(at 228.092 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9477,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +9487,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9505,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9515,7 @@
 			)
 		)
 		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9525,7 @@
 			)
 		)
 		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9535,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9545,7 @@
 			)
 		)
 		(property "MP" "PESD5V0S1UL,315"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +9555,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +9565,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
-			(at 226.06 53.34 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 71.12 0)
+		(at 246.38 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9263,7 +9666,7 @@
 		(fields_autoplaced yes)
 		(uuid "48f20115-105b-43f2-8d6b-197ed9feccac")
 		(property "Reference" "#PWR031"
-			(at 246.38 77.47 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 76.2 0)
+			(at 246.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 71.12 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 71.12 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 71.12 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 60.96 0)
+		(at 264.16 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9558,7 +9961,7 @@
 		(fields_autoplaced yes)
 		(uuid "572a6bfa-3609-4cc6-bc6f-b18e179a0ce2")
 		(property "Reference" "#PWR016"
-			(at 243.84 67.31 0)
+			(at 264.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 66.04 0)
+			(at 264.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 60.96 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +9988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 60.96 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 60.96 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +10297,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
-		(at 226.06 49.53 180)
+		(at 226.06 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9902,7 +10305,7 @@
 		(dnp no)
 		(uuid "6625ffba-bb83-4a4f-a5f5-24ba3906f139")
 		(property "Reference" "D5"
-			(at 222.758 50.8 0)
+			(at 217.678 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +10313,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 226.06 45.72 0)
+			(at 226.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +10322,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,7 +10332,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,7 +10341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +10350,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +10360,7 @@
 			)
 		)
 		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +10370,7 @@
 			)
 		)
 		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9977,7 +10380,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10390,7 @@
 			)
 		)
 		(property "MP" "PESD5V0S1UL,315"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +10400,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +10410,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
-			(at 226.06 49.53 0)
+			(at 226.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10503,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 215.392 68.834 0)
+		(at 215.9 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10108,7 +10511,7 @@
 		(dnp no)
 		(uuid "69769eb1-e7e8-4ebe-b2cc-c00e183a35da")
 		(property "Reference" "#PWR02"
-			(at 215.392 72.644 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,7 +10520,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 215.392 65.024 0)
+			(at 215.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,7 +10528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.392 68.834 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.392 68.834 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 215.392 68.834 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +10568,7 @@
 	)
 	(symbol
 		(lib_id "502585670:5025850670")
-		(at 245.11 40.64 0)
+		(at 264.16 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10173,7 +10576,7 @@
 		(dnp no)
 		(uuid "6d17ac09-5d43-42ea-88ef-d2db7c543d46")
 		(property "Reference" "J1"
-			(at 252.73 31.496 0)
+			(at 271.78 31.496 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10182,7 +10585,7 @@
 			)
 		)
 		(property "Value" "5025850670"
-			(at 246.38 34.798 0)
+			(at 265.43 34.798 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10191,7 +10594,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CON_5025850670"
-			(at 245.11 40.64 0)
+			(at 264.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +10604,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5025850670?display=pdf"
-			(at 245.11 40.64 0)
+			(at 264.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 40.64 0)
+			(at 264.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10722,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
-		(at 226.06 57.15 180)
+		(at 226.06 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10327,7 +10730,7 @@
 		(dnp no)
 		(uuid "7348f115-00cf-43d0-af60-b09f15fe87fe")
 		(property "Reference" "D7"
-			(at 222.758 58.674 0)
+			(at 217.678 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10738,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 233.934 34.29 0)
+			(at 246.126 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +10746,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +10756,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10774,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10784,7 @@
 			)
 		)
 		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +10794,7 @@
 			)
 		)
 		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,7 +10804,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10814,7 @@
 			)
 		)
 		(property "MP" "PESD5V0S1UL,315"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10824,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10834,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
-			(at 226.06 57.15 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +10949,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
-		(at 226.06 45.72 180)
+		(at 226.06 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10554,7 +10957,7 @@
 		(dnp no)
 		(uuid "751c47ef-b608-4b5c-8a3b-292ee3fa3bbf")
 		(property "Reference" "D4"
-			(at 222.758 43.18 0)
+			(at 217.424 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10965,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 226.06 41.91 0)
+			(at 226.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +10974,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10984,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10590,7 +10993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +11002,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +11012,7 @@
 			)
 		)
 		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +11022,7 @@
 			)
 		)
 		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +11032,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +11042,7 @@
 			)
 		)
 		(property "MP" "PESD5V0S1UL,315"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +11052,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +11062,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
-			(at 226.06 45.72 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +13808,7 @@
 	)
 	(symbol
 		(lib_id "D5V0H1B2LP_7B:D5V0H1B2LP-7B")
-		(at 219.71 71.12 0)
+		(at 219.71 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13413,7 +13816,7 @@
 		(dnp no)
 		(uuid "ea7b21ef-90ae-4d5d-a54f-cf1e50241c3c")
 		(property "Reference" "U5"
-			(at 227.076 65.532 0)
+			(at 228.6 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13422,7 +13825,7 @@
 			)
 		)
 		(property "Value" "D5V0H1B2LP-7B"
-			(at 227.076 67.564 0)
+			(at 226.568 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13431,7 +13834,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D5V0H1B2LP_7B"
-			(at 219.71 71.12 0)
+			(at 219.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +13844,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0H1B2LP.pdf"
-			(at 219.71 71.12 0)
+			(at 219.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +13854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 71.12 0)
+			(at 219.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +14146,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V0S1UL_315:PESD5V0S1UL_315")
-		(at 226.06 41.91 180)
+		(at 226.06 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13751,7 +14154,7 @@
 		(dnp no)
 		(uuid "f9eb0be9-32d6-4720-91c7-99b43260147d")
 		(property "Reference" "D3"
-			(at 222.758 39.37 0)
+			(at 217.424 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +14162,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 226.06 38.1 0)
+			(at 226.06 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,7 +14171,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13778,7 +14181,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13787,7 +14190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +14199,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +14209,7 @@
 			)
 		)
 		(property "Description_1" "20V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount DFN1006-2"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13816,7 +14219,7 @@
 			)
 		)
 		(property "Package" "DFN1006-2-2 Nexperia USA Inc."
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13826,7 +14229,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13836,7 +14239,7 @@
 			)
 		)
 		(property "MP" "PESD5V0S1UL,315"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +14249,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13856,7 +14259,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/PESD5V0S1UL,315/?ref=eda"
-			(at 226.06 41.91 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
