@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC1T45DCKT
+D Single-Bit Dual-Supply Bus Transceiver with Configurable Voltage-Level Shifting and 3-State Outputs
+K
+F http://www.ti.com/lit/gpn/sn74lvc1t45
+$ENDCMP
+#
+#End Doc Library
