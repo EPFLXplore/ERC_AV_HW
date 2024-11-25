@@ -5,7 +5,7 @@
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
-		(title "Misc - Mouting Holes")
+		(title "Misc - Mouting Holes & Fiducials")
 		(date "Last Modified Date")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -1067,8 +1067,8 @@
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 96.52 15.24 0)
-		(size 107.315 12.7)
+		(at 10.16 15.24 0)
+		(size 276.86 12.7)
 		(stroke
 			(width -0.0001)
 			(type default)

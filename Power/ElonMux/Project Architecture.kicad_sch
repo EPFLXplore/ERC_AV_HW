@@ -1636,7 +1636,7 @@
 			(color 255 255 0 0.2500)
 		)
 		(uuid "e246552c-c235-46f6-8325-624faa438117")
-		(property "Sheetname" "Misc - Mounting Holes"
+		(property "Sheetname" "Misc - Mounting Holes & Fiducials"
 			(at 283.21 143.7509 0)
 			(effects
 				(font

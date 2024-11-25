@@ -4360,6 +4360,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 193.04) (xy 264.16 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fe17b8-346a-4d7c-96da-eace2a15b83a")
+	)
+	(wire
+		(pts
 			(xy 256.54 85.09) (xy 262.89 85.09)
 		)
 		(stroke
@@ -5031,6 +5041,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 208.28) (xy 246.38 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662c6efb-d0fc-424f-8724-fc78f4edb3ac")
+	)
+	(wire
+		(pts
 			(xy 93.98 69.85) (xy 93.98 71.12)
 		)
 		(stroke
@@ -5091,7 +5111,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 215.9) (xy 246.38 217.17)
+			(xy 264.16 193.04) (xy 264.16 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7c3072-d101-4fb8-bbd6-09d744d65495")
+	)
+	(wire
+		(pts
+			(xy 264.16 215.9) (xy 264.16 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5358,6 +5388,16 @@
 			(type default)
 		)
 		(uuid "8c4ab41c-4613-4659-8a61-26ae076e1798")
+	)
+	(wire
+		(pts
+			(xy 264.16 217.17) (xy 246.38 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef56f2e-cc08-4c8a-957a-9c16da214bcc")
 	)
 	(wire
 		(pts
@@ -6792,8 +6832,8 @@
 		(uuid ed78b7e7-9d87-4eba-bb13-ab88d26954ef)
 	)
 	(rectangle
-		(start 242.57 208.915)
-		(end 261.62 215.265)
+		(start 248.285 208.915)
+		(end 267.335 215.265)
 		(stroke
 			(width 0)
 			(type dot)
@@ -10607,16 +10647,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 212.09 0)
+		(at 264.16 212.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53cec87a-9aaf-431f-9143-0850fd6c3411")
 		(property "Reference" "C413"
-			(at 250.19 210.82 0)
+			(at 260.35 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10665,7 @@
 			)
 		)
 		(property "Value" "100n X7R 50V"
-			(at 250.19 213.36 0)
+			(at 260.35 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 247.3452 215.9 0)
+			(at 263.1948 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10683,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
-			(at 246.38 212.09 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10692,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 212.09 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +10701,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "UMK105B7104KVHF"
-			(at 246.38 212.09 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +10710,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 246.38 212.09 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +10719,7 @@
 			)
 		)
 		(property "Manufacturer" "TAIYO YUDEN"
-			(at 246.38 212.09 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10728,7 @@
 			)
 		)
 		(property "Supplier Part Number" "963-UMK105B7104KVHF"
-			(at 246.38 212.09 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,7 +12905,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6b537ba-e850-4461-995d-1a288e11e846")
 		(property "Reference" "S401"
 			(at 250.19 201.93 0)
