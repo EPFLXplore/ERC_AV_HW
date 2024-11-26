@@ -5,19 +5,21 @@ Module current changes :
 	- Added local 12V generation (easier debug)
 	- Added output rail 
 	- Added SHARE_CLK pin for module synchronisation
-	- Choosed output rail connector	
+	- Chose output rail connector	
 	
 Motherboard current changes :
 	- Corrected USB 
 	- 
 
 
-
 --------------------------------------------------------------------------------------------------
 
 To Do list Module :
+	- Fill the BOM correctly
+	- Find the footprint and 3D model
+	- Clean the library
 	- Verify the synchronisation function
-	- Add more input bulk capacitance as LTPowerCAD recommend
+	- Verify the input filter 
 	- Layout (LTC3889 relocation, New output rail location)
 
 To Do list Motherboard :
@@ -27,5 +29,4 @@ To Do list Motherboard :
 	- Add easy debug connector 
 	- Remove output rail connector
 	- Add module synchronisation switch
-	-
-	- Layout (Bus bar, )
+	- Layout (Bus bar, Board smaller)

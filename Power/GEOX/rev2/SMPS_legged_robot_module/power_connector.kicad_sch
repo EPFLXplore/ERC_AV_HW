@@ -1791,6 +1791,7 @@
 		)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 6 6)
 				(thickness 1.2)
 				(bold yes)

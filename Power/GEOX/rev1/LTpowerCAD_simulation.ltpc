@@ -42,7 +42,7 @@
       <MinVin>24</MinVin>
       <SwitchingFreq>500000</SwitchingFreq>
       <OutputVol>12</OutputVol>
-      <OutputCur>10</OutputCur>
+      <OutputCur>20</OutputCur>
       <NPh>1</NPh>
       <NIc>1</NIc>
       <VinD>48</VinD>
@@ -109,9 +109,9 @@
       <OutputLCFilterEnabled>False</OutputLCFilterEnabled>
       <OutputLCFilterSensingIsLocal>False</OutputLCFilterSensingIsLocal>
       <OutputLCFilterSensingIsRemote>False</OutputLCFilterSensingIsRemote>
-      <Cth>3,9E-10</Cth>
-      <Cthp>2E-11</Cthp>
-      <Rth>54000</Rth>
+      <Cth>6,8E-09</Cth>
+      <Cthp>3,3E-11</Cthp>
+      <Rth>3000</Rth>
       <R1>35000</R1>
       <RfbTopActual>39000</RfbTopActual>
       <RfbBotActual>1000</RfbBotActual>
@@ -134,7 +134,7 @@
       <RsenseLength>6,4</RsenseLength>
       <RsenseWidth>3,2</RsenseWidth>
       <RsenseHeight>0,64</RsenseHeight>
-      <RsenseFilterR>200</RsenseFilterR>
+      <RsenseFilterR>20</RsenseFilterR>
       <RsenseFilterC>1E-09</RsenseFilterC>
       <SenseC>4,7E-08</SenseC>
       <SenseCdcr2>1E-06</SenseCdcr2>
@@ -144,8 +144,6 @@
       <IlimSelection>HIGH_RANGE</IlimSelection>
       <CurrentSensingConfigurationType>1</CurrentSensingConfigurationType>
       <SwitchingFreqDesired>500000</SwitchingFreqDesired>
-      <Rfreq>1000000000</Rfreq>
-      <Rfreq2>1000000000</Rfreq2>
       <HasExtvcc>True</HasExtvcc>
       <ExtvccVoltage>12</ExtvccVoltage>
       <LoadStepLow>0,8</LoadStepLow>
@@ -235,7 +233,7 @@
       <NumFetsSyncStage2>1</NumFetsSyncStage2>
       <PriceSyncStage2>0,6428</PriceSyncStage2>
       <CostSyncStage2>0,6428</CostSyncStage2>
-      <Efficiency>0,9631</Efficiency>
+      <Efficiency>0,9493</Efficiency>
       <VoutRipplePercent>0,0021259137</VoutRipplePercent>
       <LossCurveA2>0,022558135</LossCurveA2>
       <LossCurveA1>0,1361043112</LossCurveA1>
@@ -256,30 +254,36 @@
       <ESLCf_in>1,00000014249236E-09</ESLCf_in>
       <NumCf_in>1</NumCf_in>
       <Cf_inAtNoVoltage>4,7E-06</Cf_inAtNoVoltage>
-      <Lf_inManufacturer>COILCRAFT</Lf_inManufacturer>
-      <Lf_inPartNumber>XEL6060-102MEB</Lf_inPartNumber>
-      <Lf_in>9,761985107286E-07</Lf_in>
-      <ESRLf_in>0,0037</ESRLf_in>
+      <Lf_inManufacturer>BOURNS</Lf_inManufacturer>
+      <Lf_inPartNumber>SRP7050TA-1R0M</Lf_inPartNumber>
+      <Lf_in>1E-06</Lf_in>
+      <ESRLf_in>0,005</ESRLf_in>
       <EPCLf_in>3,00000056996946E-12</EPCLf_in>
-      <Cd_inManufacturer>TDK</Cd_inManufacturer>
-      <Cd_inPartNumber>CAA573X7S2A476M640LH</Cd_inPartNumber>
-      <Cd_in>2,1791371E-05</Cd_in>
-      <ESRCd_in>0,0026</ESRCd_in>
-      <ESLCd_in>1,9E-09</ESLCd_in>
-      <NumCd_in>1</NumCd_in>
-      <Cd_inAtHalfRated>2,2506E-05</Cd_inAtHalfRated>
-      <Cd_inAtFullRated>8,656E-06</Cd_inAtFullRated>
+      <Cd_inManufacturer>AVX</Cd_inManufacturer>
+      <Cd_inPartNumber>TCJE106M063R0150</Cd_inPartNumber>
+      <Cd_in>1E-05</Cd_in>
+      <ESRCd_in>0,15</ESRCd_in>
+      <ESLCd_in>2,5E-09</ESLCd_in>
+      <NumCd_in>10</NumCd_in>
+      <Cd_inAtHalfRated>1E-05</Cd_inAtHalfRated>
+      <Cd_inAtFullRated>1E-05</Cd_inAtFullRated>
       <Cd_inAtNoVoltage>1E-05</Cd_inAtNoVoltage>
-      <Cd_inDerated>2,17913714285714E-05</Cd_inDerated>
-      <Cd_inVoltageRating>100</Cd_inVoltageRating>
-      <Rd1_in>0,220929684597679</Rd1_in>
+      <Cd_inDerated>1E-05</Cd_inDerated>
+      <Cd_inVoltageRating>63</Cd_inVoltageRating>
+      <Rd1_in>10</Rd1_in>
       <Rd2_in>1000000000</Rd2_in>
-      <Cd3>0,00010000000949949</Cd3>
-      <ESRCd3>0,00500000023748726</ESRCd3>
-      <ESLCd3>1,00000014249236E-09</ESLCd3>
+      <Cd3Manufacturer>AVX</Cd3Manufacturer>
+      <Cd3PartNumber>TCMV106M100R0050</Cd3PartNumber>
+      <Cd3>1E-05</Cd3>
+      <ESRCd3>0,05</ESRCd3>
+      <ESLCd3>2,4E-09</ESLCd3>
       <NumCd3>1</NumCd3>
-      <Cd3AtNoVoltage>0,00010000000949949</Cd3AtNoVoltage>
-      <Rd3>0,455743141246601</Rd3>
+      <Cd3AtHalfRated>1E-05</Cd3AtHalfRated>
+      <Cd3AtFullRated>1E-05</Cd3AtFullRated>
+      <Cd3AtNoVoltage>1E-05</Cd3AtNoVoltage>
+      <Cd3Derated>1E-05</Cd3Derated>
+      <Cd3VoltageRating>100</Cd3VoltageRating>
+      <Rd3>10</Rd3>
       <PartPrice>8,39</PartPrice>
       <PartCost>8,39</PartCost>
       <InductorPrice>2,15805</InductorPrice>
@@ -298,7 +302,7 @@
       <MinVin>24</MinVin>
       <SwitchingFreq>500000</SwitchingFreq>
       <OutputVol>24</OutputVol>
-      <OutputCur>10</OutputCur>
+      <OutputCur>20</OutputCur>
       <NPh>1</NPh>
       <NIc>1</NIc>
       <VinD>48</VinD>
@@ -359,9 +363,9 @@
       <OutputLCFilterEnabled>False</OutputLCFilterEnabled>
       <OutputLCFilterSensingIsLocal>False</OutputLCFilterSensingIsLocal>
       <OutputLCFilterSensingIsRemote>False</OutputLCFilterSensingIsRemote>
-      <Cth>3,9E-10</Cth>
-      <Cthp>2E-11</Cthp>
-      <Rth>38300</Rth>
+      <Cth>6,8E-09</Cth>
+      <Cthp>3,3E-11</Cthp>
+      <Rth>3000</Rth>
       <R1>39000</R1>
       <RfbTopActual>39000</RfbTopActual>
       <RfbBotActual>1000</RfbBotActual>
@@ -384,7 +388,7 @@
       <RsenseLength>6,4</RsenseLength>
       <RsenseWidth>3,2</RsenseWidth>
       <RsenseHeight>0,64</RsenseHeight>
-      <RsenseFilterR>200</RsenseFilterR>
+      <RsenseFilterR>20</RsenseFilterR>
       <RsenseFilterC>1E-09</RsenseFilterC>
       <SenseC>4,7E-08</SenseC>
       <SenseCdcr2>1E-06</SenseCdcr2>
@@ -394,8 +398,6 @@
       <IlimSelection>HIGH_RANGE</IlimSelection>
       <CurrentSensingConfigurationType>1</CurrentSensingConfigurationType>
       <SwitchingFreqDesired>500000</SwitchingFreqDesired>
-      <Rfreq>1000000000</Rfreq>
-      <Rfreq2>1000000000</Rfreq2>
       <HasExtvcc>True</HasExtvcc>
       <ExtvccVoltage>12</ExtvccVoltage>
       <LoadStepHigh>10</LoadStepHigh>
@@ -482,7 +484,7 @@
       <NumFetsSyncStage2>1</NumFetsSyncStage2>
       <PriceSyncStage2>0,6428</PriceSyncStage2>
       <CostSyncStage2>0,6428</CostSyncStage2>
-      <Efficiency>0,9811</Efficiency>
+      <Efficiency>0,9739</Efficiency>
       <VoutRipplePercent>0,0012929264</VoutRipplePercent>
       <LossCurveA2>0,0061125</LossCurveA2>
       <LossCurveA1>0,1586678368</LossCurveA1>

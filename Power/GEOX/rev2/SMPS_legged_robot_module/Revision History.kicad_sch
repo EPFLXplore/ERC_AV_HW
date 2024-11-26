@@ -164,7 +164,7 @@
 		)
 		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
 	)
-	(text_box "- Added Debug connector + Flash\n\n- Added local 12V generation for easier debug\n\n- Added output rail \n\n- Added SHARE_CLK pin for module synchronisation\n\n- Add more input bulk capacitance as LTPowerCAD recommend\n\n- Layout \n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+	(text_box "- Added Debug connector + Flash\n\n- Added local 12V generation for easier debug\n\n- Added output rail \n\n- Added SHARE_CLK pin for module \n  synchronisation\n\n- Add more input bulk capacitance as \n  LTPowerCAD recommend\n\n- Changed input filter inductance\n\n- Layout \n\n"
 		(exclude_from_sim no)
 		(at 22.86 40.64 0)
 		(size 58.42 115.57)
@@ -177,6 +177,7 @@
 		)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.905 1.905)
 				(color 0 0 0 1)
 			)
@@ -218,6 +219,7 @@
 		)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.905 1.905)
 				(thickness 0.254)
 				(bold yes)

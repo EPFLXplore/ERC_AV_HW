@@ -5153,7 +5153,7 @@
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 12.065 13.335 0)
+		(at 12.065 17.78 0)
 		(size 273.05 12.7)
 		(stroke
 			(width -0.0001)
@@ -5164,6 +5164,7 @@
 		)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 6 6)
 				(thickness 1.2)
 				(bold yes)
@@ -5440,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Value" "1u XEL6060-102MEB"
+		(property "Value" "1u SRP7030CA-1R0M"
 			(at 109.22 49.53 90)
 			(effects
 				(font
