@@ -1,16 +1,16 @@
-<!-- <p align="center" width="100%">
-  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/amulet_logo_light.svg">
-  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/amulet_logo.svg">
-  <img alt="AMULET logo" width="33%" src="./Logos/amulet_logo.svg">
-</p> -->
+<p align="center" width="100%">
+  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/PuffMux.svg">
+  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/PuffMux.svg">
+  <img alt="ElonMux logo" width="33%" src="./Logos/PuffMux.svg">
+</p>
 
-<h1 align="center">Charge Manager</h1>
+<h1 align="center">ElonMux</h1>
 
-Charge Manager was designed for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
+ElonMux was designed for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
 The system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible.
 
 <p align="center" width="100%">
-    <img src="./Images/Power_Manager_r1.png">
+    <img src="./Images/ElonMux_r1.png">
 </p>
 
 ***
@@ -33,11 +33,10 @@ The system will always try to use the external power supply as the primary power
 ## DIRECTORY STRUCTURE
 
 ```
-Charge Manager
-├── Computations        # Misc calculations
-├── DXF_SVG             # Vector graphics
+ElonMux
 ├── Images              # Pictures and screenshots
-├── Logos               # Xplore logo
+├── Logos               # Xplore and ElonMux logos
+├── Dtasheets           # Datasheet of major components
 ├── Manufacturing & BOMs
 │   |── Assembly        # Position files, BOM, assembly document
 |   |   └── ibom        # HTML BOM
@@ -68,5 +67,5 @@ Schematic template & project structure is hugely inspired by the work of Vincent
 ## PHOTOS
 
 <p align="center" width="100%">
-    <img src="./Images/Power_Manager_r1.png">
+    <img src="./Images/ElonMuxFront.png">
 </p>

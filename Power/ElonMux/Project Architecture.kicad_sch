@@ -1305,6 +1305,20 @@
 		)
 		(uuid "220095fd-3768-4cae-bd5b-d7ae53ae5aa6")
 	)
+	(text "Page 12"
+		(exclude_from_sim no)
+		(at 318.77 163.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#12")
+		)
+		(uuid "26ff1129-c891-4209-a6d9-7670606bb70e")
+	)
 	(text "Page 8"
 		(exclude_from_sim no)
 		(at 189.23 158.75 0)
@@ -2317,6 +2331,46 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 283.21 144.78)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 0.2500)
+		)
+		(uuid "e246552c-c235-46f6-8325-624faa438117")
+		(property "Sheetname" "Misc - Mounting Holes"
+			(at 283.21 143.7509 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc - Mounting Holes.kicad_sch"
+			(at 283.21 165.6846 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "12")
 				)
 			)
 		)

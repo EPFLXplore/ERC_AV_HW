@@ -11,29 +11,29 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Charge_Manager_SYM:B3U-1100P"
+		(symbol "B3U-1100P_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 16.764 -10.922 0)
+			(property "Reference" "S401"
+				(at 17.78 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Value" "B3U-1100P"
-				(at 16.764 -15.748 0)
+			(property "Value" "B3U-1100P-B"
+				(at 17.78 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "B3U-1100P"
+			(property "Footprint" "Charge_Manager_FP:B3U1100PB"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -62,57 +62,43 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
+			(property "Manufacturer Part Number" "B3U-1100P-B"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "653-B3U-1100P"
-				(at 16.51 -494.92 0)
+			(property "Manufacturer" "Omron Electronics"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3U-1100P?qs=q8ECNkb1%2FvMiNWwbhMFu4g%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "Supplier Part Number" "653-B3U-1100P-B"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Omron Electronics"
-				(at 16.51 -694.92 0)
+			(property "Supplier" "Mouser Electronics"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "B3U-1100P"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "B3U-1100P_0_1"
+			(symbol "B3U-1100P_1_0_1"
 				(polyline
 					(pts
 						(xy 15.24 -16.51) (xy 15.24 -11.43)
@@ -186,7 +172,7 @@
 					)
 				)
 			)
-			(symbol "B3U-1100P_1_1"
+			(symbol "B3U-1100P_1_1_1"
 				(rectangle
 					(start 16.51 -10.922)
 					(end 12.7 -17.018)
@@ -244,7 +230,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1175,24 +1161,6 @@
 				)
 				(pin bidirectional line
 					(at -2.54 68.58 0)
-					(length 2.54)
-					(name "LNA_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 5.08 180)
 					(length 2.54)
 					(name "LNA_IN"
 						(effects
@@ -2395,24 +2363,6 @@
 				)
 				(pin bidirectional line
 					(at -2.54 68.58 0)
-					(length 2.54)
-					(name "LNA_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 5.08 180)
 					(length 2.54)
 					(name "LNA_IN"
 						(effects
@@ -3949,10 +3899,6 @@
 		(uuid "d28c1ecb-f911-488b-99a3-f9067060b4eb")
 	)
 	(no_connect
-		(at 185.42 134.62)
-		(uuid "d8d3e3c3-5ce5-486e-9004-29b97a29aaee")
-	)
-	(no_connect
 		(at 185.42 127)
 		(uuid "ecb75950-a083-4531-9e59-651cf3f844a2")
 	)
@@ -4198,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 198.12 96.52)
+			(xy 190.5 96.52) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5416,16 +5362,6 @@
 			(type default)
 		)
 		(uuid "9bdf53c4-996b-4b5e-a1ca-4a9a61bb5423")
-	)
-	(wire
-		(pts
-			(xy 172.72 134.62) (xy 185.42 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c218c44-3016-4e6a-8624-d85586bcf91f")
 	)
 	(wire
 		(pts
@@ -7424,6 +7360,17 @@
 		)
 		(uuid "046fd480-f6e9-4e1f-b47d-9173ba3aff41")
 	)
+	(label "FAULT1"
+		(at 196.85 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04cd8814-adba-4e1d-8379-f282e1e96aea")
+	)
 	(label "IMON2"
 		(at 347.98 140.97 0)
 		(fields_autoplaced yes)
@@ -7435,17 +7382,6 @@
 		)
 		(uuid "0501ad90-19b5-49ed-bc85-025e16f3c1fb")
 	)
-	(label "FAULT1"
-		(at 198.12 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05523e2c-6db1-402e-a422-4110efd00897")
-	)
 	(label "PRIORITY"
 		(at 347.98 114.3 0)
 		(fields_autoplaced yes)
@@ -7456,6 +7392,17 @@
 			(justify left bottom)
 		)
 		(uuid "0816f51e-9618-4d3f-a0cb-962060aed783")
+	)
+	(label "VALID1"
+		(at 110.49 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c0d30cb-27d5-4ed1-a532-197d2ac2c4bc")
 	)
 	(label "CLOCK_OUT"
 		(at 123.19 134.62 0)
@@ -7478,17 +7425,6 @@
 			(justify right bottom)
 		)
 		(uuid "12896241-8bca-4810-9cbd-d48fbff86989")
-	)
-	(label "VALID1"
-		(at 110.49 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "168b2432-1406-452b-b0c4-c60273f27527")
 	)
 	(label "LED_DBG"
 		(at 218.44 248.92 0)
@@ -7580,17 +7516,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ca526c5-5d79-4ed6-96e1-e107d6634a72")
-	)
-	(label "LNA_IN"
-		(at 184.15 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cb5106e-7660-434a-91b7-632b9e3d67c3")
 	)
 	(label "GPIO38"
 		(at 196.85 109.22 180)
@@ -7694,8 +7619,8 @@
 		)
 		(uuid "4bd9e999-7fb8-48bc-aba8-123603573940")
 	)
-	(label "PRIORITY"
-		(at 110.49 99.06 0)
+	(label "VALID1"
+		(at 139.7 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7703,7 +7628,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4c0d5f7e-7ac9-495d-8c4f-6144e4c77ba1")
+		(uuid "4d0f1d09-7253-47c8-9024-00f9d7d7f16e")
 	)
 	(label "SPID"
 		(at 184.15 88.9 180)
@@ -7726,6 +7651,17 @@
 			(justify right bottom)
 		)
 		(uuid "51565410-2c17-415b-98ad-5800ecf00239")
+	)
+	(label "FAULT2"
+		(at 196.85 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52b8552c-b596-44eb-8bde-f02899d9166e")
 	)
 	(label "USB_D+"
 		(at 110.49 124.46 0)
@@ -7828,17 +7764,6 @@
 		)
 		(uuid "6271be43-f124-4f92-9f3e-18032b462197")
 	)
-	(label "VALID2"
-		(at 139.7 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63728fd0-980e-47fa-84fb-b360ad177cc7")
-	)
 	(label "SPICLK_N"
 		(at 184.15 91.44 180)
 		(fields_autoplaced yes)
@@ -7872,6 +7797,17 @@
 			(justify left bottom)
 		)
 		(uuid "6b4b0196-1594-47c6-9add-684372101509")
+	)
+	(label "PGOOD"
+		(at 139.7 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bf1afbe-3b4a-46c8-a3f9-f99a0c26febd")
 	)
 	(label "SDA"
 		(at 347.98 96.52 0)
@@ -7928,6 +7864,17 @@
 			(justify left bottom)
 		)
 		(uuid "76ccdacc-a13c-4859-8419-4360a1bc3e4b")
+	)
+	(label "VALID2"
+		(at 110.49 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77b9bbb5-a859-4394-931b-268250426341")
 	)
 	(label "GPIO0"
 		(at 110.49 73.66 0)
@@ -8044,17 +7991,6 @@
 		)
 		(uuid "8b284f65-e2af-4998-92d0-9e27ad965483")
 	)
-	(label "VALID1"
-		(at 139.7 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ba8ba7c-2f4a-4340-955e-8439e9304d7d")
-	)
 	(label "LED_DBG"
 		(at 347.98 110.49 0)
 		(fields_autoplaced yes)
@@ -8123,6 +8059,17 @@
 		)
 		(uuid "96b9370a-27ec-4bea-99b3-4c40cac2673e")
 	)
+	(label "PRIORITY"
+		(at 139.7 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b2cb75e-dfc0-4785-89fb-20f9e13f5bab")
+	)
 	(label "FAULT1"
 		(at 347.98 129.54 0)
 		(fields_autoplaced yes)
@@ -8133,6 +8080,17 @@
 			(justify left bottom)
 		)
 		(uuid "9c7d0c18-c2b3-429a-8758-cb3aedc3cfe3")
+	)
+	(label "PGOOD"
+		(at 110.49 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a012f0d7-022d-45bc-8384-6056f607e252")
 	)
 	(label "SPI_CLK"
 		(at 347.98 82.55 0)
@@ -8239,28 +8197,6 @@
 		)
 		(uuid "b60f4e00-506d-4365-9fdf-d973754c01b5")
 	)
-	(label "FAULT2"
-		(at 198.12 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bca23f96-210f-44df-9ec3-b5ff770d227a")
-	)
-	(label "PGOOD"
-		(at 110.49 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c267b3ed-eb8a-415e-91a3-db17c3cbfb21")
-	)
 	(label "GPIO17"
 		(at 123.19 116.84 0)
 		(fields_autoplaced yes)
@@ -8337,17 +8273,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(label "PGOOD"
-		(at 139.7 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9c127af-0e24-4a06-9ff9-c1a5c39b5649")
 	)
 	(label "MTDI"
 		(at 43.18 215.9 0)
@@ -8462,17 +8387,6 @@
 		)
 		(uuid "e8033d1e-1357-49cd-9737-251b2b64bef7")
 	)
-	(label "VALID2"
-		(at 110.49 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e89ce963-0622-45a4-b8da-9417e1c03770")
-	)
 	(label "SPI_MOSI"
 		(at 44.45 185.42 0)
 		(fields_autoplaced yes)
@@ -8507,7 +8421,7 @@
 		)
 		(uuid "ef8d371b-a292-459b-a0ed-acb3377182c0")
 	)
-	(label "PRIORITY"
+	(label "VALID2"
 		(at 139.7 210.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8516,7 +8430,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f4e2d22e-082a-4cc8-9418-8dc88748a69d")
+		(uuid "f3758044-9d09-4152-bf57-c3147d1d36c4")
+	)
+	(label "PRIORITY"
+		(at 110.49 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6b5ce50-c909-40d3-9f87-b1dbccfa6bf0")
 	)
 	(label "GPIO38"
 		(at 139.7 190.5 0)
@@ -8723,7 +8648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 101.6 0)
 			(effects
 				(font
@@ -8886,6 +8811,118 @@
 		)
 	)
 	(symbol
+		(lib_name "B3U-1100P_1")
+		(lib_id "Charge_Manager_SYM:B3U-1100P")
+		(at 358.14 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e005e1d-ba33-473d-b7c3-8f816a222b6c")
+		(property "Reference" "S402"
+			(at 375.92 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3U-1100P-B"
+			(at 375.92 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:B3U1100PB"
+			(at 374.65 284.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
+			(at 374.65 384.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Tact,ultra small,top act,grnd trm Button Tactile Switch, SPST-NO 0.05 A@ 12 V dc 0.4mm"
+			(at 358.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B3U-1100P-B"
+			(at 358.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 358.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "653-B3U-1100P-B"
+			(at 358.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 358.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f7e3a83-0e11-4829-994c-9e2ab463e6c2")
+		)
+		(pin "1"
+			(uuid "062a6f64-3413-4b82-afa9-db1589ccbc5f")
+		)
+		(pin "3"
+			(uuid "fe743de0-192f-4eec-882b-a0e8414fc166")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "S402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 370.84 57.15 270)
 		(mirror x)
@@ -8913,7 +8950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 52.07 0)
 			(effects
 				(font
@@ -9229,9 +9266,6 @@
 		(pin "57"
 			(uuid "b3e16ae0-5c3e-4acf-8019-24e5ab99e236")
 		)
-		(pin "1"
-			(uuid "92ac3bde-dd15-4d7d-90c8-ef1ce12b766a")
-		)
 		(pin "29"
 			(uuid "a5cf770a-577a-4c4c-a1d3-fc8eaa6babb4")
 		)
@@ -9339,7 +9373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 87.63 0)
 			(effects
 				(font
@@ -9712,117 +9746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:B3U-1100P")
-		(at 358.14 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "357b3854-4a5c-423b-8c4e-244b4b72ab2d")
-		(property "Reference" "S402"
-			(at 375.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B3U-1100P-B"
-			(at 375.92 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Charge_Manager_FP:B3U1100PB"
-			(at 374.65 284.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3u.pdf"
-			(at 374.65 384.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch Tact,ultra small,top act,grnd trm Button Tactile Switch, SPST-NO 0.05 A@ 12 V dc 0.4mm"
-			(at 358.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "B3U-1100P-B"
-			(at 358.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics"
-			(at 358.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "653-B3U-1100P-B"
-			(at 358.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 358.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3506c7c-76a7-47ab-bbc7-5cd89aae07b8")
-		)
-		(pin "1"
-			(uuid "e7cfed3a-16f5-46ee-a7d9-baafbd68472e")
-		)
-		(pin "SH"
-			(uuid "d644cd85-56d6-4309-a365-30555b01f817")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "S402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 372.11 182.88 0)
 		(unit 1)
@@ -9925,7 +9848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 55.88 0)
 			(effects
 				(font
@@ -10116,7 +10039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 124.46 0)
 			(effects
 				(font
@@ -10508,7 +10431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 132.08 0)
 			(effects
 				(font
@@ -10593,7 +10516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 113.03 0)
 			(effects
 				(font
@@ -10678,7 +10601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 73.66 0)
 			(effects
 				(font
@@ -10763,7 +10686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 69.85 0)
 			(effects
 				(font
@@ -10923,7 +10846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 77.47 0)
 			(effects
 				(font
@@ -11008,7 +10931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 91.44 0)
 			(effects
 				(font
@@ -11093,7 +11016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 66.04 0)
 			(effects
 				(font
@@ -11349,7 +11272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 109.22 0)
 			(effects
 				(font
@@ -11434,7 +11357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 128.27 0)
 			(effects
 				(font
@@ -11629,7 +11552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 48.26 0)
 			(effects
 				(font
@@ -11789,7 +11712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 105.41 0)
 			(effects
 				(font
@@ -12044,7 +11967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 372.11 149.86 0)
 			(effects
 				(font
@@ -12129,7 +12052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 44.45 0)
 			(effects
 				(font
@@ -12386,7 +12309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 135.89 0)
 			(effects
 				(font
@@ -12444,6 +12367,7 @@
 		)
 	)
 	(symbol
+		(lib_name "B3U-1100P_1")
 		(lib_id "Charge_Manager_SYM:B3U-1100P")
 		(at 236.22 189.23 0)
 		(unit 1)
@@ -12542,7 +12466,7 @@
 		(pin "1"
 			(uuid "106b4e6e-ad8f-48e9-92f3-178b7fd89c07")
 		)
-		(pin "SH"
+		(pin "3"
 			(uuid "fca06f8d-8f0d-4d22-b7f1-2406995f828e")
 		)
 		(instances
@@ -12811,9 +12735,6 @@
 		)
 		(pin "57"
 			(uuid "b3e16ae0-5c3e-4acf-8019-24e5ab99e237")
-		)
-		(pin "1"
-			(uuid "7e08c3f9-c96b-4da3-8275-8e37e1911d5d")
 		)
 		(pin "29"
 			(uuid "cad49317-c793-4a8b-b848-73a34a1ab594")
@@ -13141,7 +13062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 116.84 0)
 			(effects
 				(font
@@ -14118,7 +14039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 372.11 146.05 0)
 			(effects
 				(font
@@ -14517,7 +14438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
 			(at 370.84 120.65 0)
 			(effects
 				(font

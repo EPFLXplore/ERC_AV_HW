@@ -648,12 +648,36 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 157, 0)",
+      "+VBAT": "rgb(255, 0, 255)",
+      "+VBUS": "rgb(255, 0, 0)",
+      "+VCHARGE": "rgb(0, 255, 219)",
+      "+VOUT": "rgb(194, 194, 194)",
+      "+VSUPPLY": "rgb(114, 255, 0)",
+      "/Project Architecture/Interface - Connectors/MTCK": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDI": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDO": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTMS": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/USB_C+": "rgb(0, 0, 255)",
+      "/Project Architecture/Interface - Connectors/USB_C-": "rgb(0, 0, 255)",
+      "/Project Architecture/Interface - Connectors/USB_D+": "rgb(0, 0, 255)",
+      "/Project Architecture/Interface - Connectors/USB_D-": "rgb(0, 0, 255)",
+      "/Project Architecture/MCU - Unit/SCL": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SDA": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_CLK": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_MISO": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_MOSI": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_NCS": "rgb(132, 0, 132)",
+      "/Project Architecture/Power - Power Path/VDD": "rgb(132, 132, 0)",
+      "GND": "rgb(74, 90, 126)"
+    },
     "netclass_assignments": {
       "+3V3": "+3V3",
       "+VBAT": "+VBAT",
       "+VBUS": "+VBUS",
       "+VCHARGE": "+VCHARGE",
+      "+VOUT": "+VOUT",
       "+VSUPPLY": "+VSUPPLY",
       "/Project Architecture/+VCHARGE": "+CHARGE",
       "/Project Architecture/Interface - Connectors/GND": "GND",
@@ -663,6 +687,8 @@
       "/Project Architecture/Power - Charger/HO2": "+24V",
       "/Project Architecture/Power - Charger/LO2": "+24V",
       "/Project Architecture/Power - Charger/SW2": "+24V",
+      "/Project Architecture/Power - Charger/shunt_charger+": "+VCHARGE",
+      "/Project Architecture/Power - Charger/shunt_charger-": "+VCHARGE",
       "/Project Architecture/Power - Connectors/+VBAT": "+VBAT",
       "/Project Architecture/Power - Connectors/+VCHARGE": "+VCHARGE",
       "/Project Architecture/Power - Connectors/+VOUT": "+VOUT",
@@ -671,23 +697,19 @@
       "/Project Architecture/Power - Generation/VIN1": "+VOUT",
       "/Project Architecture/Power - Power Path/SENS_LOW": "+VBAT",
       "/Project Architecture/Power - Power Path/TS": "+VOUT",
+      "/Project Architecture/Power - Power Path/shunt_bat+": "+VBAT",
+      "/Project Architecture/Power - Power Path/shunt_bat-": "+VBAT",
+      "/Project Architecture/Power - Power Path/shunt_supply+": "+VSUPPLY",
+      "/Project Architecture/Power - Power Path/shunt_supply-": "+VSUPPLY",
       "/Project Architecture/Sensing - Battery/+3V3": "+3V3",
       "/Project Architecture/Sensing - Battery/+CHARGE": "+VCHARGE",
       "/Project Architecture/Sensing - Battery/SENS_IN": "+VBAT",
       "/Project Architecture/Sensing - Battery/SENS_OUT": "+VBAT",
-      "/Project Architecture/Sensing - Battery/shunt_bat+": "Kelvin Diff Pair",
-      "/Project Architecture/Sensing - Battery/shunt_bat-": "Kelvin Diff Pair",
+      "/Project Architecture/Sensing - Battery/shunt_bat+": "+VBAT",
+      "/Project Architecture/Sensing - Battery/shunt_bat-": "+VBAT",
       "GND": "GND"
     },
     "netclass_patterns": [
-      {
-        "netclass": "USB Diff Pair",
-        "pattern": "/Project Architecture/MCU - Unit/USB_D+"
-      },
-      {
-        "netclass": "USB Diff Pair",
-        "pattern": "/Project Architecture/MCU - Unit/USB_D-"
-      },
       {
         "netclass": "+VSUPPLY",
         "pattern": "+VSUPPLY"
@@ -703,6 +725,10 @@
       {
         "netclass": "+VBAT",
         "pattern": "+VBAT"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },
@@ -899,6 +925,10 @@
     [
       "95e919be-32f9-400a-bc42-ccd9343a00dc",
       "User - LED Indicators"
+    ],
+    [
+      "e246552c-c235-46f6-8325-624faa438117",
+      "Misc - Mounting Holes"
     ],
     [
       "13eb0b07-00a1-4d61-8da3-582545eb29a8",

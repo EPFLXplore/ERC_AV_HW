@@ -667,6 +667,18 @@
 		)
 	)
 	(junction
+		(at 133.35 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0297bb03-5ce8-4e6c-a147-81d091290b7e")
+	)
+	(junction
+		(at 121.92 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14c5612c-8404-4b32-acb6-f182a0a3121a")
+	)
+	(junction
 		(at 128.27 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -679,10 +691,10 @@
 		(uuid "430af7d7-5589-4e35-a54b-05a380440ef4")
 	)
 	(junction
-		(at 133.35 86.36)
+		(at 121.92 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f56f4a40-e9f7-41bf-a140-e88cdf03d04d")
+		(uuid "5dd9f14f-4c89-4c72-a654-2f082b653de5")
 	)
 	(no_connect
 		(at 182.88 96.52)
@@ -726,23 +738,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 91.44) (xy 128.27 91.44)
+			(xy 121.92 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034df118-373d-483b-9e6c-cfaa899bb8e8")
+	)
+	(wire
+		(pts
+			(xy 95.25 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06b3ac15-9970-4850-b265-e29e900497e8")
-	)
-	(wire
-		(pts
-			(xy 100.33 88.9) (xy 113.03 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1dfc19-e450-4c82-9722-b26a9d74775b")
 	)
 	(wire
 		(pts
@@ -754,6 +766,16 @@
 		)
 		(uuid "10a83829-88d0-424c-adff-6829f8c82813")
 	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d0101b-55aa-473f-a414-d7c1750599e3")
+	)
 	(bus
 		(pts
 			(xy 196.85 78.74) (xy 196.85 81.28)
@@ -763,16 +785,6 @@
 			(type default)
 		)
 		(uuid "24f485a2-5fa6-4b5c-887a-b0fc770ad432")
-	)
-	(wire
-		(pts
-			(xy 100.33 86.36) (xy 113.03 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2997d07f-7516-4774-9b32-29acfd08272c")
 	)
 	(wire
 		(pts
@@ -793,6 +805,16 @@
 			(type default)
 		)
 		(uuid "3594862b-30f9-43a0-ac72-5ff837e946ab")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385ec795-ccc9-4d8d-b139-5c9f74008808")
 	)
 	(bus
 		(pts
@@ -826,6 +848,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 81.28) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc30721-a843-45c6-a2f4-9233fa5a618d")
+	)
+	(wire
+		(pts
 			(xy 176.53 91.44) (xy 194.31 91.44)
 		)
 		(stroke
@@ -833,6 +865,26 @@
 			(type default)
 		)
 		(uuid "61d157a5-c891-4737-b202-886a152c60db")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6236badd-8841-4edd-affd-539711e9afea")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d13d072-d373-4b83-8e4f-c16d011b6134")
 	)
 	(wire
 		(pts
@@ -874,16 +926,6 @@
 		)
 		(uuid "a6902f50-94d9-41c9-8c50-ad9ed2ed03ca")
 	)
-	(wire
-		(pts
-			(xy 118.11 86.36) (xy 133.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b636c0-a344-4dac-9df1-011d5f1eea60")
-	)
 	(bus
 		(pts
 			(xy 198.12 77.47) (xy 196.85 78.74)
@@ -906,6 +948,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdad4a87-71b6-407a-b408-ee5112a57eb9")
+	)
+	(wire
+		(pts
 			(xy 176.53 88.9) (xy 194.31 88.9)
 		)
 		(stroke
@@ -913,16 +965,6 @@
 			(type default)
 		)
 		(uuid "d3feb5ee-8482-4274-914e-2587a8f60c81")
-	)
-	(wire
-		(pts
-			(xy 118.11 88.9) (xy 133.35 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf4e862-86a3-42af-bbf7-56c2ee663289")
 	)
 	(wire
 		(pts
@@ -1067,54 +1109,52 @@
 		(uuid "d8393e51-c5b0-4f87-837e-9624797bc206")
 	)
 	(label "shunt_bat-"
-		(at 121.92 88.9 0)
-		(fields_autoplaced yes)
+		(at 123.19 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
+				(color 132 0 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "f3ae15cd-e65f-4f42-bb85-43ad496c91b7")
-		(property "Netclass" "Kelvin Diff Pair"
-			(at 121.92 90.17 0)
+		(property "Netclass" "+VBAT"
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(label "shunt_bat+"
-		(at 121.92 86.36 0)
-		(fields_autoplaced yes)
+		(at 121.92 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
+				(color 132 0 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "fa8701d4-1884-4952-b535-3a8ae3e2101c")
-		(property "Netclass" "Kelvin Diff Pair"
-			(at 121.92 87.63 0)
+		(property "Netclass" "+VBAT"
+			(at 121.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(hierarchical_label "SENS_OUT"
 		(shape input)
-		(at 100.33 88.9 180)
+		(at 95.25 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1126,17 +1166,6 @@
 			(justify right)
 		)
 		(uuid "1d057463-6299-4fea-ab12-85430751958a")
-		(property "Netclass" "+VBAT"
-			(at 100.33 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "{SPI_BAT}"
 		(shape bidirectional)
@@ -1154,7 +1183,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 100.33 91.44 180)
+		(at 95.25 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1167,7 +1196,7 @@
 		)
 		(uuid "97cb5596-6d8e-484b-9273-9a96ccc81f1a")
 		(property "Netclass" "+3V3"
-			(at 100.33 92.71 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1209,7 @@
 	)
 	(hierarchical_label "SENS_IN"
 		(shape input)
-		(at 100.33 86.36 180)
+		(at 95.25 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1192,17 +1221,6 @@
 			(justify right)
 		)
 		(uuid "d8add4b0-69f7-428e-82d8-7b14d607c242")
-		(property "Netclass" "+VBAT"
-			(at 100.33 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1213,7 +1231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d2e67b7-c1aa-43bb-ad33-3b791f04c353")
-		(property "Reference" "C901"
+		(property "Reference" "C902"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -1303,6 +1321,179 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/99347527-3de9-4089-9239-f84ef9d2c36f"
+					(reference "C902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 104.14 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2382ebfb-83f2-4d2d-80c6-e5e68830e9ad")
+		(property "Reference" "NT902"
+			(at 100.584 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_shunt_bat+"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:NetTie-2_SMD_Pad0.2mm"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba214520-cd5a-49c4-9eca-fdc497c92f0a")
+		)
+		(pin "2"
+			(uuid "c40ec3ef-4e1a-46e6-b8e5-4c9f1f13702d")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/99347527-3de9-4089-9239-f84ef9d2c36f"
+					(reference "NT902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ea94434-b0d2-461f-a3fc-b486425b4f8b")
+		(property "Reference" "C901"
+			(at 118.872 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 119.126 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 122.8852 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "UMK105B7104KVHF"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "963-UMK105B7104KVHF"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "323e503a-6ffe-4052-96fc-b1a490270d10")
+		)
+		(pin "1"
+			(uuid "a44305b3-dfd0-4e2d-8bb3-6ac125b206a9")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/99347527-3de9-4089-9239-f84ef9d2c36f"
 					(reference "C901")
 					(unit 1)
 				)
@@ -1311,31 +1502,31 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 115.57 86.36 0)
+		(at 104.14 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c54e1d1-ecb7-4516-8141-e19426ad1678")
+		(uuid "b3b13158-8107-43f9-9bab-4b49cae65a9c")
 		(property "Reference" "NT901"
-			(at 115.316 85.09 0)
+			(at 100.584 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NetTie_CSA"
-			(at 107.188 85.09 0)
+		(property "Value" "NetTie_shunt_bat+"
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 115.57 86.36 0)
+		(property "Footprint" "Charge_Manager_FP:NetTie-2_SMD_Pad0.2mm"
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 86.36 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1544,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 115.57 86.36 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,83 +1552,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e36e251c-2480-4921-8ae5-59c4794733eb")
-		)
 		(pin "1"
-			(uuid "d8f23fc6-944b-422f-9ea1-6848f5864082")
+			(uuid "12f0a7ca-cd73-46f3-8541-d7badc78ba98")
+		)
+		(pin "2"
+			(uuid "4b392241-5a27-47f6-9157-f599106566cc")
 		)
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/99347527-3de9-4089-9239-f84ef9d2c36f"
 					(reference "NT901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 115.57 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ef8e808-544d-4d0e-b394-bee172c91880")
-		(property "Reference" "NT902"
-			(at 115.316 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_CSA"
-			(at 107.188 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ddd8dc6-340b-4b46-bdab-263a0e92b6c6")
-		)
-		(pin "1"
-			(uuid "dd736083-48c2-41a0-b1bf-6e01591a82c7")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/99347527-3de9-4089-9239-f84ef9d2c36f"
-					(reference "NT902")
 					(unit 1)
 				)
 			)
