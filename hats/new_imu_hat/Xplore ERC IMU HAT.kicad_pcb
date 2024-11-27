@@ -5418,7 +5418,7 @@
 		(uuid "24aa85f4-ff50-49d9-9b3a-a8f30523017f")
 		(at 154.5 82.55)
 		(property "Reference" "D3"
-			(at 0.762 1.6764 0)
+			(at 0.762 1.6764 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f28d0066-2ddf-44a3-8884-430e7eb2f17a")
@@ -5431,7 +5431,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 6.4516 -1.4986 0)
+			(at 6.4516 -1.4986 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "543ac8cb-7573-4cc0-8acd-4fe834b3c580")
@@ -5444,7 +5444,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "00d0f28e-1678-45af-a420-2f289ca6a76a")
@@ -5457,7 +5457,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0af4877e-87f9-47af-9feb-589c712df7aa")
@@ -5470,7 +5470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a9082fc1-af30-4544-9ca8-5b385a3adc4d")
@@ -5609,10 +5609,10 @@
 			(uuid "8e68ed7b-ca11-44e1-8299-573efc50abd1")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.698839 -0.495199)
+			(end -0.648839 -0.495199)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -5764,10 +5764,10 @@
 			(uuid "2ea4037d-9b05-40ab-9c32-467eca7df04c")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.69805 -0.495199)
+			(end -0.64805 -0.495199)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -5796,7 +5796,7 @@
 		(uuid "2b9bfbdf-fae4-4a02-b729-d1f2c00890ec")
 		(at 152.8 82.55)
 		(property "Reference" "D4"
-			(at 0.762 1.6764 0)
+			(at 0.762 1.6764 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "bf3901f4-7896-4565-8f9d-b47c25912217")
@@ -5809,7 +5809,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 6.4516 -1.4986 0)
+			(at 6.4516 -1.4986 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0e234dbd-1a76-4893-9712-35a96a6536dd")
@@ -5822,7 +5822,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5b86bd34-a710-4cce-8d3e-9d5b51db28cc")
@@ -5835,7 +5835,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "05b8897e-906e-43e2-804d-0dcb82d021a9")
@@ -5848,7 +5848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a5f71a6d-11e2-4e63-a7da-947232617261")
@@ -5987,10 +5987,10 @@
 			(uuid "4a5cf570-9e75-49ec-8b12-8b32a6faf839")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.703071 -0.499431)
+			(end -0.653071 -0.499431)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -6142,10 +6142,10 @@
 			(uuid "a7f68f8b-8515-4142-a822-f018e0df69ce")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.703071 -0.499431)
+			(end -0.653071 -0.499431)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -6297,8 +6297,8 @@
 			(uuid "a6377245-b936-4b88-805a-86758d4f04f3")
 		)
 		(fp_circle
-			(center -0.95 -2.3622)
-			(end -0.8738 -2.3622)
+			(center -1 -2)
+			(end -0.9238 -2)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -7086,7 +7086,7 @@
 		(uuid "6c88c212-591a-4613-8663-59427b148c6e")
 		(at 151.1 82.55)
 		(property "Reference" "D5"
-			(at 0.762 1.6764 0)
+			(at 0.762 1.6764 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "950c5dac-e089-4527-9291-b98a397e565d")
@@ -7099,7 +7099,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 6.4516 -1.4986 0)
+			(at 6.4516 -1.4986 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b6bd8574-a382-4744-af00-2f75e2cbaed9")
@@ -7112,7 +7112,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "20384f67-0f50-4545-958c-56d679392f94")
@@ -7125,7 +7125,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1d42ba20-6f24-402e-9d61-a0c16a7ed1a0")
@@ -7138,7 +7138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e4f85979-f2c2-433c-8020-7c33777d7f82")
@@ -7277,10 +7277,10 @@
 			(uuid "bc08a528-741e-4828-bcf3-5e9951f5b105")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.689584 -0.503664)
+			(end -0.639584 -0.503664)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -7432,10 +7432,10 @@
 			(uuid "030b2b67-fc5a-4a72-b5f0-ef8ff1a0000c")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.689584 -0.503664)
+			(end -0.639584 -0.503664)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -8478,7 +8478,7 @@
 		(uuid "c2a2e10c-0450-4030-80d6-6cb4a5001a32")
 		(at 156.2 82.55)
 		(property "Reference" "D2"
-			(at 0.762 1.6764 0)
+			(at 0.762 1.6764 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "5904aff6-1166-4401-86f4-d9288049ec7b")
@@ -8491,7 +8491,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 6.4516 -1.4986 0)
+			(at 6.4516 -1.4986 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bbff1406-7256-4457-b694-265522393510")
@@ -8504,7 +8504,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2aa9f247-725c-42dd-9a82-51d1c5c4ceaf")
@@ -8517,7 +8517,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ea7ba2cf-cb30-4631-984d-78d45c33c417")
@@ -8530,7 +8530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "89cc2488-6dc1-45d4-a72b-9c4035ad8aa9")
@@ -8669,10 +8669,10 @@
 			(uuid "e976cc8d-1312-47d0-8c2c-e13461c5aa2e")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.702282 -0.495199)
+			(end -0.652282 -0.495199)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -8824,10 +8824,10 @@
 			(uuid "581e22c4-df4d-40b6-bf21-1c317a463fd1")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.702282 -0.495199)
+			(end -0.652282 -0.495199)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -8856,7 +8856,7 @@
 		(uuid "cc9e2ae9-80f9-4dd2-8e28-1d650669de03")
 		(at 149.4 82.55)
 		(property "Reference" "D6"
-			(at 0.762 1.6764 0)
+			(at 0.762 1.6764 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6d03260f-e8d7-472b-94db-03906b8f7204")
@@ -8869,7 +8869,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL_315"
-			(at 6.4516 -1.4986 0)
+			(at 6.4516 -1.4986 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c6e66155-a4d5-461e-a14a-7f6f78172743")
@@ -8882,7 +8882,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_PESD5V0S1UL_315"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "04ade971-ae24-471a-858a-a875cfe70adc")
@@ -8895,7 +8895,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f6a69be4-46e1-49f2-bba7-1fbb0e3d6f97")
@@ -8908,7 +8908,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8f94f882-8a34-44eb-a89b-5b5a1fbc54a4")
@@ -9047,10 +9047,10 @@
 			(uuid "015b87db-f1c1-4da4-b4ab-b445ffa684bf")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.693817 -0.503664)
+			(end -0.643817 -0.503664)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -9202,10 +9202,10 @@
 			(uuid "dfb904e3-e2f1-4870-a655-c50722d5a4fe")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.693817 -0.503664)
+			(end -0.643817 -0.503664)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -9425,10 +9425,10 @@
 			(uuid "fdb77be1-f37d-4d8e-87d8-454912d55737")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.707304 -0.503664)
+			(end -0.657304 -0.503664)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -9580,10 +9580,10 @@
 			(uuid "6e0d76a9-7dbe-434f-a592-76d486c1b627")
 		)
 		(fp_circle
-			(center -1.25 0)
-			(end -1.15 0)
+			(center -0.707304 -0.503664)
+			(end -0.657304 -0.503664)
 			(stroke
-				(width 0.2)
+				(width 0.1)
 				(type solid)
 			)
 			(fill none)
@@ -10732,12 +10732,21 @@
 		(uuid "9890c12a-d41a-4971-8e20-b34f63ba2d07")
 	)
 	(via
-		(at 139.6 88.8)
+		(at 139.708863 88.517367)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "98ebfbaa-9a96-40c6-b817-ced36658758c")
+	)
+	(via
+		(at 138.45 89.45)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "9bf8b9c7-ab38-4493-a000-ab0b0f848939")
 	)
 	(via
 		(at 134.2 77.05)
@@ -10911,6 +10920,14 @@
 		(uuid "043e6a32-be01-4835-9a8d-696651e75beb")
 	)
 	(segment
+		(start 139.691496 88.5)
+		(end 138.45 88.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "0dcb426e-f4e4-4891-bf48-7ec80db0ed34")
+	)
+	(segment
 		(start 139.55 81.666)
 		(end 139.55 80.45)
 		(width 0.2)
@@ -10991,14 +11008,6 @@
 		(uuid "911ec1b3-6e50-4d9a-990f-d017147f9b49")
 	)
 	(segment
-		(start 139.6 88.8)
-		(end 139.3 88.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "96aa5a3b-3755-41b9-b814-a955b9f367ed")
-	)
-	(segment
 		(start 153.15 81.4)
 		(end 153.15 82.55)
 		(width 0.2)
@@ -11031,12 +11040,12 @@
 		(uuid "a63a6aa5-5272-4f26-9136-5bba87d6e87b")
 	)
 	(segment
-		(start 139.3 88.5)
-		(end 138.45 88.5)
+		(start 139.708863 88.517367)
+		(end 139.691496 88.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "cdce5e1d-3ec4-4c54-b2c4-3ec13d0f211a")
+		(uuid "ba07cede-6e0d-40f0-8ed0-2355b47619ae")
 	)
 	(segment
 		(start 149.75 81.35)
@@ -12959,28 +12968,12 @@
 		(uuid "f20736bc-80e0-4968-8107-3b38ea36e7f2")
 	)
 	(segment
-		(start 152.45 81.65)
-		(end 152.45 80.95)
+		(start 152.45 80.95)
+		(end 158.28 75.12)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "20ed2ea7-aec4-4de6-acf5-f561df9cc788")
-	)
-	(segment
-		(start 152.45 83.553999)
-		(end 152.45 81.65)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 15)
-		(uuid "3aa328bb-aebd-437a-8773-5b1323dad616")
-	)
-	(segment
-		(start 158.28 75.12)
-		(end 159.55 75.12)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 15)
-		(uuid "3dec4ee2-dc29-4bd3-b375-aeecd8ed9557")
+		(uuid "062599e8-7341-4a85-92a6-a33a446688e7")
 	)
 	(segment
 		(start 152.403999 83.6)
@@ -12991,28 +12984,28 @@
 		(uuid "55365f7b-5659-4d3c-bbf8-b59f2004fe84")
 	)
 	(segment
+		(start 152.45 83.553999)
+		(end 152.45 80.95)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 15)
+		(uuid "9cf0ff63-3fa0-4fa0-99b3-eae2e82a2045")
+	)
+	(segment
 		(start 152.403999 83.6)
 		(end 152.45 83.553999)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "9061ca63-c568-4045-acc8-374681f33e27")
+		(uuid "a279f218-975f-419b-a7db-4283eb5a0784")
 	)
 	(segment
-		(start 152.45 80.95)
-		(end 158.28 75.12)
+		(start 158.28 75.12)
+		(end 159.55 75.12)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "976146a0-46a5-409a-80d9-8cc9869e364e")
-	)
-	(segment
-		(start 152.45 81.65)
-		(end 152.45 81.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 15)
-		(uuid "fe997b4c-2f29-4bc7-9198-616c6ffd8828")
+		(uuid "ac2c07a5-6855-49e6-9de6-3b63f03c783e")
 	)
 	(segment
 		(start 135.1 73.365)
