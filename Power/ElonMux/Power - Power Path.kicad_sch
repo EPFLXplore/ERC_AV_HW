@@ -10385,112 +10385,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 60.96 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "314f34c8-c354-422e-b40c-e97e01229b2d")
-		(property "Reference" "R805"
-			(at 131.318 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1m 1% 2W"
-			(at 136.398 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 134.62 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcs.pdf"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "	 HCS1206FT1L00"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "HCS1206FT1L00CT-ND "
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67f8c37d-5cef-4d55-909b-1de7ac7b0ab2")
-		)
-		(pin "1"
-			(uuid "8cb96bec-291c-4bdd-9b94-aa5f9e471cf1")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
-					(reference "R805")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 369.57 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10587,112 +10481,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
 					(reference "R814")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 81.28 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3828f02f-6a24-448b-89fd-b29bb679966e")
-		(property "Reference" "R806"
-			(at 127.762 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1m 1% 2W"
-			(at 132.588 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 134.62 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcs.pdf"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "	 HCS1206FT1L00"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "HCS1206FT1L00CT-ND "
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c6f6fff-640d-41e1-8140-fa878e9b8df0")
-		)
-		(pin "1"
-			(uuid "0256050d-4795-492b-83ff-9357ccb62252")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
-					(reference "R806")
 					(unit 1)
 				)
 			)
@@ -10846,7 +10634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/315/AOA0000C304-1149620.pdf"
 			(at 219.71 152.4 0)
 			(effects
 				(font
@@ -10864,7 +10652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
 			(at 219.71 152.4 0)
 			(effects
 				(font
@@ -10882,7 +10670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer"
+		(property "Manufacturer" "Panasonic"
 			(at 219.71 152.4 0)
 			(effects
 				(font
@@ -10891,7 +10679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
+		(property "Supplier Part Number" "667-ERJ-2RKF1003X"
 			(at 219.71 152.4 0)
 			(effects
 				(font
@@ -11489,6 +11277,111 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
 					(reference "TP812")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 318.77 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "629bef48-5dd9-4169-abb1-16f5d7bc4a81")
+		(property "Reference" "R820"
+			(at 320.802 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 320.802 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 316.992 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/315/AOA0000C304-1149620.pdf"
+			(at 318.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 318.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
+			(at 318.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 318.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 318.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF1003X"
+			(at 318.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "063ab873-cf68-48a5-9ab0-be9425b13ad5")
+		)
+		(pin "2"
+			(uuid "79038782-2df4-414b-a238-f3efb9d864f8")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
+					(reference "R820")
 					(unit 1)
 				)
 			)
@@ -13632,6 +13525,112 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 134.62 81.28 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3ea29c6-d4e7-4edc-810f-538274a043ba")
+		(property "Reference" "R806"
+			(at 131.318 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1m 1% 2W"
+			(at 136.398 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 134.62 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/385/SEI_HCS-3077771.pdf"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistors - SMD 0.001Ohms 1206 2W 200ppm 1% Hi Curr AEC-Q200"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "HCS1206FT1L00"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SEI Stackpole"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "708-HCS1206FT1L00"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a66a17b1-8e76-40fb-afad-74ede63eb33c")
+		)
+		(pin "1"
+			(uuid "3c899fcb-6120-4c65-a7c8-5e630b94b5de")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
+					(reference "R806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 256.54 44.45 90)
 		(mirror x)
 		(unit 1)
@@ -14224,111 +14223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 318.77 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfa47e1f-a920-458d-9b44-fb9e83ff89a9")
-		(property "Reference" "R820"
-			(at 320.802 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k 1%"
-			(at 320.802 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 316.992 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fe44859-3460-40bc-9ed7-cab66f72efc6")
-		)
-		(pin "2"
-			(uuid "bce32ef9-0f47-473e-a8bb-f63275d8d7a1")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
-					(reference "R820")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 187.96 152.4 0)
 		(unit 1)
@@ -14703,6 +14597,112 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
 					(reference "TP804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 60.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2a172b5-b21c-4402-af04-25c2a93333e9")
+		(property "Reference" "R805"
+			(at 131.318 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1m 1% 2W"
+			(at 136.398 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 134.62 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/385/SEI_HCS-3077771.pdf"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistors - SMD 0.001Ohms 1206 2W 200ppm 1% Hi Curr AEC-Q200"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "HCS1206FT1L00"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SEI Stackpole"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "708-HCS1206FT1L00"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56b78c2a-f661-4e5c-b605-628bebf01073")
+		)
+		(pin "1"
+			(uuid "3f8c16ff-589d-4ff0-9805-c8bd32197d1c")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/051f2c7b-cce4-418f-ba21-e71251f2ff31"
+					(reference "R805")
 					(unit 1)
 				)
 			)

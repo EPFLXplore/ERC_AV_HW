@@ -50258,7 +50258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
+		(property "Supplier" "Mouser Electronics"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -53163,7 +53163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
+		(property "Supplier" "Mouser Electronics"
 			(at 53.34 49.53 0)
 			(effects
 				(font

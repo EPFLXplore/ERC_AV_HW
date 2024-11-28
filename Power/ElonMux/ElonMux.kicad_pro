@@ -922,7 +922,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "amulet_controller.net",
-      "plot": "",
+      "plot": "Manufacturing/Fabrication/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "STEP/ElonMux2.step",

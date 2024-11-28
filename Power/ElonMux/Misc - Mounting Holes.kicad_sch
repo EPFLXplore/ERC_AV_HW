@@ -1211,6 +1211,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2884d995-72ec-42dd-a596-0d2255c60794")
+		(property "Reference" "C1201"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n X7R 1kV"
+			(at 90.805 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "80-C0603C102MDRAC"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d55af0a-0360-49f5-b323-48571f7980ac")
+		)
+		(pin "2"
+			(uuid "7cc6df79-4ac4-412a-923b-1deeff9e0aa7")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "C1201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 231.14 88.265 0)
 		(unit 1)
@@ -1507,6 +1612,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 176.53 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "78af3273-400c-4249-a938-83e9ff55900e")
+		(property "Reference" "C1204"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n X7R 1kV"
+			(at 178.435 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "80-C0603C102MDRAC"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1787f779-0356-452f-949e-f51576907cf9")
+		)
+		(pin "2"
+			(uuid "8ec24285-b0a3-499b-b387-1bbe6c87553f")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "C1204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 104.14 0)
 		(unit 1)
@@ -1677,111 +1887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 88.9 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9278204f-a5e6-41c3-9aaa-c2fb38273e4e")
-		(property "Reference" "C1201"
-			(at 91.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n X7R 1kV"
-			(at 90.805 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "399-12306-1-ND"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69623ec6-4d84-4c17-884f-ab25cad4b8ff")
-		)
-		(pin "2"
-			(uuid "d58d1586-b558-4ff5-815a-ef657830b5d5")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "C1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 221.615 88.265 0)
 		(unit 1)
@@ -1839,111 +1944,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "FM1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 121.92 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9d690e9b-ba53-4e99-b66f-160a1998514b")
-		(property "Reference" "C1202"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n X7R 1kV"
-			(at 123.825 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "399-12306-1-ND"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "126cf08e-c842-4e39-9f37-b59cc93196a1")
-		)
-		(pin "2"
-			(uuid "58fa0dc2-fddd-499b-8661-4c81ffd6d8f1")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "C1202")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -2298,7 +2298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -2316,7 +2316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
+		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -2325,7 +2325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier" "Mouser Electronics"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "399-12306-1-ND"
+		(property "Supplier Part Number" "80-C0603C102MDRAC"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -2523,6 +2523,111 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "R1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 121.92 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c95d7e6d-0e85-4d87-b21a-a6c7f96b7237")
+		(property "Reference" "C1202"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n X7R 1kV"
+			(at 123.825 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "80-C0603C102MDRAC"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be4b6dff-a397-4969-8962-4e8f79c6835f")
+		)
+		(pin "2"
+			(uuid "2bcce06c-3eb4-4800-a34b-dc54c82dfd7b")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
+					(reference "C1202")
 					(unit 1)
 				)
 			)
@@ -2783,111 +2888,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "H1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 176.53 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "f57a5b66-e114-4302-bcce-3c496e6b9d78")
-		(property "Reference" "C1204"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n X7R 1kV"
-			(at 178.435 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603V102KDRAC7867"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "C0603V102KDRAC7867"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "399-12306-1-ND"
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e5e4216-c467-4519-b070-a2af4d4c381c")
-		)
-		(pin "2"
-			(uuid "e8264461-a218-4313-8a9c-aefc3370295e")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "C1204")
 					(unit 1)
 				)
 			)

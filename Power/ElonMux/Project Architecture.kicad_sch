@@ -209,6 +209,16 @@
 		)
 		(uuid "5c71f8da-30c2-4c50-83cb-6a04d177acc9")
 	)
+	(bus
+		(pts
+			(xy 208.28 119.38) (xy 232.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f223741-0f01-4bf6-88a9-223b8accaac3")
+	)
 	(wire
 		(pts
 			(xy 220.98 87.63) (xy 232.41 87.63)
@@ -418,16 +428,6 @@
 			(type default)
 		)
 		(uuid "c4a0153a-14ee-4040-9ca9-79b71c31b65f")
-	)
-	(wire
-		(pts
-			(xy 208.28 119.38) (xy 232.41 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c76564-a228-4e9e-9005-e5fc2b8a18fe")
 	)
 	(wire
 		(pts
@@ -1353,19 +1353,6 @@
 			)
 			(uuid "595f6f52-d1a5-4ed1-bb09-a5822338842e")
 		)
-		(pin "CHARGER_STATUS" output
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify right)
-			)
-			(uuid "f3cc22ed-c185-4d72-b28f-20192d3b394a")
-		)
 		(pin "+VCHARGE_O" output
 			(at 208.28 115.57 0)
 			(effects
@@ -1378,6 +1365,19 @@
 				(justify right)
 			)
 			(uuid "d3fb17f3-abac-4727-807b-1728b26f54b0")
+		)
+		(pin "{CHARGER_OPERATION}" bidirectional
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "225de16b-3aca-492e-859c-2eefd685ab95")
 		)
 		(instances
 			(project "ElonMux"
@@ -1800,19 +1800,6 @@
 			)
 			(uuid "8b1d94c2-a946-43ef-b1df-fbf8980dca89")
 		)
-		(pin "CHARGER_STATUS" input
-			(at 232.41 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left)
-			)
-			(uuid "e5e02cef-f1e1-4a7c-b236-6d104cbcf9e1")
-		)
 		(pin "{DRIVERS_STATUS}" input
 			(at 232.41 148.59 180)
 			(effects
@@ -1825,6 +1812,19 @@
 				(justify left)
 			)
 			(uuid "34161db1-28bc-4970-8188-a86b84ebcc3d")
+		)
+		(pin "{CHARGER_OPERATION}" bidirectional
+			(at 232.41 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+			(uuid "cdbfc6f5-e583-49bb-9867-21bd4817f234")
 		)
 		(instances
 			(project "ElonMux"
