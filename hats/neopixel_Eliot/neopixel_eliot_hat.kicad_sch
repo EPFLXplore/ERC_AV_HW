@@ -2038,7 +2038,7 @@
 				)
 			)
 		)
-		(symbol "Connector:USB_C_Receptacle"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2046,21 +2046,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 29.21 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle"
-				(at 10.16 29.21 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -2081,7 +2079,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2090,7 +2088,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus type-C full-featured"
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2108,10 +2106,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
-					(start -0.254 -35.56)
-					(end 0.254 -34.544)
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
 					(stroke
 						(width 0)
 						(type default)
@@ -2121,85 +2119,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -32.766)
-					(end 9.144 -33.274)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -30.226)
-					(end 9.144 -30.734)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -25.146)
-					(end 9.144 -25.654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -22.606)
-					(end 9.144 -23.114)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -17.526)
-					(end 9.144 -18.034)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
 					(stroke
 						(width 0)
 						(type default)
@@ -2231,8 +2152,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
+					(start 10.16 2.794)
+					(end 9.144 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -2264,41 +2185,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 12.954)
-					(end 9.144 12.446)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 18.034)
-					(end 9.144 17.526)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 20.574)
-					(end 9.144 20.066)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 25.654)
-					(end 9.144 25.146)
+					(start 10.16 15.494)
+					(end 9.144 14.986)
 					(stroke
 						(width 0)
 						(type default)
@@ -2308,10 +2196,10 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
-					(start -10.16 27.94)
-					(end 10.16 -35.56)
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2403,6 +2291,28 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -8.89 -3.81) (xy -8.89 3.81)
@@ -2425,30 +2335,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_1_1"
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -2510,8 +2396,10 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2528,44 +2416,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -2582,44 +2434,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
 						(effects
@@ -2637,7 +2453,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -2655,7 +2471,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -2673,7 +2489,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
+					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -2690,26 +2506,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -30.48 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08) hide
 					(name "VBUS"
 						(effects
@@ -2727,7 +2525,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -2744,44 +2542,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "RX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -2798,44 +2560,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "TX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 5.08)
-					(name "TX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08) hide
 					(name "VBUS"
 						(effects
@@ -2853,7 +2579,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -2871,7 +2597,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -2889,7 +2615,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at 15.24 0 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -2906,26 +2632,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -33.02 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08) hide
 					(name "VBUS"
 						(effects
@@ -2943,7 +2651,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -40.64 90)
+					(at -7.62 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -7531,6 +7239,12 @@
 		(uuid "037adf0f-1d0d-41e3-b024-64bf86dd8f53")
 	)
 	(junction
+		(at 271.526 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0994bbc1-2a55-4901-b032-be9adcf40402")
+	)
+	(junction
 		(at 263.144 228.346)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7633,6 +7347,12 @@
 		(uuid "7628b0fd-42eb-4a65-a1ea-51cd91737276")
 	)
 	(junction
+		(at 263.652 23.114)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0a52d8-e170-45b6-9a9a-160dc56790cc")
+	)
+	(junction
 		(at 170.2054 72.6694)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7673,6 +7393,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b57f82e-d830-466d-88d2-fa9edc5d2512")
+	)
+	(junction
+		(at 263.652 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f470462-fbc7-4ab4-adbc-059113b1dc20")
 	)
 	(junction
 		(at 89.408 137.033)
@@ -7721,12 +7447,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a40cc8f2-7085-49c5-9ebc-46ad0c18194e")
-	)
-	(junction
-		(at 89.408 140.208)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa316e3b-e12b-45b7-ad86-b0d06af596b9")
 	)
 	(junction
 		(at 318.516 229.108)
@@ -7843,7 +7563,7 @@
 		(uuid "edc752ca-cb02-4637-89cf-b9253ef570d7")
 	)
 	(junction
-		(at 30.48 270.51)
+		(at 30.48 238.506)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5c99f7-15ee-4043-8b9a-194da6f26936")
@@ -7887,10 +7607,6 @@
 		(uuid "1374b89a-441a-4ded-aeeb-d422dffe3de0")
 	)
 	(no_connect
-		(at 45.72 226.06)
-		(uuid "14d49627-1618-4b2a-82c8-4474c9244812")
-	)
-	(no_connect
 		(at 319.532 101.092)
 		(uuid "191fb7f8-7096-4082-aa8e-e7b7337c398c")
 	)
@@ -7911,12 +7627,12 @@
 		(uuid "2a7e4899-e861-4a6e-b47f-2ef96ad75347")
 	)
 	(no_connect
-		(at 271.272 82.042)
-		(uuid "2e6fc83a-1aad-48ac-88c9-3819d4e80f33")
+		(at 86.868 140.208)
+		(uuid "2c33380a-9537-413b-af17-19e653d5e923")
 	)
 	(no_connect
-		(at 45.72 231.14)
-		(uuid "42f986c9-91f4-43fa-a157-57819f287fa5")
+		(at 271.272 82.042)
+		(uuid "2e6fc83a-1aad-48ac-88c9-3819d4e80f33")
 	)
 	(no_connect
 		(at 319.532 83.312)
@@ -7925,14 +7641,6 @@
 	(no_connect
 		(at 290.322 126.492)
 		(uuid "4cccc168-648e-4572-b693-47827993bc66")
-	)
-	(no_connect
-		(at 45.72 254)
-		(uuid "5058b04b-102a-4bf1-91b4-f8e89380ea6e")
-	)
-	(no_connect
-		(at 45.72 246.38)
-		(uuid "518dc399-b561-49cc-8286-07efc0f94a13")
 	)
 	(no_connect
 		(at 65.786 133.604)
@@ -7971,28 +7679,12 @@
 		(uuid "8d05632c-973e-41e6-a909-36dea2e77927")
 	)
 	(no_connect
-		(at 45.72 233.68)
-		(uuid "9546b306-6194-45b4-9db8-0b71124c393c")
-	)
-	(no_connect
-		(at 45.72 238.76)
-		(uuid "95748107-fd21-4a20-8409-aed2563df4bd")
-	)
-	(no_connect
-		(at 45.72 248.92)
-		(uuid "980bdb11-d4a1-4ec2-b9a2-3553e7c25708")
-	)
-	(no_connect
 		(at 271.272 79.502)
 		(uuid "9ed41b22-5462-4612-b7b2-7062a4e43345")
 	)
 	(no_connect
 		(at 152.0698 70.6882)
 		(uuid "9fa754b1-0c5f-4308-926f-0f162437c273")
-	)
-	(no_connect
-		(at 45.72 223.52)
-		(uuid "a5569167-4183-4a4f-a921-966f67d7aafd")
 	)
 	(no_connect
 		(at 319.532 73.152)
@@ -8003,23 +7695,11 @@
 		(uuid "b6397737-9a1d-490c-91d6-e58b89b8192f")
 	)
 	(no_connect
-		(at 45.72 256.54)
-		(uuid "bbd8fe14-13a4-4ecb-858c-049130c6523e")
-	)
-	(no_connect
-		(at 45.72 241.3)
-		(uuid "c080f4c4-8101-4d9a-ac3d-645b37c0c5ae")
-	)
-	(no_connect
 		(at 319.532 75.692)
 		(uuid "c340d025-4cbb-4708-bd50-95bd6d0c3d1e")
 	)
 	(no_connect
-		(at 283.972 62.992)
-		(uuid "cc0bfa06-6344-44ca-a5a1-2e73f97ef170")
-	)
-	(no_connect
-		(at 65.786 136.652)
+		(at 65.786 136.779)
 		(uuid "d5410e77-eb4e-43c5-9cf5-a86ce5d6d51d")
 	)
 	(no_connect
@@ -8075,6 +7755,16 @@
 			(type default)
 		)
 		(uuid "04317f1e-eb63-47d3-9b3d-932d0234b15c")
+	)
+	(wire
+		(pts
+			(xy 187.96 83.058) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b9b68c-a362-4287-986b-b704e601d050")
 	)
 	(wire
 		(pts
@@ -8238,6 +7928,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.112 45.974) (xy 263.652 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f75058b-0883-4cae-b980-2b782712f943")
+	)
+	(wire
+		(pts
 			(xy 30.988 127.254) (xy 32.766 127.254)
 		)
 		(stroke
@@ -8268,7 +7968,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.0756 45.4152) (xy 46.0756 42.2402)
+			(xy 45.974 45.4152) (xy 45.974 42.418)
 		)
 		(stroke
 			(width 0)
@@ -8285,6 +7985,16 @@
 			(type default)
 		)
 		(uuid "16c2ed0c-0cab-461b-99e4-1c4a52b1eaf0")
+	)
+	(wire
+		(pts
+			(xy 271.526 45.974) (xy 283.972 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174c1ada-1a25-4e29-a311-ef7c80e4892d")
 	)
 	(wire
 		(pts
@@ -8468,6 +8178,16 @@
 	)
 	(wire
 		(pts
+			(xy 263.652 45.974) (xy 271.526 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc59457-7836-4c6d-9704-fe7e1eaa725a")
+	)
+	(wire
+		(pts
 			(xy 301.752 62.992) (xy 301.752 54.102)
 		)
 		(stroke
@@ -8598,16 +8318,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 85.344) (xy 187.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf03b5f-8a1d-415a-b766-172c515d221d")
-	)
-	(wire
-		(pts
 			(xy 243.078 188.214) (xy 246.888 188.214)
 		)
 		(stroke
@@ -8678,6 +8388,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.972 45.974) (xy 283.972 62.992)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bc5173-06f3-4bd4-8e15-42cb32f6fee7")
+	)
+	(wire
+		(pts
 			(xy 305.562 129.54) (xy 305.562 128.016)
 		)
 		(stroke
@@ -8715,6 +8435,16 @@
 			(type default)
 		)
 		(uuid "471c3c03-3a48-4295-9dfe-470a88d78d79")
+	)
+	(wire
+		(pts
+			(xy 30.48 236.22) (xy 30.48 238.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b6aab8-90a5-4a05-9a3f-9d0a315d9a9a")
 	)
 	(wire
 		(pts
@@ -8808,6 +8538,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 104.14) (xy 185.42 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52912f94-d082-426e-bfa4-647a52e58b4f")
+	)
+	(wire
+		(pts
 			(xy 93.853 144.018) (xy 93.853 145.923)
 		)
 		(stroke
@@ -8838,7 +8578,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 270.51) (xy 30.48 270.51)
+			(xy 22.86 238.506) (xy 30.48 238.506)
 		)
 		(stroke
 			(width 0)
@@ -9055,16 +8795,6 @@
 			(type default)
 		)
 		(uuid "69f266f5-21b3-4888-aeea-4a04121f1f4a")
-	)
-	(wire
-		(pts
-			(xy 185.42 83.058) (xy 185.42 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6be8761e-3151-4018-8131-4ec73a7bd31b")
 	)
 	(wire
 		(pts
@@ -9398,6 +9128,16 @@
 	)
 	(wire
 		(pts
+			(xy 263.652 23.114) (xy 263.652 18.796)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ccb0e3-3af5-4d76-9b56-493263d0b890")
+	)
+	(wire
+		(pts
 			(xy 158.7754 61.8744) (xy 170.2054 61.8744)
 		)
 		(stroke
@@ -9418,7 +9158,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.0756 32.8422) (xy 46.0756 34.6202)
+			(xy 45.974 32.8422) (xy 45.974 34.798)
 		)
 		(stroke
 			(width 0)
@@ -9435,16 +9175,6 @@
 			(type default)
 		)
 		(uuid "8e37a4ef-d616-43bf-a6d2-b29daa85dddc")
-	)
-	(wire
-		(pts
-			(xy 152.146 85.344) (xy 187.96 85.344)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8ac623-419c-481f-98b4-bb4fff475a66")
 	)
 	(wire
 		(pts
@@ -9528,6 +9258,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.974 32.8422) (xy 46.0756 32.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932fabc8-7b54-4b04-a195-165028fca27c")
+	)
+	(wire
+		(pts
 			(xy 203.962 94.8182) (xy 203.962 80.01)
 		)
 		(stroke
@@ -9548,6 +9288,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.2516 39.9542) (xy 57.2516 45.4152)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d9d7a2-4468-4551-b8b7-35a65edab9e6")
+	)
+	(wire
+		(pts
 			(xy 255.524 115.062) (xy 271.272 115.062)
 		)
 		(stroke
@@ -9565,6 +9315,16 @@
 			(type default)
 		)
 		(uuid "98474a54-0aa9-4877-8095-7bd0c925d1a7")
+	)
+	(wire
+		(pts
+			(xy 71.2216 33.0962) (xy 71.2216 37.1602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9988360b-e188-4aca-8891-eaa928f7c8f2")
 	)
 	(wire
 		(pts
@@ -9648,7 +9408,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.058) (xy 185.42 83.058)
+			(xy 168.91 83.058) (xy 187.96 83.058)
 		)
 		(stroke
 			(width 0)
@@ -9828,6 +9588,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.526 48.514) (xy 271.526 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b410f281-0b07-4665-a1fd-48e141a32fc4")
+	)
+	(wire
+		(pts
 			(xy 152.0698 97.282) (xy 152.0698 97.3582)
 		)
 		(stroke
@@ -9835,6 +9605,16 @@
 			(type default)
 		)
 		(uuid "b4798184-4446-4265-8023-cdb4af8e0288")
+	)
+	(wire
+		(pts
+			(xy 152.146 85.344) (xy 185.42 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b08da1-54fd-4ca7-a6fc-37515a69ee2f")
 	)
 	(wire
 		(pts
@@ -9878,16 +9658,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 264.16) (xy 30.48 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7748044-ea45-4d7c-be53-4283d6e140f8")
-	)
-	(wire
-		(pts
 			(xy 296.672 54.102) (xy 296.672 62.992)
 		)
 		(stroke
@@ -9895,6 +9665,16 @@
 			(type default)
 		)
 		(uuid "b7ad5b7a-1474-4ac1-8cb6-d04d97ab074c")
+	)
+	(wire
+		(pts
+			(xy 263.652 23.114) (xy 261.112 23.114)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82cedfa-3190-402f-9511-c4149f624703")
 	)
 	(wire
 		(pts
@@ -9985,16 +9765,6 @@
 			(type default)
 		)
 		(uuid "bcf0fad7-08a6-4476-822e-20ca88b58de1")
-	)
-	(wire
-		(pts
-			(xy 22.86 264.16) (xy 22.86 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6d883d-3b03-4d05-acb7-eac3deaa24aa")
 	)
 	(wire
 		(pts
@@ -10218,6 +9988,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.526 53.594) (xy 271.526 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39aac22-113b-4f1c-9455-4325002e2bba")
+	)
+	(wire
+		(pts
 			(xy 85.09 205.867) (xy 85.09 220.726)
 		)
 		(stroke
@@ -10225,16 +10005,6 @@
 			(type default)
 		)
 		(uuid "d4a64c39-d9f9-4d0b-83e9-0e57d7d03c0b")
-	)
-	(wire
-		(pts
-			(xy 57.2516 42.4942) (xy 57.2516 45.4152)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57b7ab8-be19-46af-91c3-e4439d74850f")
 	)
 	(wire
 		(pts
@@ -10248,13 +10018,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.2216 34.6202) (xy 71.2216 33.0962)
+			(xy 22.86 236.22) (xy 22.86 238.506)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7456b12-e7f7-4587-8f40-02a2a65c6b1a")
+		(uuid "d6f0fe7a-32a7-45db-82e5-041d9e4ab025")
 	)
 	(wire
 		(pts
@@ -10285,16 +10055,6 @@
 			(type default)
 		)
 		(uuid "d88e1f52-35ef-4554-b158-2c2749238b7a")
-	)
-	(wire
-		(pts
-			(xy 86.868 140.208) (xy 89.408 140.208)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8dd30a3-405b-4574-8a2d-9345583b6cff")
 	)
 	(wire
 		(pts
@@ -10608,7 +10368,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 270.51) (xy 44.45 270.51)
+			(xy 30.48 238.506) (xy 44.45 238.506)
 		)
 		(stroke
 			(width 0)
@@ -10715,6 +10475,16 @@
 			(type default)
 		)
 		(uuid "fa1cae82-f1f7-4ec9-be5e-efe00f324463")
+	)
+	(wire
+		(pts
+			(xy 45.974 45.4152) (xy 46.0756 45.4152)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb55ddfd-9446-41bf-b3fb-eec032af780f")
 	)
 	(wire
 		(pts
@@ -11945,7 +11715,7 @@
 		(uuid "2ae3d9e0-311a-43e3-b94d-127a36e92c28")
 	)
 	(label "SPI_MOSI"
-		(at 153.7208 85.344 0)
+		(at 153.9748 85.344 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12629,7 +12399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 329.3872 120.904 0)
 			(effects
 				(font
@@ -12638,7 +12408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/40/Kyocera_AVX_Components_CM025_CM05_CM105_CM21_E217K-2932876.pdf"
 			(at 328.422 117.094 0)
 			(effects
 				(font
@@ -12665,25 +12435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor ref" "187-CL10B475KQ8NQNC"
-			(at 328.422 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "CL10B475KQ8NQNC"
-			(at 328.422 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B475KQ8NQNC?qs=6tbHoouHnQxd6rcaSwpT7Q%3D%3D"
+		(property "Distributor ref" " 581-CM05X5R475M16AH"
 			(at 328.422 117.094 0)
 			(effects
 				(font
@@ -12938,6 +12690,93 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.974 38.608 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e48314-2a4e-4d7a-b3f3-269e940aef34")
+		(property "Reference" "C1"
+			(at 42.164 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 38.862 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 46.9392 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/40/Kyocera_AVX_Components_CM025_CM05_CM105_CM21_E217K-2932876.pdf"
+			(at 45.974 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.974 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 45.974 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor ref" " 581-CM05X5R475M16AH"
+			(at 45.974 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7828189c-be38-46e2-b45e-5043cac90664")
+		)
+		(pin "2"
+			(uuid "19c88857-23f7-4017-b560-f59f71897da7")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13331,6 +13170,72 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 263.652 18.796 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23eb18d0-1f5f-4e38-907a-544d411855d4")
+		(property "Reference" "#PWR07"
+			(at 263.652 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 263.652 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.652 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 263.652 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 263.652 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e1dec79-a587-41a6-9dc1-ece9988fb097")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13771,7 +13676,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 44.45 270.51 0)
+		(at 44.45 238.506 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13780,7 +13685,7 @@
 		(fields_autoplaced yes)
 		(uuid "33c10661-af26-4481-9a3d-a631598608fa")
 		(property "Reference" "#PWR039"
-			(at 44.45 276.86 0)
+			(at 44.45 244.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 275.59 0)
+			(at 44.45 243.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +13702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 270.51 0)
+			(at 44.45 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +13711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 270.51 0)
+			(at 44.45 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13815,7 +13720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 270.51 0)
+			(at 44.45 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13921,7 +13826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_MUX"
+		(property "Value" "+5V_MUX"
 			(at 234.442 206.248 0)
 			(effects
 				(font
@@ -14299,119 +14204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 46.0756 38.4302 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44ae6a50-f8ed-4d3e-a107-ce4f383a5da3")
-		(property "Reference" "C1"
-			(at 42.2656 37.1601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 42.2656 39.7001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.1104 42.2402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf"
-			(at 46.0756 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.0756 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 46.0756 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor ref" "187-CL10B475KQ8NQNC"
-			(at 46.0756 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "CL10B475KQ8NQNC"
-			(at 46.0756 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B475KQ8NQNC?qs=6tbHoouHnQxd6rcaSwpT7Q%3D%3D"
-			(at 46.0756 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a29496e-fd0e-48bc-b65a-33b6460c9056")
-		)
-		(pin "2"
-			(uuid "c5481af0-22ce-4040-bf14-b30005bbecb5")
-		)
-		(instances
-			(project "RPLIDARA1_USB_Adapter"
-				(path "/a5232e51-11b1-4283-b6e1-0bef5adcc77e"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "neopixel_eliot_hat"
-				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 263.144 228.346 0)
 		(unit 1)
@@ -14567,7 +14359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 332.486 224.028 0)
 			(effects
 				(font
@@ -14603,7 +14395,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW12101K80FKEAHP?qs=sGAEpiMZZMtlubZbdhIBID4pqMFJf1xCES2rx%252B9HbxQ%3D"
+		(property "link" "https://www.mouser.ch/ProductDetail/YAGEO/RC0100JR-071K8L?qs=tggtontpCXNix99NCXjT9g%3D%3D"
 			(at 332.486 224.028 0)
 			(effects
 				(font
@@ -14612,7 +14404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CRCW12101K80FKEAHP"
+		(property "Part" " 603-RC0100JR-071K8L "
 			(at 332.486 224.028 0)
 			(effects
 				(font
@@ -15693,7 +15485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_MUX"
+		(property "Value" "+5V_MUX"
 			(at 287.528 184.404 0)
 			(effects
 				(font
@@ -16311,117 +16103,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.4136 38.6842 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71dc4584-ee90-4bf5-80c8-e87137d69af6")
-		(property "Reference" "C1"
-			(at 86.0806 37.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 86.2076 39.3192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.3788 42.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf"
-			(at 83.4136 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.4136 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 83.4136 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor ref" "187-CL10B475KQ8NQNC"
-			(at 83.4136 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "CL10B475KQ8NQNC"
-			(at 83.4136 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B475KQ8NQNC?qs=6tbHoouHnQxd6rcaSwpT7Q%3D%3D"
-			(at 83.4136 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3eb63838-ea9b-4f47-ba22-546c7114a725")
-		)
-		(pin "2"
-			(uuid "ca436c80-dd8e-4ec4-9b06-d3f9f3d65d18")
-		)
-		(instances
-			(project "RPLIDARA1_USB_Adapter"
-				(path "/a5232e51-11b1-4283-b6e1-0bef5adcc77e"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "neopixel_eliot_hat"
-				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 108.0008 72.1614 0)
 		(mirror x)
@@ -16725,117 +16406,6 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 71.2216 38.4302 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7af5cf2f-fa71-4090-a5f6-c2355b75b576")
-		(property "Reference" "C2"
-			(at 74.5236 37.1602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 74.2696 39.4462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 72.1868 42.2402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf"
-			(at 71.2216 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.2216 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 71.2216 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor ref" "TMK107B7104KAHT"
-			(at 71.2216 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "963-TMK107B7104KAHT"
-			(at 71.2216 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://eu.mouser.com/ProductDetail/TAIYO-YUDEN/TMK107B7104KAHT?qs=CNQs48zzdnrXka%2F%2FvxSUzw%3D%3D"
-			(at 71.2216 38.4302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1934fcb1-140f-44cd-b148-eb5d4a8ae693")
-		)
-		(pin "2"
-			(uuid "963b4f0f-65b6-4d55-87f8-06c6071422c5")
-		)
-		(instances
-			(project "RPLIDARA1_USB_Adapter"
-				(path "/a5232e51-11b1-4283-b6e1-0bef5adcc77e"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "neopixel_eliot_hat"
-				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17694,7 +17264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 291.338 218.694 0)
 			(effects
 				(font
@@ -17712,7 +17282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-8APB3322V"
+		(property "Description" "603-RC0100FR-0733K2L"
 			(at 291.338 218.694 0)
 			(effects
 				(font
@@ -17901,118 +17471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.2516 38.6842 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b26e8fa-a3fe-4c19-82ea-2f914a742a3c")
-		(property "Reference" "C2"
-			(at 53.9496 37.4142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 54.2036 39.9542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 56.2864 42.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf"
-			(at 57.2516 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.2516 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 57.2516 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor ref" "TMK107B7104KAHT"
-			(at 57.2516 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "963-TMK107B7104KAHT"
-			(at 57.2516 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://eu.mouser.com/ProductDetail/TAIYO-YUDEN/TMK107B7104KAHT?qs=CNQs48zzdnrXka%2F%2FvxSUzw%3D%3D"
-			(at 57.2516 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20e4a539-7951-42d3-a17c-c7968013ddd3")
-		)
-		(pin "2"
-			(uuid "2f2d4402-1e8a-475a-9da4-1a340bdcdc36")
-		)
-		(instances
-			(project "RPLIDARA1_USB_Adapter"
-				(path "/a5232e51-11b1-4283-b6e1-0bef5adcc77e"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "neopixel_eliot_hat"
-				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 62.484 203.2 0)
@@ -18108,7 +17566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 334.518 210.058 0)
 			(effects
 				(font
@@ -18117,7 +17575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20056"
 			(at 334.518 210.058 0)
 			(effects
 				(font
@@ -18126,7 +17584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "71-CRCW010010K0JREL"
 			(at 334.518 210.058 0)
 			(effects
 				(font
@@ -18144,7 +17602,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://www.mouser.ch/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=sGAEpiMZZMtlubZbdhIBIHFHA%252BLjIXrexE6X%2Fz%252Bm29E%3D"
+		(property "link" "https://www.mouser.ch/ProductDetail/Vishay-Dale/CRCW010010K0JREL?qs=3CaSHoNeR5ts4sapHQK44w%3D%3D"
 			(at 334.518 210.058 0)
 			(effects
 				(font
@@ -18195,7 +17653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 263.144 219.71 0)
 			(effects
 				(font
@@ -18213,7 +17671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TBJB226K010JBLC88EM"
+		(property "Description" ""
 			(at 263.144 219.71 0)
 			(effects
 				(font
@@ -18232,6 +17690,15 @@
 			)
 		)
 		(property "Distributor" "Mouser"
+			(at 263.144 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number" "74-593D226X9010A2TE3"
 			(at 263.144 219.71 0)
 			(effects
 				(font
@@ -18449,6 +17916,93 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 341.122 47.498 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1d10cbb-dadb-4aa8-bdf5-72d00366b5f0")
+		(property "Reference" "C7"
+			(at 343.789 46.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 343.916 48.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 342.0872 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/40/Kyocera_AVX_Components_CM025_CM05_CM105_CM21_E217K-2932876.pdf"
+			(at 341.122 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.122 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 341.122 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor ref" " 581-CM05X5R475M16AH"
+			(at 341.122 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7efc9df-d646-4c5f-b033-0c59376ec83b")
+		)
+		(pin "2"
+			(uuid "7fb4996c-cdd9-47a7-94f3-89082d5bab54")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18754,6 +18308,219 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.4136 38.6842 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2bbfbf-ff45-499a-b0cb-09bc4a02f9df")
+		(property "Reference" "C4"
+			(at 85.344 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 85.344 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 84.3788 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/40/Kyocera_AVX_Components_CM025_CM05_CM105_CM21_E217K-2932876.pdf"
+			(at 83.4136 38.6842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.4136 38.6842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 83.4136 38.6842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor ref" " 581-CM05X5R475M16AH"
+			(at 83.4136 38.6842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff59326-ac1c-4000-8db2-07b3227cb14e")
+		)
+		(pin "2"
+			(uuid "a19dedd8-e2cb-41f5-a2d0-4e602d617b83")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:EVP-BB2A9B000")
+		(at 263.652 23.114 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c57443-99ce-4e91-9642-30515728ea07")
+		(property "Reference" "S2"
+			(at 271.018 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVP-BB2A9B000"
+			(at 268.478 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVPBB2A9B000"
+			(at 168.732 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_2616s.pdf"
+			(at 68.732 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 2.6x1.6mm 1.6N 0.11mm travel IP67"
+			(at 263.652 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0"
+			(at -131.268 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVP-BB2A9B000"
+			(at -231.268 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BB2A9B000?qs=iHX4uCgIbgPa3HqgzZ6vLw%3D%3D"
+			(at -331.268 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -431.268 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVP-BB2A9B000"
+			(at -531.268 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ff30d28-932e-4178-9e2b-d2022fde961f")
+		)
+		(pin "2"
+			(uuid "843a0f8a-1895-4b06-879d-52e5c8c1247a")
+		)
+		(pin "4"
+			(uuid "634967d4-2bfe-4241-b2dc-6a6d2a0b1062")
+		)
+		(pin "1"
+			(uuid "c4c5c37e-5b84-4b49-9415-1fcceb2e99d5")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -19284,34 +19051,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 341.122 47.498 0)
+		(lib_id "power:GND")
+		(at 271.526 53.848 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9c70b41-81ef-4fe5-9bb6-093b62724f55")
-		(property "Reference" "C19"
-			(at 343.789 46.101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 343.916 48.133 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 342.0872 51.308 0)
+		(uuid "b901ba53-bd69-4f05-bef4-1feec30ce2de")
+		(property "Reference" "#PWR010"
+			(at 271.526 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19319,8 +19068,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/585/MLCC-1837944.pdf"
-			(at 341.122 47.498 0)
+		(property "Value" "GND"
+			(at 271.526 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.526 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.526 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19329,43 +19096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.122 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 341.122 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor ref" "187-CL10B475KQ8NQNC"
-			(at 341.122 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "CL10B475KQ8NQNC"
-			(at 341.122 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B475KQ8NQNC?qs=6tbHoouHnQxd6rcaSwpT7Q%3D%3D"
-			(at 341.122 47.498 0)
+			(at 271.526 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19374,15 +19105,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3b2730b-fd2d-43a8-ac86-de42f7f41f6f")
-		)
-		(pin "2"
-			(uuid "69027f43-7753-469a-979c-1409add2a69c")
+			(uuid "56f12879-9505-4c24-984f-b22e2349f3bb")
 		)
 		(instances
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "C19")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19560,6 +19288,112 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.2216 39.7002 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bae0ac5d-8165-4dc4-8f16-4892a3a76639")
+		(property "Reference" "C3"
+			(at 74.168 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 76.2 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GCM155R71H104KE02J"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "490-14514-1-ND"
+			(at 71.2216 39.7002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "215d3094-77fb-439a-a292-0cdd14f09587")
+		)
+		(pin "2"
+			(uuid "0229b430-7bda-407d-92d2-13c9d791f311")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -20199,6 +20033,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 30.48 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca961a82-4f98-42f0-b131-32893f8df0d6")
+		(property "Reference" "J5"
+			(at 30.48 190.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 30.48 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 34.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 34.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 30.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" " 640-USB4105-GF-A"
+			(at 30.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "8ae198fc-0870-46f5-b00a-32758b5ae029")
+		)
+		(pin "A6"
+			(uuid "7f5a29eb-c0af-450e-83fc-bd5b4889cb4b")
+		)
+		(pin "A5"
+			(uuid "488b4298-4440-47cf-9ca0-d19f5412aed3")
+		)
+		(pin "B1"
+			(uuid "47164912-f8c6-43b1-b7f5-994105b738ec")
+		)
+		(pin "A7"
+			(uuid "a5310e47-8a2f-477f-b77d-ec367fb5c791")
+		)
+		(pin "B5"
+			(uuid "8ac1d64d-e2a5-457e-960b-8617706345f8")
+		)
+		(pin "A4"
+			(uuid "b0325ca0-3105-46dc-96c8-4a233751f973")
+		)
+		(pin "B6"
+			(uuid "f875ab53-1051-4e37-ab76-19fbe66eee9e")
+		)
+		(pin "B12"
+			(uuid "0c8c45fc-d5f3-4a4f-b9d8-5cba76f3aa49")
+		)
+		(pin "A9"
+			(uuid "1e859338-3d07-45a7-954c-fc184be7f71c")
+		)
+		(pin "B9"
+			(uuid "f544212b-fdea-4d62-abdb-976eb6775420")
+		)
+		(pin "A12"
+			(uuid "cee64f22-163d-4fe4-b874-83edf25b7fc7")
+		)
+		(pin "S1"
+			(uuid "f6d268a1-cd04-47d9-8bcd-bb7ff6ea80d4")
+		)
+		(pin "B7"
+			(uuid "2a2d490c-5181-4dfb-a8ea-96838cb95ff8")
+		)
+		(pin "B4"
+			(uuid "f270f538-289a-47fa-a3c3-f5ef17e40c59")
+		)
+		(instances
+			(project ""
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 358.394 186.436 180)
 		(unit 1)
@@ -20524,8 +20474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_MCU"
-			(at 83.4136 27.2542 0)
+		(property "Value" "+5V_MUX"
+			(at 83.4136 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20862,7 +20812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 291.338 212.598 0)
 			(effects
 				(font
@@ -20880,7 +20830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CPF0805B464KE1"
+		(property "Description" "603-RC0100FR-07464KL"
 			(at 291.338 212.598 0)
 			(effects
 				(font
@@ -21255,7 +21205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_MUX"
+		(property "Value" "+5V_MUX"
 			(at 338.328 178.562 0)
 			(effects
 				(font
@@ -21733,142 +21683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
-		(at 30.48 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb678ce3-7885-4d8d-816f-d527348b6f8a")
-		(property "Reference" "J3"
-			(at 30.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle"
-			(at 30.48 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
-			(at 34.29 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 34.29 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 30.48 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A6"
-			(uuid "bc08f60e-3ffe-415a-883e-22d638c12e62")
-		)
-		(pin "B6"
-			(uuid "0f8f99fe-d257-43e4-a0d8-294b8ad52c27")
-		)
-		(pin "B7"
-			(uuid "59f3f43d-6bdd-4ed5-81cd-57a74bbd0abe")
-		)
-		(pin "B10"
-			(uuid "a418c293-9ef4-42ac-8d43-155b8d7bbae2")
-		)
-		(pin "B9"
-			(uuid "a01c98cf-e1c1-4e99-b886-af9d4365cf33")
-		)
-		(pin "A12"
-			(uuid "417c29bf-9e1e-405a-be1d-969217b0b9ca")
-		)
-		(pin "A4"
-			(uuid "297628b4-5db6-4a0a-b5ea-d16a364fde5d")
-		)
-		(pin "B2"
-			(uuid "143b1de8-d4a4-4d2c-9620-f3d6934a3605")
-		)
-		(pin "B8"
-			(uuid "0cb64dbc-45b8-41d8-9845-123f386e9c44")
-		)
-		(pin "B12"
-			(uuid "f10d0bc9-df81-4e68-a7db-a4810e7e59a2")
-		)
-		(pin "A7"
-			(uuid "8fd76cb6-8870-4aa4-8ed6-85d5d7b4f7a8")
-		)
-		(pin "A1"
-			(uuid "6e5200d8-f71f-429a-9b9f-773db21c5383")
-		)
-		(pin "A8"
-			(uuid "8c094609-3799-4e81-b8bd-821b048c7d16")
-		)
-		(pin "A9"
-			(uuid "b9da9dbf-5970-4fb0-827e-0b9c8e2a261a")
-		)
-		(pin "B3"
-			(uuid "2777a634-999f-471e-bbdf-7e479ef61e75")
-		)
-		(pin "B1"
-			(uuid "e696ae67-b5c3-4816-8863-01b6b0b5d80c")
-		)
-		(pin "B11"
-			(uuid "55930202-ace1-4522-9918-f5b701c9b247")
-		)
-		(pin "A2"
-			(uuid "26772c8a-b8bd-46a2-83a7-22d354a38f5c")
-		)
-		(pin "S1"
-			(uuid "3c80721a-bba8-4f72-a115-79d685cf5b05")
-		)
-		(pin "A11"
-			(uuid "cc753cda-82ae-40f2-b21d-24fc25660bfa")
-		)
-		(pin "A10"
-			(uuid "f54a6109-1f1b-425b-8cce-a7bef45e4ec8")
-		)
-		(pin "A3"
-			(uuid "9f96da51-3ad7-401e-b6bd-a570a12b8e64")
-		)
-		(pin "B4"
-			(uuid "043b72c5-5c75-43b5-b062-d27f666cbc5a")
-		)
-		(pin "A5"
-			(uuid "304f5971-1e1a-416b-9229-f9d2854a94ac")
-		)
-		(pin "B5"
-			(uuid "5fc8f979-8398-472f-8441-7e128931e4fe")
-		)
-		(instances
-			(project ""
-				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 246.888 196.596 0)
 		(unit 1)
@@ -22172,6 +21986,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 271.526 51.054 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd3abc59-515b-4975-b80c-26d35e3fabff")
+		(property "Reference" "R1"
+			(at 272.6182 48.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 272.6182 50.7238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 271.526 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 271.526 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.526 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 271.526 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "link" "https://www.mouser.ch/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=sGAEpiMZZMtlubZbdhIBIHFHA%252BLjIXrexE6X%2Fz%252Bm29E%3D"
+			(at 271.526 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5edb4c15-80b2-402a-91fa-f9b57a2ace0c")
+		)
+		(pin "2"
+			(uuid "b1d3f534-bc86-4ad2-bd01-05c00075bf64")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_power_protection:PESD4USB3U-TBSX")
 		(at 85.598 145.288 0)
 		(mirror y)
@@ -22296,6 +22198,112 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.2516 37.4142 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff09647a-d3ab-48ae-9303-b1cbc593dd33")
+		(property "Reference" "C2"
+			(at 54.7116 36.1505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 54.7116 38.6905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GCM155R71H104KE02J"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "490-14514-1-ND"
+			(at 57.2516 37.4142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00808809-55d7-4d39-b581-0372b5aa5e92")
+		)
+		(pin "2"
+			(uuid "e99e0fc2-449b-411d-9f63-10d6f435ceab")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "C2")
 					(unit 1)
 				)
 			)
