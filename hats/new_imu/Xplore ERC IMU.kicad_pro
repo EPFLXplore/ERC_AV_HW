@@ -80,7 +80,6 @@
         "clearance|150825000|100662500|790b32a5-e85c-47ae-8b57-cfb8a3a3d2f5|f86419c7-a0a2-466f-bc39-efe31ff924dc",
         "clearance|150825000|101312500|36e4ba2a-38ec-42ce-95c7-1895f5d27585|a8488061-311a-409b-9be7-4c3c0c89355c",
         "clearance|150825000|101812500|e8eaa16d-ce1c-4cb5-aef6-3ba8b10a3153|36e4ba2a-38ec-42ce-95c7-1895f5d27585",
-        "lib_footprint_issues|142400000|93150000|85eb6553-86ca-4ddb-ad3c-389bd728fd03|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|123400000|103700000|4acdd47f-ded2-46ab-b137-078eea854910|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|145045000|108900000|5f4c70fc-5eb5-4b85-ad7d-40acb5fbea1d|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|154150000|101450000|e9460620-0797-4d4c-a192-42669a35beb6|00000000-0000-0000-0000-000000000000",
@@ -540,7 +539,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "misc\\Xplore ERC IMU.csv",
+    "bom_export_filename": "BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -703,6 +702,30 @@
           "group_by": false,
           "label": "Availability",
           "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1",
+          "name": "Supplier 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number 1",
+          "name": "Supplier Part Number 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],

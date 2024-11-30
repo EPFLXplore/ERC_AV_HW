@@ -8449,7 +8449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_switch_button:7M25000MAAJT"
+		(property "Footprint" "0_switch_button:CAS-220A_NDC"
 			(at 41.91 142.24 0)
 			(effects
 				(font
