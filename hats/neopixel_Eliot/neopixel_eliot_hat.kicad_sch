@@ -7671,10 +7671,6 @@
 		(uuid "75f80914-4358-4efe-9c03-a9bdb30bf20d")
 	)
 	(no_connect
-		(at 271.272 87.122)
-		(uuid "841b86fa-295d-4129-8ba6-d8b19e27857c")
-	)
-	(no_connect
 		(at 287.782 62.992)
 		(uuid "8d05632c-973e-41e6-a909-36dea2e77927")
 	)
@@ -7958,16 +7954,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.056 85.852) (xy 319.532 85.852)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130e151f-b5a6-4b3e-9fb5-e66a5ee68245")
-	)
-	(wire
-		(pts
 			(xy 45.974 45.4152) (xy 45.974 42.418)
 		)
 		(stroke
@@ -8058,16 +8044,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.056 84.582) (xy 321.056 85.852)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213d4473-fcba-4095-847e-01203397fbb8")
-	)
-	(wire
-		(pts
 			(xy 319.532 90.932) (xy 334.772 90.932)
 		)
 		(stroke
@@ -8128,6 +8104,16 @@
 	)
 	(wire
 		(pts
+			(xy 268.986 85.852) (xy 268.986 87.122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267e45de-4ddc-499d-ba19-fe28b7332482")
+	)
+	(wire
+		(pts
 			(xy 243.078 188.214) (xy 243.078 192.024)
 		)
 		(stroke
@@ -8165,6 +8151,16 @@
 			(type default)
 		)
 		(uuid "2a217d3e-2603-4791-827c-9e8fa47f4069")
+	)
+	(wire
+		(pts
+			(xy 266.192 85.852) (xy 268.986 85.852)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a398022-7cf6-4f57-9812-d28b98465b26")
 	)
 	(wire
 		(pts
@@ -8595,16 +8591,6 @@
 			(type default)
 		)
 		(uuid "579dec8b-43a3-4614-8d0c-10711540e865")
-	)
-	(wire
-		(pts
-			(xy 323.342 84.582) (xy 321.056 84.582)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fb9de1-8a07-4711-84e0-b5c41089f1c8")
 	)
 	(wire
 		(pts
@@ -9095,6 +9081,16 @@
 			(type default)
 		)
 		(uuid "8442f96e-0278-4371-aaf6-4e23f3343b0d")
+	)
+	(wire
+		(pts
+			(xy 268.986 87.122) (xy 271.272 87.122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8566a456-7c4f-4b6c-a912-806f49159f6b")
 	)
 	(wire
 		(pts
@@ -11660,13 +11656,13 @@
 		(uuid "12094aa4-4956-447a-ba28-030810dcb29b")
 	)
 	(label "SIGNAL_LED"
-		(at 323.342 84.582 0)
+		(at 266.192 85.852 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1ce96e80-15b5-45f9-8a54-ff4d168a6e4f")
 	)
@@ -15195,73 +15191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_lib_power_symbols:+5V_MCU")
-		(at 100.8888 63.627 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59493479-3c13-4366-aed9-828957bee00c")
-		(property "Reference" "#PWR08"
-			(at 107.8738 59.817 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_MCU"
-			(at 100.8888 59.817 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.8888 63.627 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.8888 63.627 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.8888 63.627 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7611eb22-e99a-4aaf-bd4b-c2bf34fcfe89")
-		)
-		(instances
-			(project "neopixel_eliot_hat"
-				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 223.774 0)
 		(unit 1)
@@ -16855,6 +16784,73 @@
 			(project "neopixel_eliot_hat"
 				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_lib_power_symbols:+5V_MCU")
+		(at 100.8888 63.627 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2486ba-d8a2-4db8-9462-c4d1d0a78ee4")
+		(property "Reference" "#PWR017"
+			(at 107.8738 59.817 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MUX"
+			(at 100.8888 59.2328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.8888 63.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.8888 63.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.8888 63.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2425ad7-b486-4758-8066-eead123c52e6")
+		)
+		(instances
+			(project "neopixel_eliot_hat"
+				(path "/ea4fb34b-4bfb-4113-b9d8-588f8d49f3b7"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
