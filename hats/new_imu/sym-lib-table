@@ -13,4 +13,5 @@
   (lib (name "D5V0H1B2LP_7B")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/D5V0H1B2LP_7B.kicad_sym")(options "")(descr ""))
   (lib (name "TPD4E05U06DQAR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
   (lib (name "TPD6E05U06RVZR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD6E05U06RVZR.kicad_sym")(options "")(descr ""))
+  (lib (name "SP3205_01ETG")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/SP3205_01ETG.kicad_sym")(options "")(descr ""))
 )
