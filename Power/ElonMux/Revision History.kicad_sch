@@ -185,10 +185,10 @@
 		)
 		(uuid "7cea8527-91c8-47c3-a860-064e128bcffe")
 	)
-	(text_box "- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+	(text_box "- Added solder jumpers for GPIO3, to be able to choose between USB or JTAG lines flashing.\n\n- Changed charger's MOSFETs to reduce losses, therefore reducing heat to an acceptable level. Old: CSD18540Q5B \nNew: BSC059N04LS6\n\n- Added UART programming support.\n\n- Placed TVS diodes before the 27Ω resistors for the JTAG lines.\n\n- Improved documentation for Connectors & LED schematic.\n\n- Fixed TS connection of drivers for power path.\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
 		(exclude_from_sim no)
 		(at 154.94 40.64 0)
-		(size 58.42 115.57)
+		(size 59.055 115.57)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -228,7 +228,7 @@
 		)
 		(uuid "922c5813-4880-4ddf-ba01-939f72022a9d")
 	)
-	(text_box "- Added polarity to the XT60 connectors.\n\n- Completely re-rooted the charger section with the following improvements: wider gate traces, switched to 2 layer for the power planes, greatly improved the overall rooting especially the diff pairs.\n\n- Added thermal reliefs.\n\n- Simulated then added feritte bead EMI filtering at the inputs of the 3v3 buck.\n\n- Improved Branding.\n\n- Improved fiducials placement by a LOT.\n\n- Added 4th mounting hole.\n\n- Increased board lenght by 5mm (95->100)\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+	(text_box "- Added polarity to the XT60 connectors.\n\n- Completely re-rooted the charger section with the following improvements: wider gate traces, switched to 2 layer for the power planes, greatly improved the overall rooting especially the diff pairs.\n\n- Added thermal reliefs.\n\n- Simulated then added feritte bead EMI filtering at the inputs of the 3v3 buck.\n\n- Improved Branding.\n\n- Fixed fiducials placement.\n\n- Added 4th mounting hole.\n\n- Increased board lenght by 5mm (95->100)\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
 		(exclude_from_sim no)
 		(at 88.9 40.64 0)
 		(size 58.42 115.57)

@@ -2744,12 +2744,6 @@
 		(uuid "70f5dbd7-dd8c-4d91-bd74-e8e4c38bb899")
 	)
 	(junction
-		(at 250.19 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "753c1c59-9532-41ea-aac6-181c898c5cd7")
-	)
-	(junction
 		(at 242.57 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2900,6 +2894,18 @@
 		(uuid "af3426b4-0bcd-4bd7-bfc3-49cc43a0993d")
 	)
 	(junction
+		(at 250.19 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2670e5e-c6c7-483f-a7c4-20da0623ab9a")
+	)
+	(junction
+		(at 250.19 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98902bb-7fa0-4267-9510-a810fde5831f")
+	)
+	(junction
 		(at 218.44 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2922,12 +2928,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c376ff59-2f55-4e63-a8e9-5775f325fb50")
-	)
-	(junction
-		(at 250.19 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb66e6da-d39b-497e-a988-b35496f33160")
 	)
 	(junction
 		(at 316.23 43.18)
@@ -3826,6 +3826,17 @@
 			(type default)
 		)
 		(uuid "46bad609-6ee7-4a18-93e9-d24a0868964c")
+	)
+	(polyline
+		(pts
+			(xy 210.82 276.225) (xy 235.585 242.57)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "47afd845-4064-4aa9-81b4-7354b14c14c5")
 	)
 	(wire
 		(pts
@@ -5895,6 +5906,19 @@
 			(type none)
 		)
 		(uuid c270610a-b615-48f5-a2ff-0f5ae16ab579)
+	)
+	(rectangle
+		(start 201.295 276.225)
+		(end 210.82 280.67)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4aa4fe3-78fc-42ba-a264-2fc316e5eebf)
 	)
 	(rectangle
 		(start 327.66 173.99)
@@ -9226,7 +9250,7 @@
 	(text_box "DESIGN NOTE - Gate resistors:\n\nTypical MOSFET switching time for 500kHz Buck-Boost: 50ns\nInternal LM51772 gate resistors: \nHigh-side pull-up (HO1, HO2): 1.5 ohms.\nHigh-side pull-down (HO1, HO2): 0.8 ohms.\nLow-side pull-up (LO1, LO2): 1.8 ohms.\nLow-side pull-down(LO1, LO2): 0.9 ohms​.\nSwitching Speed: tswitch = Rtotal x Qg = 50ns\nwhere Rtotal = Rgate_ext + Rgate_MOS + Rgate_driver. \nThe CSD18540Q5B has a total gate charge Qg of 41nC (when driven at 10V)\nRtotal = tswich / Qg		-> 		Rtotal = 50ns/41nC ≈ 1.22 Ohm\nRgate_ext = Rtotal - Rgate_driver - Rgate_MOS = 1.22 - 1.5 - 0.8  < 0 Ohm \n\n"
 		(exclude_from_sim no)
 		(at 66.04 221.615 0)
-		(size 80.645 57.785)
+		(size 80.645 60.325)
 		(stroke
 			(width 1)
 			(type solid)
@@ -9538,6 +9562,28 @@
 		)
 		(uuid "7f5079df-dee4-46d5-aecb-b6bce2ae0c88")
 	)
+	(text_box "DESIGN NOTE - Thermal dissipation\n\nThermal resistance:\n50°C/W\n-> 0.65W * 50°C\n= 32,5 °C increase\n\nMOSFET @ ~55 °C \n"
+		(exclude_from_sim no)
+		(at 231.775 221.615 0)
+		(size 29.21 60.325)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a8fdbfa6-36fa-4713-a422-fc2a3e619ba5")
+	)
 	(text_box "24V"
 		(exclude_from_sim no)
 		(at 374.65 182.88 0)
@@ -9801,6 +9847,28 @@
 			(justify left top)
 		)
 		(uuid "ef1e0931-342d-40f7-a5c4-a817be428c64")
+	)
+	(text_box "DESIGN NOTE - Charger Losses:\n\nSwitching losses:\nPswitch = 0.5 * Vds * I * (trise + tfall) * fswitch\nPswitch = 0.5 * 28.8 V * 7 A * (1.2ns + 2 ns) * 600 kHz\nPswitch = 0.19 W\n\nConduction losses:\nPcond = I^2 * Rds\nPcond = 7^2 A * 5.9 mOmh = 0.29 W\n\nGate drive losses:\nPgate = Qg * Vgs * fswitch\nPgate = 9.4nC * 28.8V * 600 kHz\nPgate = 0.16 W\n\nTotal power = 0.19W + 0.29W + 0.16W = 0.65W"
+		(exclude_from_sim no)
+		(at 148.59 221.615 0)
+		(size 80.645 60.325)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f3a29bde-5b1b-44a6-a644-654bb018623e")
 	)
 	(text "LM51772 Evaluation module p.13"
 		(exclude_from_sim no)
@@ -10814,6 +10882,122 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD18540Q5B")
+		(at 245.11 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00347f9b-14f7-4d13-a454-5f8be78a0291")
+		(property "Reference" "Q704"
+			(at 237.236 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC059N04LS6ATMA1"
+			(at 230.124 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:BSC059N04LS6ATMA1"
+			(at 240.03 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
+			(at 240.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "OptiMOS Power-Transistor"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BSC059N04LS6ATMA1"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "726-BSC059N04LS6ATMA"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba8841cd-82ca-4225-ad44-443bb98101f7")
+		)
+		(pin "1"
+			(uuid "f94fbcc6-2bc4-4c92-b6a8-db6f0dc8205d")
+		)
+		(pin "3"
+			(uuid "14114e7a-f25b-476a-af77-85c8d43a1008")
+		)
+		(pin "4"
+			(uuid "3ba84575-74ca-4c90-9eb0-f9de70de3070")
+		)
+		(pin "5"
+			(uuid "479cd23e-9d2f-4593-a835-97e6a26222b2")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "Q704")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -13079,122 +13263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD18540Q5B")
-		(at 245.11 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54988439-8adb-4afd-9104-c2109a472919")
-		(property "Reference" "Q704"
-			(at 237.236 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSD18540Q5B"
-			(at 233.68 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 240.03 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18540q5b"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CSD18540Q5B"
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "595-CSD18540Q5B"
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 245.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33d33bb2-f8af-407e-b3c3-08a782f26803")
-		)
-		(pin "1"
-			(uuid "1a219296-3f13-4a2d-b6b1-278711eb5eb4")
-		)
-		(pin "3"
-			(uuid "4d0d7b78-858e-4200-b925-e93c3a18e5df")
-		)
-		(pin "4"
-			(uuid "661f69ca-549b-4cb5-a749-a55eaa15d4c4")
-		)
-		(pin "5"
-			(uuid "93479626-1649-4f7c-b88e-59220484845e")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "Q704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 143.51 66.04 0)
 		(mirror y)
@@ -13866,121 +13934,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R709")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:CSD18540Q5B")
-		(at 198.12 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c0fb529-35de-43e6-80c2-df28832bffc5")
-		(property "Reference" "Q703"
-			(at 205.994 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSD18540Q5B"
-			(at 209.55 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 203.2 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18540q5b"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"
-			(at 198.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CSD18540Q5B"
-			(at 198.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 198.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "595-CSD18540Q5B"
-			(at 198.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 198.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "605860c7-556b-4a8f-a561-202a53a435c8")
-		)
-		(pin "1"
-			(uuid "6fdfa877-1fbe-4bdc-847d-6b763709b9fa")
-		)
-		(pin "3"
-			(uuid "7a72cd41-41fa-49de-aeea-3015a52ad7a9")
-		)
-		(pin "4"
-			(uuid "c814a63f-a2aa-485d-9376-ba6db66b9aa3")
-		)
-		(pin "5"
-			(uuid "ce88f240-dcdc-42b5-80a1-a6681f494df9")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "Q703")
 					(unit 1)
 				)
 			)
@@ -16008,122 +15961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:CSD18540Q5B")
-		(at 245.11 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba6e60e3-8074-4c67-8a78-95b71c3dec75")
-		(property "Reference" "Q702"
-			(at 237.236 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSD18540Q5B"
-			(at 233.68 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 240.03 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18540q5b"
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CSD18540Q5B"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "595-CSD18540Q5B"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6199940-adc0-4911-be49-9dcce6fd0f1f")
-		)
-		(pin "1"
-			(uuid "a86140bb-178f-4c52-974d-f28fc1695997")
-		)
-		(pin "3"
-			(uuid "46947d94-5734-4261-a8a8-d99b68b7e4e9")
-		)
-		(pin "4"
-			(uuid "d4d03411-a7d8-4447-9a2d-8cbad9b6b0df")
-		)
-		(pin "5"
-			(uuid "861f435c-9f73-4500-b14c-576ea74a2fd2")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "Q702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 93.98 176.53 180)
 		(unit 1)
@@ -17286,15 +17123,15 @@
 				)
 			)
 		)
-		(property "Value" "CSD18540Q5B"
-			(at 209.55 51.816 0)
+		(property "Value" "BSC059N04LS6ATMA1"
+			(at 213.106 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Charge_Manager_FP:BSC059N04LS6ATMA1"
 			(at 203.2 52.705 0)
 			(effects
 				(font
@@ -17305,7 +17142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18540q5b"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
 			(at 203.2 54.61 0)
 			(effects
 				(font
@@ -17315,7 +17152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"
+		(property "Description" "OptiMOS Power-Transistor"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -17324,7 +17161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CSD18540Q5B"
+		(property "Manufacturer Part Number" "BSC059N04LS6ATMA1"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -17333,7 +17170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "Infineon Technologies"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -17342,7 +17179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "595-CSD18540Q5B"
+		(property "Supplier Part Number" "726-BSC059N04LS6ATMA"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -17811,6 +17648,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:CSD18540Q5B")
+		(at 198.12 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6bb2b6f-bd47-4084-856d-6c7da161e54f")
+		(property "Reference" "Q703"
+			(at 205.994 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC059N04LS6ATMA1"
+			(at 213.106 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:BSC059N04LS6ATMA1"
+			(at 203.2 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
+			(at 203.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "OptiMOS Power-Transistor"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BSC059N04LS6ATMA1"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "726-BSC059N04LS6ATMA"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61f206d4-76cb-411b-acb4-98360ea1dcdc")
+		)
+		(pin "1"
+			(uuid "b8e0046e-daea-4acf-9d95-6c66366b94d5")
+		)
+		(pin "3"
+			(uuid "60a69166-f9be-4582-b637-2fe4dcb74c6c")
+		)
+		(pin "4"
+			(uuid "5d7de74f-3792-4b94-9521-df6c3c351c91")
+		)
+		(pin "5"
+			(uuid "428e796e-805e-4e7e-83ff-4c6e346cb920")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "Q703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 187.96 55.88 270)
 		(unit 1)
@@ -17908,6 +17860,122 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD18540Q5B")
+		(at 245.11 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe219c4e-6396-4ae3-9f20-26689c1a24b3")
+		(property "Reference" "Q702"
+			(at 237.236 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC059N04LS6ATMA1"
+			(at 230.378 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:BSC059N04LS6ATMA1"
+			(at 240.03 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
+			(at 240.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "OptiMOS Power-Transistor"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BSC059N04LS6ATMA1"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "726-BSC059N04LS6ATMA"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3c4776d-7cb6-45f6-89b9-ee910abe9191")
+		)
+		(pin "1"
+			(uuid "282eaf6a-2fc1-41f7-9ef9-736654d1394b")
+		)
+		(pin "3"
+			(uuid "50a04b48-5807-4403-9f17-246dc6c4ee94")
+		)
+		(pin "4"
+			(uuid "71e4beb4-dfef-4f1b-9290-c8a8394f1436")
+		)
+		(pin "5"
+			(uuid "133c3c1a-f63d-418c-898d-f15b3f000be2")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "Q702")
 					(unit 1)
 				)
 			)

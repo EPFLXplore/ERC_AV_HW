@@ -546,56 +546,56 @@
 		)
 	)
 	(junction
-		(at 156.21 101.6)
+		(at 151.13 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d58d6eb-38b1-49a7-9bfd-8567ac554647")
 	)
 	(junction
-		(at 182.88 91.44)
+		(at 179.07 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33fa7a52-718c-4ab4-bee0-653facd89c01")
 	)
 	(junction
-		(at 128.27 91.44)
+		(at 121.92 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61f22260-bc5b-4e1a-870f-ba945da94db6")
 	)
 	(junction
-		(at 128.27 101.6)
+		(at 121.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ccc7afc-7011-4bb4-a8d1-41d9222b2eb4")
 	)
 	(junction
-		(at 95.25 91.44)
+		(at 92.71 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f2bca8e-0a3d-44c2-8187-58aadfbb4df0")
 	)
 	(junction
-		(at 156.21 91.44)
+		(at 151.13 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9926c7db-95ea-4a98-a36c-391f6639d7b5")
 	)
 	(junction
-		(at 182.88 101.6)
+		(at 179.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5bf4a6b-ee7d-4823-8b4f-bcfec546e9e2")
 	)
 	(junction
-		(at 95.25 101.6)
+		(at 92.71 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c77fbc-cd91-4581-bdf7-bb5067e3a938")
 	)
 	(wire
 		(pts
-			(xy 156.21 91.44) (xy 162.56 91.44)
+			(xy 151.13 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 101.6 92.71)
+			(xy 99.06 91.44) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -615,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 128.27 91.44)
+			(xy 121.92 88.9) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -625,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 156.21 91.44)
+			(xy 144.78 91.44) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 99.06) (xy 176.53 101.6)
+			(xy 172.72 99.06) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -645,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 149.86 101.6)
+			(xy 144.78 99.06) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -655,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 91.44) (xy 101.6 91.44)
+			(xy 92.71 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -665,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 101.6)
+			(xy 157.48 100.33) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -675,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 162.56 92.71)
+			(xy 157.48 91.44) (xy 157.48 92.71)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +685,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 156.21 91.44)
+			(xy 151.13 88.9) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 134.62 101.6)
+			(xy 128.27 100.33) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -705,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 128.27 104.14)
+			(xy 121.92 101.6) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 134.62 92.71)
+			(xy 128.27 91.44) (xy 128.27 92.71)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 95.25 91.44)
+			(xy 86.36 91.44) (xy 92.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +735,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 95.25 104.14)
+			(xy 92.71 101.6) (xy 92.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 100.33) (xy 101.6 101.6)
+			(xy 99.06 100.33) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 182.88 91.44)
+			(xy 179.07 88.9) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +765,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 101.6 101.6)
+			(xy 92.71 101.6) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 156.21 104.14)
+			(xy 151.13 101.6) (xy 151.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 128.27 101.6)
+			(xy 115.57 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -795,7 +795,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 149.86 93.98)
+			(xy 144.78 91.44) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 91.44) (xy 189.23 91.44)
+			(xy 179.07 91.44) (xy 185.42 91.44)
 		)
 		(stroke
 			(width 0)
@@ -815,7 +815,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 182.88 104.14)
+			(xy 179.07 101.6) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +825,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 88.9 93.98)
+			(xy 86.36 91.44) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 182.88 101.6)
+			(xy 172.72 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -845,7 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 121.92 101.6)
+			(xy 115.57 99.06) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 88.9 101.6)
+			(xy 86.36 99.06) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 162.56 101.6)
+			(xy 151.13 101.6) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 91.44) (xy 134.62 91.44)
+			(xy 121.92 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 95.25 101.6)
+			(xy 86.36 101.6) (xy 92.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 91.44) (xy 176.53 93.98)
+			(xy 172.72 91.44) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 134.62 101.6)
+			(xy 121.92 101.6) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 100.33) (xy 189.23 101.6)
+			(xy 185.42 100.33) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 91.44) (xy 182.88 91.44)
+			(xy 172.72 91.44) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 91.44) (xy 189.23 92.71)
+			(xy 185.42 91.44) (xy 185.42 92.71)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.9) (xy 95.25 91.44)
+			(xy 92.71 88.9) (xy 92.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 121.92 93.98)
+			(xy 115.57 91.44) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 189.23 101.6)
+			(xy 179.07 101.6) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 156.21 101.6)
+			(xy 144.78 101.6) (xy 151.13 101.6)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 128.27 91.44)
+			(xy 115.57 91.44) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1212,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 96.52 0)
+		(at 86.36 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1220,7 +1220,7 @@
 		(dnp yes)
 		(uuid "2884d995-72ec-42dd-a596-0d2255c60794")
 		(property "Reference" "C1201"
-			(at 91.44 96.52 0)
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Value" "1n X7R 1kV"
-			(at 90.805 98.425 0)
+			(at 88.265 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1256,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1283,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 			)
 		)
 		(property "Supplier Part Number" "80-C0603C102MDRAC"
-			(at 88.9 96.52 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 96.52 0)
+		(at 157.48 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1388,7 +1388,7 @@
 		(dnp yes)
 		(uuid "3d788c63-22bf-43af-a2d7-c6163baa2bdc")
 		(property "Reference" "R1203"
-			(at 167.132 95.504 0)
+			(at 162.052 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "Value" "0R 1%"
-			(at 167.132 97.79 0)
+			(at 162.052 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.782 96.52 90)
+			(at 155.702 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 162.56 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1431,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-100RL"
-			(at 162.56 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 162.56 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1449,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 162.56 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1458,7 @@
 			)
 		)
 		(property "Supplier Part Number" "603-RC0603FR-100RL"
-			(at 162.56 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 104.14 0)
+		(at 121.92 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1492,7 +1492,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fe6a543-914a-4e61-94e6-cc258ccaaa3e")
 		(property "Reference" "#PWR01202"
-			(at 128.27 110.49 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 108.585 0)
+			(at 121.92 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 104.14 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 104.14 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 104.14 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 176.53 96.52 0)
+		(at 172.72 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1621,7 +1621,7 @@
 		(dnp yes)
 		(uuid "78af3273-400c-4249-a938-83e9ff55900e")
 		(property "Reference" "C1204"
-			(at 179.07 96.52 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 			)
 		)
 		(property "Value" "1n X7R 1kV"
-			(at 178.435 98.425 0)
+			(at 174.625 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1639,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1675,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "Supplier Part Number" "80-C0603C102MDRAC"
-			(at 176.53 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 104.14 0)
+		(at 151.13 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1727,7 +1727,7 @@
 		(fields_autoplaced yes)
 		(uuid "8be8b4fb-87f3-411e-9ee8-8176f111d461")
 		(property "Reference" "#PWR01203"
-			(at 156.21 110.49 0)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 108.585 0)
+			(at 151.13 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 104.14 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,7 +1754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 104.14 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 104.14 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 96.52 0)
+		(at 185.42 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1793,7 +1793,7 @@
 		(dnp yes)
 		(uuid "8c855958-6344-4cdf-88a4-214229cccac4")
 		(property "Reference" "R1204"
-			(at 193.802 95.504 0)
+			(at 189.992 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 			)
 		)
 		(property "Value" "0R 1%"
-			(at 193.802 97.79 0)
+			(at 189.992 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1809,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 187.452 96.52 90)
+			(at 183.642 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1818,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 189.23 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1836,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-100RL"
-			(at 189.23 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1845,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 189.23 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1854,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 189.23 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1863,7 @@
 			)
 		)
 		(property "Supplier Part Number" "603-RC0603FR-100RL"
-			(at 189.23 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 96.52 0)
+		(at 99.06 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1959,7 +1959,7 @@
 		(dnp yes)
 		(uuid "a399cbc2-13a0-4457-ad95-b26dbc013c64")
 		(property "Reference" "R1201"
-			(at 106.172 95.504 0)
+			(at 103.632 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(property "Value" "0R 1%"
-			(at 106.172 97.79 0)
+			(at 103.632 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.822 96.52 90)
+			(at 97.282 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1984,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1993,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2002,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-100RL"
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2029,7 @@
 			)
 		)
 		(property "Supplier Part Number" "603-RC0603FR-100RL"
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2054,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 156.21 86.36 0)
+		(at 151.13 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2063,7 +2063,7 @@
 		(fields_autoplaced yes)
 		(uuid "a96bfb72-c926-4acd-9427-3f29c27cdece")
 		(property "Reference" "H1203"
-			(at 159.385 83.8199 0)
+			(at 154.305 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2072,7 @@
 			)
 		)
 		(property "Value" "M3 (3.2mm)"
-			(at 159.385 86.3599 0)
+			(at 154.305 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 156.21 86.36 0)
+			(at 151.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 86.36 0)
+			(at 151.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 86.36 0)
+			(at 151.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 104.14 0)
+		(at 92.71 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2130,7 +2130,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac12b213-bacf-4c3e-9b32-03656e9c5a65")
 		(property "Reference" "#PWR01201"
-			(at 95.25 110.49 0)
+			(at 92.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 108.585 0)
+			(at 92.71 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 104.14 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 104.14 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 104.14 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 104.14 0)
+		(at 179.07 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2197,7 +2197,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac93f4ed-8108-4e46-89f6-a6a5f2121176")
 		(property "Reference" "#PWR01204"
-			(at 182.88 110.49 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 108.585 0)
+			(at 179.07 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 104.14 0)
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 104.14 0)
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 104.14 0)
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 96.52 0)
+		(at 144.78 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2263,7 +2263,7 @@
 		(dnp no)
 		(uuid "aeb4ce24-513d-4062-bca5-975621bba9d4")
 		(property "Reference" "C1203"
-			(at 152.4 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 			)
 		)
 		(property "Value" "1n X7R 1kV"
-			(at 151.765 98.425 0)
+			(at 146.685 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2299,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2317,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2326,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(property "Supplier Part Number" "80-C0603C102MDRAC"
-			(at 149.86 96.52 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 86.36 0)
+		(at 121.92 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2369,7 +2369,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36bb45a-82e1-4e63-8345-57dbc22f3994")
 		(property "Reference" "H1202"
-			(at 131.445 83.8199 0)
+			(at 125.095 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2378,7 @@
 			)
 		)
 		(property "Value" "M3 (3.2mm)"
-			(at 131.445 86.3599 0)
+			(at 125.095 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2387,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 128.27 86.36 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 86.36 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 86.36 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 96.52 0)
+		(at 128.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2435,7 +2435,7 @@
 		(dnp yes)
 		(uuid "b948d3bf-1203-4827-9a9d-dc9ebe441416")
 		(property "Reference" "R1202"
-			(at 139.192 95.504 0)
+			(at 132.842 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2443,7 @@
 			)
 		)
 		(property "Value" "0R 1%"
-			(at 139.192 97.79 0)
+			(at 132.842 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.842 96.52 90)
+			(at 126.492 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 134.62 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-100RL"
-			(at 134.62 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2487,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 134.62 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +2496,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 134.62 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Supplier Part Number" "603-RC0603FR-100RL"
-			(at 134.62 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2530,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 96.52 0)
+		(at 115.57 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2538,7 +2538,7 @@
 		(dnp yes)
 		(uuid "c95d7e6d-0e85-4d87-b21a-a6c7f96b7237")
 		(property "Reference" "C1202"
-			(at 124.46 96.52 0)
+			(at 118.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2547,7 @@
 			)
 		)
 		(property "Value" "1n X7R 1kV"
-			(at 123.825 98.425 0)
+			(at 117.475 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2556,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2565,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_C1010_X7R_HV_SMD-3316377.pdf"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2574,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000V 1kpF 0603 X7R 20%"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2583,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2592,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C102MDRAC7081"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2601,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(property "Supplier Part Number" "80-C0603C102MDRAC"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 182.88 86.36 0)
+		(at 179.07 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2644,7 +2644,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc1ef602-cf61-4a17-9d60-4f2a7f4a4ff8")
 		(property "Reference" "H1204"
-			(at 186.055 83.8199 0)
+			(at 182.245 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "Value" "M3 (3.2mm)"
-			(at 186.055 86.3599 0)
+			(at 182.245 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 182.88 86.36 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 86.36 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 86.36 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2828,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 95.25 86.36 0)
+		(at 92.71 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2837,7 +2837,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2c5cc7c-1aed-4fb9-a7da-5c84ea18af01")
 		(property "Reference" "H1201"
-			(at 98.425 83.8199 0)
+			(at 95.885 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2846,7 @@
 			)
 		)
 		(property "Value" "M3 (3.2mm)"
-			(at 98.425 86.3599 0)
+			(at 95.885 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2855,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 95.25 86.36 0)
+			(at 92.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 86.36 0)
+			(at 92.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 86.36 0)
+			(at 92.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

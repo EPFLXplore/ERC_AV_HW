@@ -13820,7 +13820,7 @@
 			"EBHRrhg8RES0KwYPERHtisFDRES7+gcBGmpUY36r4gAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "SMBJ33CA:\n\nReverse Stand off voltage: 33.0V (maximum continuous voltage that can be applied to the diode without it conducting significant current)\nMin Breakdown Voltage: 36.70V\nMax Breakdown Voltage: 40.6V \nThe breakdown voltage range (from 36.7V to 40.6V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 53.30V (maximun voltage the protected circuit will experience for any spike of 48.4V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
+	(text_box "SMBJ33CA:\n\nReverse Stand off voltage (= working voltage): 33.0V (maximum continuous voltage that can be applied to the diode without it conducting current)\nMin Breakdown Voltage: 36.70V\nMax Breakdown Voltage: 38.6V \nThe breakdown voltage range (from 36.7V to 38.6V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 53.30V (maximun voltage the protected circuit will experience for any spike of 53.3V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
 		(exclude_from_sim no)
 		(at 73.025 243.205 0)
 		(size 187.325 34.29)
@@ -14812,7 +14812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=09a6ae9a-73cb-4ac4-acac-e6dab92ab953&filename=littelfuse_tvs_diode_smbj_datasheet.pdf"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/smbj58ca-3078723.pdf"
 			(at -22.2 74.93 0)
 			(effects
 				(font
