@@ -18878,7 +18878,7 @@
 		)
 		(uuid "b01ca20d-d96d-4337-af64-8938234da3be")
 	)
-	(label "FB"
+	(label "FB_3v3"
 		(at 166.37 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19960,7 +19960,7 @@
 				)
 			)
 		)
-		(property "Value" "56R 1% 0.5W"
+		(property "Value" "56R 1% 0.1W"
 			(at 224.028 73.914 0)
 			(effects
 				(font
@@ -19968,7 +19968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.392 72.39 90)
 			(effects
 				(font
@@ -19977,7 +19977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 217.17 72.39 0)
 			(effects
 				(font
@@ -19995,7 +19995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SG73P2ATTD56R0F"
+		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
 			(at 217.17 72.39 0)
 			(effects
 				(font
@@ -20013,7 +20013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer"
+		(property "Manufacturer" "Panasonic"
 			(at 217.17 72.39 0)
 			(effects
 				(font
@@ -20022,7 +20022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "660-SG73P2ATTD56R0F"
+		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
 			(at 217.17 72.39 0)
 			(effects
 				(font

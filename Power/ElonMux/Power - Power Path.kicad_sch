@@ -2640,12 +2640,6 @@
 		(uuid "cf801e30-8a91-4cd0-9155-d98b99e14b85")
 	)
 	(junction
-		(at 314.96 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d495a5ab-1753-454d-9b03-8ffbb1765a82")
-	)
-	(junction
 		(at 148.59 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3306,26 +3300,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 55.88) (xy 326.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385adf25-3551-4204-a6b5-8b9e726bb5ba")
-	)
-	(wire
-		(pts
-			(xy 314.96 55.88) (xy 314.96 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39425f68-c8fc-4508-9a38-fa4949d1def8")
-	)
-	(wire
-		(pts
 			(xy 132.08 156.21) (xy 132.08 161.29)
 		)
 		(stroke
@@ -3878,7 +3852,7 @@
 	)
 	(polyline
 		(pts
-			(xy 344.805 68.58) (xy 290.83 93.345)
+			(xy 341.63 70.485) (xy 290.83 93.345)
 		)
 		(stroke
 			(width 0)
@@ -4622,7 +4596,7 @@
 	)
 	(polyline
 		(pts
-			(xy 351.79 62.865) (xy 351.815 58.44)
+			(xy 351.79 67.31) (xy 351.815 62.885)
 		)
 		(stroke
 			(width 0)
@@ -4915,7 +4889,7 @@
 	)
 	(polyline
 		(pts
-			(xy 337.185 41.275) (xy 294.005 43.18)
+			(xy 332.74 41.275) (xy 294.005 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 351.79 65.405) (xy 351.815 70.505)
+			(xy 351.79 69.85) (xy 351.815 74.95)
 		)
 		(stroke
 			(width 0)
@@ -5366,16 +5340,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 55.88) (xy 317.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96b9a64-c580-4424-95b5-f487867e7ab5")
-	)
-	(wire
-		(pts
 			(xy 370.84 142.24) (xy 373.38 142.24)
 		)
 		(stroke
@@ -5451,9 +5415,9 @@
 		(uuid 014bcd70-0878-456d-ac6e-199b6a028db9)
 	)
 	(arc
-		(start 351.79 58.42)
-		(mid 352.5426 56.6326)
-		(end 354.33 55.88)
+		(start 351.79 62.865)
+		(mid 352.5426 61.0776)
+		(end 354.33 60.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -5516,9 +5480,9 @@
 		(uuid 26b811e6-558d-4e7f-a6a3-00d4f5aa8ec0)
 	)
 	(arc
-		(start 350.52 64.135)
-		(mid 351.4169 64.5096)
-		(end 351.79 65.405)
+		(start 350.52 68.58)
+		(mid 351.4134 68.9552)
+		(end 351.79 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -5581,9 +5545,9 @@
 		(uuid 7488a018-c6f7-4a28-ad90-fa3a1433e0ff)
 	)
 	(arc
-		(start 351.79 62.865)
-		(mid 351.414 63.7604)
-		(end 350.52 64.135)
+		(start 351.79 67.31)
+		(mid 351.4134 68.2019)
+		(end 350.52 68.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -5659,9 +5623,9 @@
 		(uuid d78760e4-11f8-428c-bfa9-4ef35c56518a)
 	)
 	(arc
-		(start 354.33 73.025)
-		(mid 352.5357 72.2808)
-		(end 351.79 70.485)
+		(start 354.33 77.47)
+		(mid 352.5322 76.7264)
+		(end 351.79 74.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -7425,7 +7389,7 @@
 	)
 	(text_box "Battery\nLED"
 		(exclude_from_sim no)
-		(at 332.74 60.325 0)
+		(at 332.74 64.77 0)
 		(size 26.015 8.89)
 		(stroke
 			(width -0.0001)
@@ -7737,19 +7701,6 @@
 			(justify left bottom)
 		)
 		(uuid "0ac89657-f6ef-4645-aa55-36dba7b0ea7e")
-	)
-	(label "TS"
-		(at 326.39 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 132 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "104bc384-b0af-4c18-9aee-e2877637fa2b")
 	)
 	(label "shunt_bat+"
 		(at 138.43 88.9 180)

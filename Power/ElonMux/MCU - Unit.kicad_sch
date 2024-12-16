@@ -4071,6 +4071,12 @@
 		(uuid "2ec025f1-82bc-4b08-91c3-54e5bdf029e8")
 	)
 	(junction
+		(at 199.39 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30910ffe-a1cd-4ba6-98d1-1e66bc05730a")
+	)
+	(junction
 		(at 281.94 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5406,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 109.22) (xy 196.85 109.22)
+			(xy 172.72 109.22) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5813,6 +5819,16 @@
 			(type default)
 		)
 		(uuid "93f31d69-a708-490d-a318-1073c84014b8")
+	)
+	(wire
+		(pts
+			(xy 199.39 109.22) (xy 204.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f8710-8f0d-426b-b9fb-89096cd9ca6d")
 	)
 	(wire
 		(pts
@@ -6680,6 +6696,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf4058b-4a49-45a5-a05e-fe425196bfc0")
+	)
+	(wire
+		(pts
 			(xy 44.45 262.89) (xy 63.5 262.89)
 		)
 		(stroke
@@ -6907,6 +6933,16 @@
 			(type default)
 		)
 		(uuid "ecf585a1-ed4a-4377-998f-70b24471b2e8")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 199.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed67b0a9-1ea3-460a-8e25-54b99259ad13")
 	)
 	(wire
 		(pts
@@ -18619,18 +18655,6 @@
 		)
 		(uuid "030d1c6c-0e36-4edd-b926-a192f377c69f")
 	)
-	(label "CHARGER_STATUS"
-		(at 85.09 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "046fd480-f6e9-4e1f-b47d-9173ba3aff41")
-	)
 	(label "FAULT1"
 		(at 196.85 99.06 180)
 		(fields_autoplaced yes)
@@ -18742,7 +18766,18 @@
 		)
 		(uuid "2655e861-aed6-4853-9035-c810f77925cc")
 	)
-	(label "MODE"
+	(label "INTn"
+		(at 85.09 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "266a5dc9-7ab2-4315-9df7-d5d04ff01676")
+	)
+	(label "PGn"
 		(at 347.98 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19047,6 +19082,17 @@
 		)
 		(uuid "6271be43-f124-4f92-9f3e-18032b462197")
 	)
+	(label "PGn"
+		(at 196.85 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65ed3271-5710-491b-969d-f7d7678bdc89")
+	)
 	(label "SPICLK_N"
 		(at 184.15 91.44 180)
 		(fields_autoplaced yes)
@@ -19114,6 +19160,17 @@
 			(justify left bottom)
 		)
 		(uuid "6e1485a9-b0f6-41d0-bf82-a51c146514f2")
+	)
+	(label "INTn"
+		(at 214.63 265.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f93df8f-732b-471f-af34-57468aa887f0")
 	)
 	(label "SCL"
 		(at 347.98 92.71 0)
@@ -19446,29 +19503,16 @@
 		)
 		(uuid "a94c5734-648f-4b6f-9f8e-1d2f4ed62282")
 	)
-	(label "CHARGER_STATUS"
-		(at 214.63 265.43 0)
+	(label "PGn"
+		(at 204.47 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "aadbde69-33ef-4ab4-a3a0-0cba26d637cd")
-	)
-	(label "MODE"
-		(at 196.85 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
 			(justify right bottom)
 		)
-		(uuid "ac03e85d-e993-42e3-9d32-7f0609f311f7")
+		(uuid "aeda8738-ca35-4813-aab0-c8c6b728f962")
 	)
 	(label "CHUP_PU"
 		(at 196.85 132.08 180)
@@ -19492,7 +19536,7 @@
 		)
 		(uuid "b0b451ca-ef6f-4091-8af8-43e1e58c26ec")
 	)
-	(label "CHARGER_STATUS"
+	(label "INTn"
 		(at 347.98 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19515,18 +19559,6 @@
 			(justify left bottom)
 		)
 		(uuid "b2377bcd-2d5a-4758-8785-6d08e8db5ff5")
-	)
-	(label "MODE"
-		(at 214.63 269.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5de89ed-967f-4d95-bdee-f8c08d7107eb")
 	)
 	(label "MTDO"
 		(at 347.98 53.34 0)
@@ -19751,6 +19783,28 @@
 			(justify left bottom)
 		)
 		(uuid "e987487d-9d02-4ec2-9d1c-4cccf4ec485a")
+	)
+	(label "INTn"
+		(at 110.49 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb405f70-22b9-4e1e-94b9-7ec10393a1cb")
+	)
+	(label "PGn"
+		(at 214.63 269.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed824dcd-61c4-4c91-b75a-0746ac9b4655")
 	)
 	(label "SPICS0"
 		(at 184.15 81.28 180)
@@ -20723,7 +20777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1844912f-b041-4475-b6d1-e0d569f0709a")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0410"
 			(at 278.13 137.16 0)
 			(effects
 				(font
@@ -20774,7 +20828,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0409")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -20875,7 +20929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "243d877c-be2b-489b-8d24-d2ac1056d27b")
-		(property "Reference" "R408"
+		(property "Reference" "R409"
 			(at 377.19 187.96 0)
 			(effects
 				(font
@@ -20965,7 +21019,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "R408")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -21189,7 +21243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "371b2aaf-8b7c-4d80-9359-75200aaeb883")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR0415"
 			(at 375.92 186.69 0)
 			(effects
 				(font
@@ -21239,7 +21293,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0414")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -21325,6 +21379,109 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
 					(reference "TP404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "481fcf55-c175-4ed4-b97c-8452ea95876f")
+		(property "Reference" "R407"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k 1%"
+			(at 203.708 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 197.612 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7acf4369-e5b5-4fce-ad69-e23172ec509a")
+		)
+		(pin "1"
+			(uuid "56789848-d5ae-4f21-b532-55597d110732")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -21707,7 +21864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ff1f0c-779a-4dd2-a44a-0fd4e35e9c54")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0408"
 			(at 256.54 109.22 0)
 			(effects
 				(font
@@ -21758,7 +21915,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0407")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -21774,7 +21931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5656ae04-abe2-4a3a-bdf8-1612eb4ac953")
-		(property "Reference" "#PWR0415"
+		(property "Reference" "#PWR0416"
 			(at 246.38 224.79 0)
 			(effects
 				(font
@@ -21825,7 +21982,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0415")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -21978,6 +22135,81 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
 					(reference "TP419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5925238b-428d-4ec0-9621-55b3c6283b23")
+		(property "Reference" "#PWR0407"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Net Class" "+3V3"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be67b1e2-37c0-4819-a1cb-6372d0609b1e")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -23171,7 +23403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0f7f841-3765-4d14-9c9c-66fe346ce0b2")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0414"
 			(at 246.38 186.69 0)
 			(effects
 				(font
@@ -23221,7 +23453,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0413")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -23322,7 +23554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55aded0-255f-4934-9085-30a8d6533573")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR0417"
 			(at 375.92 224.79 0)
 			(effects
 				(font
@@ -23373,7 +23605,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0416")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -23767,7 +23999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c9bc26-00ae-4a3c-aa4f-7b1e261603cd")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0411"
 			(at 267.97 152.4 0)
 			(effects
 				(font
@@ -23818,7 +24050,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0410")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -24634,7 +24866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1888f41-b569-4d1f-b6c9-80f4ca1d3198")
-		(property "Reference" "R407"
+		(property "Reference" "R408"
 			(at 247.65 187.96 0)
 			(effects
 				(font
@@ -24724,7 +24956,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "R407")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -25207,7 +25439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2308cba-7f57-4ab1-a97b-932feaf5ba2e")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0412"
 			(at 311.15 152.4 0)
 			(effects
 				(font
@@ -25258,7 +25490,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0411")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -25274,7 +25506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8a09665-2d72-4553-9d41-ed81aa1d988a")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0409"
 			(at 278.13 123.19 0)
 			(effects
 				(font
@@ -25325,7 +25557,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0408")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -25444,7 +25676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98c7e84-a99e-4c6c-bda0-062c59d99c55")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR0413"
 			(at 82.55 154.94 0)
 			(effects
 				(font
@@ -25495,7 +25727,7 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "#PWR0412")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)

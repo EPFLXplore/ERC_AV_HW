@@ -18,6 +18,12 @@
 		(uuid "0c4dd38b-1678-4722-b23f-1b8d27f6d6a0")
 	)
 	(junction
+		(at 220.98 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82aac85d-1044-4d3c-b279-9b3a29a6c1dd")
+	)
+	(junction
 		(at 220.98 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -101,6 +107,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 125.73) (xy 220.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ae946c-bbfb-4611-83e1-a9e3504d835b")
+	)
+	(wire
+		(pts
 			(xy 161.29 148.59) (xy 171.45 148.59)
 		)
 		(stroke
@@ -171,7 +187,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 123.19) (xy 232.41 123.19)
+			(xy 208.28 121.92) (xy 232.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -211,7 +227,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 119.38) (xy 232.41 119.38)
+			(xy 208.28 118.11) (xy 232.41 118.11)
 		)
 		(stroke
 			(width 0)
@@ -351,7 +367,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 107.95) (xy 210.82 115.57)
+			(xy 210.82 107.95) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -378,6 +394,16 @@
 			(type default)
 		)
 		(uuid "a1d180e2-06d3-4589-abb6-45c5e9afa2e3")
+	)
+	(wire
+		(pts
+			(xy 220.98 125.73) (xy 220.98 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae74903c-898a-463d-a021-52269e48b43f")
 	)
 	(wire
 		(pts
@@ -461,7 +487,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 115.57) (xy 210.82 115.57)
+			(xy 208.28 114.3) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +517,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 87.63) (xy 220.98 177.8)
+			(xy 220.98 87.63) (xy 220.98 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1354,7 @@
 			)
 		)
 		(pin "{I2C_CHARGER}" bidirectional
-			(at 208.28 123.19 0)
+			(at 208.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1380,7 @@
 			(uuid "595f6f52-d1a5-4ed1-bb09-a5822338842e")
 		)
 		(pin "+VCHARGE_O" output
-			(at 208.28 115.57 0)
+			(at 208.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1393,7 @@
 			(uuid "d3fb17f3-abac-4727-807b-1728b26f54b0")
 		)
 		(pin "{CHARGER_OPERATION}" bidirectional
-			(at 208.28 119.38 0)
+			(at 208.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,6 +1404,19 @@
 				(justify right)
 			)
 			(uuid "225de16b-3aca-492e-859c-2eefd685ab95")
+		)
+		(pin "+3V3" input
+			(at 208.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "16ca9644-248e-4ad9-bc38-deafb325c98c")
 		)
 		(instances
 			(project "ElonMux"
@@ -1736,7 +1775,7 @@
 			(uuid "837095e7-f51f-46b9-9f7f-86c4fd95450d")
 		)
 		(pin "{I2C_CHARGER}" bidirectional
-			(at 232.41 123.19 180)
+			(at 232.41 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1853,7 @@
 			(uuid "34161db1-28bc-4970-8188-a86b84ebcc3d")
 		)
 		(pin "{CHARGER_OPERATION}" bidirectional
-			(at 232.41 119.38 180)
+			(at 232.41 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)

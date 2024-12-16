@@ -680,6 +680,7 @@
       "+VCHARGE_O": "rgb(0, 255, 219)",
       "+VOUT": "rgb(194, 194, 194)",
       "+VSUPPLY": "rgb(114, 255, 0)",
+      "+VSUPPLY_C": "rgb(0, 255, 0)",
       "+VSUPPLY_O": "rgb(114, 255, 0)",
       "/Project Architecture/Interface - Connectors/MTCK": "rgb(0, 132, 0)",
       "/Project Architecture/Interface - Connectors/MTCK_C": "rgb(0, 132, 0)",
@@ -700,6 +701,9 @@
       "/Project Architecture/MCU - Unit/SPI_MOSI": "rgb(132, 0, 132)",
       "/Project Architecture/MCU - Unit/SPI_NCS": "rgb(132, 0, 132)",
       "/Project Architecture/MCU - Unit/VDD3P3": "rgb(255, 153, 0)",
+      "/Project Architecture/Power - Charger/+VCHARGE_O": "rgb(0, 255, 219)",
+      "/Project Architecture/Power - Charger/SW1": "rgb(194, 194, 0)",
+      "/Project Architecture/Power - Charger/SW2": "rgb(132, 132, 0)",
       "/Project Architecture/Power - Generation/+VOUT": "rgb(194, 194, 194)",
       "/Project Architecture/Power - Generation/PVIN1": "rgb(194, 194, 194)",
       "/Project Architecture/Power - Generation/SW_3V3": "rgb(255, 153, 0)",
@@ -718,12 +722,14 @@
       "+VCHARGE_O": "Power Charge",
       "+VOUT": "+VOUT",
       "+VSUPPLY": "Power Supply",
+      "+VSUPPLY_C": "Power Supply",
       "+VSUPPLY_O": "+VSUPPLY_O",
       "/Project Architecture/+VCHARGE": "+CHARGE",
       "/Project Architecture/Interface - Connectors/GND": "GND",
       "/Project Architecture/MCU - Unit/PGOOD": "Default",
       "/Project Architecture/MCU - Unit/VDD3P3": "Power 3V3",
       "/Project Architecture/Power - Charger/+VCHARGE": "+VCHARGE",
+      "/Project Architecture/Power - Charger/+VCHARGE_O": "Power Charge",
       "/Project Architecture/Power - Charger/BIAS": "+24V",
       "/Project Architecture/Power - Charger/HO2": "+24V",
       "/Project Architecture/Power - Charger/LO2": "+24V",
@@ -924,6 +930,54 @@
       {
         "netclass": "Other High Voltage",
         "pattern": "/Project Architecture/Power - Power Path/TS1"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "+VSUPPLY_C"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/BTST1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/BTST2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Project Architecture/Power - Charger/LODRV1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV1_M"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV2_M"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Project Architecture/Power - Charger/LODRV2"
+      },
+      {
+        "netclass": "Kelvin Diff Pair",
+        "pattern": "/Project Architecture/Power - Charger/ACN"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/VAC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Project Architecture/Power - Charger/LODRV2_M"
       }
     ]
   },
@@ -1035,7 +1089,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Supplier"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
