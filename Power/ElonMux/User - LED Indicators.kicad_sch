@@ -6809,7 +6809,7 @@
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
 	)
-	(text_box "LED Indicators"
+	(text_box "LED Debug Indicator"
 		(exclude_from_sim no)
 		(at 57.15 139.7 0)
 		(size 190.5 7.62)
@@ -7514,6 +7514,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 194 194 0 1)
 				)
 				(justify right)
 			)

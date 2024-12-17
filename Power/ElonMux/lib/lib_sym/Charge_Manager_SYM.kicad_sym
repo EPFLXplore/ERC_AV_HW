@@ -1094,7 +1094,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -41.91 8.89 0)
 				(length 5.08)
 				(name "VAC"
@@ -1112,7 +1112,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -41.91 6.35 0)
 				(length 5.08)
 				(name "VAC"

@@ -1147,6 +1147,50 @@
 		)
 		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
 	)
+	(label "HOLE3"
+		(at 151.13 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cfcc5b9-8b28-488e-bde4-e5f33afcee44")
+	)
+	(label "HOLE4"
+		(at 179.07 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50c5577c-a57c-425b-91ae-9b44e94fac20")
+	)
+	(label "HOLE2"
+		(at 121.92 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b38ca7-419f-4d37-9cf5-5c1691f045ae")
+	)
+	(label "HOLE1"
+		(at 92.71 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de955422-a7f5-492b-b117-45fd9f87e900")
+	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 231.14 110.49 0)

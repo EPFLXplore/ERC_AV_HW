@@ -978,6 +978,10 @@
       {
         "netclass": "Default",
         "pattern": "/Project Architecture/Power - Charger/LODRV2_M"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Power - Charger/+3V3"
       }
     ]
   },
@@ -1196,6 +1200,6 @@
     "RELEASE_DATE": "2024-11-18",
     "REVIEWER": "Federico Bise",
     "REVISION": "1.0",
-    "VARIANT": "Preliminary"
+    "VARIANT": "Released"
   }
 }

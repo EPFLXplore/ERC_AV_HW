@@ -709,7 +709,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -41.91 8.89 0)
 					(length 5.08)
 					(name "VAC"
@@ -727,7 +727,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -41.91 6.35 0)
 					(length 5.08)
 					(name "VAC"
@@ -2962,12 +2962,6 @@
 		(uuid "08a17487-c579-4457-87bf-d572ed24e872")
 	)
 	(junction
-		(at 147.32 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f0c6372-bfbb-4c96-ac8c-943b63cdcc23")
-	)
-	(junction
 		(at 172.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2992,10 +2986,22 @@
 		(uuid "26a9586c-234f-4843-9c62-1a24acfab322")
 	)
 	(junction
+		(at 179.07 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2781e5d6-a0b9-42cc-bca7-92ceca111f8e")
+	)
+	(junction
 		(at 132.08 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28d193b6-4b9c-40ac-bdbd-0ccb10c062d2")
+	)
+	(junction
+		(at 105.41 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f648838-35e5-4e48-9bff-3a36bfc801e3")
 	)
 	(junction
 		(at 127 63.5)
@@ -3052,6 +3058,12 @@
 		(uuid "5e2b1b41-d4c4-4f58-89ce-f8b10c0be8d2")
 	)
 	(junction
+		(at 123.19 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616aeb5d-5300-4070-9d72-4ed69f87ca17")
+	)
+	(junction
 		(at 123.19 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3074,6 +3086,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c760438-06f1-4048-bc1c-3ab73c2a00d2")
+	)
+	(junction
+		(at 142.24 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eff387f-0558-41ee-aae5-ebd8a85e2b24")
 	)
 	(junction
 		(at 212.09 55.88)
@@ -3178,6 +3196,12 @@
 		(uuid "b6d387ae-d6a2-4aab-9a2e-ee81e922e246")
 	)
 	(junction
+		(at 132.08 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb611fab-7d37-40d6-b436-dec6e6ef591a")
+	)
+	(junction
 		(at 303.53 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3242,12 +3266,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eccc5e76-9bd0-448a-8b9c-ba6877506ba8")
-	)
-	(junction
-		(at 105.41 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7360aa1-6d6e-47f7-8511-5c063a35a220")
 	)
 	(junction
 		(at 140.97 127)
@@ -3375,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 180.34 124.46)
+			(xy 172.72 124.46) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3702,6 +3720,16 @@
 			(type default)
 		)
 		(uuid "218dd83c-4594-4b0f-8160-af70bae40cce")
+	)
+	(wire
+		(pts
+			(xy 123.19 168.91) (xy 123.19 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2644b185-58fb-4cca-9880-4b3151314088")
 	)
 	(wire
 		(pts
@@ -4069,16 +4097,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 168.91) (xy 147.32 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545f5c34-8187-42b4-9727-b99d7a515758")
-	)
-	(wire
-		(pts
 			(xy 163.83 124.46) (xy 163.83 127)
 		)
 		(stroke
@@ -4116,6 +4134,16 @@
 			(type default)
 		)
 		(uuid "56fb81f9-b204-43e9-b7b9-59f94f8c4e6e")
+	)
+	(wire
+		(pts
+			(xy 105.41 168.91) (xy 123.19 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59926a9e-9c81-4646-a029-fa44f8388ab5")
 	)
 	(wire
 		(pts
@@ -4186,6 +4214,16 @@
 			(type default)
 		)
 		(uuid "68308491-322b-4c49-8fe8-5faa6dfd2369")
+	)
+	(wire
+		(pts
+			(xy 179.07 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68556ca9-cb95-454a-bfa0-e31dbe566c60")
 	)
 	(wire
 		(pts
@@ -4349,6 +4387,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 168.91) (xy 132.08 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb7e0dd-1a50-4023-a1ba-b97e59c8ea04")
+	)
+	(wire
+		(pts
 			(xy 184.15 102.87) (xy 187.96 102.87)
 		)
 		(stroke
@@ -4429,16 +4477,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 162.56) (xy 123.19 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a9e848-f0b7-4975-88cd-9da6a136ee72")
-	)
-	(wire
-		(pts
 			(xy 308.61 63.5) (xy 314.96 63.5)
 		)
 		(stroke
@@ -4446,6 +4484,16 @@
 			(type default)
 		)
 		(uuid "8818a7b5-4bcf-4321-a79a-8fa0746ffecf")
+	)
+	(wire
+		(pts
+			(xy 142.24 168.91) (xy 153.67 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88369686-c95a-4f78-aef7-64c43bca7033")
 	)
 	(polyline
 		(pts
@@ -4480,16 +4528,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 115.57) (xy 48.26 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915871ef-05fc-457b-8aa6-1552b144b655")
-	)
-	(wire
-		(pts
 			(xy 266.7 121.92) (xy 298.45 121.92)
 		)
 		(stroke
@@ -4520,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 170.18) (xy 105.41 170.18)
+			(xy 101.6 168.91) (xy 105.41 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4691,16 +4729,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 170.18) (xy 105.41 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a53217cf-f3aa-42f8-82d5-84790f4f70dc")
-	)
-	(wire
-		(pts
 			(xy 127 63.5) (xy 133.35 63.5)
 		)
 		(stroke
@@ -4821,6 +4849,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 168.91) (xy 142.24 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09fac68-5ac4-473b-b610-d2d914e091e5")
+	)
+	(wire
+		(pts
+			(xy 26.67 115.57) (xy 48.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11b7217-b808-4cf8-8f4a-3a0843771fb6")
+	)
+	(wire
+		(pts
 			(xy 259.08 102.87) (xy 262.89 102.87)
 		)
 		(stroke
@@ -4828,16 +4876,6 @@
 			(type default)
 		)
 		(uuid "b29cf2e8-13d3-4e88-8957-d8fc4c7a1a0d")
-	)
-	(wire
-		(pts
-			(xy 123.19 162.56) (xy 123.19 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58527e6-fd6b-4ff3-8012-d8fd06c0a436")
 	)
 	(wire
 		(pts
@@ -5192,16 +5230,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 168.91) (xy 105.41 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5bd51fb-5525-42e2-8fd5-4ea53c1ba8f9")
-	)
-	(wire
-		(pts
 			(xy 215.9 172.72) (xy 215.9 177.8)
 		)
 		(stroke
@@ -5219,16 +5247,6 @@
 			(type default)
 		)
 		(uuid "d8526e2a-47bb-469e-9779-eb298d346918")
-	)
-	(wire
-		(pts
-			(xy 99.06 121.92) (xy 99.06 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85e44d6-4150-4bbb-b17f-35d3cf227070")
 	)
 	(wire
 		(pts
@@ -5292,6 +5310,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 168.91) (xy 105.41 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dace8a18-897e-4bf4-b1fc-cf107c300b1a")
+	)
+	(wire
+		(pts
 			(xy 165.1 156.21) (xy 180.34 156.21)
 		)
 		(stroke
@@ -5350,16 +5378,6 @@
 			(type default)
 		)
 		(uuid "e061a121-ba8d-418b-9494-ae7c3c59cf17")
-	)
-	(wire
-		(pts
-			(xy 99.06 121.92) (xy 115.57 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0870520-8bdf-4aca-b98f-7f46e18a6e5a")
 	)
 	(wire
 		(pts
@@ -5531,16 +5549,6 @@
 			(type default)
 		)
 		(uuid "f3662da5-09f7-4985-bbef-3948e9599176")
-	)
-	(wire
-		(pts
-			(xy 147.32 168.91) (xy 142.24 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b58afa-6d17-40b4-999e-77fd232339c3")
 	)
 	(wire
 		(pts
@@ -18369,7 +18377,7 @@
 		)
 		(uuid "6cf2fb3e-51e8-444e-84a2-77fc57865ed2")
 	)
-	(text_box "DESIGN NOTE - 3V3 STATUS LEDs\n\nORANGE LED:\nSM0805UOC has a typical luminous \nintensity of 80 mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.6V\n\nTyp. If = (3.3V - 2.1V)/56hm = 21 mA\nMax. If = (3.3V - 2.5)/56hm = 13 mA\nP = 2.1V×21mA = 44 mW < 78 mW (max rating)\n\n\nBLUE LED:\nSM1206SRC has a typical luminous \nintensity of 115mcd (millicandela) @ 20 mA.\nTyp. Vf = 3v3V Max Vf = 4.2V\n\nTyp. If = (24V - 3.3V)/1000hm = 21 mA\nMax. If = (33V - 3.3)/56hm = 30 mA\nP = 3.3V×30mA = 100 mW = max rating\n"
+	(text_box "DESIGN NOTE - 3V3 STATUS LEDs\n\nORANGE LED:\nSM0805UOC has a typical luminous \nintensity of 80 mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.6V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.6)/56Ω = 13 mA\nP = 2.1V×21mA = 44 mW < 78 mW (max rating)\n\n\nGREEN LED:\nAP2012MGC has a typical luminous \nintensity of 60mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 75 mW (max rating)\n"
 		(exclude_from_sim no)
 		(at 23.495 160.655 0)
 		(size 48.26 45.085)
@@ -18808,6 +18816,18 @@
 		)
 		(uuid "1e5ab188-b3ea-43fb-9b72-0850e43376de")
 	)
+	(label "+3V3"
+		(at 26.67 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef26d9d-53c0-4d08-8288-9360c2184885")
+	)
 	(label "OUT-"
 		(at 303.53 68.58 180)
 		(fields_autoplaced yes)
@@ -18909,29 +18929,6 @@
 			(justify left bottom)
 		)
 		(uuid "5a2f19b6-522a-45a4-9f26-dd98f95c59a3")
-	)
-	(label "+3V3"
-		(at 26.67 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6225680e-f77f-43d1-b38e-b4ed6f7702ae")
-		(property "Netclass" "Power Supply"
-			(at 26.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "FB"
 		(at 267.97 124.46 0)
@@ -19550,7 +19547,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 101.6 170.18 180)
+		(at 101.6 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19563,7 +19560,7 @@
 		)
 		(uuid "66e43909-7107-4cc7-8ab9-54f757b5d2f4")
 		(property "Netclass" "Power 3V3"
-			(at 101.6 171.45 0)
+			(at 101.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19624,6 +19621,109 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0679fee7-08ae-42c7-b99c-0adc75ce1890")
+		(property "Reference" "R720"
+			(at 127 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56R 1% 0.1W"
+			(at 130.048 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 121.412 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e764bcdd-deea-4547-bcf1-19baab890fdb")
+		)
+		(pin "1"
+			(uuid "5a1fd1e8-a6f8-4bdc-b9e6-5761aaf7999f")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "R720")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -21637,7 +21737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc98519-6fbb-41d1-8a4a-97ecbbb0a969")
-		(property "Reference" "#PWR0720"
+		(property "Reference" "#PWR0719"
 			(at 199.39 184.15 0)
 			(effects
 				(font
@@ -21688,7 +21788,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0720")
+					(reference "#PWR0719")
 					(unit 1)
 				)
 			)
@@ -22036,7 +22136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor"
 			(at 166.37 59.69 0)
 			(effects
 				(font
@@ -22191,7 +22291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456c4a59-a93b-48be-8b02-2b2535d70c4b")
-		(property "Reference" "#PWR0721"
+		(property "Reference" "#PWR0720"
 			(at 214.63 195.58 0)
 			(effects
 				(font
@@ -22242,7 +22342,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0721")
+					(reference "#PWR0720")
 					(unit 1)
 				)
 			)
@@ -22578,15 +22678,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 168.91 0)
+		(at 132.08 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "51945e21-d842-48b4-888e-f23d21002128")
-		(property "Reference" "#PWR0718"
-			(at 147.32 172.72 0)
+		(property "Reference" "#PWR0717"
+			(at 132.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22595,7 +22695,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.066 165.1 0)
+			(at 131.826 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22603,7 +22703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 168.91 0)
+			(at 132.08 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22612,7 +22712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 168.91 0)
+			(at 132.08 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22621,7 +22721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 168.91 0)
+			(at 132.08 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22635,7 +22735,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0718")
+					(reference "#PWR0717")
 					(unit 1)
 				)
 			)
@@ -23054,112 +23154,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C712")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 175.26 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c36bdfe-9408-4f73-bd5d-98f04e0bba20")
-		(property "Reference" "R720"
-			(at 129.032 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k 1% 2W"
-			(at 132.588 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 121.412 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/418/8/NG_DS_1773204_4_A-1532794.pdf"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "35021K0FT"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity / Holsworthy"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "279-35021K0FT"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50e1759e-7026-4176-9cc7-360e9810b013")
-		)
-		(pin "1"
-			(uuid "d87b209b-560d-4e7b-ab05-4734411fb63c")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "R720")
 					(unit 1)
 				)
 			)
@@ -23778,7 +23772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor"
 			(at 308.61 59.69 0)
 			(effects
 				(font
@@ -23918,6 +23912,91 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "TP712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7669bee8-1a72-4234-a895-649566cce1e2")
+		(property "Reference" "TP720"
+			(at 53.34 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.436 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ee31e02-3c84-4924-b129-b6d04cf6624c")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "TP720")
 					(unit 1)
 				)
 			)
@@ -24326,14 +24405,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "GREEN"
 			(at 127 191.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
-					(color 0 0 255 1)
+					(color 0 255 0 1)
 				)
 				(justify right)
 			)
@@ -24348,7 +24427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/50/SM0805UBWC-3001939.pdf"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/216/AP2012MGC-33968.pdf"
 			(at 316.84 176.53 0)
 			(effects
 				(font
@@ -24358,7 +24437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Ultra Blue 470 nm Water Clear"
+		(property "Description" "Standard LEDs - SMD GRN WATER CLEAR 0805"
 			(at 112.776 184.912 0)
 			(effects
 				(font
@@ -24367,15 +24446,15 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SM0805UBWC"
-			(at 132.588 188.976 90)
+		(property "Manufacturer Part Number" "AP2012MGC"
+			(at 131.826 188.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer" "Bivar"
+		(property "Manufacturer" "Kingbright"
 			(at 123.19 189.23 0)
 			(effects
 				(font
@@ -24384,7 +24463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "749-SM0805UBWC"
+		(property "Supplier Part Number" "604-AP2012MGC"
 			(at 123.19 189.23 0)
 			(effects
 				(font
@@ -24426,7 +24505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "847ea693-1a69-4af2-abfe-22ce75781c07")
-		(property "Reference" "#PWR0719"
+		(property "Reference" "#PWR0718"
 			(at 215.9 176.53 0)
 			(effects
 				(font
@@ -24476,7 +24555,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0719")
+					(reference "#PWR0718")
 					(unit 1)
 				)
 			)
@@ -25348,71 +25427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 105.41 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "997e3efe-b1b5-4439-b871-a6dbc612dcb1")
-		(property "Reference" "#PWR0717"
-			(at 105.41 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 105.156 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f5a7cd-6ddc-41a3-9424-e289da797cf2")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0717")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 132.08 125.73 0)
 		(mirror y)
@@ -25563,7 +25577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -26085,6 +26099,72 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "TP701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae334f39-12ac-4cca-866e-d40966661b2d")
+		(property "Reference" "#FLG0703"
+			(at 179.07 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10dd5fc8-e0a2-4dce-a145-c86a2ff520a2")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#FLG0703")
 					(unit 1)
 				)
 			)
@@ -27843,7 +27923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor"
 			(at 280.67 59.69 0)
 			(effects
 				(font
@@ -28015,7 +28095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor"
 			(at 133.35 59.69 0)
 			(effects
 				(font
@@ -28205,7 +28285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Polarized capacitor"
 			(at 321.31 59.69 0)
 			(effects
 				(font
@@ -28651,91 +28731,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "J701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 48.26 115.57 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa630a9f-74ba-40a1-ba69-9e94749c73ed")
-		(property "Reference" "TP717"
-			(at 53.34 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 59.182 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c81b4ce5-4450-43ff-8fcc-c6e9604b32e0")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "TP717")
 					(unit 1)
 				)
 			)

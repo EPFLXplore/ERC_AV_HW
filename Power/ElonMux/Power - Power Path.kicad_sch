@@ -8426,8 +8426,8 @@
 		)
 		(uuid "d1df1786-2472-40f5-964b-c1f25e5d86f5")
 	)
-	(label "LED_B"
-		(at 271.78 93.98 0)
+	(label "LED_BAT"
+		(at 270.51 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
