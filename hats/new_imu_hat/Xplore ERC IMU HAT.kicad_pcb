@@ -140,7 +140,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -5121,7 +5121,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SDO_SOD882_LTF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "95cf912c-aaff-491c-9f5c-89cdd5fc21f9")
@@ -5134,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" "SP3205-01ETG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0addadf2-b6c9-49a5-9bd3-9be2f8b4535b")
@@ -5147,7 +5147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5c0aca6e-b25e-4f9c-9eda-c198adb8fb18")
@@ -6309,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SDO_SOD882_LTF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4739c885-fc47-4d14-8aa2-3a2a3627b8a0")
@@ -6322,7 +6322,7 @@
 			)
 		)
 		(property "Datasheet" "SP3205-01ETG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f39c5848-08a2-49c7-a355-e1bb957f1a11")
@@ -6335,7 +6335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0690e64c-06e1-487e-8989-f94a3bb30a9a")
@@ -6585,7 +6585,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SDO_SOD882_LTF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "24d29e02-5550-49d6-80d9-196421c8a34f")
@@ -6598,7 +6598,7 @@
 			)
 		)
 		(property "Datasheet" "SP3205-01ETG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b6d4d5e1-3827-4e28-8f47-c2757d2595ab")
@@ -6611,7 +6611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fc7cbabb-ad0c-470c-a04e-5badb84f7c03")
@@ -7875,7 +7875,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SDO_SOD882_LTF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "52315167-dca7-4f2d-a077-a7524053f475")
@@ -7888,7 +7888,7 @@
 			)
 		)
 		(property "Datasheet" "SP3205-01ETG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d6e96346-f07e-437a-8748-6918d88bda16")
@@ -7901,7 +7901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d73db22b-c029-4bd8-8bf0-5f7b6a7c2308")
@@ -9164,7 +9164,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SDO_SOD882_LTF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4cf23f39-b033-42c5-b702-cd6214b62964")
@@ -9177,7 +9177,7 @@
 			)
 		)
 		(property "Datasheet" "SP3205-01ETG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee825b0d-7650-4d59-af9d-cb36381ffe8c")
@@ -9190,7 +9190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c5f2288e-84fd-4f88-b6b2-edb4aa31bbbb")
