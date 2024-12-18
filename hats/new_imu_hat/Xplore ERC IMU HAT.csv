@@ -1,0 +1,16 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"R1,R7,R3,R4";"R_0603_1608Metric";4;"60R";;;
+2;"R6,R5";"R_0201_0603Metric";2;"4k7";;;
+3;"J1";"CONN_BM08B-GHS-TBT_JST";1;"BM08B-GHS-TBT";;;
+4;"C4,C3";"C_0402_1005Metric";2;"4.7nF";;;
+5;"J2,J5";"CON_5025850670";2;"5025850670";;;
+6;"J4";"Hat_connector_hole";1;"Hat_connector_hole";;;
+7;"R2";"R_0402_1005Metric";1;"10k";;;
+8;"J3";"CONN_BM04B-GHS-TBT_JST";1;"BM04B-GHS-TBT";;;
+9;"CR7,CR3,CR8,CR5,CR4,CR6";"SDO_SOD882_LTF";6;"SP3205-01ETG";;;
+10;"CR2,CR1";"SOT23_PESD2_NEX";2;"PESD2CANFD27V-TR";;;
+11;"C2";"C_0402_1005Metric";1;"2.2uF";;;
+12;"C1";"C_0402_1005Metric";1;"1uF";;;
+13;"C5";"C_0402_1005Metric";1;"100nF";;;
+14;"U1";"LT3960";1;"LT3960JMSE-PBF";;;
+15;"U2";"D5V0H1B2LP_7B";1;"D5V0H1B2LP-7B";;;
