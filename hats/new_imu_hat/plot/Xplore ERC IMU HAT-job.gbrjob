@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.6-8.0.6-0~ubuntu22.04.1"
     },
-    "CreationDate": "2024-12-18T19:37:20+01:00"
+    "CreationDate": "2024-12-18T20:08:21+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 30.3086
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6062,
+    "BoardThickness": 1.66,
     "Finish": "None",
     "ImpedanceControlled": true
   },
@@ -121,21 +121,37 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.2104,
+      "Thickness": 0.218,
       "Material": "7628, RC 49%",
-      "DielectricConstant": "4.3",
-      "Name": "F.Cu (Sig)/In1.Cu (GND)",
-      "Notes": "Type: dielectric layer 1 (from F.Cu (Sig) to In1.Cu (GND))"
+      "DielectricConstant": "4.4",
+      "Name": "F.Cu (Sig)/In1.Cu (GND) (1/3)",
+      "Notes": "Type: dielectric layer 1 - 1/3 (from F.Cu (Sig) to In1.Cu (GND))"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.218,
+      "Material": "7628, RC 49%",
+      "DielectricConstant": "4.4",
+      "Name": "F.Cu (Sig)/In1.Cu (GND) (2/3)",
+      "Notes": "Type: dielectric layer 1 - 2/3 (from F.Cu (Sig) to In1.Cu (GND))"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.069,
+      "Material": "1080, RC 67%",
+      "DielectricConstant": "3.91",
+      "Name": "F.Cu (Sig)/In1.Cu (GND) (3/3)",
+      "Notes": "Type: dielectric layer 1 - 3/3 (from F.Cu (Sig) to In1.Cu (GND))"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0152,
+      "Thickness": 0.03,
       "Name": "In1.Cu (GND)"
     },
     {
       "Type": "Dielectric",
       "Color": "R128G128B128",
-      "Thickness": 1.065,
+      "Thickness": 0.5,
       "Material": "FR4",
       "DielectricConstant": "4.6",
       "LossTangent": "0.02",
@@ -144,16 +160,32 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0152,
+      "Thickness": 0.03,
       "Name": "In2.Cu (GND)"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.2104,
+      "Thickness": 0.069,
+      "Material": "1080, RC 67%",
+      "DielectricConstant": "3.91",
+      "Name": "In2.Cu (GND)/B.Cu (Sig) (1/3)",
+      "Notes": "Type: dielectric layer 3 - 1/3 (from In2.Cu (GND) to B.Cu (Sig))"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.218,
       "Material": "7628, RC 49%",
-      "DielectricConstant": "4.3",
-      "Name": "In2.Cu (GND)/B.Cu (Sig)",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu (GND) to B.Cu (Sig))"
+      "DielectricConstant": "1",
+      "Name": "In2.Cu (GND)/B.Cu (Sig) (2/3)",
+      "Notes": "Type: dielectric layer 3 - 2/3 (from In2.Cu (GND) to B.Cu (Sig))"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.218,
+      "Material": "7628, RC 49%",
+      "DielectricConstant": "1",
+      "Name": "In2.Cu (GND)/B.Cu (Sig) (3/3)",
+      "Notes": "Type: dielectric layer 3 - 3/3 (from In2.Cu (GND) to B.Cu (Sig))"
     },
     {
       "Type": "Copper",

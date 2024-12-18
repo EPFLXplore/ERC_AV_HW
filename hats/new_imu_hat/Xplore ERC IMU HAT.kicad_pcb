@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6062)
+		(thickness 1.66)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -60,32 +60,48 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.2104)
+				(thickness 0.218)
 				(material "7628, RC 49%")
-				(epsilon_r 4.3)
+				(epsilon_r 4.4)
+				(loss_tangent 0) addsublayer
+				(thickness 0.218)
+				(material "7628, RC 49%")
+				(epsilon_r 4.4)
+				(loss_tangent 0) addsublayer
+				(thickness 0.069)
+				(material "1080, RC 67%")
+				(epsilon_r 3.91)
 				(loss_tangent 0)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.0152)
+				(thickness 0.03)
 			)
 			(layer "dielectric 2"
 				(type "core")
 				(color "#808080FF")
-				(thickness 1.065)
+				(thickness 0.5)
 				(material "FR4")
 				(epsilon_r 4.6)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.0152)
+				(thickness 0.03)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.2104)
+				(thickness 0.069)
+				(material "1080, RC 67%")
+				(epsilon_r 3.91)
+				(loss_tangent 0) addsublayer
+				(thickness 0.218)
 				(material "7628, RC 49%")
-				(epsilon_r 4.3)
+				(epsilon_r 1)
+				(loss_tangent 0) addsublayer
+				(thickness 0.218)
+				(material "7628, RC 49%")
+				(epsilon_r 1)
 				(loss_tangent 0)
 			)
 			(layer "B.Cu"
