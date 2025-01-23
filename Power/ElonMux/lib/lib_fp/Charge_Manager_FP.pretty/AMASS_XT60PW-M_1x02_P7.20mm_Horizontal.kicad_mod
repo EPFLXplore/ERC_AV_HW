@@ -89,8 +89,8 @@
 		(uuid "a2a0f5cc-b5aa-4e3e-8d85-23bdc2f59aec")
 	)
 	(fp_line
-		(start -1.625 2.27)
-		(end 2.115 2.27)
+		(start -0.25 1.8)
+		(end 0.75 1.8)
 		(stroke
 			(width 0.12)
 			(type solid)

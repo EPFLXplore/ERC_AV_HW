@@ -3637,6 +3637,17 @@
 		)
 		(uuid "0a2e5525-22c2-46ce-826c-d23f9e091fac")
 	)
+	(polyline
+		(pts
+			(xy 150.495 53.34) (xy 149.86 48.895)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "0c70d24f-42c6-4a18-b6f7-1a26c91588c9")
+	)
 	(wire
 		(pts
 			(xy 172.72 63.5) (xy 179.07 63.5)
@@ -4038,6 +4049,17 @@
 			(type default)
 		)
 		(uuid "3bbd2809-16e3-4e43-a9c2-2f07fe43a5c4")
+	)
+	(polyline
+		(pts
+			(xy 295.275 53.34) (xy 295.91 48.895)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "3c7c2bb4-3166-4aa5-bdfe-d62bd0dbe54b")
 	)
 	(wire
 		(pts
@@ -5811,6 +5833,19 @@
 		(uuid 198dfc04-214b-406e-9a67-b39bc6062cd1)
 	)
 	(rectangle
+		(start 140.97 53.975)
+		(end 164.465 97.155)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34320bda-27eb-412e-ba6f-7611bffecc75)
+	)
+	(rectangle
 		(start 22.86 39.37)
 		(end 71.12 140.335)
 		(stroke
@@ -5848,6 +5883,19 @@
 			(type none)
 		)
 		(uuid b23ff550-48f8-4bba-a22d-897d9c362c77)
+	)
+	(rectangle
+		(start 282.575 53.34)
+		(end 306.07 101.6)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b64a8a65-bd94-4b5e-811a-6d577df89758)
 	)
 	(rectangle
 		(start 86.995 219.075)
@@ -18186,10 +18234,10 @@
 		)
 		(uuid "08f42850-01a3-47fa-bf9b-837e84295d8e")
 	)
-	(text_box "A 0.47-μF ceramic capacitor is placed from SRN to SRP to provide differential-mode filtering. An optional 0.1-μF ceramic capacitor is placed from the SRN and SRP pin to PGND for common-mode filtering."
+	(text_box "A 0.47-μF ceramic capacitor is placed from SRN to SRP to provide differential-mode filtering. An optional 0.1-μF ceramic capacitor is placed from the SRN and SRP pin to PGND for common-mode filtering.\n\nDifferential-Mode Cutoff  f_{c,diff} = 1 / (2pi * (R_{+} + R_{-}) * C_{diff}) = 1 / (2pi * 2R * C_{diff}) ≈ 17kHz\n\nCommon-Mode Cutoff f_{c,CM} = 1 / (2pi * R *C_{CM}) ≈ 159kHz"
 		(exclude_from_sim no)
 		(at 274.955 30.48 0)
-		(size 40.64 18.415)
+		(size 125.73 18.415)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -18340,7 +18388,7 @@
 		)
 		(uuid "4153d959-e488-42dc-a245-869565456da9")
 	)
-	(text_box "Battery charging is enabled when EN_CHG bit is 1 and CE pin is\nLOW. CE pin must be pulled HIGH or LOW, do not leave floating. "
+	(text_box "Battery charging is enabled when EN_CHG bit is 1 and ~{CE} pin is\nLOW. ~{CE} pin must be pulled HIGH or LOW, do not leave floating. "
 		(exclude_from_sim no)
 		(at 172.72 184.15 0)
 		(size 27.94 17.78)
@@ -18858,7 +18906,7 @@
 	)
 	(text "ORANGE LED"
 		(exclude_from_sim no)
-		(at 395.859 222.25 0)
+		(at 356.108 221.996 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -18869,12 +18917,25 @@
 		)
 		(uuid "2f90f915-ccfa-485a-a737-ead290254944")
 	)
-	(text "24V fan holes"
+	(text "Gate drive voltage: 5V"
 		(exclude_from_sim no)
-		(at 177.292 40.64 0)
+		(at 222.504 106.172 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "66c8f977-28e4-49ba-8681-a758739b9cfb")
+	)
+	(text "24V fan holes"
+		(exclude_from_sim no)
+		(at 181.102 40.64 0)
+		(effects
+			(font
+				(size 1.778 1.778)
 				(thickness 0.254)
 				(bold yes)
 				(color 0 0 0 1)
@@ -18895,21 +18956,21 @@
 		)
 		(uuid "c0668a5d-4bf9-4fd8-ac4d-1013a289fa64")
 	)
-	(text "BLUE LED"
+	(text "GREEN LED"
 		(exclude_from_sim no)
-		(at 354.965 222.25 0)
+		(at 395.986 222.25 0)
 		(effects
 			(font
 				(size 1.778 1.778)
 				(thickness 0.3048)
 				(bold yes)
+				(color 0 194 0 1)
 			)
 		)
 		(uuid "f7feb71c-5913-448f-bc66-4d047a8a84e4")
 	)
 	(label "SW2"
 		(at 26.67 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18921,7 +18982,6 @@
 	)
 	(label "SCL"
 		(at 173.99 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18932,7 +18992,6 @@
 	)
 	(label "ICHG"
 		(at 267.97 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18943,7 +19002,6 @@
 	)
 	(label "DRV_UP"
 		(at 187.96 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18954,7 +19012,6 @@
 	)
 	(label "HIDRV2"
 		(at 26.67 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18966,7 +19023,6 @@
 	)
 	(label "LED_STAT1"
 		(at 123.19 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18977,7 +19033,6 @@
 	)
 	(label "+3V3"
 		(at 26.67 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18989,7 +19044,6 @@
 	)
 	(label "OUT-"
 		(at 303.53 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19000,7 +19054,6 @@
 	)
 	(label "+VSUPPLY_C"
 		(at 195.58 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19012,7 +19065,6 @@
 	)
 	(label "SRN"
 		(at 267.97 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19046,7 +19098,6 @@
 	)
 	(label "IN+"
 		(at 143.51 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19057,7 +19108,6 @@
 	)
 	(label "SW2"
 		(at 241.3 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19068,7 +19118,6 @@
 	)
 	(label "BTST1"
 		(at 26.67 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19080,7 +19129,6 @@
 	)
 	(label "FSW_SYNC"
 		(at 267.97 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19091,7 +19139,6 @@
 	)
 	(label "FB"
 		(at 267.97 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19102,7 +19149,6 @@
 	)
 	(label "BTST2"
 		(at 26.67 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19114,7 +19160,6 @@
 	)
 	(label "STAT1"
 		(at 124.46 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19125,7 +19170,6 @@
 	)
 	(label "OUT+"
 		(at 285.75 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19136,7 +19180,6 @@
 	)
 	(label "INTn"
 		(at 173.99 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19147,7 +19190,6 @@
 	)
 	(label "STAT2"
 		(at 26.67 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19159,7 +19201,6 @@
 	)
 	(label "STAT2"
 		(at 173.99 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19170,7 +19211,6 @@
 	)
 	(label "LED_STAT2"
 		(at 105.41 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19181,7 +19221,6 @@
 	)
 	(label "SW1"
 		(at 209.55 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19192,7 +19231,6 @@
 	)
 	(label "FBG"
 		(at 267.97 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19203,7 +19241,6 @@
 	)
 	(label "STAT1"
 		(at 173.99 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19214,7 +19251,6 @@
 	)
 	(label "LODRV1"
 		(at 26.67 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19226,7 +19262,6 @@
 	)
 	(label "STAT2"
 		(at 105.41 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19237,7 +19272,6 @@
 	)
 	(label "HIDRV1_M"
 		(at 204.47 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19248,7 +19282,6 @@
 	)
 	(label "CEn"
 		(at 201.93 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19259,7 +19292,6 @@
 	)
 	(label "HIDRV1"
 		(at 26.67 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19271,7 +19303,6 @@
 	)
 	(label "PGn"
 		(at 173.99 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19282,7 +19313,6 @@
 	)
 	(label "LODRV1"
 		(at 203.2 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19293,7 +19323,6 @@
 	)
 	(label "REGN"
 		(at 26.67 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19305,7 +19334,6 @@
 	)
 	(label "HIDRV1"
 		(at 184.15 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19316,7 +19344,6 @@
 	)
 	(label "BTST2"
 		(at 254 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19327,7 +19354,6 @@
 	)
 	(label "HIDRV2"
 		(at 262.89 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19338,7 +19364,6 @@
 	)
 	(label "SRP"
 		(at 267.97 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19349,7 +19374,6 @@
 	)
 	(label "LODRV2"
 		(at 243.84 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19360,7 +19384,6 @@
 	)
 	(label "IN-"
 		(at 161.29 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19371,7 +19394,6 @@
 	)
 	(label "SW1"
 		(at 26.67 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19406,7 +19428,6 @@
 	)
 	(label "ACP"
 		(at 173.99 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19440,7 +19461,6 @@
 	)
 	(label "SDA"
 		(at 173.99 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19451,7 +19471,6 @@
 	)
 	(label "LODRV2"
 		(at 26.67 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19463,7 +19482,6 @@
 	)
 	(label "LODRV2_M"
 		(at 243.84 92.71 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19474,7 +19492,6 @@
 	)
 	(label "LODRV1_M"
 		(at 203.2 93.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19485,7 +19502,6 @@
 	)
 	(label "REGN"
 		(at 173.99 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19496,7 +19512,6 @@
 	)
 	(label "DRV_SUP"
 		(at 26.67 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19531,7 +19546,6 @@
 	)
 	(label "DRV_UP"
 		(at 107.95 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19542,7 +19556,6 @@
 	)
 	(label "DRV_SUP"
 		(at 173.99 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19576,7 +19589,6 @@
 	)
 	(label "ACN"
 		(at 173.99 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19587,7 +19599,6 @@
 	)
 	(label "VAC"
 		(at 173.99 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19598,7 +19609,6 @@
 	)
 	(label "DRV_UP"
 		(at 259.08 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19609,7 +19619,6 @@
 	)
 	(label "CEn"
 		(at 26.67 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19621,7 +19630,6 @@
 	)
 	(label "BTST1"
 		(at 193.04 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19632,7 +19640,6 @@
 	)
 	(label "ILIM_HIZ"
 		(at 267.97 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19643,7 +19650,6 @@
 	)
 	(label "HIDRV2_M"
 		(at 242.57 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19654,7 +19660,6 @@
 	)
 	(label "STAT1"
 		(at 26.67 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19666,7 +19671,6 @@
 	)
 	(label "+VCHARGE"
 		(at 242.57 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19679,7 +19683,6 @@
 	(hierarchical_label "{I2C_CHARGER}"
 		(shape bidirectional)
 		(at 144.78 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19693,7 +19696,6 @@
 	(hierarchical_label "{CHARGER_OPERATION}"
 		(shape bidirectional)
 		(at 144.78 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20681,7 +20683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff730d3-8aee-475a-898c-8102e0768a9d")
-		(property "Reference" "#PWR0702"
+		(property "Reference" "#PWR0703"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -20731,7 +20733,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0702")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -20832,7 +20834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235de62b-02f9-45f8-a231-cb5c45249c1a")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0704"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -20883,75 +20885,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Charge_Manager_SYM:Solder_Holes_2x1_22AWG")
-		(at 182.88 46.99 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23fdc967-c2f1-4a4d-95d6-e625821cfb85")
-		(property "Reference" "J701"
-			(at 173.736 45.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Solder Holes 2x1 22 AWG"
-			(at 181.356 42.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Charge_Manager_FP:Solder Hole 2x1 2.54mm 22AWG"
-			(at 182.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Holes 2x1 22 AWG"
-			(at 183.642 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1ec9439-51e1-4c62-8bbf-4e842e9aa916")
-		)
-		(pin "2"
-			(uuid "f2b44896-2a77-4d36-a356-484ec9061135")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "J701")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -21079,7 +21013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6f1abd-71c1-4118-94f9-d7a06e04d300")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0706"
 			(at 274.32 71.12 0)
 			(effects
 				(font
@@ -21130,7 +21064,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0705")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -21146,7 +21080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bfff63c-7258-468d-90c2-2df04d20d71e")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0707"
 			(at 314.96 71.12 0)
 			(effects
 				(font
@@ -21197,7 +21131,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0706")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -22022,6 +21956,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Charge_Manager_SYM:SM1206SRC")
+		(at 105.41 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c0fa910-a1e1-4f86-93ea-a3f1cbf8d972")
+		(property "Reference" "LED701"
+			(at 109.22 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 109.22 191.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 255 0 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 199.06 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/216/AP2012MGC-33968.pdf"
+			(at 299.06 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD GRN WATER CLEAR 0805"
+			(at 94.996 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AP2012MGC"
+			(at 114.046 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "604-AP2012MGC"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9c78726-3c65-4011-91ce-7c44731f895b")
+		)
+		(pin "1"
+			(uuid "4e1bccfe-f1bf-4b3f-b1b2-d4357bc6d421")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "LED701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 48.26 69.85 270)
 		(mirror x)
@@ -22518,7 +22561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44fa3105-b7fe-412b-b06d-c015cec83341")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0701"
 			(at 181.61 55.88 0)
 			(effects
 				(font
@@ -22569,7 +22612,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0707")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -24682,115 +24725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:SM1206SRC")
-		(at 123.19 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8477737e-edc5-454f-82fa-4c5b88be3f0b")
-		(property "Reference" "LED702"
-			(at 127 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 127 191.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 255 0 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 216.84 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/216/AP2012MGC-33968.pdf"
-			(at 316.84 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD GRN WATER CLEAR 0805"
-			(at 112.776 184.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AP2012MGC"
-			(at 131.826 188.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 123.19 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "604-AP2012MGC"
-			(at 123.19 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 123.19 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26bab3ee-8006-4ef2-84d5-cfaff3002a91")
-		)
-		(pin "1"
-			(uuid "b4df74f9-3a08-4ab4-9d15-99f758985707")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "LED702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 215.9 172.72 0)
 		(unit 1)
@@ -24916,6 +24850,115 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "#FLG0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:SM1206SRC")
+		(at 123.19 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85b37dcb-ecc9-4b1a-b747-3ecf54ae9513")
+		(property "Reference" "LED702"
+			(at 127 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 127 191.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 153 0 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 216.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/50/SM0805UOC-3002082.pdf"
+			(at 316.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Ultra Orange 625 nm Water Clear"
+			(at 112.776 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SM0805UOC"
+			(at 131.826 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bivar"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "749-SM0805UOC"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe740a09-bf9a-4488-9296-6ebe9b72fe3b")
+		)
+		(pin "1"
+			(uuid "24b5c115-e667-4114-958a-09acbbe342aa")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "LED702")
 					(unit 1)
 				)
 			)
@@ -25715,6 +25758,73 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C713")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:Solder_Holes_2x1_22AWG")
+		(at 182.88 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1d7be8d-6688-40d8-b295-7390f4a8bf70")
+		(property "Reference" "J701"
+			(at 173.99 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Solder Holes 2x1 22 AWG"
+			(at 181.864 42.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:Solder Hole 2x1 2.54mm 22AWG"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Holes 2x1 22 AWG"
+			(at 182.118 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab78db1-1eec-431c-8c28-33a103fc1dba")
+		)
+		(pin "2"
+			(uuid "9b0d4f78-ecff-4abf-9a29-39a0598bfef2")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "J701")
 					(unit 1)
 				)
 			)
@@ -27763,115 +27873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:SM1206SRC")
-		(at 105.41 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbe4f98a-ec58-4540-bc1e-7db96a6162c8")
-		(property "Reference" "LED701"
-			(at 109.22 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ORANGE"
-			(at 109.22 191.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 255 153 0 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 199.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/50/SM0805UOC-3002082.pdf"
-			(at 299.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD Ultra Orange 625 nm Water Clear"
-			(at 94.996 184.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SM0805UOC"
-			(at 114.046 188.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bivar"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "749-SM0805UOC"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6285250e-04e5-4898-b9be-a234449e95a1")
-		)
-		(pin "1"
-			(uuid "8d403944-6194-4906-a5a9-6c1d5c7024a0")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "LED701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 48.26 92.71 270)
 		(mirror x)
@@ -28288,7 +28289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ce30e7-35f4-4831-b9f0-66ed90ce87a4")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0702"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -28338,7 +28339,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0701")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -28755,7 +28756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc5518e-7c25-46ef-b965-7142c0b92552")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0705"
 			(at 172.72 71.12 0)
 			(effects
 				(font
@@ -28806,7 +28807,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "#PWR0704")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)

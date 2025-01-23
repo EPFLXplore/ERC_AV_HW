@@ -1030,29 +1030,6 @@
 		)
 		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
 	)
-	(text_box "Back"
-		(exclude_from_sim no)
-		(at 215.265 95.25 0)
-		(size 31.115 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "b95c96dc-6c01-4b99-9e98-ecb70bc4704c")
-	)
 	(text "Inspired by Amulet controller Schematics\n\nby Vincent Nguyen"
 		(exclude_from_sim no)
 		(at 140.97 167.64 0)
@@ -1069,7 +1046,6 @@
 	)
 	(label "HOLE3"
 		(at 151.13 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1080,7 +1056,6 @@
 	)
 	(label "HOLE4"
 		(at 179.07 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1091,7 +1066,6 @@
 	)
 	(label "HOLE2"
 		(at 121.92 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1103,7 +1077,6 @@
 	)
 	(label "HOLE1"
 		(at 92.71 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1111,69 +1084,6 @@
 			(justify left bottom)
 		)
 		(uuid "de955422-a7f5-492b-b117-45fd9f87e900")
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 231.14 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "168ee3ce-214e-4019-ba16-628060cc6be3")
-		(property "Reference" "FM1205"
-			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 233.68 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Charge_Manager_FP:Fiducial_1mm_Mask2mm"
-			(at 231.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "FM1205")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1508,69 +1418,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "#PWR01202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 221.615 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "61c6d6a7-cba3-4cbd-942d-b8f6e06a797f")
-		(property "Reference" "FM1204"
-			(at 221.615 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 224.155 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Charge_Manager_FP:Fiducial_1mm_Mask2mm"
-			(at 221.615 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 221.615 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 221.615 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "FM1204")
 					(unit 1)
 				)
 			)
@@ -2452,69 +2299,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
 					(reference "H1204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 240.03 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd69a437-3d67-406e-af74-f9542fbd94cf")
-		(property "Reference" "FM1206"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Charge_Manager_FP:Fiducial_1mm_Mask2mm"
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e246552c-c235-46f6-8325-624faa438117"
-					(reference "FM1206")
 					(unit 1)
 				)
 			)

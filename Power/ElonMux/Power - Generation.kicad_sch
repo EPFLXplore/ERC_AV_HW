@@ -18723,7 +18723,6 @@
 	)
 	(label "BST2"
 		(at 171.45 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18734,7 +18733,6 @@
 	)
 	(label "BST1"
 		(at 121.92 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18745,7 +18743,6 @@
 	)
 	(label "ENA{slash}VCC"
 		(at 113.03 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18756,7 +18753,6 @@
 	)
 	(label "VALID1"
 		(at 167.64 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18767,7 +18763,6 @@
 	)
 	(label "PVIN2"
 		(at 96.52 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18779,7 +18774,6 @@
 	)
 	(label "RT_G"
 		(at 166.37 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18790,7 +18784,6 @@
 	)
 	(label "COM2"
 		(at 166.37 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18801,7 +18794,6 @@
 	)
 	(label "VALID2"
 		(at 167.64 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18835,7 +18827,6 @@
 	)
 	(label "PRIORITY"
 		(at 173.99 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18846,7 +18837,6 @@
 	)
 	(label "PVIN1"
 		(at 96.52 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18858,7 +18848,6 @@
 	)
 	(label "PGOOD"
 		(at 167.64 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18869,7 +18858,6 @@
 	)
 	(label "COM1"
 		(at 121.92 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18880,7 +18868,6 @@
 	)
 	(label "FB_3v3"
 		(at 166.37 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18937,7 +18924,6 @@
 	)
 	(label "+3V3"
 		(at 96.52 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18972,7 +18958,6 @@
 	)
 	(label "+VOUT"
 		(at 96.52 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18985,7 +18970,6 @@
 	(hierarchical_label "{3v3_STATUS}"
 		(shape output)
 		(at 264.16 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

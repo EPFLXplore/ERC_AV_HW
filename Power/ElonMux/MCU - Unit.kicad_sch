@@ -4083,6 +4083,12 @@
 		(uuid "49c747bc-4a96-4298-a8f7-7262a5145491")
 	)
 	(junction
+		(at 270.51 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e0657f-eabb-4f8a-9a15-981462e41b31")
+	)
+	(junction
 		(at 267.97 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4143,16 +4149,16 @@
 		(uuid "974ac461-bb35-4e1a-8eff-130d264d3376")
 	)
 	(junction
+		(at 278.13 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c2bfb4-2d79-44fc-a470-41c6bbca1f24")
+	)
+	(junction
 		(at 82.55 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a457586e-8a56-4b79-8c3c-b150d4cb776d")
-	)
-	(junction
-		(at 278.13 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a556bafc-9674-44d7-b471-42c5f5bfe1c1")
 	)
 	(junction
 		(at 93.98 71.12)
@@ -4213,12 +4219,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9e98bfb-3df6-43fd-a11d-b4b14211ea2c")
-	)
-	(junction
-		(at 270.51 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1b302d8-8e33-4bdf-8e58-f7c51685fb0f")
 	)
 	(junction
 		(at 375.92 193.04)
@@ -4649,6 +4649,16 @@
 		)
 		(uuid "0c277755-230e-4ef1-b67b-da22fb649162")
 	)
+	(wire
+		(pts
+			(xy 270.51 134.62) (xy 270.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d472e57-2f43-4e48-b283-d19baafbf3d0")
+	)
 	(bus
 		(pts
 			(xy 66.04 233.68) (xy 67.31 232.41)
@@ -5051,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 121.92) (xy 267.97 135.89)
+			(xy 267.97 121.92) (xy 267.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5352,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 135.89) (xy 270.51 135.89)
+			(xy 267.97 134.62) (xy 270.51 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5612,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 135.89) (xy 289.56 135.89)
+			(xy 278.13 134.62) (xy 289.56 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5742,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 135.89) (xy 278.13 135.89)
+			(xy 270.51 134.62) (xy 278.13 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6846,16 +6856,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 134.62) (xy 289.56 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68354de-e7b8-4fe2-8082-da6f5ebcaf57")
-	)
-	(wire
-		(pts
 			(xy 200.66 71.12) (xy 200.66 73.66)
 		)
 		(stroke
@@ -6973,6 +6973,16 @@
 			(type default)
 		)
 		(uuid "f16b6f80-34f2-49d1-ae76-b2c51582e9c2")
+	)
+	(wire
+		(pts
+			(xy 278.13 134.62) (xy 278.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23da03e-bfa0-4d25-9b4d-ee8d92a58d8f")
 	)
 	(wire
 		(pts
@@ -17934,7 +17944,7 @@
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 339.725 141.605 0)
+		(at 339.725 142.24 0)
 		(size 64.77 9.525)
 		(stroke
 			(width -0.0001)
@@ -18227,6 +18237,28 @@
 		)
 		(uuid "69f1db26-1eeb-4499-b35c-03b5b7c0dcb7")
 	)
+	(text_box "Ideally if space allows, add a 0.1uF capacitor on each ADC lines used to read values (IMON 1 & 2)"
+		(exclude_from_sim no)
+		(at 47.625 149.86 0)
+		(size 27.94 12.065)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "86f74ed0-6259-4ba0-a52b-2cab057997ac")
+	)
 	(text_box "JTAG - Debug"
 		(exclude_from_sim no)
 		(at 339.725 37.465 0)
@@ -18275,7 +18307,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nPlace each capacitor close to the relevant pin\nto minimize loop inductance."
 		(exclude_from_sim no)
-		(at 229.87 44.45 0)
+		(at 227.33 44.45 0)
 		(size 43.815 17.78)
 		(stroke
 			(width 1.5)
@@ -18634,7 +18666,6 @@
 	)
 	(label "SPICS1"
 		(at 184.15 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18646,7 +18677,6 @@
 	)
 	(label "GPIO36"
 		(at 196.85 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18657,7 +18687,6 @@
 	)
 	(label "FAULT1"
 		(at 196.85 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18668,7 +18697,6 @@
 	)
 	(label "IMON2"
 		(at 347.98 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18679,7 +18707,6 @@
 	)
 	(label "PRIORITY"
 		(at 347.98 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18690,7 +18717,6 @@
 	)
 	(label "VALID1"
 		(at 110.49 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18701,7 +18727,6 @@
 	)
 	(label "CLOCK_OUT"
 		(at 123.19 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18712,7 +18737,6 @@
 	)
 	(label "MTCK"
 		(at 196.85 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18723,7 +18747,6 @@
 	)
 	(label "LED_DBG"
 		(at 218.44 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18735,7 +18758,6 @@
 	)
 	(label "U0RXD"
 		(at 139.7 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18746,7 +18768,6 @@
 	)
 	(label "USB_D+"
 		(at 44.45 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18757,7 +18778,6 @@
 	)
 	(label "FAULT2"
 		(at 347.98 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18768,7 +18788,6 @@
 	)
 	(label "INTn"
 		(at 85.09 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18779,7 +18798,6 @@
 	)
 	(label "PGn"
 		(at 347.98 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18791,7 +18809,6 @@
 	)
 	(label "SPI_CLK"
 		(at 44.45 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18803,7 +18820,6 @@
 	)
 	(label "LNA_IN"
 		(at 123.19 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18814,7 +18830,6 @@
 	)
 	(label "SPI_NCS"
 		(at 76.2 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18826,7 +18841,6 @@
 	)
 	(label "GPIO35"
 		(at 196.85 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18837,7 +18851,6 @@
 	)
 	(label "PGOOD"
 		(at 347.98 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18848,7 +18861,6 @@
 	)
 	(label "IMON1"
 		(at 347.98 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18859,7 +18871,6 @@
 	)
 	(label "U0TXD"
 		(at 196.85 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18870,7 +18881,6 @@
 	)
 	(label "SPIWP"
 		(at 184.15 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18882,7 +18892,6 @@
 	)
 	(label "CHUP_PU"
 		(at 223.52 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18893,7 +18902,6 @@
 	)
 	(label "U0RXD"
 		(at 196.85 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18904,7 +18912,6 @@
 	)
 	(label "SPIQ"
 		(at 184.15 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18915,7 +18922,6 @@
 	)
 	(label "SCL"
 		(at 44.45 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18927,7 +18933,6 @@
 	)
 	(label "SPI_MISO"
 		(at 347.98 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18939,7 +18944,6 @@
 	)
 	(label "VALID1"
 		(at 139.7 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18950,7 +18954,6 @@
 	)
 	(label "SPID"
 		(at 184.15 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18961,7 +18964,6 @@
 	)
 	(label "SPICLK"
 		(at 184.15 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18972,7 +18974,6 @@
 	)
 	(label "FAULT2"
 		(at 196.85 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18983,7 +18984,6 @@
 	)
 	(label "USB_D+"
 		(at 110.49 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18994,7 +18994,6 @@
 	)
 	(label "XTAL_32K_P"
 		(at 123.19 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19005,7 +19004,6 @@
 	)
 	(label "LED_DBG"
 		(at 110.49 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19017,7 +19015,6 @@
 	)
 	(label "SDA"
 		(at 76.2 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19028,7 +19025,6 @@
 	)
 	(label "MTDO"
 		(at 43.18 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19039,7 +19035,6 @@
 	)
 	(label "GPIO18"
 		(at 123.19 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19050,7 +19045,6 @@
 	)
 	(label "MTMS"
 		(at 347.98 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19061,7 +19055,6 @@
 	)
 	(label "SPICLK_P"
 		(at 184.15 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19072,7 +19065,6 @@
 	)
 	(label "USB_D-"
 		(at 44.45 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19084,7 +19076,6 @@
 	)
 	(label "PGn"
 		(at 196.85 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19095,7 +19086,6 @@
 	)
 	(label "SPICLK_N"
 		(at 184.15 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19106,7 +19096,6 @@
 	)
 	(label "IMON1"
 		(at 138.43 250.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19118,7 +19107,6 @@
 	)
 	(label "CLOCK_IN"
 		(at 123.19 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19129,7 +19117,6 @@
 	)
 	(label "PGOOD"
 		(at 139.7 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19140,7 +19127,6 @@
 	)
 	(label "SDA"
 		(at 347.98 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19151,7 +19137,6 @@
 	)
 	(label "SPI_NCS"
 		(at 44.45 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19163,7 +19148,6 @@
 	)
 	(label "INTn"
 		(at 214.63 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19174,7 +19158,6 @@
 	)
 	(label "SCL"
 		(at 347.98 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19185,7 +19168,6 @@
 	)
 	(label "GPIO35"
 		(at 139.7 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19196,7 +19178,6 @@
 	)
 	(label "GPIO36"
 		(at 139.7 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19207,7 +19188,6 @@
 	)
 	(label "VALID2"
 		(at 110.49 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19218,7 +19198,6 @@
 	)
 	(label "GPIO0"
 		(at 110.49 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19229,7 +19208,6 @@
 	)
 	(label "MTCK"
 		(at 43.18 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19240,7 +19218,6 @@
 	)
 	(label "SPI_MISO"
 		(at 110.49 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19252,7 +19229,6 @@
 	)
 	(label "GPIO37"
 		(at 196.85 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19263,7 +19239,6 @@
 	)
 	(label "GPIO46"
 		(at 184.15 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19275,7 +19250,6 @@
 	)
 	(label "XTAL_32K_N"
 		(at 123.19 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19286,7 +19260,6 @@
 	)
 	(label "SPI_NCS"
 		(at 347.98 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19321,7 +19294,6 @@
 	)
 	(label "IMON1"
 		(at 110.49 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19333,7 +19305,6 @@
 	)
 	(label "FAULT2"
 		(at 138.43 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19345,7 +19316,6 @@
 	)
 	(label "SPI_MISO"
 		(at 44.45 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19357,7 +19327,6 @@
 	)
 	(label "LED_DBG"
 		(at 347.98 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19368,7 +19337,6 @@
 	)
 	(label "GPIO3"
 		(at 110.49 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19379,7 +19347,6 @@
 	)
 	(label "IMON2"
 		(at 110.49 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19391,7 +19358,6 @@
 	)
 	(label "MTMS"
 		(at 196.85 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19402,7 +19368,6 @@
 	)
 	(label "MTDI"
 		(at 196.85 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19413,7 +19378,6 @@
 	)
 	(label "SDA"
 		(at 44.45 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19425,7 +19389,6 @@
 	)
 	(label "PRIORITY"
 		(at 139.7 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19436,7 +19399,6 @@
 	)
 	(label "FAULT1"
 		(at 347.98 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19447,7 +19409,6 @@
 	)
 	(label "PGOOD"
 		(at 110.49 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19458,7 +19419,6 @@
 	)
 	(label "SPI_CLK"
 		(at 347.98 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19470,7 +19430,6 @@
 	)
 	(label "GPIO45"
 		(at 184.15 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19481,7 +19440,6 @@
 	)
 	(label "SPIHD"
 		(at 184.15 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19493,7 +19451,6 @@
 	)
 	(label "SPI_MOSI"
 		(at 110.49 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19505,7 +19462,6 @@
 	)
 	(label "PGn"
 		(at 204.47 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19516,7 +19472,6 @@
 	)
 	(label "CHUP_PU"
 		(at 196.85 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19527,7 +19482,6 @@
 	)
 	(label "CLOCK_IN_C"
 		(at 60.96 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19538,7 +19492,6 @@
 	)
 	(label "INTn"
 		(at 347.98 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19550,7 +19503,6 @@
 	)
 	(label "FAULT1"
 		(at 138.43 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19562,7 +19514,6 @@
 	)
 	(label "MTDO"
 		(at 347.98 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19573,7 +19524,6 @@
 	)
 	(label "U0TXD"
 		(at 139.7 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19584,7 +19534,6 @@
 	)
 	(label "GPIO17"
 		(at 123.19 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19595,7 +19544,6 @@
 	)
 	(label "MTMS"
 		(at 43.18 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19606,7 +19554,6 @@
 	)
 	(label "MTDO"
 		(at 196.85 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19617,7 +19564,6 @@
 	)
 	(label "GPIO37"
 		(at 139.7 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19628,7 +19574,6 @@
 	)
 	(label "VALID1"
 		(at 347.98 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19661,7 +19606,6 @@
 	)
 	(label "MTDI"
 		(at 43.18 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19672,7 +19616,6 @@
 	)
 	(label "SPI_CLK"
 		(at 110.49 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19684,7 +19627,6 @@
 	)
 	(label "MTDI"
 		(at 347.98 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19695,7 +19637,6 @@
 	)
 	(label "IMON2"
 		(at 138.43 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19707,7 +19648,6 @@
 	)
 	(label "SPI_MOSI"
 		(at 347.98 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19741,7 +19681,6 @@
 	)
 	(label "VALID2"
 		(at 347.98 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19752,7 +19691,6 @@
 	)
 	(label "SCL"
 		(at 76.2 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19763,7 +19701,6 @@
 	)
 	(label "GPIO0"
 		(at 353.06 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19774,7 +19711,6 @@
 	)
 	(label "SPI_MOSI"
 		(at 44.45 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19786,7 +19722,6 @@
 	)
 	(label "INTn"
 		(at 110.49 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19797,7 +19732,6 @@
 	)
 	(label "PGn"
 		(at 214.63 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19808,7 +19742,6 @@
 	)
 	(label "SPICS0"
 		(at 184.15 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19819,7 +19752,6 @@
 	)
 	(label "MTCK"
 		(at 347.98 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19830,7 +19762,6 @@
 	)
 	(label "VALID2"
 		(at 139.7 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19841,7 +19772,6 @@
 	)
 	(label "PRIORITY"
 		(at 110.49 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19852,7 +19782,6 @@
 	)
 	(label "USB_D-"
 		(at 110.49 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19865,7 +19794,6 @@
 	(hierarchical_label "{3v3_STATUS}"
 		(shape input)
 		(at 177.8 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19879,7 +19807,6 @@
 	(hierarchical_label "{DRIVERS_STATUS}"
 		(shape input)
 		(at 176.53 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19893,7 +19820,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 222.25 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19908,7 +19834,6 @@
 	(hierarchical_label "{GPIOs}"
 		(shape bidirectional)
 		(at 177.8 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19923,7 +19848,6 @@
 	(hierarchical_label "{SPI_BAT}"
 		(shape bidirectional)
 		(at 82.55 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19937,7 +19861,6 @@
 	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
 		(at 82.55 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19951,7 +19874,6 @@
 	(hierarchical_label "LED_DBG"
 		(shape output)
 		(at 247.65 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19966,7 +19888,6 @@
 	(hierarchical_label "{USB}"
 		(shape bidirectional)
 		(at 82.55 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19980,7 +19901,6 @@
 	(hierarchical_label "{I2C_CHARGER}"
 		(shape bidirectional)
 		(at 82.55 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19994,7 +19914,6 @@
 	(hierarchical_label "{CHARGER_OPERATION}"
 		(shape bidirectional)
 		(at 236.22 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20220,7 +20139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Charge_Manager_FP:MHQ1005P24NGTD25"
 			(at 88.9 223.19 0)
 			(effects
 				(font
@@ -26049,7 +25968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Charge_Manager_FP:LQG15WH2N0B02D"
 			(at 279.4 190.17 0)
 			(effects
 				(font
