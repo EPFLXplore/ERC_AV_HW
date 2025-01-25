@@ -4297,7 +4297,7 @@
 		(uuid "fe7a2f87-5b36-45e7-9d54-acf46246cb95")
 	)
 	(bus_entry
-		(at 160.02 179.07)
+		(at 144.78 179.07)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -4405,7 +4405,7 @@
 		(uuid "66eb4f6d-94fe-48f1-93f9-4c42752d198c")
 	)
 	(bus_entry
-		(at 160.02 181.61)
+		(at 144.78 181.61)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -4423,7 +4423,7 @@
 		(uuid "73b00b33-b720-4f7c-aba1-7b322c4c541d")
 	)
 	(bus_entry
-		(at 160.02 189.23)
+		(at 144.78 189.23)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -4432,7 +4432,7 @@
 		(uuid "8a379c99-266b-4fa0-8cff-4a24fbd44125")
 	)
 	(bus_entry
-		(at 160.02 186.69)
+		(at 144.78 186.69)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -4441,7 +4441,7 @@
 		(uuid "8fc197ca-d3a4-4a0a-8d7a-a9b49176af38")
 	)
 	(bus_entry
-		(at 160.02 184.15)
+		(at 144.78 184.15)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -4831,7 +4831,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 191.77) (xy 139.7 191.77)
+			(xy 142.24 191.77) (xy 124.46 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5101,7 +5101,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 189.23) (xy 139.7 189.23)
+			(xy 142.24 189.23) (xy 124.46 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5211,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 186.69) (xy 139.7 186.69)
+			(xy 142.24 186.69) (xy 124.46 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5522,7 +5522,7 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 175.26) (xy 161.29 175.26)
+			(xy 162.56 175.26) (xy 146.05 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6162,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 184.15) (xy 160.02 186.69)
+			(xy 144.78 184.15) (xy 144.78 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6212,7 +6212,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 181.61) (xy 139.7 181.61)
+			(xy 142.24 181.61) (xy 124.46 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6262,7 +6262,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 176.53) (xy 160.02 179.07)
+			(xy 144.78 176.53) (xy 144.78 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6312,7 +6312,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 181.61) (xy 160.02 184.15)
+			(xy 144.78 181.61) (xy 144.78 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +6635,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 186.69) (xy 160.02 189.23)
+			(xy 144.78 186.69) (xy 144.78 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6806,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 184.15) (xy 139.7 184.15)
+			(xy 142.24 184.15) (xy 124.46 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6816,7 +6816,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 179.07) (xy 160.02 181.61)
+			(xy 144.78 179.07) (xy 144.78 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6836,7 +6836,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 176.53) (xy 161.29 175.26)
+			(xy 144.78 176.53) (xy 146.05 175.26)
 		)
 		(stroke
 			(width 0)
@@ -18305,6 +18305,28 @@
 		)
 		(uuid "8a996275-b439-4fcc-8ebc-dea5be8e932d")
 	)
+	(text_box "DESIGN NOTE:\n\nGPIO 35, 36 & 37 are availaible only because we are not using octal SPI for the internal 8MB FLASH."
+		(exclude_from_sim no)
+		(at 175.895 173.355 0)
+		(size 30.48 17.145)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8fc33726-c3ec-43d3-a658-3656c94782dc")
+	)
 	(text_box "LAYOUT NOTE:\nPlace each capacitor close to the relevant pin\nto minimize loop inductance."
 		(exclude_from_sim no)
 		(at 227.33 44.45 0)
@@ -18757,7 +18779,7 @@
 		(uuid "1b1a860b-b462-4733-99ed-eb53c54f2b6d")
 	)
 	(label "U0RXD"
-		(at 139.7 191.77 0)
+		(at 124.46 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19167,7 +19189,7 @@
 		(uuid "744fed7b-8e79-4aa6-b41e-3bbb64fbb610")
 	)
 	(label "GPIO35"
-		(at 139.7 181.61 0)
+		(at 124.46 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19177,7 +19199,7 @@
 		(uuid "7574036f-5326-42f2-9444-c2729d21b7ca")
 	)
 	(label "GPIO36"
-		(at 139.7 184.15 0)
+		(at 124.46 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19523,7 +19545,7 @@
 		(uuid "b60f4e00-506d-4365-9fdf-d973754c01b5")
 	)
 	(label "U0TXD"
-		(at 139.7 189.23 0)
+		(at 124.46 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19563,7 +19585,7 @@
 		(uuid "cc80a925-4c41-42ee-b6b3-efefa1e552e9")
 	)
 	(label "GPIO37"
-		(at 139.7 186.69 0)
+		(at 124.46 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19833,7 +19855,7 @@
 	)
 	(hierarchical_label "{GPIOs}"
 		(shape bidirectional)
-		(at 177.8 175.26 0)
+		(at 162.56 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -130,7 +130,7 @@
 		(start -0.5 -0.3)
 		(end 0.5 -0.3)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -140,7 +140,7 @@
 		(start -0.5 0.3)
 		(end -0.5 -0.3)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -150,7 +150,7 @@
 		(start 0.5 -0.3)
 		(end 0.5 0.3)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -160,7 +160,7 @@
 		(start 0.5 0.3)
 		(end -0.5 0.3)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")

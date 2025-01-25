@@ -3072,6 +3072,12 @@
 		(uuid "08a17487-c579-4457-87bf-d572ed24e872")
 	)
 	(junction
+		(at 147.32 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a8c90a1-1413-47eb-926c-3698af9e9b71")
+	)
+	(junction
 		(at 172.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3106,12 +3112,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28d193b6-4b9c-40ac-bdbd-0ccb10c062d2")
-	)
-	(junction
-		(at 105.41 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f648838-35e5-4e48-9bff-3a36bfc801e3")
 	)
 	(junction
 		(at 127 63.5)
@@ -3168,12 +3168,6 @@
 		(uuid "5e2b1b41-d4c4-4f58-89ce-f8b10c0be8d2")
 	)
 	(junction
-		(at 123.19 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "616aeb5d-5300-4070-9d72-4ed69f87ca17")
-	)
-	(junction
 		(at 123.19 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3202,12 +3196,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c760438-06f1-4048-bc1c-3ab73c2a00d2")
-	)
-	(junction
-		(at 142.24 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6eff387f-0558-41ee-aae5-ebd8a85e2b24")
 	)
 	(junction
 		(at 212.09 55.88)
@@ -3270,6 +3258,12 @@
 		(uuid "989435c7-8769-4d3b-9a0e-d50cd8040079")
 	)
 	(junction
+		(at 142.24 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f751de6-7b88-45c9-8efe-601fd1cad74d")
+	)
+	(junction
 		(at 132.08 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3310,12 +3304,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6d387ae-d6a2-4aab-9a2e-ee81e922e246")
-	)
-	(junction
-		(at 132.08 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb611fab-7d37-40d6-b436-dec6e6ef591a")
 	)
 	(junction
 		(at 303.53 77.47)
@@ -3372,6 +3360,12 @@
 		(uuid "d2cac01f-ab6f-4700-96b7-3ef880fc1a86")
 	)
 	(junction
+		(at 114.3 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d71da460-f583-4dce-9c27-ae8d9342c012")
+	)
+	(junction
 		(at 287.02 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3382,12 +3376,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eccc5e76-9bd0-448a-8b9c-ba6877506ba8")
-	)
-	(junction
-		(at 140.97 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9dbd36d-2624-4070-88ca-8a5444096d6e")
 	)
 	(junction
 		(at 166.37 55.88)
@@ -3456,16 +3444,6 @@
 			(type default)
 		)
 		(uuid "010633da-333a-4f41-be89-178f9ffe63da")
-	)
-	(wire
-		(pts
-			(xy 105.41 179.07) (xy 105.41 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0121464f-0aec-4b2c-8c26-56535f122d8f")
 	)
 	(wire
 		(pts
@@ -3690,6 +3668,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 168.91) (xy 123.19 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b4df56-a86c-40ea-91df-0404749f45e5")
+	)
+	(wire
+		(pts
 			(xy 153.67 171.45) (xy 153.67 168.91)
 		)
 		(stroke
@@ -3768,6 +3756,17 @@
 		)
 		(uuid "19647328-4b5a-4c2e-a38b-4804f0860d8a")
 	)
+	(polyline
+		(pts
+			(xy 70.485 182.245) (xy 94.615 182.245)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "1b94c6e8-ed72-4c11-a92f-d78110e051e7")
+	)
 	(wire
 		(pts
 			(xy 161.29 153.67) (xy 160.02 154.94)
@@ -3840,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 168.91) (xy 123.19 171.45)
+			(xy 123.19 168.91) (xy 123.19 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4134,16 +4133,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 191.77) (xy 123.19 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ba172a0-9722-4241-9444-b37f239defd6")
-	)
-	(wire
-		(pts
 			(xy 127 63.5) (xy 127 64.77)
 		)
 		(stroke
@@ -4275,16 +4264,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 168.91) (xy 123.19 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59926a9e-9c81-4646-a029-fa44f8388ab5")
-	)
-	(wire
-		(pts
 			(xy 184.15 60.96) (xy 204.47 60.96)
 		)
 		(stroke
@@ -4305,13 +4284,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 127) (xy 140.97 129.54)
+			(xy 163.83 127) (xy 163.83 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5dcea866-1b91-4390-abb5-566b90cae880")
+	)
+	(wire
+		(pts
+			(xy 139.7 168.91) (xy 142.24 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5def5446-f243-4474-bdfd-05bcb2499cbb")
 	)
 	(wire
 		(pts
@@ -4463,6 +4452,16 @@
 		)
 		(uuid "782f78c9-bbb6-4de0-96d5-28b4c93f4a21")
 	)
+	(wire
+		(pts
+			(xy 123.19 184.15) (xy 123.19 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78924ac4-9e54-445d-bc47-e3af1fbd1d0d")
+	)
 	(bus
 		(pts
 			(xy 154.94 148.59) (xy 154.94 152.4)
@@ -4525,13 +4524,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 168.91) (xy 132.08 168.91)
+			(xy 105.41 196.85) (xy 105.41 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7eb7e0dd-1a50-4023-a1ba-b97e59c8ea04")
+		(uuid "7d76b912-f763-4a78-98d1-e7483a358912")
 	)
 	(wire
 		(pts
@@ -4625,7 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 168.91) (xy 153.67 168.91)
+			(xy 142.24 168.91) (xy 147.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4696,16 +4695,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 168.91) (xy 105.41 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95bbadb9-02ac-4424-9f51-2a1802ca9521")
-	)
-	(wire
-		(pts
 			(xy 290.83 77.47) (xy 285.75 77.47)
 		)
 		(stroke
@@ -4716,6 +4705,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 184.15) (xy 105.41 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9690784a-1148-4e35-b034-f1ee5067f25d")
+	)
+	(wire
+		(pts
 			(xy 170.18 158.75) (xy 170.18 201.93)
 		)
 		(stroke
@@ -4723,6 +4722,16 @@
 			(type default)
 		)
 		(uuid "96beef0c-8a2f-4c3b-ab10-c72e2d1311d5")
+	)
+	(wire
+		(pts
+			(xy 163.83 127) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973e7e28-352b-42ad-bf2a-8f8a37616832")
 	)
 	(wire
 		(pts
@@ -4846,7 +4855,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 129.54) (xy 180.34 129.54)
+			(xy 163.83 129.54) (xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4987,16 +4996,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 168.91) (xy 142.24 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09fac68-5ac4-473b-b610-d2d914e091e5")
-	)
-	(wire
-		(pts
 			(xy 26.67 115.57) (xy 48.26 115.57)
 		)
 		(stroke
@@ -5034,16 +5033,6 @@
 			(type default)
 		)
 		(uuid "b5ec2d13-368b-4d86-b3e7-fb86d8cb50d7")
-	)
-	(wire
-		(pts
-			(xy 140.97 127) (xy 163.83 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66dcfc3-215c-4488-ac2a-d8082b6cdac8")
 	)
 	(wire
 		(pts
@@ -5104,6 +5093,16 @@
 			(type default)
 		)
 		(uuid "bc1c0d3d-31ad-4f4a-9bb9-08420eb61f2d")
+	)
+	(wire
+		(pts
+			(xy 114.3 168.91) (xy 114.3 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8eeff8-48e5-4953-b1cb-01dce8ab7593")
 	)
 	(wire
 		(pts
@@ -5267,6 +5266,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 168.91) (xy 153.67 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e61c9c-5fdd-43ac-94af-040cb712c925")
+	)
+	(wire
+		(pts
 			(xy 105.41 201.93) (xy 153.67 201.93)
 		)
 		(stroke
@@ -5277,13 +5286,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 179.07) (xy 123.19 184.15)
+			(xy 105.41 168.91) (xy 114.3 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd4610d8-21d6-4feb-92e5-05ce1b3b49db")
+		(uuid "ccaacb3b-5bce-4c2d-a077-033b2c92f35a")
 	)
 	(wire
 		(pts
@@ -5438,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 191.77) (xy 105.41 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92752c6-0419-49e4-a1b6-b82dfda7debf")
-	)
-	(wire
-		(pts
 			(xy 285.75 64.77) (xy 285.75 68.58)
 		)
 		(stroke
@@ -5468,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 168.91) (xy 105.41 171.45)
+			(xy 105.41 168.91) (xy 105.41 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5909,6 +5908,19 @@
 			(type none)
 		)
 		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(rectangle
+		(start 94.615 174.625)
+		(end 137.16 188.595)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de209a73-474f-4260-9663-2cdc60fdcf29)
 	)
 	(rectangle
 		(start 328.295 174.625)
@@ -18482,9 +18494,9 @@
 	(text_box "Under/over voltage input protection:\nIf unused, tie ACUV to VAC and ACOV to PGND in order to apply the internal VAC operating window (VVAC_OP: 4.2-36V)"
 		(exclude_from_sim no)
 		(at 22.86 144.145 0)
-		(size 48.895 14.605)
+		(size 48.26 14.605)
 		(stroke
-			(width 0.508)
+			(width 0.7874)
 			(type solid)
 			(color 200 200 200 1)
 		)
@@ -18573,7 +18585,7 @@
 	)
 	(text_box "DESIGN NOTE - 3V3 STATUS LEDs\n\nORANGE LED:\nSM0805UOC has a typical luminous \nintensity of 80 mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.6V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.6)/56Ω = 13 mA\nP = 2.1V×21mA = 44 mW < 78 mW (max rating)\n\n\nGREEN LED:\nAP2012MGC has a typical luminous \nintensity of 60mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 75 mW (max rating)\n"
 		(exclude_from_sim no)
-		(at 23.495 160.655 0)
+		(at 22.86 160.655 0)
 		(size 48.26 45.085)
 		(stroke
 			(width 0.8)
@@ -19021,16 +19033,6 @@
 		)
 		(uuid "1b56c5e2-b335-4a36-bdfc-a432d1af2081")
 	)
-	(label "LED_STAT1"
-		(at 123.19 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e5ab188-b3ea-43fb-9b72-0850e43376de")
-	)
 	(label "+3V3"
 		(at 26.67 115.57 0)
 		(effects
@@ -19209,16 +19211,6 @@
 		)
 		(uuid "74c9f768-9b79-44b0-8f0c-c70b9e9b0da5")
 	)
-	(label "LED_STAT2"
-		(at 105.41 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "759ea401-4cc1-4139-8672-568f87562b6a")
-	)
 	(label "SW1"
 		(at 209.55 73.66 180)
 		(effects
@@ -19259,16 +19251,6 @@
 			(justify left bottom)
 		)
 		(uuid "80155d44-9cce-4840-8d5d-aaa9ac0e2bbc")
-	)
-	(label "STAT2"
-		(at 105.41 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "809db22f-445b-4ca9-944a-f57ee21c5f55")
 	)
 	(label "HIDRV1_M"
 		(at 204.47 60.96 180)
@@ -19469,6 +19451,16 @@
 		)
 		(uuid "aa761022-3732-443f-a92a-c7d0d7a07b4d")
 	)
+	(label "LED_STAT2"
+		(at 105.41 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab996247-bba5-4339-8b8f-4e3b59757f6d")
+	)
 	(label "LODRV2"
 		(at 26.67 77.47 0)
 		(effects
@@ -19509,6 +19501,16 @@
 			(justify left bottom)
 		)
 		(uuid "b877ccd0-e2bb-403f-9d56-ea90d5b9d521")
+	)
+	(label "STAT2"
+		(at 124.46 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c67236c3-9ed8-4bfe-83df-7d1e7fe26bc9")
 	)
 	(label "DRV_SUP"
 		(at 26.67 100.33 0)
@@ -19596,6 +19598,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1b5d814-c2fc-42ff-b2d5-2f684918aef3")
+	)
+	(label "LED_STAT1"
+		(at 123.19 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e961b08f-264c-4b83-98bf-34f1587cc597")
 	)
 	(label "VAC"
 		(at 173.99 124.46 0)
@@ -19693,6 +19705,32 @@
 		)
 		(uuid "059c39c0-c706-49dc-9436-e71f87888d59")
 	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 139.7 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "20bfc90e-9d22-409f-9d83-7ef14357346d")
+		(property "Netclass" "Power 3V3"
+			(at 139.7 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "{CHARGER_OPERATION}"
 		(shape bidirectional)
 		(at 144.78 160.02 180)
@@ -19705,32 +19743,6 @@
 			(justify right)
 		)
 		(uuid "2e25d6d0-591f-4418-9163-0fb42a29e34f")
-	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 101.6 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "66e43909-7107-4cc7-8ab9-54f757b5d2f4")
-		(property "Netclass" "Power 3V3"
-			(at 101.6 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "+VCHARGE_O"
 		(shape output)
@@ -19782,109 +19794,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0679fee7-08ae-42c7-b99c-0adc75ce1890")
-		(property "Reference" "R720"
-			(at 127 173.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56R 1% 0.1W"
-			(at 130.048 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.412 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
-			(at 123.19 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e764bcdd-deea-4547-bcf1-19baab890fdb")
-		)
-		(pin "1"
-			(uuid "5a1fd1e8-a6f8-4bdc-b9e6-5761aaf7999f")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "R720")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20074,6 +19983,116 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "Q701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:SM1206SRC")
+		(at 105.41 179.07 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "097756eb-f470-4799-b9a8-32c8525205d7")
+		(property "Reference" "LED702"
+			(at 109.22 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 109.22 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 255 0 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:KingBright_LED_0805"
+			(at 199.06 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/216/AP2012MGC-33968.pdf"
+			(at 299.06 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD GRN WATER CLEAR 0805"
+			(at 94.996 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AP2012MGC"
+			(at 114.046 179.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "604-AP2012MGC"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a240ac4a-01ec-4550-9404-964b483e282b")
+		)
+		(pin "1"
+			(uuid "7fd9cbfc-fe73-4c3a-9812-1b15e9e6a368")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "LED702")
 					(unit 1)
 				)
 			)
@@ -21956,115 +21975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:SM1206SRC")
-		(at 105.41 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c0fa910-a1e1-4f86-93ea-a3f1cbf8d972")
-		(property "Reference" "LED701"
-			(at 109.22 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 109.22 191.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 255 0 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 199.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/216/AP2012MGC-33968.pdf"
-			(at 299.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD GRN WATER CLEAR 0805"
-			(at 94.996 184.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AP2012MGC"
-			(at 114.046 188.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "604-AP2012MGC"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9c78726-3c65-4011-91ce-7c44731f895b")
-		)
-		(pin "1"
-			(uuid "4e1bccfe-f1bf-4b3f-b1b2-d4357bc6d421")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "LED701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 48.26 69.85 270)
 		(mirror x)
@@ -22619,6 +22529,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 105.41 193.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45165477-faf5-4f8c-ac9a-ab9cd37bc718")
+		(property "Reference" "R720"
+			(at 101.6 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56R 1% 0.1W"
+			(at 98.552 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.188 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69a665bf-97c6-4ad7-85c2-1595536cab74")
+		)
+		(pin "1"
+			(uuid "eeccc280-2f4c-413c-96c7-84a9672d44f3")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "R720")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 189.23 0)
 		(unit 1)
@@ -22680,6 +22693,109 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "#PWR0721")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 193.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46633865-f43a-44d2-9648-be3a7aaa9479")
+		(property "Reference" "R719"
+			(at 119.38 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56R 1% 0.1W"
+			(at 116.332 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.968 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad614e01-50b4-4d39-ac5b-c7ebe398a153")
+		)
+		(pin "1"
+			(uuid "25ce6b10-d125-47cf-b83a-e500c51d1b93")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "R719")
 					(unit 1)
 				)
 			)
@@ -23015,7 +23131,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 132.08 168.91 0)
+		(at 147.32 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23023,7 +23139,7 @@
 		(dnp no)
 		(uuid "51945e21-d842-48b4-888e-f23d21002128")
 		(property "Reference" "#PWR0718"
-			(at 132.08 172.72 0)
+			(at 147.32 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23032,7 +23148,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 131.826 165.1 0)
+			(at 147.066 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23040,7 +23156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 168.91 0)
+			(at 147.32 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23049,7 +23165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 168.91 0)
+			(at 147.32 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23058,7 +23174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 132.08 168.91 0)
+			(at 147.32 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23073,6 +23189,116 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "#PWR0718")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:SM1206SRC")
+		(at 123.19 179.07 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5510aca3-329b-4f59-8277-88d4fdea34ef")
+		(property "Reference" "LED701"
+			(at 127 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 127 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 153 0 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:BIVAR_LED_0805"
+			(at 216.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/50/SM0805UOC-3002082.pdf"
+			(at 316.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Ultra Orange 625 nm Water Clear"
+			(at 112.776 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SM0805UOC"
+			(at 131.826 179.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bivar"
+			(at 123.19 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "749-SM0805UOC"
+			(at 123.19 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 123.19 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42cf83bd-b24f-478e-a9d1-c9167837e3e7")
+		)
+		(pin "1"
+			(uuid "d7076e4b-53f2-4e9a-99a9-51a31b9fe5ba")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "LED701")
 					(unit 1)
 				)
 			)
@@ -23179,109 +23405,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R715")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5842e2d0-3084-411a-8dca-b8a660879d92")
-		(property "Reference" "R719"
-			(at 109.22 173.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56R 1% 0.1W"
-			(at 112.268 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 103.632 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e87bb106-9c62-4bc9-b709-96fb71843ea1")
-		)
-		(pin "1"
-			(uuid "9cb2c213-7565-48f7-96db-59e12f4a4c2b")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "R719")
 					(unit 1)
 				)
 			)
@@ -24619,6 +24742,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d580384-3aa8-4f34-aebf-77672923a429")
+		(property "Reference" "#PWR0722"
+			(at 114.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2782a5d1-b1ba-46da-a723-3fc7c4482abc")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR0722")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 294.64 55.88 90)
 		(mirror x)
@@ -24850,115 +25040,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "#FLG0701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Charge_Manager_SYM:SM1206SRC")
-		(at 123.19 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85b37dcb-ecc9-4b1a-b747-3ecf54ae9513")
-		(property "Reference" "LED702"
-			(at 127 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ORANGE"
-			(at 127 191.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 255 153 0 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 216.84 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/50/SM0805UOC-3002082.pdf"
-			(at 316.84 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD Ultra Orange 625 nm Water Clear"
-			(at 112.776 184.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SM0805UOC"
-			(at 131.826 188.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bivar"
-			(at 123.19 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "749-SM0805UOC"
-			(at 123.19 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 123.19 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe740a09-bf9a-4488-9296-6ebe9b72fe3b")
-		)
-		(pin "1"
-			(uuid "24b5c115-e667-4114-958a-09acbbe342aa")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "LED702")
 					(unit 1)
 				)
 			)
@@ -25768,7 +25849,7 @@
 		(at 182.88 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d7be8d-6688-40d8-b295-7390f4a8bf70")

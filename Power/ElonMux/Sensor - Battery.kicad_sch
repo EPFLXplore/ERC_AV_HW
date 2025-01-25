@@ -667,18 +667,6 @@
 		)
 	)
 	(junction
-		(at 133.35 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0297bb03-5ce8-4e6c-a147-81d091290b7e")
-	)
-	(junction
-		(at 121.92 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14c5612c-8404-4b32-acb6-f182a0a3121a")
-	)
-	(junction
 		(at 128.27 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -695,6 +683,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dd9f14f-4c89-4c72-a654-2f082b653de5")
+	)
+	(junction
+		(at 96.52 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e40033-078e-4768-8617-ed26370801b6")
+	)
+	(junction
+		(at 121.92 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e863f9-034f-49ee-b28c-a5569d69c248")
 	)
 	(no_connect
 		(at 182.88 96.52)
@@ -758,17 +758,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82) (xy 133.35 86.36)
+			(xy 96.52 74.93) (xy 133.35 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10a83829-88d0-424c-adff-6829f8c82813")
+		(uuid "0ca97773-ecae-4850-8aa9-de824d760554")
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 101.6 81.28)
+			(xy 95.25 81.28) (xy 96.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -848,16 +848,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 133.35 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc30721-a843-45c6-a2f4-9233fa5a618d")
-	)
-	(wire
-		(pts
 			(xy 176.53 91.44) (xy 194.31 91.44)
 		)
 		(stroke
@@ -878,13 +868,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 133.35 83.82)
+			(xy 96.52 81.28) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d13d072-d373-4b83-8e4f-c16d011b6134")
+		(uuid "65f8dd30-6337-413b-b060-f61dcbf5930d")
+	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681605a6-310b-4007-aca0-d50fe331ed89")
 	)
 	(wire
 		(pts
@@ -915,6 +915,26 @@
 			(type default)
 		)
 		(uuid "77c61d77-56bb-4921-a9e8-0d706c2338bf")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e1c0a1-7f64-43d2-b2c9-f3aa18a57831")
+	)
+	(wire
+		(pts
+			(xy 133.35 74.93) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f352f5f-65e2-4228-bf50-54f676968a0a")
 	)
 	(wire
 		(pts
@@ -965,6 +985,26 @@
 			(type default)
 		)
 		(uuid "d3feb5ee-8482-4274-914e-2587a8f60c81")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e680f2-52d2-491c-bf97-58fed2a048c6")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca86312-7528-4cc9-a01b-a60330e4ffea")
 	)
 	(wire
 		(pts
@@ -1048,6 +1088,28 @@
 		)
 		(uuid "e0b27b31-8f68-484d-af85-f45d1310e061")
 	)
+	(label "+VBAT"
+		(at 105.41 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "25f31aad-4e76-4e9c-a602-0e31f6e41626")
+		(property "Netclass" "Power Bat"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(label "SPI_MISO"
 		(at 182.88 88.9 0)
 		(effects
@@ -1126,7 +1188,7 @@
 		)
 	)
 	(label "shunt_bat+"
-		(at 121.92 81.28 0)
+		(at 123.19 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,7 +1199,7 @@
 		)
 		(uuid "fa8701d4-1884-4952-b535-3a8ae3e2101c")
 		(property "Netclass" "Power Bat"
-			(at 121.92 81.28 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

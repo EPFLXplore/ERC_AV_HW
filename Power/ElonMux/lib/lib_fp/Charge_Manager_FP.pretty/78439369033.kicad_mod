@@ -221,14 +221,14 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0 -3.2 90)
-		(size 2.5 9)
+		(at 0 -3.325 90)
+		(size 2.2 8.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9fe1a1ec-07ee-4a4f-b7cb-2370faea8ce3")
 	)
 	(pad "2" smd rect
-		(at 0 3.2 90)
-		(size 2.5 9)
+		(at 0 3.325 90)
+		(size 2.2 8.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6e284fec-0e35-4f29-b149-8e3960df7584")
 	)

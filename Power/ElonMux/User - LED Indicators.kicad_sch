@@ -6765,7 +6765,7 @@
 		)
 		(uuid "2e12ff73-d0d9-4ab8-b35a-276da005d063")
 	)
-	(text_box "DESIGN NOTE - 3V3 STATUS LED\n599-0240-007F  has a typical luminous \nintensity of 126mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56hm = 21 mA\nMax. If = (3.3V - 2.5)/56hm = 14 mA\nP = 2.1V×21mA = 44 mW < 72 mW (max rating)\n\nDirect activation through ESP32-S3's GPIO should be fine since we only need 21mA, but hey, why do simple when we can overkill stuff."
+	(text_box "DESIGN NOTE - 3V3 STATUS LED\n599-0240-007F  has a typical luminous \nintensity of 126mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 72 mW (max rating)\n\nDirect activation through ESP32-S3's GPIO should be fine since we only need 21mA, but hey, why do simple when we can overkill stuff."
 		(exclude_from_sim no)
 		(at 120.015 60.325 0)
 		(size 42.545 26.67)
@@ -7526,7 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_599-1206_Apr2018.pdf"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3122976.pdf?_gl=1*1n6ydro*_gcl_au*MjEzNTk3ODk2OC4xNzM3NjcyMzA4"
 			(at 368.91 74.93 0)
 			(effects
 				(font
