@@ -714,7 +714,7 @@
       "/Project Architecture/Power - Power Path/+VBAT_O": "rgb(224, 21, 255)",
       "/Project Architecture/Power - Power Path/+VSUPPLY_O": "rgb(114, 255, 0)",
       "/Project Architecture/Power - Power Path/VDD": "rgb(132, 132, 0)",
-      "GND": "rgb(74, 90, 126)"
+      "GND": "rgb(64, 64, 64)"
     },
     "netclass_assignments": {
       "+3V3": "Power 3V3",
