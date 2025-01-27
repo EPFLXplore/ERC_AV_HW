@@ -18290,6 +18290,28 @@
 		)
 		(uuid "188fbc6a-f03a-480c-a79e-6c2e2cd12deb")
 	)
+	(text_box "I^{2}C address:\n0X6A"
+		(exclude_from_sim no)
+		(at 95.885 152.4 0)
+		(size 20.32 9.525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "1aa9079d-317e-4bf4-bc28-ac9fd45d2a8f")
+	)
 	(text_box "GND"
 		(exclude_from_sim no)
 		(at 24.13 116.84 0)
