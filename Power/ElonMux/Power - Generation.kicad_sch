@@ -20261,7 +20261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u X5R 50V"
+		(property "Value" "22u X5R 10V"
 			(at 194.818 76.2 0)
 			(effects
 				(font
@@ -20354,7 +20354,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fe8e295-139a-4cfb-85fd-0fe8679fd85b")
@@ -20962,7 +20962,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5b56a8a4-b44e-4aab-830e-c553a420fa19")
@@ -21482,7 +21482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u X5R 50V"
+		(property "Value" "22u X5R 10V"
 			(at 206.248 76.2 0)
 			(effects
 				(font
@@ -21812,7 +21812,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d39e59f-4034-433d-8ddb-91e5b631ed35")
@@ -21897,7 +21897,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9fc1a285-cf4c-4e96-a44b-dbcb3c63bc48")
@@ -21919,7 +21919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Charge_Manager_FP:TestPoint_Pad_D0.5mm_Front"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 119.38 161.29 0)
 			(effects
 				(font
@@ -22155,7 +22155,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9b8e634-6774-45a5-bb7e-b5fb48f75e32")

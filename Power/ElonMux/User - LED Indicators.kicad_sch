@@ -6743,10 +6743,10 @@
 			"euUwbxAAARAAARAAARAAARAAARAAARAAARAAARAAAc8E/g8XYE6YsSxp0gAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "Pull-down to avoid unwanted led activation due to noise when GPIO is floating."
+	(text_box "Pull-down to avoid unwanted led activation due to noise when GPIO is floating.\n\nPlace the Pull down resistor before the gate resistor to avoid forming a voltage divider."
 		(exclude_from_sim no)
-		(at 118.745 118.11 0)
-		(size 20.955 10.795)
+		(at 111.76 118.11 0)
+		(size 27.94 16.51)
 		(stroke
 			(width 0.8)
 			(type solid)

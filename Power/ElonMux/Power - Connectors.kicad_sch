@@ -14351,6 +14351,114 @@
 	)
 	(symbol
 		(lib_id "Charge_Manager_SYM:SMBJ30CA")
+		(at 171.45 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d49371b-b703-4237-bc9e-815d5fc0ca61")
+		(property "Reference" "D502"
+			(at 175.26 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ33A"
+			(at 175.26 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DIOM5436X244N"
+			(at 77.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
+			(at -22.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ33A"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITTELFUSE"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "78-SMBJ33A"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19708ace-1c04-4371-a441-76c1a56da8e0")
+		)
+		(pin "1"
+			(uuid "7f4f177a-c156-410c-8abf-9735a5c376f2")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
+					(reference "D502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:SMBJ30CA")
 		(at 257.81 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -14637,114 +14745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:SMBJ30CA")
-		(at 257.81 64.77 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54306635-047e-4198-9012-d14ac67d4ef6")
-		(property "Reference" "D502"
-			(at 254 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33CA"
-			(at 254 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM5436X244N"
-			(at 351.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
-			(at 451.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SMBJ33CA"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LITTELFUSE"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "576-SMBJ33CA"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26a9eb55-489c-478e-93f5-d9223b6f6b10")
-		)
-		(pin "1"
-			(uuid "454711b0-16bf-41d9-b182-82162679e1d0")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "D502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 274.32 180.34 0)
 		(mirror y)
@@ -14807,6 +14807,114 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
 					(reference "#PWR0505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:SMBJ30CA")
+		(at 257.81 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6667a739-b822-4064-8c1a-d498d1b8554f")
+		(property "Reference" "D501"
+			(at 254 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ33A"
+			(at 254 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DIOM5436X244N"
+			(at 351.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
+			(at 451.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ33A"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITTELFUSE"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "78-SMBJ33A"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ed45eb2-1d57-41fa-a26a-c596f8bbeac7")
+		)
+		(pin "1"
+			(uuid "0f766ddf-6ccd-492b-9c3a-106fa4a9d6d3")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -14987,114 +15095,6 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
 					(reference "#PWR0503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Charge_Manager_SYM:SMBJ30CA")
-		(at 171.45 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac026d27-0d71-4a8d-8087-95e8e8e84234")
-		(property "Reference" "D501"
-			(at 175.26 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33CA"
-			(at 175.26 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM5436X244N"
-			(at 77.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
-			(at -22.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SMBJ33CA"
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LITTELFUSE"
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "576-SMBJ33CA"
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09f56cdc-8571-4af2-a711-1f7cf0502ee9")
-		)
-		(pin "1"
-			(uuid "00350028-efaa-4274-8ac5-4d7802f920c4")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "D501")
 					(unit 1)
 				)
 			)

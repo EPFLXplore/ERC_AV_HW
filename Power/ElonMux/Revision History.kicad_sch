@@ -142,7 +142,7 @@
 		)
 		(uuid "20a0a094-ac98-46df-bdac-21d5721f7697")
 	)
-	(text_box "DD.MM.YYYY - Xplore Final Review\nVariant: V1.0 Checked -> V1.0 Released"
+	(text_box "10.02.2025 - Xplore Final Review\nVariant: V1.0 Checked -> V1.0 Released"
 		(exclude_from_sim no)
 		(at 152.4 31.75 0)
 		(size 57.15 7.62)
@@ -249,7 +249,7 @@
 		)
 		(uuid "cd63b456-8f62-4290-9191-6ad427c40f65")
 	)
-	(text_box "DD.MM.YYYY - xxx Revision\nVariant: xxx"
+	(text_box "DD.MM.YYYY - After test revision\nVariant: V1.0 -> V1.1"
 		(exclude_from_sim no)
 		(at 218.44 31.75 0)
 		(size 57.15 7.62)
