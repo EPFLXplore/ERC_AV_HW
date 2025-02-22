@@ -7,16 +7,43 @@
 
 # 2oz copper
 (rule "Minimum Trace Width and Spacing (outer layer)"
-(constraint track_width (min 0.2mm))
+(constraint track_width (min 0.16mm))
 (constraint clearance (min 0.2mm))
 (layer outer)
-(condition "A.Type == 'track'"))
+#(condition "A.Type == 'track'"))
+(condition "A.Type == 'track' && !(A.NetClass == 'Other High Voltage' || A.NetClass == 'Rounded Gates' || A.NetClass == 'Power Bat' || A.NetClass == 'Power Charge' || A.NetClass == 'Power Out' || A.NetClass == 'Power Supply')"))
 
 (rule "Minimum Trace Width and Spacing (innner layer)"
-(constraint track_width (min 0.2mm))
+(constraint track_width (min 0.16mm))
 (constraint clearance (min 0.2mm))
 (layer inner)
 (condition "A.Type == 'track'"))
+
+# ----------------------------------- High Voltage to GND Clearance ---------------------
+
+# (rule "High Voltage to GND Clearance"
+#     (constraint clearance (min 0.2mm))
+# 	(layer outer)
+#     (condition "(A.NetClass == 'Other High Voltage' || A.NetClass == 'Power Bat' || A.NetClass == 'Power Charge' || A.NetClass == 'Power Out' || A.NetClass == 'Power Supply') && B.NetClass == 'GND'")
+#)
+# 
+# (rule "High Voltage to GND Clearance (Reversed)"
+#     (constraint clearance (min 0.2mm))
+# 	(layer outer)
+#     (condition "(B.NetClass == 'Other High Voltage' || B.NetClass == 'Power Bat' || B.NetClass == 'Power Charge' || B.NetClass == 'Power Out' || B.NetClass == 'Power Supply') && A.NetClass == 'GND'")
+# )
+
+(rule "High Voltage to GND Clearance"
+     (constraint clearance (min 0.6mm))
+ 	(layer outer)
+     (condition "(A.NetClass == 'Other High Voltage' || A.NetClass == 'Rounded Gates' || A.NetClass == 'Power Bat' || A.NetClass == 'Power Charge' || A.NetClass == 'Power Out' || A.NetClass == 'Power Supply') && B.NetClass == 'GND'")
+)
+ 
+(rule "High Voltage to GND Clearance (Reversed)"
+     (constraint clearance (min 0.6mm))
+ 	(layer outer)
+     (condition "(B.NetClass == 'Other High Voltage' || A.NetClass == 'Rounded Gates' || B.NetClass == 'Power Bat' || B.NetClass == 'Power Charge' || B.NetClass == 'Power Out' || B.NetClass == 'Power Supply') && A.NetClass == 'GND'")
+)
 
 # ------------------------------------------------------------------------------------------------------
 

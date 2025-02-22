@@ -1,12 +1,14 @@
 <p align="center" width="100%">
-  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/PuffMux.svg">
-  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/PuffMux.svg">
-  <img alt="ElonMux logo" width="33%" src="./Logos/PuffMux.svg">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Logos/ElonMuxLight.png">
+    <source media="(prefers-color-scheme: light)" srcset="./Logos/ElonMuxDark.png">
+    <img alt="ElonMux logo" width="33%" src="./Logos/ElonMuxDark.png">
+  </picture>
 </p>
 
 <h1 align="center">ElonMux</h1>
 
-ElonMux was designed for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
+ElonMux was designed by Théo Heng for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
 The system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible.
 
 <p align="center" width="100%">
@@ -17,16 +19,19 @@ The system will always try to use the external power supply as the primary power
 
 ## SPECIFICATIONS
 
-| Parameter | Charge Manager V1.0 | 
+| Parameter | ElonMux V1.0 | 
 | --- | --- |
-| Voltage Input | 10-36V |
+| Voltage Input | 10-33V |
 | Continuous Supply Current | 30A |
 | Continuous Discharge Current | 30A |
 | Continuous Charge Current | 7A |
 | Mass | TBD |
 | Communication | USB 2.0 / JTAG |
-| MCU | ESP32-S3FN() |
-| Dimensions | TBD |
+| MCU | ESP32-S3FN8 |
+| Dimensions | 100x70x13mm |
+| Designer   | Théo Heng        |
+| Date       | Oct. - Nov. 2024 |
+| Project    | ERC            |
 
 ***
 
@@ -34,27 +39,30 @@ The system will always try to use the external power supply as the primary power
 
 ```
 ElonMux
+├── Computations        # Computation sheets an simulation performed
+├── Datasheets          # Datasheet of major components
 ├── Images              # Pictures and screenshots
+├── lib
+    |── 3d_models       # Component 3D models
+    |── lib_fp          # Footprint libraries
+    └── lib_sym         # Symbol libraries
 ├── Logos               # Xplore and ElonMux logos
-├── Dtasheets           # Datasheet of major components
 ├── Manufacturing & BOMs
 │   |── Assembly        # Position files, BOM, assembly document
 |   |   └── ibom        # HTML BOM
 |   └── Fabrication     # Fabrication document and testpoints positions
 |       └── Gerbers     # Gerbers
 ├── Schematic           # PDF of schematic
-├── Templates           # Title block templates
-└── lib
-    |── 3d_models       # Component 3D models
-    |── lib_fp          # Footprint libraries
-    └── lib_sym         # Symbol libraries
+├── STEP                # Step file of the board
+└── Templates           # Title block templates
+
 ```
 
 ***
 
 ## FIRMWARE
 
-TBD
+TBI
 
 ***
 
@@ -67,5 +75,9 @@ Schematic template & project structure is hugely inspired by the work of Vincent
 ## PHOTOS
 
 <p align="center" width="100%">
-    <img src="./Images/ElonMuxFront.png">
+    <img src="./Images/ElonMuxFront3.png">
+</p>
+
+<p align="center" width="100%">
+    <img src="./Images/ElonMuxBack3.png">
 </p>
